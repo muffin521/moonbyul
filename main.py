@@ -26,6 +26,14 @@
 
 #&AleXa Command (me)
 
+#todo GIT COMMANDS
+    #*Link: "https://www.youtube.com/watch?v=BPvg9bndP1U&start=34s"
+    #=git commit -am "message for commit"
+    #=git push heroku master
+
+    #//optional:
+    #=heroku logs -a moonbyul
+
 
 
 import discord
@@ -34,7 +42,7 @@ import os
 from discord.ext import commands
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '=')
+client = commands.Bot(command_prefix= '--')
 #takes out help command
 client.remove_command('help')
 
