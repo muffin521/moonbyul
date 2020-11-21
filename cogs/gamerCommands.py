@@ -63,7 +63,6 @@ class gamerPings(commands.Cog):
             "https://www.youtube.com/watch?v=05sJVEwZuZ4",
             "https://www.youtube.com/watch?v=2EKKMof_Ywg"]
 
-# (ctx.server.id == luminary and ctx.channel.id == kbotcom) or 
 
     @commands.command()
     async def dream(self, ctx):
