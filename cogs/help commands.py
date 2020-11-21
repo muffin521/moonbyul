@@ -16,7 +16,7 @@ class hcommands(commands.Cog):
 
 
     @commands.command()
-    async def pages(self, ctx):
+    async def help(self, ctx):
         pages = 2
         cur_page = 1
         #message = await ctx.send(f"Page {cur_page}/{pages}:\n{contents[cur_page-1]}")
