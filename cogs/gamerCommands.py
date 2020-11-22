@@ -125,7 +125,7 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def muffin(self, ctx):
-        await ctx.send(f'I :heart: you <@488423352206229505>')
+        await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
 def setup(client):
     client.add_cog(gamerPings(client))
