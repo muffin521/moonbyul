@@ -43,7 +43,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/miserableslipperygartersnake",
             "https://gfycat.com/aridpitifulchipmunk",
             "https://gfycat.com/zealousunsightlyhumpbackwhale",
-            "https://gfycat.com/vaguefreshflickertailsquirrel"]
+            "https://gfycat.com/vaguefreshflickertailsquirrel",
+            "https://tenor.com/view/mark-mark-lee-nct-cold-eating-gif-14683790"]
 
         self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
@@ -62,7 +63,6 @@ class gamerPings(commands.Cog):
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
             "https://www.youtube.com/watch?v=05sJVEwZuZ4",
             "https://www.youtube.com/watch?v=2EKKMof_Ywg"]
-
 
     @commands.command()
     async def dream(self, ctx):
@@ -122,6 +122,10 @@ class gamerPings(commands.Cog):
     @commands.command()
     async def ren(self, ctx):
         await ctx.send(f'I love you <@749085760354910280>')
+
+    @commands.command()
+    async def muffin(self, ctx):
+        await ctx.send(f'I :heart: you <@488423352206229505>')
 
 def setup(client):
     client.add_cog(gamerPings(client))
