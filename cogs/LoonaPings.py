@@ -369,7 +369,7 @@ class LoonaPings(commands.Cog):
     async def gowon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
+                await ctx.send(f'<@{rith}>, <@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
                 await ctx.send(random.choice(self.gowon_gif))
                 await ctx.message.delete()
             else:
