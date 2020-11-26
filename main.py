@@ -50,9 +50,9 @@ client.remove_command('help')
 #did it start?
 @client.event
 async def on_ready():
-    #await client.change_presence(status=discord.Status.online, activity=discord.Game('=help'))
-    activity = discord.Activity(name='Queendom', type=discord.ActivityType.watching)
-    await client.change_presence(activity=activity)
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('=help'))
+    # activity = discord.Activity(name='Queendom', type=discord.ActivityType.watching)
+    # await client.change_presence(activity=activity)
     print('Existance is pain')
 
 # This loads the cogs.

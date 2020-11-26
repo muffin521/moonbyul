@@ -58,7 +58,7 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.add_field(name='BTS [1]', value=f'''```\nV\nSuga\nJ-hope\nJungkook```''')
         embed4.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM\n ```''')
-        # embed4.add_field(name='Twice [3]', value=f'''```\nDahyun\nChaeyoung\nJihyo```''')
+        embed4.add_field(name='aespa', value=f'''```\nGiselle\nWinter\n \n ```''', inline = False)
         # embed4.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan\nLee Know```''')
         # embed4.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin\nSeungmin```''')
         # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')

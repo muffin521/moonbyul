@@ -13,6 +13,7 @@ kbotcom = 764610881513324574
 #//people
 k8 = 573974040679809044
 mae = 492769416610840586
+rith = 346724857725059075
 
 class aespaPings(commands.Cog):
 
@@ -28,20 +29,22 @@ class aespaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/781338671714271282/image5.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781338672481173514/image6.gif"]
 
-        #6
+        #9
         self.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
             "https://tenor.com/view/aespa-%EC%97%90%EC%8A%A4%ED%8C%8C-%EC%9C%88%ED%84%B0-winter-gif-19207490",
             "https://tenor.com/view/archive_aespa-aespa-winter-aespa-winter-minjeong-gif-19138516",
             "https://tenor.com/view/winter-aespa-aespa-gif-19226090",
-            "https://tenor.com/view/winter-aespa-aespa-gif-19323697"]
+            "https://tenor.com/view/winter-aespa-aespa-gif-19323697",
+            "https://cdn.discordapp.com/attachments/771238115255255060/781388912189898752/image0.gif",
+            "https://cdn.discordapp.com/attachments/771238115255255060/781388912873832473/image1.gif",
+            "https://cdn.discordapp.com/attachments/771238115255255060/781388914480513064/image2.gif"]
 
-    #giselle command for k8
     @commands.command()
     async def giselle(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Giselle :crescent_moon: ')
+                await ctx.send(f'<@{k8}>, <@{rith}> <@!{ctx.author.id}> is talking about Giselle :crescent_moon: ')
                 await ctx.send(random.choice(self.giselle_gif))
                 await ctx.message.delete()
             else:
@@ -52,12 +55,11 @@ class aespaPings(commands.Cog):
             await ctx.send(random.choice(self.giselle_gif))
             await ctx.message.delete()
     
-    #winter command for k8 and mae
     @commands.command()
     async def winter(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@{mae}>, <@!{ctx.author.id}> is talking about Winter :star: ')
+                await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Winter :star: ')
                 await ctx.send(random.choice(self.winter_gif))
                 await ctx.message.delete()
             else:
