@@ -50,7 +50,8 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/yum-delicious-cheng-xiao-yummy-gif-12031986",
             "https://gfycat.com/flamboyantunlinedisabellinewheatear",
             "https://gfycat.com/limpingunrulygrasshopper",
-            "https://gfycat.com/sentimentalmadeupgrayfox"]
+            "https://gfycat.com/sentimentalmadeupgrayfox",
+            "https://cdn.discordapp.com/attachments/781312260118806529/781378241817608192/image3.gif"]
 
         self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",

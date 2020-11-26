@@ -15,28 +15,76 @@ class gamerPings(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-        self.mina_gif = []
+        #5
+        self.mina_gif = ["https://tenor.com/NUon.gif",
+            "https://tenor.com/4vrC.gif",
+            "https://tenor.com/HydV.gif",
+            "https://tenor.com/brQ1g.gif",
+            "https://media.giphy.com/media/qzuGfHYC152dG/giphy.gif"]
 
+        #7
         self.sana_gif = ["https://tenor.com/view/sana-twice-kitty-dance-kpop-gif-17314571",
-        ""]
+            "https://media.giphy.com/media/xUySTXXuWvIVDggisg/giphy.gif",
+            "https://tenor.com/view/sana-sana-twice-twice-sana-minatozaki-sana-gif-18564320",
+            "https://tenor.com/view/sana-twice-heart-minatozaki-jpop-gif-10758695",
+            "https://tenor.com/view/twice-shyshyshy-sana-dance-cute-gif-9784878",
+            "https://tenor.com/view/sanapinkhair-sana-twice-sana-gif-18677676",
+            "https://tenor.com/view/samichae-sana-twice-serious-gif-15019560"]
 
-        self.momo_gif = []
+        #5
+        self.momo_gif = ["https://tenor.com/UZ2D.gif",
+            "https://tenor.com/boSu5.gif",
+            "https://tenor.com/brfIg.gif",
+            "https://media.giphy.com/media/LOQdYUQeQ1EXUP9loM/giphy.gif",
+            "https://media.giphy.com/media/emLsFpAymOfaDgQ7qm/giphy.gif"]
 
-        self.jeongyeon_gif = []
+        #5
+        self.jeongyeon_gif = ["https://tenor.com/bgvYS.gif",
+            "https://tenor.com/bm9Bh.gif",
+            "https://media.giphy.com/media/QxYGmXN0vs2W6oHAO2/giphy.gif",
+            "https://media.giphy.com/media/Pm3E3SsR3TSeT0eI6p/giphy.gif",
+            "https://media.giphy.com/media/jOyCT02EvfnMc7trkh/giphy.gif"]
         
-        self.tzuyu_gif = []
+        #5
+        self.tzuyu_gif = ["https://media.giphy.com/media/sKdL5e5zah0gE/giphy.gif",
+            "https://media.giphy.com/media/jmphxHznc7wBmsuaW1/giphy.gif",
+            "https://tenor.com/5MSV.gif",
+            "https://tenor.com/Fguv.gif",
+            "https://tenor.com/bsSaJ.gif"]
 
-        self.nayeon_gif = []
+        #6
+        self.nayeon_gif = ["https://tenor.com/9b5w.gif",
+            "https://tenor.com/YChI.gif",
+            "https://tenor.com/bs6Qy.gif",
+            "https://media.giphy.com/media/gg3XU0ggfN7B0tlHnw/giphy.gif",
+            "https://media.giphy.com/media/URvyQpZe0uoCT6jHo8/giphy.gif",
+            "https://media.giphy.com/media/h7dxG65XwW00aBVkBc/giphy.gif"]
 
-        self.dahyun_gif = []
+        #5
+        self.dahyun_gif = ["https://tenor.com/zEfV.gif",
+            "https://tenor.com/ZKRA.gif",
+            "https://tenor.com/brQ06.gif",
+            "https://media.giphy.com/media/gLcbZ01uqIOZIsBWlC/giphy.gif",
+            "https://tenor.com/bd1b8.gif"]
 
-        self.jihyo_gif = []
+        #5
+        self.jihyo_gif = ["https://media.giphy.com/media/Ph6A5WjBAI3981PAsf/giphy.gif",
+            "https://tenor.com/bnZ6r.gif",
+            "https://tenor.com/bbKLS.gif",
+            "https://tenor.com/brGhA.gif",
+            "https://tenor.com/brT8L.gif"]
 
-        self.chaeyoung_gif = ["https://tenor.com/view/chaeyoung-twice-kpop-jyp-jypnation-gif-14436666"]
+        #6
+        self.chaeyoung_gif = ["https://tenor.com/view/chaeyoung-twice-kpop-jyp-jypnation-gif-14436666",
+            "https://media.giphy.com/media/xUySTt5f5AmRUBgdUI/giphy.gif",
+            "https://media.giphy.com/media/lptOHczNAFD1G79Ofq/giphy.gif",
+            "https://media.giphy.com/media/Qy2WthVCTLkeT1gZLS/giphy.gif",
+            "https://tenor.com/XiHw.gif",
+            "https://tenor.com/bn9Lf.gif"]
 
 
     @commands.command()
-    async def mina(self,ctx):
+    async def mina(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Mina :heart:')
@@ -51,7 +99,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
     
     @commands.command()
-    async def sana(self,ctx):
+    async def sana(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Sana :heart:')
@@ -66,7 +114,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def momo(self,ctx):
+    async def momo(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Momo :heart:')
@@ -77,11 +125,11 @@ class gamerPings(commands.Cog):
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Momo :heart:')
-            await ctx.send(random.choice(self.momo))
+            await ctx.send(random.choice(self.momo_gif))
             await ctx.message.delete()
     
     @commands.command()
-    async def jeongyeon(self,ctx):
+    async def jeongyeon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongyeon :heart:')
@@ -96,7 +144,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def tzuyu(self,ctx):
+    async def tzuyu(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Tzuyu :heart:')
@@ -111,7 +159,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def nayeon(self,ctx):
+    async def nayeon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Nayeon :heart:')
@@ -126,7 +174,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def dahyun(self,ctx):
+    async def dahyun(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Dahyun :heart:')
@@ -141,7 +189,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def jihyo(self,ctx):
+    async def jihyo(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jihyo :heart:')
@@ -156,7 +204,7 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def chaeyoung(self,ctx):
+    async def chaeyoung(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyoung :heart:')
