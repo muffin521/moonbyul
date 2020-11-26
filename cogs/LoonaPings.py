@@ -17,6 +17,7 @@ k8 = 573974040679809044
 stanley = 727312020717830264
 rith = 346724857725059075
 ple = 416903886968979466
+masa = 725138411823956079
 
 
 class LoonaPings(commands.Cog):
@@ -369,7 +370,7 @@ class LoonaPings(commands.Cog):
     async def gowon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{rith}>, <@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
+                await ctx.send(f'<@{rith}>, <@{masa}>, <@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
                 await ctx.send(random.choice(self.gowon_gif))
                 await ctx.message.delete()
             else:
