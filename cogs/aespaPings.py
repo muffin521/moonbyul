@@ -40,6 +40,10 @@ class aespaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/781388912873832473/image1.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781388914480513064/image2.gif"]
 
+        #2
+        self.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
+        "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif"]
+
     @commands.command()
     async def giselle(self, ctx):
         if ctx.guild.id == luminary:
@@ -70,6 +74,20 @@ class aespaPings(commands.Cog):
             await ctx.send(random.choice(self.winter_gif))
             await ctx.message.delete()
 
+    @commands.command()
+    async def ningning(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Ningning :star: ')
+                await ctx.send(random.choice(self.ningning_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Ningning :star:')
+            await ctx.send(random.choice(self.ningning_gif))
+            await ctx.message.delete()
 
 
 
