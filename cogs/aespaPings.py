@@ -27,8 +27,13 @@ class aespaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/781338671714271282/image5.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781338672481173514/image6.gif"]
 
-        #
-        self.winter_gif = []
+        #6
+        self.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
+            "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
+            "https://tenor.com/view/aespa-%EC%97%90%EC%8A%A4%ED%8C%8C-%EC%9C%88%ED%84%B0-winter-gif-19207490",
+            "https://tenor.com/view/archive_aespa-aespa-winter-aespa-winter-minjeong-gif-19138516",
+            "https://tenor.com/view/winter-aespa-aespa-gif-19226090",
+            "https://tenor.com/view/winter-aespa-aespa-gif-19323697"]
 
     #giselle command for k8
     @commands.command()
