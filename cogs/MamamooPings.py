@@ -17,6 +17,7 @@ stanley = 727312020717830264
 rith = 346724857725059075
 masa = 725138411823956079
 mae = 492769416610840586
+agus = 683791381667250208
 
 class MamamooPings(commands.Cog):
 
@@ -161,12 +162,12 @@ class MamamooPings(commands.Cog):
             await ctx.send(random.choice(self.moonbyul_gif))
             await ctx.message.delete()
 
-    #wheein command for me and stanley and rith and masa
+    #wheein command for me and stanley and rith and masa and agus
     @commands.command()
     async def wheein(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@!{ctx.author.id}> is talking about Wheein :white_heart:')
+                await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}> <@!{ctx.author.id}> is talking about Wheein :white_heart:')
                 await ctx.send(random.choice(self.wheein_gif))
                 await ctx.message.delete()
             else:

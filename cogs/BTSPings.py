@@ -12,6 +12,7 @@ kbotcom = 764610881513324574
 
 #//people
 lulu = 721653307998994453
+princessuwu = 716841614185857086
 
 class BTSPings(commands.Cog):
 
@@ -95,12 +96,11 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781374230364160030/image6.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374230952411136/image7.gif"]
 
-    #v command for lulu
     @commands.command()
     async def v(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about V :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about V :heart:')
                 await ctx.send(random.choice(self.v_gif))
                 await ctx.message.delete()
             else:
@@ -111,12 +111,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.v_gif))
             await ctx.message.delete()
 
-    #suga command for lulu
     @commands.command()
     async def suga(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about Suga :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Suga :heart:')
                 await ctx.send(random.choice(self.suga_gif))
                 await ctx.message.delete()
             else:
@@ -127,12 +126,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.suga_gif))
             await ctx.message.delete()
 
-    #j-hope command for lulu
     @commands.command(aliases = ['j-hope'])
     async def jhope(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about J-Hope :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about J-Hope :heart:')
                 await ctx.send(random.choice(self.jhope_gif))
                 await ctx.message.delete()
             else:
@@ -143,12 +141,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.jhope_gif))
             await ctx.message.delete()
 
-    #jungkook command for lulu
     @commands.command()
     async def jungkook(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
                 await ctx.send(random.choice(self.jungkook_gif))
                 await ctx.message.delete()
             else:
@@ -159,12 +156,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.jungkook_gif))
             await ctx.message.delete()
 
-    #jin command for lulu
     @commands.command()
     async def jin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about Jin :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jin :heart:')
                 await ctx.send(random.choice(self.jin_gif))
                 await ctx.message.delete()
             else:
@@ -175,12 +171,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.jin_gif))
             await ctx.message.delete()
 
-    #jimin command for lulu
     @commands.command()
     async def jimin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about Jimin :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jimin :heart:')
                 await ctx.send(random.choice(self.jimin_gif))
                 await ctx.message.delete()
             else:
@@ -191,12 +186,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.jimin_gif))
             await ctx.message.delete()
 
-    #rm command for lulu
     @commands.command(aliases = ['namjoon'])
     async def rm(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@!{ctx.author.id}> is talking about RM :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about RM :heart:')
                 await ctx.send(random.choice(self.rm_gif))
                 await ctx.message.delete()
             else:

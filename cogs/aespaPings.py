@@ -12,6 +12,7 @@ kbotcom = 764610881513324574
 
 #//people
 k8 = 573974040679809044
+mae = 492769416610840586
 
 class aespaPings(commands.Cog):
 
@@ -51,12 +52,12 @@ class aespaPings(commands.Cog):
             await ctx.send(random.choice(self.giselle_gif))
             await ctx.message.delete()
     
-    #winter command for k8
+    #winter command for k8 and mae
     @commands.command()
     async def winter(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Winter :star: ')
+                await ctx.send(f'<@{k8}>, <@{mae}>, <@!{ctx.author.id}> is talking about Winter :star: ')
                 await ctx.send(random.choice(self.winter_gif))
                 await ctx.message.delete()
             else:

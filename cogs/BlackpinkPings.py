@@ -14,6 +14,7 @@ kbotcom = 764610881513324574
 muffin = 488423352206229505
 gareth = 389897179701182465
 jon = 109914198544240640
+princessuwu = 716841614185857086
 
 class BlackpinkPings(commands.Cog):
 
@@ -78,12 +79,11 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jisoo-sexy-blackpink-kpop-gif-15419500",
             "https://tenor.com/view/jisoo-weekly-idol-blackpink-lisa-rose-gif-8481189"]
 
-    #jennie command for me & gareth & jon 
     @commands.command(aliases=['jendeukkie'])
     async def jennie(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{gareth}>, <@{jon}>, <@!{ctx.author.id}> is talking about Jennie :dumpling:')
+                await ctx.send(f'<@{muffin}>, <@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jennie :dumpling:')
                 await ctx.send(random.choice(self.jennie_gif))
                 await ctx.message.delete()
             else:
@@ -94,12 +94,11 @@ class BlackpinkPings(commands.Cog):
             await ctx.send(random.choice(self.jennie_gif))
             await ctx.message.delete()
 
-    #rose command for gareth & jon
     @commands.command(aliases=['rosé'])
     async def rose(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@!{ctx.author.id}> is talking about Rosé :rose:')
+                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Rosé :rose:')
                 await ctx.send(random.choice(self.rose_gif))
                 await ctx.message.delete()
             else:
@@ -110,12 +109,11 @@ class BlackpinkPings(commands.Cog):
             await ctx.send(random.choice(self.rose_gif))
             await ctx.message.delete()
 
-    #lisa command for gareth & jon
     @commands.command()
     async def lisa(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@!{ctx.author.id}> is talking about Lisa :cat:')
+                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Lisa :cat:')
                 await ctx.send(random.choice(self.lisa_gif))
                 await ctx.message.delete()
             else:
@@ -126,12 +124,11 @@ class BlackpinkPings(commands.Cog):
             await ctx.send(random.choice(self.lisa_gif))
             await ctx.message.delete()
 
-    #jisoo command for gatreth & jon
     @commands.command()
     async def jisoo(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
+                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
                 await ctx.send(random.choice(self.jisoo_gif))
                 await ctx.message.delete()
             else:
