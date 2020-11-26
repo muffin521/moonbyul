@@ -85,9 +85,10 @@ class IzonePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/647946252645826560/772328738062336020/zzzzzzzzzz.gif",
             "https://media.discordapp.net/attachments/724107459265953835/770832512620036157/image2.gif",
             "https://tenor.com/view/sakura-miyawaki-sakura-izone-jo-yuri-yuri-gif-18738707",
-            "https://tenor.com/view/izone-yuri-kpop-cute-happy-gif-16325829"]
+            "https://tenor.com/view/izone-yuri-kpop-cute-happy-gif-16325829",
+            "https://cdn.discordapp.com/attachments/704248706269970488/776652835617898516/image0.gif"]
 
-        #14
+        #15
         self.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
             "https://tenor.com/view/iz-one-chaeyeon-smile-gif-15401792",
@@ -101,7 +102,8 @@ class IzonePings(commands.Cog):
             "https://media.discordapp.net/attachments/753744547174940804/762849980078882846/ezgif-3-e15b68e1966c.gif",
             "https://media.discordapp.net/attachments/753744547174940804/762850577125998632/ezgif-4-71e107295746.gif",
             "https://media.discordapp.net/attachments/753744547174940804/762850996807794709/ezgif-3-6a400f15a85b.gif",
-            "https://tenor.com/view/chaeyeon-16-shots-lee-hot-gif-18610218"]
+            "https://tenor.com/view/chaeyeon-16-shots-lee-hot-gif-18610218",
+            "https://media.discordapp.net/attachments/498138615415701524/780998564901552128/hyewonbonk.gif"]
 
         #19
         self.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",

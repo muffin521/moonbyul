@@ -10,6 +10,10 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+#//people
+ple = 416903886968979466
+mae = 492769416610840586
+
 class PlePings(commands.Cog):
 
     def __init__(self, client):
@@ -41,7 +45,7 @@ class PlePings(commands.Cog):
     async def shuhua(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@416903886968979466>, <@!{ctx.author.id}> is talking about Shuhua')
+                await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Shuhua')
                 await ctx.send(random.choice(self.shuhua_gif))
                 await ctx.message.delete()
             else:
@@ -57,7 +61,7 @@ class PlePings(commands.Cog):
     async def kiki(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@416903886968979466>, <@492769416610840586>, <@!{ctx.author.id}> is talking about Kiki')
+                await ctx.send(f'<@{ple}>, <@{mae}>, <@!{ctx.author.id}> is talking about Kiki')
                 await ctx.send(random.choice(self.kiki_gif))
                 await ctx.message.delete()
             else:

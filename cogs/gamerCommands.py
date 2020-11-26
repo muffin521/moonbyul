@@ -44,7 +44,13 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/aridpitifulchipmunk",
             "https://gfycat.com/zealousunsightlyhumpbackwhale",
             "https://gfycat.com/vaguefreshflickertailsquirrel",
-            "https://tenor.com/view/mark-mark-lee-nct-cold-eating-gif-14683790"]
+            "https://tenor.com/view/mark-mark-lee-nct-cold-eating-gif-14683790",
+            "https://gfycat.com/unconsciousweirdfishingcat",
+            "https://tenor.com/view/yeeun-jang-clc-not-yummy-gif-13252749",
+            "https://tenor.com/view/yum-delicious-cheng-xiao-yummy-gif-12031986",
+            "https://gfycat.com/flamboyantunlinedisabellinewheatear",
+            "https://gfycat.com/limpingunrulygrasshopper",
+            "https://gfycat.com/sentimentalmadeupgrayfox"]
 
         self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
@@ -57,7 +63,9 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/yoona-im-yoona-%ec%9c%a4%ec%95%84-snsd-girls-generation-gif-14170845",
             "https://tenor.com/view/heart-love-apple-heart-chuu-heart-da-vinki-gif-18549840",
             "https://tenor.com/view/sakura-izone-sakura-miyawaki-sakura-saku-chan-chaekura-kkura-gif-13532539",
-            "https://cdn.discordapp.com/attachments/704248706269970488/776652835617898516/image0.gif"]
+            "https://cdn.discordapp.com/attachments/704248706269970488/776652835617898516/image0.gif",
+            "https://tenor.com/view/yeeun-jang-yeeun-cute-clc-kpop-gif-17883335",
+            "https://tenor.com/view/g-idle-yuqi-song-yuqi-kpop-cute-gif-17667093"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

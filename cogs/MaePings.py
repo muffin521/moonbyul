@@ -10,6 +10,9 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+#//people
+mae = 492769416610840586
+
 class MaePings(commands.Cog):
 
     def __init__(self, client):
@@ -65,7 +68,7 @@ class MaePings(commands.Cog):
     async def taemin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@492769416610840586>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
+                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
                 await ctx.send(random.choice(self.taemin_gif))
                 await ctx.message.delete()
             else:
@@ -81,7 +84,7 @@ class MaePings(commands.Cog):
     async def krystal(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@492769416610840586>, <@!{ctx.author.id}> is talking about Krystal :gem:')
+                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Krystal :gem:')
                 await ctx.send(random.choice(self.krystal_gif))
                 await ctx.message.delete()
             else:
@@ -97,7 +100,7 @@ class MaePings(commands.Cog):
     async def jessica(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@492769416610840586>, <@!{ctx.author.id}> is talking about Jessica :smiling_face_with_3_hearts:')
+                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Jessica :smiling_face_with_3_hearts:')
                 await ctx.send(random.choice(self.jessica_gif))
                 await ctx.message.delete()
             else:

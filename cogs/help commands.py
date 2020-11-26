@@ -22,12 +22,12 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed1.add_field(name='Mamamoo', value=f'```\nMoonbyul\nHwasa\nSolar\nWheein\n ```', inline = True)
+        embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMoonbyul\nHwasa\nSolar\nWheein ```', inline = True)
         embed1.add_field(name='Blackpink', value=f'```\nLisa\nJennie\nJisoo\nRose\n ```', inline = True)
         embed1.add_field(name='Red Velvet', value=f'```\nJoy\nIrene\nSeulgi\nYeri\nWendy```', inline = True)
-        embed1.add_field(name='Mae\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\n ```', inline = True)
-        embed1.add_field(name='Ple\'s Commands', value=f'```\nShuhua\nKiki\n \n ```', inline = True)
-        embed1.add_field(name='Misc', value=f'```\nNatty\nYiren\nFood\nChuu Heart```', inline = True)
+        embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nShuhua\nKiki ```', inline = True)
+        embed1.add_field(name='Misc', value=f'```\nNatty\nYiren\nFood\nChuu Heart\n ```', inline = True)
+        embed1.add_field(name='Misc [2]', value=f'```\nYeeun\nYein\nKei\nAleXa\n ```', inline = True)
         await ctx.message.delete()
 
         embed2 = discord.Embed(
@@ -37,20 +37,32 @@ class hcommands(commands.Cog):
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\n \n \n ```''')
-        embed2.add_field(name='LOOΠΔ 1/3', value=f'''```\nHeejin\nHyunjin```''')
-        embed2.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nKim Lip\nChoerry```''')
-        embed2.add_field(name='LOOΠΔ yyxy', value=f'''```\n \n ```''')
+        embed2.add_field(name='LOOΠΔ 1/3', value=f'''```\nHeejin\nHyunjin\nHaseul\nViVi\nYeojin```''')
+        embed2.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nKim Lip\nJinsoul\nChoerry\n \n ```''')
+        embed2.add_field(name='LOOΠΔ yyxy', value=f'''```\nYves\nChuu\nGo Won\nOlivia Hye\n ```''')
 
         embed3 = discord.Embed(
             title = 'COMMANDS (3)',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
+        embed3.add_field(name='Twice [1]', value=f'''```\nMina\nSana\nMomo```''')
+        embed3.add_field(name='Twice [2]', value=f'''```\nJeongyeon\nTzuyu\nNayeon```''')
+        embed3.add_field(name='Twice [3]', value=f'''```\nDahyun\nChaeyoung\nJihyo```''')
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan\nLee Know```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin\nSeungmin```''')
         # embed3.add_field(name='1', value=f'''```\n \n \n \n ```''')
-        # embed3.add_field(name='2', value=f'''```\n \n \n \n ```''')
-        # embed3.add_field(name='3', value=f'''```\n \n \n \n ```''')
-        # embed3.add_field(name='4', value=f'''```\n \n \n \n ```''')
+        
+        embed4 = discord.Embed(
+            title = 'COMMANDS (4)',
+            description = 'All commands start with the prefix [=]',
+            colour = discord.Color.from_rgb(198, 237, 154))
+        embed4.add_field(name='BTS [1]', value=f'''```\nV\nSuga\nJ-hope\nJungkook```''')
+        embed4.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM\n ```''')
+        # embed4.add_field(name='Twice [3]', value=f'''```\nDahyun\nChaeyoung\nJihyo```''')
+        # embed4.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan\nLee Know```''')
+        # embed4.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin\nSeungmin```''')
+        # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')
+
         # getting the message object for editing and reacting
 
 
@@ -76,6 +88,9 @@ class hcommands(commands.Cog):
                         cur_page += 1
                         await message.edit(embed=embed2)
                         await message.remove_reaction(reaction, user)
+                    elif str(reaction.emoji) == "⬅️":
+                        await message.remove_reaction(reaction, user)
+                
                 elif cur_page == 2:
                     if str(reaction.emoji) == "➡️":
                         cur_page += 1
@@ -85,10 +100,23 @@ class hcommands(commands.Cog):
                         cur_page -= 1
                         await message.edit(embed=embed1)
                         await message.remove_reaction(reaction, user)
+                
                 elif cur_page == 3:
-                    if str(reaction.emoji) == "⬅️":
+                    if str(reaction.emoji) == "➡️":
+                        cur_page += 1
+                        await message.edit(embed=embed4)
+                        await message.remove_reaction(reaction, user)
+                    elif str(reaction.emoji) == "⬅️":
                         cur_page -= 1
                         await message.edit(embed=embed2)
+                        await message.remove_reaction(reaction, user)
+                
+                elif cur_page == 4:
+                    if str(reaction.emoji) == "➡️":
+                        await message.remove_reaction(reaction, user)
+                    elif str(reaction.emoji) == "⬅️":
+                        cur_page -= 1
+                        await message.edit(embed=embed3)
                         await message.remove_reaction(reaction, user)
 
                 else:

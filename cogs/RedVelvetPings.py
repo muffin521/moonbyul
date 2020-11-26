@@ -10,6 +10,9 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+#//people
+jon = 109914198544240640
+
 class RedVelvetPings(commands.Cog):
 
     def __init__(self, client):
@@ -92,7 +95,7 @@ class RedVelvetPings(commands.Cog):
     async def irene(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@109914198544240640>, <@!{ctx.author.id}> is talking about Irene :watermelon:')
+                await ctx.send(f'<@{jon}>, <@!{ctx.author.id}> is talking about Irene :watermelon:')
                 await ctx.send(random.choice(self.irene_gif))
                 await ctx.message.delete()
             else:

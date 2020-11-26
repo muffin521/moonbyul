@@ -17,7 +17,7 @@ class scommand(commands.Cog):
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_footer(text='')
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
-        embed.add_field(name='Moonbyul Ver.', value='1.0.0', inline=True)
+        embed.add_field(name='Moonbyul Ver.', value='1.0.2', inline=True)
         embed.add_field(name='Python Ver.', value='3.8.1', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms', inline=True)
         embed.add_field(name='Servers:', value=servers, inline=True)
