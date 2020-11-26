@@ -31,6 +31,8 @@
     #=git push heroku master
 
     #//optional:
+    #=git add .
+        #=if I've added new files
     #=heroku logs -a moonbyul
 
 

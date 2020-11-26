@@ -117,8 +117,7 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/shocked-shocking-unbelievable-villian-alexa-gif-18776700",
             "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902"]
 
-        #
-        self.giselle_gif = []
+        
 
         #self.yukika_gif = []
 
@@ -219,21 +218,6 @@ class KpopPings(commands.Cog):
             await ctx.send(random.choice(self.alexa_gif))
             await ctx.message.delete()
 
-    #giselle command for k8
-    @commands.command
-    async def giselle(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Giselle :heart:')
-                await ctx.send(random.choice(self.giselle_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Giselle :heart:')
-            await ctx.send(random.choice(self.giselle_gif))
-            await ctx.message.delete()
 
 
 

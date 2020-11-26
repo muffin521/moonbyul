@@ -17,7 +17,8 @@ class gamerPings(commands.Cog):
 
         self.mina_gif = []
 
-        self.sana_gif = []
+        self.sana_gif = ["https://tenor.com/view/sana-twice-kitty-dance-kpop-gif-17314571",
+        ""]
 
         self.momo_gif = []
 
