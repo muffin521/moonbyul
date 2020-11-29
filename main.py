@@ -13,10 +13,8 @@
 #.
 #todo:
     #!status command- owner, helpers, ping(?)
-    #^Lovelyz Yein command for me, mae, and kiwi
     #^Lovelyz Jisoo command for mae and (maybe kiwi)
     #~Yukikia command (weakado and ?)
-    #=BTS commands for lulu⁷
     #*Devin "let's go" confetti command (weakado server) #//can i do this??
 
     #?Minzy
@@ -43,7 +41,7 @@ import os
 from discord.ext import commands
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '=')
+client = commands.Bot(command_prefix= '==')
 #takes out help command
 client.remove_command('help')
 

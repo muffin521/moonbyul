@@ -201,7 +201,6 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/aliphobe-olivia-hye-loona-yyxy-hyejoo-gif-17860838",
             "https://tenor.com/view/oliviahye-gif-18868773"]
 
-    #heejin command for mae and aeong
     @commands.command()
     async def heejin(self, ctx):
         if ctx.guild.id == luminary:
@@ -217,7 +216,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.heejin_gif))
             await ctx.message.delete()
 
-    #hyunjin command for k8 and aeong
     @commands.command()
     async def hyunjin(self, ctx):
         if ctx.guild.id == luminary:
@@ -233,7 +231,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.hyunjin_gif))
             await ctx.message.delete()
 
-    #haseul command
     @commands.command()
     async def haseul(self, ctx):
         if ctx.guild.id == luminary:
@@ -249,7 +246,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.haseul_gif))
             await ctx.message.delete()
 
-    #vivi command
     @commands.command()
     async def vivi(self, ctx):
         if ctx.guild.id == luminary:
@@ -265,7 +261,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.vivi_gif))
             await ctx.message.delete()
 
-    #yeojin command
     @commands.command()
     async def yeojin(self, ctx):
         if ctx.guild.id == luminary:
@@ -283,7 +278,6 @@ class LoonaPings(commands.Cog):
 
 
 
-    #kim lip command for stanley
     @commands.command(aliases=['kim', 'lip', 'lippington', 'kimlip'])
     async def lippie(self, ctx):
         if ctx.guild.id == luminary:
@@ -299,7 +293,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.kimlip_gif))
             await ctx.message.delete()
 
-    #jinsoul command
     @commands.command()
     async def jinsoul(self, ctx):
         if ctx.guild.id == luminary:
@@ -315,7 +308,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.jinsoul_gif))
             await ctx.message.delete()
 
-    #choerry command for rith and ple
     @commands.command()
     async def choerry(self, ctx):
         if ctx.guild.id == luminary:
@@ -333,7 +325,6 @@ class LoonaPings(commands.Cog):
 
 
 
-    #yves command
     @commands.command()
     async def yves(self, ctx):
         if ctx.guild.id == luminary:
@@ -349,7 +340,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.yves_gif))
             await ctx.message.delete()
 
-    #chuu command
     @commands.command()
     async def chuu(self, ctx):
         if ctx.guild.id == luminary:
@@ -365,7 +355,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.chuu_gif))
             await ctx.message.delete()
 
-    #go won command
     @commands.command()
     async def gowon(self, ctx):
         if ctx.guild.id == luminary:
@@ -381,7 +370,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.gowon_gif))
             await ctx.message.delete()
 
-    #olivia hye command
     @commands.command(aliases = ['hyejoo', 'hye', 'olivia'])
     async def oliviahye(self, ctx):
         if ctx.guild.id == luminary:

@@ -14,22 +14,13 @@ kbotcom = 764610881513324574
 muffin = 488423352206229505
 weakado = 259409277482041344
 k8 = 573974040679809044
+mae = 492769416610840586
+kiwi = 390317665463566336
 
 class KpopPings(commands.Cog):
 
     def __init__(self, client):
         self.client = client
-
-        #9
-        self.natty_gif = ["https://thumbs.gfycat.com/BlankBlaringAmurratsnake-size_restricted.gif",
-            "https://thumbs.gfycat.com/ScholarlyUnitedCutworm-max-1mb.gif",
-            "https://media.giphy.com/media/f7Xr9BVORnb0vDEraT/giphy.gif",
-            "https://giphy.com/gifs/jpEGzlpjwOn1RK0qlZ",
-            "https://tenor.com/view/natty-schoolidol-gif-9239469",
-            "https://giphy.com/gifs/vOzalSmlR1cVr535rb",
-            "https://giphy.com/gifs/AWcuiZbziFmwuc0uQW",
-            "https://giphy.com/gifs/sksJILJA9Ab0HiOIIp",
-            "https://giphy.com/gifs/hL7aBcWxpzp0VrljNu"]
 
         #7
         self.yiren_gif = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
@@ -106,37 +97,22 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/lovelyz-lovelyz-kei-kei-kim-kei-kim-jiyeon-gif-16341360",
             "https://tenor.com/view/lovelyz-kei-will-kpop-gif-14248063"]
 
-        #9
-        self.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
-            "https://tenor.com/view/alexa-alexa-kpop-wink-cute-wink-alex-christine-gif-18426203",
-            "https://tenor.com/view/sunlight-alexa-alexa-kpop-villain-alexa-villain-gif-18426653",
-            "https://tenor.com/view/alexa-kpop-alexa-dance-do-or-die-alexazblabel-gif-18228202",
-            "https://tenor.com/view/millenasia-millenesia-project-alexa-alexa-kpop-bale-bale-kpop-gif-18240233",
-            "https://tenor.com/view/okay-ok-what-is-it-say-alexa-gif-18669905",
-            "https://tenor.com/view/alexa-kpop-alexa-quadratic-equation-maths-alex-christine-gif-19114670",
-            "https://tenor.com/view/shocked-shocking-unbelievable-villian-alexa-gif-18776700",
-            "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902"]
+        #11
+        self.lucas_gif = ["https://tenor.com/view/lucas-wayv-heart-gif-14723401",
+            "https://tenor.com/view/smile-handsome-cute-lucas-nct-gif-15246419",
+            "https://tenor.com/view/nct-lucas-nct-lucas-cute-smile-gif-12612522",
+            "https://tenor.com/view/nct-lucas-being-extra-hi-gif-14904496",
+            "https://tenor.com/view/pout-kiss-handsome-cute-lucas-gif-15246420",
+            "https://tenor.com/view/lucas-nct-way-v-gif-13770508",
+            "https://tenor.com/view/wong-yukhei-lucas-nct-cute-kpop-gif-16350448",
+            "https://tenor.com/view/lucas-nct-wayv-gif-19030351",
+            "https://tenor.com/view/lucas-nct-smile-gif-19015832",
+            "https://tenor.com/view/lucas-smile-cute-poke-cheek-gif-12719055",
+            "https://tenor.com/view/lucas-nct-wong-yukhei-wayv-gif-14579895"]
 
-        
-
+        #
         #self.yukika_gif = []
 
-    
-    #natty (solo) command
-    @commands.command()
-    async def natty(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
-                await ctx.send(random.choice(self.natty_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
-            await ctx.send(random.choice(self.natty_gif))
-            await ctx.message.delete()
 
     #yiren (everglow) command for weakado
     @commands.command()
@@ -159,7 +135,7 @@ class KpopPings(commands.Cog):
     async def yein(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Yein :heart:')
+                await ctx.send(f'<@{muffin}>, <@{mae}>, <@{kiwi}>, <@!{ctx.author.id}> is talking about Yein :heart:')
                 await ctx.send(random.choice(self.yein_gif))
                 await ctx.message.delete()
             else:
@@ -202,24 +178,21 @@ class KpopPings(commands.Cog):
             await ctx.send(random.choice(self.kei_gif))
             await ctx.message.delete()
 
-    #alexa (solo) command for me
     @commands.command()
-    async def alexa(self, ctx):
+    async def lucas(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about AleXa :blue_heart:')
-                await ctx.send(random.choice(self.alexa_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart: ')
+                await ctx.send(random.choice(self.lucas_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
-            await ctx.send(random.choice(self.alexa_gif))
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart:')
+            await ctx.send(random.choice(self.lucas_gif))
             await ctx.message.delete()
-
-
-
+    
 
 
 def setup(client):

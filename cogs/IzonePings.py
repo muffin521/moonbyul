@@ -162,8 +162,20 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/hyewon-kang-hyewon-izone-wink-gif-14084171",
             "https://tenor.com/view/hyewon-smile-pretty-gif-13780756"]
 
+        #10
+        self.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
+            "https://gfycat.com/loathsomecommonamericancicada",
+            "https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
+            "https://gfycat.com/pettygraciousdamselfly",
+            "https://gfycat.com/aridpitifulchipmunk",
+            "https://tenor.com/view/izone-chaewon-cute-smile-dimple-gif-15892640",
+            "https://tenor.com/view/go-chaewon-chaewon-izone-chaewon-gif-18780582",
+            "https://tenor.com/view/chaewon-nunu-nana-chaewon-nunu-nana-chaewon-dancing-gif-18593237",
+            "https://tenor.com/view/izone-kim-chaewon-gif-18706592",
+            "https://tenor.com/view/iz-one-jang-wonyoung-miyawaki-sakura-jo-yuri-choi-yena-gif-16110670"]
+
+        #
     
-    #sakura command for weakado
     @commands.command(aliases = ['saku', 'kkura'])
     async def sakura(self, ctx):
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
@@ -178,7 +190,6 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.sakura_gif))
             await ctx.message.delete()
 
-    #yuri command for jat
     @commands.command()
     async def yuri(self, ctx):
         if ctx.guild.id == luminary:
@@ -194,7 +205,6 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.yuri_gif))
             await ctx.message.delete()
 
-    #chaeyeon command for luke
     @commands.command()
     async def chaeyeon(self, ctx):
         if ctx.guild.id == jst:
@@ -209,7 +219,6 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.chaeyeon_gif))
             await ctx.message.delete()
 
-    #minju command for mae and cronus
     @commands.command()
     async def minju(self, ctx):
         if ctx.guild.id == luminary:
@@ -225,7 +234,6 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.minju_gif))
             await ctx.message.delete()
 
-    #wonyoung command for mae
     @commands.command()
     async def wonyoung(self, ctx):
         if ctx.guild.id == luminary:
@@ -241,7 +249,6 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.wonyoung_gif))
             await ctx.message.delete()
 
-    #wonyoung command for agus
     @commands.command()
     async def hyewon(self, ctx):
         if ctx.guild.id == luminary:
@@ -255,6 +262,21 @@ class IzonePings(commands.Cog):
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon :cake:')
             await ctx.send(random.choice(self.hyewon_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def chaewon(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@683791381667250208>, <@!{ctx.author.id}> is talking about Chaewon :woman_fairy:')
+                await ctx.send(random.choice(self.chaewon_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon :woman_fairy:')
+            await ctx.send(random.choice(self.chaewon_gif))
             await ctx.message.delete()
 
 

@@ -52,13 +52,16 @@ class gamerPings(commands.Cog):
             "https://tenor.com/Fguv.gif",
             "https://tenor.com/bsSaJ.gif"]
 
-        #6
+        #9
         self.nayeon_gif = ["https://tenor.com/9b5w.gif",
             "https://tenor.com/YChI.gif",
             "https://tenor.com/bs6Qy.gif",
             "https://media.giphy.com/media/gg3XU0ggfN7B0tlHnw/giphy.gif",
             "https://media.giphy.com/media/URvyQpZe0uoCT6jHo8/giphy.gif",
-            "https://media.giphy.com/media/h7dxG65XwW00aBVkBc/giphy.gif"]
+            "https://media.giphy.com/media/h7dxG65XwW00aBVkBc/giphy.gif",
+            "https://tenor.com/view/mood-twice-nayeon-i-dont-know-gif-14052273",
+            "https://tenor.com/view/pop-hair-twice-mouth-kpop-gif-16633600",
+            "https://tenor.com/view/twice-nayeon-kpop-cute-gif-15007259"]
 
         #5
         self.dahyun_gif = ["https://tenor.com/zEfV.gif",
