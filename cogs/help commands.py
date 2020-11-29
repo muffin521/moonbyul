@@ -62,7 +62,7 @@ class hcommands(commands.Cog):
         embed3.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM```''')
         embed3.add_field(name='BTS [3]', value=f'''```\nJungkook\n \n ```''')
         embed3.add_field(name='Enhypen [1]', value=f'''```\nSunoo\nSunghoon\nJake```''')
-        embed3.add_field(name='Enhypen [2]', value=f'''```\nJungwon\nHeesung\nJay```''')
+        embed3.add_field(name='Enhypen [2]', value=f'''```\nJungwon\nHeeseung\nJay```''')
         embed3.add_field(name='Enhypen [3]', value=f'''```\nNi-Ki\n \n ```''')
 
 

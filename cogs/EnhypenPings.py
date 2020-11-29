@@ -48,7 +48,7 @@ class EnhypenPings(commands.Cog):
             "https://tenor.com/view/yang-jungwon-jungwon-iland-jungwon-enhypen-jungwon-mnet-iland-gif-18732853"]
 
         #5
-        self.heesung_gif = ["https://tenor.com/view/heeseung-leeheeseung-heedeungie-gif-18445098",
+        self.heeseung_gif = ["https://tenor.com/view/heeseung-leeheeseung-heedeungie-gif-18445098",
             "https://tenor.com/view/halloween-fruit-enhypen-chamber5-enhypen-heeseung-heeseung-gif-18991852",
             "https://tenor.com/view/heeseung-leeheeseung-heeseung-iland-gif-18435020",
             "https://tenor.com/view/heeseung-leeheeseung-heeseung-iland-gif-18440665",
@@ -130,18 +130,18 @@ class EnhypenPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def heesung(self, ctx):
+    async def heeseung(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Heesung :heart:')
-                await ctx.send(random.choice(self.heesung_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Heeseung :heart:')
+                await ctx.send(random.choice(self.heeseung_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Heesung :heart:')
-            await ctx.send(random.choice(self.heesung_gif))
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Heeseung :heart:')
+            await ctx.send(random.choice(self.heeseung_gif))
             await ctx.message.delete()
 
     @commands.command()
