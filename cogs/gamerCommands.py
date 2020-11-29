@@ -10,6 +10,10 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+#//people
+muffin = 488423352206229505
+gareth = 389897179701182465
+
 class gamerPings(commands.Cog):
 
     def __init__(self, client):
@@ -135,6 +139,12 @@ class gamerPings(commands.Cog):
     @commands.command()
     async def muffin(self, ctx):
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
+
+    @commands.command()
+    async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
+        if ctx.author.id == muffin or ctx.author.id == gareth:
+            await ctx.send(f'<@389897179701182465> is a bitch ( ͡° ͜ʖ ͡°)')
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(gamerPings(client))
