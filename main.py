@@ -1,18 +1,20 @@
 # invite link: https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8
 
 # purpose: pretty girls hehehehe
-#!
-#todo
-#^
-#//
-#*
-#=
-#?
-#~
-#&
-#.
+    #!
+    #todo
+    #^
+    #//
+    #*
+    #=
+    #?
+    #~
+    #&
+    #.
+
 #todo:
     #!status command- owner, helpers, ping(?)
+    #!fix help in SES
     #^Lovelyz Jisoo command for mae and (maybe kiwi)
     #~Yukikia command (weakado and ?)
     #*Devin "let's go" confetti command (weakado server) #//can i do this??

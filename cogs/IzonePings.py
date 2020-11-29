@@ -105,7 +105,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/chaeyeon-16-shots-lee-hot-gif-18610218",
             "https://media.discordapp.net/attachments/498138615415701524/780998564901552128/hyewonbonk.gif"]
 
-        #19
+        #18
         self.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
             "https://gfycat.com/chubbyemptygalapagosmockingbird",
@@ -122,7 +122,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/raggedviciouskudu/",
             "https://tenor.com/view/minju-kim-minju-izone-gif-18645290",
             "https://tenor.com/view/rykkura-minguri-pretty-beautiful-cute-gif-16891660",
-            "https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://gfycat.com/impressionabledenseaffenpinscher",
             "https://gfycat.com/kindrequiredbooby/"]
 
@@ -160,6 +159,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/hyewon-kang-hyewon-izone-kwangbae-cute-gif-17795308",
             "https://tenor.com/view/hyewon-kang-hyewon-iz-one-kwangbae-pretty-gif-17795405",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-wink-gif-14084171",
+            "https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-smile-pretty-gif-13780756"]
 
         #10

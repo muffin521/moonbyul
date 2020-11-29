@@ -5,6 +5,9 @@ from discord.utils import get
 from random import choice
 from discord.ext import commands
 
+#//SES server:
+ses = 755618736194453534
+
 
 class hcommands(commands.Cog):
 
@@ -22,7 +25,7 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed1.set_footer(text="page 1/3")
+        embed1.set_footer(text="page 1/3. Support: https://discord.gg/Ntk9Jp26yx")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMoonbyul\nHwasa\nSolar\nWheein```', inline = True)
         embed1.add_field(name='Blackpink', value=f'```\nLisa\nJennie\nJisoo\nRose\n ```', inline = True)
         embed1.add_field(name='Red Velvet', value=f'```\nJoy\nIrene\nSeulgi\nYeri\nWendy```', inline = True)
@@ -32,13 +35,13 @@ class hcommands(commands.Cog):
         embed1.add_field(name='Misc', value=f'```\nYeeun\nYein\nKei\nYerin\nLucas```', inline = True)
         embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\n \n ```', inline = True)
         embed1.add_field(name='Non-Idol Commands', value=f'```\nFood\nChuu Heart\n \n \n ```', inline = True)
-        await ctx.message.delete()
+        
 
         embed2 = discord.Embed(
             title = 'COMMANDS (2)',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed2.set_footer(text="page 2/3")
+        embed2.set_footer(text="page 2/3, Suport: https://discord.gg/Ntk9Jp26yx")
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\n \n ```''')
@@ -54,7 +57,7 @@ class hcommands(commands.Cog):
             title = 'COMMANDS (3)',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed3.set_footer(text="page 3/3")
+        embed3.set_footer(text="page 3/3. Support: https://discord.gg/Ntk9Jp26yx")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin ```''')
         embed3.add_field(name='Star Kids [3]', value=f'''```\nLee Know\nSeungmin```''')
@@ -79,6 +82,10 @@ class hcommands(commands.Cog):
         # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')
 
         # getting the message object for editing and reacting
+
+        # if ctx.guild.id != ses:
+        #     await ctx.message.delete()
+        await ctx.message.delete()
 
 
         message = await ctx.send(embed=embed1)
