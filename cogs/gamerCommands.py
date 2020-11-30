@@ -13,6 +13,7 @@ kbotcom = 764610881513324574
 #//people
 muffin = 488423352206229505
 gareth = 389897179701182465
+mae = 492769416610840586
 
 class gamerPings(commands.Cog):
 
@@ -142,7 +143,7 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
-        if ctx.author.id == muffin or ctx.author.id == gareth:
+        if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:
             await ctx.send(f'<@389897179701182465> is a bitch ( ͡° ͜ʖ ͡°)')
             await ctx.message.delete()
 

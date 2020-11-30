@@ -60,7 +60,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text="page 3/3. Support: https://discord.gg/Ntk9Jp26yx")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin ```''')
-        embed3.add_field(name='Star Kids [3]', value=f'''```\nLee Know\nSeungmin```''')
+        embed3.add_field(name='Star Kids [3]', value=f'''```\nLee Know\nSeungmin\n ```''')
         embed3.add_field(name='BTS [1]', value=f'''```\nV\nSuga\nJ-hope```''')
         embed3.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM```''')
         embed3.add_field(name='BTS [3]', value=f'''```\nJungkook\n \n ```''')

@@ -18,6 +18,7 @@ stanley = 727312020717830264
 rith = 346724857725059075
 ple = 416903886968979466
 masa = 725138411823956079
+manman = 320520067265724416
 
 
 class LoonaPings(commands.Cog):
@@ -250,7 +251,7 @@ class LoonaPings(commands.Cog):
     async def vivi(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{ctx.author.id}> is talking about ViVi :deer:')
+                await ctx.send(f'<@{manman}>, <@{ctx.author.id}> is talking about ViVi :deer:')
                 await ctx.send(random.choice(self.vivi_gif))
                 await ctx.message.delete()
             else:
