@@ -56,7 +56,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/flamboyantunlinedisabellinewheatear",
             "https://gfycat.com/limpingunrulygrasshopper",
             "https://gfycat.com/sentimentalmadeupgrayfox",
-            "https://cdn.discordapp.com/attachments/781312260118806529/781378241817608192/image3.gif"]
+            "https://cdn.discordapp.com/attachments/781312260118806529/781378241817608192/image3.gif",
+            "https://tenor.com/view/soyeon-senorita-g-idle-cute-kpop-kpop-girl-group-gif-15338342"]
 
         self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
@@ -144,7 +145,20 @@ class gamerPings(commands.Cog):
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
         if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:
-            await ctx.send(f'<@389897179701182465> is a bitch ( ͡° ͜ʖ ͡°)')
+            # await ctx.send(f'<@389897179701182465> is a bitch ( ͡° ͜ʖ ͡°)')
+            
+            embed=discord.Embed(
+                    title = 'llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch',
+                    description = '🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿',
+                    colour = discord.Color.from_rgb(0,173,54))
+            embed.set_footer(text="What happened on the fishing trip?")
+            embed.add_field(name='Llanymawddwy:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            embed.add_field(name='Llanrhychwyn:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            embed.add_field(name='Llanbrynmair:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            embed.add_field(name='Pontrhydfendigaid:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            embed.add_field(name='Pontnewynydd:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            embed.add_field(name='Pontrhydygroes:', value=f'```\nFfion\nFfion\nFfion\nFfion\nFfion\nFfion```', inline=True)
+            await ctx.send(embed=embed)
             await ctx.message.delete()
 
 def setup(client):
