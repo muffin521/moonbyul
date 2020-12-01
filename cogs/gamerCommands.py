@@ -92,7 +92,7 @@ class gamerPings(commands.Cog):
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
             await ctx.message.delete()
         else:
-            await ctx.send(f'Aster is the best :smiling_face_with_3_hearts:')
+            # await ctx.send(f'Aster is the best :smiling_face_with_3_hearts:')
             await ctx.send(random.choice(self.food_gif))
             await ctx.message.delete()
 
