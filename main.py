@@ -14,16 +14,15 @@
 
 #todo:
     #!status command- owner, helpers, ping(?)
-    #!fix help in SES
     #^Lovelyz Jisoo command for mae and (maybe kiwi)
     #~Yukikia command (weakado and ?)
-    #*Devin "let's go" confetti command (weakado server) #//can i do this??
+    #*Devin "let's go" confetti command (JST server) #//can i do this??
 
     #?Minzy
     #?CL
     #?Dara
     #?Bom
-
+#//custom emojis~ look at kei command in `Lovelyz Pings.py`
 
 #todo GIT COMMANDS
     #*Link: "https://www.youtube.com/watch?v=BPvg9bndP1U&start=34s"

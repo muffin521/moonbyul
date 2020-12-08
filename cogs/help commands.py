@@ -25,26 +25,27 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed1.set_footer(text="page 1/3. Support: https://discord.gg/Ntk9Jp26yx")
+        embed1.set_footer(text="page 1/4")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMoonbyul\nHwasa\nSolar\nWheein```', inline = True)
         embed1.add_field(name='Blackpink', value=f'```\nLisa\nJennie\nJisoo\nRose\n ```', inline = True)
         embed1.add_field(name='Red Velvet', value=f'```\nJoy\nIrene\nSeulgi\nYeri\nWendy```', inline = True)
         embed1.add_field(name='aespa', value=f'''```\nGiselle\nWinter\nNingNing\nKarina\n ```''')
-        embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nShuhua\nKiki```', inline = True)
+        embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nKiki\n ```', inline = True)
         embed1.add_field(name='Itzy', value=f'''```\nYeji\nRyunjin\nChaeryeong\nYuna\nLia```''')
         embed1.add_field(name='Misc', value=f'```\nYeeun\nYein\nKei\nYerin\nLucas```', inline = True)
         embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\n \n ```', inline = True)
-        embed1.add_field(name='Non-Idol Commands', value=f'```\nFood\nChuu Heart\n \n \n ```', inline = True)
+        embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n ```', inline = True)
+        embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 
         embed2 = discord.Embed(
-            title = 'COMMANDS (2)',
+            title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed2.set_footer(text="page 2/3, Suport: https://discord.gg/Ntk9Jp26yx")
+        embed2.set_footer(text="page 2/4 | Suport: https://discord.gg/Ntk9Jp26yx")
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung```''')
-        embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\n \n ```''')
+        embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena```''')
         embed2.add_field(name='LOOΠΔ 1/3', value=f'''```\nHeejin\nHyunjin\nHaseul\nViVi\nYeojin```''')
         embed2.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nKim Lip\nJinsoul\nChoerry\n \n ```''')
         embed2.add_field(name='LOOΠΔ yyxy', value=f'''```\nYves\nChuu\nGo Won\nOlivia Hye\n ```''')
@@ -54,13 +55,13 @@ class hcommands(commands.Cog):
 
 
         embed3 = discord.Embed(
-            title = 'COMMANDS (3)',
+            title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed3.set_footer(text="page 3/3. Support: https://discord.gg/Ntk9Jp26yx")
+        embed3.set_footer(text="page 3/4 | Support: https://discord.gg/Ntk9Jp26yx")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin ```''')
-        embed3.add_field(name='Star Kids [3]', value=f'''```\nLee Know\nSeungmin\n ```''')
+        embed3.add_field(name='Stray Kids [3]', value=f'''```\nLee Know\nSeungmin\n ```''')
         embed3.add_field(name='BTS [1]', value=f'''```\nV\nSuga\nJ-hope```''')
         embed3.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM```''')
         embed3.add_field(name='BTS [3]', value=f'''```\nJungkook\n \n ```''')
@@ -70,13 +71,13 @@ class hcommands(commands.Cog):
 
 
         embed4 = discord.Embed(
-            title = 'COMMANDS (4)',
+            title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed4.set_footer(text="page 4/4")
-        embed4.add_field(name='Coming soon:)', value=f'''```sorry for the inconvenience...```''')
-        # embed4.add_field(name='BTS [2]', value=f'''```\nJin\nJimin\nRM\n ```''')
-        # embed4.add_field(name='aespa', value=f'''```\nGiselle\nWinter\nNingNing\n ```''')
+        embed4.set_footer(text="page 4/4 | Support: https://discord.gg/Ntk9Jp26yx")
+        embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
+        embed4.add_field(name='Lovelyz', value=f'''```\nBaby Soul\nYein\nKei\nlJisoo\n \n ```''')
+        embed4.add_field(name='Lovelyz [2]', value=f'''```\nMijoo\nJiae\nlJin\nSujeong\n \n ```''')
         # embed4.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan\nLee Know```''')
         # embed4.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin\nSeungmin```''')
         # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')
@@ -125,21 +126,21 @@ class hcommands(commands.Cog):
                 
                 elif cur_page == 3:
                     if str(reaction.emoji) == "➡️":
-                        # cur_page += 1
-                        # await message.edit(embed=embed4)
+                        cur_page += 1
+                        await message.edit(embed=embed4)
                         await message.remove_reaction(reaction, user)
                     if str(reaction.emoji) == "⬅️":
                         cur_page -= 1
                         await message.edit(embed=embed2)
                         await message.remove_reaction(reaction, user)
                 
-                # elif cur_page == 4:
-                #     if str(reaction.emoji) == "➡️":
-                #         await message.remove_reaction(reaction, user)
-                #     elif str(reaction.emoji) == "⬅️":
-                #         cur_page -= 1
-                #         await message.edit(embed=embed3)
-                #         await message.remove_reaction(reaction, user)
+                elif cur_page == 4:
+                    if str(reaction.emoji) == "➡️":
+                        await message.remove_reaction(reaction, user)
+                    elif str(reaction.emoji) == "⬅️":
+                        cur_page -= 1
+                        await message.edit(embed=embed3)
+                        await message.remove_reaction(reaction, user)
 
                 else:
                     cur_page = cur_page

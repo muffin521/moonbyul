@@ -144,7 +144,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-dance-hip-bridge-kpop-gif-17777457",
             "https://tenor.com/view/mamamoo-finger-guns-kpop-dance-gif-12784101",
             "https://tenor.com/view/mamamoo-gleam-hot-stuff-glasses-gif-14619637",
-            "https://tenor.com/view/mamamoo-mamamoo-teletubbies-mamamoo-teletubbies-bow-gif-18784086"]
+            "https://tenor.com/view/mamamoo-mamamoo-teletubbies-mamamoo-teletubbies-bow-gif-18784086",
+            "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880"]
 
     #moonbyul command for meeee
     @commands.command()
@@ -167,7 +168,7 @@ class MamamooPings(commands.Cog):
     async def wheein(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}> <@!{ctx.author.id}> is talking about Wheein :white_heart:')
+                await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}>, <@!{ctx.author.id}> is talking about Wheein :white_heart:')
                 await ctx.send(random.choice(self.wheein_gif))
                 await ctx.message.delete()
             else:

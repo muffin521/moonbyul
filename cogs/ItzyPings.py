@@ -79,7 +79,7 @@ class ItzyPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def ryujin(self, ctx):
+    async def ryunjin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Ryunjin :heart:')
