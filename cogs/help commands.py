@@ -43,9 +43,9 @@ class hcommands(commands.Cog):
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/4 | Suport: https://discord.gg/Ntk9Jp26yx")
-        embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon```''')
-        embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung```''')
-        embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena```''')
+        embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
+        embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung\n ```''')
+        embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena\n ```''')
         embed2.add_field(name='LOOΠΔ 1/3', value=f'''```\nHeejin\nHyunjin\nHaseul\nViVi\nYeojin```''')
         embed2.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nKim Lip\nJinsoul\nChoerry\n \n ```''')
         embed2.add_field(name='LOOΠΔ yyxy', value=f'''```\nYves\nChuu\nGo Won\nOlivia Hye\n ```''')

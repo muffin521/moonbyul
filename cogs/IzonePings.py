@@ -246,6 +246,20 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-yena-choi-yena-kpop-produce48-gif-19471725",
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415"]
+
+        #9
+        self.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
+        "https://gfycat.com/defiantmediocrearrowana",
+        "https://gfycat.com/welcomepaleinchworm",
+        "https://gfycat.com/tatteredpracticalalligatorgar",
+        "https://gfycat.com/lankylargecanary",
+        "https://tenor.com/view/izone-eunbi-cute-gif-15958774",
+        "https://cdn.discordapp.com/attachments/485105297522688000/485852325395693568/eunbikazoo.gif",
+        "https://cdn.discordapp.com/attachments/745090438427574385/785811922707546143/image0.gif",
+        "https://cdn.discordapp.com/attachments/745090438427574385/785811950428356668/image0.gif",
+        "https://cdn.discordapp.com/attachments/745090438427574385/785812017676156948/image0.gif",
+        "https://cdn.discordapp.com/attachments/745090438427574385/785812039507116042/image0.gif",
+        "https://gfycat.com/fewinsistentdromedary"]
     
     @commands.command(aliases = ['saku', 'kkura'])
     async def sakura(self, ctx):
@@ -380,7 +394,20 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.yena_gif))
             await ctx.message.delete()
 
-
+    @commands.command()
+    async def eunbi(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi :purple_heart:')
+                await ctx.send(random.choice(self.eunbi_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi :purple_heart:')
+            await ctx.send(random.choice(self.eunbi_gif))
+            await ctx.message.delete()
 
 
 def setup(client):
