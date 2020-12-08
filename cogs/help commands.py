@@ -84,9 +84,8 @@ class hcommands(commands.Cog):
 
         # getting the message object for editing and reacting
 
-        # if ctx.guild.id != ses:
-        #     await ctx.message.delete()
-        await ctx.message.delete()
+
+        # await ctx.message.delete()
 
 
         message = await ctx.send(embed=embed1)
