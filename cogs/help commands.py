@@ -32,9 +32,9 @@ class hcommands(commands.Cog):
         embed1.add_field(name='aespa', value=f'''```\nGiselle\nWinter\nNingNing\nKarina\n ```''')
         embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nKiki\n ```', inline = True)
         embed1.add_field(name='Itzy', value=f'''```\nYeji\nRyunjin\nChaeryeong\nYuna\nLia```''')
-        embed1.add_field(name='Misc', value=f'```\nYeeun\nYein\nKei\nYerin\nLucas```', inline = True)
-        embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\n \n ```', inline = True)
-        embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n ```', inline = True)
+        embed1.add_field(name='Misc', value=f'```\nYeeun\nYerin\nLucas```', inline = True)
+        embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha ```', inline = True)
+        embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n ```', inline = True)
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 

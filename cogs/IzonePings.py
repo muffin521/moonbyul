@@ -129,7 +129,13 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/enchantingdeadlyconey",
             "https://media.discordapp.net/attachments/735713250989309984/782439245087506493/image0.gif",
             "https://tenor.com/view/jo-yuri-yuri-pinch-gif-13398933",
-            "https://tenor.com/view/singing-performance-iz-one-yuri-jo-yuri-gif-17890516"]
+            "https://tenor.com/view/singing-performance-iz-one-yuri-jo-yuri-gif-17890516",
+            "https://gfycat.com/greatimaginarygadwall",
+            "https://gfycat.com/anxiousgloriousestuarinecrocodile",
+            "https://gfycat.com/gratefulmildfallowdeer",
+            "https://gfycat.com/grotesqueagreeablecuttlefish",
+            "https://gfycat.com/freshcontentdavidstiger",
+            "https://gfycat.com/hotmellowamericanbittern"]
 
         #21
         self.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
@@ -247,19 +253,22 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415"]
 
-        #9
+        #15
         self.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
-        "https://gfycat.com/defiantmediocrearrowana",
-        "https://gfycat.com/welcomepaleinchworm",
-        "https://gfycat.com/tatteredpracticalalligatorgar",
-        "https://gfycat.com/lankylargecanary",
-        "https://tenor.com/view/izone-eunbi-cute-gif-15958774",
-        "https://cdn.discordapp.com/attachments/485105297522688000/485852325395693568/eunbikazoo.gif",
-        "https://cdn.discordapp.com/attachments/745090438427574385/785811922707546143/image0.gif",
-        "https://cdn.discordapp.com/attachments/745090438427574385/785811950428356668/image0.gif",
-        "https://cdn.discordapp.com/attachments/745090438427574385/785812017676156948/image0.gif",
-        "https://cdn.discordapp.com/attachments/745090438427574385/785812039507116042/image0.gif",
-        "https://gfycat.com/fewinsistentdromedary"]
+            "https://gfycat.com/defiantmediocrearrowana",
+            "https://gfycat.com/welcomepaleinchworm",
+            "https://gfycat.com/tatteredpracticalalligatorgar",
+            "https://gfycat.com/lankylargecanary",
+            "https://tenor.com/view/izone-eunbi-cute-gif-15958774",
+            "https://cdn.discordapp.com/attachments/485105297522688000/485852325395693568/eunbikazoo.gif",
+            "https://cdn.discordapp.com/attachments/745090438427574385/785811922707546143/image0.gif",
+            "https://cdn.discordapp.com/attachments/745090438427574385/785811950428356668/image0.gif",
+            "https://cdn.discordapp.com/attachments/745090438427574385/785812017676156948/image0.gif",
+            "https://cdn.discordapp.com/attachments/745090438427574385/785812039507116042/image0.gif",
+            "https://gfycat.com/fewinsistentdromedary",
+            "https://gfycat.com/revolvingaltruisticflatcoatretriever",
+            "https://gfycat.com/marvelousmenacingamericanwarmblood",
+            "https://gfycat.com/revolvingmajorfinnishspitz"]
     
     @commands.command(aliases = ['saku', 'kkura'])
     async def sakura(self, ctx):
