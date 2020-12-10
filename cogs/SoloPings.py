@@ -52,7 +52,7 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/rae-chungha-fancam-play-kpop-gif-18963908",
             "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521270"]
         
-        #30
+        #32+
         self.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
             "https://tenor.com/view/iu-meh-cute-annoyed-gif-14687766",
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
@@ -85,7 +85,9 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/bye-annyeong-see-ya-see-you-see-you-tomorrow-gif-17648285",
             "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580",
             "https://tenor.com/view/iu-lee-ji-eun-wink-cute-pretty-gif-17535138",
-            "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417717"]
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417717",
+            "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
+            "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417"]
 
         #8
         self.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
