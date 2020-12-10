@@ -23,6 +23,8 @@
     #?Dara
     #?Bom
 #//custom emojis~ look at kei command in `Lovelyz Pings.py`
+#//discord hex code colour (bg) #36393F
+
 
 #todo GIT COMMANDS
     #*Link: "https://www.youtube.com/watch?v=BPvg9bndP1U&start=34s"

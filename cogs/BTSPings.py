@@ -29,7 +29,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781374553388613632/image6.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374553905168405/image7.gif"]
 
-        #8
+        #15
         self.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376998244483112/image2.gif",
@@ -37,7 +37,13 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781377281868300318/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377282270035987/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377283252158484/image2.gif",
-            "https://cdn.discordapp.com/attachments/781312260118806529/781377284031905842/image3.gif"]
+            "https://cdn.discordapp.com/attachments/781312260118806529/781377284031905842/image3.gif",
+            "https://tenor.com/view/bts-suga-kpop-uwu-big-baby-boi-gif-12988023",
+            "https://tenor.com/view/bts-suga-cute-smile-kpop-gif-13230684",
+            "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-suga-suga-gif-17096216",
+            "https://tenor.com/view/bts-suga-laugh-smile-gif-14696728",
+            "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-suga-suga-gif-9734489",
+            "https://tenor.com/view/bts-suga-kpop-cute-smirk-gif-6231660"]
 
         #7
         self.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",

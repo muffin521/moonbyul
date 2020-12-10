@@ -16,6 +16,7 @@ weakado = 259409277482041344
 k8 = 573974040679809044
 mae = 492769416610840586
 kiwi = 390317665463566336
+kate = 382715972722753536
 
 class KpopPings(commands.Cog):
 
@@ -105,7 +106,7 @@ class KpopPings(commands.Cog):
     async def lucas(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart: ')
+                await ctx.send(f'<@{kate}>, <@!{ctx.author.id}> is talking about Lucas :heart: ')
                 await ctx.send(random.choice(self.lucas_gif))
                 await ctx.message.delete()
             else:
