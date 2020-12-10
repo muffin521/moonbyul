@@ -148,7 +148,7 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880"]
 
     #moonbyul command for meeee
-    @commands.command()
+    @commands.command(aliases = ['byul'])
     async def moonbyul(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
