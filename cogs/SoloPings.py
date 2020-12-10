@@ -51,8 +51,66 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/chungha-kim-chungha-kpop-pretty-cute-gif-16653910",
             "https://tenor.com/view/rae-chungha-fancam-play-kpop-gif-18963908",
             "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521270"]
+        
+        #30
+        self.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
+            "https://tenor.com/view/iu-meh-cute-annoyed-gif-14687766",
+            "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
+            "https://tenor.com/view/iu-cindy-cute-producers-smile-gif-17223449",
+            "https://tenor.com/view/iu-hairflip-gif-11159215",
+            "https://tenor.com/view/iu-iu-heart-%EC%95%84%EC%9D%B4%EC%9C%A0-heart-gif-18994163",
+            "https://tenor.com/view/iu-badass-hotel-del-luna-jang-man-wol-gif-14912690",
+            "https://tenor.com/view/iu-jang-man-wol-pensive-hotel-del-luna-drama-gif-16047677",
+            "https://tenor.com/view/cute-clapping-happy-funny-fun-gif-17239556",
+            "https://gfycat.com/smallshadyalbatross",
+            "https://gfycat.com/linedequalgoa",
+            "https://gfycat.com/knobbydelectableindiancow-wisewords-iutv",
+            "https://gfycat.com/adolescentwaterygalapagosmockingbird",
+            "https://tenor.com/view/iu-lee-ji-eun-gif-11126094",
+            "https://tenor.com/view/%EC%97%90%EC%9E%87-%EC%9D%B4%EC%A7%80%EC%9D%80-hello-positive-vibes-iu-gif-17116417",
+            "https://tenor.com/view/iuxsuga-iu-eight-%EC%9D%B4%EC%A7%80%EC%9D%80-smile-iu-gif-17116404",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-korean-hae-soo-gif-16549021",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-korean-pretty-gif-15906983",
+            "https://tenor.com/view/iu-bbibbi-lee-jieun-pretty-beautiful-gif-15740850",
+            "https://tenor.com/view/iu-laugh-cute-anniversary-jieun-gif-18576961",
+            "https://tenor.com/view/iu-iu-cute-iu-blueming-iu-girl-group-iu-love-poem-gif-15592264",
+            "https://tenor.com/view/iu-iu-cute-iu-blueming-iu-girl-group-iu-love-poem-gif-15592209",
+            "https://tenor.com/view/iuxsuga-iu-eight-%EC%9D%B4%EC%A7%80%EC%9D%80-smile-iu-gif-17116404",
+            "https://tenor.com/view/iu-soda-drinks-lee-ji-eun-unnie-angel-gif-18087723",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417749",
+            "https://tenor.com/view/good-job-well-done-daebak-awesome-thumb-up-gif-17648286",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-cute-pretty-gif-17923363",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17845103",
+            "https://tenor.com/view/hotel-del-luna-iu-eating-chew-bite-gif-17750091",
+            "https://tenor.com/view/bye-annyeong-see-ya-see-you-see-you-tomorrow-gif-17648285",
+            "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580",
+            "https://tenor.com/view/iu-lee-ji-eun-wink-cute-pretty-gif-17535138",
+            "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417717"]
 
-    #natty command
+        #8
+        self.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
+            "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
+            "https://tenor.com/view/somi-somsom-silly-tongue-wacky-gif-9002693",
+            "https://tenor.com/view/somi-vitasom-smile-happy-rwar-gif-8960237",
+            "https://tenor.com/view/somi-vitasom-%EC%A0%84%EC%86%8C%EB%AF%B8-%ED%98%BC%ED%98%88-gif-8958800",
+            "https://tenor.com/view/jeon-somi-ioi-stare-hmmp-hmp-gif-14321391",
+            "https://tenor.com/view/jeon-so-mi-gif-8389636",
+            "https://tenor.com/view/somi-jeon-somi-what-you-waiting-for-somi-comeback-somi-teaser-gif-17861737"]
+
+        #8
+        self.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
+            "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
+            "https://tenor.com/view/yukika-japanese-soul-lady-gif-18313007",
+            "https://tenor.com/view/yukika-mixnine-fist-gif-14017170",
+            "https://tenor.com/view/yukika-wave-hello-gif-14017162",
+            "https://tenor.com/view/yukika-hswcix-gif-19442465",
+            "https://tenor.com/view/yukika-gif-19463874",
+            "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979"]
+
+        #
+
+
+
     @commands.command()
     async def natty(self, ctx):
         if ctx.guild.id == luminary:
@@ -68,7 +126,6 @@ class SoloPings(commands.Cog):
             await ctx.send(random.choice(self.natty_gif))
             await ctx.message.delete()
 
-    #alexa command
     @commands.command()
     async def alexa(self, ctx):
         if ctx.guild.id == luminary:
@@ -84,7 +141,6 @@ class SoloPings(commands.Cog):
             await ctx.send(random.choice(self.alexa_gif))
             await ctx.message.delete()
 
-    #chung ha command
     @commands.command()
     async def chungha(self, ctx):
         if ctx.guild.id == luminary:
@@ -100,6 +156,50 @@ class SoloPings(commands.Cog):
             await ctx.send(random.choice(self.chungha_gif))
             await ctx.message.delete()
 
+    @commands.command()
+    async def iu(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about IU :heart:')
+                await ctx.send(random.choice(self.iu_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about IU :heart:')
+            await ctx.send(random.choice(self.iu_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def somi(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
+                await ctx.send(random.choice(self.somi_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
+            await ctx.send(random.choice(self.somi_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def yukika(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
+                await ctx.send(random.choice(self.yukika_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
+            await ctx.send(random.choice(self.yukika_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(SoloPings(client))

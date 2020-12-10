@@ -14,8 +14,8 @@
 
 #todo:
     #!status command- owner, helpers, ping(?)
-    #^Lovelyz Jisoo command for mae and (maybe kiwi)
     #~Yukikia command (weakado and ?)
+    #=emotes for IU & somi & yukika
     #*Devin "let's go" confetti command (JST server) #//can i do this??
 
     #?Minzy

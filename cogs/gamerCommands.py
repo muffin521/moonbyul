@@ -59,7 +59,9 @@ class gamerPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781378241817608192/image3.gif",
             "https://tenor.com/view/soyeon-senorita-g-idle-cute-kpop-kpop-girl-group-gif-15338342",
             "https://tenor.com/view/shuhua-yeh-shuhua-shuhua-gidle-shuhua-idle-gidle-gif-19200395",
-            "https://tenor.com/view/moonbyul-lunch-tang-hulu-cutie-mamamoo-gif-17053045"]
+            "https://tenor.com/view/moonbyul-lunch-tang-hulu-cutie-mamamoo-gif-17053045",
+            "https://tenor.com/view/hotel-del-luna-iu-eating-chew-bite-gif-17750091",
+            "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580"]
 
         self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
