@@ -10,6 +10,9 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+#//people
+gareth = 389897179701182465
+
 class gamerPings(commands.Cog):
 
     def __init__(self, client):
@@ -90,7 +93,7 @@ class gamerPings(commands.Cog):
     async def mina(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Mina :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Mina :heart:')
                 await ctx.send(random.choice(self.mina_gif))
                 await ctx.message.delete()
             else:
@@ -105,7 +108,7 @@ class gamerPings(commands.Cog):
     async def sana(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sana :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Sana :heart:')
                 await ctx.send(random.choice(self.sana_gif))
                 await ctx.message.delete()
             else:
@@ -120,7 +123,7 @@ class gamerPings(commands.Cog):
     async def momo(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Momo :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Momo :heart:')
                 await ctx.send(random.choice(self.momo_gif))
                 await ctx.message.delete()
             else:
@@ -135,7 +138,7 @@ class gamerPings(commands.Cog):
     async def jeongyeon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongyeon :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Jeongyeon :heart:')
                 await ctx.send(random.choice(self.jeongyeon_gif))
                 await ctx.message.delete()
             else:
@@ -150,7 +153,7 @@ class gamerPings(commands.Cog):
     async def tzuyu(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Tzuyu :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Tzuyu :heart:')
                 await ctx.send(random.choice(self.tzuyu_gif))
                 await ctx.message.delete()
             else:
@@ -165,7 +168,7 @@ class gamerPings(commands.Cog):
     async def nayeon(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Nayeon :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Nayeon :heart:')
                 await ctx.send(random.choice(self.nayeon_gif))
                 await ctx.message.delete()
             else:
@@ -180,7 +183,7 @@ class gamerPings(commands.Cog):
     async def dahyun(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Dahyun :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Dahyun :heart:')
                 await ctx.send(random.choice(self.dahyun_gif))
                 await ctx.message.delete()
             else:
@@ -195,7 +198,7 @@ class gamerPings(commands.Cog):
     async def jihyo(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jihyo :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Jihyo :heart:')
                 await ctx.send(random.choice(self.jihyo_gif))
                 await ctx.message.delete()
             else:
@@ -210,7 +213,7 @@ class gamerPings(commands.Cog):
     async def chaeyoung(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyoung :heart:')
+                await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Chaeyoung :heart:')
                 await ctx.send(random.choice(self.chaeyoung_gif))
                 await ctx.message.delete()
             else:
