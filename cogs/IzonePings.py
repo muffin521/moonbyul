@@ -20,7 +20,7 @@ luke = 150742733743587328
 
 class IzonePings(commands.Cog):
 
-#saku and yul commands are special for now bc i cant be asked to fix em rn
+#saku command is special for now bc i cant be asked to fix em rn
 
     def __init__(self, client):
         self.client = client

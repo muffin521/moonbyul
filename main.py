@@ -14,12 +14,11 @@
 
 #todo:
     #!status command- owner, helpers, ping(?)
-    #~Yukikia command (weakado and ?)
     #=emotes for IU & somi & yukika
     #*Devin "let's go" confetti command (JST server) #//can i do this??
+    #^CLC
 
     #?Minzy
-    #?CL
     #?Dara
     #?Bom
 #//custom emojis~ look at kei command in `Lovelyz Pings.py`
@@ -45,7 +44,7 @@ import os
 from discord.ext import commands
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '=')
+client = commands.Bot(command_prefix= '==')
 #takes out help command
 client.remove_command('help')
 

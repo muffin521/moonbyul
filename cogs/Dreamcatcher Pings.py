@@ -30,14 +30,14 @@ class DreamCatcherPings(commands.Cog):
     async def jiu(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about JiU :heart: ')
+                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about JiU :rabbit: ')
                 await ctx.send(random.choice(self.jiu_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about JiU :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about JiU :rabbit:')
             await ctx.send(random.choice(self.jiu_gif))
             await ctx.message.delete()
 

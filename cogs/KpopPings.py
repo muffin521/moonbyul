@@ -67,8 +67,6 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/lucas-smile-cute-poke-cheek-gif-12719055",
             "https://tenor.com/view/lucas-nct-wong-yukhei-wayv-gif-14579895"]
 
-        #
-        #self.yukika_gif = []
 
     #yiren (everglow) command for weakado
     @commands.command()

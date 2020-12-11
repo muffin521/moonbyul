@@ -144,9 +144,7 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
-        if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:
-            # await ctx.send(f'<@389897179701182465> is a bitch ( ͡° ͜ʖ ͡°)')
-            
+        if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:            
             embed=discord.Embed(
                     title = 'llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch',
                     description = '🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁷󠁬󠁳󠁿',
@@ -161,5 +159,13 @@ class gamerPings(commands.Cog):
             await ctx.send(embed=embed)
             await ctx.message.delete()
 
+    @commands.command()
+    async def caillou(self, ctx):
+        await ctx.send(f'Hey, {ctx.author.name} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
+        await ctx.message.delete()
+
+
+
+        
 def setup(client):
     client.add_cog(gamerPings(client))
