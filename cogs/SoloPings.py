@@ -162,14 +162,14 @@ class SoloPings(commands.Cog):
     async def iu(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about IU :heart:')
+                await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
                 await ctx.send(random.choice(self.iu_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about IU :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
             await ctx.send(random.choice(self.iu_gif))
             await ctx.message.delete()
 
