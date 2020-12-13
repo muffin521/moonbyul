@@ -31,7 +31,7 @@ class hcommands(commands.Cog):
         embed1.add_field(name='aespa', value=f'''```\nGiselle\nWinter\nNingNing\nKarina\n ```''')
         embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nKiki\n ```', inline = True)
         embed1.add_field(name='Blackpink', value=f'```\nLisa\nJennie\nJisoo\nRose\n ```', inline = True)
-        embed1.add_field(name='Misc', value=f'``\nS.E.S\nYeeun\nYerin\nLucas\nJiU\nCL```', inline = True)
+        embed1.add_field(name='Misc', value=f'```\nS.E.S\nYeeun\nYerin\nLucas\nJiU\nCL```', inline = True)
         embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika```', inline = True)
         embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n \n ```', inline = True)
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
