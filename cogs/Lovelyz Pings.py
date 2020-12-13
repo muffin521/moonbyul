@@ -173,14 +173,14 @@ class gamerPings(commands.Cog):
     async def kei(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Kei <:hearts_for_kei:785792014657912842>')
+                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Kei <:keiheart:785792014657912842>')
                 await ctx.send(random.choice(self.kei_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Kei <:hearts_for_kei:785792014657912842>')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Kei <:keiheart:785792014657912842>')
             await ctx.send(random.choice(self.kei_gif))
             await ctx.message.delete()
 
@@ -263,14 +263,14 @@ class gamerPings(commands.Cog):
     async def sujeong(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sujeong <:hearts_for_kei:785792014657912842>')
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sujeong <:keiheart:785792014657912842>')
                 await ctx.send(random.choice(self.sujeong_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Sujeong <:hearts_for_kei:785792014657912842>')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sujeong <:keiheart:785792014657912842>')
             await ctx.send(random.choice(self.sujeong_gif))
             await ctx.message.delete()
 
