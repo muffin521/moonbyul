@@ -46,6 +46,18 @@ class PlePings(commands.Cog):
             await ctx.send(random.choice(self.kiki_gif))
             await ctx.message.delete()
 
+    # @commands.command()
+    # @commands.is_owner()
+    # async def gif(self, ctx, arg="basiccc"):
+    #     if arg == "kiki":
+    #         for element in self.kiki_gif:
+    #             await ctx.send(element)
+    #     # elif arg == "sakura":
+    #     #     for element in sakura_gif:
+    #     #         await ctx.send(element)
+    #     else:
+    #         await ctx.send(f'dumbass')
+        
 
 def setup(client):
     client.add_cog(PlePings(client))
