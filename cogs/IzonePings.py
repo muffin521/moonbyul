@@ -269,7 +269,29 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/revolvingaltruisticflatcoatretriever",
             "https://gfycat.com/marvelousmenacingamericanwarmblood",
             "https://gfycat.com/revolvingmajorfinnishspitz"]
-    
+
+        #8
+        self.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
+            "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
+            "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398301",
+            "https://tenor.com/view/nako-cute-kawaii-smile-gif-13731820",
+            "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398294",
+            "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-16463654",
+            "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
+            "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760"]
+
+        #9
+        self.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-16717168",
+            "https://tenor.com/view/izone-hitomi-honda-hitomi-cant-hear-you-kpop-gif-17682854",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-heart-gif-14161599",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-honda-hitomi-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-iz-one-gif-17401631",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-17151675",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-huh-gif-16831035",
+            "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-pretty-gif-16831042",
+            "https://tenor.com/view/hitomi-honda-hitomi-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-cute-gif-13981234"]
+
+
     @commands.command(aliases = ['saku', 'kkura'])
     async def sakura(self, ctx):
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
@@ -418,6 +440,35 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.eunbi_gif))
             await ctx.message.delete()
 
+    @commands.command()
+    async def nako(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+                await ctx.send(random.choice(self.nako_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+            await ctx.send(random.choice(self.nako_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def hitomi(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi :strawberry:')
+                await ctx.send(random.choice(self.hitomi_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi :strawberry:')
+            await ctx.send(random.choice(self.hitomi_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(IzonePings(client))
