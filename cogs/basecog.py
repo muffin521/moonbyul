@@ -247,7 +247,7 @@ class gifcog(commands.Cog):
                 await ctx.senc(x)
         elif arg == "jiae":
             for x in self.bot.jiae_gif:
-                await ctx.senc(x)
+                await ctx.send(x)
         elif arg == "lovelyzjin":
             for x in self.bot.ljin_gif:
                 await ctx.send(x)
@@ -384,10 +384,9 @@ class gifcog(commands.Cog):
                 await ctx.send(x)
 
 
-
-
+    #.else
         else:
-            await ctx.send(f'dumb bitch spell the name right')
+            await ctx.send(f'don\'t write code when you\'re tired smh my head')
 
 def setup(client):
     client.add_cog(gifcog(client))

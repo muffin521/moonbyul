@@ -134,8 +134,7 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-jin-kpop-ooh-gif-15998320",
             "https://tenor.com/view/kpop-lovelyz-jin-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%AA%85%EC%9D%80-gif-18230835",
             "https://tenor.com/view/lovelyz-jin-baby-talking-cute-should-be-like-gif-16057160",
-            "https://tenor.com/view/lovelyz-jin-heart-pretty-cute-gif-16057166",
-            "https://tenor.com/view/izone-sakura-yuri-cute-gif-15886887"]
+            "https://tenor.com/view/lovelyz-jin-heart-pretty-cute-gif-16057166"]
 
         #15
         self.bot.sujeong_gif = ["https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815496",
