@@ -18,11 +18,11 @@ princessuwu = 716841614185857086
 
 class BlackpinkPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #25
-        self.rose_gif = ["https://tenor.com/view/blackpink-cute-ros%C3%A9-mini-heart-kpop-gif-14143584",
+        self.bot.rose_gif = ["https://tenor.com/view/blackpink-cute-ros%C3%A9-mini-heart-kpop-gif-14143584",
             "https://tenor.com/view/rose-blackpink-heart-sign-happy-smile-gif-11901224",
             "https://tenor.com/view/looking-let-me-see-ros%C3%A9-blackpink-rosie-gif-18118559",
             "https://tenor.com/view/blackpink-ros%C3%A9-dance-kpop-gif-14043692",
@@ -49,7 +49,7 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/blackpink-rose-gif-18530274"]
 
         #11
-        self.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
+        self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
             "https://tenor.com/view/jenniekim-gif-18818029",
             "https://tenor.com/view/blackpink-jennie-kiss-cute-gif-18818161",
@@ -62,7 +62,7 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jennie-blackpink-gif-14036697"]
 
         #7
-        self.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
+        self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
             "https://tenor.com/view/lisa-blackpink-cute-girl-gif-15983564",
             "https://tenor.com/view/hi-hello-wave-lisa-lalisa-gif-14924995",
@@ -71,7 +71,7 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/lisa-lalisa-lalisa-manoban-mentor-lisa-kpop-gif-17299890"]
 
         #7
-        self.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
+        self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17944860",
             "https://tenor.com/view/jisoo-gif-18486243",
@@ -84,14 +84,14 @@ class BlackpinkPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jennie :dumpling:')
-                await ctx.send(random.choice(self.jennie_gif))
+                await ctx.send(random.choice(self.bot.jennie_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
-            await ctx.send(random.choice(self.jennie_gif))
+            await ctx.send(random.choice(self.bot.jennie_gif))
             await ctx.message.delete()
 
     @commands.command(aliases=['rosé'])
@@ -99,14 +99,14 @@ class BlackpinkPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Rosé :rose:')
-                await ctx.send(random.choice(self.rose_gif))
+                await ctx.send(random.choice(self.bot.rose_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=6)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
-            await ctx.send(random.choice(self.rose_gif))
+            await ctx.send(random.choice(self.bot.rose_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -114,14 +114,14 @@ class BlackpinkPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Lisa :cat:')
-                await ctx.send(random.choice(self.lisa_gif))
+                await ctx.send(random.choice(self.bot.lisa_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
-            await ctx.send(random.choice(self.lisa_gif))
+            await ctx.send(random.choice(self.bot.lisa_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -129,14 +129,14 @@ class BlackpinkPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-                await ctx.send(random.choice(self.jisoo_gif))
+                await ctx.send(random.choice(self.bot.jisoo_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-            await ctx.send(random.choice(self.jisoo_gif))
+            await ctx.send(random.choice(self.bot.jisoo_gif))
             await ctx.message.delete()
 
 

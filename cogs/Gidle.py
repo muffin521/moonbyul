@@ -17,11 +17,11 @@ muffin = 488423352206229505
 
 class IdlePings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #7
-        self.minnie_gif = ["https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-minnie-%EB%AF%BC%EB%8B%88-%E7%B1%B3%E5%A6%AE-cute-gif-18186679",
+        self.bot.minnie_gif = ["https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-minnie-%EB%AF%BC%EB%8B%88-%E7%B1%B3%E5%A6%AE-cute-gif-18186679",
             "https://tenor.com/view/minnie-gidle-ohmygod-omg-kpop-gif-18256855",
             "https://tenor.com/view/minnie-minnie-nicha-minnie-nicha-yontararak-nicha-yontararak-nicha-gif-18888803",
             "https://tenor.com/view/minnie-gidle-gif-15784676",
@@ -30,7 +30,7 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/minnie-gidle-%EB%AF%BC%EB%8B%88-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-%EC%95%84%EC%9D%B4%EB%93%A4-gif-17062450"]
 
         #8
-        self.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
+        self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962294",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962324",
@@ -40,7 +40,7 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962152"]
 
         #9
-        self.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
+        self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
             "https://tenor.com/view/shuhua-idle-gidle-yeh-shu-hua-cube-entertainment-gif-16929431",
             "https://tenor.com/view/glasses-shuhua-idle-yeh-gidle-gif-13052094",
@@ -51,7 +51,7 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/shuhua-yeh-shuhua-shuhua-gidle-shuhua-idle-gidle-gif-19200395"]
 
         #8
-        self.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
+        self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",
             "https://tenor.com/view/soojin-gidle-wink-gif-13805713",
             "https://tenor.com/view/soojin-seo-soojin-gidle-idle-soojin-gidle-gif-18888703",
@@ -61,7 +61,7 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soojin-gif-19272378"]
 
         #32
-        self.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
+        self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962536",
             "https://tenor.com/view/soyeon-jeon-soyeon-soyeon-gidle-soyeon-idle-gidle-gif-19200289",
@@ -95,7 +95,7 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soyeon-kda-the-baddest-gif-18262396"]
 
         #9
-        self.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
+        self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
             "https://tenor.com/view/yuqi-song-yuqi-smile-eyes-cute-gif-17354259",
             "https://tenor.com/view/gidle-yuqi-mishuqi-wink-gif-17988600",
@@ -110,14 +110,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Minnie :heart:')
-                await ctx.send(random.choice(self.minnie_gif))
+                await ctx.send(random.choice(self.bot.minnie_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Minnie :heart:')
-            await ctx.send(random.choice(self.minnie_gif))
+            await ctx.send(random.choice(self.bot.minnie_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -125,14 +125,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Miyeon :heart:')
-                await ctx.send(random.choice(self.miyeon_gif))
+                await ctx.send(random.choice(self.bot.miyeon_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Miyeon :heart:')
-            await ctx.send(random.choice(self.miyeon_gif))
+            await ctx.send(random.choice(self.bot.miyeon_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -140,14 +140,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Shuhua :heart:')
-                await ctx.send(random.choice(self.shuhua_gif))
+                await ctx.send(random.choice(self.bot.shuhua_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Shuhua :heart:')
-            await ctx.send(random.choice(self.shuhua_gif))
+            await ctx.send(random.choice(self.bot.shuhua_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -155,14 +155,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Soojin :heart:')
-                await ctx.send(random.choice(self.soojin_gif))
+                await ctx.send(random.choice(self.bot.soojin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
-            await ctx.send(random.choice(self.soojin_gif))
+            await ctx.send(random.choice(self.bot.soojin_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -170,14 +170,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@{ple}>, <@!{ctx.author.id}> is talking about Soyeon :lollipop:')
-                await ctx.send(random.choice(self.soyeon_gif))
+                await ctx.send(random.choice(self.bot.soyeon_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Soyeon :lollipop:')
-            await ctx.send(random.choice(self.soyeon_gif))
+            await ctx.send(random.choice(self.bot.soyeon_gif))
             await ctx.message.delete()    
 
     @commands.command()
@@ -185,14 +185,14 @@ class IdlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@!{ctx.author.id}> is talking about Yuqi :heart:')
-                await ctx.send(random.choice(self.yuqi_gif))
+                await ctx.send(random.choice(self.bot.yuqi_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yuqi :heart:')
-            await ctx.send(random.choice(self.yuqi_gif))
+            await ctx.send(random.choice(self.bot.yuqi_gif))
             await ctx.message.delete()
 
 def setup(client):

@@ -52,9 +52,6 @@ class PlePings(commands.Cog):
     #     if arg == "kiki":
     #         for element in self.kiki_gif:
     #             await ctx.send(element)
-    #     # elif arg == "sakura":
-    #     #     for element in sakura_gif:
-    #     #         await ctx.send(element)
     #     else:
     #         await ctx.send(f'dumbass')
         

@@ -63,7 +63,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-moonbyul-gif-18784089",
             "https://tenor.com/view/moonbyul-mamamoo-shot-gun-aya-gif-19031623",
             "https://tenor.com/view/mamamoo-moonbyul-funny-serious-charmander-gif-7724697",
-            "https://media.discordapp.net/attachments/762143545053806592/776173375050874941/moonbyul_gaze.gif"]
+            "https://media.discordapp.net/attachments/762143545053806592/776173375050874941/moonbyul_gaze.gif",
+            "https://cdn.discordapp.com/attachments/787738035143442494/787836404948140042/moon_hair_ruffle_on_stage.gif"]
 
         self.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
             "https://media.discordapp.net/attachments/167744692820246528/768433005726531594/download_1.gif",

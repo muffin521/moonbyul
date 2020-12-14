@@ -22,10 +22,10 @@ class IzonePings(commands.Cog):
 
 #saku command is special for now bc i cant be asked to fix em rn
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
-        self.sakura_gif = ["https://tenor.com/view/sakura-miyawaki-sakura-izone-%E3%81%95%E3%81%8F%E3%82%89-%E5%AE%AE%E8%84%87%E5%92%B2%E8%89%AF-gif-14974458",
+        self.bot.sakura_gif = ["https://tenor.com/view/sakura-miyawaki-sakura-izone-%E3%81%95%E3%81%8F%E3%82%89-%E5%AE%AE%E8%84%87%E5%92%B2%E8%89%AF-gif-14974458",
             "https://gfycat.com/kindlyimmenseilladopsis",
             "https://tenor.com/view/miyawaki-sakura-izone-hkt48-cute-pretty-gif-17693002",
             "https://gfycat.com/bossycoldkite",
@@ -83,7 +83,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/deadobedientdeinonychus",
             "https://tenor.com/view/izone-sakura-yuri-cute-gif-15886887"]
 
-        self.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
+        self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
             "https://tenor.com/view/iz-one-jo-yuri-kpop-cute-pretty-gif-16499123",
             "https://tenor.com/view/jo-yuri-teeth-gif-18614001",
@@ -138,7 +138,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/hotmellowamericanbittern"]
 
         #21
-        self.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
+        self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
             "https://tenor.com/view/iz-one-chaeyeon-smile-gif-15401792",
             "https://tenor.com/view/iz-one-chae-yeon-lee-chae-yeon-heart-rakarukri-gif-13456473",
@@ -160,8 +160,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/imperfectwealthyislandwhistler",
             "https://tenor.com/view/chaeyeon-lee-chaeyeon-izone-chaeyeon-izone-gif-14243671"]
 
-        #18
-        self.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
+        #19
+        self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
             "https://gfycat.com/chubbyemptygalapagosmockingbird",
             "https://gfycat.com/delayedbitterarizonaalligatorlizard",
@@ -178,10 +178,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/minju-kim-minju-izone-gif-18645290",
             "https://tenor.com/view/rykkura-minguri-pretty-beautiful-cute-gif-16891660",
             "https://gfycat.com/impressionabledenseaffenpinscher",
-            "https://gfycat.com/kindrequiredbooby/"]
+            "https://gfycat.com/kindrequiredbooby/",
+            "https://tenor.com/view/izone-minju-pretty-gif-14587149"]
 
         #17
-        self.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
+        self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
             "https://gfycat.com/saneplushbrownbutterfly",
             "https://gfycat.com/glisteningdeafeningcockatoo",
@@ -200,7 +201,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/wonyoung-jang-wonyoung-iz-one-dance-gif-14625438"]
 
         #15
-        self.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
+        self.bot.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-izone-hyewon-beware-gif-18734334",
             "https://tenor.com/view/hyewon-kang-hyewon-iz-one-kwangbae-pretty-gif-17795566",
             "https://tenor.com/view/izone-hyewon-kang-hyewon-rapper-vocalist-gif-17788590",
@@ -218,7 +219,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/hyewon-smile-pretty-gif-13780756"]
 
         #11
-        self.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
+        self.bot.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/loathsomecommonamericancicada",
             "https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/pettygraciousdamselfly",
@@ -231,7 +232,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/greendeficientanophelesmosquito"]
 
         #9
-        self.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
+        self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
             "https://tenor.com/view/ahn-yujin-produce48-gif-12305976",
             "https://tenor.com/view/izone-yujin-gangsta-kpop-danger-gif-18438443",
@@ -242,7 +243,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696"]
 
         #10
-        self.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
+        self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
             "https://tenor.com/view/izone-yena-yena-izone-yena-mirotic-gif-18216289",
             "https://tenor.com/view/choi-yena-yena-produce48-iz-one-juice-gif-15620870",
@@ -254,7 +255,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415"]
 
         #15
-        self.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
+        self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
             "https://gfycat.com/welcomepaleinchworm",
             "https://gfycat.com/tatteredpracticalalligatorgar",
@@ -271,7 +272,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/revolvingmajorfinnishspitz"]
 
         #8
-        self.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
+        self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398301",
             "https://tenor.com/view/nako-cute-kawaii-smile-gif-13731820",
@@ -281,7 +282,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760"]
 
         #9
-        self.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
+        self.bot.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-16717168",
             "https://tenor.com/view/izone-hitomi-honda-hitomi-cant-hear-you-kpop-gif-17682854",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-heart-gif-14161599",
@@ -296,14 +297,14 @@ class IzonePings(commands.Cog):
     async def sakura(self, ctx):
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
             await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
-            await ctx.send(random.choice(self.sakura_gif))
+            await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
         elif ctx.guild.id == luminary and ctx.channel.id != kbotcom:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
-            await ctx.send(random.choice(self.sakura_gif))
+            await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be heart
@@ -311,28 +312,28 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{jat}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-                await ctx.send(random.choice(self.yuri_gif))
+                await ctx.send(random.choice(self.bot.yuri_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-            await ctx.send(random.choice(self.yuri_gif))
+            await ctx.send(random.choice(self.bot.yuri_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be white_heart
     async def chaeyeon(self, ctx):
         if ctx.guild.id == jst:
             await ctx.send(f'<@{luke}>, <@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.chaeyeon_gif))
+            await ctx.send(random.choice(self.bot.chaeyeon_gif))
             await ctx.message.delete()
         elif ctx.channel.id != 764610881513324574 and ctx.guild.id == 758468592957521972:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.chaeyeon_gif))
+            await ctx.send(random.choice(self.bot.chaeyeon_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be frog
@@ -340,14 +341,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
-                await ctx.send(random.choice(self.minju_gif))
+                await ctx.send(random.choice(self.bot.minju_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
-            await ctx.send(random.choice(self.minju_gif))
+            await ctx.send(random.choice(self.bot.minju_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be rabbit
@@ -355,14 +356,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-                await ctx.send(random.choice(self.wonyoung_gif))
+                await ctx.send(random.choice(self.bot.wonyoung_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-            await ctx.send(random.choice(self.wonyoung_gif))
+            await ctx.send(random.choice(self.bot.wonyoung_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be cake
@@ -370,14 +371,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-                await ctx.send(random.choice(self.hyewon_gif))
+                await ctx.send(random.choice(self.bot.hyewon_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-            await ctx.send(random.choice(self.hyewon_gif))
+            await ctx.send(random.choice(self.bot.hyewon_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be woman_fairy
@@ -385,14 +386,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-                await ctx.send(random.choice(self.chaewon_gif))
+                await ctx.send(random.choice(self.bot.chaewon_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-            await ctx.send(random.choice(self.chaewon_gif))
+            await ctx.send(random.choice(self.bot.chaewon_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be woman_fairy
@@ -400,14 +401,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-                await ctx.send(random.choice(self.yujin_gif))
+                await ctx.send(random.choice(self.bot.yujin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-            await ctx.send(random.choice(self.yujin_gif))
+            await ctx.send(random.choice(self.bot.yujin_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be yellow_heart
@@ -415,14 +416,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-                await ctx.send(random.choice(self.yena_gif))
+                await ctx.send(random.choice(self.bot.yena_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-            await ctx.send(random.choice(self.yena_gif))
+            await ctx.send(random.choice(self.bot.yena_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be purple_heart
@@ -430,14 +431,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-                await ctx.send(random.choice(self.eunbi_gif))
+                await ctx.send(random.choice(self.bot.eunbi_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-            await ctx.send(random.choice(self.eunbi_gif))
+            await ctx.send(random.choice(self.bot.eunbi_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -445,14 +446,14 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-                await ctx.send(random.choice(self.nako_gif))
+                await ctx.send(random.choice(self.bot.nako_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-            await ctx.send(random.choice(self.nako_gif))
+            await ctx.send(random.choice(self.bot.nako_gif))
             await ctx.message.delete()
 
     @commands.command() #used to be strawberry
@@ -460,15 +461,16 @@ class IzonePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-                await ctx.send(random.choice(self.hitomi_gif))
+                await ctx.send(random.choice(self.bot.hitomi_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-            await ctx.send(random.choice(self.hitomi_gif))
+            await ctx.send(random.choice(self.bot.hitomi_gif))
             await ctx.message.delete()
+
 
 def setup(client):
     client.add_cog(IzonePings(client))

@@ -17,11 +17,11 @@ rith = 346724857725059075
 
 class aespaPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #7
-        self.giselle_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/781338667973214208/image0.gif",
+        self.bot.giselle_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/781338667973214208/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781338668513886208/image1.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781338669524975616/image2.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/781338670694531072/image3.gif",
@@ -30,7 +30,7 @@ class aespaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/781338672481173514/image6.gif"]
 
         #9
-        self.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
+        self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
                 "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
                 "https://tenor.com/view/aespa-%EC%97%90%EC%8A%A4%ED%8C%8C-%EC%9C%88%ED%84%B0-winter-gif-19207490",
                 "https://tenor.com/view/archive_aespa-aespa-winter-aespa-winter-minjeong-gif-19138516",
@@ -41,7 +41,7 @@ class aespaPings(commands.Cog):
                 "https://cdn.discordapp.com/attachments/771238115255255060/781388914480513064/image2.gif"]
 
         #8
-        self.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
+        self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482430879596544/giphy_1.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482991351463966/tenor_1.gif",
@@ -51,7 +51,7 @@ class aespaPings(commands.Cog):
             "https://tenor.com/view/aespa-giselle-karina-ningning-winter-gif-19293865"]
 
         #6
-        self.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
+        self.bot.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482080427671552/20201028144417-7ae7.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482084324966430/giphy1.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482084869832724/tumblr_0cac220cdb85f9cf71d97263a7935097_de5c9738_540.gif",
@@ -63,14 +63,14 @@ class aespaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{k8}>, <@{rith}> <@!{ctx.author.id}> is talking about Giselle :crescent_moon: ')
-                await ctx.send(random.choice(self.giselle_gif))
+                await ctx.send(random.choice(self.bot.giselle_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Giselle :crescent_moon:')
-            await ctx.send(random.choice(self.giselle_gif))
+            await ctx.send(random.choice(self.bot.giselle_gif))
             await ctx.message.delete()
     
     @commands.command()
@@ -78,14 +78,14 @@ class aespaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Winter :star: ')
-                await ctx.send(random.choice(self.winter_gif))
+                await ctx.send(random.choice(self.bot.winter_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Winter :star:')
-            await ctx.send(random.choice(self.winter_gif))
+            await ctx.send(random.choice(self.bot.winter_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -93,14 +93,14 @@ class aespaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Ningning :star: ')
-                await ctx.send(random.choice(self.ningning_gif))
+                await ctx.send(random.choice(self.bot.ningning_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Ningning :star:')
-            await ctx.send(random.choice(self.ningning_gif))
+            await ctx.send(random.choice(self.bot.ningning_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -108,14 +108,14 @@ class aespaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Karnia :star: ')
-                await ctx.send(random.choice(self.karina_gif))
+                await ctx.send(random.choice(self.bot.karina_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Karina :star:')
-            await ctx.send(random.choice(self.karina_gif))
+            await ctx.send(random.choice(self.bot.karina_gif))
             await ctx.message.delete()
 
 

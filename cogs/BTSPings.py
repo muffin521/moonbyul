@@ -16,11 +16,11 @@ princessuwu = 716841614185857086
 
 class BTSPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #8
-        self.v_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374550419439626/image0.gif",
+        self.bot.v_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374550419439626/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374550906503188/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374551534600212/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374552059543592/image3.gif",
@@ -30,7 +30,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781374553905168405/image7.gif"]
 
         #15
-        self.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
+        self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376998244483112/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376998852788224/image3.gif",
@@ -46,7 +46,7 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/bts-suga-kpop-cute-smirk-gif-6231660"]
 
         #7
-        self.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",
+        self.bot.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376182888431616/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376183551918090/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376184256430100/image3.gif",
@@ -55,7 +55,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781376187368472626/image6.gif"]
 
         #9
-        self.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
+        self.bot.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375486843551775/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375522592129024/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375594725376000/image0.gif",
@@ -66,7 +66,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781375707854012416/image2.gif"]
 
         #12
-        self.jin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
+        self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378240916619264/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378241817608192/image3.gif",
@@ -80,7 +80,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781379997788274698/image1.gif"]
 
         #10
-        self.jimin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781377634956345383/image0.gif",
+        self.bot.jimin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781377634956345383/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377635636609044/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377636190519296/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377637137645578/image3.gif",
@@ -92,7 +92,7 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781377790510760006/image4.gif"]
 
         #9
-        self.rm_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374090497753098/image0.gif",
+        self.bot.rm_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374090497753098/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374226607112252/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374227605225482/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374228132790323/image2.gif",
@@ -107,14 +107,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about V :heart:')
-                await ctx.send(random.choice(self.v_gif))
+                await ctx.send(random.choice(self.bot.v_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about V :heart:')
-            await ctx.send(random.choice(self.v_gif))
+            await ctx.send(random.choice(self.bot.v_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -122,14 +122,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Suga :heart:')
-                await ctx.send(random.choice(self.suga_gif))
+                await ctx.send(random.choice(self.bot.suga_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Suga :heart:')
-            await ctx.send(random.choice(self.suga_gif))
+            await ctx.send(random.choice(self.bot.suga_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ['j-hope'])
@@ -137,14 +137,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about J-Hope :heart:')
-                await ctx.send(random.choice(self.jhope_gif))
+                await ctx.send(random.choice(self.bot.jhope_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about J-Hope :heart:')
-            await ctx.send(random.choice(self.jhope_gif))
+            await ctx.send(random.choice(self.bot.jhope_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -152,14 +152,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
-                await ctx.send(random.choice(self.jungkook_gif))
+                await ctx.send(random.choice(self.bot.jungkook_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
-            await ctx.send(random.choice(self.jungkook_gif))
+            await ctx.send(random.choice(self.bot.jungkook_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -167,14 +167,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jin :heart:')
-                await ctx.send(random.choice(self.jin_gif))
+                await ctx.send(random.choice(self.bot.btsjin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jin :heart:')
-            await ctx.send(random.choice(self.jin_gif))
+            await ctx.send(random.choice(self.bot.btsjin_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -182,14 +182,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jimin :heart:')
-                await ctx.send(random.choice(self.jimin_gif))
+                await ctx.send(random.choice(self.bot.jimin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jimin :heart:')
-            await ctx.send(random.choice(self.jimin_gif))
+            await ctx.send(random.choice(self.bot.jimin_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ['namjoon'])
@@ -197,14 +197,14 @@ class BTSPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about RM :heart:')
-                await ctx.send(random.choice(self.rm_gif))
+                await ctx.send(random.choice(self.bot.rm_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about RM :heart:')
-            await ctx.send(random.choice(self.rm_gif))
+            await ctx.send(random.choice(self.bot.rm_gif))
             await ctx.message.delete()
 
 def setup(client):

@@ -111,6 +111,14 @@ class MaePings(commands.Cog):
             await ctx.send(random.choice(self.jessica_gif))
             await ctx.message.delete()
 
+    # @commands.command()
+    # @commands.is_owner()
+    # async def gif(self, ctx, arg="basiccc"):
+    #     if arg == "taemin":
+    #         for element in self.taemin_gif:
+    #             await ctx.send(element)
+    #     else:
+    #         await ctx.send(f'dumbass')
 
 def setup(client):
     client.add_cog(MaePings(client))
