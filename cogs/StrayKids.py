@@ -103,7 +103,7 @@ class StrayPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command(alias=['bang chan'])
-    async def kdjasdlkasjdkasl(self,ctx):
+    async def bang(self,ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Bang Chan :heart:')
@@ -117,7 +117,7 @@ class StrayPings(commands.Cog):
             await ctx.send(random.choice(self.bangchan_gif))
             await ctx.message.delete()
 
-    @commands.command(aliases=['lee know', 'lee min ho'])
+    @commands.command(aliases=['leeknow', 'leeminho'])
     async def lino(self,ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
