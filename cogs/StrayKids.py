@@ -117,7 +117,7 @@ class StrayPings(commands.Cog):
             await ctx.send(random.choice(self.bangchan_gif))
             await ctx.message.delete()
 
-    @commands.command(aliases=['leeknow', 'leeminho'])
+    @commands.command(aliases=['leeknow', 'leeminho', 'lee'])
     async def lino(self,ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
