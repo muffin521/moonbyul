@@ -137,7 +137,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/freshcontentdavidstiger",
             "https://gfycat.com/hotmellowamericanbittern"]
 
-        #21
+        #22
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
             "https://tenor.com/view/iz-one-chaeyeon-smile-gif-15401792",
@@ -158,7 +158,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-jang-wonyoung-miyawaki-sakura-jo-yuri-choi-yena-gif-17514952",
             "https://tenor.com/view/panorama-mv-izone-chaeyeonvrs-chaeyeon-gif-19460367",
             "https://gfycat.com/imperfectwealthyislandwhistler",
-            "https://tenor.com/view/chaeyeon-lee-chaeyeon-izone-chaeyeon-izone-gif-14243671"]
+            "https://tenor.com/view/chaeyeon-lee-chaeyeon-izone-chaeyeon-izone-gif-14243671",
+            "https://gfycat.com/forcefulfailingbluewhale-chaeyeon-surprise-izone-hyewon-minju-aijeuweon"]
 
         #19
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",

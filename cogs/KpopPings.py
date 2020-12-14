@@ -20,17 +20,10 @@ kate = 382715972722753536
 
 class KpopPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
-        #7
-        self.yiren_gif = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
-            "https://tenor.com/view/love-you-more-wink-side-eye-flirt-smile-gif-16944406",
-            "https://tenor.com/view/%E7%8E%8B%E6%80%A1%E4%BA%BAwang-yiren-cute-kpop-smile-gif-16236336",
-            "https://tenor.com/view/wang-yiren-everglow-kpop-cute-sad-gif-16526333",
-            "https://tenor.com/view/everglow-yiren-wang-yiren-maknae-rapper-gif-15970519",
-            "https://tenor.com/view/wang-yiren-everglow-kpop-fierce-gif-15559282",
-            "https://tenor.com/view/%E7%8E%8B%E6%80%A1%E4%BA%BAwang-yiren-cute-kpop-smile-gif-16236336"]
+
 
         #19
         self.yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
@@ -95,21 +88,6 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/cl-kpop-performance-singer-gif-14566821",
             "https://tenor.com/view/cl-2ne1-rapper-korean-k-pop-gif-9210983"]
 
-    #yiren (everglow) command for weakado
-    @commands.command()
-    async def yiren(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Yiren :orange_heart:')
-                await ctx.send(random.choice(self.yiren_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yiren :orange_heart:')
-            await ctx.send(random.choice(self.yiren_gif))
-            await ctx.message.delete()
     
     #yeeun (clc) command for me
     @commands.command()
@@ -164,6 +142,8 @@ class KpopPings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about CL :cherries:')
             await ctx.send(random.choice(self.cl_gif))
             await ctx.message.delete()
+
+    
 
 def setup(client):
     client.add_cog(KpopPings(client))

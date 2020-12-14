@@ -24,7 +24,7 @@ class gifcog(commands.Cog):
         elif arg == "karina":
             for x in self.bot.karina_gif:
                 await ctx.send(x)
-    #.blackpink 
+    #.Blackpink 
         elif arg == "jennie":
             for x in self.bot.jennie_gif:
                 await ctx.send(x)
@@ -34,7 +34,7 @@ class gifcog(commands.Cog):
         elif arg == "lisa":
             for x in self.bot.lisa_gif:
                 await ctx.send(x)
-        elif arg == "jisoo":
+        elif arg == "blackpinkjisoo":
             for x in self.bot.jisoo_gif:
                 await ctx.send(x)
     #.BTS
@@ -59,11 +59,11 @@ class gifcog(commands.Cog):
         elif arg == "rm":
             for x in self.bot.rm_gif:
                 await ctx.send(x)
-    #.dreamcatcher
+    #.Breamcatcher
         elif arg == "jiu":
             for x in self.bot.jiu_gif:
                 await ctx.send(x)
-    #.enhypen
+    #.Enhypen
         elif arg == "sunoo":
             for x in self.bot.sunoo_gif:
                 await ctx.send(x)
@@ -85,7 +85,42 @@ class gifcog(commands.Cog):
         elif arg == "niki":
             for x in self.bot.niki_gif:
                 await ctx.send(x)
-    #.gidle
+    #.Everglow
+        elif arg == "eu":
+            for x in self.bot.eu_gif:
+                await ctx.send(x)
+        elif arg == "mia":
+            for x in self.bot.mia_gif:
+                await ctx.send(x)
+        elif arg == "yiren":
+            for x in self.bot.yiren_gif:
+                await ctx.send(x)
+        elif arg == "aisha":
+            for x in self.bot.aisha_gif:
+                await ctx.send(x)
+        elif arg == "onda":
+            for x in self.bot.onda_gif:
+                await ctx.send(x)
+        elif arg == "sihyeon":
+            for x in self.bot.sihyeon_gif:
+                await ctx.send(x) 
+    #.EXID
+        elif arg == "hani":
+            for x in self.bot.hani_gif:
+                await ctx.send(x)
+        elif arg == "jeonghwa":
+            for x in self.bot.jeonghwa_gif:
+                await ctx.send(x)
+        elif arg == "le":
+            for x in self.bot.le_gif:
+                await ctx.send(x)
+        elif arg == "solji":
+            for x in self.bot.solji_gif:
+                await ctx.send(x)
+        elif arg == "hyelin":
+            for x in self.bot.hyelin_gif:
+                await ctx.send(x)
+    #.Gidle
         elif arg == "minnie":
             for x in self.bot.minnie_gif:
                 await ctx.send(x)
@@ -104,7 +139,7 @@ class gifcog(commands.Cog):
         elif arg == "yuqi":
             for x in self.bot.yuqi_gif:
                 await ctx.send(x)
-    #.itzy
+    #.Itzy
         elif arg == "yeji":
             for x in self.bot.yeji_gif:
                 await ctx.send(x)
@@ -120,7 +155,7 @@ class gifcog(commands.Cog):
         elif arg == "lia":
             for x in self.bot.lia_gif:
                 await ctx.send(x)
-    #.izone
+    #.Izone
         elif arg == "sakura":
             for x in self.bot.sakura_gif:
                 await ctx.send(x)
@@ -160,6 +195,64 @@ class gifcog(commands.Cog):
     #.Loona
         elif arg == "heejin":
             for x in self.bot.heejin_gif:
+                await ctx.send(x)
+        elif arg == "hyunjin":
+            for x in self.bot.hyunjin_gif:
+                await ctx.send(x)
+        elif arg == "haseul":
+            for x in self.bot.haseul.gif:
+                await ctx.send(x)
+        elif arg == "vivi":
+            for x in self.bot.vivi_gif:
+                await ctx.send(x)
+        elif arg == "yeojin":
+            for x in self.bot.yeojin_gif:
+                await ctx.send(x)
+        elif arg == "kimlip":
+            for x in self.bot.kimlip_gif:
+                await ctx.send(x)
+        elif arg == "jinsoul":
+            for x in self.bot.jinsoul_gif:
+                await ctx.send(x)
+        elif arg == "choerry":
+            for x in self.bot.choerry_gif:
+                await ctx.send(x)
+        elif arg == "yves":
+            for x in self.bot.yves_gif:
+                await ctx.send(x)
+        elif arg == "chuu":
+            for x in self.bot.chuu_gif:
+                await ctx.send(x)
+        elif arg == "gowon":
+            for x in self.bot.gowon_gif:
+                await ctx.send(x)
+        elif arg == "oliviahye":
+            for x in self.bot.oliviahye_gif:
+                await ctx.send(x)
+    #.Lovelyz
+        elif arg == "yein":
+            for x in self.bot.yein_gif:
+                await ctx.send(x)
+        elif arg == "kei":
+            for x in self.bot.kei_gif:
+                await ctx.send(x)
+        elif arg == "lovelyzjisoo":
+            for x in self.bot.ljisoo_gif:
+                await ctx.send(x)
+        elif arg == "babysoul":
+            for x in self.bot.babysoul_gif:
+                await ctx.send(x)
+        elif arg == "mijoo":
+            for x in self.bot.mijoo_gif:
+                await ctx.senc(x)
+        elif arg == "jiae":
+            for x in self.bot.jiae_gif:
+                await ctx.senc(x)
+        elif arg == "lovelyzjin":
+            for x in self.bot.ljin_gif:
+                await ctx.send(x)
+        elif arg == "sujeong":
+            for x in self.bot.sujeong_gif:
                 await ctx.send(x)
 
     #     # elif arg == "soyeon":

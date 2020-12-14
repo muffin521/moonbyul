@@ -63,21 +63,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/hotel-del-luna-iu-eating-chew-bite-gif-17750091",
             "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580"]
 
-        # self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
-        #     "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
-        #     "https://tenor.com/view/kpop-loona-chuu-heart-love-gif-18586088",
-        #     "https://tenor.com/view/chuu-loona-hamburguer-heart-heart-untitled127-gif-13827374",
-        #     "https://tenor.com/view/chuu-loona-chuu-loona-cute-kpop-gif-16242378",
-        #     "https://media.discordapp.net/attachments/758500230386679848/775129870559870976/ezgif-7-864231320452.gif",
-        #     "https://tenor.com/view/seulgi-kang-seulgi-red-velvet-cute-pretty-gif-16937522",
-        #     "https://tenor.com/view/wendy-shon-son-seungwan-red-velvet-%ec%9b%ac%eb%94%94-%eb%a0%88%eb%93%9c%eb%b2%a8%eb%b2%b3-gif-16069063",
-        #     "https://tenor.com/view/yoona-im-yoona-%ec%9c%a4%ec%95%84-snsd-girls-generation-gif-14170845",
-        #     "https://tenor.com/view/heart-love-apple-heart-chuu-heart-da-vinki-gif-18549840",
-        #     "https://tenor.com/view/sakura-izone-sakura-miyawaki-sakura-saku-chan-chaekura-kkura-gif-13532539",
-        #     "https://cdn.discordapp.com/attachments/704248706269970488/776652835617898516/image0.gif",
-        #     "https://tenor.com/view/yeeun-jang-yeeun-cute-clc-kpop-gif-17883335",
-        #     "https://tenor.com/view/g-idle-yuqi-song-yuqi-kpop-cute-gif-17667093"]
-
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
             "https://www.youtube.com/watch?v=05sJVEwZuZ4",
@@ -97,14 +82,6 @@ class gamerPings(commands.Cog):
         else:
             # await ctx.send(f'Aster is the best :smiling_face_with_3_hearts:')
             await ctx.send(random.choice(self.food_gif))
-
-    # @commands.command(aliases = ['nyam', 'chuu heart'])
-    # async def chuuheart(self, ctx):
-    #     if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
-    #     else:
-    #         await ctx.send(f'nyam')
-    #         await ctx.send(random.choice(self.chuuheart_gif))
 
     @commands.command()
     async def screm(self, ctx):
