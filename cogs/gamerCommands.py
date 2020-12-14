@@ -61,7 +61,9 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/shuhua-yeh-shuhua-shuhua-gidle-shuhua-idle-gidle-gif-19200395",
             "https://tenor.com/view/moonbyul-lunch-tang-hulu-cutie-mamamoo-gif-17053045",
             "https://tenor.com/view/hotel-del-luna-iu-eating-chew-bite-gif-17750091",
-            "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580"]
+            "https://tenor.com/view/delicious-cant-stop-unstoppable-eating-again-gif-17375580",
+            "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383",
+            "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

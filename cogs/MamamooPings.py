@@ -21,10 +21,10 @@ agus = 683791381667250208
 
 class MamamooPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
-        self.moonbyul_gif = ["https://tenor.com/view/moonbyul-kiss-for-the-fans-happy-smile-gif-7468790",
+        self.bot.moonbyul_gif = ["https://tenor.com/view/moonbyul-kiss-for-the-fans-happy-smile-gif-7468790",
             "https://tenor.com/view/moonbyul-mamamoo-kpop-laugh-gif-7498808",
             "https://tenor.com/view/korean-girl-fierce-look-cute-gif-17473484",
             "https://tenor.com/view/moonbyul-mamamoo-wanna-be-myself-look-at-me-gif-18404578",
@@ -66,7 +66,7 @@ class MamamooPings(commands.Cog):
             "https://media.discordapp.net/attachments/762143545053806592/776173375050874941/moonbyul_gaze.gif",
             "https://cdn.discordapp.com/attachments/787738035143442494/787836404948140042/moon_hair_ruffle_on_stage.gif"]
 
-        self.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
+        self.bot.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
             "https://media.discordapp.net/attachments/167744692820246528/768433005726531594/download_1.gif",
             "https://gfycat.com/grotesqueicyelephantbeetle",
             "https://gfycat.com/webbedevergreenaustraliankelpie",
@@ -83,7 +83,7 @@ class MamamooPings(commands.Cog):
             "https://gfycat.com/softlinearindianrhinoceros",
             "https://gfycat.com/cornyoccasionalgoldeneye"]
 
-        self.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
+        self.bot.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
             "https://tenor.com/view/mamamoo-solar-kim-yong-sun-leader-vocalist-gif-17148597",
             "https://thumbs.gfycat.com/BlushingForsakenHog-size_restricted.gif",
             "https://i.pinimg.com/originals/63/48/e7/6348e736198b7fa88976143cbbcc1306.gif",
@@ -100,9 +100,10 @@ class MamamooPings(commands.Cog):
             "https://media.discordapp.net/attachments/167744620724355072/773132112336519168/image0.gif",
             "https://media.discordapp.net/attachments/167744620724355072/773132319971213353/image0.gif",
             "https://tenor.com/view/mamamoo-solar-deal-with-it-check-smile-gif-5516677",
-            "https://tenor.com/view/mamamoo-aya-solar-gif-19089175"]
+            "https://tenor.com/view/mamamoo-aya-solar-gif-19089175",
+            "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383"]
 
-        self.hwasa_gif = ["https://gfycat.com/sourvengefulgrouse",
+        self.bot.hwasa_gif = ["https://gfycat.com/sourvengefulgrouse",
             "https://gfycat.com/deliciousforkedcaribou",
             "https://media.discordapp.net/attachments/167744709178032128/753624139041865858/200910-1.gif",
             "https://media.discordapp.net/attachments/167744709178032128/753624178334105631/download_2.gif",
@@ -132,7 +133,7 @@ class MamamooPings(commands.Cog):
             "https://gfycat.com/jampackedboweddutchshepherddog",
             "https://tenor.com/view/mamamoo-kpop-gif-7220709"]
 
-        self.mamamoo_gif = ["https://tenor.com/view/mamamoo-mamamoo-waggy-solar-moonbyul-hwasa-gif-18116888",
+        self.bot.mamamoo_gif = ["https://tenor.com/view/mamamoo-mamamoo-waggy-solar-moonbyul-hwasa-gif-18116888",
             "https://tenor.com/view/mememoo-dc-mamamoo-dream-concert-mamamoo-mememoo-kpop-gif-17921327",
             "https://tenor.com/view/gogobebe-mamamoo-dance-clap-kpop-gif-13821772",
             "https://tenor.com/view/gogobebe-mamamoo-dance-kpop-gif-13821774",
@@ -148,36 +149,34 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-mamamoo-teletubbies-mamamoo-teletubbies-bow-gif-18784086",
             "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880"]
 
-    #moonbyul command for meeee
     @commands.command(aliases = ['byul'])
     async def moonbyul(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Moonbyul :heart:')
-                await ctx.send(random.choice(self.moonbyul_gif))
+                await ctx.send(random.choice(self.bot.moonbyul_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Moonbyul :heart:')
-            await ctx.send(random.choice(self.moonbyul_gif))
+            await ctx.send(random.choice(self.bot.moonbyul_gif))
             await ctx.message.delete()
 
-    #wheein command for me and stanley and rith and masa and agus
     @commands.command()
     async def wheein(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}>, <@!{ctx.author.id}> is talking about Wheein :white_heart:')
-                await ctx.send(random.choice(self.wheein_gif))
+                await ctx.send(random.choice(self.bot.wheein_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Wheein :white_heart:')
-            await ctx.send(random.choice(self.wheein_gif))
+            await ctx.send(random.choice(self.bot.wheein_gif))
             await ctx.message.delete()
     
     #solar command for me and mae
@@ -186,14 +185,14 @@ class MamamooPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@{mae}>, <@!{ctx.author.id}> is talking about Solar :blue_heart:')
-                await ctx.send(random.choice(self.solar_gif))
+                await ctx.send(random.choice(self.bot.solar_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Solar :blue_heart:')
-            await ctx.send(random.choice(self.solar_gif))
+            await ctx.send(random.choice(self.bot.solar_gif))
             await ctx.message.delete()
 
     #hwasa command for me
@@ -202,14 +201,14 @@ class MamamooPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
-                await ctx.send(random.choice(self.hwasa_gif))
+                await ctx.send(random.choice(self.bot.hwasa_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
-            await ctx.send(random.choice(self.hwasa_gif))
+            await ctx.send(random.choice(self.bot.hwasa_gif))
             await ctx.message.delete()
 
     #mamamoo command
@@ -218,14 +217,14 @@ class MamamooPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Mamamoo :green_heart:')
-                await ctx.send(random.choice(self.mamamoo_gif))
+                await ctx.send(random.choice(self.bot.mamamoo_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Mamamoo :green_heart:')
-            await ctx.send(random.choice(self.mamamoo_gif))
+            await ctx.send(random.choice(self.bot.mamamoo_gif))
             await ctx.message.delete()
 
 

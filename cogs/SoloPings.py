@@ -15,11 +15,11 @@ kbotcom = 764610881513324574
 
 class SoloPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #9
-        self.natty_gif = ["https://thumbs.gfycat.com/BlankBlaringAmurratsnake-size_restricted.gif",
+        self.bot.natty_gif = ["https://thumbs.gfycat.com/BlankBlaringAmurratsnake-size_restricted.gif",
             "https://thumbs.gfycat.com/ScholarlyUnitedCutworm-max-1mb.gif",
             "https://media.giphy.com/media/f7Xr9BVORnb0vDEraT/giphy.gif",
             "https://giphy.com/gifs/jpEGzlpjwOn1RK0qlZ",
@@ -30,7 +30,7 @@ class SoloPings(commands.Cog):
             "https://giphy.com/gifs/hL7aBcWxpzp0VrljNu"]
 
         #9
-        self.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
+        self.bot.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
             "https://tenor.com/view/alexa-alexa-kpop-wink-cute-wink-alex-christine-gif-18426203",
             "https://tenor.com/view/sunlight-alexa-alexa-kpop-villain-alexa-villain-gif-18426653",
             "https://tenor.com/view/alexa-kpop-alexa-dance-do-or-die-alexazblabel-gif-18228202",
@@ -41,7 +41,7 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902"]
 
         #10
-        self.chungha_gif = ["https://tenor.com/view/kiss-love-chunga-korean-gif-11126096",
+        self.bot.chungha_gif = ["https://tenor.com/view/kiss-love-chunga-korean-gif-11126096",
             "https://tenor.com/view/chungha-gif-18541917",
             "https://tenor.com/view/chungha-stare-smokey-eyes-gif-14390425",
             "https://tenor.com/view/chungha-gif-14681679",
@@ -53,7 +53,7 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521270"]
         
         #32+
-        self.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
+        self.bot.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
             "https://tenor.com/view/iu-meh-cute-annoyed-gif-14687766",
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
             "https://tenor.com/view/iu-cindy-cute-producers-smile-gif-17223449",
@@ -90,7 +90,7 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417"]
 
         #8
-        self.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
+        self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
             "https://tenor.com/view/somi-somsom-silly-tongue-wacky-gif-9002693",
             "https://tenor.com/view/somi-vitasom-smile-happy-rwar-gif-8960237",
@@ -100,7 +100,7 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/somi-jeon-somi-what-you-waiting-for-somi-comeback-somi-teaser-gif-17861737"]
 
         #8
-        self.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
+        self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18313007",
             "https://tenor.com/view/yukika-mixnine-fist-gif-14017170",
@@ -118,14 +118,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
-                await ctx.send(random.choice(self.natty_gif))
+                await ctx.send(random.choice(self.bot.natty_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
-            await ctx.send(random.choice(self.natty_gif))
+            await ctx.send(random.choice(self.bot.natty_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -133,14 +133,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
-                await ctx.send(random.choice(self.alexa_gif))
+                await ctx.send(random.choice(self.bot.alexa_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
-            await ctx.send(random.choice(self.alexa_gif))
+            await ctx.send(random.choice(self.bot.alexa_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -148,14 +148,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
-                await ctx.send(random.choice(self.chungha_gif))
+                await ctx.send(random.choice(self.bot.chungha_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
-            await ctx.send(random.choice(self.chungha_gif))
+            await ctx.send(random.choice(self.bot.chungha_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -163,14 +163,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
-                await ctx.send(random.choice(self.iu_gif))
+                await ctx.send(random.choice(self.bot.iu_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
-            await ctx.send(random.choice(self.iu_gif))
+            await ctx.send(random.choice(self.bot.iu_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -178,14 +178,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
-                await ctx.send(random.choice(self.somi_gif))
+                await ctx.send(random.choice(self.bot.somi_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
-            await ctx.send(random.choice(self.somi_gif))
+            await ctx.send(random.choice(self.bot.somi_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -193,14 +193,14 @@ class SoloPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
-                await ctx.send(random.choice(self.yukika_gif))
+                await ctx.send(random.choice(self.bot.yukika_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
-            await ctx.send(random.choice(self.yukika_gif))
+            await ctx.send(random.choice(self.bot.yukika_gif))
             await ctx.message.delete()
 
 def setup(client):

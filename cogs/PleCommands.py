@@ -16,11 +16,11 @@ mae = 492769416610840586
 
 class PlePings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #8
-        self.kiki_gif = ["https://tenor.com/view/xu-kiki-xu-jiaqi-7senses-the9-snh48-gif-17740947",
+        self.bot.kiki_gif = ["https://tenor.com/view/xu-kiki-xu-jiaqi-7senses-the9-snh48-gif-17740947",
             "https://tenor.com/view/xu-jiaqi-kiki-7senses-snh48-slide-gif-17754236",
             "https://tenor.com/view/xu-jiaqi-pretty-cute-kiki-7senses-gif-17837322",
             "https://tenor.com/view/xu-jiaqi-kiki-7senses-snh48-smile-gif-17946346",
@@ -36,14 +36,14 @@ class PlePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ple}>, <@{mae}>, <@!{ctx.author.id}> is talking about Kiki')
-                await ctx.send(random.choice(self.kiki_gif))
+                await ctx.send(random.choice(self.bot.kiki_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@416903886968979466>, <@492769416610840586>, <@!{ctx.author.id}> is talking about Kiki')
-            await ctx.send(random.choice(self.kiki_gif))
+            await ctx.send(random.choice(self.bot.kiki_gif))
             await ctx.message.delete()
 
     # @commands.command()

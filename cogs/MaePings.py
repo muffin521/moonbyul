@@ -15,11 +15,11 @@ mae = 492769416610840586
 
 class MaePings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #10
-        self.krystal_gif = ["https://tenor.com/view/krystal-gif-18548219",
+        self.bot.krystal_gif = ["https://tenor.com/view/krystal-gif-18548219",
             "https://tenor.com/view/krystal-jung-fx-sunglasses-cute-gif-17279699",
             "https://tenor.com/view/krystal-fx-gif-5547157",
             "https://tenor.com/view/krystal-jung-jung-soojung-fx-krystal-smile-gif-14392248",
@@ -31,7 +31,7 @@ class MaePings(commands.Cog):
             "https://tenor.com/view/krystal-jung-jung-soojung-fx-krystal-tip-hat-gif-14392249"]
 
         #11
-        self.jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
+        self.bot.jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
             "https://tenor.com/view/jessica-jung-kpop-ginkoro-jessica-wonderland-gif-18005874",
             "https://tenor.com/view/jessica-jessica-jung-pose-mic-take-skirt-off-gif-15862312",
             "https://tenor.com/view/snsd-igab-igot-aboy-kpop-jessica-gif-13432098",
@@ -44,7 +44,7 @@ class MaePings(commands.Cog):
             "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
         
         #18
-        self.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
+        self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
             "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
             "https://tenor.com/view/taemin-shinee-kpop-shirtless-concert-gif-5097931",
             "https://tenor.com/view/shinee-taemin-kpop-gif-7235119",
@@ -69,14 +69,14 @@ class MaePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
-                await ctx.send(random.choice(self.taemin_gif))
+                await ctx.send(random.choice(self.bot.taemin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
-            await ctx.send(random.choice(self.taemin_gif))
+            await ctx.send(random.choice(self.bot.taemin_gif))
             await ctx.message.delete()
 
     #krystal command for mae
@@ -85,14 +85,14 @@ class MaePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Krystal :gem:')
-                await ctx.send(random.choice(self.krystal_gif))
+                await ctx.send(random.choice(self.bot.krystal_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Krystal :gem:')
-            await ctx.send(random.choice(self.krystal_gif))
+            await ctx.send(random.choice(self.bot.krystal_gif))
             await ctx.message.delete()
 
     #jessica jung command for mae
@@ -101,14 +101,14 @@ class MaePings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Jessica :smiling_face_with_3_hearts:')
-                await ctx.send(random.choice(self.jessica_gif))
+                await ctx.send(random.choice(self.bot.jessica_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jessica :smiling_face_with_3_hearts:')
-            await ctx.send(random.choice(self.jessica_gif))
+            await ctx.send(random.choice(self.bot.jessica_gif))
             await ctx.message.delete()
 
     # @commands.command()

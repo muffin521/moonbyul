@@ -26,7 +26,7 @@ class KpopPings(commands.Cog):
 
 
         #19
-        self.yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
+        self.bot.yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
             "https://tenor.com/view/yeeun-clc-gif-19116004",
             "https://tenor.com/view/yeeun-clc-gif-19116007",
             "https://tenor.com/view/yeeun-clc-gif-19116012",
@@ -48,7 +48,7 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/crystal-clear-jang-kpop-devil-yeeun-gif-14999392"]
 
         #11
-        self.lucas_gif = ["https://tenor.com/view/lucas-wayv-heart-gif-14723401",
+        self.bot.lucas_gif = ["https://tenor.com/view/lucas-wayv-heart-gif-14723401",
             "https://tenor.com/view/smile-handsome-cute-lucas-nct-gif-15246419",
             "https://tenor.com/view/nct-lucas-nct-lucas-cute-smile-gif-12612522",
             "https://tenor.com/view/nct-lucas-being-extra-hi-gif-14904496",
@@ -61,7 +61,7 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/lucas-nct-wong-yukhei-wayv-gif-14579895"]
 
         #17
-        self.ses_mv = ["https://www.youtube.com/watch?v=WpmTLDtr4qY", #im your girl
+        self.bot.ses_mv = ["https://www.youtube.com/watch?v=WpmTLDtr4qY", #im your girl
             "https://www.youtube.com/watch?v=ZpJJIK1gK6I", #oh my love
             "https://www.youtube.com/watch?v=q_yyXw83rt8", #dreams come true 
             "https://www.youtube.com/watch?v=Z3UBcSRxjo0", #i love you
@@ -80,13 +80,15 @@ class KpopPings(commands.Cog):
             ]
 
         #6
-        self.cl_gif = ["https://media.discordapp.net/attachments/771238115255255060/785288565273788426/image2.gif",
+        self.bot.cl_gif = ["https://media.discordapp.net/attachments/771238115255255060/785288565273788426/image2.gif",
             "https://media.discordapp.net/attachments/771238115255255060/785288564912160819/image1.gif",
             "https://media.discordapp.net/attachments/771238115255255060/785288541785161758/image0.gif",
             "https://tenor.com/view/cl-hello-bitches-group-show-gif-14566826",
             "https://tenor.com/view/2ne1-cl-chaelin-chaerin-chaelin-lee-gif-7177115",
             "https://tenor.com/view/cl-kpop-performance-singer-gif-14566821",
-            "https://tenor.com/view/cl-2ne1-rapper-korean-k-pop-gif-9210983"]
+            "https://tenor.com/view/cl-2ne1-rapper-korean-k-pop-gif-9210983",
+            "https://tenor.com/view/2ne1-hello-kpop-hi-gif-14032003",
+            "https://tenor.com/view/2ne1-chaelin-cl-chaelin-lee-mocking-gif-7177330"]
 
     
     #yeeun (clc) command for me
@@ -95,14 +97,14 @@ class KpopPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Yeeun :heart:')
-                await ctx.send(random.choice(self.yeeun_gif))
+                await ctx.send(random.choice(self.bot.yeeun_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
-            await ctx.send(random.choice(self.yeeun_gif))
+            await ctx.send(random.choice(self.bot.yeeun_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -110,14 +112,14 @@ class KpopPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{kate}>, <@!{ctx.author.id}> is talking about Lucas :heart: ')
-                await ctx.send(random.choice(self.lucas_gif))
+                await ctx.send(random.choice(self.bot.lucas_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart:')
-            await ctx.send(random.choice(self.lucas_gif))
+            await ctx.send(random.choice(self.bot.lucas_gif))
             await ctx.message.delete()
     
     @commands.command(aliases = ['s.e.s'])
@@ -126,21 +128,21 @@ class KpopPings(commands.Cog):
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
         else:
-            await ctx.send(f'''S.E.S was a three member group under SM Ent. that debuted in 1996 with the album I\'m Your Girl, and lead single with the same title, making them part of the first generation. They had a fairy concept, and won mulitple bonsangs due to their unique concept. S.E.S disbanded in 2002, only 5 years after debut. In 2016-2017, they briefly reunited for their 20th anniversary, releasing a song on SM Station (Love [Story]), which is a remake of their debut song "I'm Your Girl" and lead single from their third album, "Love", and their 7th Studio album, Remember - S.E.S 20th Anniversary Special.\n{random.choice(self.ses_mv)}''')
+            await ctx.send(f'''S.E.S was a three member group under SM Ent. that debuted in 1996 with the album I\'m Your Girl, and lead single with the same title, making them part of the first generation. They had a fairy concept, and won mulitple bonsangs due to their unique concept. S.E.S disbanded in 2002, only 5 years after debut. In 2016-2017, they briefly reunited for their 20th anniversary, releasing a song on SM Station (Love [Story]), which is a remake of their debut song "I'm Your Girl" and lead single from their third album, "Love", and their 7th Studio album, Remember - S.E.S 20th Anniversary Special.\n{random.choice(self.bot.ses_mv)}''')
 
     @commands.command()
     async def cl(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about CL :cherries: ')
-                await ctx.send(random.choice(self.cl_gif))
+                await ctx.send(random.choice(self.bot.cl_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about CL :cherries:')
-            await ctx.send(random.choice(self.cl_gif))
+            await ctx.send(random.choice(self.bot.cl_gif))
             await ctx.message.delete()
 
     

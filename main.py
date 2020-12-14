@@ -14,7 +14,7 @@
 
 #todo:
     #!status command- owner, helpers, ping(?)
-    #=emotes for IU & somi & yukika
+    #=emotes for somi & yukika
     #*Devin "let's go" confetti command (JST server) #//can i do this??
     #^CLC
 

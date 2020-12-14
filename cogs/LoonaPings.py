@@ -23,11 +23,11 @@ manman = 320520067265724416
 
 class LoonaPings(commands.Cog):
 
-    def __init__(self, client):
-        self.client = client
+    def __init__(self, bot):
+        self.bot = bot
 
         #10
-        self.heejin_gif = ["https://tenor.com/view/%EC%9D%B4%EB%8B%AC%EC%9D%98%EC%86%8C%EB%85%80-%ED%9D%AC%EC%A7%84-loona-heejin-dancing-gif-15500748",
+        self.bot.heejin_gif = ["https://tenor.com/view/%EC%9D%B4%EB%8B%AC%EC%9D%98%EC%86%8C%EB%85%80-%ED%9D%AC%EC%A7%84-loona-heejin-dancing-gif-15500748",
             "https://tenor.com/view/heejin-waving-hi-hello-smile-gif-16980677",
             "https://tenor.com/view/heejin-loona-gif-18855977",
             "https://tenor.com/view/heejin-loona-gif-18630598",
@@ -39,7 +39,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/heejin-loona-gif-18855973"]
 
         #16
-        self.hyunjin_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/771239029291221022/image0.gif",
+        self.bot.hyunjin_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/771239029291221022/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239029982101534/image1.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239030301786132/image2.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239030984933376/image3.gif",
@@ -57,7 +57,7 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/777819045034065920/image2.gif"]
 
         #11
-        self.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
+        self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
             "https://tenor.com/view/haseul-loona-butterfly-dancing-kpop-gif-15567623",
             "https://tenor.com/view/let-me-in-haseul-loona-jo-haseul-music-video-gif-16481945",
@@ -70,7 +70,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/loona-haseul-kpop-gif-13775182"]
 
         #13
-        self.vivi_gif = ["https://tenor.com/view/vivi-loona-gif-19076955",
+        self.bot.vivi_gif = ["https://tenor.com/view/vivi-loona-gif-19076955",
             "https://tenor.com/view/vivi-loona-gif-19186243",
             "https://tenor.com/view/loona-vivi-cute-wong-kaahei-kpop-gif-17900498",
             "https://tenor.com/view/loona-vivi-gif-18868377",
@@ -85,7 +85,7 @@ class LoonaPings(commands.Cog):
             "https://media.discordapp.net/attachments/743512478411128834/778910394126565376/vivi_peekaboo.gif"]
 
         #13
-        self.yeojin_gif = ["https://tenor.com/view/yeojin-loona-star-gif-19239212",
+        self.bot.yeojin_gif = ["https://tenor.com/view/yeojin-loona-star-gif-19239212",
             "https://tenor.com/view/glasses-loona-yeojin-cute-gif-14375086",
             "https://tenor.com/view/yeojin-loona-im-yeojin-gun-aim-gif-16706146",
             "https://tenor.com/view/kiss-later-loona-yeojin-im-yeojin-maknae-gif-17090973",
@@ -97,10 +97,11 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/yeojin-cute-loona-frog-finger-guns-gif-14374690",
             "https://tenor.com/view/yeojin-wiggle-kpop-loona-dance-gif-17207445",
             "https://tenor.com/view/loona-dancing-yeojin-kpop-gif-18890861",
-            "https://tenor.com/view/yeojin-loona-cute-yes-surprised-gif-14381686"]
+            "https://tenor.com/view/yeojin-loona-cute-yes-surprised-gif-14381686",
+            "https://tenor.com/view/loona-dancing-yeojin-kpop-gif-18890861"]
 
         #13
-        self.kimlip_gif = ["https://thumbs.gfycat.com/CaringAlertHellbender-max-1mb.gif",
+        self.bot.kimlip_gif = ["https://thumbs.gfycat.com/CaringAlertHellbender-max-1mb.gif",
             "https://64.media.tumblr.com/632b50fcf95204b79d978049034e2f9f/tumblr_pe89snEig71x29wuzo4_250.gif",
             "https://i.pinimg.com/originals/b8/22/88/b82288fdc234bd0a50be07ae1ec212ef.gif",
             "https://thumbs.gfycat.com/WeeSillyAngelfish-max-1mb.gif",
@@ -115,7 +116,7 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/40ad336b08f95aa5490afeedf10df5c6/tumblr_p92066rl3z1w5jkuno5_r1_500.gif"]
 
         #14
-        self.jinsoul_gif = ["https://tenor.com/view/jinsoul-loona-whynot-gif-18990936",
+        self.bot.jinsoul_gif = ["https://tenor.com/view/jinsoul-loona-whynot-gif-18990936",
             "https://tenor.com/view/loona-whynot-jinsoul-gif-19093071",
             "https://tenor.com/view/jinsoul-loona-gif-11882928",
             "https://tenor.com/view/jinsoul-loona-gif-11882987",
@@ -131,7 +132,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/jinsoul-gif-18689119"]
 
         #7
-        self.choerry_gif = ["https://tenor.com/view/choerry-loona-gif-18740424",
+        self.bot.choerry_gif = ["https://tenor.com/view/choerry-loona-gif-18740424",
             "https://tenor.com/view/loona-choerry-kpop-cute-wave-gif-16635613",
             "https://tenor.com/view/choi-yerim-choerry-kpop-paper-loona-gif-17213985",
             "https://cdn.discordapp.com/attachments/747275528993636424/775111507486310450/4ab7d195-ce65-423a-a177-cb1f6a6a7648.gif",
@@ -140,7 +141,7 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/747275528993636424/775112225965867048/2002192.gif"]
         
         #12
-        self.yves_gif = ["https://tenor.com/view/yves-loona-fainting-jail-kpop-gif-18490526",
+        self.bot.yves_gif = ["https://tenor.com/view/yves-loona-fainting-jail-kpop-gif-18490526",
             "https://tenor.com/view/loona-whynot-yves-gif-18911743",
             "https://tenor.com/view/loona-yves-gif-19104615",
             "https://tenor.com/view/yves-loona-gif-19166650",
@@ -154,7 +155,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/yves-loona-come-here-come-with-me-gif-16467667"]
 
         #17
-        self.chuu_gif = ["https://tenor.com/view/chuu-loona-jiwoo-loona-chuu-heart-attack-gif-19200978",
+        self.bot.chuu_gif = ["https://tenor.com/view/chuu-loona-jiwoo-loona-chuu-heart-attack-gif-19200978",
             "https://tenor.com/view/fome-eat-hungry-snow-girl-gif-17723791",
             "https://tenor.com/view/chuu-heart-attack-arrow-gif-15516607",
             "https://tenor.com/view/chuu-chuu-heart-loona-loona-heart-kpop-girl-gif-15567590",
@@ -173,7 +174,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/chuu-loona-ne-yes-cute-gif-14954652"]
 
         #13
-        self.gowon_gif = ["https://tenor.com/view/gowon-park-gowon-park-chaewon-loona-loona-gowon-gif-13191168",
+        self.bot.gowon_gif = ["https://tenor.com/view/gowon-park-gowon-park-chaewon-loona-loona-gowon-gif-13191168",
             "https://tenor.com/view/loona-go-won-kpop-gif-14252120",
             "https://tenor.com/view/gowon-loona-gif-11903470",
             "https://tenor.com/view/loona-gowon-gif-18868391",
@@ -188,7 +189,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/loona-gowon-yawning-kpop-gif-18890935"]
 
         #13
-        self.oliviahye_gif = ["https://tenor.com/view/loona-olivia-hye-hyejoo-cute-beautiful-gif-16689725",
+        self.bot.oliviahye_gif = ["https://tenor.com/view/loona-olivia-hye-hyejoo-cute-beautiful-gif-16689725",
             "https://tenor.com/view/loona-olivia-hye-son-hyejoo-bunny-ears-bunny-gif-16778977",
             "https://tenor.com/view/olivia-hye-hyejoo-olivia-hey-loona-loona-olivia-hye-gif-16808778",
             "https://tenor.com/view/loona-olivia-hye-son-hyejoo-dancer-vocalist-gif-17147871",
@@ -203,7 +204,7 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/oliviahye-gif-18868773"]
 
         #idk man
-        self.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
+        self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
             "https://tenor.com/view/kpop-loona-chuu-heart-love-gif-18586088",
             "https://tenor.com/view/chuu-loona-hamburguer-heart-heart-untitled127-gif-13827374",
@@ -223,14 +224,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@{aeong}>, <@!{ctx.author.id}> is talking about Heejin :rabbit:')
-                await ctx.send(random.choice(self.heejin_gif))
+                await ctx.send(random.choice(self.bot.heejin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Heejin :rabbit:')
-            await ctx.send(random.choice(self.heejin_gif))
+            await ctx.send(random.choice(self.bot.heejin_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -238,14 +239,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{k8}>, <@{aeong}>, <@!{ctx.author.id}> is talking about Hyunjin :cat::bread:')
-                await ctx.send(random.choice(self.hyunjin_gif))
+                await ctx.send(random.choice(self.bot.hyunjin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyunjin :cat::bread:')
-            await ctx.send(random.choice(self.hyunjin_gif))
+            await ctx.send(random.choice(self.bot.hyunjin_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -253,14 +254,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Haseul :dove::green_heart:')
-                await ctx.send(random.choice(self.haseul_gif))
+                await ctx.send(random.choice(self.bot.haseul_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@{ctx.author.id}> is talking about Haseul :dove::green_heart:')
-            await ctx.send(random.choice(self.haseul_gif))
+            await ctx.send(random.choice(self.bot.haseul_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -268,14 +269,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{manman}>, <@{ctx.author.id}> is talking about ViVi :deer:')
-                await ctx.send(random.choice(self.vivi_gif))
+                await ctx.send(random.choice(self.bot.vivi_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@{ctx.author.id}> is talking about ViVi :deer:')
-            await ctx.send(random.choice(self.vivi_gif))
+            await ctx.send(random.choice(self.bot.vivi_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -283,14 +284,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Yeojin :frog::orange_heart:')
-                await ctx.send(random.choice(self.yeojin_gif))
+                await ctx.send(random.choice(self.bot.yeojin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@{ctx.author.id}> is talking about Yeojin :frog::orange_heart:')
-            await ctx.send(random.choice(self.yeojin_gif))
+            await ctx.send(random.choice(self.bot.yeojin_gif))
             await ctx.message.delete()
 
 
@@ -300,14 +301,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{stanley}>, <@!{ctx.author.id}> is talking about Kim Lip :owl:')
-                await ctx.send(random.choice(self.kimlip_gif))
+                await ctx.send(random.choice(self.bot.kimlip_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=6)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Kim Lip :owl:')
-            await ctx.send(random.choice(self.kimlip_gif))
+            await ctx.send(random.choice(self.bot.kimlip_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -315,14 +316,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Jinsoul :fish:')
-                await ctx.send(random.choice(self.jinsoul_gif))
+                await ctx.send(random.choice(self.bot.jinsoul_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@{ctx.author.id}> is talking about Jinsoul :fish:')
-            await ctx.send(random.choice(self.jinsoul_gif))
+            await ctx.send(random.choice(self.bot.jinsoul_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -330,14 +331,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{rith}>, <@{ple}>, <@!{ctx.author.id}> is talking about Choerry :bat:')
-                await ctx.send(random.choice(self.choerry_gif))
+                await ctx.send(random.choice(self.bot.choerry_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()            
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Choerry :bat:')
-            await ctx.send(random.choice(self.choerry_gif))
+            await ctx.send(random.choice(self.bot.choerry_gif))
             await ctx.message.delete()
 
 
@@ -347,14 +348,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yves :swan::apple:')
-                await ctx.send(random.choice(self.yves_gif))
+                await ctx.send(random.choice(self.bot.yves_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()            
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yves :swan::apple:')
-            await ctx.send(random.choice(self.yves_gif))
+            await ctx.send(random.choice(self.bot.yves_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -364,19 +365,19 @@ class LoonaPings(commands.Cog):
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
             else:
                 await ctx.send(f'nyam')
-                await ctx.send(random.choice(self.chuuheart_gif))
+                await ctx.send(random.choice(self.bot.chuuheart_gif))
         else:
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Chuu :penguin::strawberry:')
-                    await ctx.send(random.choice(self.chuu_gif))
+                    await ctx.send(random.choice(self.bot.chuu_gif))
                     await ctx.message.delete()
                 else:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()            
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chuu :penguin::strawberry:')
-                await ctx.send(random.choice(self.chuu_gif))
+                await ctx.send(random.choice(self.bot.chuu_gif))
                 await ctx.message.delete()
 
     @commands.command()
@@ -384,14 +385,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{rith}>, <@{masa}>, <@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
-                await ctx.send(random.choice(self.gowon_gif))
+                await ctx.send(random.choice(self.bot.gowon_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()            
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
-            await ctx.send(random.choice(self.gowon_gif))
+            await ctx.send(random.choice(self.bot.gowon_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ['hyejoo', 'hye', 'olivia'])
@@ -399,14 +400,14 @@ class LoonaPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
-                await ctx.send(random.choice(self.oliviahye_gif))
+                await ctx.send(random.choice(self.bot.oliviahye_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()            
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
-            await ctx.send(random.choice(self.oliviahye_gif))
+            await ctx.send(random.choice(self.bot.oliviahye_gif))
             await ctx.message.delete()
     
 
