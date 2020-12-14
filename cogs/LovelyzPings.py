@@ -23,7 +23,6 @@ class gamerPings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        #21
         self.bot.yein_gif = ["https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-yein-%EC%98%88%EC%9D%B8-gif-18419239",
             "https://tenor.com/view/lovelyz-yein-%EC%98%88%EC%9D%B8-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-kpop-gif-16459793",
             "https://tenor.com/view/lovelyz-kpop-yein-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%98%88%EC%9D%B8-gif-18588376",
@@ -46,7 +45,6 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/lavishteemingalligatorgar",
             "https://tenor.com/view/%EC%A0%95%EC%98%88%EC%9D%B8-gif-18273271"]
 
-        #20
         self.bot.kei_gif = ["https://tenor.com/view/lovelyz-kpop-kei-heart-%eb%9f%ac%eb%b8%94%eb%a6%ac%ec%a6%88-gif-18565559",
             "https://tenor.com/view/obliviate-lovelyz-lovelyzkei-kimjiyeon-kei-gif-18226419",
             "https://media.discordapp.net/attachments/448355257383387138/738587515237302312/254A623658B808590C.gif",
@@ -66,9 +64,9 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/kpop-korean-lovelyz-kei-gif-10760160",
             "https://tenor.com/view/lovelyz-kei-mijoo-kiss-kpop-gif-16318978",
             "https://tenor.com/view/lovelyz-lovelyz-kei-kei-kim-kei-kim-jiyeon-gif-16341360",
-            "https://tenor.com/view/lovelyz-kei-will-kpop-gif-14248063"]
+            "https://tenor.com/view/lovelyz-kei-will-kpop-gif-14248063",
+            "https://tenor.com/view/lovelyz-kei-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%BC%80%EC%9D%B4-gif-19103729"]
 
-        #11
         self.bot.ljisoo_gif = ["https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570444",
             "https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570439",
             "https://tenor.com/view/lovelyz-jisoo-smile-kpop-laugh-gif-16210760",
@@ -81,7 +79,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-oblivate-jisoo-gif-18570440",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-jisoo-%EC%A7%80%EC%88%98-gif-18588384"]
 
-        #10
         self.bot.babysoul_gif = ["https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18331417",
             "https://tenor.com/view/kpop-lovelyz-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18062427",
             "https://tenor.com/view/lovelyz-kpop-babysoul-mijoo-kiss-gif-16319206",
@@ -93,7 +90,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-jisoo-baby-soul-kpop-like-gif-16412292",
             "https://imgur.com/Cgao0Gu"]
 
-        #15
         self.bot.mijoo_gif = ["https://tenor.com/view/mijoo-wink-finger-heart-hearts-flying-gif-13440816",
             "https://tenor.com/view/mijoo-dancing-spin-gif-13440825",
             "https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-mijoo-%EB%AF%B8%EC%A3%BC-gif-16303580",
@@ -110,7 +106,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/mijoo-pose-gif-13440814",
             "https://tenor.com/view/lovelyz-lee-mijoo-mijoo-kpop-pretty-gif-16341282"]
 
-        #12
         self.bot.jiae_gif = ["https://tenor.com/view/lovelyz-jiae-kpop-wait-cute-gif-16204526",
             "https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-jiae-%EC%A7%80%EC%95%A0-gif-16303788",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-jiae-kpop-%EC%A7%80%EC%95%A0-gif-16459876",
@@ -124,7 +119,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-yoo-jiae-jiae-lovelyz-jiae-kpop-gif-16673424",
             "https://tenor.com/view/lovelyz-yoo-jiae-jiae-lovelyz-jiae-kpop-gif-16673446"]
 
-        #11
         self.bot.ljin_gif = ["https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-jin-%EB%AA%85%EC%9D%80-gif-16303377",
             "https://tenor.com/view/sugarman3-%EC%8A%88%EA%B0%80%EB%A7%A83-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-%EB%B0%95%EB%AA%85%EC%9D%80-gif-15800266",
             "https://tenor.com/view/lovelyz-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-jin-kpop-%EB%AA%85%EC%9D%80-gif-18588391",
@@ -136,7 +130,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-jin-baby-talking-cute-should-be-like-gif-16057160",
             "https://tenor.com/view/lovelyz-jin-heart-pretty-cute-gif-16057166"]
 
-        #15
         self.bot.sujeong_gif = ["https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815496",
             "https://tenor.com/view/%EB%A5%98%EC%88%98%EC%A0%95-lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-sujeong-gif-18225977",
             "https://tenor.com/view/sujeon-sujeong-lovelyz-mijoo-babysoul-gif-18201454",
