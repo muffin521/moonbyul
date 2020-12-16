@@ -26,27 +26,27 @@ class exid(commands.Cog):
             "https://tenor.com/view/hani-exid-gif-5407220",
             "https://tenor.com/view/hani-exid-pretty-rose-wink-gif-13667120"] 
         
-        self.bot.jeonghwa_gif = ["https://gfycat.com/energeticboringchafer"
-            "https://tenor.com/beIfZ.gif"
-            "https://gfycat.com/remarkablehollowelk"
-            "https://gfycat.com/gravegrouchycaimanlizard"
+        self.bot.jeonghwa_gif = ["https://gfycat.com/energeticboringchafer",
+            "https://tenor.com/beIfZ.gif",
+            "https://gfycat.com/remarkablehollowelk",
+            "https://gfycat.com/gravegrouchycaimanlizard",
             "https://gfycat.com/bluewealthycatfish"]
 
-        self.bot.le_gif = ["https://gfycat.com/bronzeamazingcob"
-            "https://gfycat.com/impoliteremoteanaconda"
-            "https://gfycat.com/wastefulweeklyinsect"
+        self.bot.le_gif = ["https://gfycat.com/bronzeamazingcob",
+            "https://gfycat.com/impoliteremoteanaconda",
+            "https://gfycat.com/wastefulweeklyinsect",
             "https://tenor.com/83yR.gif"]
         
-        self.bot.solji_gif = ["https://gfycat.com/astonishinghairybobwhite"
-            "https://gfycat.com/alllastcanine"
-            "https://gfycat.com/thinimperturbableargentinehornedfrog"
-            "https://tenor.com/beIgg.gif"
+        self.bot.solji_gif = ["https://gfycat.com/astonishinghairybobwhite",
+            "https://gfycat.com/alllastcanine",
+            "https://gfycat.com/thinimperturbableargentinehornedfrog",
+            "https://tenor.com/beIgg.gif",
             "https://tenor.com/beIfG.gif"]
 
-        self.bot.hyelin_gif = ["https://gfycat.com/illiterateglitteringcreature"
-            "https://gfycat.com/uniquealiveblackfootedferret"
-            "https://tenor.com/beIf3.gif"
-            "https://tenor.com/7AzI.gif"
+        self.bot.hyelin_gif = ["https://gfycat.com/illiterateglitteringcreature",
+            "https://gfycat.com/uniquealiveblackfootedferret",
+            "https://tenor.com/beIf3.gif",
+            "https://tenor.com/7AzI.gif",
             "https://media.giphy.com/media/3ofSB8sjdj8OAOVdeg/giphy.gif"]
 
     @commands.command()

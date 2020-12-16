@@ -36,12 +36,12 @@ class hcommands(commands.Cog):
         embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n \n ```', inline = True)
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
-
+    #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed2.set_footer(text="page 2/4 | Suport: https://discord.gg/Ntk9Jp26yx")
+        embed2.set_footer(text="page 2/4")
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung\nNako```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena\nHitomi```''')
@@ -51,13 +51,14 @@ class hcommands(commands.Cog):
         embed2.add_field(name='Twice [1]', value=f'''```\nMina\nSana\nMomo```''')
         embed2.add_field(name='Twice [2]', value=f'''```\nJeongyeon\nTzuyu\nNayeon```''')
         embed2.add_field(name='Twice [3]', value=f'''```\nDahyun\nChaeyoung\nJihyo```''')
+        embed2.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
-
+    #//embed3
         embed3 = discord.Embed(
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed3.set_footer(text="page 3/4 | Support: https://discord.gg/Ntk9Jp26yx")
+        embed3.set_footer(text="page 3/4")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin ```''')
         embed3.add_field(name='Stray Kids [3]', value=f'''```\nLee Know\nSeungmin\n ```''')
@@ -67,18 +68,20 @@ class hcommands(commands.Cog):
         embed3.add_field(name='Enhypen [1]', value=f'''```\nSunoo\nSunghoon\nJake```''')
         embed3.add_field(name='Enhypen [2]', value=f'''```\nJungwon\nHeeseung\nJay```''')
         embed3.add_field(name='Enhypen [3]', value=f'''```\nNi-Ki\n \n ```''')
+        embed3.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
-
+    #//embed4
         embed4 = discord.Embed(
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed4.set_footer(text="page 4/4 | Support: https://discord.gg/Ntk9Jp26yx")
+        embed4.set_footer(text="page 4/4")
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
         embed4.add_field(name='Lovelyz', value=f'''```\nBaby Soul\nYein\nKei\nlJisoo\n \n ```''')
         embed4.add_field(name='Lovelyz [2]', value=f'''```\nMijoo\nJiae\nlJin\nSujeong\n \n ```''')
         embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon```''')
         embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin\n ```''')
+        embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')
 
         # getting the message object for editing and reacting

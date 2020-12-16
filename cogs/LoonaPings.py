@@ -171,7 +171,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/chuu-loona-gif-18055139",
             "https://tenor.com/view/chuu-loona-hamburguer-heart-heart-untitled127-gif-13827374",
             "https://tenor.com/view/loona-chuu-yes-happy-smile-gif-14322751",
-            "https://tenor.com/view/chuu-loona-ne-yes-cute-gif-14954652"]
+            "https://tenor.com/view/chuu-loona-ne-yes-cute-gif-14954652",
+            "https://tenor.com/view/chuu-gif-18979395"]
 
         #13
         self.bot.gowon_gif = ["https://tenor.com/view/gowon-park-gowon-park-chaewon-loona-loona-gowon-gif-13191168",
@@ -217,7 +218,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/sakura-izone-sakura-miyawaki-sakura-saku-chan-chaekura-kkura-gif-13532539",
             "https://cdn.discordapp.com/attachments/704248706269970488/776652835617898516/image0.gif",
             "https://tenor.com/view/yeeun-jang-yeeun-cute-clc-kpop-gif-17883335",
-            "https://tenor.com/view/g-idle-yuqi-song-yuqi-kpop-cute-gif-17667093"]
+            "https://tenor.com/view/g-idle-yuqi-song-yuqi-kpop-cute-gif-17667093",
+            "https://tenor.com/view/chuu-gif-18979395"]
 
     @commands.command()
     async def heejin(self, ctx):

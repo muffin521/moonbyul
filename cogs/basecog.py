@@ -272,6 +272,28 @@ class gifcog(commands.Cog):
             elif arg == "solar":
                 for x in self.bot.solar_gif:
                     await ctx.send(x)
+        #.Purple K!ss
+            elif arg == "yuki":
+                for x in self.bot.yuki_gif:
+                    await ctx.send(x)
+            elif arg == "goeun":
+                for x in self.bot.nagoeun_gif:
+                    await ctx.send(x)
+            elif arg == "jieun":
+                for x in self.bot.jieun_gif:
+                    await ctx.send(x)
+            elif arg == "dosie":
+                for x in self.bot.dosie_gif:
+                    await ctx.send(x)
+            elif arg == "ireh":
+                for x in self.bot.ireh_gif:
+                    await ctx.send(x)
+            elif arg == "chaein":
+                for x in self.bot.chaein_gif:
+                    await ctx.send(x)
+            elif arg == "swan":
+                for x in self.bot.swan_gif:
+                    await ctx.send(x)
         #.Red Velvet
             elif arg == "Irene":
                 for x in self.bot.irene_gif:

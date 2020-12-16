@@ -94,7 +94,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/oldqualifiedleafcutterant",
             "https://gfycat.com/vigilantobviousantbear",
             "https://gfycat.com/kaleidoscopicjaggedamoeba",
-            "https://gfycat.com/incomparablehighlevelamericanwarmblood"]
+            "https://gfycat.com/incomparablehighlevelamericanwarmblood",
+            "https://gfycat.com/embellishedcelebratedgopher",
+            "https://gfycat.com/daringseparatefattaileddunnart",
+            "https://gfycat.com/ancientlegalcrane",
+            "https://gfycat.com/weightynauticalbufeo",
+            "https://gfycat.com/totalforkedbushsqueaker"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -181,7 +186,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/gratefulenergetichaddock",
             "https://gfycat.com/limitedwetichthyosaurs",
             "https://gfycat.com/coldbriskdragonfly",
-            "https://gfycat.com/enchantingdeadlyconey"]
+            "https://gfycat.com/enchantingdeadlyconey",
+            "https://gfycat.com/inborndistantalleycat",
+            "https://gfycat.com/elaboratedetailedgangesdolphin",
+            "https://cdn.discordapp.com/attachments/785329655388438531/788612427167563776/image0.gif"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -211,9 +219,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/liveshortcopperhead",
             "https://gfycat.com/fittingloneaxolotl",
             "https://gfycat.com/blaringunlawfulblackfish",
-            "https://gfycat.com/rightprestigiousborzoi"]
+            "https://gfycat.com/rightprestigiousborzoi",
+            "https://gfycat.com/oblongwhisperedantbear"]
 
-        #19
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
             "https://gfycat.com/chubbyemptygalapagosmockingbird",
@@ -234,7 +242,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/kindrequiredbooby/",
             "https://tenor.com/view/izone-minju-pretty-gif-14587149"]
 
-        #17
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
             "https://gfycat.com/saneplushbrownbutterfly",
@@ -253,7 +260,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/annualalertasiandamselfly",
             "https://tenor.com/view/wonyoung-jang-wonyoung-iz-one-dance-gif-14625438"]
 
-        #15
         self.bot.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-izone-hyewon-beware-gif-18734334",
             "https://tenor.com/view/hyewon-kang-hyewon-iz-one-kwangbae-pretty-gif-17795566",
@@ -271,7 +277,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/hyewon-smile-pretty-gif-13780756",
             "https://media.discordapp.net/attachments/762508629680586775/786025895642267648/image0.gif"]
 
-        #11
         self.bot.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/loathsomecommonamericancicada",
             "https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
@@ -284,7 +289,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-jang-wonyoung-miyawaki-sakura-jo-yuri-choi-yena-gif-16110670",
             "https://gfycat.com/greendeficientanophelesmosquito"]
 
-        #9
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
             "https://tenor.com/view/ahn-yujin-produce48-gif-12305976",
@@ -295,7 +299,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/yujin-izone-yujin-an-yujin-gif-18184999",
             "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696"]
 
-        #10
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
             "https://tenor.com/view/izone-yena-yena-izone-yena-mirotic-gif-18216289",
@@ -307,7 +310,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415"]
 
-        #15
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
             "https://gfycat.com/welcomepaleinchworm",
@@ -324,7 +326,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/marvelousmenacingamericanwarmblood",
             "https://gfycat.com/revolvingmajorfinnishspitz"]
 
-        #8
         self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398301",
@@ -334,7 +335,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
             "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760"]
 
-        #9
         self.bot.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-16717168",
             "https://tenor.com/view/izone-hitomi-honda-hitomi-cant-hear-you-kpop-gif-17682854",

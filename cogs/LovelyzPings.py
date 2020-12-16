@@ -26,7 +26,6 @@ class gamerPings(commands.Cog):
         self.bot.yein_gif = ["https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-yein-%EC%98%88%EC%9D%B8-gif-18419239",
             "https://tenor.com/view/lovelyz-yein-%EC%98%88%EC%9D%B8-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-kpop-gif-16459793",
             "https://tenor.com/view/lovelyz-kpop-yein-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%98%88%EC%9D%B8-gif-18588376",
-            "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-yein-%EC%98%88%EC%9D%B8-gif-18419239",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-yein-%EC%98%88%EC%9D%B8-gif-18213767",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-yein-%EC%98%88%EC%9D%B8-gif-18213757",
             "https://tenor.com/view/lovelyz-kpop-yein-eat-it-gif-16074106",
