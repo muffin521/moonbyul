@@ -79,10 +79,10 @@ class hcommands(commands.Cog):
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
         embed4.add_field(name='Lovelyz', value=f'''```\nBaby Soul\nYein\nKei\nlJisoo\n \n ```''')
         embed4.add_field(name='Lovelyz [2]', value=f'''```\nMijoo\nJiae\nlJin\nSujeong\n \n ```''')
-        embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon```''')
-        embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin\n ```''')
+        embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon\n ```''')
+        embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin\n \n ```''')
+        embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
-        # embed4.add_field(name='1', value=f'''```\n \n \n \n ```''')
 
         # getting the message object for editing and reacting
 
