@@ -150,6 +150,7 @@ class hcommands(commands.Cog):
                     await message.remove_reaction(reaction, user)
                     # removes reactions if the user tries to go forward on the last page or
                     # backwards on the first page
+                    
             except asyncio.TimeoutError:
                 #await message.delete()
                 await message.clear_reactions()
