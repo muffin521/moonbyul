@@ -23,7 +23,7 @@ class hcommands(commands.Cog):
     #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed1.set_footer(text="page 1/4")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMoonbyul\nHwasa\nSolar\nWheein```', inline = True)
@@ -40,7 +40,7 @@ class hcommands(commands.Cog):
     #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/4")
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
@@ -57,7 +57,7 @@ class hcommands(commands.Cog):
     #//embed3
         embed3 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed3.set_footer(text="page 3/4")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
@@ -74,7 +74,7 @@ class hcommands(commands.Cog):
     #//embed4
         embed4 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/4")
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
@@ -150,7 +150,7 @@ class hcommands(commands.Cog):
                     await message.remove_reaction(reaction, user)
                     # removes reactions if the user tries to go forward on the last page or
                     # backwards on the first page
-                    
+
             except asyncio.TimeoutError:
                 #await message.delete()
                 await message.clear_reactions()
