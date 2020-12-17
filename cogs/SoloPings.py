@@ -18,7 +18,6 @@ class SoloPings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        #9
         self.bot.natty_gif = ["https://thumbs.gfycat.com/BlankBlaringAmurratsnake-size_restricted.gif",
             "https://thumbs.gfycat.com/ScholarlyUnitedCutworm-max-1mb.gif",
             "https://media.giphy.com/media/f7Xr9BVORnb0vDEraT/giphy.gif",
@@ -27,7 +26,14 @@ class SoloPings(commands.Cog):
             "https://giphy.com/gifs/vOzalSmlR1cVr535rb",
             "https://giphy.com/gifs/AWcuiZbziFmwuc0uQW",
             "https://giphy.com/gifs/sksJILJA9Ab0HiOIIp",
-            "https://giphy.com/gifs/hL7aBcWxpzp0VrljNu"]
+            "https://giphy.com/gifs/hL7aBcWxpzp0VrljNu",
+            "https://tenor.com/view/dance-nt-natty-natty_gif-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-gif-19179900",
+            "https://tenor.com/view/%EB%82%98%EB%9D%A0-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-nt-natty-natty_gif-gif-19177703",
+            "https://tenor.com/view/%EB%82%98%EB%9D%A0-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-nt-natty-natty_gif-gif-19359163",
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty-teddybear-gif-19176290",
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-nt-natty-natty_gif-opps-gif-19266831",
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty-teddybear-gif-19176299",
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty_gif-gif-19360526"]
 
         #9
         self.bot.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
