@@ -101,7 +101,9 @@ class MamamooPings(commands.Cog):
             "https://media.discordapp.net/attachments/167744620724355072/773132319971213353/image0.gif",
             "https://tenor.com/view/mamamoo-solar-deal-with-it-check-smile-gif-5516677",
             "https://tenor.com/view/mamamoo-aya-solar-gif-19089175",
-            "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383"]
+            "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383",
+            "https://tenor.com/view/2018mama-mama-moment-performance-music-kpop-gif-19252298",
+            "https://tenor.com/view/mamamoo-kim-yongsun-solar-solarsido-moonsun-gif-18878953"]
 
         self.bot.hwasa_gif = ["https://gfycat.com/sourvengefulgrouse",
             "https://gfycat.com/deliciousforkedcaribou",
