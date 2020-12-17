@@ -20,6 +20,7 @@ class hcommands(commands.Cog):
         #pages = 2
         cur_page = 1
         #message = await ctx.send(f"Page {cur_page}/{pages}:\n{contents[cur_page-1]}")
+    #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]',
@@ -84,6 +85,7 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
+    #//end of embeds:)
         # getting the message object for editing and reacting
 
 
