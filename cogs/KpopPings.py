@@ -22,31 +22,7 @@ class KpopPings(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-
-
-
-        #19
-        self.bot.yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
-            "https://tenor.com/view/yeeun-clc-gif-19116004",
-            "https://tenor.com/view/yeeun-clc-gif-19116007",
-            "https://tenor.com/view/yeeun-clc-gif-19116012",
-            "https://tenor.com/view/yeeun-clc-bad-girls-jang-gif-13252706",
-            "https://tenor.com/view/yeeun-clc-crystal-clear-cute-girl-group-gif-15041212",
-            "https://tenor.com/view/clc-yeeun-clc-yeeun-rap-kpop-gif-15340668",
-            "https://tenor.com/view/clc-kpop-yeeun-gif-18657579",
-            "https://tenor.com/view/yeeun-jang-clc-cute-stare-gif-13329818",
-            "https://tenor.com/view/yeeun-jang-yeeun-cute-clc-kpop-gif-17883335",
-            "https://tenor.com/view/yeeun-clc-crystal-clear-cute-girl-group-gif-15041189",
-            "https://tenor.com/view/yeeun-clc-bad-girls-jang-gif-13252063",
-            "https://tenor.com/view/yeeun-jang-clc-flip-hair-gif-13252498",
-            "https://tenor.com/view/yeeun-jang-clc-gif-13328477",
-            "https://tenor.com/view/jang-ye-eun-selfie-talking-cute-pretty-gif-16653425",
-            "https://tenor.com/view/yeeun-jang-yeeun-clc-crystal-clear-girl-group-gif-15041366",
-            "https://tenor.com/view/crystal-clear-jang-kpop-yeeun-clc-gif-14859536",
-            "https://tenor.com/view/yay-wink-cute-yeeun-clc-gif-14300869",
-            "https://tenor.com/view/yeeun-jang-clc-not-yummy-gif-13252749",
-            "https://tenor.com/view/crystal-clear-jang-kpop-devil-yeeun-gif-14999392"]
-
+        
         #11
         self.bot.lucas_gif = ["https://tenor.com/view/lucas-wayv-heart-gif-14723401",
             "https://tenor.com/view/smile-handsome-cute-lucas-nct-gif-15246419",
@@ -91,22 +67,7 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/2ne1-chaelin-cl-chaelin-lee-mocking-gif-7177330"]
 
     
-    #yeeun (clc) command for me
-    @commands.command()
-    async def yeeun(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Yeeun :heart:')
-                await ctx.send(random.choice(self.bot.yeeun_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
-            await ctx.send(random.choice(self.bot.yeeun_gif))
-            await ctx.message.delete()
-
+    #^lucas nct (wayv)
     @commands.command()
     async def lucas(self, ctx):
         if ctx.guild.id == luminary:

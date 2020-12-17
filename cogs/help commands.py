@@ -80,6 +80,7 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon\n ```''')
         embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin\n \n ```''')
         embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
+        embed4.add_field(name='CLC', value=f'''```\nYeeun\nSorn\nElkie\nEunbin\ncYujin\ncSeunghee\nSeungyeon```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//end of embeds:)
