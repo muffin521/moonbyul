@@ -197,7 +197,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/inborndistantalleycat",
             "https://gfycat.com/elaboratedetailedgangesdolphin",
             "https://cdn.discordapp.com/attachments/785329655388438531/788612427167563776/image0.gif",
-            "https://gfycat.com/harshclosedblueshark"]
+            "https://gfycat.com/harshclosedblueshark",
+            "https://gfycat.com/ficklethoughtfuldavidstiger"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
