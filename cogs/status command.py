@@ -9,7 +9,7 @@ class scommand(commands.Cog):
 
     @commands.command()
     @commands.is_owner()
-    async def status(self, ctx):
+    async def info(self, ctx):
         servers = len(self.client.guilds)
         embed = discord.Embed(
             title = 'BOT INFORMATION',

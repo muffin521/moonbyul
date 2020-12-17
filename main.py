@@ -14,8 +14,6 @@
 
 #todo:
     #!status command- owner, helpers, ping(?)
-    #!footers in =help
-    #=emotes for somi & yukika
     #*Devin "let's go" confetti command (JST server) #//can i do this??
     #^CLC
 
@@ -45,7 +43,7 @@ import os
 from discord.ext import commands
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '=')
+client = commands.Bot(command_prefix= '==')
 #takes out help command
 client.remove_command('help')
 
