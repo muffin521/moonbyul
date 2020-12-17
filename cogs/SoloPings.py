@@ -52,7 +52,6 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/rae-chungha-fancam-play-kpop-gif-18963908",
             "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521270"]
         
-        #32+
         self.bot.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
             "https://tenor.com/view/iu-meh-cute-annoyed-gif-14687766",
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
@@ -75,7 +74,6 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-laugh-cute-anniversary-jieun-gif-18576961",
             "https://tenor.com/view/iu-iu-cute-iu-blueming-iu-girl-group-iu-love-poem-gif-15592264",
             "https://tenor.com/view/iu-iu-cute-iu-blueming-iu-girl-group-iu-love-poem-gif-15592209",
-            "https://tenor.com/view/iuxsuga-iu-eight-%EC%9D%B4%EC%A7%80%EC%9D%80-smile-iu-gif-17116404",
             "https://tenor.com/view/iu-soda-drinks-lee-ji-eun-unnie-angel-gif-18087723",
             "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417749",
             "https://tenor.com/view/good-job-well-done-daebak-awesome-thumb-up-gif-17648286",
