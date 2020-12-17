@@ -25,9 +25,6 @@ class scommand(commands.Cog):
         embed.add_field(name='Helper:', value='‏‏‎<@389897179701182465>', inline=True)
         await ctx.send(embed=embed)
 
-    @commands.command()
-    async def invite(self, ctx):
-        await ctx.send(f'Support server: https://discord.gg/Ntk9Jp26yx \nInvite link: https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8')
 
 def setup(client):
     client.add_cog(scommand(client))

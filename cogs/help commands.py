@@ -4,9 +4,6 @@ from discord.ext import commands
 from discord.utils import get
 from random import choice
 
-#//SES server:
-ses = 755618736194453534
-
 
 class hcommands(commands.Cog):
 
@@ -160,6 +157,10 @@ class hcommands(commands.Cog):
     @commands.command()
     async def support(self, ctx):
         await ctx.send(f'https://discord.gg/Ntk9Jp26yx')
+
+    @commands.command()
+    async def invite(self, ctx):
+        await ctx.send(f'Support server: https://discord.gg/Ntk9Jp26yx \nInvite link: <https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8>')
 
 def setup(client):
     client.add_cog(hcommands(client))
