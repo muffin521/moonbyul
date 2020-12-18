@@ -198,7 +198,11 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/elaboratedetailedgangesdolphin",
             "https://cdn.discordapp.com/attachments/785329655388438531/788612427167563776/image0.gif",
             "https://gfycat.com/harshclosedblueshark",
-            "https://gfycat.com/ficklethoughtfuldavidstiger"]
+            "https://gfycat.com/ficklethoughtfuldavidstiger",
+            "https://cdn.discordapp.com/attachments/762508629680586775/789295589254758440/image0.gif",
+            "https://gfycat.com/tenderimmaculategenet",
+            "https://gfycat.com/heartywellwornhamster",
+            "https://tenor.com/view/yuri-jo-yuri-izone-angy-gif-18738700"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
