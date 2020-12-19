@@ -24,7 +24,15 @@ class exid(commands.Cog):
             "https://tenor.com/view/exid-hani-ddd-softhani-kpop-gif-10565394",
             "https://gfycat.com/wandefensivekitfox",
             "https://tenor.com/view/hani-exid-gif-5407220",
-            "https://tenor.com/view/hani-exid-pretty-rose-wink-gif-13667120"] 
+            "https://tenor.com/view/hani-exid-pretty-rose-wink-gif-13667120",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648437976891392/original_10.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648438382952468/original_12.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648439356686336/4810c7b1bcb4a71ba4878f7cf4621c72.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648440014405662/original_9.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648440669241355/AncientCircularHyracotherium-max-1mb.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648440941609030/giphy_7.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648442279985242/original_8.gif",
+            "https://cdn.discordapp.com/attachments/786739586633039872/789648442942947338/tenor_13.gif"] 
         
         self.bot.jeonghwa_gif = ["https://gfycat.com/energeticboringchafer",
             "https://tenor.com/beIfZ.gif",

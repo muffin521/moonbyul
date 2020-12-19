@@ -15,7 +15,7 @@ k8 = 573974040679809044
 
 class DreamCatcherPings(commands.Cog):
 
-
+    #wizzy has gifs!!
     def __init__(self, bot):
         self.bot = bot
 
