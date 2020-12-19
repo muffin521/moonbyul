@@ -13,6 +13,7 @@ kbotcom = 764610881513324574
 #//people
 weakado = 259409277482041344
 jat = 236787566530134017
+k8 = 573974040679809044
 agus = 683791381667250208
 mae = 492769416610840586
 cronus = 186533260803833858
@@ -383,7 +384,7 @@ class IzonePings(commands.Cog):
     async def yuri(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{jat}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+                await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
                 await ctx.send(random.choice(self.bot.yuri_gif))
                 await ctx.message.delete()
             else:
@@ -517,7 +518,7 @@ class IzonePings(commands.Cog):
     async def nako(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
                 await ctx.send(random.choice(self.bot.nako_gif))
                 await ctx.message.delete()
             else:
@@ -532,7 +533,7 @@ class IzonePings(commands.Cog):
     async def hitomi(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
                 await ctx.send(random.choice(self.bot.hitomi_gif))
                 await ctx.message.delete()
             else:
