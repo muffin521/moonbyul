@@ -66,7 +66,7 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lovelyz-kei-will-kpop-gif-14248063",
             "https://tenor.com/view/lovelyz-kei-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%BC%80%EC%9D%B4-gif-19103729"]
 
-        self.bot.ljisoo_gif = ["https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570444",
+        self.bot.lovelyzjisoo_gif = ["https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570444",
             "https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570439",
             "https://tenor.com/view/lovelyz-jisoo-smile-kpop-laugh-gif-16210760",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-kpop-jisoo-cute-gif-18419265",
@@ -95,7 +95,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/warmangryjerboa",
             "https://gfycat.com/unhappycompetentbasilisk",
             "https://gfycat.com/untimelywarmheartedbug",
-            "https://gfycat.com/completeinfantilealaskankleekai"]
+            "https://gfycat.com/completeinfantilealaskankleekai",
+            "https://gfycat.com/grotesquemisguidedauk"]
 
         self.bot.babysoul_gif = ["https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18331417",
             "https://tenor.com/view/kpop-lovelyz-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18062427",
@@ -199,14 +200,14 @@ class gamerPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@{kiwi}>, <@!{ctx.author.id}> is talking about Jisoo :white_heart:')
-                await ctx.send(random.choice(self.bot.jisoo_gif))
+                await ctx.send(random.choice(self.bot.lovelyzjisoo_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :white_heart:')
-            await ctx.send(random.choice(self.bot.jisoo_gif))
+            await ctx.send(random.choice(self.bot.lovelyzjisoo_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ['baby', 'soul'])

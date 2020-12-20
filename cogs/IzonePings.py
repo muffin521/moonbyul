@@ -204,7 +204,8 @@ class IzonePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/762508629680586775/789295589254758440/image0.gif",
             "https://gfycat.com/tenderimmaculategenet",
             "https://gfycat.com/heartywellwornhamster",
-            "https://tenor.com/view/yuri-jo-yuri-izone-angy-gif-18738700"]
+            "https://tenor.com/view/yuri-jo-yuri-izone-angy-gif-18738700",
+            "https://gfycat.com/tediousfirsthandleonberger"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",

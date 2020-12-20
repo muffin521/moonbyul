@@ -268,7 +268,7 @@ class gifcog(commands.Cog):
                 for x in self.bot.kei_gif:
                     await ctx.send(x)
             elif arg == "lovelyz jisoo":
-                for x in self.bot.ljisoo_gif:
+                for x in self.bot.lovelyzjisoo_gif:
                     await ctx.send(x)
             elif arg == "baby soul":
                 for x in self.bot.babysoul_gif:
