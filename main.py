@@ -42,8 +42,10 @@ import random
 import os
 from discord.ext import commands
 
+muffin = 488423352206229505
+
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '=')
+client = commands.Bot(command_prefix= '==')
 #takes out help command
 client.remove_command('help')
 
@@ -58,16 +60,22 @@ async def on_ready():
 # This loads the cogs.
 @client.command()
 async def load(ctx, extention):
-    client.load_extension(f'cogs.{extention}')
-    print(f'Loaded cogs.{extention}')
-    await ctx.send(f'Loaded cogs.{extention}')
+    if ctx.author.id == muffin:
+        client.load_extension(f'cogs.{extention}')
+        print(f'Loaded cogs.{extention}')
+        await ctx.send(f'Loaded cogs.{extention}')
+    else:
+        await ctx.send(f'Fuck off, no perms')
 
 # This unloads the cogs.
 @client.command()
 async def unload(ctx, extention):
-    client.unload_extension(f'cogs.{extention}')
-    print(f'Unloaded cogs.{extention}')
-    await ctx.send(f'Unloaded cogs.{extention}')
+    if ctx.author.id == muffin:
+        client.unload_extension(f'cogs.{extention}')
+        print(f'Unloaded cogs.{extention}')
+        await ctx.send(f'Unloaded cogs.{extention}')
+    else:
+        await ctx.send(f'Fuck off, no perms')
 
 # This loop checks the cogs folder to see if there is a .py file. if there is it will load it as a cog.
 for filename in os.listdir('./cogs'):
@@ -76,7 +84,7 @@ for filename in os.listdir('./cogs'):
 
 @client.event
 async def on_message(message):
-    message.content = message.content.lower()
+    #message.content = message.content.lower()
     await client.process_commands(message)
 
 client.run('NzcwNzUwNjM1ODUwODU4NTA2.X5iHdw.GfBE19DGGzfFhTu2_4qz0o0n_I0')

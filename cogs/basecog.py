@@ -61,6 +61,13 @@ class gifcog(commands.Cog):
             elif arg == "rm":
                 for x in self.bot.rm_gif:
                     await ctx.send(x)
+        #.Cherry Bullet
+            elif arg == "jiwon":
+                for x in self.bot.jiwon_gif:
+                    await ctx.send(x)
+            elif arg == "yuju":
+                for x in self.bot.yuju_gif:
+                    await ctx.send(x)
         #.CLC
             elif arg == "sorn":
                 for x in self.bot.sorn_gif:
@@ -232,7 +239,7 @@ class gifcog(commands.Cog):
             elif arg == "yeojin":
                 for x in self.bot.yeojin_gif:
                     await ctx.send(x)
-            elif arg == "kimlip":
+            elif arg == "kim lip":
                 for x in self.bot.kimlip_gif:
                     await ctx.send(x)
             elif arg == "jinsoul":
@@ -250,7 +257,7 @@ class gifcog(commands.Cog):
             elif arg == "gowon":
                 for x in self.bot.gowon_gif:
                     await ctx.send(x)
-            elif arg == "oliviahye":
+            elif arg == "olivia hye":
                 for x in self.bot.oliviahye_gif:
                     await ctx.send(x)
         #.Lovelyz
@@ -380,7 +387,21 @@ class gifcog(commands.Cog):
                 for x in self.bot.chaeyoung_gif:
                     await ctx.send(x)
         #.TXT
-            #//not technically in yet
+            elif arg == "soobin":
+                for x in self.bot.soobin_gif:
+                    await ctx.send(x)
+            elif arg == "yeonjun":
+                for x in self.bot.yeonjun_gif:
+                    await ctx.send(x)
+            elif arg == "beomgyu":
+                for x in self.bot.beomgyu_gif:
+                    await ctx.send(x)
+            elif arg == "taehyun":
+                for x in self.bot.taehyun_gif:
+                    await ctx.send(x)
+            elif arg == "huening kai":
+                for x in self.bot.hueningkai_gif:
+                    await ctx.send(x)
         #.Soloists
             elif arg == "natty":
                 for x in self.bot.natty_gif:

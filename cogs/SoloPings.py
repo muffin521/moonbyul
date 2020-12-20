@@ -147,7 +147,7 @@ class SoloPings(commands.Cog):
             await ctx.send(random.choice(self.bot.alexa_gif))
             await ctx.message.delete()
 
-    @commands.command()
+    @commands.command(aliases = ['chung'])
     async def chungha(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:

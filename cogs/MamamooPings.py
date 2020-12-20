@@ -69,7 +69,8 @@ class MamamooPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/735713250989309984/789281442604777522/moonbyul_point.gif",
             "https://cdn.discordapp.com/attachments/735713250989309984/789281459515949086/moon_hair_ruffle_on_stage.gif",
             "https://cdn.discordapp.com/attachments/735713250989309984/789281496610766880/byul_slow_walk.gif",
-            "https://cdn.discordapp.com/attachments/735713250989309984/789281500016410654/messy_byul.gif"]
+            "https://cdn.discordapp.com/attachments/735713250989309984/789281500016410654/messy_byul.gif",
+            "https://cdn.discordapp.com/attachments/775515390004428831/790010549974859776/image0.gif"]
 
         self.bot.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
             "https://media.discordapp.net/attachments/167744692820246528/768433005726531594/download_1.gif",
@@ -86,7 +87,8 @@ class MamamooPings(commands.Cog):
             "https://pa1.narvii.com/7083/ecf8e6d546d434772c62f1485b8de8ce10e8b1fbr1-640-359_hq.gif",
             "https://i.pinimg.com/originals/f7/13/1e/f7131e54e31f00206b78f3f6bd10b9c7.gif",
             "https://gfycat.com/softlinearindianrhinoceros",
-            "https://gfycat.com/cornyoccasionalgoldeneye"]
+            "https://gfycat.com/cornyoccasionalgoldeneye",
+            "https://tenor.com/view/kpop-wheein-mamamoo-cool-gif-14214254"]
 
         self.bot.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
             "https://tenor.com/view/mamamoo-solar-kim-yong-sun-leader-vocalist-gif-17148597",
@@ -154,7 +156,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-finger-guns-kpop-dance-gif-12784101",
             "https://tenor.com/view/mamamoo-gleam-hot-stuff-glasses-gif-14619637",
             "https://tenor.com/view/mamamoo-mamamoo-teletubbies-mamamoo-teletubbies-bow-gif-18784086",
-            "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880"]
+            "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880",
+            "https://tenor.com/view/mamamoo-solar-moonbyul-wheein-hwasa-gif-15860895"]
 
     @commands.command(aliases = ['byul'])
     async def moonbyul(self, ctx):
