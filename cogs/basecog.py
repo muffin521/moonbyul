@@ -285,6 +285,22 @@ class gifcog(commands.Cog):
             elif arg == "sujeong":
                 for x in self.bot.sujeong_gif:
                     await ctx.send(x)
+        #.NCT 
+            elif arg == "nct lucas":
+                for x in self.bot.lucas_gif:
+                    await ctx.send(x)
+            elif arg == "nct mark":
+                for x in self.bot.nctmark_gif:
+                    await ctx.send(x)
+            elif arg == "nct winwin":
+                for x in self.bot.nctwinwin_gif:
+                    await ctx.send(x)
+            elif arg == "jaemin":
+                for x in self.bot.nctjaemin_gif:
+                    await ctx.send(x)
+            elif arg == "jaehyun":
+                for x in self.bot.nctjaehyun_gif:
+                    await ctx.send(x)
         #.Mamamoo
             elif arg == "mamamoo":
                 for x in self.bot.mamamoo_gif:
@@ -444,9 +460,6 @@ class gifcog(commands.Cog):
                 for x in self.bot.zoa_gif:
                     await ctx.send(x)
         #.Misc
-            elif arg == "lucas":
-                for x in self.bot.lucas_gif:
-                    await ctx.send(x)
             elif arg == "ses":
                 for x in self.bot.ses_mv:
                     await ctx.send(x)
