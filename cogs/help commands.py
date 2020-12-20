@@ -22,14 +22,14 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed1.set_footer(text="page 1/4")
+        embed1.set_footer(text="page 1/5")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMoonbyul\nHwasa\nSolar\nWheein```', inline = True)
         embed1.add_field(name='Itzy', value=f'''```\nYeji\nRyunjin\nChaeryeong\nYuna\nLia```''')
         embed1.add_field(name='Red Velvet', value=f'```\nJoy\nIrene\nSeulgi\nYeri\nWendy```', inline = True)
         embed1.add_field(name='aespa', value=f'''```\nGiselle\nWinter\nNingNing\nKarina\n ```''')
         embed1.add_field(name='Mae & Ple\'s Commands', value=f'```\nJessica\nKrystal\nTaemin\nKiki\n ```', inline = True)
         embed1.add_field(name='Blackpink', value=f'```\nLisa\nJennie\nJisoo\nRose\n ```', inline = True)
-        embed1.add_field(name='Misc', value=f'```\nS.E.S\nJiU\nCL\nJiwon\nYuju\n ```', inline = True)
+        embed1.add_field(name='Misc', value=f'```\nS.E.S\nJiU\nCL\n \n \n ```', inline = True)
         embed1.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika```', inline = True)
         embed1.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n \n ```', inline = True)
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
@@ -39,7 +39,7 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed2.set_footer(text="page 2/4")
+        embed2.set_footer(text="page 2/5")
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung\nNako```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena\nHitomi```''')
@@ -56,7 +56,7 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed3.set_footer(text="page 3/4")
+        embed3.set_footer(text="page 3/5")
         embed3.add_field(name='Stray Kids [1]', value=f'''```\nFelix\nsHyunjin\nBangchan```''')
         embed3.add_field(name='Stray Kids [2]', value=f'''```\nChangbin\nHan\nJeongin ```''')
         embed3.add_field(name='Stray Kids [3]', value=f'''```\nLee Know\nSeungmin\n ```''')
@@ -73,7 +73,7 @@ class hcommands(commands.Cog):
             title = 'COMMANDS',
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
-        embed4.set_footer(text="page 4/4")
+        embed4.set_footer(text="page 4/5")
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
         embed4.add_field(name='Lovelyz', value=f'''```\nBaby Soul\nYein\nKei\nlJisoo\n \n ```''')
         embed4.add_field(name='Lovelyz [2]', value=f'''```\nMijoo\nJiae\nlJin\nSujeong\n \n ```''')
@@ -84,6 +84,15 @@ class hcommands(commands.Cog):
         embed4.add_field(name='NCT', value=f'''```\nLucas\nMark\nWinwin\nJaemin\nJaehun```''')
         embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
+
+    #//embed5
+        embed5 = discord.Embed(
+            title = 'COMMANDS',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            colour = discord.Color.from_rgb(198, 237, 154))
+        embed5.set_footer(text="page 5/5")
+        embed5.add_field(name='WEEEKLY', value=f'''```\nwSoojin\nMonday\nJiyoon\nSoeun\nJaehee\nJihan\nZoa```''')
+        embed5.add_field(name='Cherry Bullet', value=f'''```\nJiwon\nYuju\nBora\nHaeyoon\n \n \n ```''')
 
     #//end of embeds:)
         # getting the message object for editing and reacting
@@ -139,10 +148,20 @@ class hcommands(commands.Cog):
                 
                 elif cur_page == 4:
                     if str(reaction.emoji) == "➡️":
+                        cur_page += 1
+                        await message.edit(embed=embed5)
                         await message.remove_reaction(reaction, user)
                     elif str(reaction.emoji) == "⬅️":
                         cur_page -= 1
                         await message.edit(embed=embed3)
+                        await message.remove_reaction(reaction, user)
+
+                elif cur_page == 5:
+                    if str(reaction.emoji) == "➡️":
+                        await message.remove_reaction(reaction, user)
+                    elif str(reaction.emoji) == "⬅️":
+                        cur_page -= 1
+                        await message.edit(embed=embed4)
                         await message.remove_reaction(reaction, user)
 
                 else:

@@ -20,29 +20,57 @@ class weeekly(commands.Cog):
 
         self.bot.weeeklysoojin_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061522478039041/SJ1.gif",
             "https://tenor.com/view/soojin-soojinweeekly-weeekly-weeeklysoojin-rookie2020-gif-19217007",
-            "https://cdn.discordapp.com/attachments/790062429866426368/790074792190541834/SOOJIN1.gif"]
+            "https://cdn.discordapp.com/attachments/790062429866426368/790074792190541834/SOOJIN1.gif",
+            "https://tenor.com/view/weeeklysoojin-weeekly-soojin-gif-19216994",
+            "https://tenor.com/view/boss-puppy-lee-soojin-soojin-weeekly-sv-gif-18790774",
+            "https://tenor.com/view/weeekly-soojin-lee-soojin-kpop-cute-gif-17374750",
+            "https://tenor.com/view/soojin-weeekly-pat-gif-18049939",
+            "https://tenor.com/view/weeeklysoojin-gif-19217520",
+            "https://tenor.com/view/weeekly-soojin-weeekly-soojin-no-money-weeekly-no-momey-gif-18802164"]
 
         self.bot.jiyoon_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061610936958976/JY1.gif",
             "https://cdn.discordapp.com/attachments/790062585054625873/790074833609949214/JIYOON4.gif",
             "https://cdn.discordapp.com/attachments/790062585054625873/790074875695071292/JIYOON3.gif",
             "https://cdn.discordapp.com/attachments/790062585054625873/790074900815282207/JIYOON2.gif",
-            "https://cdn.discordapp.com/attachments/790062585054625873/790074926430027836/JIYOON1.gif"]
+            "https://cdn.discordapp.com/attachments/790062585054625873/790074926430027836/JIYOON1.gif",
+            "https://tenor.com/view/jiyoon-weeekly-gif-18604350",
+            "https://tenor.com/view/jiyoon-weeekly-cute-pretty-gif-17532953",
+            "https://tenor.com/view/weeekly-weeekly-jiyoon-jiyoon-gif-18127931",
+            "https://tenor.com/view/pretty-jiyoon-weeekly-smile-weeekly-jiyoon-gif-18128574",
+            "https://tenor.com/view/weeekly-jiyoon-jiyoon-weeekly-cute-gif-18128670",
+            "https://tenor.com/view/shocked-jiyoon-weeekly-weeekly-jiyoon-weeekly-shocked-gif-18226642",
+            "https://tenor.com/view/jiyoon-weeekly-weeekly-jiyoon-shin-jiyoon-gif-19422209"]
 
         self.bot.monday_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061529511886858/MD1.gif",
-            "https://cdn.discordapp.com/attachments/790062662905102346/790074986702438450/MONDAY1.gif"]
+            "https://cdn.discordapp.com/attachments/790062662905102346/790074986702438450/MONDAY1.gif",
+            "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-heart-weeekly-heart-gif-18849380",
+            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-jihyo-weeekly-jihyo-gif-18860644",
+            "https://tenor.com/view/weeekly-musical-group-soojin-monday-zoa-gif-17658497",
+            "https://tenor.com/view/weeekly-soojin-monday-jiyoon-soeun-gif-18168556",
+            "https://tenor.com/view/monday-weeekly-laugh-kpop-cute-gif-17478647",
+            "https://tenor.com/view/weeekly-monday-weeekly-monday-playm-gif-18227541",
+            "https://tenor.com/view/monday-weeekly-smirk-gif-18059513"]
 
         self.bot.seoun_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061900464390144/SN1.gif",
             "https://media.discordapp.net/attachments/782405901515751445/790061824346161202/SN2.gif",
-            "https://media.discordapp.net/attachments/782405901515751445/790061567625396224/SN3.gif"]
+            "https://media.discordapp.net/attachments/782405901515751445/790061567625396224/SN3.gif",
+            "https://tenor.com/view/weeekly-soeun-weeekly-soeun-gif-18130042",
+            "https://tenor.com/view/weeekly-weeekly-jiyoon-weeekly-soeun-soeun-jiyoon-gif-18216326",
+            "https://tenor.com/view/weeekly-weeekly-soeun-soeun-playm-entertainment-playm-gif-18087242"]
 
         self.bot.jaehee_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061927333101588/JH1.gif",
             "https://media.discordapp.net/attachments/782405901515751445/790061542749372416/JH3.gif",
-            "https://cdn.discordapp.com/attachments/790062758556336128/790075085779894273/JAEHEE1.gif"]
+            "https://cdn.discordapp.com/attachments/790062758556336128/790075085779894273/JAEHEE1.gif",
+            "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-sad-weeekly-jaehee-sad-gif-18217735",
+            "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-think-jaehee-think-gif-19422471",
+            "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-jaehee-cute-jaehee-cute-gif-18217794"]
 
         self.bot.jihan_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061636684611593/JH2.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075153744658442/JIHAN3.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075171691692032/JIHAN2.gif",
-            "https://cdn.discordapp.com/attachments/790062796150407209/790075206399950908/JIHAN1.gif"]
+            "https://cdn.discordapp.com/attachments/790062796150407209/790075206399950908/JIHAN1.gif",
+            "https://tenor.com/view/jihan-weeekly-weeekly-jihan-han-jihyo-kpop-gif-18464277",
+            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-cute-gif-18128616"]
 
         self.bot.zoa_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061591798087690/ZA3.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",

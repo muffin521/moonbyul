@@ -66,7 +66,13 @@ class gifcog(commands.Cog):
                 for x in self.bot.jiwon_gif:
                     await ctx.send(x)
             elif arg == "yuju":
-                for x in self.bot.yuju_gif:
+                for x in self.bot.chebulyuju_gif:
+                    await ctx.send(x)
+            elif arg == "bora":
+                for x in self.bot.chebulbora_gif:
+                    await ctx.send(x)
+            elif arg == "haeyoon":
+                for x in self.bot.chebulhaeyoon_gif:
                     await ctx.send(x)
         #.CLC
             elif arg == "sorn":
