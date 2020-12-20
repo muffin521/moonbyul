@@ -220,14 +220,14 @@ class KpopPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart: ')
-                await ctx.send(random.choice(self.bot.jaemin_gif))
+                await ctx.send(random.choice(self.bot.nctjaemin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart:')
-            await ctx.send(random.choice(self.bot.jaemin_gif))
+            await ctx.send(random.choice(self.bot.nctjaemin_gif))
             await ctx.message.delete()
 
     #^jaehyun nct
