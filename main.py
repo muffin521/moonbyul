@@ -45,7 +45,7 @@ from discord.ext import commands
 muffin = 488423352206229505
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '==')
+client = commands.Bot(command_prefix= '=')
 #takes out help command
 client.remove_command('help')
 
