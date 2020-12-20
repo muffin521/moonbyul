@@ -23,7 +23,6 @@ class KpopPings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         
-        #11
         self.bot.lucas_gif = ["https://tenor.com/view/lucas-wayv-heart-gif-14723401",
             "https://tenor.com/view/smile-handsome-cute-lucas-nct-gif-15246419",
             "https://tenor.com/view/nct-lucas-nct-lucas-cute-smile-gif-12612522",
@@ -86,9 +85,58 @@ class KpopPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/772975408912007180/790104121116983346/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790104121600376842/image1.gif"]
 
-        self.bot.nctjaehyun_gif = [""]
+        self.bot.nctjaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
+            "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",
+            "https://tenor.com/view/gifmiah-gif-19600506",
+            "https://tenor.com/view/handsome-jaehyun-nct-nct127-nct-u-gif-16653893",
+            "https://tenor.com/view/chill-relax-whatever-smile-kpop-gif-15545125",
+            "https://tenor.com/view/cute-smile-nct-jaehyun-kpop-gif-16350460",
+            "https://tenor.com/view/nct-jaehyun-tipton2109-jaehyun-nct-coatoff-gif-13173729",
+            "https://tenor.com/view/nct-kpop-ccg-pinch-cheek-gif-14838121",
+            "https://tenor.com/view/jaehyun-nct127-blow-kiss-kpop-cute-gif-15315336",
+            "https://tenor.com/view/kpop-nct-jaehyun-heart-gif-14324479",
+            "https://tenor.com/view/nct-jaehyun-jung-jungjaehyun-yoonoh-gif-12928593",
+            "https://tenor.com/view/jaehyun-nct-kpop-peace-cute-gif-14544427",
+            "https://tenor.com/view/jaehyun-miahsgifs-gif-19370411",
+            "https://tenor.com/view/jaehyun-nct-brush-up-kpop-gif-14081724",
+            "https://tenor.com/view/jaehyun-cute-bunny-ears-gif-13909975",
+            "https://tenor.com/view/jung-jaehyun-nct-nct127-nct-u-jaehyun-nct-gif-18351037",
+            "https://tenor.com/view/jaehyun-nct-dimples-cute-kiss-gif-19337661",
+            "https://tenor.com/view/jaehyun-nct-nct127-its-always-sunny-jaehyun-charlie-gif-18830480",
+            "https://tenor.com/view/jaehyun-nct-kpop-nod-gif-9008248",
+            "https://tenor.com/view/nct-sm-entertainment-sm-jaehyun-nct-jaehyun-gif-9009058",
+            "https://tenor.com/view/jaehyun-jung-jaehyun-nct-nct127-nct2018-gif-14375589",
+            "https://tenor.com/view/nct127-jaehyun-crying-sad-gif-14692588",
+            "https://tenor.com/view/nct-jaehyun-go-jaehyun-dance-kpop-gif-18739096",
+            "https://tenor.com/view/nct-nct127-jaehyun-jung-yoon-oh-lead-vocalist-gif-17661505",
+            "https://tenor.com/view/kpop-ccg-nct-nct127-jaehyun-gif-14887755",
+            "https://tenor.com/view/jaehyun-nct-kpop-smile-laugh-gif-16504962",
+            "https://tenor.com/view/jaehyun-bff-sexy-jeong-yuno-jeong-jae-hyun-gif-15275566",
+            "https://tenor.com/view/sexy-park-jinyoung-abs-gif-15318396",
+            "https://tenor.com/view/nct-jaehyun-cute-smile-k-pop-gif-11533337",
+            "https://tenor.com/view/jaehyun-nctjaehyun-jeongjaehyun-jeongyoonoh-nct-gif-19065427",
+            "https://tenor.com/view/jaehyunn-gif-18383986",
+            "https://tenor.com/view/kpop-nct-jaehyun-heart-gif-14324479",
+            "https://tenor.com/view/jaehyun-jung-jaehyun-gif-18837045",
+            "https://tenor.com/view/jeong-yuno-jaehyun-nct-kpop-cute-gif-17383014",
+            "https://tenor.com/view/jaehyun-jung-jaehyun-nct-nct127-nct2018-gif-14375590",
+            "https://tenor.com/view/jaehyun-jung-jaehyun-gif-18837043",
+            "https://tenor.com/view/jaehyun-nct-jungjaehyun-gif-11568836",
+            "https://tenor.com/view/jungjaehyun-clapping-nctu-nct127-nct-gif-11853050",
+            "https://tenor.com/view/jaehyun-bff-sexy-jeong-yuno-jeong-jae-hyun-gif-15275553",
+            "https://tenor.com/view/jaehyun-nct-dance-kpop-gif-14544431",
+            "https://tenor.com/view/jaehyun-jung-nct127-cute-dance-nct-jaehyun-gif-14733874",
+            "https://tenor.com/view/nct-nct127-jaehyun-coffee-work-gif-12640382",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790116651960893440/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790116930018607114/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790116930568585256/image1.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790116946061688852/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117215944704010/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117416230322206/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117484866174996/image1.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117616676634645/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif"]
 
-        #17
         self.bot.ses_mv = ["https://www.youtube.com/watch?v=WpmTLDtr4qY", #im your girl
             "https://www.youtube.com/watch?v=ZpJJIK1gK6I", #oh my love
             "https://www.youtube.com/watch?v=q_yyXw83rt8", #dreams come true 
@@ -107,7 +155,6 @@ class KpopPings(commands.Cog):
             "https://www.youtube.com/watch?v=vAO_OcRz6xQ" #paradise
             ]
 
-        #6
         self.bot.cl_gif = ["https://media.discordapp.net/attachments/771238115255255060/785288565273788426/image2.gif",
             "https://media.discordapp.net/attachments/771238115255255060/785288564912160819/image1.gif",
             "https://media.discordapp.net/attachments/771238115255255060/785288541785161758/image0.gif",
