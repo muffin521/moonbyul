@@ -36,6 +36,58 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/lucas-smile-cute-poke-cheek-gif-12719055",
             "https://tenor.com/view/lucas-nct-wong-yukhei-wayv-gif-14579895"]
 
+        self.bot.nctmark_gif = ["https://tenor.com/view/mark-lee-nct-school-rapper-gif-9575546",
+            "https://tenor.com/view/nct-mark-lee-swimming-gif-14378569",
+            "https://tenor.com/view/nct-mark-oh-yeah-gif-13990858",
+            "https://tenor.com/view/nct-nct127-nct2019-wakey-wakey-wakey-gif-13764197",
+            "https://tenor.com/view/chill-relax-stuffed-animals-lay-down-mark-gif-16109322",
+            "https://tenor.com/view/cute-mark-lee-kpop-handsome-nct-gif-16625675",
+            "https://tenor.com/view/mark-lee-aestethic-mark-lee-boyfriend-mark-bad-boy-mark-superm-mark-gif-18373893",
+            "https://tenor.com/view/nct-nct127-mark-mark-lee-lee-min-hyung-gif-17366636",
+            "https://tenor.com/view/mark-smiling-nct-kpop-gif-9061895",
+            "https://tenor.com/view/tipton2109-nct-nct-mark-mark-lee-regular-gif-13173755",
+            "https://tenor.com/view/mark-mark-lee-superm-mark-superm-nct-mark-gif-18379738",
+            "https://tenor.com/view/mark-heart-nct-k-pop-gif-9674546",
+            "https://tenor.com/view/tipton2109-nct-mark-smile-gif-13172322",
+            "https://tenor.com/view/mark-mark-lee-nct-cold-eating-gif-14683790",
+            "https://tenor.com/view/super-m-mark-lee-nct-dream-%EB%A7%88%ED%81%AC-127-gif-17019572",
+            "https://tenor.com/view/wink-nct-mark-cute-smile-gif-12423198",
+            "https://tenor.com/view/mark-mark-lee-nct-kpop-cute-gif-16094611",
+            "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
+            "https://tenor.com/view/kpop-nct-mark-mark-lee-nct-gif-18031005",
+            "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194"]
+
+        self.bot.nctwinwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
+            "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
+            "https://tenor.com/view/dong-sicheng-sicheng-dong-winwin-wayv-gif-14997192",
+            "https://tenor.com/view/nct-127-winwin-gif-14168699",
+            "https://tenor.com/view/nct-wayv-winwin-nct-wayv-teaser-gif-13760142",
+            "https://tenor.com/view/winwin-dancing-winwin-flossing-winwin-hani3-gif-19452678",
+            "https://tenor.com/view/winwin-wayv-sicheng-dongsicheng-gif-14098151",
+            "https://tenor.com/view/winwin-nct-nct127-dong-si-cheng-dong-sa-sung-gif-17360118"]
+
+        self.bot.nctjaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097070399815690/image0.jpg",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097232850321408/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097724523282432/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097737801793537/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097988662984734/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790098038285664306/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790098124474548234/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790101053294510090/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790101053399629834/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790101176627625984/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790101177252839454/image1.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790103352352178196/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790103993077596170/image1.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790104121116983346/image0.gif",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790104121600376842/image1.gif"]
+
+        self.bot.nctjaehyun_gif = [""]
+
         #17
         self.bot.ses_mv = ["https://www.youtube.com/watch?v=WpmTLDtr4qY", #im your girl
             "https://www.youtube.com/watch?v=ZpJJIK1gK6I", #oh my love
@@ -83,6 +135,70 @@ class KpopPings(commands.Cog):
             await ctx.send(random.choice(self.bot.lucas_gif))
             await ctx.message.delete()
     
+    #^mark nct
+    @commands.command()
+    async def mark(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Mark :heart: ')
+                await ctx.send(random.choice(self.bot.nctmark_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Mark :heart:')
+            await ctx.send(random.choice(self.bot.nctmark_gif))
+            await ctx.message.delete()
+
+    #^winwin nct
+    @commands.command()
+    async def winwin(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart: ')
+                await ctx.send(random.choice(self.bot.nctwinwin_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart:')
+            await ctx.send(random.choice(self.bot.nctwinwin_gif))
+            await ctx.message.delete()
+
+    #^jaemin nct
+    @commands.command()
+    async def jaemin(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart: ')
+                await ctx.send(random.choice(self.bot.jaemin_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart:')
+            await ctx.send(random.choice(self.bot.jaemin_gif))
+            await ctx.message.delete()
+
+    #^jaehyun nct
+    @commands.command()
+    async def jaehyun(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart: ')
+                await ctx.send(random.choice(self.bot.nctjaehyun_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart:')
+            await ctx.send(random.choice(self.bot.nctjaehyun_gif))
+            await ctx.message.delete()
+
     @commands.command(aliases = ['s.e.s'])
     async def ses(self, ctx):
         if ctx.guild.id == luminary and ctx.channel.id != kbotcom:

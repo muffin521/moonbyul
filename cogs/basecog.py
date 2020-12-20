@@ -421,6 +421,28 @@ class gifcog(commands.Cog):
             elif arg == "yukika":
                 for x in self.bot.yukika_gif:
                     await ctx.send(x)
+        #.Weeekly
+            elif arg == "weeekly soojin":
+                for x in self.bot.weeeklysoojin_gif:
+                    await ctx.send(x)
+            elif arg == "jiyoon":
+                for x in self.bot.jiyoon_gif:
+                    await ctx.send(x)
+            elif arg == "monday":
+                for x in self.bot.monday_gif:
+                    await ctx.send(x)
+            elif arg == "soeun":
+                for x in self.bot.soeun_gif:
+                    await ctx.send(x)
+            elif arg == "jaehee":
+                for x in self.bot.jaehee_gif:
+                    await ctx.send(x)
+            elif arg == "jihan":
+                for x in self.bot.jihan_gif:
+                    await ctx.send(x)
+            elif arg == "zoa":
+                for x in self.bot.zoa_gif:
+                    await ctx.send(x)
         #.Misc
             elif arg == "lucas":
                 for x in self.bot.lucas_gif:
