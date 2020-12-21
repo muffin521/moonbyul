@@ -81,7 +81,7 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
         embed4.add_field(name='CLC', value=f'''```\nYeeun\nSorn\nElkie\nEunbin\ncYujin\ncSeunghee\nSeungyeon```''')
         embed4.add_field(name='TXT', value=f'''```\nSoobin\nYeonjun\nBeomgyu\nTaehyun\nHuening Kai```''')
-        embed4.add_field(name='NCT', value=f'''```\nLucas\nMark\nWinwin\nJaemin\nJaehun```''')
+        embed4.add_field(name='NCT', value=f'''```\nLucas\nMark\nWinwin\nJaemin\nJaehyun```''')
         embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
