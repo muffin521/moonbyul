@@ -108,7 +108,13 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/sakura-kpop-la-vie-en-rose-gif-gif-15101462",
             "https://gfycat.com/ancientlegalcrane",
             "https://gfycat.com/weightynauticalbufeo",
-            "https://tenor.com/view/sakura-miyawaki-izone-hkt48-smile-gif-13982698"]
+            "https://tenor.com/view/sakura-miyawaki-izone-hkt48-smile-gif-13982698",
+            "https://gfycat.com/granularplasticasianwaterbuffalo",
+            "https://gfycat.com/willinganimatedkoi",
+            "https://gfycat.com/equalequalaustraliansilkyterrier",
+            "https://gfycat.com/shockingpertinentbull",
+            "https://gfycat.com/enlightenedshowykite",
+            "https://gfycat.com/dearestportlydwarfmongoose"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
