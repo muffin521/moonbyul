@@ -70,7 +70,67 @@ class MamamooPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/735713250989309984/789281459515949086/moon_hair_ruffle_on_stage.gif",
             "https://cdn.discordapp.com/attachments/735713250989309984/789281496610766880/byul_slow_walk.gif",
             "https://cdn.discordapp.com/attachments/735713250989309984/789281500016410654/messy_byul.gif",
-            "https://cdn.discordapp.com/attachments/775515390004428831/790010549974859776/image0.gif"]
+            "https://cdn.discordapp.com/attachments/775515390004428831/790010549974859776/image0.gif",
+            "https://gfycat.com/thornyastonishingdolphin",
+            "https://gfycat.com/oilyparallelbream",
+            "https://gfycat.com/somechiefhousefly",
+            "https://gfycat.com/flakyterribleanglerfish",
+            "https://gfycat.com/frightenedpresentleveret",
+            "https://gfycat.com/elatedshowycygnet",
+            "https://gfycat.com/whispereddeadlyleopardseal",
+            "https://gfycat.com/weaklegaldog",
+            "https://64.media.tumblr.com/146270570adf0c4065a527ff3dbae5bf/0b4f91e55230cfab-fb/s400x600/dd59afc12d430f0218c19181149bf9e74da25de8.gif",
+            "https://64.media.tumblr.com/046cf2d6ff9c3cbfb11a18ecf0f1b977/0b4f91e55230cfab-77/s400x600/3c1891aa4e2b8adb16fb6bcf948663413110870a.gif",
+            "https://64.media.tumblr.com/a08885c81c030dc66b67b5b8c94b5079/0b4f91e55230cfab-24/s400x600/c45b05fd86d46d43a943748c19df19342c2f81d3.gif",
+            "https://64.media.tumblr.com/27c24febfbd283420df75c8c457dc068/0b4f91e55230cfab-98/s400x600/558cad819dcb2bc166622e5663ebcc79cce90517.gif",
+            "https://media.discordapp.net/attachments/167744664315625474/778227163878916116/201115_m_2.gif",
+            "https://gfycat.com/tallunfinishedbream",
+            "https://gfycat.com/ornatefrankgrayfox",
+            "https://gfycat.com/assuredpepperygrub",
+            "https://gfycat.com/positiveastonishingkoala",
+            "https://64.media.tumblr.com/315bd4a1a9c57792b107a5a4d8fe5b3a/152e17b7ae0f40a5-f6/s400x600/35818e427e4d07882d6dbf9f5e887f043811e8bc.gif",
+            "https://gfycat.com/velvetyshowyfritillarybutterfly",
+            "https://media.discordapp.net/attachments/167744664315625474/775116427949768704/image0.gif",
+            "https://media.discordapp.net/attachments/167744664315625474/775116649656483860/image0.gif",
+            "https://gfycat.com/valuableseveralantipodesgreenparakeet",
+            "https://gfycat.com/onlycaninehammerheadbird",
+            "https://tenor.com/view/moonbyul-hug-leg-silly-kpop-gif-7468199",
+            "https://tenor.com/view/moonbyul-mamamoo-byul-white-wind-gogobebe-gif-13639022",
+            "https://gfycat.com/tepidexemplaryarawana",
+            "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642",
+            "https://tenor.com/view/mamamoo-moonbyul-wow-woah-surprised-gif-7278364",
+            "https://tenor.com/view/mamamoo-moonbyul-solar-moonsun-veggies-gif-7724635",
+            "https://tenor.com/view/mamamoo-moonbyul-gif-18784089",
+            "https://tenor.com/view/moonbyul-kiss-mv-dingga-mamamoo-gif-18875995",
+            "https://tenor.com/view/moonbyul-gif-7446999",
+            "https://tenor.com/view/moonbyul-moon-byulyi-byul-byulyi-mamamoo-gif-17375271",
+            "https://tenor.com/view/moonbyul-gif-7498736",
+            "https://tenor.com/view/moonbyul-moonstar-moon-aya-kpop-gif-19021216",
+            "https://tenor.com/view/moonbyul-gif-7446949",
+            "https://cdn.discordapp.com/attachments/782766764047073301/790800415448891432/moonbyul_vibing_in_a_pink_suit.gif",
+            "https://tenor.com/view/moonbyul-mamamoo-kpop-aya-dance-gif-19050444",
+            "https://tenor.com/view/moonsun-yongkongbyulkong-kim-yongsun-mamamoo-moonbyul-gif-19062324",
+            "https://tenor.com/view/2018mama-mama-moment-performance-music-kpop-gif-19252303",
+            "https://tenor.com/view/mamamoo-solar-wheein-moonbyul-hwasa-gif-19292023",
+            "https://tenor.com/view/moon-byul-yi-kpop-mamamoo-gif-19542338",
+            "https://tenor.com/view/moonbyul-gif-19618010",
+            "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-moonbyul-gif-15860887",
+            "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-moonbyul-gif-15860888",
+            "https://tenor.com/view/moonbyul-gif-7457282",
+            "https://tenor.com/view/moonbyul-gif-7447006",
+            "https://tenor.com/view/moonbyul-stare-look-kpop-gif-7468786",
+            "https://tenor.com/view/moonbyul-gif-7498844",
+            "https://tenor.com/view/moonbyul-gif-9603669",
+            "https://tenor.com/view/moonbyul-cute-mamamoo-smile-depressed-on-gif-17161098",
+            "https://tenor.com/view/cute-moonbyul-moonbyul-gif-18418041",
+            "https://tenor.com/view/moonbyul-minhyuk-twins-gif-18307135",
+            "https://tenor.com/view/mamamoo-moonbyul-gif-18784089",
+            "https://tenor.com/view/mamamoo-moonbyul-moon-byul-yi-rapper-vocalist-gif-15860906",
+            "https://tenor.com/view/moonbyul-gif-7447007",
+            "https://tenor.com/view/moonbyul-mamamoo-hip-dancing-gif-15607334",
+            "https://tenor.com/view/gogobebe-moonbyul-mamamoo-dance-party-gif-13826547",
+            "https://tenor.com/view/moonsun-happy-smile-eat-food-gif-13134982",
+            "https://tenor.com/view/mamamoo-kiss-moonbyul-solar-gay-gif-9355867"]
 
         self.bot.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
             "https://media.discordapp.net/attachments/167744692820246528/768433005726531594/download_1.gif",
@@ -88,7 +148,10 @@ class MamamooPings(commands.Cog):
             "https://i.pinimg.com/originals/f7/13/1e/f7131e54e31f00206b78f3f6bd10b9c7.gif",
             "https://gfycat.com/softlinearindianrhinoceros",
             "https://gfycat.com/cornyoccasionalgoldeneye",
-            "https://tenor.com/view/kpop-wheein-mamamoo-cool-gif-14214254"]
+            "https://tenor.com/view/kpop-wheein-mamamoo-cool-gif-14214254",
+            "https://tenor.com/view/mamamoo-wheein-moonbyul-bye-goodbye-gif-7595890",
+            "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-moonbyul-gif-15860887",
+            "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-moonbyul-gif-15860888"]
 
         self.bot.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
             "https://tenor.com/view/mamamoo-solar-kim-yong-sun-leader-vocalist-gif-17148597",
@@ -110,7 +173,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-aya-solar-gif-19089175",
             "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383",
             "https://tenor.com/view/2018mama-mama-moment-performance-music-kpop-gif-19252298",
-            "https://tenor.com/view/mamamoo-kim-yongsun-solar-solarsido-moonsun-gif-18878953"]
+            "https://tenor.com/view/mamamoo-kim-yongsun-solar-solarsido-moonsun-gif-18878953",
+            "https://tenor.com/view/moonsun-yongkongbyulkong-kim-yongsun-mamamoo-moonbyul-gif-19062324"]
 
         self.bot.hwasa_gif = ["https://gfycat.com/sourvengefulgrouse",
             "https://gfycat.com/deliciousforkedcaribou",
@@ -140,7 +204,9 @@ class MamamooPings(commands.Cog):
             "https://gfycat.com/zestycornyballpython",
             "https://gfycat.com/metallicthunderouskagu",
             "https://gfycat.com/jampackedboweddutchshepherddog",
-            "https://tenor.com/view/mamamoo-kpop-gif-7220709"]
+            "https://tenor.com/view/mamamoo-kpop-gif-7220709",
+            "https://tenor.com/view/hwasa-solar-mamamoo-moonbyul-wheein-gif-18404770",
+            "https://tenor.com/view/hwasa-mamamoo-solar-wheein-moonbyul-gif-19283544"]
 
         self.bot.mamamoo_gif = ["https://tenor.com/view/mamamoo-mamamoo-waggy-solar-moonbyul-hwasa-gif-18116888",
             "https://tenor.com/view/mememoo-dc-mamamoo-dream-concert-mamamoo-mememoo-kpop-gif-17921327",
@@ -157,7 +223,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-gleam-hot-stuff-glasses-gif-14619637",
             "https://tenor.com/view/mamamoo-mamamoo-teletubbies-mamamoo-teletubbies-bow-gif-18784086",
             "https://tenor.com/view/hwasa-moonbyul-yong-twit-solar-gif-13784880",
-            "https://tenor.com/view/mamamoo-solar-moonbyul-wheein-hwasa-gif-15860895"]
+            "https://tenor.com/view/mamamoo-solar-moonbyul-wheein-hwasa-gif-15860895",
+            "https://tenor.com/view/hwasa-solar-mamamoo-moonbyul-wheein-gif-18404770"]
 
     @commands.command(aliases = ['byul'])
     async def moonbyul(self, ctx):

@@ -312,7 +312,7 @@ class gifcog(commands.Cog):
                 for x in self.bot.mamamoo_gif:
                     await ctx.send(x)
             elif arg == "moonbyul":
-                for x in self.bot.moonbyul:
+                for x in self.bot.moonbyul_gif:
                     await ctx.send(x)
             elif arg == "wheein":
                 for x in self.bot.wheein_gif:
