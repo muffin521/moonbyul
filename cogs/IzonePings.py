@@ -114,7 +114,11 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/equalequalaustraliansilkyterrier",
             "https://gfycat.com/shockingpertinentbull",
             "https://gfycat.com/enlightenedshowykite",
-            "https://gfycat.com/dearestportlydwarfmongoose"]
+            "https://gfycat.com/dearestportlydwarfmongoose",
+            "https://gfycat.com/wholeliquidgrizzlybear",
+            "https://gfycat.com/harmonioussparklingladybug",
+            "https://gfycat.com/somberslimbaboon",
+            "https://gfycat.com/youngshimmeringcrocodileskink"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
