@@ -146,7 +146,7 @@ for filename in os.listdir('./cogs'):
 
 @client.event
 async def on_message(message):
-    #message.content = message.content.lower()
+    message.content = message.content.lower()
     await client.process_commands(message)
 
 client.run('NzcwNzUwNjM1ODUwODU4NTA2.X5iHdw.GfBE19DGGzfFhTu2_4qz0o0n_I0')

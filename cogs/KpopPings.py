@@ -66,7 +66,6 @@ class KpopPings(commands.Cog):
             "https://tenor.com/view/winwin-nct-nct127-dong-si-cheng-dong-sa-sung-gif-17360118"]
 
         self.bot.nctjaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097070399815690/image0.jpg",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097232850321408/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
