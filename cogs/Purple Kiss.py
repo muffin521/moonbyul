@@ -101,7 +101,8 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/adoredscrawnyleveret",
             "https://gfycat.com/forsakendishonestgrayreefshark",
             "https://gfycat.com/failingimpressionableirishdraughthorse",
-            "https://cdn.discordapp.com/attachments/547946771968557076/740189347369844766/20200804_081816.gif"]
+            "https://cdn.discordapp.com/attachments/547946771968557076/740189347369844766/20200804_081816.gif",
+            "https://cdn.discordapp.com/attachments/547900536565924104/791258374724386836/SwanPurple.gif"]
 
     @commands.command()
     async def yuki(self, ctx):
