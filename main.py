@@ -53,41 +53,41 @@ def get_prefix(client, message):
 
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= get_prefix)
+client = commands.Bot(command_prefix= '==')
 #takes out help command
 client.remove_command('help')
 
 # Default prefix = '='
-@client.event
-async def on_guild_join(guild):
-    with open("./json/prefix.json", "r") as f:
-        prefix = json.load(f)
-    prefix[str(guild.id)] = "="
-    with open("./json/prefix.json", "w") as f:
-        json.dump(prefix, f, indent = 4)
+# @client.event
+# async def on_guild_join(guild):
+#     with open("./json/prefix.json", "r") as f:
+#         prefix = json.load(f)
+#     prefix[str(guild.id)] = "="
+#     with open("./json/prefix.json", "w") as f:
+#         json.dump(prefix, f, indent = 4)
 
-# Remove prefix on server leave.
-@client.event
-async def on_guild_remove(guild):
-    with open("./json/prefix.json", "r") as f:
-        prefix = json.load(f)
-    prefix.pop(str(guild.id))
-    with open("./json/prefix.json", "w") as f:
-        json.dump(prefix, f, indent = 4)
+# # Remove prefix on server leave.
+# @client.event
+# async def on_guild_remove(guild):
+#     with open("./json/prefix.json", "r") as f:
+#         prefix = json.load(f)
+#     prefix.pop(str(guild.id))
+#     with open("./json/prefix.json", "w") as f:
+#         json.dump(prefix, f, indent = 4)
 
-# Change Prefix command.
-@client.command(aliases = ['moonbyulprefix', 'changeprefix', 'byulprefix'])
-@commands.has_permissions(manage_messages=True)
-async def prefix(ctx, message):
-    with open("./json/prefix.json", "r") as f:
-        prefix = json.load(f)
-    prefix[str(ctx.guild.id)] = f"{message}"
-    with open("./json/prefix.json", "w") as f:
-        json.dump(prefix, f, indent = 4)
-    embed=discord.Embed(
-        description = f"Changed the servers prefix to `{message}`",
-        colour = discord.Color.from_rgb(59,214,198))
-    await ctx.send(embed=embed)
+# # Change Prefix command.
+# @client.command(aliases = ['moonbyulprefix', 'changeprefix', 'byulprefix'])
+# @commands.has_permissions(manage_messages=True)
+# async def prefix(ctx, message):
+#     with open("./json/prefix.json", "r") as f:
+#         prefix = json.load(f)
+#     prefix[str(ctx.guild.id)] = f"{message}"
+#     with open("./json/prefix.json", "w") as f:
+#         json.dump(prefix, f, indent = 4)
+#     embed=discord.Embed(
+#         description = f"Changed the servers prefix to `{message}`",
+#         colour = discord.Color.from_rgb(59,214,198))
+#     await ctx.send(embed=embed)
 
 
 
@@ -97,7 +97,7 @@ async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('=help'))
     # activity = discord.Activity(name='Queendom', type=discord.ActivityType.watching)
     # await client.change_presence(activity=activity)
-    print('Existance is pain')
+    print('I say Mama-Mamamoo')
 
 
 
