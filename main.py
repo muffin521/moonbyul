@@ -53,7 +53,7 @@ def get_prefix(client, message):
 
 
 #this sets prefix to '='
-client = commands.Bot(command_prefix= '==')
+client = commands.Bot(command_prefix= '=')
 #takes out help command
 client.remove_command('help')
 
