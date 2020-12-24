@@ -42,9 +42,12 @@ import json
 import os
 from discord.ext import commands
 
+client = commands.Bot(command_prefix= '=')
+client.remove_command('help')
+
 muffin = 488423352206229505
 
-client = commands.Bot(command_prefix= "=")
+
 
 
 
@@ -59,7 +62,6 @@ async def on_ready():
 #this sets prefix to '='
 
 #takes out help command
-client.remove_command('help')
 #//im literally crying W H Y doesnt this work when hosted
 
 #//cogs
