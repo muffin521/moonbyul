@@ -56,7 +56,7 @@ def get_prefix(client, message):
 client = commands.Bot(command_prefix= '=')
 #takes out help command
 client.remove_command('help')
-
+#//im literally crying W H Y doesnt this work when hosted
 # Default prefix = '='
 # @client.event
 # async def on_guild_join(guild):
