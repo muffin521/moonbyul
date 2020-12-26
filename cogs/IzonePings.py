@@ -120,6 +120,17 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/somberslimbaboon",
             "https://gfycat.com/youngshimmeringcrocodileskink",
             "https://tenor.com/view/izone-produce48-sakura-miyawaki-lee-chaeyeon-chaekura-gif-13651538",
+            "https://gfycat.com/ajargoldenalbacoretuna",
+            "https://gfycat.com/shockingpertinentbull",
+            "https://gfycat.com/enlightenedshowykite",
+            "https://gfycat.com/dearestportlydwarfmongoose",
+            "https://gfycat.com/granularplasticasianwaterbuffalo",
+            "https://gfycat.com/willinganimatedkoi",
+            "https://gfycat.com/equalequalaustraliansilkyterrier",
+            "https://gfycat.com/wholeliquidgrizzlybear",
+            "https://gfycat.com/harmonioussparklingladybug",
+            "https://gfycat.com/somberslimbaboon",
+            "https://gfycat.com/youngshimmeringcrocodileskink",
             "https://gfycat.com/ajargoldenalbacoretuna"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
