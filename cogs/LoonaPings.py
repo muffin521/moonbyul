@@ -222,6 +222,168 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/chuu-gif-18979395"]
 
     @commands.command()
+    async def loona(self, ctx, *, arg):
+        if arg == "heejin":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{mae}>, <@{aeong}>, <@!{ctx.author.id}> is talking about Heejin :rabbit:')
+                    await ctx.send(random.choice(self.bot.heejin_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Heejin :rabbit:')
+                await ctx.send(random.choice(self.bot.heejin_gif))
+                await ctx.message.delete()
+        elif arg == "hyunjin":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{k8}>, <@{aeong}>, <@!{ctx.author.id}> is talking about Hyunjin :cat::bread:')
+                    await ctx.send(random.choice(self.bot.hyunjin_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hyunjin :cat::bread:')
+                await ctx.send(random.choice(self.bot.hyunjin_gif))
+                await ctx.message.delete()
+        elif arg == "haseul":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Haseul :dove::green_heart:')
+                    await ctx.send(random.choice(self.bot.haseul_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Haseul :dove::green_heart:')
+                await ctx.send(random.choice(self.bot.haseul_gif))
+                await ctx.message.delete()
+        elif arg == "vivi":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{manman}>, <@{ctx.author.id}> is talking about ViVi :deer:')
+                    await ctx.send(random.choice(self.bot.vivi_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about ViVi :deer:')
+                await ctx.send(random.choice(self.bot.vivi_gif))
+                await ctx.message.delete()
+        elif arg == "yeojin":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Yeojin :frog::orange_heart:')
+                    await ctx.send(random.choice(self.bot.yeojin_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yeojin :frog::orange_heart:')
+                await ctx.send(random.choice(self.bot.yeojin_gif))
+                await ctx.message.delete()
+        elif arg == "kim lip":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{stanley}>, <@!{ctx.author.id}> is talking about Kim Lip :owl:')
+                    await ctx.send(random.choice(self.bot.kimlip_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=6)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Kim Lip :owl:')
+                await ctx.send(random.choice(self.bot.kimlip_gif))
+                await ctx.message.delete()
+        elif arg == "jinsoul":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Jinsoul :fish:')
+                    await ctx.send(random.choice(self.bot.jinsoul_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jinsoul :fish:')
+                await ctx.send(random.choice(self.bot.jinsoul_gif))
+                await ctx.message.delete()
+        elif arg == "choerry":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{rith}>, <@{ple}>, <@!{ctx.author.id}> is talking about Choerry :bat:')
+                    await ctx.send(random.choice(self.bot.choerry_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()            
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Choerry :bat:')
+                await ctx.send(random.choice(self.bot.choerry_gif))
+                await ctx.message.delete()
+        elif arg == "yves":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Yves :swan::apple:')
+                    await ctx.send(random.choice(self.bot.yves_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()            
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yves :swan::apple:')
+                await ctx.send(random.choice(self.bot.yves_gif))
+                await ctx.message.delete()
+        elif arg == "chuu":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Chuu :penguin::strawberry:')
+                    await ctx.send(random.choice(self.bot.chuu_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()            
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chuu :penguin::strawberry:')
+                await ctx.send(random.choice(self.bot.chuu_gif))
+                await ctx.message.delete()
+        elif arg == "go won" or arg == "gowon":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{rith}>, <@{masa}>, <@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
+                    await ctx.send(random.choice(self.bot.gowon_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()            
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
+                await ctx.send(random.choice(self.bot.gowon_gif))
+                await ctx.message.delete()
+        elif arg == "oliva hye":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
+                    await ctx.send(random.choice(self.bot.oliviahye_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()            
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
+                await ctx.send(random.choice(self.bot.oliviahye_gif))
+                await ctx.message.delete()
+
+
+
+#.1/3
+    @commands.command()
     async def heejin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
@@ -297,7 +459,7 @@ class LoonaPings(commands.Cog):
             await ctx.message.delete()
 
 
-
+#.oec
     @commands.command(aliases=['kim', 'lip', 'lippington', 'kimlip'])
     async def lippie(self, ctx):
         if ctx.guild.id == luminary:
@@ -344,7 +506,7 @@ class LoonaPings(commands.Cog):
             await ctx.message.delete()
 
 
-
+#.yyxy
     @commands.command()
     async def yves(self, ctx):
         if ctx.guild.id == luminary:
@@ -412,6 +574,6 @@ class LoonaPings(commands.Cog):
             await ctx.send(random.choice(self.bot.oliviahye_gif))
             await ctx.message.delete()
     
-
+#
 def setup(client):
     client.add_cog(LoonaPings(client))

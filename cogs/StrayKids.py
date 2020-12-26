@@ -185,6 +185,102 @@ class StrayPings(commands.Cog):
             await ctx.send(random.choice(self.bot.seungmin_gif))
             await ctx.message.delete()
 
+    @commands.command()
+    async def stray(self, ctx, kids, *, arg="yessir"):
+        if kids == "kids":
+            if arg == "felix":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Felix :heart:')
+                        await ctx.send(random.choice(self.bot.felix_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Felix :heart:')
+                    await ctx.send(random.choice(self.bot.felix_gif))
+                    await ctx.message.delete()
+            elif arg == "bang chan":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Bang Chan :heart:')
+                        await ctx.send(random.choice(self.bot.bangchan_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Bang Chan :heart:')
+                    await ctx.send(random.choice(self.bot.bangchan_gif))
+                    await ctx.message.delete()
+            elif arg == "lee know":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Lee Know :heart:')
+                        await ctx.send(random.choice(self.bot.leeknow_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Lee Know :heart:')
+                    await ctx.send(random.choice(self.bot.leeknow_gif))
+                    await ctx.message.delete()
+            elif arg == "changbin":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Changbin :heart:')
+                        await ctx.send(random.choice(self.bot.changbin_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Changbin :heart:')
+                    await ctx.send(random.choice(self.bot.changbin_gif))
+                    await ctx.message.delete()
+            elif arg == "han":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Han :heart:')
+                        await ctx.send(random.choice(self.bot.han_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Han :heart:')
+                    await ctx.send(random.choice(self.bot.han_gif))
+                    await ctx.message.delete()
+            elif arg == "jeongin":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongin :heart:')
+                        await ctx.send(random.choice(self.bot.jeongin_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongin :heart:')
+                    await ctx.send(random.choice(self.bot.jeongin_gif))
+                    await ctx.message.delete()
+            elif arg == "seungmin":
+                if ctx.guild.id == luminary:
+                    if ctx.channel.id == kbotcom:
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about Seungmin :heart:')
+                        await ctx.send(random.choice(self.bot.seungmin_gif))
+                        await ctx.message.delete()
+                    else:
+                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                        await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Seungmin :heart:')
+                    await ctx.send(random.choice(self.bot.seungmin_gif))
+                    await ctx.message.delete()
+
+
 
 def setup(client):
     client.add_cog(StrayPings(client))
