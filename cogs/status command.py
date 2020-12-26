@@ -23,7 +23,7 @@ class scommand(commands.Cog):
         servers = len(self.client.guilds)
         embed = discord.Embed(
             title = 'BOT INFORMATION',
-            description = 'lob u :heart:‎',
+            description = 'lob u <:moonbyulheart:790333102924627968>‎',
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_footer(text='')
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')

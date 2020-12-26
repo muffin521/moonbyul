@@ -176,13 +176,17 @@ class hcommands(commands.Cog):
                 break
                 # ending the loop if user doesn't react after x seconds
 
-    @commands.command()
-    async def support(self, ctx):
-        await ctx.send(f'https://discord.gg/Ntk9Jp26yx')
 
     @commands.command()
     async def invite(self, ctx):
-        await ctx.send(f'Support server: https://discord.gg/Ntk9Jp26yx \nInvite link: <https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8>')
+        embed = discord.Embed(
+            title = 'Invite Links',
+            description = 'lob u <:moonbyulheart:790333102924627968>‎',
+            colour = discord.Colour.from_rgb(198, 237, 154))
+        embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
+        embed.add_field(name='Support Server', value=f'https://discord.gg/Ntk9Jp26yx', inline=True)
+        embed.add_field(name='Invite Link', value=f'‏‏‎[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8)', inline=False)
+        await ctx.send(embed=embed)
 
 def setup(client):
     client.add_cog(hcommands(client))
