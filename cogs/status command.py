@@ -48,5 +48,18 @@ class scommand(commands.Cog):
         embed.add_field(name='Top Gifs:', value=f'‏‏‎<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{jat}>\n<@{dj}>', inline=True)
         await ctx.send(embed=embed)
 
+    @commands.command()
+    @commands.is_owner()
+    async def locations(self, ctx):
+            guilds = self.client.guilds
+            
+            for server in guilds:
+                guild = str(server)
+                guild_id = str(server.id)
+                owner = str(server.owner_id)
+                members = str(server.member_count)
+                
+                await ctx.send("**"+ guild + "**\n" + "Server ID: " + guild_id + "\nOwner ID: " + owner + "\nMembers: " + members)
+
 def setup(client):
     client.add_cog(scommand(client))
