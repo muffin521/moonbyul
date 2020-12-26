@@ -310,7 +310,20 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/blaringunlawfulblackfish",
             "https://gfycat.com/rightprestigiousborzoi",
             "https://gfycat.com/oblongwhisperedantbear",
-            "https://tenor.com/view/izone-produce48-sakura-miyawaki-lee-chaeyeon-chaekura-gif-13651538"]
+            "https://tenor.com/view/izone-produce48-sakura-miyawaki-lee-chaeyeon-chaekura-gif-13651538",
+            "https://gfycat.com/faintvigorousdolphin",
+            "https://gfycat.com/acceptabledearfalcon",
+            "https://gfycat.com/infatuatedgentlehadrosaurus",
+            "https://gfycat.com/jubilantjoyousbellsnake",
+            "https://gfycat.com/idealisticcarefreehogget",
+            "https://gfycat.com/secretflakycusimanse",
+            "https://gfycat.com/unkemptmammothleech",
+            "https://gfycat.com/decisiveskeletalgrebe",
+            "https://gfycat.com/closedrearyindianelephant",
+            "https://gfycat.com/frankshortgoldfish",
+            "https://gfycat.com/madaridchafer",
+            "https://gfycat.com/bestmajesticheron",
+            "https://gfycat.com/thirstyspitefulkissingbug"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
