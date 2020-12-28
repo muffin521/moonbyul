@@ -40,9 +40,9 @@ class hcommands(commands.Cog):
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nSome groups on this page follow the format `=groupname idolname`!',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/5")
-        embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\n ```''')
-        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Hendery\nNCT Yangyang\n ```''')
-        embed2.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika```', inline = True)
+        embed2.add_field(name='NCT [1]', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
+        embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\n \n ```''')
+        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Hendery\nNCT Yangyang\n \n ```''')
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung\nNako```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nChaewon\nYujin\nYena\nHitomi```''')
@@ -92,8 +92,9 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed5.set_footer(text="page 5/5")
         embed5.add_field(name='WEEEKLY', value=f'''```\nwSoojin\nMonday\nJiyoon\nSoeun\nJaehee\nJihan\nZoa```''')
+        embed5.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\n ```', inline = True)
         embed5.add_field(name='Misc', value=f'```\nS.E.S\nJiU\nCL\n \n \n \n ```', inline = True)
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n \n \n ```', inline = True)
+        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```', inline = True)
         
 
     #//end of embeds:)
