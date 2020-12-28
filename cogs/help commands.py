@@ -71,7 +71,7 @@ class hcommands(commands.Cog):
     #//embed4
         embed4 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nSome groups on this page follow the format `=groupname idolname`!',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/5")
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
