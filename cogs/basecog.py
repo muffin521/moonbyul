@@ -315,19 +315,37 @@ class gifcog(commands.Cog):
                     await ctx.send(x)
         #.NCT 
             elif arg == "nct lucas":
-                for x in self.bot.lucas_gif:
+                for x in self.bot.nct_lucas_gif:
                     await ctx.send(x)
             elif arg == "nct mark":
-                for x in self.bot.nctmark_gif:
+                for x in self.bot.nct_mark_gif:
                     await ctx.send(x)
             elif arg == "nct winwin":
-                for x in self.bot.nctwinwin_gif:
+                for x in self.bot.nct_winwin_gif:
                     await ctx.send(x)
-            elif arg == "jaemin":
-                for x in self.bot.nctjaemin_gif:
+            elif arg == "nct jaemin":
+                for x in self.bot.nct_jaemin_gif:
                     await ctx.send(x)
-            elif arg == "jaehyun":
-                for x in self.bot.nctjaehyun_gif:
+            elif arg == "nct jaehyun":
+                for x in self.bot.nct_jaehyun_gif:
+                    await ctx.send(x)
+            elif arg == "nct kun":
+                for x in self.bot.nct_kun_gif:
+                    await ctx.send(x)
+            elif arg == "nct ten":
+                for x in self.bot.nct_ten_gif:
+                    await ctx.send(x)
+            elif arg == "nct xiaojun":
+                for x in self.bot.nct_xiaojun_gif:
+                    await ctx.send(x)
+            elif arg == "nct hendry":
+                for x in self.bot.nct_hendry_gif:
+                    await ctx.send(x)
+            elif arg == "nct yangyang":
+                for x in self.bot.nct_yangyang_gif:
+                    await ctx.send(x)
+            elif arg == "nct taeyong":
+                for x in self.bot.nct_taeyong_gif:
                     await ctx.send(x)
         #.Mamamoo
             elif arg == "mamamoo":
