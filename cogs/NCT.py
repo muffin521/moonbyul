@@ -173,7 +173,7 @@ class NCT(commands.Cog):
             "https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963227",
             "https://tenor.com/view/xiaojun-assdaya-wayv-embarrassed-gif-19225097"]
 
-        self.bot.nct_hendry_gif = ["https://tenor.com/view/hendery-wayv-heart-gif-14544395",
+        self.bot.nct_hendery_gif = ["https://tenor.com/view/hendery-wayv-heart-gif-14544395",
             "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028474",
             "https://tenor.com/view/hendery-wayv-gif-14682187",
             "https://tenor.com/view/wayv-nct-hendery-weishenv-kpop-gif-18979010",
@@ -279,13 +279,13 @@ class NCT(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Xiaojun :heart: ')
                 await ctx.send(random.choice(self.bot.nct_xiaojun_gif))
                 await ctx.message.delete()
-        elif arg == "hendry":
+        elif arg == "hendery":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hendry :heart: ')
-                await ctx.send(random.choice(self.bot.nct_hendry_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hendery :heart: ')
+                await ctx.send(random.choice(self.bot.nct_hendery_gif))
                 await ctx.message.delete()
         elif arg == "yangyang":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:

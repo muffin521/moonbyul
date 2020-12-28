@@ -41,7 +41,7 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/5")
         embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\n ```''')
-        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Hendry\nNCT Yangyang\n ```''')
+        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Hendery\nNCT Yangyang\n ```''')
         embed2.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika```', inline = True)
         embed2.add_field(name='Iz*One [1]', value=f'''```\nSakura\nYuri\nChaeyeon\nEunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nMinju\nHyewon\nWonyoung\nNako```''')
