@@ -59,7 +59,7 @@ class CLC(commands.Cog):
             "https://tenor.com/view/yujin-yujinclc-yeeun-yeeunclc-clchelicopter-gif-19218780",
             "https://tenor.com/view/yujin-yujinclc-clc-yeeun-sorn-gif-19221197"]
 
-        self.bot.clcseunghee = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
+        self.bot.clcseunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
             "https://tenor.com/view/crystal-clear-kpop-phone-devil-gif-14977696",
             "https://tenor.com/view/clc-summer-kiss-oh-seunghee-gif-13252734",
             "https://tenor.com/view/eyebrow-kpop-bangs-clc-oh-gif-14148382",
