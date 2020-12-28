@@ -97,26 +97,26 @@ class gifcog(commands.Cog):
                 for x in self.bot.chebulhaeyoon_gif:
                     await ctx.send(x)
         #.CLC
-            elif arg == "sorn":
-                for x in self.bot.sorn_gif:
+            elif arg == "clc sorn":
+                for x in self.bot.clc_sorn_gif:
                     await ctx.send(x)
-            elif arg == "yeeun":
-                for x in self.bot.yeeun_gif:
+            elif arg == "clc yeeun":
+                for x in self.bot.clc_yeeun_gif:
                     await ctx.send(x)
             elif arg == "clc seunghee":
-                for x in self.bot.clcseunghee_gif:
+                for x in self.bot.clc_seunghee_gif:
                     await ctx.send(x)
-            elif arg == "elkie":
+            elif arg == "clc elkie":
                 for x in self.bot.elkie_gif:
                     await ctx.send(x)
             elif arg == "clc yujin":
-                for x in self.bot.clcyujin_gif:
+                for x in self.bot.clc_yujin_gif:
                     await ctx.send(x)
-            elif arg == "eunbin":
-                for x in self.bot.eunbin_gif:
+            elif arg == "clc eunbin":
+                for x in self.bot.clc_eunbin_gif:
                     await ctx.send(x)
-            elif arg == "seungyeon":
-                for x in self.bot.seungyeon_gif:
+            elif arg == "clc seungyeon":
+                for x in self.bot.clc_seungyeon_gif:
                     await ctx.send(x)
         #.Dreamcatcher
             elif arg == "jiu":

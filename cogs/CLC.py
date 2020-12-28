@@ -19,7 +19,7 @@ class CLC(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        self.bot.yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
+        self.bot.clc_yeeun_gif = ["https://tenor.com/view/yeeun-clc-gif-19116003",
             "https://tenor.com/view/yeeun-clc-gif-19116004",
             "https://tenor.com/view/yeeun-clc-gif-19116007",
             "https://tenor.com/view/yeeun-clc-gif-19116012",
@@ -40,146 +40,180 @@ class CLC(commands.Cog):
             "https://tenor.com/view/yeeun-jang-clc-not-yummy-gif-13252749",
             "https://tenor.com/view/crystal-clear-jang-kpop-devil-yeeun-gif-14999392"]
 
-        self.bot.sorn_gif = ["https://tenor.com/bqihb.gif",
+        self.bot.clc_sorn_gif = ["https://tenor.com/bqihb.gif",
             "https://tenor.com/bunmH.gif",
             "https://tenor.com/bunmN.gif",
             "https://tenor.com/view/sorn-clc-gif-18620769",
             "https://tenor.com/view/clcsorn-sorn-clc-gif-18176207",
             "https://tenor.com/view/sorn-clc-gif-18563360"]
         
-        self.bot.eunbin_gif = ["https://tenor.com/RCQt.gif",
+        self.bot.clc_eunbin_gif = ["https://tenor.com/RCQt.gif",
             "https://tenor.com/RCSH.gif",
             "https://tenor.com/9gg1.gif",
             "https://tenor.com/view/devil-crystal-clear-mbc-music-core-kwon-eunbin-kpop-gif-15048708",
             "https://tenor.com/view/kwon-eunbin-clc-bad-papa-gif-13252690"]
 
-        self.bot.clcyujin = ["https://tenor.com/ba9ol.gif",
+        self.bot.clc_yujin_gif = ["https://tenor.com/ba9ol.gif",
             "https://tenor.com/bunmO.gif",
             "https://tenor.com/3LBO.gif",
             "https://tenor.com/view/yujin-yujinclc-yeeun-yeeunclc-clchelicopter-gif-19218780",
             "https://tenor.com/view/yujin-yujinclc-clc-yeeun-sorn-gif-19221197"]
 
-        self.bot.clcseunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
+        self.bot.clc_seunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
             "https://tenor.com/view/crystal-clear-kpop-phone-devil-gif-14977696",
             "https://tenor.com/view/clc-summer-kiss-oh-seunghee-gif-13252734",
             "https://tenor.com/view/eyebrow-kpop-bangs-clc-oh-gif-14148382",
             "https://tenor.com/view/oh-seunghee-clc-gif-13251990"]
 
-        self.bot.seungyeon_gif = ["https://tenor.com/view/seungyeon-clc-please-begging-gif-13944535",
+        self.bot.clc_seungyeon_gif = ["https://tenor.com/view/seungyeon-clc-please-begging-gif-13944535",
             "https://tenor.com/view/seungyeon-chang-clc-gif-13252414",
             "https://tenor.com/view/seungyeon-chang-clc-hobgoblin-pretty-gif-13252470",
             "https://tenor.com/view/black-dress-seungyeon-chang-clc-gif-13251952",
             "https://tenor.com/view/seungyeon-chang-clc-gif-13252136"]
 
-        self.bot.elkie_gif = ["https://tenor.com/view/puppy-dog-elkie-clc-gif-13944542",
+        self.bot.clc_elkie_gif = ["https://tenor.com/view/puppy-dog-elkie-clc-gif-13944542",
             "https://tenor.com/view/elkie-singer-clc-gif-18154058",
             "https://tenor.com/view/chong-tingyan-crystal-clear-elkie-chong-kpop-devil-gif-15036131",
             "https://tenor.com/view/chong-tingyan-elkie-clc-come-here-gif-13252022",
             "https://tenor.com/view/chong-tingyan-elkie-clc-hi-gif-13252481"]
 
     @commands.command()
+    async def clc(self, ctx, arg):
+        if arg == "yeeun":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Yeeun :heart:')
+                    await ctx.send(random.choice(self.bot.clc_yeeun_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
+                await ctx.send(random.choice(self.bot.clc_yeeun_gif))
+                await ctx.message.delete()
+        elif arg == "sorn":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sorn :heart:')
+                await ctx.send(random.choice(self.bot.clc_sorn_gif))
+                await ctx.message.delete()
+        elif arg == "eunbin":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbin :heart:')
+                await ctx.send(random.choice(self.bot.clc_eunbin_gif))
+                await ctx.message.delete()
+        elif arg == "yujin":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin :heart:')
+                await ctx.send(random.choice(self.bot.clc_yujin_gif))
+                await ctx.message.delete()
+        elif arg == "seunghee":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seunghee :heart:')
+                await ctx.send(random.choice(self.bot.clc_seunghee_gif))
+                await ctx.message.delete()
+        elif arg == "seungyeon":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungyeon :heart:')
+                await ctx.send(random.choice(self.bot.clc_seungyeon_gif))
+                await ctx.message.delete()
+        elif arg == "elkie":
+            if ctx.guild.id == luminary and ctx.channl.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Elkie :heart:')
+                await ctx.send(random.choice(self.bot.clc_elkie_gif))
+                await ctx.message.delete()
+
+    @commands.command()
     async def yeeun(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Yeeun :heart:')
-                await ctx.send(random.choice(self.bot.yeeun_gif))
+                await ctx.send(random.choice(self.bot.clc_yeeun_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
-            await ctx.send(random.choice(self.bot.yeeun_gif))
+            await ctx.send(random.choice(self.bot.clc_yeeun_gif))
             await ctx.message.delete()
 
     @commands.command()
     async def sorn(self,ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sorn :heart:')
-                await ctx.send(random.choice(self.bot.sorn_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sorn :heart:')
-            await ctx.send(random.choice(self.bot.sorn_gif))
+            await ctx.send(random.choice(self.bot.clc_sorn_gif))
             await ctx.message.delete()
 
     @commands.command()
     async def eunbin(self,ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbin :heart:')
-                await ctx.send(random.choice(self.bot.eunbin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbin :heart:')
-            await ctx.send(random.choice(self.bot.eunbin_gif))
+            await ctx.send(random.choice(self.bot.clc_eunbin_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ["clcyujin"])
     async def cyujin(self,ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin :heart:')
-                await ctx.send(random.choice(self.bot.clcyujin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin :heart:')
-            await ctx.send(random.choice(self.bot.clcyujin_gif))
+            await ctx.send(random.choice(self.bot.clc_yujin_gif))
             await ctx.message.delete()
 
     @commands.command(aliases = ['clcseunghee'])
     async def cseunghee(self,ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seunghee :heart:')
-                await ctx.send(random.choice(self.bot.clcseunghee_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Seunghee :heart:')
-            await ctx.send(random.choice(self.bot.clcseunghee_gif))
+            await ctx.send(random.choice(self.bot.clc_seunghee_gif))
             await ctx.message.delete()
 
     @commands.command()
     async def seungyeon(self,ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungyeon :heart:')
-                await ctx.send(random.choice(self.bot.seungyeon_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Seungyeon :heart:')
-            await ctx.send(random.choice(self.bot.seungyeon_gif))
+            await ctx.send(random.choice(self.bot.clc_seungyeon_gif))
             await ctx.message.delete()
 
     @commands.command()
     async def elkie(self,ctx):
         if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Elkie :heart:')
-                await ctx.send(random.choice(self.bot.elkie_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Elkie :heart:')
-            await ctx.send(random.choice(self.bot.elkie_gif))
+            await ctx.send(random.choice(self.bot.clc_elkie_gif))
             await ctx.message.delete()
 
 
