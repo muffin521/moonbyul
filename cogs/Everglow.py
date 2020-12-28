@@ -29,7 +29,7 @@ class everglow(commands.Cog):
             "https://tenor.com/view/everglow-eu-par-jiwon-leader-kpop-gif-16227322",
             "https://tenor.com/view/everglow-kpop-pretty-cute-beautiful-gif-15571693"]
 
-        self.bot.mia = ["https://tenor.com/view/everglow-mia-blow-kiss-kpop-cute-gif-15818623",
+        self.bot.mia_gif = ["https://tenor.com/view/everglow-mia-blow-kiss-kpop-cute-gif-15818623",
             "https://tenor.com/view/everglowmia-salute-gif-18117807",
             "https://tenor.com/view/everglow-mia-pretty-photoshoot-kpop-gif-15789180",
             "https://tenor.com/view/ginkoro-gif-17994290",
@@ -41,7 +41,7 @@ class everglow(commands.Cog):
             "https://tenor.com/view/everglow-mia-smile-gif-18564778",
             "https://tenor.com/view/mia-everglow-gif-18670931"]
 
-        self.bot.yiren = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
+        self.bot.yiren_gif = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
             "https://tenor.com/view/love-you-more-wink-side-eye-flirt-smile-gif-16944406",
             "https://tenor.com/view/%E7%8E%8B%E6%80%A1%E4%BA%BAwang-yiren-cute-kpop-smile-gif-16236336",
             "https://tenor.com/view/wang-yiren-everglow-kpop-cute-sad-gif-16526333",
