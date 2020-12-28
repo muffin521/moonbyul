@@ -26,6 +26,28 @@ class gifcog(commands.Cog):
             elif arg == "karina":
                 for x in self.bot.karina_gif:
                     await ctx.send(x)
+        #.April
+            elif arg == "april chaekyung":
+                for x in self.bot.april_chaekyung_gif:
+                    await ctx.send(x)
+            elif arg == "april chaewon":
+                for x in self.bot.april_chaewon_gif:
+                    await ctx.send(x)
+            elif arg == "april naeun":
+                for x in self.bot.april_naeun_gif:
+                    await ctx.send(x)
+            elif arg == "april yena":
+                for x in self.bot.april_yena_gif:
+                    await ctx.send(x)
+            elif arg == "april rachel":
+                for x in self.bot.april_rachel_gif:
+                    await ctx.send(x)
+            elif arg == "april jinsol":
+                for x in self.bot.april_jinsol_gif:
+                    await ctx.send(x)
+            elif arg == "april hyunjoo":
+                for x in self.bot.april_hyunjoo_gif:
+                    await ctx.send(x)
         #.Blackpink 
             elif arg == "jennie":
                 for x in self.bot.jennie_gif:

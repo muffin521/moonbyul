@@ -25,14 +25,14 @@ class scommand(commands.Cog):
             title = 'BOT INFORMATION',
             description = 'lob u <:moonbyulheart:790333102924627968>‎',
             colour = discord.Colour.from_rgb(198, 237, 154))
-        embed.set_footer(text='')
+        # embed.set_footer(text='')
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Moonbyul Ver.', value= byulver, inline=True)
         embed.add_field(name='Python Ver.', value='3.8.1', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms', inline=True)
         embed.add_field(name='Servers:', value=servers, inline=True)
-        embed.add_field(name='Developer:', value=f'<@{muffin}>', inline=True)
-        embed.add_field(name='Helper:', value=f'‏‏‎<@{gareth}>', inline=True)
+        embed.add_field(name='Developer:', value=f'<@{muffin}>')
+        embed.add_field(name='Helper:', value=f'<@{gareth}>')
         await ctx.send(embed=embed)
 
     @commands.command()
@@ -45,7 +45,7 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helper:**\n<@{gareth}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Moonbyul Ver.**\n{byulver}', inline=True)
-        embed.add_field(name='Top Gifs:', value=f'‏‏‎<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{jat}>\n<@{dj}>', inline=True)
+        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{jat}>\n<@{dj}>')
         await ctx.send(embed=embed)
 
     @commands.command()
