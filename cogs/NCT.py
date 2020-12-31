@@ -201,7 +201,13 @@ class NCT(commands.Cog):
             "https://tenor.com/view/yangyang-gif-18194871",
             "https://tenor.com/view/wayv-nct-liu-yangyang-yangyang-handsome-gif-16282250"]
 
-        self.bot.nct_taeyong_gif = []
+        self.bot.nct_taeyong_gif = ["https://tenor.com/view/nct-taeyong-cute-gif-15119070",
+            "https://tenor.com/view/nct-vocalist-visual-sm-entertainment-nct-subunit-gif-17505770",
+            "https://tenor.com/view/nct-taeyong-sunscreen-nature-republic-gif-16980421",
+            "https://tenor.com/view/nctu-nct-nct127-nctdream-taeyong-gif-9647830",
+            "https://tenor.com/view/nct127-nct-kpop-ccg-shock-gif-16007114",
+            "https://tenor.com/view/taeyong-nct-smiling-cute-gif-14544492",
+            "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029"]
 
     @commands.command()
     async def nct(self, ctx, *, arg):

@@ -59,6 +59,61 @@ class aespaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/772980032086999090/782482091656871956/HardRemorsefulFlicker-size_restricted.gif",]
 
     @commands.command()
+    async def aespa(self, ctx, *, arg):
+        if arg == "giselle":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{k8}>, <@{rith}> <@!{ctx.author.id}> is talking about Giselle :crescent_moon: ')
+                    await ctx.send(random.choice(self.bot.giselle_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Giselle :crescent_moon:')
+                await ctx.send(random.choice(self.bot.giselle_gif))
+                await ctx.message.delete()
+        elif arg == "winter":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Winter :star: ')
+                    await ctx.send(random.choice(self.bot.winter_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Winter :star:')
+                await ctx.send(random.choice(self.bot.winter_gif))
+                await ctx.message.delete()
+        elif arg == "ningning" or arg == "ning ning":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Ningning :star: ')
+                    await ctx.send(random.choice(self.bot.ningning_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Ningning :star:')
+                await ctx.send(random.choice(self.bot.ningning_gif))
+                await ctx.message.delete()
+        elif arg == "karina":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Karnia :star: ')
+                    await ctx.send(random.choice(self.bot.karina_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Karina :star:')
+                await ctx.send(random.choice(self.bot.karina_gif))
+                await ctx.message.delete()
+
+    @commands.command()
     async def giselle(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:

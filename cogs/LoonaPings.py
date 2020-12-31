@@ -67,7 +67,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/haseul-loona-haseul-cute-haseul-kiss-blow-kiss-gif-15567594",
             "https://tenor.com/view/haseul-haseul-nope-yoghurt-loona-haseul-loona-gif-19296137",
             "https://tenor.com/view/loona-haseul-yes-nod-gif-15405788",
-            "https://tenor.com/view/loona-haseul-kpop-gif-13775182"]
+            "https://tenor.com/view/loona-haseul-kpop-gif-13775182",
+            "https://gfycat.com/plasticequatorialeider"]
 
         #13
         self.bot.vivi_gif = ["https://tenor.com/view/vivi-loona-gif-19076955",
@@ -202,7 +203,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/olivia-hye-hyejoo-full-moon-loona-dancing-gif-15567587",
             "https://tenor.com/view/oliviahye-loona-olivia-loona-olivia-hyejoo-hyejoo-gif-16474426",
             "https://tenor.com/view/aliphobe-olivia-hye-loona-yyxy-hyejoo-gif-17860838",
-            "https://tenor.com/view/oliviahye-gif-18868773"]
+            "https://tenor.com/view/oliviahye-gif-18868773",
+            "https://tenor.com/view/loona-olivia-hye-pout-sad-gif-14917239"]
 
         #idk man
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",

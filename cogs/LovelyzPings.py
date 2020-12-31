@@ -165,7 +165,10 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/lvlz-lovelyz-ryu-sujeong-sujeong-kpop-gif-16341229",
             "https://tenor.com/view/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-lovelyz-sujeong-kpop-%EB%A5%98%EC%88%98%EC%A0%95-gif-17312055",
             "https://tenor.com/view/lovelyz-sujeong-kpop-%EB%A5%98%EC%88%98%EC%A0%95-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-gif-17312104",
-            "https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815500"]
+            "https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815500",
+            "https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815496",
+            "https://gfycat.com/infinitetallindochinahogdeer",
+            "https://gfycat.com/whoppingglossychamois"]
 
     @commands.command()
     async def lovelyz(self, ctx, *, arg="nope"):

@@ -79,6 +79,62 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jisoo-sexy-blackpink-kpop-gif-15419500",
             "https://tenor.com/view/jisoo-weekly-idol-blackpink-lisa-rose-gif-8481189"]
 
+    @commands.command()
+    async def blackpink(self, ctx, arg):
+        if arg == "jennie" or arg == "jendeukkie":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{muffin}>, <@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jennie :dumpling:')
+                    await ctx.send(random.choice(self.bot.jennie_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
+                await ctx.send(random.choice(self.bot.jennie_gif))
+                await ctx.message.delete()
+        elif arg == "rose" or arg == "rosé" or arg == "chaeyoung":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Rosé :rose:')
+                    await ctx.send(random.choice(self.bot.rose_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=6)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
+                await ctx.send(random.choice(self.bot.rose_gif))
+                await ctx.message.delete()
+        elif arg == "lisa":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Lisa :cat:')
+                    await ctx.send(random.choice(self.bot.lisa_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
+                await ctx.send(random.choice(self.bot.lisa_gif))
+                await ctx.message.delete()
+        elif arg == "jisoo":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
+                    await ctx.send(random.choice(self.bot.jisoo_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
+                await ctx.send(random.choice(self.bot.jisoo_gif))
+                await ctx.message.delete()
+
+
     @commands.command(aliases=['jendeukkie'])
     async def jennie(self, ctx):
         if ctx.guild.id == luminary:
