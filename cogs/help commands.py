@@ -80,7 +80,7 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon\n ```''')
         embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
         embed4.add_field(name='CLC', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
-        embed4.add_field(name='TXT', value=f'''```\nSoobin\nYeonjun\nBeomgyu\nTaehyun\nHuening Kai```''')
+        embed4.add_field(name='TXT', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
         embed4.add_field(name='Cherry Bullet', value=f'''```\nJiwon\nYuju\nBora\nHaeyoon\n ```''')
         embed4.add_field(name='EXID', value=f'''```\nHani\nJeonghwa\nLE\nSolji\nHyelin```''')
         embed4.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
