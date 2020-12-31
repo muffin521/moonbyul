@@ -68,6 +68,56 @@ class EnhypenPings(commands.Cog):
             "https://tenor.com/view/niki-sassy-sass-enhypen-ooh-gif-19076870",
             "https://tenor.com/view/enhypen-niki-iland-nikienhypen-gif-19295388"]
 
+    @commands.command()
+    async def enhypen(self, ctx, *, arg):
+        if arg == "sunoo":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sunoo :heart:')
+                await ctx.send(random.choice(self.bot.sunoo_gif))
+                await ctx.message.delete()
+        elif arg == "sunghoon":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sunghoon :heart:')
+                await ctx.send(random.choice(self.bot.sunghoon_gif))
+                await ctx.message.delete()
+        elif arg == "jake":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jake :heart:')
+                await ctx.send(random.choice(self.bot.jake_gif))
+                await ctx.message.delete()
+        elif arg == "jungwon":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jungwon :heart:')
+                await ctx.send(random.choice(self.bot.jungwon_gif))
+                await ctx.message.delete()
+        elif arg == "heeseung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jay :heart:')
+                await ctx.send(random.choice(self.bot.jay_gif))
+                await ctx.message.delete()
+        elif arg == "niki" or arg == "ni-ki":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Ni-Ki :heart:')
+                await ctx.send(random.choice(self.bot.niki_gif))
+                await ctx.message.delete()
 
     @commands.command()
     async def sunoo(self, ctx):

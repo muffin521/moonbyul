@@ -63,9 +63,9 @@ class hcommands(commands.Cog):
         embed3.add_field(name='BTS [1]', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope```''')
         embed3.add_field(name='BTS [2]', value=f'''```\nBTS Jin\nBTS Jimin\nBTS RM```''')
         embed3.add_field(name='BTS [3]', value=f'''```\nBTS Jungkook\n \n ```''')
-        embed3.add_field(name='Enhypen [1]', value=f'''```\nSunoo\nSunghoon\nJake```''')
-        embed3.add_field(name='Enhypen [2]', value=f'''```\nJungwon\nHeeseung\nJay```''')
-        embed3.add_field(name='Enhypen [3]', value=f'''```\nNi-Ki\n \n ```''')
+        embed3.add_field(name='Enhypen [1]', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake```''')
+        embed3.add_field(name='Enhypen [2]', value=f'''```\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay```''')
+        embed3.add_field(name='Enhypen [3]', value=f'''```\nEnhypen Ni-Ki\n \n ```''')
         embed3.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed4
@@ -75,8 +75,8 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/5")
         embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
-        embed4.add_field(name='Itzy', value=f'''```\nYeji\nRyunjin\nChaeryeong\nYuna\nLia\n ```''')
-        embed4.add_field(name='Red Velvet', value=f'```\nJoy\nIrene\nSeulgi\nYeri\nWendy\n ```', inline = True)
+        embed4.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryunjin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia\n ```''')
+        embed4.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy\n ```', inline = True)
         embed4.add_field(name='Everglow', value=f'''```\nYiren\nE:U\nMia\nAisha\nOnda\nSihyeon\n ```''')
         embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
         embed4.add_field(name='CLC', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')

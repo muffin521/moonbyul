@@ -449,20 +449,20 @@ class gifcog(commands.Cog):
                 for x in self.bot.chaeyoung_gif:
                     await ctx.send(x)
         #.TXT
-            elif arg == "soobin":
-                for x in self.bot.soobin_gif:
+            elif arg == "txt soobin":
+                for x in self.bot.txt_soobin_gif:
                     await ctx.send(x)
-            elif arg == "yeonjun":
-                for x in self.bot.yeonjun_gif:
+            elif arg == "txt yeonjun":
+                for x in self.bot.txt_yeonjun_gif:
                     await ctx.send(x)
-            elif arg == "beomgyu":
-                for x in self.bot.beomgyu_gif:
+            elif arg == "txt beomgyu":
+                for x in self.bot.txt_beomgyu_gif:
                     await ctx.send(x)
-            elif arg == "taehyun":
-                for x in self.bot.taehyun_gif:
+            elif arg == "txt taehyun":
+                for x in self.bot.txt_taehyun_gif:
                     await ctx.send(x)
-            elif arg == "huening kai":
-                for x in self.bot.hueningkai_gif:
+            elif arg == "txt huening kai":
+                for x in self.bot.txt_hueningkai_gif:
                     await ctx.send(x)
         #.Soloists
             elif arg == "natty":

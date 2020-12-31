@@ -53,7 +53,6 @@ class NCT(commands.Cog):
             "https://tenor.com/view/wink-nct-mark-cute-smile-gif-12423198",
             "https://tenor.com/view/mark-mark-lee-nct-kpop-cute-gif-16094611",
             "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
-            "https://tenor.com/view/kpop-nct-mark-mark-lee-nct-gif-18031005",
             "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",

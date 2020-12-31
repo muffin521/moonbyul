@@ -64,6 +64,49 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/liaitzy-itzy-lia-gif-18066766"]
 
     @commands.command()
+    async def itzy(self, ctx, arg):
+        if arg == "yeji":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
+                await ctx.send(random.choice(self.bot.yeji_gif))
+                await ctx.message.delete()
+        elif arg == "ryunjin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Ryunjin :heart:')
+                await ctx.send(random.choice(self.bot.ryunjin_gif))
+                await ctx.message.delete()
+        elif arg == "chaeryeong":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
+                await ctx.send(random.choice(self.bot.chaeryeong_gif))
+                await ctx.message.delete()
+        elif arg == "yuna":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
+                await ctx.send(random.choice(self.bot.yuna_gif))
+                await ctx.message.delete()
+        elif arg == "lia":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
+                await ctx.send(random.choice(self.bot.lia_gif))
+                await ctx.message.delete()
+
+    @commands.command()
     async def yeji(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:

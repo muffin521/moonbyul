@@ -148,7 +148,6 @@ class gamerPings(commands.Cog):
         await ctx.message.delete()
 
 
-
         
 def setup(client):
     client.add_cog(gamerPings(client))
