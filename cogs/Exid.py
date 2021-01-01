@@ -58,6 +58,49 @@ class exid(commands.Cog):
             "https://media.giphy.com/media/3ofSB8sjdj8OAOVdeg/giphy.gif"]
 
     @commands.command()
+    async def exid(self, ctx, arg):
+        if arg == "hani":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hani :heart: ')
+                await ctx.send(random.choice(self.bot.hani_gif))
+                await ctx.message.delete()
+        elif arg == "jeonghwa":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghwa :heart: ')
+                await ctx.send(random.choice(self.bot.jeonghwa_gif))
+                await ctx.message.delete()
+        elif arg == "le":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about LE :heart: ')
+                await ctx.send(random.choice(self.bot.le_gif))
+                await ctx.message.delete()
+        elif arg == "solji":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart: ')
+                await ctx.send(random.choice(self.bot.solji_gif))
+                await ctx.message.delete()
+        elif arg == "hyelin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hyelin :heart: ')
+                await ctx.send(random.choice(self.bot.hyelin_gif))
+                await ctx.message.delete()
+
+    @commands.command()
     async def hani(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
