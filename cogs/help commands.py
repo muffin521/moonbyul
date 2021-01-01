@@ -78,7 +78,7 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryunjin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia\n ```''')
         embed4.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy\n ```', inline = True)
         embed4.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n ```''')
-        embed4.add_field(name='Purple K!ss', value=f'''```\nYuki\nNa Goeun\nJieun\nDosie\nIreh\nChaein\nSwan```''')
+        embed4.add_field(name='Purple Kiss', value=f'''```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan```''')
         embed4.add_field(name='CLC', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
         embed4.add_field(name='TXT', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
         embed4.add_field(name='Cherry Bullet', value=f'''```\nJiwon\nYuju\nBora\nHaeyoon\n ```''')
