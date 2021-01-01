@@ -74,7 +74,7 @@ class hcommands(commands.Cog):
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nSome groups on this page follow the format `=groupname idolname`!',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/5")
-        embed4.add_field(name='(G)I-dle', value=f'''```\nMinnie\nMiyeon\nShuhua\nSoojin\nSoyeon\nYuqi```''')
+        embed4.add_field(name='(G)I-dle', value=f'''```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi```''')
         embed4.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryunjin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia\n ```''')
         embed4.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy\n ```', inline = True)
         embed4.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n ```''')
