@@ -91,7 +91,7 @@ class hcommands(commands.Cog):
             description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed5.set_footer(text="page 5/5")
-        embed5.add_field(name='WEEEKLY', value=f'''```\nwSoojin\nMonday\nJiyoon\nSoeun\nJaehee\nJihan\nZoa```''')
+        embed5.add_field(name='WEEEKLY', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
         embed5.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\n ```', inline = True)
         embed5.add_field(name='Misc', value=f'```\nS.E.S\nJiU\nCL\n \n \n \n ```', inline = True)
         embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```', inline = True)

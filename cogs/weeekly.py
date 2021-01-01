@@ -79,6 +79,65 @@ class weeekly(commands.Cog):
             "https://cdn.discordapp.com/attachments/790062825796141077/790075355247149066/ZO4.gif"]
 
     @commands.command()
+    async def weeekly(self, ctx, arg):
+        if arg == "soojin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_soojin_gif))
+                await ctx.message.delete()
+        elif arg == "jiyoon":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiyoon :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_jiyoon_gif))
+                await ctx.message.delete()
+        elif arg == "monday":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_monday_gif))
+                await ctx.message.delete()
+        elif arg == "seoun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Soeun :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
+                await ctx.message.delete()
+        elif arg == "jaehee":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
+                await ctx.message.delete()
+        elif arg == "jihan":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jihan :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_jihan_gif))
+                await ctx.message.delete()
+        elif arg == "zoa":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Zoa :heart:')
+                await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
+                await ctx.message.delete()
+
+    @commands.command()
     async def wsoojin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
