@@ -485,25 +485,25 @@ class gifcog(commands.Cog):
                     await ctx.send(x)
         #.Weeekly
             elif arg == "weeekly soojin":
-                for x in self.bot.weeeklysoojin_gif:
+                for x in self.bot.weeekly_soojin_gif:
                     await ctx.send(x)
-            elif arg == "jiyoon":
-                for x in self.bot.jiyoon_gif:
+            elif arg == "weeekly jiyoon":
+                for x in self.bot.weeekly_jiyoon_gif:
                     await ctx.send(x)
-            elif arg == "monday":
-                for x in self.bot.monday_gif:
+            elif arg == "weeekly monday":
+                for x in self.bot.weeekly_monday_gif:
                     await ctx.send(x)
-            elif arg == "soeun":
-                for x in self.bot.soeun_gif:
+            elif arg == "weeekly soeun":
+                for x in self.bot.weeekly_soeun_gif:
                     await ctx.send(x)
-            elif arg == "jaehee":
-                for x in self.bot.jaehee_gif:
+            elif arg == "weeekly jaehee":
+                for x in self.bot.weeekly_jaehee_gif:
                     await ctx.send(x)
-            elif arg == "jihan":
-                for x in self.bot.jihan_gif:
+            elif arg == "weeekly jihan":
+                for x in self.bot.weeekly_jihan_gif:
                     await ctx.send(x)
-            elif arg == "zoa":
-                for x in self.bot.zoa_gif:
+            elif arg == "weeekly zoa":
+                for x in self.bot.weeekly_zoa_gif:
                     await ctx.send(x)
         #.Misc
             elif arg == "ses":
