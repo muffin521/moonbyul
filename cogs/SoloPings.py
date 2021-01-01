@@ -148,19 +148,20 @@ class SoloPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command(aliases = ['chung'])
-    async def chungha(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
+    async def chungha(self, ctx, arg="ha"):
+        if arg == "ha":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
+                    await ctx.send(random.choice(self.bot.chungha_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
                 await ctx.send(random.choice(self.bot.chungha_gif))
                 await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
-            await ctx.send(random.choice(self.bot.chungha_gif))
-            await ctx.message.delete()
 
     @commands.command()
     async def iu(self, ctx):
