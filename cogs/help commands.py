@@ -20,7 +20,7 @@ class hcommands(commands.Cog):
     #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nAll groups on this page follow the format `=groupname idolname`!',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed1.set_footer(text="page 1/5")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```', inline = True)
@@ -37,7 +37,7 @@ class hcommands(commands.Cog):
     #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nSome groups on this page follow the format `=groupname idolname`!',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/5")
         embed2.add_field(name='NCT [1]', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
@@ -71,7 +71,7 @@ class hcommands(commands.Cog):
     #//embed4
         embed4 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`\nSome groups on this page follow the format `=groupname idolname`!',
+            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/5")
         embed4.add_field(name='(G)I-dle', value=f'''```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi```''')
