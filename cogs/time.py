@@ -1,5 +1,5 @@
 import discord, random, os, datetime
-import pytz
+#import pytz
 from discord.ext import commands
 from datetime import datetime
 
@@ -19,10 +19,10 @@ class time(commands.Cog):
         muffin_time = datetime.now()
         await ctx.send(f'It is currently {muffin_time.strftime("%H:%M:%S")} for Muffin!')
 
-    @commands.command()
-    async def garethtime(self, ctx):
-        gareth_time = datetime.now(pytz.utc)
-        await ctx.send(f'It is currently {gareth_time.strftime("%H:%M:%S")} for Gareth!')
+    # @commands.command()
+    # async def garethtime(self, ctx):
+    #     gareth_time = datetime.now(pytz.utc)
+    #     await ctx.send(f'It is currently {gareth_time.strftime("%H:%M:%S")} for Gareth!')
 
 def setup(client):
     client.add_cog(time(client))

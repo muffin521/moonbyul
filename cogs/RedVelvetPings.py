@@ -40,7 +40,6 @@ class RedVelvetPings(commands.Cog):
             "https://tenor.com/view/red-velvet-seulgi-kang-seulgi-smile-kpop-gif-17202871",
             "https://tenor.com/view/seulgi-money-gun-seulgimoneygun-gif-19038811"]
 
-        #9
         self.bot.wendy_gif = ["https://tenor.com/view/ryoo-seungwan-wendy-red-velvet-kpop-redhair-gif-5230074",
             "https://tenor.com/view/red-velvet-dance-dumb-dumb-joy-irene-gif-14365084",
             "https://tenor.com/view/wendy-red-velvet-psycho-gif-15872100",
