@@ -147,6 +147,21 @@ class gamerPings(commands.Cog):
         await ctx.send(f'Hey, {ctx.author.name} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
         await ctx.message.delete()
 
+    @commands.command()
+    async def pickupline(self, ctx, *, name=f'Bae Suzy Is the Best'):
+        if name == "Bae Suzy Is the Best":
+            person = ctx.author.name
+        else:
+            person = name
+        number = random.randint(1,3)
+        if number == 1:
+            await ctx.send(f'Hey, {person} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
+        elif number == 2:
+            await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
+        elif number == 3:
+            await ctx.send(f'Hey, {person}, are you Bae Suzy?\nBecause you could literally punch me and I\'d be thankful')
+        else:
+            await ctx.send(f'{person}, please report this to @muffin521#9280, or in the support server: https://discord.gg/Ntk9Jp26yx')
 
         
 def setup(client):
