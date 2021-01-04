@@ -376,7 +376,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/bestmajesticheron",
             "https://gfycat.com/thirstyspitefulkissingbug",
             "https://gfycat.com/flawlessshamefulamazontreeboa",
-            "https://gfycat.com/lividmedicalantipodesgreenparakeet"]
+            "https://gfycat.com/lividmedicalantipodesgreenparakeet",
+            "https://gfycat.com/infamousboweddungenesscrab",
+            "https://gfycat.com/kindheartedevergreenfinch",
+            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
