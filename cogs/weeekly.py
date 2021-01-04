@@ -45,7 +45,6 @@ class weeekly(commands.Cog):
             "https://cdn.discordapp.com/attachments/790062662905102346/790074986702438450/MONDAY1.gif",
             "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-heart-weeekly-heart-gif-18849380",
             "https://tenor.com/view/weeekly-jihan-weeekly-jihan-jihyo-weeekly-jihyo-gif-18860644",
-            "https://tenor.com/view/weeekly-musical-group-soojin-monday-zoa-gif-17658497",
             "https://tenor.com/view/weeekly-soojin-monday-jiyoon-soeun-gif-18168556",
             "https://tenor.com/view/monday-weeekly-laugh-kpop-cute-gif-17478647",
             "https://tenor.com/view/weeekly-monday-weeekly-monday-playm-gif-18227541",
@@ -76,7 +75,8 @@ class weeekly(commands.Cog):
             "https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075317947203634/ZOA2.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075328466911272/ZOA3.gif",
-            "https://cdn.discordapp.com/attachments/790062825796141077/790075355247149066/ZO4.gif"]
+            "https://cdn.discordapp.com/attachments/790062825796141077/790075355247149066/ZO4.gif",
+            "https://tenor.com/view/weeekly-musical-group-soojin-monday-zoa-gif-17658497"]
 
     @commands.command()
     async def weeekly(self, ctx, arg):
