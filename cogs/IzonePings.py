@@ -144,7 +144,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/shorttermneedyamericanshorthair",
             "https://gfycat.com/ornatesecondhandanhinga",
             "https://gfycat.com/plumpdaringaplomadofalcon",
-            "https://gfycat.com/oblongliquidgreendarnerdragonfly"]
+            "https://gfycat.com/oblongliquidgreendarnerdragonfly",
+            "https://gfycat.com/marvelousflamboyantchinchilla",
+            "https://gfycat.com/slushyblissfuljoey"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -329,7 +331,14 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/belovedathleticblackfly",
             "https://gfycat.com/unkemptbleakbluetickcoonhound",
             "https://gfycat.com/grouchyoffensiveamericancicada",
-            "https://gfycat.com/thislankyfoal"]
+            "https://gfycat.com/thislankyfoal",
+            "https://gfycat.com/weakwaterloggedbovine",
+            "https://gfycat.com/spicymeaslybettong",
+            "https://gfycat.com/quarterlyunknownelephant",
+            "https://gfycat.com/reasonablerealiberianlynx",
+            "https://gfycat.com/coolfancyallosaurus",
+            "https://gfycat.com/parchedpastafricanjacana",
+            "https://gfycat.com/infantileinconsequentialalligatorgar"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -529,7 +538,9 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-17151675",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-huh-gif-16831035",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-pretty-gif-16831042",
-            "https://tenor.com/view/hitomi-honda-hitomi-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-cute-gif-13981234"]
+            "https://tenor.com/view/hitomi-honda-hitomi-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-cute-gif-13981234",
+            "https://gfycat.com/kindheartedevergreenfinch",
+            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard"]
 
 
     @commands.command(aliases = ['iz*one'])
