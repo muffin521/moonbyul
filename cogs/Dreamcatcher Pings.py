@@ -25,7 +25,7 @@ class DreamCatcherPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/771238115255255060/785294062764818452/image2.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294063871721472/image3.gif"]
 
-        self.bot.dreamcatcher_dami_gifs = ["https://tenor.com/view/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-dami-cute-dance-gif-12255241",
+        self.bot.dreamcatcher_dami_gif = ["https://tenor.com/view/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-dami-cute-dance-gif-12255241",
             "https://tenor.com/view/dami-dreamcatcher-dcboca-gif-18178539",
             "https://tenor.com/view/dreamcatcher-dami-gif-18622933",
             "https://tenor.com/view/dreamcatcher-dami-full-moon-dreamcatcher-dami-arrow-gif-18971647",
@@ -54,6 +54,16 @@ class DreamCatcherPings(commands.Cog):
             "https://tenor.com/view/dreamcatcher-dami-lee-yubin-main-rapper-lead-dancer-gif-17720409",
             "https://tenor.com/view/dreamcatcher-dami-lee-yubin-kpop-pretty-gif-15811393"]
 
+        self.bot.dreamcatcher_gahyeon_gif = []
+
+        self.bot.dreamcatcher_handong_gif = []
+
+        self.bot.dreamcatcher_siyeon_gif = []
+
+        self.bot.dreamcatcher_sua_gif = []
+
+        self.bot.dreamcatcher_yoohyeon_gif = []
+
     @commands.command(aliases = ['dream'])
     async def dreamcatcher(self, ctx, *, arg):
         if arg == "jiu" or arg == "catcher jiu":
@@ -75,7 +85,7 @@ class DreamCatcherPings(commands.Cog):
                 await ctx.message.delete()
             else:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Dami :heart:') 
-                await ctx.send(random.choice(self.bot.dreamcatcher_dami_gifs))
+                await ctx.send(random.choice(self.bot.dreamcatcher_dami_gif))
                 await ctx.message.delete()
 
     @commands.command()

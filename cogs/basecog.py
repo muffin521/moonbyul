@@ -123,7 +123,22 @@ class gifcog(commands.Cog):
                 for x in self.bot.dreamcatcher_jiu_gif:
                     await ctx.send(x)
             elif arg == "dreamcatcher dami":
-                for x in self.bot.dreamcatcher_dami_gifs:
+                for x in self.bot.dreamcatcher_dami_gif:
+                    await ctx.send(x)
+            elif arg == "dreamcatcher gahyeon":
+                for x in self.bot.dreamcatcher_gahyeon_gif:
+                    await ctx.send(x)
+            elif arg == "dreamcatcher handong":
+                for x in self.bot.dreamcatcher_handong_gif:
+                    await ctx.send(x)
+            elif arg == "dreamcatcher siyeon":
+                for x in self.bot.dreamcatcher_siyeon_gif:
+                    await ctx.send(x)
+            elif arg == "dreamcatcher sua":
+                for x in self.bot.dreamcatcher_sua_gif:
+                    await ctx.send(x)
+            elif arg == "dreamcatcher yoohyeon":
+                for x in self.bot.dreamcatcher_yoohyeon_gif:
                     await ctx.send(x)
         #.Enhypen
             elif arg == "sunoo":
