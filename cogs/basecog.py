@@ -13,17 +13,33 @@ class gifcog(commands.Cog):
     @commands.command()
     async def gif(self, ctx, *, arg):
         if ctx.author.id == muffin or ctx.author.id == dj:
+        #.2ne1
+            if arg == "2ne1 cl":
+                for x in self.bot.cl_gif:
+                    await ctx.send(x)
+            elif arg == "2ne1 dara" or arg == "2ne1 sandara":
+                for x in self.bot.dara_gif:
+                    await ctx.send(x)
+            elif arg == "2ne1 minzy" or arg == "2ne1 minji":
+                for x in self.bot.minzy_gif:
+                    await ctx.send(x)
+            elif arg == "2ne1 park bom" or arg == "2ne1 bom":
+                for x in self.bot.parkbom_gif:
+                    await ctx.send(x)
+            elif arg == "2ne1":
+                for x in self.bot.twoneone_gif:
+                    await ctx.send(x)
         #.aespa
-            if arg == "giselle":
+            elif arg == "aespa giselle":
                 for x in self.bot.giselle_gif:
                     await ctx.send(x)
-            elif arg == "winter":
+            elif arg == "aespa winter":
                 for x in self.bot.winter_gif:
                     await ctx.send(x)
-            elif arg == "ningning":
+            elif arg == "aespa ningning":
                 for x in self.bot.ningning_gif:
                     await ctx.send(x)
-            elif arg == "karina":
+            elif arg == "aespa karina":
                 for x in self.bot.karina_gif:
                     await ctx.send(x)
         #.April
@@ -527,17 +543,11 @@ class gifcog(commands.Cog):
             elif arg == "ses":
                 for x in self.bot.ses_mv:
                     await ctx.send(x)
-            elif arg == "cl":
-                for x in self.bot.cl_gif:
-                    await ctx.send(x)
             elif arg == "kiki":
                 for x in self.bot.kiki_gif:
                     await ctx.send(x)
             elif arg == "taemin":
                 for x in self.bot.taemin_gif:
-                    await ctx.send(x)
-            elif arg == "lucas":
-                for x in self.bot.lucas_gif:
                     await ctx.send(x)
             elif arg == "krystal":
                 for x in self.bot.krystal_gif:

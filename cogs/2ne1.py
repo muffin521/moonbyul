@@ -58,9 +58,24 @@ class twoneone(commands.Cog):
         self.bot.parkbom_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766103766466570/image1.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795766103010836510/image0.gif"]
 
-        self.bot.minzy_gif = [""]
+        self.bot.minzy_gif = ["https://tenor.com/view/minzy-2ne1-yg-kong-smile-gif-12482219",
+            "https://tenor.com/view/dance-moves-split-kpop-minzy-2ne1-gif-13861313",
+            "https://tenor.com/view/2015mama-mama-moment-performance-music-kpop-gif-19237043",
+            "https://tenor.com/view/minzy-2ne1-k-pop-korean-surprised-gif-9415044",
+            "https://tenor.com/view/minzy-kpop-korean-2ne1-gif-10711124",
+            "https://tenor.com/view/gong-minji-headbang-headbanging-dance-dancing-gif-12501580",
+            "https://tenor.com/view/minjilangmalakas-boast-minjimalakas-minzylangmalakas-gif-19315676",
+            "https://tenor.com/view/minzy-2ne1-2ne1minzy-kongminjy-k-pop-gif-9852303"]
 
-        self.bot.twoneone_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766230652944444/image0.gif"]
+        self.bot.twoneone_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766230652944444/image0.gif",
+            "https://tenor.com/view/gong-minji-headbang-headbanging-dance-dancing-gif-12501580",
+            "https://tenor.com/view/2010mama-mama-moment-%ED%88%AC%EC%95%A0%EB%8B%88%EC%9B%90-2ne1-performance-gif-19226161",
+            "https://tenor.com/view/2009mama-mama-moment-%ED%88%AC%EC%95%A0%EB%8B%88%EC%9B%90-2ne1-music-gif-19227595",
+            "https://tenor.com/view/2011mama-mama-moment-%ED%88%AC%EC%95%A0%EB%8B%88%EC%9B%90-2ne1-performance-gif-19226797",
+            "https://tenor.com/view/2011mama-mama-moment-%ED%88%AC%EC%95%A0%EB%8B%88%EC%9B%90-2ne1-winner-gif-19226800",
+            "https://tenor.com/view/2ne1-camera-posing-pose-gif-4991259",
+            "https://tenor.com/view/2ne1-kpop-korean-dance-moves-gif-10518831",
+            "https://tenor.com/view/2ne1-gif-11836282"]
 
     @commands.command(aliases = ['2ne1'])
     async def twoneone(self, ctx, arg="2ne1"):
