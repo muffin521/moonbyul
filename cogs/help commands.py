@@ -93,8 +93,9 @@ class hcommands(commands.Cog):
         embed5.set_footer(text="page 5/5")
         embed5.add_field(name='WEEEKLY', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
         embed5.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\n ```', inline = True)
-        embed5.add_field(name='Misc', value=f'```\nS.E.S\nJiU\nCL\n \n \n \n ```', inline = True)
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```', inline = True)
+        embed5.add_field(name='2NE1', value=f'```\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom\n \n \n ```', inline = True)
+        embed5.add_field(name='Dreamcatcher', value=f'```\nDreamcatcer Dami\nDreamcatcher JiU\n ```', inline = True)
+        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```', inline = True)
         
 
     #//end of embeds:)
