@@ -75,7 +75,7 @@ class gamerPings(commands.Cog):
             "https://www.youtube.com/watch?v=2EKKMof_Ywg"]
 
     @commands.command()
-    async def dream(self, ctx):
+    async def dreammc(self, ctx):
         if ctx.guild.id == jst:
             await ctx.send(f'<@150742733743587328>, <@!{ctx.author.id}> is talking about Dream :cactus:')
             await ctx.send(random.choice(self.dream_gif))
