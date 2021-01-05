@@ -65,7 +65,8 @@ class twoneone(commands.Cog):
             "https://cdn.discordapp.com/attachments/703871901411573850/795773065274589214/iu-7.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795774289742659644/iu-14.gif",
             "https://i.makeagif.com/media/10-01-2015/qGFLrI.gif",
-            "https://cdn.discordapp.com/attachments/703871901411573850/795779150849769532/iu-19.gif"]
+            "https://cdn.discordapp.com/attachments/703871901411573850/795779150849769532/iu-19.gif",
+            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif"]
 
         self.bot.parkbom_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766103766466570/image1.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795766103010836510/image0.gif",
@@ -93,7 +94,8 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/park-bom-selfie-2ne1-pout-kpop-gif-16272494",
             "https://tenor.com/view/park-bom-bom-dan%C3%A7ando-park-bom-dan%C3%A7ando-park-bom-dan%C3%A7ando-loira-dancing-gif-17924647",
             "https://tenor.com/view/park-bom-bom-2ne1-korean-k-pop-gif-10711068",
-            "https://tenor.com/view/parkbom-bom-2ne1-yg-kpop-gif-5071909"]
+            "https://tenor.com/view/parkbom-bom-2ne1-yg-kpop-gif-5071909",
+            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif"]
 
         self.bot.minzy_gif = ["https://tenor.com/view/minzy-2ne1-yg-kong-smile-gif-12482219",
             "https://tenor.com/view/dance-moves-split-kpop-minzy-2ne1-gif-13861313",
@@ -115,7 +117,8 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/2ne1-kpop-korean-dance-moves-gif-10518831",
             "https://tenor.com/view/2ne1-gif-11836282",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773017350864976/iu-6.gif",
-            "https://cdn.discordapp.com/attachments/703871901411573850/795773372318351390/iu-2.gif"]
+            "https://cdn.discordapp.com/attachments/703871901411573850/795773372318351390/iu-2.gif",
+            "https://cdn.discordapp.com/attachments/302268759140335617/795816068119658536/say_what_2ne1.gif"]
 
     @commands.command(aliases = ['2ne1'])
     async def twoneone(self, ctx, *, arg="2ne1"):
