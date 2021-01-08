@@ -381,6 +381,21 @@ class gifcog(commands.Cog):
             elif arg == "nct taeyong":
                 for x in self.bot.nct_taeyong_gif:
                     await ctx.send(x)
+            elif arg == "nct jungwoo":
+                for x in self.bot.nct_jungwoo_gif:
+                    await ctx.send(x)
+            elif arg == "nct yuta":
+                for x in self.bot.nct_yuta_gif:
+                    await ctx.send(x)
+            elif arg == "nct jeno":
+                for x in self.bot.nct_jeno_gif:
+                    await ctx.send(x)
+            elif arg == "nct jisung":
+                for x in self.bot.nct_jisung_gif:
+                    await ctx.send(x)
+            elif arg == "nct taeyong":
+                for x in self.bot.nct_renjun_gif:
+                    await ctx.send(x)
         #.Mamamoo
             elif arg == "mamamoo":
                 for x in self.bot.mamamoo_gif:

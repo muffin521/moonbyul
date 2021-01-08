@@ -17,24 +17,17 @@
     #& clean helo command
 
     #~ SNSD
-    #~ Oh My Girl
 
     #? Dreamcatcher
 
     #= NCT:
         #. Shotaro
         #. Sungchan
-        #. Sungchan
         #. Taeil
         #. Johnny
-        #. Yuta
         #. Doyoung
-        #. JUngwoo
-        #. Renjun
-        #. Jeno
         #. Haechan
         #. Chenle
-        #. Jisung
 
 
 #//custom emojis~ \:emojiname:

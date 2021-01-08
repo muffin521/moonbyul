@@ -66,7 +66,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/winwin-winwin-happy-wayv-nct-equifinality-gif-14896880",
             "https://tenor.com/view/nct-nct127-kpop-ccg-bunny-gif-14846461",
             "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797790",
-            "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792"]
+            "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792",
+            "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935"]
 
         self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097070399815690/image0.jpg",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
@@ -208,6 +209,77 @@ class NCT(commands.Cog):
             "https://tenor.com/view/taeyong-nct-smiling-cute-gif-14544492",
             "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029"]
 
+        self.bot.nct_jungwoo_gif = ["https://tenor.com/view/nct-nct127-jungwoo-kim-jungwoo-jin-ting-you-gif-16941098",
+            "https://tenor.com/view/neo-culture-technology-nct-nctzen-jungwoo-park-jungwoo-gif-12100520",
+            "https://tenor.com/view/nct-nct127-ccg-kpop-jungwoo-gif-14886529",
+            "https://tenor.com/view/jungwoo-nct-heart-kim-jungwoo-gif-12623235",
+            "https://tenor.com/view/kimkiyomi-jung-woo-nct-kim-uw-u-kpop-cute-gif-16580967",
+            "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674638",
+            "https://tenor.com/view/jungwoo-nct-pose-gif-14378541",
+            "https://tenor.com/view/jungwoo-nct-nct127-heart-kpop-gif-16653764",
+            "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674610"]
+
+        self.bot.nct_yuta_gif = ["https://tenor.com/view/yuta-nakamoto-smile-cute-japanese-singer-gif-15773495",
+            "https://tenor.com/view/nct-gif-18066481",
+            "https://tenor.com/view/nct-yuta-k-pop-dance-gif-9451979",
+            "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935",
+            "https://tenor.com/view/nct-yuta-yuta-nakamoto-smile-kpop-gif-14019680",
+            "https://tenor.com/view/cute-smile-yuta-taeil-nct-gif-13475851",
+            "https://tenor.com/view/yuta-nakamotonct-nct127-cute-smile-gif-14733835",
+            "https://tenor.com/view/nct-nct127-yuta-nakamoto-yuta-sub-vocals-gif-17637557",
+            "https://tenor.com/view/nct-nct127-yuta-nakamoto-yuta-sub-vocals-gif-17661500",
+            "https://tenor.com/view/yuta-nct-nakamoto-nct127-gif-18999821",
+            "https://tenor.com/view/yuta-nakamotonct-nct127-cute-kiss-wink-gif-14733839"]
+
+        self.bot.nct_jeno_gif = ["https://tenor.com/view/jeno-nct-dream-sexy-dance-gif-12526719",
+            "https://tenor.com/view/jeno-jeno-seolie-nct-jeno-nct-dream-gif-12958231",
+            "https://tenor.com/view/nct-dream-jeno-surprised-cute-kpop-gif-16310898",
+            "https://tenor.com/view/nctdream-nct-jeno-lee-nctjeno-hi-gif-14687660",
+            "https://tenor.com/view/nct-dream-we-young-renjun-jeno-hearts-gif-15871557",
+            "https://tenor.com/view/nctjeno-nct-mark-lee-jeno-gif-12958199",
+            "https://tenor.com/view/jeno-nct-jeno-nct-dream-gif-12958228",
+            "https://tenor.com/view/jeno-lee-jeno-jeno-abs-nct-abs-nct-jeno-abs-gif-19209629",
+            "https://tenor.com/view/jeno-nct-dream-jeno-nct-jeno-nct-looks-around-gif-18121824",
+            "https://tenor.com/view/jeno-nct-jeno-idea-thought-thinking-gif-18121777",
+            "https://tenor.com/view/jeno-nct-nct-dream-jeno-seolie-jeno-nct-gif-12958239",
+            "https://tenor.com/view/jeno-lee-jeno-nct-nct-dream-hot-gif-16643500",
+            "https://tenor.com/view/nct-dream-jeno-nct-jeno-gif-19863273"]
+
+        self.bot.nct_jisung_gif = ["https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15640963",
+            "https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15641120",
+            "https://tenor.com/view/jisung-nct-dream-park-jisung-kpop-cute-gif-17373930",
+            "https://tenor.com/view/sm-entertainment-nct-subunit-kpop-handsome-cute-gif-17503874",
+            "https://tenor.com/view/nct-kpop-ccg-park-jisung-nct-dream-gif-14800373",
+            "https://tenor.com/view/nct-jisung-nct-jisung-jisung-nct-liyonqi-gif-19532744",
+            "https://tenor.com/view/nct-kpop-jisung-park-jisung-heart-gif-14675163",
+            "https://tenor.com/view/park-jisung-jisung-nct-ccg-nct-dream-gif-14769375",
+            "https://tenor.com/view/finger-heart-gif-18034442",
+            "https://tenor.com/view/jisung-119zs-nct-dream-kpop-nct-gif-18891097",
+            "https://tenor.com/view/nct-dream-jisung-kpop-korean-gif-9994549",
+            "https://tenor.com/view/park-ji-sung-nct-nctdream-nctjisung-adorable-gif-16921855",
+            "https://tenor.com/view/jisung-nct-go-park-jisung-cute-af-gif-13149929",
+            "https://tenor.com/view/kpop-nct-jisung-gif-11399818"]
+
+        self.bot.nct_renjun_gif = ["https://tenor.com/view/finger-bite-cute-kpop-renjun-nct-dream-gif-16895396",
+            "https://tenor.com/view/renjun-renjun-cute-renjun-nom-nom-renjun-bungeoppang-gif-19626068",
+            "https://tenor.com/view/renjun-nct-dream-nct-renjun-laughs-laughs-gif-19662361",
+            "https://tenor.com/view/%EB%9F%B0%EC%A5%94-renjun-huang-renjun-ruddygif-renjun-pretty-gif-19648935",
+            "https://tenor.com/view/renjun-cat-renjun-kity-what-gif-19127612",
+            "https://tenor.com/view/nct-renjun-gif-17980630",
+            "https://tenor.com/view/renjun-renjun-cry-renjun-actor-renjunkr-gif-19573528",
+            "https://tenor.com/view/renjun-nct-rensung-renjun-eyes-renjun-funny-gif-19637468",
+            "https://tenor.com/view/nct-dream-renjun-huang-ren-jun-kpop-cute-gif-16529193",
+            "https://tenor.com/view/renjun-nct-dream-nct-renjun-fake-crying-renjun-fake-cry-gif-19734101",
+            "https://tenor.com/view/renjundancer-renjun-nctdream-renjunzer-gif-19664456",
+            "https://tenor.com/view/nct-dream-renjun-pissed-done-gif-15674115",
+            "https://tenor.com/view/tipton2109-nct-nct-dream-nct-renjun-renjun-gif-13172220",
+            "https://tenor.com/view/renjun-renjun-heart-renjun-oyf-cute-love-gif-16458926",
+            "https://tenor.com/view/renjun-huang-nctrenjun-renjunnct-nctdream-gif-14733838",
+            "https://tenor.com/view/renjun-nct-dream-confused-what-huang-renjun-gif-16915794",
+            "https://tenor.com/view/kpop-nct-nct-dream-hwang-injun-huang-renjun-gif-14541458",
+            "https://tenor.com/view/nct-nct-dream-renjun-huang-ren-jun-hwang-in-joon-gif-17167756"]
+
+
     @commands.command()
     async def nct(self, ctx, *, arg):
         if arg == "mark":
@@ -307,6 +379,46 @@ class NCT(commands.Cog):
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Taeyong :heart: ')
                 await ctx.send(random.choice(self.bot.nct_taeyong_gif))
+                await ctx.message.delete()
+        elif arg == "jungwoo":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jungwoo :heart: ')
+                await ctx.send(random.choice(self.bot.nct_jungwoo_gif))
+                await ctx.message.delete()
+        elif arg == "yuta":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yuta :heart: ')
+                await ctx.send(random.choice(self.bot.nct_yuta_gif))
+                await ctx.message.delete()
+        elif arg == "jeno":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeno :heart: ')
+                await ctx.send(random.choice(self.bot.nct_jeno_gif))
+                await ctx.message.delete()
+        elif arg == "jisung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jisung :heart: ')
+                await ctx.send(random.choice(self.bot.nct_jisung_gif))
+                await ctx.message.delete()
+        elif arg == "renjun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Renjun :heart: ')
+                await ctx.send(random.choice(self.bot.nct_renjun_gif))
                 await ctx.message.delete()
 
 
