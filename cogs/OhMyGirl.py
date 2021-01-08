@@ -138,7 +138,6 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/jiho-oh-my-girl-kpop-gif-11085635",
             "https://tenor.com/view/jiho-ohmygirl-gif-19507110"]
 
-
         self.bot.ohmygirl_mimi_gif = ["https://tenor.com/view/mimi-oh-my-girl-rap-forehead-mic-gif-15514487",
             "https://tenor.com/view/ohmygirl-mimi-gif-19477876",
             "https://tenor.com/view/ohmygirl-mimi-gif-19477868",

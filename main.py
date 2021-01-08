@@ -14,7 +14,7 @@
 
 #todo:
     #& combine kpoppings.py, maepings.py, and plepings.py
-    #& clean helo command
+    #& clean help command
 
     #~ SNSD
 
@@ -45,8 +45,6 @@
     #=heroku logs -a moonbyul
     #=for my github: git push origin master
 
-
-
 import discord
 import random
 import json
@@ -57,9 +55,6 @@ client = commands.Bot(command_prefix= '=')
 client.remove_command('help')
 
 muffin = 488423352206229505
-
-
-
 
 
 #did it start?
