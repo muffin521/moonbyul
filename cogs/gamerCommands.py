@@ -67,7 +67,10 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/nct-nct127-jaehyun-coffee-work-gif-12640382",
             "https://tenor.com/view/mamamoo-moonbyul-solar-moonsun-veggies-gif-7724635",
             "https://tenor.com/view/moonbyul-gif-7446949",
-            "https://gfycat.com/longadmiredindianspinyloach"]
+            "https://gfycat.com/longadmiredindianspinyloach",
+            "https://tenor.com/view/hyojung-gif-19800693",
+            "https://tenor.com/view/hyojung-gif-19857822",
+            "https://tenor.com/view/oh-my-girl-omg-kpop-cute-pretty-gif-17578691"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

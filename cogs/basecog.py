@@ -397,6 +397,28 @@ class gifcog(commands.Cog):
             elif arg == "solar":
                 for x in self.bot.solar_gif:
                     await ctx.send(x)
+        #.Oh My Girl
+            elif arg == "oh my girl arin":
+                for x in self.bot.ohmygirl_arin_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl binnie":
+                for x in self.bot.ohmygirl_binnie_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl hyojung":
+                for x in self.bot.ohmygirl_hyojung_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl jiho":
+                for x in self.bot.ohmygirl_jiho_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl mimi":
+                for x in self.bot.ohmygirl_mimi_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl seunghee":
+                for x in self.bot.ohmygirl_seunghee_gif:
+                    await ctx.send(x)
+            elif arg == "oh my girl yooa":
+                for x in self.bot.ohmygirl_yooa_gif:
+                    await ctx.send(x)
         #.Purple K!ss
             elif arg == "yuki":
                 for x in self.bot.yuki_gif:
