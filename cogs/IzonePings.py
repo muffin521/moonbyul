@@ -338,7 +338,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/reasonablerealiberianlynx",
             "https://gfycat.com/coolfancyallosaurus",
             "https://gfycat.com/parchedpastafricanjacana",
-            "https://gfycat.com/infantileinconsequentialalligatorgar"]
+            "https://gfycat.com/infantileinconsequentialalligatorgar",
+            "https://gfycat.com/inborndrearykrill",
+            "https://tenor.com/view/yuri-jo-yuri-izone-kpop-gif-19853103",
+            "https://gfycat.com/TediousThinGrosbeak",
+            "https://gfycat.com/GaseousDirectAlligatorgar",
+            "https://media.discordapp.net/attachments/758367944819998801/782590933140111360/image0.gif"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -408,7 +413,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/rykkura-minguri-pretty-beautiful-cute-gif-16891660",
             "https://gfycat.com/impressionabledenseaffenpinscher",
             "https://gfycat.com/kindrequiredbooby/",
-            "https://tenor.com/view/izone-minju-pretty-gif-14587149"]
+            "https://tenor.com/view/izone-minju-pretty-gif-14587149",
+            "https://imgur.com/pwq5qck"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -503,7 +509,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-yena-choi-yena-kpop-produce48-gif-19471725",
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
-            "https://gfycat.com/respectfulaptbichonfrise"]
+            "https://gfycat.com/respectfulaptbichonfrise",
+            "https://imgur.com/pwq5qck"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
