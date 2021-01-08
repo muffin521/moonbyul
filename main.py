@@ -13,13 +13,27 @@
     #.
 
 #todo:
-    #!status command- owner, helpers, ping(?)
-    #*Devin "let's go" confetti command (JST server) #//can i do this??
+    #& combine kpoppings.py, maepings.py, and plepings.py
+    #? SNSD
+    #~ Oh My Girl
 
-    #?Minzy
-    #?Dara
-    #?Bom
-#//custom emojis~ look at kei command in `Lovelyz Pings.py`
+    #= NCT:
+        #. Shotaro
+        #. Sungchan
+        #. Sungchan
+        #. Taeil
+        #. Johnny
+        #. Yuta
+        #. Doyoung
+        #. JUngwoo
+        #. Renjun
+        #. Jeno
+        #. Haechan
+        #. Chenle
+        #. Jisung
+
+
+#//custom emojis~ \:emojiname:
 #//discord hex code colour (bg) #36393F
 
 

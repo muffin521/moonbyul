@@ -300,14 +300,14 @@ class NCT(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yangyang :heart: ')
                 await ctx.send(random.choice(self.bot.nct_yangyang_gif))
                 await ctx.message.delete()
-        # elif arg == "taeyong":
-        #     if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-        #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-        #         await ctx.message.delete()
-        #     else:
-        #         await ctx.send(f'<@!{ctx.author.id}> is talking about Taeyong :heart: ')
-        #         await ctx.send(random.choice(self.bot.nct_taeyong_gif))
-        #         await ctx.message.delete()
+        elif arg == "taeyong":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Taeyong :heart: ')
+                await ctx.send(random.choice(self.bot.nct_taeyong_gif))
+                await ctx.message.delete()
 
 
     @commands.command()
@@ -384,9 +384,6 @@ class NCT(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart:')
             await ctx.send(random.choice(self.bot.nct_jaehyun_gif))
             await ctx.message.delete()
-
-
-
 
 
 def setup(client):
