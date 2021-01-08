@@ -14,8 +14,12 @@
 
 #todo:
     #& combine kpoppings.py, maepings.py, and plepings.py
-    #? SNSD
+    #& clean helo command
+
+    #~ SNSD
     #~ Oh My Girl
+
+    #? Dreamcatcher
 
     #= NCT:
         #. Shotaro
