@@ -15,9 +15,7 @@ class hcommands(commands.Cog):
     @commands.command()
     async def help(self, ctx):
         
-        #pages = 2
         cur_page = 1
-        #message = await ctx.send(f"Page {cur_page}/{pages}:\n{contents[cur_page-1]}")
     #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
