@@ -137,7 +137,8 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/jungkook-jeon-jungkook-jungkook-jeon-bts-bangtan-boys-gif-5149930",
             "https://gfycat.com/anguishedcarefreegodwit",
             "https://gfycat.com/repulsivehotamericanwarmblood",
-            "https://gfycat.com/evendismalamphibian"]
+            "https://gfycat.com/evendismalamphibian",
+            "https://tenor.com/view/jeon-jungkook-bts-jungkook-jungkook-bts-youre-dead-gif-17246646"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
