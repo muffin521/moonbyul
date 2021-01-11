@@ -18,7 +18,7 @@ class ItzyPings(commands.Cog):
         self.bot = bot
 
         #7
-        self.bot.yeji_gif = ["https://tenor.com/view/yeji-itzy-jyp-entertainment-kpop-cute-gif-16653975",
+        self.bot.itzy_yeji_gif = ["https://tenor.com/view/yeji-itzy-jyp-entertainment-kpop-cute-gif-16653975",
             "https://tenor.com/view/yeji-yeji-itzy-hwang-yeji-gif-18718150",
             "https://tenor.com/view/yeji-hwang-yeji-itzy-wink-salute-gif-17307566",
             "https://tenor.com/view/yeji-itzy-jyp-entertainment-kpop-cute-gif-16653970",
@@ -27,7 +27,7 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/itzy-yeji-itzy-yeji-hwang-yeji-kpop-gif-18379032"]
 
         #8
-        self.bot.ryunjin_gif = ["https://tenor.com/view/ryujin-%EB%A5%98%EC%A7%84-itzy-shinryujin-gif-14922418",
+        self.bot.itzy_ryujin_gif = ["https://tenor.com/view/ryujin-%EB%A5%98%EC%A7%84-itzy-shinryujin-gif-14922418",
             "https://tenor.com/view/ryujin-dance-moves-shake-it-pretty-gif-16723839",
             "https://tenor.com/view/ryujin-itzy-blow-kiss-shinryujin-gif-14437581",
             "https://tenor.com/view/itzy-ryujin-shin-ryujin-kpop-pretty-gif-15639935",
@@ -37,7 +37,7 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/ryujin-itzy-gif-18835542"]
 
         #7
-        self.bot.chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
+        self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-itzy-gif-18553550",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-itzy-chaeryeong-itzy-lee-chaeryeong-gif-13767624",
@@ -46,7 +46,7 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-not-shy-gif-18568206"]
 
         #7
-        self.bot.yuna_gif = ["https://tenor.com/view/yuna-yuna-itzy-itzy-yuna-shin-yuna-itzy-gif-13910454",
+        self.bot.itzy_yuna_gif = ["https://tenor.com/view/yuna-yuna-itzy-itzy-yuna-shin-yuna-itzy-gif-13910454",
             "https://tenor.com/view/yuna-yuna-itzy-shin-yuna-gif-18719264",
             "https://tenor.com/view/yuna-shin-yuna-yuna-itzy-itzy-yuna-itzy-gif-13835000",
             "https://tenor.com/view/yuna-yuna-itzy-shin-yuna-gif-18829861",
@@ -55,7 +55,7 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/yuna-gif-18390135"]
 
         #7
-        self.bot.lia_gif = ["https://tenor.com/view/kpop-lia-strawberry-itzy-cute-gif-16770693",
+        self.bot.itzy_lia_gif = ["https://tenor.com/view/kpop-lia-strawberry-itzy-cute-gif-16770693",
             "https://tenor.com/view/lia-liaitzy-itzylia-itzy-gif-18066742",
             "https://tenor.com/view/lia-itzy-choi-jisu-pretty-model-gif-17200845",
             "https://tenor.com/view/itzy-lia-itzy-lia-kpop-cute-gif-17092840",
@@ -71,15 +71,15 @@ class ItzyPings(commands.Cog):
                 await ctx.message.delete()
             else: 
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
-                await ctx.send(random.choice(self.bot.yeji_gif))
+                await ctx.send(random.choice(self.bot.itzy_yeji_gif))
                 await ctx.message.delete()
-        elif arg == "ryunjin":
+        elif arg == "ryujin":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
             else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Ryunjin :heart:')
-                await ctx.send(random.choice(self.bot.ryunjin_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Ryujin :heart:')
+                await ctx.send(random.choice(self.bot.itzy_ryujin_gif))
                 await ctx.message.delete()
         elif arg == "chaeryeong":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -87,7 +87,7 @@ class ItzyPings(commands.Cog):
                 await ctx.message.delete()
             else: 
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
-                await ctx.send(random.choice(self.bot.chaeryeong_gif))
+                await ctx.send(random.choice(self.bot.itzy_chaeryeong_gif))
                 await ctx.message.delete()
         elif arg == "yuna":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -111,29 +111,29 @@ class ItzyPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
-                await ctx.send(random.choice(self.bot.yeji_gif))
+                await ctx.send(random.choice(self.bot.itzy_yeji_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
-            await ctx.send(random.choice(self.bot.yeji_gif))
+            await ctx.send(random.choice(self.bot.itzy_yeji_gif))
             await ctx.message.delete()
 
     @commands.command()
-    async def ryunjin(self, ctx):
+    async def ryujin(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Ryunjin :heart:')
-                await ctx.send(random.choice(self.bot.ryunjin_gif))
+                await ctx.send(random.choice(self.bot.itzy_ryujin_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Ryunjin :heart:')
-            await ctx.send(random.choice(self.bot.ryunjin_gif))
+            await ctx.send(random.choice(self.bot.itzy_ryujin_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -141,14 +141,14 @@ class ItzyPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
-                await ctx.send(random.choice(self.bot.chaeryeong_gif))
+                await ctx.send(random.choice(self.bot.itzy_chaeryeong_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
-            await ctx.send(random.choice(self.bot.chaeryeong_gif))
+            await ctx.send(random.choice(self.bot.itzy_chaeryeong_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -156,14 +156,14 @@ class ItzyPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
-                await ctx.send(random.choice(self.bot.yuna_gif))
+                await ctx.send(random.choice(self.bot.itzy_yuna_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
-            await ctx.send(random.choice(self.bot.yuna_gif))
+            await ctx.send(random.choice(self.bot.itzy_yuna_gif))
             await ctx.message.delete()
 
     @commands.command()
@@ -171,14 +171,14 @@ class ItzyPings(commands.Cog):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
-                await ctx.send(random.choice(self.bot.lia_gif))
+                await ctx.send(random.choice(self.bot.itzy_lia_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
-            await ctx.send(random.choice(self.bot.lia_gif))
+            await ctx.send(random.choice(self.bot.itzy_lia_gif))
             await ctx.message.delete()
 
 

@@ -233,20 +233,20 @@ class gifcog(commands.Cog):
                 for x in self.bot.yuqi_gif:
                     await ctx.send(x)
         #.Itzy
-            elif arg == "yeji":
-                for x in self.bot.yeji_gif:
+            elif arg == "itzy yeji":
+                for x in self.bot.itzy_yeji_gif:
                     await ctx.send(x)
-            elif arg == "ryunjin":
-                for x in self.bot.ryunjin_gif:
+            elif arg == "itzy ryujin":
+                for x in self.bot.itzy_ryujin_gif:
                     await ctx.send(x)
-            elif arg == "chaeryeong":
-                for x in self.bot.chaeryeong_gif:
+            elif arg == "itzy chaeryeong":
+                for x in self.bot.itzy_chaeryeong_gif:
                     await ctx.send(x)
-            elif arg == "yuna":
-                for x in self.bot.yuna_gif:
+            elif arg == "itzy yuna":
+                for x in self.bot.itzy_yuna_gif:
                     await ctx.send(x)
-            elif arg == "lia":
-                for x in self.bot.lia_gif:
+            elif arg == "itzy lia":
+                for x in self.bot.itzy_lia_gif:
                     await ctx.send(x)
         #.Izone
             elif arg == "sakura":

@@ -64,7 +64,7 @@ class hcommands(commands.Cog):
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
         embed3.add_field(name='April', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
         embed3.add_field(name='TXT', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
-        embed3.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryunjin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
+        embed3.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
         embed3.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```', inline = True)
         embed3.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
