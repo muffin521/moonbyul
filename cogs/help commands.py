@@ -4,6 +4,7 @@ from discord.ext import commands
 from discord.utils import get
 from random import choice
 
+description = "All commands start with the prefix [=]\nTo invite Moonbyul to your server, try `=invite`"
 
 class hcommands(commands.Cog):
 
@@ -20,7 +21,7 @@ class hcommands(commands.Cog):
     #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed1.set_footer(text="page 1/5")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```', inline = True)
@@ -37,7 +38,7 @@ class hcommands(commands.Cog):
     #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text="page 2/5")
         embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong```''')
@@ -54,7 +55,7 @@ class hcommands(commands.Cog):
     #//embed3
         embed3 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed3.set_footer(text="page 3/5")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
@@ -71,7 +72,7 @@ class hcommands(commands.Cog):
     #//embed4
         embed4 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed4.set_footer(text="page 4/5")
         embed4.add_field(name='WEEEKLY', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
@@ -88,7 +89,7 @@ class hcommands(commands.Cog):
     #//embed5
         embed5 = discord.Embed(
             title = 'COMMANDS',
-            description = 'All commands start with the prefix [=]\nTo invite the bot to your server, try `=invite`',
+            description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed5.set_footer(text="page 5/5")
         embed5.add_field(name='Oh My Girl', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
