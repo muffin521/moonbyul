@@ -161,7 +161,8 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/seunghee-oh-my-girl-bungee-oh-my-girl-bungee-kpop-gif-14748328",
             "https://tenor.com/view/oh-my-girl-seunghee-cute-gif-15318622",
             "https://tenor.com/view/oh-my-girl-seunghee-binnie-what-shocked-gif-16233453",
-            "https://tenor.com/view/oh-my-girl-seunghee-cute-smirk-kpop-gif-15813574"]
+            "https://tenor.com/view/oh-my-girl-seunghee-cute-smirk-kpop-gif-15813574",
+            "https://gfycat.com/farinsignificantguanaco"]
 
         self.bot.ohmygirl_yooa_gif = ["https://gfycat.com/querulousangelicarctichare-yooa",
             "https://media.discordapp.net/attachments/643623059541983242/770648857595084832/2ac60c3d-e2fd-4649-beca-88c8cc046231.gif",

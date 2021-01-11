@@ -38,7 +38,8 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/cl-kpop-lee-chaelin-2ne1-gif-19502722",
             "https://tenor.com/view/cl-2ne1-i-am-the-best-bat-ready-to-fight-gif-14343853",
             "https://tenor.com/view/cl-2ne1-kpop-gif-7398496",
-            "https://gfycat.com/graveshoddycoyote"]
+            "https://gfycat.com/graveshoddycoyote",
+            "https://tenor.com/view/cl-kpop-dance-gif-4665754"]
 
         self.bot.dara_gif = ["https://tenor.com/view/dara-sandarapark-sandara-2ne1-yg-gif-5071907",
             "https://tenor.com/view/dara-sandara-sandara-park-kpop-2ne1-gif-19666838",
@@ -67,7 +68,8 @@ class twoneone(commands.Cog):
             "https://cdn.discordapp.com/attachments/703871901411573850/795774289742659644/iu-14.gif",
             "https://i.makeagif.com/media/10-01-2015/qGFLrI.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795779150849769532/iu-19.gif",
-            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif"]
+            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif",
+            "https://tenor.com/view/nodding-%EC%82%B0%EB%8B%A4%EB%9D%BC%EB%B0%95-mnet-asian-music-awards-rhythm-artist-reaction-gif-19237338"]
 
         self.bot.parkbom_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766103766466570/image1.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795766103010836510/image0.gif",

@@ -70,7 +70,12 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/longadmiredindianspinyloach",
             "https://tenor.com/view/hyojung-gif-19800693",
             "https://tenor.com/view/hyojung-gif-19857822",
-            "https://tenor.com/view/oh-my-girl-omg-kpop-cute-pretty-gif-17578691"]
+            "https://tenor.com/view/oh-my-girl-omg-kpop-cute-pretty-gif-17578691",
+            "https://gfycat.com/harmlesssecondappaloosa",
+            "https://gfycat.com/evendismalamphibian",
+            "https://gfycat.com/unequaledindelibleblackmamba",
+            "https://gfycat.com/lankyultimategemsbok",
+            "https://gfycat.com/gloriousfilthylacewing"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -156,13 +161,15 @@ class gamerPings(commands.Cog):
             person = ctx.author.name
         else:
             person = name
-        number = random.randint(1,3)
+        number = random.randint(1,4)
         if number == 1:
             await ctx.send(f'Hey, {person} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
         elif number == 2:
             await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
         elif number == 3:
             await ctx.send(f'Hey, {person}, are you Bae Suzy?\nBecause you could literally punch me and I\'d be thankful')
+        elif number == 4:
+            await ctx.send(f'Hey, {person},  are you hawaiin bread rolls?\nBecause I love your buns')
         else:
             await ctx.send(f'{person}, please report this to @muffin521#9280, or in the support server: https://discord.gg/Ntk9Jp26yx')
 

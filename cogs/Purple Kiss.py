@@ -54,7 +54,8 @@ class PurpleKiss(commands.Cog):
             "https://cdn.discordapp.com/attachments/547946709758509076/740189208232198184/20200804_081400.gif",
             "https://gfycat.com/contentorderlygibbon",
             "https://gfycat.com/elasticblankaustralianshelduck",
-            "https://gfycat.com/exemplarybiodegradablelemur"]
+            "https://gfycat.com/exemplarybiodegradablelemur",
+            "https://cdn.discordapp.com/attachments/547946709758509076/797576874980147200/Jieun.gif"]
 
         self.bot.dosie_gif = ["https://gfycat.com/ShorttermAgonizingIriomotecat",
             "https://gfycat.com/ReflectingPessimisticGalapagosalbatross",
@@ -73,7 +74,8 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/ireh-purple-kiss-seoyoung-gif-19356698",
             "https://tenor.com/view/ireh-purple-kiss-gif-19356772",
             "https://tenor.com/view/purple-kiss-ireh-chaein-dosie-gif-19356828",
-            "https://tenor.com/view/ireh-purple-kiss-gif-19356800"]
+            "https://tenor.com/view/ireh-purple-kiss-gif-19356800",
+            "https://cdn.discordapp.com/attachments/680370499297345549/797591178387783740/Ireh.gif"]
 
         self.bot.chaein_gif = ["https://gfycat.com/filthyforkedfirecrest",
             "https://gfycat.com/miserablejealousbengaltiger",

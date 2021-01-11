@@ -69,14 +69,12 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792",
             "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935"]
 
-        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097070399815690/image0.jpg",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
+        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097724523282432/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097737801793537/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097988662984734/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790098038285664306/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790098124474548234/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790101053294510090/image0.gif",
