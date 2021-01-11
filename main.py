@@ -17,6 +17,8 @@
     #& clean help command
     #& make desc on help command a variable
     #& change "invite the bot" to "invite Moonbyul" (help command)
+    #& make kbotcom a global variable
+    #& Give S.E.S command a title for each MV (in variable)
 
     #~ SNSD
 
