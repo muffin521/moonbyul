@@ -15,6 +15,8 @@
 #todo:
     #& combine kpoppings.py, maepings.py, and plepings.py
     #& clean help command
+    #& make desc on help command a variable
+    #& change "invite the bot" to "invite Moonbyul" (help command)
 
     #~ SNSD
 

@@ -423,7 +423,11 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/hollowacrobaticindochinahogdeer",
             "https://gfycat.com/diligentgrimyguineapig",
             "https://gfycat.com/decisivecloudyhornshark",
-            "https://gfycat.com/enviousimpeccableaplomadofalcon"]
+            "https://gfycat.com/enviousimpeccableaplomadofalcon",
+            "https://gfycat.com/negativeslowaldabratortoise",
+            "https://gfycat.com/coldshadyferret",
+            "https://gfycat.com/livelysomberiberianmidwifetoad",
+            "https://gfycat.com/whitepositiveindianrhinoceros"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -540,7 +544,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
             "https://gfycat.com/respectfulaptbichonfrise",
-            "https://imgur.com/pwq5qck"]
+            "https://imgur.com/pwq5qck",
+            "https://gfycat.com/whitepositiveindianrhinoceros"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
