@@ -50,7 +50,7 @@ class weeekly(commands.Cog):
             "https://tenor.com/view/weeekly-monday-weeekly-monday-playm-gif-18227541",
             "https://tenor.com/view/monday-weeekly-smirk-gif-18059513"]
 
-        self.bot.weeekly_seoun_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061900464390144/SN1.gif",
+        self.bot.weeekly_soeun_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061900464390144/SN1.gif",
             "https://media.discordapp.net/attachments/782405901515751445/790061824346161202/SN2.gif",
             "https://media.discordapp.net/attachments/782405901515751445/790061567625396224/SN3.gif",
             "https://tenor.com/view/weeekly-soeun-weeekly-soeun-gif-18130042",
@@ -104,7 +104,7 @@ class weeekly(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :heart:')
                 await ctx.send(random.choice(self.bot.weeekly_monday_gif))
                 await ctx.message.delete()
-        elif arg == "seoun":
+        elif arg == "soeun":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
