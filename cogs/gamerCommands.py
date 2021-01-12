@@ -75,7 +75,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/evendismalamphibian",
             "https://gfycat.com/unequaledindelibleblackmamba",
             "https://gfycat.com/lankyultimategemsbok",
-            "https://gfycat.com/gloriousfilthylacewing"]
+            "https://gfycat.com/gloriousfilthylacewing",
+            "https://tenor.com/view/chuu-loona-kim-jiwoo-loonatheworld-kpop-gif-gif-19449093"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

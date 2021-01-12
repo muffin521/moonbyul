@@ -165,7 +165,10 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/chuu-loona-hamburguer-heart-heart-untitled127-gif-13827374",
             "https://tenor.com/view/loona-chuu-yes-happy-smile-gif-14322751",
             "https://tenor.com/view/chuu-loona-ne-yes-cute-gif-14954652",
-            "https://tenor.com/view/chuu-gif-18979395"]
+            "https://tenor.com/view/chuu-gif-18979395",
+            "https://tenor.com/view/chuu-look-at-you-kim-jiwoo-girl-of-the-month-loonatheworld-gif-19440716",
+            "https://tenor.com/view/chuu-loona-kim-jiwoo-loonatheworld-kpop-gif-gif-19449093",
+            "https://tenor.com/view/loona-kim-ji-woo-chuu-drama-dating-class-gif-14113598"]
 
         self.bot.gowon_gif = ["https://tenor.com/view/gowon-park-gowon-park-chaewon-loona-loona-gowon-gif-13191168",
             "https://tenor.com/view/loona-go-won-kpop-gif-14252120",
