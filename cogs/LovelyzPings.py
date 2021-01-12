@@ -18,7 +18,7 @@ k8 = 573974040679809044
 mae = 492769416610840586
 kiwi = 390317665463566336
 
-class gamerPings(commands.Cog):
+class Lovelyz(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
@@ -399,4 +399,4 @@ class gamerPings(commands.Cog):
             await ctx.message.delete()
 
 def setup(client):
-    client.add_cog(gamerPings(client))
+    client.add_cog(Lovelyz(client))
