@@ -215,7 +215,9 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/yeeun-jang-yeeun-cute-clc-kpop-gif-17883335",
             "https://tenor.com/view/g-idle-yuqi-song-yuqi-kpop-cute-gif-17667093",
             "https://tenor.com/view/chuu-gif-18979395",
-            "https://tenor.com/view/bang-chan-gif-18200044"]
+            "https://tenor.com/view/bang-chan-gif-18200044",
+            "https://tenor.com/view/somin-kard-gif-18981833",
+            "https://tenor.com/view/heart-kard-somin-gif-18981834"]
 
     @commands.command()
     async def loona(self, ctx, *, arg):
