@@ -91,6 +91,7 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed5.set_footer(text="page 5/5")
         embed5.add_field(name='Oh My Girl', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
+        embed5.add_field(name='K.A.R.D', value=f'```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin\n \n \n ```')
         embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n \n \n ```')
         
 

@@ -285,6 +285,19 @@ class gifcog(commands.Cog):
             elif arg == "hitomi":
                 for x in self.bot.hitomi_gif:
                     await ctx.send(x)
+        #.KARD
+            elif arg == "kard bm":
+                for x in self.bot.kard_bm_gif:
+                    await ctx.send(x)
+            elif arg == "kard jiwoo":
+                for x in self.bot.kard_jiwoo_gif:
+                    await ctx.send(x)
+            elif arg == "kard jseph":
+                for x in self.bot.kard_jseph_gif:
+                    await ctx.send(x)
+            elif arg == "kard somin":
+                for x in self.bot.kard_somin_gif:
+                    await ctx.send(x) 
         #.Loona
             elif arg == "heejin":
                 for x in self.bot.heejin_gif:
