@@ -136,6 +136,10 @@ class gamerPings(commands.Cog):
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()
+    async def god(self, ctx):
+        await ctx.send(f'<@!{ctx.author.id}> says stop being sus <@573974040679809044>')
+
+    @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
         if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:            
             embed=discord.Embed(

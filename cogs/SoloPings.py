@@ -35,7 +35,6 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty-teddybear-gif-19176299",
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty_gif-gif-19360526"]
 
-        #9
         self.bot.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
             "https://tenor.com/view/alexa-alexa-kpop-wink-cute-wink-alex-christine-gif-18426203",
             "https://tenor.com/view/sunlight-alexa-alexa-kpop-villain-alexa-villain-gif-18426653",
@@ -44,9 +43,24 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/okay-ok-what-is-it-say-alexa-gif-18669905",
             "https://tenor.com/view/alexa-kpop-alexa-quadratic-equation-maths-alex-christine-gif-19114670",
             "https://tenor.com/view/shocked-shocking-unbelievable-villian-alexa-gif-18776700",
-            "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902"]
+            "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902",
+            "https://tenor.com/view/alexa-kpop-alexa-dance-do-or-die-alexazblabel-gif-18228202",
+            "https://tenor.com/view/alexa-kpop-alexa-alexa-zb-label-slay-queen-queen-gif-18882229",
+            "https://tenor.com/view/what-laugh-what-what-laugh-laughs-alexa-gif-18240700",
+            "https://tenor.com/view/robot-sci-fi-eyes-dance-dancing-gif-18295515",
+            "https://tenor.com/view/ale-xa-alexa-kpop-alexa-revolution-revolution-eye-gif-19636140",
+            "https://tenor.com/view/naruto-naruto-run-run-kpop-kpop-naruto-run-gif-19538817",
+            "https://tenor.com/view/alexa-alexa-universe-alexa-kpop-bomb-bomb-rock-version-gif-18239851",
+            "https://tenor.com/view/bts-dna-alexa-kpop-sonnet-son-gif-19204918",
+            "https://tenor.com/view/ok-alexa-alexa-kpop-kpop-alex-christine-gif-19759905",
+            "https://tenor.com/view/pat-alexa-alexa-kpop-alexa-cute-cute-gif-19636159",
+            "https://tenor.com/view/one-girl-army-alexa-alexa-kpop-revolution-come-and-join-the-revolution-gif-19115866",
+            "https://tenor.com/view/ai-ai-alexa-hand-fracture-alexa-alexa-kpop-gif-19143065",
+            "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902",
+            "https://tenor.com/view/alexa-alexa-revolution-revolution-alexa-is-the-revolution-one-girl-army-gif-19105379",
+            "https://tenor.com/view/alexa-kpop-alexa-alexa-zb-label-zanybros-revolution-gif-18882682",
+            "https://tenor.com/view/alexa-happy-birthday-alexa-alexa-kpop-alexa-birthday-birthday-gif-19471506"]
 
-        #10
         self.bot.chungha_gif = ["https://tenor.com/view/kiss-love-chunga-korean-gif-11126096",
             "https://tenor.com/view/chungha-gif-18541917",
             "https://tenor.com/view/chungha-stare-smokey-eyes-gif-14390425",
@@ -93,7 +107,6 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
             "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417"]
 
-        #8
         self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
             "https://tenor.com/view/somi-somsom-silly-tongue-wacky-gif-9002693",
@@ -103,7 +116,6 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/jeon-so-mi-gif-8389636",
             "https://tenor.com/view/somi-jeon-somi-what-you-waiting-for-somi-comeback-somi-teaser-gif-17861737"]
 
-        #8
         self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18313007",

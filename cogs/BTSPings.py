@@ -13,6 +13,7 @@ kbotcom = 764610881513324574
 #//people
 lulu = 721653307998994453
 princessuwu = 716841614185857086
+k8 = 573974040679809044
 
 class BTSPings(commands.Cog):
 
@@ -138,7 +139,10 @@ class BTSPings(commands.Cog):
             "https://gfycat.com/anguishedcarefreegodwit",
             "https://gfycat.com/repulsivehotamericanwarmblood",
             "https://gfycat.com/evendismalamphibian",
-            "https://tenor.com/view/jeon-jungkook-bts-jungkook-jungkook-bts-youre-dead-gif-17246646"]
+            "https://tenor.com/view/jeon-jungkook-bts-jungkook-jungkook-bts-youre-dead-gif-17246646",
+            "https://tenor.com/view/jungkook-jeon-jungkook-jungkook-jeon-bts-bangtan-boys-gif-5204531",
+            "https://tenor.com/view/jungkook-jeon-jungkook-jeongguk-jk-kookie-gif-18346698",
+            "https://tenor.com/view/smile-giggle-smiling-bts-jeon-jungkook-gif-15821321"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
@@ -229,10 +233,10 @@ class BTSPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about J-Hope :heart:')
                 await ctx.send(random.choice(self.bot.jhope_gif))
                 await ctx.message.delete()
-        elif arg == "jungkook":
+        elif arg == "jungkook" or arg == "k8":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
+                    await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@{k8}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
                     await ctx.send(random.choice(self.bot.jungkook_gif))
                     await ctx.message.delete()
                 else:
@@ -327,11 +331,11 @@ class BTSPings(commands.Cog):
             await ctx.send(random.choice(self.bot.jhope_gif))
             await ctx.message.delete()
 
-    @commands.command()
+    @commands.command(aliases = ["k8"])
     async def jungkook(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@{k8}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
                 await ctx.send(random.choice(self.bot.jungkook_gif))
                 await ctx.message.delete()
             else:
