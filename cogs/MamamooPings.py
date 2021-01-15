@@ -29,7 +29,7 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/korean-girl-fierce-look-cute-gif-17473484",
             "https://tenor.com/view/moonbyul-mamamoo-wanna-be-myself-look-at-me-gif-18404578",
             "https://gfycat.com/detailedjointcorydorascatfish",
-            "https://imgur.com/ITQcDC9,",
+            "https://imgur.com/ITQcDC9",
             "https://gfycat.com/smallenviousbovine",
             "https://media.discordapp.net/attachments/758493180030222397/772229955408101376/messy_byul.gif",
             "https://tenor.com/view/mamamoo-moonbyul-moon-byul-yi-rapper-vocalist-gif-15907147",

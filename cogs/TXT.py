@@ -85,7 +85,7 @@ class txtPings(commands.Cog):
                 await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Beomgyu :bear:')
-                await ctx.send(random.choice(self.bot.txt_beomgyu))
+                await ctx.send(random.choice(self.bot.txt_beomgyu_gif))
                 await ctx.message.delete()
         elif arg == "taehyun":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:

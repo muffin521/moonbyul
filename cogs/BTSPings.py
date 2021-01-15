@@ -194,7 +194,7 @@ class BTSPings(commands.Cog):
 
     @commands.command()
     async def bts(self, ctx, *, arg):
-        if arg == "v":
+        if arg == "v" or arg == "taehyung" or arg == "kim taehyung":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about V :heart:')
