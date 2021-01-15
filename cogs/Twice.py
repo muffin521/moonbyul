@@ -25,14 +25,35 @@ class gamerPings(commands.Cog):
             "https://tenor.com/brQ1g.gif",
             "https://media.giphy.com/media/qzuGfHYC152dG/giphy.gif"]
 
-        #7
         self.bot.sana_gif = ["https://tenor.com/view/sana-twice-kitty-dance-kpop-gif-17314571",
             "https://media.giphy.com/media/xUySTXXuWvIVDggisg/giphy.gif",
             "https://tenor.com/view/sana-sana-twice-twice-sana-minatozaki-sana-gif-18564320",
             "https://tenor.com/view/sana-twice-heart-minatozaki-jpop-gif-10758695",
             "https://tenor.com/view/twice-shyshyshy-sana-dance-cute-gif-9784878",
             "https://tenor.com/view/sanapinkhair-sana-twice-sana-gif-18677676",
-            "https://tenor.com/view/samichae-sana-twice-serious-gif-15019560"]
+            "https://tenor.com/view/samichae-sana-twice-serious-gif-15019560",
+            "https://tenor.com/view/fancy-twice-sana-gif-14010342",
+            "https://tenor.com/view/twice-minatozaki-sana-fix-hair-gif-12344636",
+            "https://tenor.com/view/fancy-twice-you-sana-gif-14137521",
+            "https://tenor.com/view/sana-minatozaki-sana-twice-jyp-jyp-entertainment-gif-18654791",
+            "https://tenor.com/view/performance-stage-music-dance-dance-performance-gif-15855577",
+            "https://tenor.com/view/twice-sana-fancy-dance-gif-14035182",
+            "https://tenor.com/view/performance-stage-music-dance-dance-performance-gif-15855648",
+            "https://tenor.com/view/sana-fancy-dance-cute-fancy-gif-15434915",
+            "https://tenor.com/view/sana-minatozaki-sana-twice-fancy-jyp-gif-18654790",
+            "https://tenor.com/view/fancy-twice-cutie-sana-sexy-gif-13983688",
+            "https://tenor.com/view/sana-ohyo-ohyo-ohyo-sana-fancy-fancy-sana-twice-gif-13983779",
+            "https://tenor.com/view/twice-sana-fancy-stare-gif-14017602",
+            "https://tenor.com/view/sana-twice-sana-more-more-sana-cute-sana-clumsy-gif-18766260",
+            "https://tenor.com/view/sana-twice-wondering-thinking-bored-gif-6184780",
+            "https://tenor.com/view/welcome-twice-sana-minatozaki-sana-vocalist-gif-17907768",
+            "https://tenor.com/view/sana-twice-heart-point-gif-18331546",
+            "https://tenor.com/view/sana-cute-face-gif-10623438",
+            "https://tenor.com/view/twice-cheerup-sana-shyshyshy-gif-6325860",
+            "https://tenor.com/view/sana-twice-kpop-gif-5328449",
+            "https://tenor.com/view/kpop-twice-sana-gif-5677495",
+            "https://tenor.com/view/sana-sad-crying-twice-twice-sana-gif-16875037",
+            "https://tenor.com/view/twice-feel-special-twice-feel-special-kpop-gif-19924880"]
 
         #5
         self.bot.momo_gif = ["https://tenor.com/UZ2D.gif",
