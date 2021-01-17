@@ -53,7 +53,13 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sana-twice-kpop-gif-5328449",
             "https://tenor.com/view/kpop-twice-sana-gif-5677495",
             "https://tenor.com/view/sana-sad-crying-twice-twice-sana-gif-16875037",
-            "https://tenor.com/view/twice-feel-special-twice-feel-special-kpop-gif-19924880"]
+            "https://tenor.com/view/twice-feel-special-twice-feel-special-kpop-gif-19924880",
+            "https://tenor.com/view/twice-kiss-sana-cute-flying-kiss-gif-14041423",
+            "https://tenor.com/view/sana-sana-twice-minatozaki-sana-twice-sana-twice-gif-14011183",
+            "https://tenor.com/view/twice-sana-cheese-kimbap-gimbap-bros-gif-11163723",
+            "https://tenor.com/view/sana-momo-sana-twice-momo-twice-twice-gif-13983819",
+            "https://tenor.com/view/sana-sana-twice-minatozaki-sana-gif-18815585",
+            "https://tenor.com/view/sana-sana-twice-twice-sana-twice-minatozaki-sana-gif-13495040"]
 
         #5
         self.bot.momo_gif = ["https://tenor.com/UZ2D.gif",

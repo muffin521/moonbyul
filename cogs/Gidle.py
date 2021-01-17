@@ -20,7 +20,6 @@ class IdlePings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        #7
         self.bot.minnie_gif = ["https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-minnie-%EB%AF%BC%EB%8B%88-%E7%B1%B3%E5%A6%AE-cute-gif-18186679",
             "https://tenor.com/view/minnie-gidle-ohmygod-omg-kpop-gif-18256855",
             "https://tenor.com/view/minnie-minnie-nicha-minnie-nicha-yontararak-nicha-yontararak-nicha-gif-18888803",
@@ -29,7 +28,6 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/minnie-minnie-nicha-minnie-nicha-yontararak-nicha-yontararak-nicha-gif-18888791",
             "https://tenor.com/view/minnie-gidle-%EB%AF%BC%EB%8B%88-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-%EC%95%84%EC%9D%B4%EB%93%A4-gif-17062450"]
 
-        #8
         self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962294",
@@ -39,7 +37,6 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962317",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962152"]
 
-        #9
         self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
             "https://tenor.com/view/shuhua-idle-gidle-yeh-shu-hua-cube-entertainment-gif-16929431",
@@ -48,9 +45,34 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/kpop-shuhua-gidle-pretty-gif-14904506",
             "https://tenor.com/view/shuhua-kpop-gif-18740565",
             "https://tenor.com/view/%E8%88%92%E8%8F%AF-gidle-%EC%8A%88%ED%99%94-shuhua-wave-gif-16738706",
-            "https://tenor.com/view/shuhua-yeh-shuhua-shuhua-gidle-shuhua-idle-gidle-gif-19200395"]
+            "https://tenor.com/view/shuhua-yeh-shuhua-shuhua-gidle-shuhua-idle-gidle-gif-19200395",
+            "https://gfycat.com/pinkunequaledequine",
+            "https://gfycat.com/sharpshoddycornsnake",
+            "https://gfycat.com/damagedlightheartedamericancrow",
+            "https://gfycat.com/sophisticatedequatorialkingfisher",
+            "https://gfycat.com/indeliblebadibisbill",
+            "https://gfycat.com/creativerealisticfox",
+            "https://gfycat.com/innocenttepidkodiakbear",
+            "https://gfycat.com/blonddifferentcony",
+            "https://gfycat.com/feistymealyequine",
+            "https://gfycat.com/tinyfatalkangaroo",
+            "https://gfycat.com/pleasantgranularamericantoad",
+            "https://gfycat.com/impureappropriateblobfish",
+            "https://gfycat.com/weightyverifiablebandicoot",
+            "https://gfycat.com/gracefulpositivegreatwhiteshark",
+            "https://gfycat.com/warmheartednaiveasianporcupine",
+            "https://gfycat.com/vaguejampackedchinchilla",
+            "https://gfycat.com/enrageddelectablebongo",
+            "https://gfycat.com/measlyacidicgoose",
+            "https://gfycat.com/unawarefarflungbumblebee",
+            "https://gfycat.com/playfulsimpledassie",
+            "https://gfycat.com/nippyrigidkissingbug",
+            "https://gfycat.com/eagershallowgnat",
+            "https://gfycat.com/hardenormouschrysalis",
+            "https://gfycat.com/poorhilarioushairstreakbutterfly",
+            "https://gfycat.com/gracefulrapidafricanfisheagle",
+            "https://gfycat.com/optimaldefiantbass"]
 
-        #8
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",
             "https://tenor.com/view/soojin-gidle-wink-gif-13805713",
@@ -60,7 +82,6 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soojin-soojin-gidle-gif-18404859",
             "https://tenor.com/view/soojin-gif-19272378"]
 
-        #32
         self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962536",
@@ -94,7 +115,6 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962542",
             "https://tenor.com/view/soyeon-kda-the-baddest-gif-18262396"]
 
-        #9
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
             "https://tenor.com/view/yuqi-song-yuqi-smile-eyes-cute-gif-17354259",

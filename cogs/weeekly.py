@@ -64,8 +64,7 @@ class weeekly(commands.Cog):
             "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-think-jaehee-think-gif-19422471",
             "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-jaehee-cute-jaehee-cute-gif-18217794"]
 
-        self.bot.weeekly_jihan_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061636684611593/JH2.gif",
-            "https://cdn.discordapp.com/attachments/790062796150407209/790075153744658442/JIHAN3.gif",
+        self.bot.weeekly_jihan_gif = ["https://cdn.discordapp.com/attachments/790062796150407209/790075153744658442/JIHAN3.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075171691692032/JIHAN2.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075206399950908/JIHAN1.gif",
             "https://tenor.com/view/jihan-weeekly-weeekly-jihan-han-jihyo-kpop-gif-18464277",
