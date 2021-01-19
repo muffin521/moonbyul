@@ -39,7 +39,12 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962177",
             "https://tenor.com/view/miyeon-miyeon-gidle-cho-miyeon-gif-18403777",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962317",
-            "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962152"]
+            "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962152",
+            "https://cdn.discordapp.com/attachments/800597433134481458/800601970124783637/tenor_2.gif",
+            "https://cdn.discordapp.com/attachments/800597433134481458/800603213308493824/tenor_5.gif",
+            "https://cdn.discordapp.com/attachments/800597433134481458/800603577390202920/tenor_6.gif",
+            "https://cdn.discordapp.com/attachments/800597433134481458/800603659980374026/tenor_7.gif",
+            "https://cdn.discordapp.com/attachments/800597433134481458/800603822430093312/tenor_8.gif"]
 
         self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
@@ -84,7 +89,10 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soojin-gif-18526389",
             "https://tenor.com/view/soojin-seo-soojin-gidle-idle-sujin-gif-18866361",
             "https://tenor.com/view/soojin-soojin-gidle-gif-18404859",
-            "https://tenor.com/view/soojin-gif-19272378"]
+            "https://tenor.com/view/soojin-gif-19272378",
+            "https://cdn.discordapp.com/attachments/800597377429143554/800604618086023239/tenor_10.gif",
+            "https://cdn.discordapp.com/attachments/800597377429143554/800604667448262666/tenor_11.gif",
+            "https://cdn.discordapp.com/attachments/800597377429143554/800604718065647656/tenor_12.gif"]
 
         self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
@@ -117,7 +125,9 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soyeon-jeon-soyeon-soyeon-gidle-soyeon-idle-gidle-gif-19200276",
             "https://tenor.com/view/soyeon-jeon-soyeon-soyeon-gidle-soyeon-idle-gidle-gif-19200299",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962542",
-            "https://tenor.com/view/soyeon-kda-the-baddest-gif-18262396"]
+            "https://tenor.com/view/soyeon-kda-the-baddest-gif-18262396",
+            "https://cdn.discordapp.com/attachments/800597297704337409/800607108725866546/f8eb8ac2c6e6ee77bc7a5c50ef36df0e.gif",
+            "https://cdn.discordapp.com/attachments/800597297704337409/800607406501265458/tenor_14.gif"]
 
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",

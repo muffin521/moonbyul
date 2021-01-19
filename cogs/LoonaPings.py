@@ -55,7 +55,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/loona-loona-hyunjin-hyunjin-kim-hyunjin-loona-aeong-gif-18902504",
             "https://cdn.discordapp.com/attachments/771238115255255060/777819042685779978/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/777819043649683476/image1.gif",
-            "https://cdn.discordapp.com/attachments/771238115255255060/777819045034065920/image2.gif"]
+            "https://cdn.discordapp.com/attachments/771238115255255060/777819045034065920/image2.gif",
+            "https://tenor.com/view/breadjin-aeong-hyunjin-loona-bread-swap-gif-15633189"]
 
         self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
@@ -201,7 +202,8 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/oliviahye-loona-olivia-loona-olivia-hyejoo-hyejoo-gif-16474426",
             "https://tenor.com/view/aliphobe-olivia-hye-loona-yyxy-hyejoo-gif-17860838",
             "https://tenor.com/view/oliviahye-gif-18868773",
-            "https://tenor.com/view/loona-olivia-hye-pout-sad-gif-14917239"]
+            "https://tenor.com/view/loona-olivia-hye-pout-sad-gif-14917239",
+            "https://tenor.com/view/olivia-hye-loona-hyejoo-peek-aboo-cute-gif-19532995"]
 
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",

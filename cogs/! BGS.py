@@ -3,6 +3,7 @@ from discord.ext import commands
 from datetime import datetime
 
         #= P1Harmony
+        #= VAV
 
 #//servers
 jst = 735713250225815615
@@ -17,7 +18,7 @@ kbotcom = 764610881513324574
 
 #//people
 
-class twoneone(commands.Cog):
+class BGS(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
@@ -251,4 +252,4 @@ class twoneone(commands.Cog):
                 await ctx.message.delete()
     
 def setup(client):
-    client.add_cog(twoneone(client))
+    client.add_cog(BGS(client))

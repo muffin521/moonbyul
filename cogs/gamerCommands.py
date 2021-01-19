@@ -82,7 +82,8 @@ class gamerPings(commands.Cog):
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
             "https://www.youtube.com/watch?v=05sJVEwZuZ4",
-            "https://www.youtube.com/watch?v=2EKKMof_Ywg"]
+            "https://www.youtube.com/watch?v=2EKKMof_Ywg",
+            "https://www.youtube.com/watch?time_continue=5&v=-a57_IOKpjM&feature=emb_logo"]
 
     @commands.command()
     async def dreammc(self, ctx):
@@ -167,7 +168,7 @@ class gamerPings(commands.Cog):
             person = ctx.author.name
         else:
             person = name
-        number = random.randint(1,4)
+        number = random.randint(1,5)
         if number == 1:
             await ctx.send(f'Hey, {person} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
         elif number == 2:
@@ -176,6 +177,8 @@ class gamerPings(commands.Cog):
             await ctx.send(f'Hey, {person}, are you Bae Suzy?\nBecause you could literally punch me and I\'d be thankful')
         elif number == 4:
             await ctx.send(f'Hey, {person},  are you hawaiin bread rolls?\nBecause I love your buns')
+        elif number == 5:
+            await ctx.send(f'Hey, {person}, are you Jo Yuri?\nBecause, Jo, Yuri-lly pretty')
         else:
             await ctx.send(f'{person}, please report this to @muffin521#9280, or in the support server: https://discord.gg/Ntk9Jp26yx')
 
