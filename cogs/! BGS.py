@@ -234,7 +234,7 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Lou :heart:')
                 await ctx.send(random.choice(self.bot.vav_lou_gif))
                 await ctx.message.delete()
-        elif arg == "st. van" or arg == "stvan" or arg == "st van":
+        elif arg == "st. van" or arg == "stvan" or arg == "st van" or arg == "st.van":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
                 await ctx.message.delete()
