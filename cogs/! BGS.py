@@ -169,7 +169,7 @@ class BGS(commands.Cog):
                 await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
+                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
                 await ctx.message.delete()
         elif arg == "soul":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
