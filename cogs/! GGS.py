@@ -2,7 +2,7 @@ import discord, random, datetime
 from discord.ext import commands
 from datetime import datetime
 
-        #= 
+        #= Dreamcatcher
 
 #//servers
 jst = 735713250225815615
@@ -171,6 +171,10 @@ class GGS(commands.Cog):
 
     @commands.command(aliases = ['dream'])
     async def dreamcatcher(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
         if arg == "jiu" or arg == "catcher jiu":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:

@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -7,6 +8,8 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
+#.logs
+logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -56,6 +59,10 @@ class CherryBullet(commands.Cog):
 
     @commands.command()
     async def cherry(self, ctx, bullet, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Cherry Bullet {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
         if bullet == "bullet":
             if arg == "jiwon":
                 if ctx.guild.id == luminary:
