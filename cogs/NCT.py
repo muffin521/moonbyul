@@ -73,14 +73,11 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792",
             "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935"]
 
-        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
+        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097724523282432/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097737801793537/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790098038285664306/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790098124474548234/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790101053294510090/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790101053399629834/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790101176627625984/image0.gif",
@@ -291,7 +288,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/renjun-huang-nctrenjun-renjunnct-nctdream-gif-14733838",
             "https://tenor.com/view/renjun-nct-dream-confused-what-huang-renjun-gif-16915794",
             "https://tenor.com/view/kpop-nct-nct-dream-hwang-injun-huang-renjun-gif-14541458",
-            "https://tenor.com/view/nct-nct-dream-renjun-huang-ren-jun-hwang-in-joon-gif-17167756"]
+            "https://tenor.com/view/nct-nct-dream-renjun-huang-ren-jun-hwang-in-joon-gif-17167756",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif"]
 
 
     @commands.command()
