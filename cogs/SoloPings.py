@@ -130,8 +130,6 @@ class SoloPings(commands.Cog):
 
         #
 
-
-
     @commands.command()
     async def natty(self, ctx):
         if ctx.guild.id == luminary:
