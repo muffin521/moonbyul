@@ -56,7 +56,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/wink-nct-mark-cute-smile-gif-12423198",
             "https://tenor.com/view/mark-mark-lee-nct-kpop-cute-gif-16094611",
             "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
-            "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194"]
+            "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194",
+            'https://tenor.com/view/nct-nct127-mark-lee-kpop-choc-chipg-gukies-gif-14393243']
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
@@ -87,7 +88,19 @@ class NCT(commands.Cog):
             "https://cdn.discordapp.com/attachments/772975408912007180/790103352352178196/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790103993077596170/image1.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790104121116983346/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790104121600376842/image1.gif"]
+            "https://cdn.discordapp.com/attachments/772975408912007180/790104121600376842/image1.gif",
+            "https://tenor.com/view/jaemin-nct-dream-kpop-cute-smile-gif-16969202",
+            "https://tenor.com/view/love-heart-shape-smile-cute-sm-entertainment-gif-15115182",
+            "https://tenor.com/view/jaemin-na-jaemin-ice-cream-kpop-cute-gif-16621837",
+            "https://tenor.com/view/jaemin-nct-dream-nct-smile-kpop-gif-16452165",
+            "https://tenor.com/view/smile-cute-sm-entertainment-nct-dream-jaemin-gif-15115166",
+            "https://tenor.com/view/hand-kiss-hand-kiss-jaemin-na-gif-18900580",
+            "https://tenor.com/view/chenle-jaemin-nct-dream-zhong-chenle-na-jaemin-gif-16857724",
+            "https://tenor.com/view/kiss-jaemin-nct-na-jaemin-kpop-gif-16392459",
+            "https://tenor.com/view/jaemin-nana-na-jaemin-nct-smile-gif-17013043",
+            "https://tenor.com/view/kpop-boy-boring-nct-dream-jaemin-gif-15115161",
+            "https://tenor.com/view/jaemin-nct-dream-serious-cute-handsome-gif-17041026",
+            "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677"]
 
         self.bot.nct_jaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
             "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",

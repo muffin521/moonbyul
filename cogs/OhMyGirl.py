@@ -148,7 +148,9 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/mimi-oh-my-girl-cute-kiss-gif-15401382",
             "https://tenor.com/view/ohmygirl-mimi-gif-6083158",
             "https://tenor.com/view/mimi-ohmygirl-windyday-gif-6083154",
-            "https://tenor.com/view/ohmygirl-mimi-gif-6083155"]
+            "https://tenor.com/view/ohmygirl-mimi-gif-6083155",
+            "https://tenor.com/view/mimi-birthday-mimi-mimi-omg-mimi-oh-my-girl-oh-my-girl-gif-19911544",
+            "https://tenor.com/view/mimi-mimi-oh-my-girl-omg-oh-my-girl-mimi-kim-mihyun-gif-19911077"]
 
         self.bot.ohmygirl_seunghee_gif = ["https://tenor.com/view/aww-jiggle-ohmygirl-pout-korean-gif-18118579",
             "https://gfycat.com/bountifulbronzekarakul",

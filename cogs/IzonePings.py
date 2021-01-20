@@ -157,7 +157,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/ethicaloddeft",
             "https://gfycat.com/portlyneargnat",
             "https://gfycat.com/shallowfortunatecrow",
-            "https://gfycat.com/goodinferiorfritillarybutterfly"]
+            "https://gfycat.com/goodinferiorfritillarybutterfly",
+            "https://tenor.com/view/iz-one-kpop-gif-13206670",
+            "https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -373,7 +375,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/unpleasantexaltedelephantseal",
             "https://gfycat.com/falseagilebrownbutterfly",
             "https://gfycat.com/mellowshortcommabutterfly",
-            "https://gfycat.com/drearyuncommoncrossbill"]
+            "https://gfycat.com/drearyuncommoncrossbill",
+            "https://gfycat.com/ambitiouscloudygalapagossealion"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -464,7 +467,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/cornyfewhoopoe",
             "https://gfycat.com/delayedgrouchybison",
             "https://gfycat.com/flickeringtenderbeardeddragon",
-            "https://gfycat.com/disguisedfainthammerkop"]
+            "https://gfycat.com/disguisedfainthammerkop",
+            "https://gfycat.com/gaseouswickedastarte",
+            "https://gfycat.com/SlimSlightCapybara"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",

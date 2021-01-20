@@ -39,7 +39,9 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/cl-2ne1-i-am-the-best-bat-ready-to-fight-gif-14343853",
             "https://tenor.com/view/cl-2ne1-kpop-gif-7398496",
             "https://gfycat.com/graveshoddycoyote",
-            "https://tenor.com/view/cl-kpop-dance-gif-4665754"]
+            "https://tenor.com/view/cl-kpop-dance-gif-4665754",
+            "https://tenor.com/view/2ne1-cl-kpop-yg-gif-5071914",
+            "https://tenor.com/view/cl-kisses-2ne1-kpop-blow-kiss-gif-8616545"]
 
         self.bot.dara_gif = ["https://tenor.com/view/dara-sandarapark-sandara-2ne1-yg-gif-5071907",
             "https://tenor.com/view/dara-sandara-sandara-park-kpop-2ne1-gif-19666838",
