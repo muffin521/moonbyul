@@ -630,6 +630,31 @@ class gifcog(commands.Cog):
             elif arg == "weeekly zoa":
                 for x in self.bot.weeekly_zoa_gif:
                     await ctx.send(x)
+        #.Weki Meki
+            elif arg == "weki meki doyeon":
+                for x in self.bot.wekimeki_doyeon_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki elly":
+                for x in self.bot.wekimeki_elly_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki lua":
+                for x in self.bot.wekimeki_lua_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki lucy":
+                for x in self.bot.wekimeki_lucy_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki rina":
+                for x in self.bot.wekimeki_rina_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki sei":
+                for x in self.bot.wekimeki_sei_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki suyeon":
+                for x in self.bot.wekimeki_suyeon_gif:
+                    await ctx.send(x)
+            elif arg == "weki meki yoojung":
+                for x in self.bot.wekimeki_yoojung_gif:
+                    await ctx.send(x)
         #.Misc
             elif arg == "ses":
                 for x in self.bot.ses_mv:
@@ -648,8 +673,6 @@ class gifcog(commands.Cog):
                     await ctx.send(x)
 
         #.else
-            else:
-                await ctx.send(f'don\'t write code when you\'re tired smh my head')
         else:
             await ctx.send(f'no')
 

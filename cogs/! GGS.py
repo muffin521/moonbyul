@@ -191,7 +191,8 @@ class GGS(commands.Cog):
             "https://tenor.com/view/lua-weki-meki-girl-kpop-music-video-gif-17688814",
             "https://tenor.com/view/kpop-dazzle-weki-meki-lua-cute-gif-16419326",
             "https://tenor.com/view/kpop-dazzle-weki-meki-dance-gif-16912848",
-            "https://gfycat.com/AshamedGreedyJanenschia"]
+            "https://gfycat.com/AshamedGreedyJanenschia",
+            "https://cdn.discordapp.com/attachments/800224194482274345/801700137004564481/giphy.gif"]
 
         self.bot.wekimeki_lucy_gif = ["https://gfycat.com/alarmedclutteredbobwhite",
             "https://cdn.discordapp.com/attachments/800224232759754772/800562065613914152/tenor.gif",
