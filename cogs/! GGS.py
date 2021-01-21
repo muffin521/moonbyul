@@ -182,7 +182,9 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
             "https://cdn.discordapp.com/attachments/800224106384982027/800567657220931645/tumblr_4d924f0ebbeed200cd494b3a3fb9fb57_da9d32c0_400.gif",
             "https://tenor.com/view/elly-weki-meki-oopsy-kpop-mv-gif-17589261",
-            "https://tenor.com/view/elly-haerim-hi-hello-wave-gif-16426946"]
+            "https://tenor.com/view/elly-haerim-hi-hello-wave-gif-16426946",
+            "https://gfycat.com/DisguisedKindlyHedgehog",
+            "https://gfycat.com/UnrulyMiserableHake"]
 
         self.bot.wekimeki_lua_gif = ["https://cdn.discordapp.com/attachments/800224194482274345/801694025346187274/original_1.gif",
             "https://cdn.discordapp.com/attachments/800224194482274345/800560199026606100/7a212bf86037a492f5355889a2441032.gif",
@@ -208,7 +210,10 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rina-weki-meki-idol-kpop-gif-14916651",
             "https://tenor.com/view/rina-weki-meki-kpop-cute-pretty-gif-15735688",
             "https://tenor.com/view/rina-weki-meki-kpop-cute-gif-16587745",
-            "https://tenor.com/view/rina-weki-meki-kpop-fierce-gif-15517942"]
+            "https://tenor.com/view/rina-weki-meki-kpop-fierce-gif-15517942",
+            "https://gfycat.com/AdolescentPinkBug",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-18219670",
+            "https://gfycat.com/AgileGiddyIberiannase"]
 
         self.bot.wekimeki_sei_gif = ["https://tenor.com/view/wekimeki-sei-gif-18891261",
             "https://tenor.com/view/wekimeki-sei-gif-18891289",
@@ -217,7 +222,12 @@ class GGS(commands.Cog):
             "https://tenor.com/view/sei-tiki-taka-choreography-weki-meki-dance-gif-15955302",
             "https://tenor.com/view/kpop-sei-diamond-dazzle-weki-meki-gif-16418938",
             "https://cdn.discordapp.com/attachments/800224316888973312/800574717760634950/c3498028cb5f5671e98f8212ca00bc33.gif",
-            "https://cdn.discordapp.com/attachments/800224316888973312/800562983633027122/tenor-1.gif"]
+            "https://cdn.discordapp.com/attachments/800224316888973312/800562983633027122/tenor-1.gif",
+            "https://gfycat.com/DiscreteGrimyCurassow",
+            "https://gfycat.com/DefiniteGraveHarrier",
+            "https://gfycat.com/TatteredGregariousFlyingfox",
+            "https://gfycat.com/ClutteredNeighboringAlabamamapturtle",
+            "https://gfycat.com/MisguidedRichGangesdolphin"]
 
         self.bot.wekimeki_suyeon_gif = ["https://tenor.com/view/wave-hi-hello-kpop-happy-gif-16968572",
             "https://tenor.com/view/kpop-crush-suyeon-weki-meki-music-video-gif-16268466",
@@ -233,7 +243,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/WeepyCleverKakarikis",
             "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif",
             "https://tenor.com/view/weki-meki-yoojung-choi-yoo-jung-gif-18765076",
-            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf"]
+            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf",
+            "https://tenor.com/view/choiyoojung-wekimeki-gif-13666421"]
     
     #. end of gifs
 
