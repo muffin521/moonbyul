@@ -78,7 +78,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/gloriousfilthylacewing",
             "https://tenor.com/view/chuu-loona-kim-jiwoo-loonatheworld-kpop-gif-gif-19449093",
             "https://tenor.com/view/wayv-nct-xiao-xiaojun-xiao-de-jun-gif-17708611",
-            "https://tenor.com/view/jungkook-eating-jungkook-cute-jungkook-hot-jungkook-bts-jungkookie-gif-19814145"]
+            "https://tenor.com/view/jungkook-eating-jungkook-cute-jungkook-hot-jungkook-bts-jungkookie-gif-19814145",
+            "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

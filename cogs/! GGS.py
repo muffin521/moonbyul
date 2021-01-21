@@ -167,6 +167,68 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800504277146796103/77ac81500e0bf2af4bfcd472adb00763.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504188906897418/AliveTotalIbadanmalimbe-size_restricted.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
+    #. weki meki
+        self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
+            "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif"
+            "https://tenor.com/view/produce101-runway-walk-ioi-lol-laughing-gif-8389688",
+            "https://tenor.com/view/doyeon-wekimeki-gif-18867880",
+            "https://tenor.com/view/cover-eyes-kim-doyeon-doyeon-weki-meki-kpop-gif-17688928",
+            "https://tenor.com/view/doyeon-cry-produce101-hurt-kpop-gif-10276415",
+            "https://tenor.com/view/kim-doyeon-hair-flip-ioi-flirt-smile-gif-9869521",
+            "https://tenor.com/view/kpop-dazzle-weki-meki-kim-doyeon-music-video-gif-16419083",
+            "https://tenor.com/view/kim-doyeon-gif-19253844"]
+
+        self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
+            "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
+            "https://cdn.discordapp.com/attachments/800224106384982027/800567657220931645/tumblr_4d924f0ebbeed200cd494b3a3fb9fb57_da9d32c0_400.gif",
+            "https://tenor.com/view/elly-weki-meki-oopsy-kpop-mv-gif-17589261",
+            "https://tenor.com/view/elly-haerim-hi-hello-wave-gif-16426946"]
+
+        self.bot.wekimeki_lua_gif = ["https://cdn.discordapp.com/attachments/800224194482274345/801694025346187274/original_1.gif",
+            "https://cdn.discordapp.com/attachments/800224194482274345/800560199026606100/7a212bf86037a492f5355889a2441032.gif",
+            "https://gfycat.com/DeafeningSillyCanadagoose",
+            "https://tenor.com/view/birthday-flowers-hair-green-kpop-gif-18736777",
+            "https://tenor.com/view/lua-weki-meki-girl-kpop-music-video-gif-17688814",
+            "https://tenor.com/view/kpop-dazzle-weki-meki-lua-cute-gif-16419326",
+            "https://tenor.com/view/kpop-dazzle-weki-meki-dance-gif-16912848",
+            "https://gfycat.com/AshamedGreedyJanenschia"]
+
+        self.bot.wekimeki_lucy_gif = ["https://gfycat.com/alarmedclutteredbobwhite",
+            "https://cdn.discordapp.com/attachments/800224232759754772/800562065613914152/tenor.gif",
+            "https://tenor.com/view/kpop-oopsy-weki-meki-lucy-music-video-gif-17518247",
+            "https://gfycat.com/advancedplainfalcon-weki-meki-noh-lucy",
+            "https://cdn.discordapp.com/attachments/800224232759754772/801697123807526912/NastyMisguidedClownanemonefish-max-1mb.gif",
+            "https://tenor.com/view/wekimeki-lucy-cool-gif-18868364"]
+
+        self.bot.wekimeki_rina_gif = ["https://tenor.com/view/rina-weki-meki-kpop-gif-14709543",
+            "https://cdn.discordapp.com/attachments/800224289810677821/800562573548191744/dd1e1c2491e3eb9d912ccd214e33145c.gif",
+            "https://tenor.com/view/rina-weki-meki-idol-kpop-gif-14916651",
+            "https://tenor.com/view/rina-weki-meki-kpop-cute-pretty-gif-15735688",
+            "https://tenor.com/view/rina-weki-meki-kpop-cute-gif-16587745",
+            "https://tenor.com/view/rina-weki-meki-kpop-fierce-gif-15517942"]
+
+        self.bot.wekimeki_sei_gif = ["https://tenor.com/view/wekimeki-sei-gif-18891261",
+            "https://tenor.com/view/wekimeki-sei-gif-18891289",
+            "https://tenor.com/view/wekimeki-sei-gif-19169813",
+            "https://tenor.com/view/weki-meki-sei-weki-meki-sei-sei-weki-meki-my-beloved-gif-19859712",
+            "https://tenor.com/view/sei-tiki-taka-choreography-weki-meki-dance-gif-15955302",
+            "https://tenor.com/view/kpop-sei-diamond-dazzle-weki-meki-gif-16418938",
+            "https://cdn.discordapp.com/attachments/800224316888973312/800574717760634950/c3498028cb5f5671e98f8212ca00bc33.gif",
+            "https://cdn.discordapp.com/attachments/800224316888973312/800562983633027122/tenor-1.gif"]
+
+        self.bot.wekimeki_suyeon_gif = ["https://tenor.com/view/wave-hi-hello-kpop-happy-gif-16968572",
+            "https://tenor.com/view/kpop-crush-suyeon-weki-meki-music-video-gif-16268466",
+            "https://tenor.com/view/surprised-oopsy-oops-oopsie-weki-meki-gif-18170395",
+            "https://tenor.com/view/kpop-weki-meki-suyeon-ji-suyeon-weki-meki-suyeon-gif-18712771",
+            "https://cdn.discordapp.com/attachments/800224361935274004/800565729052459098/4e45b67529977ec2941e3c3dcd853ec6.gif"]
+
+        self.bot.wekimeki_yoojung_gif = ["https://tenor.com/view/yoojung-choi-yoodaeng-daeng-choiyoojung-gif-19404386",
+            "https://tenor.com/view/umm-um-yoojung-gif-8099931",
+            "https://tenor.com/view/yoojung-choiyoojung-weki-meki-love-heart-gif-13589327",
+            "https://tenor.com/view/choi-yoojung-yoodaeng-weki-meki-cute-baby-gif-13444237",
+            "https://gfycat.com/WeepyCleverKakarikis",
+            "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif"]
+    
     #. end of gifs
 
     @commands.command(aliases = ['dream'])
@@ -236,6 +298,78 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Yoohyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_yoohyeon_gif))
                 await ctx.message.delete()
+
+    @commands.command()
+    async def weki(self, ctx, meki, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        if meki == "meki":
+            if arg == "doyeon":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Doyeon :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_doyeon_gif))
+                    await ctx.message.delete()
+            elif arg == "elly":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Elly :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_elly_gif))
+                    await ctx.message.delete()
+            elif arg == "lua":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Lua :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_lua_gif))
+                    await ctx.message.delete()
+            elif arg == "lucy":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Lucy :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_lucy_gif))
+                    await ctx.message.delete()
+            elif arg == "rina":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Rina :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_rina_gif))
+                    await ctx.message.delete()
+            elif arg == "sei":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Sei :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_sei_gif))
+                    await ctx.message.delete()
+            elif arg == "suyeon":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Suyeon :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_suyeon_gif))
+                    await ctx.message.delete()
+            elif arg == "yoojung":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
+                    await ctx.message.delete()
 
     @commands.command()
     async def jiu(self, ctx):

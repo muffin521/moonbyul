@@ -207,7 +207,8 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/801512286879481926/801677200461922364/tenor-3.gif",
             "https://gfycat.com/ScientificContentCaterpillar",
             "https://cdn.discordapp.com/attachments/801512286879481926/801687284579041320/tenor-4.gif",
-            "https://cdn.discordapp.com/attachments/801512286879481926/801689087936692224/fdd21e4910ff3f22437723e5b4d95261.gif"]
+            "https://cdn.discordapp.com/attachments/801512286879481926/801689087936692224/fdd21e4910ff3f22437723e5b4d95261.gif",
+            "https://cdn.discordapp.com/attachments/801512286879481926/801691398734610482/a0b5a78f63cd36c21e668669e1c727011a949f87r1-268-370_hq.gif"]
 
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
