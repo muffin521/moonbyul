@@ -126,7 +126,8 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/yukika-wave-hello-gif-14017162",
             "https://tenor.com/view/yukika-hswcix-gif-19442465",
             "https://tenor.com/view/yukika-gif-19463874",
-            "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979"]
+            "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
+            "https://gfycat.com/SpiffyFavoriteArmyworm"]
 
         #
 

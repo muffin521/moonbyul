@@ -203,7 +203,11 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/aliphobe-olivia-hye-loona-yyxy-hyejoo-gif-17860838",
             "https://tenor.com/view/oliviahye-gif-18868773",
             "https://tenor.com/view/loona-olivia-hye-pout-sad-gif-14917239",
-            "https://tenor.com/view/olivia-hye-loona-hyejoo-peek-aboo-cute-gif-19532995"]
+            "https://tenor.com/view/olivia-hye-loona-hyejoo-peek-aboo-cute-gif-19532995",
+            "https://cdn.discordapp.com/attachments/801512286879481926/801677200461922364/tenor-3.gif",
+            "https://gfycat.com/ScientificContentCaterpillar",
+            "https://cdn.discordapp.com/attachments/801512286879481926/801687284579041320/tenor-4.gif",
+            "https://cdn.discordapp.com/attachments/801512286879481926/801689087936692224/fdd21e4910ff3f22437723e5b4d95261.gif"]
 
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",

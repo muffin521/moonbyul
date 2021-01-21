@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.2.3'
+byulver = '1.3.0'
 
 #//people
 muffin = 488423352206229505
@@ -10,6 +10,7 @@ weakado = 259409277482041344
 ple = 416903886968979466
 mia = 709690937680461865
 dj = 373369932303433728
+aster = 495714786823241728
 jat = 236787566530134017
 
 class scommand(commands.Cog):
@@ -45,7 +46,7 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helper:**\n<@{gareth}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Moonbyul Ver.**\n{byulver}', inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{jat}>\n<@{dj}>')
+        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{aster}>\n<@{dj}>')
         await ctx.send(embed=embed)
 
     @commands.command()
