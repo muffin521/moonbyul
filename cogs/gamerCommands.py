@@ -1,5 +1,6 @@
 import discord, random, os
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -7,6 +8,8 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
+#.logs
+logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -95,6 +98,10 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def food(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [food] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
         else:
@@ -103,46 +110,80 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def screm(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [screm] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send('https://tenor.com/view/loona-loona-hyunjin-hyunjin-kim-hyunjin-loona-aeong-gif-18902504')
         await ctx.message.delete()
 
     @commands.command()
     async def rahul(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@579636764889841665> monke ' + random.choice(self.monke))
-            await ctx.message.delete()
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [rahul] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<@579636764889841665> monke ' + random.choice(self.monke))
+        await ctx.message.delete()
 
     @commands.command()
     async def weakado(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@259409277482041344> fiesta good \nhttps://www.youtube.com/watch?v=eDEFolvLn0A')
-            await ctx.message.delete()
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [weakado] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<@259409277482041344> fiesta good \nhttps://www.youtube.com/watch?v=eDEFolvLn0A')
+        await ctx.message.delete()
 
     @commands.command()
     async def veery(self,ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [veery] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'https://cdn.discordapp.com/attachments/735713250989309984/779101391871934484/veery_good.mp3')
         await ctx.message.delete()
 
     @commands.command()
     async def sex(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [sex] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.guild.id == jst:
             await ctx. send(f'https://www.youtube.com/watch?v=VfCYZ3pks48&list=FLFkJiNcjfwfDWZMEHJ1C_Ew&index=522')
             await ctx.message.delete()
 
     @commands.command()
     async def ren(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [ren] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'I love you <@749085760354910280>')
 
     @commands.command()
     async def muffin(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [muffin] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()
     async def god(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [G O D] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> says stop being sus <@573974040679809044>')
 
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.author.id == muffin or ctx.author.id == gareth or ctx.author.id == mae:            
             embed=discord.Embed(
                     title = 'llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch',
@@ -160,11 +201,19 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def caillou(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Caillou] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'Hey, {ctx.author.name} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
         await ctx.message.delete()
 
     @commands.command()
     async def pickupline(self, ctx, *, name=f'Bae Suzy Is the Best'):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Pickupline] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if name == "Bae Suzy Is the Best":
             person = ctx.author.name
         else:

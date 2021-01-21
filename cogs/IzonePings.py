@@ -636,7 +636,7 @@ class IzonePings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Iz*One {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Iz*One {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "sakura" or arg == "saku" or arg == "kkura":
             if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
                 await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
