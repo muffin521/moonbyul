@@ -198,7 +198,9 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-oopsy-weki-meki-lucy-music-video-gif-17518247",
             "https://gfycat.com/advancedplainfalcon-weki-meki-noh-lucy",
             "https://cdn.discordapp.com/attachments/800224232759754772/801697123807526912/NastyMisguidedClownanemonefish-max-1mb.gif",
-            "https://tenor.com/view/wekimeki-lucy-cool-gif-18868364"]
+            "https://tenor.com/view/wekimeki-lucy-cool-gif-18868364",
+            "https://cdn.discordapp.com/attachments/800224232759754772/801698382091124776/tumblr_p4eoesUwmM1wisj25o3_540.gif",
+            "https://gfycat.com/confuseddependableconch-mechabear-weki-meki-kpop-lucy"]
 
         self.bot.wekimeki_rina_gif = ["https://tenor.com/view/rina-weki-meki-kpop-gif-14709543",
             "https://cdn.discordapp.com/attachments/800224289810677821/800562573548191744/dd1e1c2491e3eb9d912ccd214e33145c.gif",
@@ -220,14 +222,17 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-crush-suyeon-weki-meki-music-video-gif-16268466",
             "https://tenor.com/view/surprised-oopsy-oops-oopsie-weki-meki-gif-18170395",
             "https://tenor.com/view/kpop-weki-meki-suyeon-ji-suyeon-weki-meki-suyeon-gif-18712771",
-            "https://cdn.discordapp.com/attachments/800224361935274004/800565729052459098/4e45b67529977ec2941e3c3dcd853ec6.gif"]
+            "https://cdn.discordapp.com/attachments/800224361935274004/800565729052459098/4e45b67529977ec2941e3c3dcd853ec6.gif",
+            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-ZD23n6SRWsI9jUHGeq"]
 
         self.bot.wekimeki_yoojung_gif = ["https://tenor.com/view/yoojung-choi-yoodaeng-daeng-choiyoojung-gif-19404386",
             "https://tenor.com/view/umm-um-yoojung-gif-8099931",
             "https://tenor.com/view/yoojung-choiyoojung-weki-meki-love-heart-gif-13589327",
             "https://tenor.com/view/choi-yoojung-yoodaeng-weki-meki-cute-baby-gif-13444237",
             "https://gfycat.com/WeepyCleverKakarikis",
-            "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif"]
+            "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif",
+            "https://tenor.com/view/weki-meki-yoojung-choi-yoo-jung-gif-18765076",
+            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf"]
     
     #. end of gifs
 
