@@ -106,6 +106,8 @@ class PurpleKiss(commands.Cog):
             "https://cdn.discordapp.com/attachments/547946771968557076/740189347369844766/20200804_081816.gif",
             "https://cdn.discordapp.com/attachments/547900536565924104/791258374724386836/SwanPurple.gif"]
 
+        self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E"]
+
     @commands.command()
     async def purple(self, ctx, kiss, *, arg):
         if kiss == "kiss" or kiss == "k!ss":
@@ -199,6 +201,14 @@ class PurpleKiss(commands.Cog):
                 else:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Swan :heart:')
                     await ctx.send(random.choice(self.bot.swan_gif))
+                    await ctx.message.delete()
+            elif arg == "teaser":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is watching a Purple K!ss member trailer :purple_heart:') 
+                    await ctx.send(random.choice(self.bot.pk_teasers))
                     await ctx.message.delete()
 
 

@@ -253,7 +253,7 @@ class GGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "jiu" or arg == "catcher jiu":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
@@ -321,7 +321,7 @@ class GGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if meki == "meki":
             if arg == "doyeon":
                 if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -387,6 +387,8 @@ class GGS(commands.Cog):
                     await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
                     await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
                     await ctx.message.delete()
+
+    
 
     @commands.command()
     async def jiu(self, ctx):

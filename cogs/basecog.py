@@ -306,7 +306,7 @@ class gifcog(commands.Cog):
                 for x in self.bot.hyunjin_gif:
                     await ctx.send(x)
             elif arg == "haseul":
-                for x in self.bot.haseul.gif:
+                for x in self.bot.haseul_gif:
                     await ctx.send(x)
             elif arg == "vivi":
                 for x in self.bot.vivi_gif:
