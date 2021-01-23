@@ -62,7 +62,7 @@ class CherryBullet(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Cherry Bullet {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Cherry Bullet {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if bullet == "bullet":
             if arg == "jiwon":
                 if ctx.guild.id == luminary:

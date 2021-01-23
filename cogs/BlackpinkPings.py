@@ -87,7 +87,7 @@ class BlackpinkPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Blackpink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Blackpink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "jennie" or arg == "jendeukkie":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
