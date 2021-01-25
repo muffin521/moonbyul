@@ -30,7 +30,11 @@ class BGS(commands.Cog):
             "https://tenor.com/view/eunwoo-astro-eunwoo-cha-eunwoo-eunwoo-cute-eunwoo-smile-gif-17176423",
             "https://tenor.com/view/lee-dongmin-cha-eunwoo-astro-kpop-cute-gif-17756922",
             "https://tenor.com/view/my-love-gangnam-beauty-astro-eunwoo-sip-gif-15279166",
-            "https://tenor.com/view/cha-eunwoo-eunwoo-true-beauty-suho-lee-suho-gif-20007285"]
+            "https://tenor.com/view/cha-eunwoo-eunwoo-true-beauty-suho-lee-suho-gif-20007285",
+            "https://tenor.com/view/cha-eun-woo-finger-gun-hearts-wink-gif-15107507",
+            "https://tenor.com/view/eunwoo-dongmin-gif-9221444",
+            "https://tenor.com/view/cha-eunwoo-roach-cha-eunwoo-gif-19550268",
+            "https://tenor.com/view/true-beauty-lee-suho-chasuho-cha-eunwoo-teamsuho-gif-19646580"]
             
     #. P1Harmony
         self.bot.p1harmony_intak_gif = ["https://cdn.discordapp.com/attachments/800206337073479690/800261657557074000/image0.gif",
@@ -64,7 +68,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206480837574666/800262909984505856/image3.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019380342804/image0.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019929665566/image1.gif",
-            "https://cdn.discordapp.com/attachments/800206480837574666/800263020420005908/image2.gif"]
+            "https://cdn.discordapp.com/attachments/800206480837574666/800263020420005908/image2.gif",
+            "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452"]
 
         self.bot.p1harmony_soul_gif = ["https://cdn.discordapp.com/attachments/800206684193685504/800263221390213170/image0.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263221792473088/image1.gif",

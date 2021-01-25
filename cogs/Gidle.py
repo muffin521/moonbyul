@@ -24,13 +24,15 @@ class IdlePings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        self.bot.minnie_gif = ["https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-minnie-%EB%AF%BC%EB%8B%88-%E7%B1%B3%E5%A6%AE-cute-gif-18186679",
+        self.bot.minnie_gif = ["https://tenor.com/view/minnie-gidle-singing-performance-kpop-gif-16204817",
+            "https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-minnie-%EB%AF%BC%EB%8B%88-%E7%B1%B3%E5%A6%AE-cute-gif-18186679",
             "https://tenor.com/view/minnie-gidle-ohmygod-omg-kpop-gif-18256855",
             "https://tenor.com/view/minnie-minnie-nicha-minnie-nicha-yontararak-nicha-yontararak-nicha-gif-18888803",
             "https://tenor.com/view/minnie-gidle-gif-15784676",
             "https://tenor.com/view/minnie-g-idle-nicha-yontararak-kpop-pretty-gif-16351087",
             "https://tenor.com/view/minnie-minnie-nicha-minnie-nicha-yontararak-nicha-yontararak-nicha-gif-18888791",
-            "https://tenor.com/view/minnie-gidle-%EB%AF%BC%EB%8B%88-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-%EC%95%84%EC%9D%B4%EB%93%A4-gif-17062450"]
+            "https://tenor.com/view/minnie-gidle-%EB%AF%BC%EB%8B%88-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-%EC%95%84%EC%9D%B4%EB%93%A4-gif-17062450",
+            "https://tenor.com/view/gidle-minnie-gif-19705161"]
 
         self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
@@ -80,7 +82,25 @@ class IdlePings(commands.Cog):
             "https://gfycat.com/hardenormouschrysalis",
             "https://gfycat.com/poorhilarioushairstreakbutterfly",
             "https://gfycat.com/gracefulrapidafricanfisheagle",
-            "https://gfycat.com/optimaldefiantbass"]
+            "https://gfycat.com/optimaldefiantbass",
+            "https://gfycat.com/dimpleasedkakarikis",
+            "https://gfycat.com/unripefancyamazontreeboa",
+            "https://gfycat.com/timelyunripehornedviper",
+            "https://gfycat.com/determinedembellishedatlanticridleyturtle",
+            "https://gfycat.com/darlingsharparabianoryx",
+            "https://gfycat.com/leftpitifulaardwolf",
+            "https://gfycat.com/pastelleadingcoral",
+            "https://gfycat.com/sparklingcomplexarchaeocete",
+            "https://gfycat.com/glasseminentcardinal",
+            "https://gfycat.com/impishthankfulgardensnake",
+            "https://gfycat.com/decimalbeneficiallamb",
+            "https://gfycat.com/ficklehideoushumpbackwhale",
+            "https://gfycat.com/vapidelementarybactrian",
+            "https://gfycat.com/jollysneakycanvasback",
+            "https://gfycat.com/celebratedeuphoriccoyote",
+            "https://gfycat.com/amazingtiredgosling",
+            "https://gfycat.com/idioticgiantaegeancat",
+            "https://gfycat.com/incrediblesnivelingdanishswedishfarmdog"]
 
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",

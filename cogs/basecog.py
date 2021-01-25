@@ -505,26 +505,29 @@ class gifcog(commands.Cog):
                 for x in self.bot.joy_gif:
                     await ctx.send(x)
         #.Stray Kids
-            elif arg == "felix":
+            elif arg == "stray kids felix":
                 for x in self.bot.felix_gif:
                     await ctx.send(x)
             elif arg == "stray kids hyunjin":
                 for x in self.bot.shyunjin_gif:
                     await ctx.send(x)
-            elif arg == "bang chan":
+            elif arg == "stray kids bang chan":
                 for x in self.bot.bangchan_gif:
                     await ctx.send(x)
-            elif arg == "lee know":
+            elif arg == "stray kids lee know":
                 for x in self.bot.leeknow_gif:
                     await ctx.send(x)
-            elif arg == "han":
+            elif arg == "stray kids han":
                 for x in self.bot.han_gif:
                     await ctx.send(x)
-            elif arg == "jeongin":
+            elif arg == "stray kids in":
                 for x in self.bot.jeongin_gif:
                     await ctx.send(x)
-            elif arg == "seungmin":
+            elif arg == "stray kids seungmin":
                 for x in self.bot.seungmin_gif:
+                    await ctx.send(x)
+            elif arg == "stray kids changbin":
+                for x in self.bot.changbin_gif:
                     await ctx.send(x)
         #.Twice
             elif arg == "mina":

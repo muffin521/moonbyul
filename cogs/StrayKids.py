@@ -253,17 +253,17 @@ class StrayPings(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Han :heart:')
                     await ctx.send(random.choice(self.bot.han_gif))
                     await ctx.message.delete()
-            elif arg == "jeongin":
+            elif arg == "jeongin" or arg == "in" or arg == "i.n":
                 if ctx.guild.id == luminary:
                     if ctx.channel.id == kbotcom:
-                        await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongin :heart:')
+                        await ctx.send(f'<@!{ctx.author.id}> is talking about I.N :heart:')
                         await ctx.send(random.choice(self.bot.jeongin_gif))
                         await ctx.message.delete()
                     else:
                         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                         await ctx.message.delete()
                 else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongin :heart:')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about I.N :heart:')
                     await ctx.send(random.choice(self.bot.jeongin_gif))
                     await ctx.message.delete()
             elif arg == "seungmin":
