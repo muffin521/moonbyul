@@ -95,7 +95,7 @@ class ItzyPings(commands.Cog):
                 await ctx.message.delete()
             else: 
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
-                await ctx.send(random.choice(self.bot.yuna_gif))
+                await ctx.send(random.choice(self.bot.itzy_yuna_gif))
                 await ctx.message.delete()
         elif arg == "lia":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -103,7 +103,7 @@ class ItzyPings(commands.Cog):
                 await ctx.message.delete()
             else: 
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
-                await ctx.send(random.choice(self.bot.lia_gif))
+                await ctx.send(random.choice(self.bot.itzy_lia_gif))
                 await ctx.message.delete()
 
     @commands.command()

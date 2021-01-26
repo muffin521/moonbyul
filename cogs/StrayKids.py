@@ -19,13 +19,22 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-felix-lee-lee-felix-cute-gif-13005382",
             "https://tenor.com/view/cute-felix-gif-16008442",
             "https://tenor.com/view/felix-stray-kids-kpop-stare-cute-gif-17660812",
-            "https://tenor.com/view/stray-kids-lee-felix-fly-kiss-gif-14222407"]
+            "https://tenor.com/view/stray-kids-lee-felix-fly-kiss-gif-14222407",
+            "https://cdn.discordapp.com/attachments/802983833204162670/802986872878923786/image0.gif",
+            "https://cdn.discordapp.com/attachments/802983833204162670/802986873449742356/image1.gif",
+            "https://cdn.discordapp.com/attachments/802983833204162670/802987069186113616/image0.gif",
+            "https://cdn.discordapp.com/attachments/802983833204162670/802987069726785556/image1.gif",
+            "https://tenor.com/view/felix-lee-cute-stray-kids-gif-18617656",
+            "https://tenor.com/view/stray-kids-felix-lee-felix-lee-yongbok-lead-dancer-gif-17580819",
+            "https://tenor.com/view/felix-stray-kids-smile-gif-10510975"]
 
         self.bot.shyunjin_gif = ["https://tenor.com/view/funny-jyp-cute-hyunjincute-hyunjin-gif-13417088",
             "https://tenor.com/view/hyunjin-hyunjin-skz-anyways-skz-stray-kids-gif-18096876",
             "https://tenor.com/view/hyunjin-hwang-gif-18553566",
             "https://tenor.com/view/straykids-hyunjin-rapper-hair-f-ix-head-shake-gif-17468856",
-            "https://tenor.com/view/hwang-hyunjin-kpop-gif-14009678"]
+            "https://tenor.com/view/hwang-hyunjin-kpop-gif-14009678",
+            "https://cdn.discordapp.com/attachments/802983894273359942/802987219883130880/image0.gif",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-gif-18127666"]
     
         self.bot.bangchan_gif = ["https://tenor.com/view/bang-chan-stray-kids-skz-wave-gif-15490742",
             "https://tenor.com/view/bang-chan-stray-kids-kpop-hanger-funny-gif-15229014",
@@ -57,7 +66,8 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/in-yang-jeongin-shocked-stray-kids-kpop-gif-14357751",
             "https://tenor.com/view/stray-kids-cute-smile-kpop-gif-12423054",
             "https://tenor.com/view/straykids-skz-wave-jeongin-gif-18444736",
-            "https://tenor.com/view/stray-kids-in-yang-jeongin-vocalist-maknae-gif-17946216"]
+            "https://tenor.com/view/stray-kids-in-yang-jeongin-vocalist-maknae-gif-17946216",
+            "https://cdn.discordapp.com/attachments/802983955733282816/802987402914299914/image0.gif"]
 
         self.bot.seungmin_gif = ["https://tenor.com/view/stray-kids-kim-seungmin-seungmin-cute-kpop-gif-16435548",
             "https://tenor.com/view/kim-seungmin-stray-kids-seungmin-thumbs-up-approve-gif-16363315",

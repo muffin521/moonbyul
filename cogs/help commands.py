@@ -29,7 +29,7 @@ class hcommands(commands.Cog):
         embed1.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nLoona Kim Lip\nLoona Jinsoul\nLoona Choerry\n \n ```''')
         embed1.add_field(name='LOOΠΔ yyxy', value=f'''```\nLoona Yves\nLoona Chuu\nLoona Go Won\nLoona Olivia Hye\n ```''')
         embed1.add_field(name='Stray Kids [1]', value=f'''```\nStray Kids Felix\nStray Kids Hyunjin\nStray Kids Bang Chan\nStray Kids Lee Know```''')
-        embed1.add_field(name='Stray Kids [2]', value=f'''```\nStray Kids Changbin\nStray Kids Han\nStray Kids Jeongin\nStray Kids Seungmin```''')
+        embed1.add_field(name='Stray Kids [2]', value=f'''```\nStray Kids Changbin\nStray Kids Han\nStray Kids I.N\nStray Kids Seungmin```''')
         embed1.add_field(name='2NE1', value=f'```\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom```')
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
