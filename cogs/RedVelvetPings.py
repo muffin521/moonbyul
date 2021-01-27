@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615

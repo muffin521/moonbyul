@@ -12,6 +12,7 @@ mia = 709690937680461865
 dj = 373369932303433728
 aster = 495714786823241728
 jat = 236787566530134017
+pemper = 745060875483742258
 
 class scommand(commands.Cog):
 
@@ -57,7 +58,7 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helper:**\n<@{gareth}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Moonbyul Ver.**\n{byulver}', inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{mia}>\n<@{aster}>\n<@{dj}>')
+        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{pemper}>\n<@{aster}>\n<@{dj}>')
         await ctx.send(embed=embed)
 
     @commands.command()
