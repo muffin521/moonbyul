@@ -10,8 +10,6 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
-#.logs
-logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -22,6 +20,7 @@ class GGS(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
+        self.bot.logs = 786515662214397973
     #. apink
         self.bot.apink_bomi_gif = ["https://tenor.com/view/yoon-bomi-one-one-more-time-chance-again-gif-13724908"]
 
@@ -251,7 +250,7 @@ class GGS(commands.Cog):
     @commands.command(aliases = ['dream'])
     async def dreamcatcher(self, ctx, *, arg):
         now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
+        channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "jiu" or arg == "catcher jiu":
@@ -319,7 +318,7 @@ class GGS(commands.Cog):
     @commands.command()
     async def weki(self, ctx, meki, *, arg):
         now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
+        channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if meki == "meki":

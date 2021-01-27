@@ -1,5 +1,6 @@
 import discord, random, os
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -117,6 +118,10 @@ class gamerPings(commands.Cog):
 
     @commands.command()
     async def twice(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Twice | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "mina":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:

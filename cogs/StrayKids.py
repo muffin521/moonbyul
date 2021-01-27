@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -197,6 +198,10 @@ class StrayPings(commands.Cog):
 
     @commands.command()
     async def stray(self, ctx, kids, *, arg="yessir"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Stray Kids | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if kids == "kids":
             if arg == "felix":
                 if ctx.guild.id == luminary:

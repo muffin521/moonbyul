@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -65,6 +66,10 @@ class ItzyPings(commands.Cog):
 
     @commands.command()
     async def itzy(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Itzy {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "yeji":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)

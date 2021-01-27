@@ -8,8 +8,6 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
-#.logs
-logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -63,7 +61,7 @@ class exid(commands.Cog):
     @commands.command()
     async def exid(self, ctx, arg):
         now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
+        channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Exid {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "hani":
@@ -107,80 +105,80 @@ class exid(commands.Cog):
                 await ctx.send(random.choice(self.bot.hyelin_gif))
                 await ctx.message.delete()
 
-    @commands.command()
-    async def hani(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hani :heart: ')
-                await ctx.send(random.choice(self.bot.hani_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hani :heart:')
-            await ctx.send(random.choice(self.bot.hani_gif))
-            await ctx.message.delete()
+    # @commands.command()
+    # async def hani(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Hani :heart: ')
+    #             await ctx.send(random.choice(self.bot.hani_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hani :heart:')
+    #         await ctx.send(random.choice(self.bot.hani_gif))
+    #         await ctx.message.delete()
 
-    @commands.command()
-    async def jeonghwa(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghwa :heart: ')
-                await ctx.send(random.choice(self.bot.jeonghwa_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghwa :heart:')
-            await ctx.send(random.choice(self.bot.jeonghwa_gif))
-            await ctx.message.delete()
+    # @commands.command()
+    # async def jeonghwa(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghwa :heart: ')
+    #             await ctx.send(random.choice(self.bot.jeonghwa_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghwa :heart:')
+    #         await ctx.send(random.choice(self.bot.jeonghwa_gif))
+    #         await ctx.message.delete()
 
-    @commands.command()
-    async def le(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about LE :heart: ')
-                await ctx.send(random.choice(self.bot.le_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about LE :heart:')
-            await ctx.send(random.choice(self.bot.le_gif))
-            await ctx.message.delete()
+    # @commands.command()
+    # async def le(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about LE :heart: ')
+    #             await ctx.send(random.choice(self.bot.le_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about LE :heart:')
+    #         await ctx.send(random.choice(self.bot.le_gif))
+    #         await ctx.message.delete()
 
-    @commands.command()
-    async def solji(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart: ')
-                await ctx.send(random.choice(self.bot.solji_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart:')
-            await ctx.send(random.choice(self.bot.solji_gif))
-            await ctx.message.delete()
+    # @commands.command()
+    # async def solji(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart: ')
+    #             await ctx.send(random.choice(self.bot.solji_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart:')
+    #         await ctx.send(random.choice(self.bot.solji_gif))
+    #         await ctx.message.delete()
 
-    @commands.command()
-    async def hyelin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hyelin :heart: ')
-                await ctx.send(random.choice(self.bot.hyelin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyelin :heart:')
-            await ctx.send(random.choice(self.bot.hyelin_gif))
-            await ctx.message.delete()
+    # @commands.command()
+    # async def hyelin(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyelin :heart: ')
+    #             await ctx.send(random.choice(self.bot.hyelin_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hyelin :heart:')
+    #         await ctx.send(random.choice(self.bot.hyelin_gif))
+    #         await ctx.message.delete()
 
 def setup(client):
     client.add_cog(exid(client))

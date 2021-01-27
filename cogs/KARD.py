@@ -9,8 +9,6 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
-#.logs
-logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -83,7 +81,7 @@ class KARD(commands.Cog):
     @commands.command(aliases = ["k.a.r.d"])
     async def kard(self, ctx, arg):
         now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
+        channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [KARD {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.channel.id != kbotcom and ctx.guild.id == luminary:
