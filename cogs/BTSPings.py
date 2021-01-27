@@ -8,8 +8,6 @@ luminary = 758468592957521972
 sadboi = 642497143801905190
 
 #=channels
-#.logs
-logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
@@ -40,7 +38,10 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-v-kim-taehyung-gif-16993427",
             "https://tenor.com/view/taehyung-bts-cute-handsome-looking-gif-16986526",
             "https://tenor.com/view/taehyung-peace-cute-gif-19086526",
-            "https://tenor.com/view/taehyung-kim-taehyung-tae-tae-tae-vante-gif-18345939"]
+            "https://tenor.com/view/taehyung-kim-taehyung-tae-tae-tae-vante-gif-18345939",
+            "https://cdn.discordapp.com/attachments/802261119900975144/802262897426300938/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/802262897828429832/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/802262898168430642/image2.gif"]
 
         self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
@@ -62,7 +63,10 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/bts-beautiful-shy-blush-teeth-gif-19573947",
             "https://tenor.com/view/yoongi-sad-cute-face-gif-19211545",
             "https://tenor.com/view/bts-yoongi-smile-gif-15454873",
-            "https://tenor.com/view/bts-yoongi-funny-gif-14760711"]
+            "https://tenor.com/view/bts-yoongi-funny-gif-14760711",
+            "https://cdn.discordapp.com/attachments/802261156571774976/802262255545614346/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261156571774976/802262256049192960/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261156571774976/802262256545038376/image2.gif"]
 
         self.bot.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376182888431616/image1.gif",
@@ -76,7 +80,8 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/jhope-hobi-yes-hoseok-gif-16178897",
             "https://tenor.com/view/jhope-jhopebts-btsjhope-hobi-bts-gif-18149405",
             "https://tenor.com/view/jhope-heart-%EB%B0%A9%ED%83%84-%EC%A0%9C%EC%9D%B4%ED%99%89-%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8-gif-10577474",
-            "https://tenor.com/view/jhope-stare-serious-gif-12853415"]
+            "https://tenor.com/view/jhope-stare-serious-gif-12853415",
+            "https://cdn.discordapp.com/attachments/802261179409104896/802263201810350100/image0.gif"]
 
         self.bot.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375486843551775/image0.gif",
@@ -145,7 +150,9 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/jeon-jungkook-bts-jungkook-jungkook-bts-youre-dead-gif-17246646",
             "https://tenor.com/view/jungkook-jeon-jungkook-jungkook-jeon-bts-bangtan-boys-gif-5204531",
             "https://tenor.com/view/jungkook-jeon-jungkook-jeongguk-jk-kookie-gif-18346698",
-            "https://tenor.com/view/smile-giggle-smiling-bts-jeon-jungkook-gif-15821321"]
+            "https://tenor.com/view/smile-giggle-smiling-bts-jeon-jungkook-gif-15821321",
+            "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/802263666191106088/image1.gif"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
@@ -158,7 +165,9 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781378364875210812/image3.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378548342587402/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781379997059121192/image0.gif",
-            "https://cdn.discordapp.com/attachments/781312260118806529/781379997788274698/image1.gif"]
+            "https://cdn.discordapp.com/attachments/781312260118806529/781379997788274698/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261241128419348/802264122678837319/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261241128419348/802264122954874920/image1.gif"]
 
         self.bot.jimin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781377634956345383/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377635636609044/image1.gif",
@@ -169,7 +178,12 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781377787608301568/image1.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377788585181184/image2.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377789689200640/image3.gif",
-            "https://cdn.discordapp.com/attachments/781312260118806529/781377790510760006/image4.gif"]
+            "https://cdn.discordapp.com/attachments/781312260118806529/781377790510760006/image4.gif",
+            "https://cdn.discordapp.com/attachments/802261268165689365/802264596152713276/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261268165689365/802264596425605146/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261268165689365/802264596734803978/image2.gif",
+            "https://cdn.discordapp.com/attachments/802261268165689365/802264597213216818/image3.gif",
+            "https://cdn.discordapp.com/attachments/802261268165689365/802264597749956648/image4.gif"]
 
         self.bot.rm_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374090497753098/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374226607112252/image0.gif",
@@ -193,12 +207,21 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/bts-kim-nam-joon-aesthetic-rm-gif-15168245",
             "https://tenor.com/view/namjoon-bts-kpop-walk-gif-12559450",
             "https://tenor.com/view/kim-namjoon-bts-rm-laugh-lol-gif-10964941",
-            "https://tenor.com/view/bts-heart-rm-cute-namjoon-gif-13444506"]
+            "https://tenor.com/view/bts-heart-rm-cute-namjoon-gif-13444506",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265083274330182/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265172085178408/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265426444681226/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265426942754876/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265427291406376/image2.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265427618168892/image3.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265427942178866/image4.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265834181230612/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261293565607946/802265834864377886/image1.gif"]
 
     @commands.command()
     async def bts(self, ctx, *, arg):
         now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
+        channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [BTS {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "v" or arg == "taehyung" or arg == "kim taehyung":

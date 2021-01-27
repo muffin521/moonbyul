@@ -106,7 +106,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/impracticalpotablebunting-loona-chuu",
             "https://gfycat.com/colorlessgargantuandinosaur",
             "https://gfycat.com/harmfulperfumedhake-loona-chuu",
-            "https://gfycat.com/ignorantsilverbumblebee-dating-class-loona-chuu"]
+            "https://gfycat.com/ignorantsilverbumblebee-dating-class-loona-chuu",
+            "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

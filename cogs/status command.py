@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.3.0'
+byulver = '1.3.1'
 
 #//people
 muffin = 488423352206229505
@@ -17,6 +17,17 @@ class scommand(commands.Cog):
 
     def __init__(self, client):
         self.client = client
+
+    @commands.command()
+    async def ping(self, ctx):
+        embed = discord.Embed(
+            title = 'Pong!',
+            description = 'lob u <:moonbyulheart:790333102924627968>‎',
+            colour = discord.Colour.from_rgb(198, 237, 154))
+        # embed.set_footer(text='')
+        embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
+        embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms', inline=True)
+        await ctx.send(embed=embed)
 
     @commands.command()
     @commands.is_owner()

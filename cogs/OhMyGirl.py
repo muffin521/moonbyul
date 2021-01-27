@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -212,6 +213,10 @@ class OhMyGirl(commands.Cog):
 
     @commands.command()
     async def oh(self, ctx, my, girl, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Oh My Girl {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if my == "my" and girl == "girl":
             if arg == "arin":
                 if ctx.guild.id == luminary and ctx.channel.id != kbotcom:

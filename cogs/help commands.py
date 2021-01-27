@@ -23,14 +23,14 @@ class hcommands(commands.Cog):
             colour = discord.Color.from_rgb(198, 237, 154))
         embed1.set_footer(text="page 1/5")
         embed1.add_field(name='Mamamoo', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```', inline = True)
-        embed1.add_field(name='Lovelyz', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\n ```''')
-        embed1.add_field(name='Lovelyz [2]', value=f'''```\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong\n ```''')
+        embed1.add_field(name='2NE1', value=f'```\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom\n ```')
+        embed1.add_field(name='K.A.R.D', value=f'```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin\n ```')
         embed1.add_field(name='LOOΠΔ 1/3', value=f'''```\nLoona Heejin\nLoona Hyunjin\nLoona Haseul\nLoona ViVi\nLoona Yeojin```''')
         embed1.add_field(name='LOOΠΔ Odd Eye Circle', value=f'''```\nLoona Kim Lip\nLoona Jinsoul\nLoona Choerry\n \n ```''')
         embed1.add_field(name='LOOΠΔ yyxy', value=f'''```\nLoona Yves\nLoona Chuu\nLoona Go Won\nLoona Olivia Hye\n ```''')
-        embed1.add_field(name='Stray Kids [1]', value=f'''```\nStray Kids Felix\nStray Kids Hyunjin\nStray Kids Bang Chan\nStray Kids Lee Know```''')
-        embed1.add_field(name='Stray Kids [2]', value=f'''```\nStray Kids Changbin\nStray Kids Han\nStray Kids Jeongin\nStray Kids Seungmin```''')
-        embed1.add_field(name='2NE1', value=f'```\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom```')
+        embed1.add_field(name='Stray Kids', value=f'''```\nStray Kids Felix\nStray Kids Hyunjin\nStray Kids Bang Chan\nStray Kids Lee Know\nStray Kids Changbin\nStray Kids Han\nStray Kids I.N\nStray Kids Seungmin```''')
+        embed1.add_field(name='Lovelyz', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong```''')
+        embed1.add_field(name='Weki Meki', value=f'''```\nWeki Meki Doeyon\nWeki Meki Elly\nWeki Meki Lua\nWeki Meki Lucy\nWeki Meki Rina\nWeki Meki Sei\nWeki Meki Suyeon\nWeki Meki Yoojung```''')
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
     #//embed2
@@ -93,8 +93,9 @@ class hcommands(commands.Cog):
         embed5.add_field(name='Oh My Girl', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
         embed5.add_field(name='VAV', value=f'```\nVAV Ace\nVAV Ayno\nVAV Baron\nVAV Jacob\nVAV Lou\nVAV St.Van\nVAV Ziu```')
         embed5.add_field(name='Dreamcatcher', value=f'```\nDreamcatcer Dami\nDreamcatcher JiU\nDreamcatcher Gahyeon\nDreamcatcher Handong\nDreamcatcher Siyeon\nDreamcatcher Sua\nDreamcatcher Yoohyeon```', inline = True)
-        embed5.add_field(name='K.A.R.D', value=f'```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin```')
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n ```')
+        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```')
+        embed5.add_field(name='Luv u so, so, so,', value=f'♡\n♡\n♡\n♡')
+        embed5.add_field(name='so much', value=f'\n♡\n♡\n♡\n♡')
         
 
     #//end of embeds:)

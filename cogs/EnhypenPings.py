@@ -114,8 +114,8 @@ class EnhypenPings(commands.Cog):
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jay :heart:')
-                await ctx.send(random.choice(self.bot.jay_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Heeseung :heart:')
+                await ctx.send(random.choice(self.bot.heeseung_gif))
                 await ctx.message.delete()
         elif arg == "niki" or arg == "ni-ki":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
