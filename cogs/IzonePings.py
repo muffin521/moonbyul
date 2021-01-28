@@ -377,7 +377,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/drearyuncommoncrossbill",
             "https://gfycat.com/ambitiouscloudygalapagossealion",
             "https://gfycat.com/illegaldeafeninginvisiblerail",
-            "https://gfycat.com/bonyablebunting"]
+            "https://gfycat.com/bonyablebunting",
+            "https://gfycat.com/rapidsilkyharrierhawk"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -582,7 +583,9 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-yujin-ahn-yujin-lead-vocalist-lead-dancer-gif-17789677",
             "https://tenor.com/view/yujin-wink-izone-yujin-an-yujin-gif-18185000",
             "https://tenor.com/view/yujin-izone-yujin-an-yujin-gif-18184999",
-            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696"]
+            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696",
+            "https://gfycat.com/exhaustedrichbooby",
+            "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
