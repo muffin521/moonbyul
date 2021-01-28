@@ -478,7 +478,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/tansoureidolonhelvum",
             "https://gfycat.com/freecreepyblackfootedferret",
             "https://gfycat.com/incomparablepitifularmyworm",
-            "https://gfycat.com/medicalcolossalamurminnow"]
+            "https://gfycat.com/medicalcolossalamurminnow",
+            "https://tenor.com/view/izone-chae-yeon-lee-chae-yeon-sassy-girl-crush-gif-13456509"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -575,7 +576,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/variableunhappyborderterrier",
             "https://gfycat.com/potablewearyhellbender",
             "https://gfycat.com/tanhonesticelandicsheepdog",
-            "https://gfycat.com/infinitenewanchovy"]
+            "https://gfycat.com/infinitenewanchovy",
+            "https://gfycat.com/exhaustedrichbooby",
+            "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831",
+            "https://gfycat.com/spiffyableirishredandwhitesetter"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -585,9 +589,7 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-yujin-ahn-yujin-lead-vocalist-lead-dancer-gif-17789677",
             "https://tenor.com/view/yujin-wink-izone-yujin-an-yujin-gif-18185000",
             "https://tenor.com/view/yujin-izone-yujin-an-yujin-gif-18184999",
-            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696",
-            "https://gfycat.com/exhaustedrichbooby",
-            "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831"]
+            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
@@ -626,9 +628,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398294",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-16463654",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
-            "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760"]
+            "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760",
+            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake"]
 
-        self.bot.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
+        self.bot.hitomi_gif = ["https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
+            "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-16717168",
             "https://tenor.com/view/izone-hitomi-honda-hitomi-cant-hear-you-kpop-gif-17682854",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-heart-gif-14161599",
@@ -638,7 +642,12 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-pretty-gif-16831042",
             "https://tenor.com/view/hitomi-honda-hitomi-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-cute-gif-13981234",
             "https://gfycat.com/kindheartedevergreenfinch",
-            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard"]
+            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard",
+            "https://gfycat.com/limpingslightaruanas",
+            "https://gfycat.com/severedearbison",
+            "https://gfycat.com/giganticleadingblackbear",
+            "https://gfycat.com/hoarseweecaribou",
+            "https://gfycat.com/hotminiaturecarp"]
 
 
     @commands.command(aliases = ['iz*one'])
