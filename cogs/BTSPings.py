@@ -152,7 +152,8 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/jungkook-jeon-jungkook-jeongguk-jk-kookie-gif-18346698",
             "https://tenor.com/view/smile-giggle-smiling-bts-jeon-jungkook-gif-15821321",
             "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif",
-            "https://cdn.discordapp.com/attachments/802261212846882826/802263666191106088/image1.gif"]
+            "https://cdn.discordapp.com/attachments/802261212846882826/802263666191106088/image1.gif",
+            "https://cdn.discordapp.com/attachments/797701519582691369/804194729176727612/10d49af0-f5a9-4cbf-a697-76880137a228.gif"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
