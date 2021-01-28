@@ -99,7 +99,8 @@ class Lovelyz(commands.Cog):
             "https://gfycat.com/completeinfantilealaskankleekai",
             "https://gfycat.com/grotesquemisguidedauk",
             "https://gfycat.com/BogusSadCoqui",
-            "https://gfycat.com/PrestigiousGroundedBeardedcollie"]
+            "https://gfycat.com/PrestigiousGroundedBeardedcollie",
+            "https://gfycat.com/reasonableentiredegu"]
 
         self.bot.babysoul_gif = ["https://tenor.com/view/lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18331417",
             "https://tenor.com/view/kpop-lovelyz-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%86%8C%EC%9A%B8-babysoul-gif-18062427",
