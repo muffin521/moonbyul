@@ -42,7 +42,9 @@ class twoneone(commands.Cog):
             "https://gfycat.com/graveshoddycoyote",
             "https://tenor.com/view/cl-kpop-dance-gif-4665754",
             "https://tenor.com/view/2ne1-cl-kpop-yg-gif-5071914",
-            "https://tenor.com/view/cl-kisses-2ne1-kpop-blow-kiss-gif-8616545"]
+            "https://tenor.com/view/cl-kisses-2ne1-kpop-blow-kiss-gif-8616545",
+            "https://tenor.com/view/bigbang-gd-jiyong-2ne1-cl-gif-9296043",
+            "https://tenor.com/view/cl-korean-k-pop-2ne1-rapper-gif-9210973"]
 
         self.bot.dara_gif = ["https://tenor.com/view/dara-sandarapark-sandara-2ne1-yg-gif-5071907",
             "https://tenor.com/view/dara-sandara-sandara-park-kpop-2ne1-gif-19666838",
