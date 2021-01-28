@@ -29,7 +29,8 @@ class CherryBullet(commands.Cog):
             "https://tenor.com/view/cherry-bullet-jiwon-may-kpop-cute-gif-16641928",
             "https://gfycat.com/neglectedgrandioseimperatorangel",
             "https://gfycat.com/immaculateidealisticarabianhorse",
-            "https://gfycat.com/untidybravefattaileddunnart"]
+            "https://gfycat.com/untidybravefattaileddunnart",
+            "https://gfycat.com/madzealouscaecilian"]
 
         self.bot.chebulyuju_gif = ["https://tenor.com/view/yuju-cherry-bullet-kpop-huh-suprised-gif-17717737",
             "https://tenor.com/view/yuju-cherry-bullet-kpop-huh-suprised-gif-17717737",
