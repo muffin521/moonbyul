@@ -22,7 +22,6 @@ class BlackpinkPings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-        #25
         self.bot.rose_gif = ["https://tenor.com/view/blackpink-cute-ros%C3%A9-mini-heart-kpop-gif-14143584",
             "https://tenor.com/view/rose-blackpink-heart-sign-happy-smile-gif-11901224",
             "https://tenor.com/view/looking-let-me-see-ros%C3%A9-blackpink-rosie-gif-18118559",
@@ -49,7 +48,6 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/blackpink-blink-rose-boombayah-gif-11950271",
             "https://tenor.com/view/blackpink-rose-gif-18530274"]
 
-        #11
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
             "https://tenor.com/view/jenniekim-gif-18818029",
@@ -60,9 +58,10 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jenny-jennie-kim-blackpink-cute-gif-12481536",
             "https://tenor.com/view/blackpink-jennie-kpop-saranghae-gif-14797258",
             "https://tenor.com/view/blackpink-jennie-jenniekim-jendeukkie-jenjen-gif-9256813",
-            "https://tenor.com/view/jennie-blackpink-gif-14036697"]
+            "https://tenor.com/view/jennie-blackpink-gif-14036697",
+            "https://tenor.com/view/jennie-blackpink-swag-rap-blink-gif-11950210",
+            "https://tenor.com/view/jennie-blackpink-gif-18630502"]
 
-        #7
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
             "https://tenor.com/view/lisa-blackpink-cute-girl-gif-15983564",
@@ -71,7 +70,6 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/ayeah-ayeah-pointing-smile-cute-lisa-gif-16007292",
             "https://tenor.com/view/lisa-lalisa-lalisa-manoban-mentor-lisa-kpop-gif-17299890"]
 
-        #7
         self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17944860",
