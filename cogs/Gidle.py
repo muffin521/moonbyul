@@ -98,7 +98,8 @@ class IdlePings(commands.Cog):
             "https://gfycat.com/celebratedeuphoriccoyote",
             "https://gfycat.com/amazingtiredgosling",
             "https://gfycat.com/idioticgiantaegeancat",
-            "https://gfycat.com/incrediblesnivelingdanishswedishfarmdog"]
+            "https://gfycat.com/incrediblesnivelingdanishswedishfarmdog",
+            "https://gfycat.com/whisperedobesehippopotamus"]
 
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",

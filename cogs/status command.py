@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.3.1'
+byulver = '1.3.2'
 
 #//people
 muffin = 488423352206229505
