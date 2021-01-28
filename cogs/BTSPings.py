@@ -41,7 +41,19 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/taehyung-kim-taehyung-tae-tae-tae-vante-gif-18345939",
             "https://cdn.discordapp.com/attachments/802261119900975144/802262897426300938/image0.gif",
             "https://cdn.discordapp.com/attachments/802261119900975144/802262897828429832/image1.gif",
-            "https://cdn.discordapp.com/attachments/802261119900975144/802262898168430642/image2.gif"]
+            "https://cdn.discordapp.com/attachments/802261119900975144/802262898168430642/image2.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199746004058132/18173ea3-c36c-481c-aa3b-25250410ee13.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199746615902208/33dddf33-0c7a-46f0-a422-0471ab3770ec.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199747287908372/7d19ad2d-e5d3-454d-94c9-eeaadc1f4653.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199747992027156/164814c4-9b1b-4566-af3c-57280518ac2f.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199748491411487/00e1d541-b699-48c3-a136-780c2bf6d212.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804199748868374528/ab711ed3-074b-4235-8f40-813caf457da3.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202993083875328/BTS-V-1.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202993636474920/BTS-V-16.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202994282790923/download_7.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202994941820948/BTS-V-14-1.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202995523911680/BTS-V-1-1.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/804202996422148116/BTS-V-12.gif"]
 
         self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
@@ -81,7 +93,12 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/jhope-jhopebts-btsjhope-hobi-bts-gif-18149405",
             "https://tenor.com/view/jhope-heart-%EB%B0%A9%ED%83%84-%EC%A0%9C%EC%9D%B4%ED%99%89-%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8-gif-10577474",
             "https://tenor.com/view/jhope-stare-serious-gif-12853415",
-            "https://cdn.discordapp.com/attachments/802261179409104896/802263201810350100/image0.gif"]
+            "https://cdn.discordapp.com/attachments/802261179409104896/802263201810350100/image0.gif",
+            "https://cdn.discordapp.com/attachments/802261179409104896/804204203597365278/J-Hope-3.gif",
+            "https://cdn.discordapp.com/attachments/802261179409104896/804204204524568596/J-Hope-10.gif",
+            'https://cdn.discordapp.com/attachments/802261179409104896/804204205103513670/download-5.gif',
+            "https://cdn.discordapp.com/attachments/802261179409104896/804204205895188561/hsstaygold2.gif",
+            "https://cdn.discordapp.com/attachments/802261179409104896/804205035810455552/a2a43f71-aa27-4367-ac91-32b89e027275.gif"]
 
         self.bot.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375486843551775/image0.gif",
@@ -153,7 +170,24 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/smile-giggle-smiling-bts-jeon-jungkook-gif-15821321",
             "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/802263666191106088/image1.gif",
-            "https://cdn.discordapp.com/attachments/797701519582691369/804194729176727612/10d49af0-f5a9-4cbf-a697-76880137a228.gif"]
+            "https://cdn.discordapp.com/attachments/797701519582691369/804194729176727612/10d49af0-f5a9-4cbf-a697-76880137a228.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804196764805496862/786e128f-5d64-471c-bc58-fe85b89f0b96.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804196765376053339/304e79db-3ed0-4f26-ba2a-3f5e881933e6.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804196765758652476/fd8e1773-be1a-4e0c-93a6-120a5db61912.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804196766194073630/85601e43-a80a-41e3-bb5d-5041c5e82be9.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804196766680350720/3ca1ba61-e06e-4f47-93ff-f74ed325c76a.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804198636639485972/Tumblr_l_383021191996233.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804198637164953630/Tumblr_l_383037442704567.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804198637680066570/Tumblr_l_383093118244450.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804198638132920370/Tumblr_l_383105686357518.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804198638753415189/Tumblr_l_383127170315464.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804201653347549184/OldfashionedQueasyDragonfly-size_restricted.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804201653896085504/AccurateForthrightBass-size_restricted.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804201654781870080/HarmoniousZealousCow-size_restricted.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804201655360815134/Jungkook_2.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804208038373752852/ezgif.com-gif-maker_5.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804208039351681034/jktfma20_2.gif",
+            "https://cdn.discordapp.com/attachments/802261212846882826/804208430440906763/jktfma20_4.gif"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
