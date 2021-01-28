@@ -499,7 +499,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/impressionabledenseaffenpinscher",
             "https://gfycat.com/kindrequiredbooby/",
             "https://tenor.com/view/izone-minju-pretty-gif-14587149",
-            "https://imgur.com/pwq5qck"]
+            "https://imgur.com/pwq5qck",
+            "https://gfycat.com/verifiableheavenlygrassspider",
+            "https://gfycat.com/grotesquemelodicfruitbat"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
