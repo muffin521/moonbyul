@@ -98,7 +98,9 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/802261179409104896/804204204524568596/J-Hope-10.gif",
             'https://cdn.discordapp.com/attachments/802261179409104896/804204205103513670/download-5.gif',
             "https://cdn.discordapp.com/attachments/802261179409104896/804204205895188561/hsstaygold2.gif",
-            "https://cdn.discordapp.com/attachments/802261179409104896/804205035810455552/a2a43f71-aa27-4367-ac91-32b89e027275.gif"]
+            "https://cdn.discordapp.com/attachments/802261179409104896/804205035810455552/a2a43f71-aa27-4367-ac91-32b89e027275.gif",
+            "https://cdn.discordapp.com/attachments/802261179409104896/804516918106128434/0d71444d-acc6-43ce-8b23-c4ee903fbf07.gif",
+            "https://cdn.discordapp.com/attachments/802261179409104896/804516918476013578/f217981b-880a-4327-bace-b8356719faa2.gif"]
 
         self.bot.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375486843551775/image0.gif",
@@ -202,7 +204,8 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/781312260118806529/781379997059121192/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781379997788274698/image1.gif",
             "https://cdn.discordapp.com/attachments/802261241128419348/802264122678837319/image0.gif",
-            "https://cdn.discordapp.com/attachments/802261241128419348/802264122954874920/image1.gif"]
+            "https://cdn.discordapp.com/attachments/802261241128419348/802264122954874920/image1.gif",
+            "https://cdn.discordapp.com/attachments/802261241128419348/804515701653897288/191027_SYS_.gif"]
 
         self.bot.jimin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781377634956345383/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377635636609044/image1.gif",
