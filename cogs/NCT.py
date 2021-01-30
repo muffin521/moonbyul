@@ -96,7 +96,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/jaemin-nana-na-jaemin-nct-smile-gif-17013043",
             "https://tenor.com/view/kpop-boy-boring-nct-dream-jaemin-gif-15115161",
             "https://tenor.com/view/jaemin-nct-dream-serious-cute-handsome-gif-17041026",
-            "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677"]
+            "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677",
+            "https://cdn.discordapp.com/attachments/794052570574225478/804433282631729232/image0.gif"]
 
         self.bot.nct_jaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
             "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",
@@ -217,7 +218,10 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nctu-nct-nct127-nctdream-taeyong-gif-9647830",
             "https://tenor.com/view/nct127-nct-kpop-ccg-shock-gif-16007114",
             "https://tenor.com/view/taeyong-nct-smiling-cute-gif-14544492",
-            "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029"]
+            "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804433955771645962/image0.gif",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804433956224106587/image1.gif",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804434007336026112/image0.gif"]
 
         self.bot.nct_jungwoo_gif = ["https://tenor.com/view/nct-nct127-jungwoo-kim-jungwoo-jin-ting-you-gif-16941098",
             "https://tenor.com/view/neo-culture-technology-nct-nctzen-jungwoo-park-jungwoo-gif-12100520",
