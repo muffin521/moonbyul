@@ -479,7 +479,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/freecreepyblackfootedferret",
             "https://gfycat.com/incomparablepitifularmyworm",
             "https://gfycat.com/medicalcolossalamurminnow",
-            "https://tenor.com/view/izone-chae-yeon-lee-chae-yeon-sassy-girl-crush-gif-13456509"]
+            "https://tenor.com/view/izone-chae-yeon-lee-chae-yeon-sassy-girl-crush-gif-13456509",
+            "https://tenor.com/view/leechaeyeon-chaeyeon-chaeyeon-laugh-nlunyk-izone-gif-17893647",
+            "https://tenor.com/view/chaeyeon-izone-chaeyeon-izone-lee-chaeyeon-smile-gif-13983901"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
