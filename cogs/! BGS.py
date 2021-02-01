@@ -32,7 +32,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/cha-eun-woo-finger-gun-hearts-wink-gif-15107507",
             "https://tenor.com/view/eunwoo-dongmin-gif-9221444",
             "https://tenor.com/view/cha-eunwoo-roach-cha-eunwoo-gif-19550268",
-            "https://tenor.com/view/true-beauty-lee-suho-chasuho-cha-eunwoo-teamsuho-gif-19646580"]
+            "https://tenor.com/view/true-beauty-lee-suho-chasuho-cha-eunwoo-teamsuho-gif-19646580",
+            "https://tenor.com/view/astro-astro-eunwoo-eunwoo-cha-eun-woo-lee-dong-min-gif-14735333"]
             
     #. P1Harmony
         self.bot.p1harmony_intak_gif = ["https://cdn.discordapp.com/attachments/800206337073479690/800261657557074000/image0.gif",
