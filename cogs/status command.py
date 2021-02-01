@@ -63,7 +63,7 @@ class scommand(commands.Cog):
 
     @commands.command()
     @commands.is_owner()
-    async def locations(self, ctx):
+    async def servers(self, ctx):
             guilds = self.client.guilds
             
             for server in guilds:
