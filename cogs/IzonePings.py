@@ -378,7 +378,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/ambitiouscloudygalapagossealion",
             "https://gfycat.com/illegaldeafeninginvisiblerail",
             "https://gfycat.com/bonyablebunting",
-            "https://gfycat.com/rapidsilkyharrierhawk"]
+            "https://gfycat.com/rapidsilkyharrierhawk",
+            "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
+            "https://gfycat.com/unawareinfantileeastsiberianlaika",
+            "https://gfycat.com/linedsecondhoiho"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -482,7 +485,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-chae-yeon-lee-chae-yeon-sassy-girl-crush-gif-13456509",
             "https://tenor.com/view/leechaeyeon-chaeyeon-chaeyeon-laugh-nlunyk-izone-gif-17893647",
             "https://tenor.com/view/chaeyeon-izone-chaeyeon-izone-lee-chaeyeon-smile-gif-13983901",
-            "https://gfycat.com/milkyfamoushammerheadbird"]
+            "https://gfycat.com/milkyfamoushammerheadbird",
+            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-14538792",
+            "https://gfycat.com/illiteraterecentguineapig",
+            "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
+            "https://gfycat.com/offensiveblissfulbasil"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -509,7 +516,10 @@ class IzonePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/798320383539412992/806344986286096414/image0.gif",
             "https://cdn.discordapp.com/attachments/798320383539412992/806345243237548042/image0.gif",
             "https://cdn.discordapp.com/attachments/798320383539412992/806345491176620072/image0.gif",
-            "https://cdn.discordapp.com/attachments/798320383539412992/806345636721983508/image0.gif"]
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345636721983508/image0.gif",
+            "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
+            "https://gfycat.com/unawareinfantileeastsiberianlaika",
+            "https://gfycat.com/linedsecondhoiho"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -586,7 +596,11 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/infinitenewanchovy",
             "https://gfycat.com/exhaustedrichbooby",
             "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831",
-            "https://gfycat.com/spiffyableirishredandwhitesetter"]
+            "https://gfycat.com/spiffyableirishredandwhitesetter",
+            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-145387920",
+            "https://gfycat.com/illiteraterecentguineapig",
+            "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
+            "https://gfycat.com/offensiveblissfulbasil"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
