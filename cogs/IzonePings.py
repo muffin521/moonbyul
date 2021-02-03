@@ -794,9 +794,11 @@ class IzonePings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
                 await ctx.send(random.choice(self.bot.hitomi_gif))
                 await ctx.message.delete()
+        elif arg == "ame":
+            await ctx.send(f'https://cdn.discordapp.com/attachments/798646055947337778/806336960867860510/image0.gif', delete_after=3)
+            await ctx.message.delete()
 
-
-    @commands.command(aliases = ['saku', 'kkura']) #used to be purple_heart
+    @commands.command(aliases = ['saku', 'kkura', 'ame']) #used to be purple_heart
     async def sakura(self, ctx):
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
             await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
