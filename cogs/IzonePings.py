@@ -505,7 +505,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-minju-pretty-gif-14587149",
             "https://imgur.com/pwq5qck",
             "https://gfycat.com/verifiableheavenlygrassspider",
-            "https://gfycat.com/grotesquemelodicfruitbat"]
+            "https://gfycat.com/grotesquemelodicfruitbat",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806344986286096414/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345243237548042/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345491176620072/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345636721983508/image0.gif"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
