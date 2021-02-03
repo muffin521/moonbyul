@@ -76,7 +76,6 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/oh-my-girl-omg-kpop-cute-pretty-gif-17578691",
             "https://gfycat.com/harmlesssecondappaloosa",
             "https://gfycat.com/evendismalamphibian",
-            "https://gfycat.com/gloriousfilthylacewing",
             "https://tenor.com/view/chuu-loona-kim-jiwoo-loonatheworld-kpop-gif-gif-19449093",
             "https://tenor.com/view/wayv-nct-xiao-xiaojun-xiao-de-jun-gif-17708611",
             "https://tenor.com/view/jungkook-eating-jungkook-cute-jungkook-hot-jungkook-bts-jungkookie-gif-19814145",
