@@ -695,7 +695,7 @@ class IzonePings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
                 await ctx.send(random.choice(self.bot.chaeyeon_gif))
                 await ctx.message.delete()
-        elif arg == "minju":
+        elif arg == "minju" or arg == "minjoo":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
