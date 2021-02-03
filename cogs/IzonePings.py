@@ -600,7 +600,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-145387920",
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
-            "https://gfycat.com/offensiveblissfulbasil"]
+            "https://gfycat.com/offensiveblissfulbasil",
+            "https://gfycat.com/quarterlyinexperiencedanura"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
