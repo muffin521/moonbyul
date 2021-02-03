@@ -58,7 +58,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text="page 3/5")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
         embed3.add_field(name='Blackpink', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```', inline = True)
-        embed3.add_field(name='Cherry Bullet', value=f'''```\nCherry Bullet Jiwon\nCherry Bullet Yuju\nCherry Bullet Bora\nCherry Bullet Haeyoon```''')
+        embed3.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n ```')
         embed3.add_field(name='BTS', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
         embed3.add_field(name='April', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
@@ -93,7 +93,8 @@ class hcommands(commands.Cog):
         embed5.add_field(name='Oh My Girl', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
         embed5.add_field(name='VAV', value=f'```\nVAV Ace\nVAV Ayno\nVAV Baron\nVAV Jacob\nVAV Lou\nVAV St.Van\nVAV Ziu```')
         embed5.add_field(name='Dreamcatcher', value=f'```\nDreamcatcer Dami\nDreamcatcher JiU\nDreamcatcher Gahyeon\nDreamcatcher Handong\nDreamcatcher Siyeon\nDreamcatcher Sua\nDreamcatcher Yoohyeon```', inline = True)
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```')
+        embed5.add_field(name='Cherry Bullet', value=f'''```\nCherry Bullet Bora\nCherry Bullet Chaerin\nCherry Bullet Haeyoon\nCherry Bullet Jiwon\nCherry Bullet Kokoro```''')
+        embed5.add_field(name='Cherry Bullet', value=f'''```\nCherry Bullet Linlin\nCherry Bullet May\nCherry Bullet Mirae\nCherry Bullet Remi\nCherry Bullet Yuju```''')
         embed5.add_field(name='Luv u so, so, so,', value=f'♡\n♡\n♡\n♡')
         embed5.add_field(name='so much', value=f'\n♡\n♡\n♡\n♡')
         
