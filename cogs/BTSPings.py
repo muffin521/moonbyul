@@ -193,7 +193,12 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/802261212846882826/806236242458050560/02014.gif",
             "https://tenor.com/view/jungkook-bts-jungkook-blond-hair-jungkook2021-jungkook-gda2021-gif-19910003",
             "https://tenor.com/view/bts-jungkook-kookie-blonde-suit-gif-19977768",
-            "https://tenor.com/view/bts-jungkook-suit-blonde-blonde-jungkook-gif-19915179"]
+            "https://tenor.com/view/bts-jungkook-suit-blonde-blonde-jungkook-gif-19915179",
+            "https://gfycat.com/daringdefiantbass",
+            "https://gfycat.com/chubbyredflyingfish",
+            "https://gfycat.com/immediatelazyattwatersprairiechicken",
+            "https://gfycat.com/aggressiveadorablebudgie",
+            "https://gfycat.com/flimsydazzlingheifer"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
