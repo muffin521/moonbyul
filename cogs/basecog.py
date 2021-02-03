@@ -100,17 +100,35 @@ class gifcog(commands.Cog):
                 for x in self.bot.rm_gif:
                     await ctx.send(x)
         #.Cherry Bullet
-            elif arg == "cherry bullet jiwon":
-                for x in self.bot.cherrybullet_jiwon_gif:
-                    await ctx.send(x)
-            elif arg == "cherry bullet yuju":
-                for x in self.bot.cherrybullet_yuju_gif:
-                    await ctx.send(x)
             elif arg == "cherry bullet bora":
                 for x in self.bot.cherrybullet_bora_gif:
                     await ctx.send(x)
+            elif arg == "cherry bullet chaerin":
+                for x in self.bot.cherrybullet_chaerin_gif:
+                    await ctx.send(x)
             elif arg == "cherry bullet haeyoon":
                 for x in self.bot.cherrybullet_haeyoon_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet jiwon":
+                for x in self.bot.cherrybullet_jiwon_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet kokoro":
+                for x in self.bot.cherrybullet_kokoro_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet linlin":
+                for x in self.bot.cherrybullet_linlin_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet may":
+                for x in self.bot.cherrybullet_may_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet mirae":
+                for x in self.bot.cherrybullet_mirae_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet remi":
+                for x in self.bot.cherrybullet_remi_gif:
+                    await ctx.send(x)
+            elif arg == "cherry bullet yuju":
+                for x in self.bot.cherrybullet_yuju_gif:
                     await ctx.send(x)
         #.CLC
             elif arg == "clc sorn":
