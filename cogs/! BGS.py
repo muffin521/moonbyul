@@ -34,7 +34,72 @@ class BGS(commands.Cog):
             "https://tenor.com/view/cha-eunwoo-roach-cha-eunwoo-gif-19550268",
             "https://tenor.com/view/true-beauty-lee-suho-chasuho-cha-eunwoo-teamsuho-gif-19646580",
             "https://tenor.com/view/astro-astro-eunwoo-eunwoo-cha-eun-woo-lee-dong-min-gif-14735333"]
-            
+    #. The Boyz
+        self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
+            "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
+            "https://tenor.com/view/kevin-moon-the-boyz-the-boyz-kevin-canadian-singer-handsome-gif-17250561",
+            "https://tenor.com/view/kevin-the-boyz-hearts-k-pop-gif-9986684",
+            "https://tenor.com/view/tbz-the-boyz-kevin-moon-kevin-heart-gif-17895708"]
+
+        self.bot.theboyz_sangyeon_gif = ["https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-sangyeon-lee-sangyeon-kpop-gif-16153887",
+            "https://tenor.com/view/the-boyz-tbz-sangyeon-lee-sangyeon-handsome-gif-17895565",
+            "https://tenor.com/view/the-boyz-sangyeon-kpop-cute-handsome-gif-17604516",
+            "https://tenor.com/view/the-boyz-sangyeon-hearts-kpop-finger-guns-gif-14026292",
+            "https://tenor.com/view/sangyeon-tbz-the-boyz-kpop-cute-gif-17552021"]
+
+        self.bot.theboyz_jacob_gif = ["https://tenor.com/view/love-checkmate-rtk-saranghae-heart-gif-17642238",
+            "https://tenor.com/view/jacob-bae-the-boyz-kpop-smile-heart-gif-16668362",
+            "https://tenor.com/view/the-boyz-gif-18316667",
+            "https://tenor.com/view/handsome-happy-the-boyz-jacob-cute-gif-17913930",
+            "https://tenor.com/view/lovely-handsome-nature-sexy-the-boyz-gif-17824817"]
+
+        self.bot.theboyz_younghoon_gif = ["https://tenor.com/view/kcon-%EC%BC%80%EC%9D%B4%EC%BD%98-m-countdown-%EC%97%A0%EC%B9%B4-mnet-gif-14815018",
+            "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-younghoon-kim-younghoon-kpop-gif-17717610",
+            "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-smile-kpop-gif-17566430",
+            "https://tenor.com/view/younghoon-the-boyz-younghoon-theboyz-kpop-cute-gif-17893813",
+            "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-kpop-cute-gif-17471797"]
+
+        self.bot.theboyz_hyunjae_gif = ["https://tenor.com/view/hyunjae-hyunjae-the-boyz-stare-look-cute-gif-17364449",
+            "https://tenor.com/view/the-boyz-hyunjae-cute-kpop-gif-14056530",
+            "https://tenor.com/view/thanks-love-handsome-road-to-kingdom-the-boyz-gif-17641817",
+            "https://tenor.com/view/hyunjae-the-boyz-hyunjae-lee-hyunjae-jaehyun-lee-jaehyun-gif-17562612",
+            "https://tenor.com/view/hyunjae-lee-hyunjae-the-boyz-hyunjae-kpop-handsome-gif-17714293"]
+
+        self.bot.theboyz_juyeon_gif = ["https://tenor.com/view/juyeon-catboy-tbz-the-boyz-juyeon-catboy-gif-18125362",
+            "https://tenor.com/view/juyeon-lee-juyeon-the-boyz-tbz-gif-19039721",
+            "https://tenor.com/view/juyeon-lee-juyeon-juyeon-funny-the-boyz-juyeon-gif-20130970",
+            "https://tenor.com/view/juyeon-the-boyz-kpop-cute-handsome-gif-16642843",
+            "https://tenor.com/view/juyeon-the-boyz-the-boyz-juyeon-juyeongoes-to-jungle-juyeon-at-airport-gif-13118344"]
+
+        self.bot.theboyz_new_gif = ["https://tenor.com/view/chanhee-the-boyz-kpop-new-the-boyz-new-gif-17717658",
+            "https://tenor.com/view/chanhee-thumbs-up-supportive-the-boyz-tbz-gif-18955020",
+            "https://tenor.com/view/the-boyz-new-the-boyz-choi-chanhee-main-vocalist-kpop-gif-17665942",
+            "https://tenor.com/view/kpop-the-boyz-chanhee-new-fairy-gif-12653054",
+            "https://tenor.com/view/the-boyz-new-new-the-boyz-choi-chanhee-main-vocalist-gif-17717620"]
+
+        self.bot.theboyz_q_gif = ["https://tenor.com/view/the-boyz-gif-18316665",
+            "https://tenor.com/view/changmin-ji-changmin-the-boyz-tbz-jungyuz-gif-19256496",
+            "https://tenor.com/view/the-boyz-q-hello-k-pop-pop-up-gif-9987755",
+            "https://tenor.com/view/tbz-the-boyz-ji-changmin-changmin-the-boyz-q-gif-19561766",
+            "https://tenor.com/view/tbz-changmin-tbz-changmin-changmin-punching-gif-20013911"]
+
+        self.bot.theboyz_haknyeon_gif = ["https://tenor.com/view/hak-haknyeon-tbz-bye-goodbye-gif-19756941",
+            "https://tenor.com/view/the-boyz-haknyeon-smiles-happy-kpop-gif-14110324",
+            "https://tenor.com/view/handsome-ju-haknyeon-haknyeon-the-boyz-fighting-gif-17641846",
+            "https://tenor.com/view/ju-haknyeon-haknyeon-the-boyz-%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-handsome-gif-17717602",
+            "https://tenor.com/view/the-boyz-haknyeon-hello-there-kpop-juhaknyeon-gif-12730844"]
+
+        self.bot.theboyz_sunwoo_gif = ["https://tenor.com/view/sunwoo-the-boyz-kim-sunwoo-gif-18352599",
+            "https://tenor.com/view/the-boyz-sunwoo-heart-love-you-kpop-gif-14056446",
+            "https://tenor.com/view/sunwoo-sunwoo-aesthetic-sunwoo-pfp-sunwoo-pretty-pretty-guy-gif-20187252",
+            "https://tenor.com/view/sunwoo-kim-sunwoo-the-boyz-tbz-gif-19358958",
+            "https://tenor.com/view/sunwoo-the-boyz-tbz-kpop-the-boyz-sunwoo-gif-19272813"]
+
+        self.bot.theboyz_eric_gif = ["https://tenor.com/view/handsome-sexy-the-boyz-eric-oh-gif-17891020",
+            "https://tenor.com/view/tbz-the-boyz-eric-sohn-kpop-theb-gif-17972062",
+            "https://tenor.com/view/eric-eric-sohn-the-boyz-peace-sign-handsome-gif-17035217",
+            "https://tenor.com/view/eric-sohn-the-boyz-cute-handsome-gif-16668468",
+            "https://tenor.com/view/eric-eric-sohn-the-boyz-gif-19230384"]
     #. P1Harmony
         self.bot.p1harmony_intak_gif = ["https://cdn.discordapp.com/attachments/800206337073479690/800261657557074000/image0.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261657880166400/image1.gif",
