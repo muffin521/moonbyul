@@ -601,7 +601,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-izone-yena-choi-yena-izone-choi-yena-gif-19117524",
             "https://tenor.com/view/izone-choi-yena-kpop-cute-dance-gif-16540553",
             "https://tenor.com/view/yena-choi-yena-izone-izone-yena-fiesta-gif-18734350",
-            "https://tenor.com/view/izone-yena-choi-yena-kpop-produce48-gif-19471725",
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
             "https://gfycat.com/respectfulaptbichonfrise",
