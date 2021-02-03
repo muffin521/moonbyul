@@ -72,8 +72,7 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792",
             "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935"]
 
-        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
+        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097724523282432/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097737801793537/image0.gif",
@@ -182,7 +181,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/xiaojun-dejun-wayv-gif-19479598",
             "https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963228",
             "https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963227",
-            "https://tenor.com/view/xiaojun-assdaya-wayv-embarrassed-gif-19225097"]
+            "https://tenor.com/view/xiaojun-assdaya-wayv-embarrassed-gif-19225097",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif"]
 
         self.bot.nct_hendery_gif = ["https://tenor.com/view/hendery-wayv-heart-gif-14544395",
             "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028474",
