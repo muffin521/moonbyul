@@ -100,17 +100,17 @@ class gifcog(commands.Cog):
                 for x in self.bot.rm_gif:
                     await ctx.send(x)
         #.Cherry Bullet
-            elif arg == "jiwon":
-                for x in self.bot.jiwon_gif:
+            elif arg == "cherry bullet jiwon":
+                for x in self.bot.cherrybullet_jiwon_gif:
                     await ctx.send(x)
-            elif arg == "yuju":
-                for x in self.bot.chebulyuju_gif:
+            elif arg == "cherry bullet yuju":
+                for x in self.bot.cherrybullet_yuju_gif:
                     await ctx.send(x)
-            elif arg == "bora":
-                for x in self.bot.chebulbora_gif:
+            elif arg == "cherry bullet bora":
+                for x in self.bot.cherrybullet_bora_gif:
                     await ctx.send(x)
-            elif arg == "haeyoon":
-                for x in self.bot.chebulhaeyoon_gif:
+            elif arg == "cherry bullet haeyoon":
+                for x in self.bot.cherrybullet_haeyoon_gif:
                     await ctx.send(x)
         #.CLC
             elif arg == "clc sorn":
