@@ -790,7 +790,7 @@ class LoonaPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
                 await ctx.send(random.choice(self.bot.gowon_gif))
                 await ctx.message.delete()
-        elif arg == "oliva hye":
+        elif arg == "oliva hye" or arg == "olivia" or arg == "olihye":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
