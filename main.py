@@ -1,4 +1,4 @@
-# invite link: https://discord.com/oauth2/authorize?client_id=770750635850858506&scope=bot&permissions=8
+# invite link: https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot
 
 # purpose: pretty girls hehehehe
     #!

@@ -154,7 +154,7 @@ class CherryBullet(commands.Cog):
             "https://cdn.discordapp.com/attachments/805984467596345364/805990724868112384/image0.gif",
             "https://cdn.discordapp.com/attachments/805984467596345364/805990725380210719/image1.gif"]
 
-    @commands.command(alias = ['chebul'])
+    @commands.command(aliases = ['chebul'])
     async def cherry(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)

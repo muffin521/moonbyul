@@ -26,14 +26,35 @@ class txtPings(commands.Cog):
             "https://tenor.com/view/soobin-txt-tomorrow-x-together-kpop-choi-soobin-gif-19186061",
             "https://tenor.com/view/choi-soobin-txt-tomorrow-by-together-tomorrow-x-together-todo-gif-16311086"]
 
-        #7
         self.bot.txt_yeonjun_gif = ["https://tenor.com/view/tomorrow-by-together-big-hit-entertainmen-txt-yeonjun-handsome-gif-17716681",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647828",
             "https://tenor.com/view/yeonjun-txt-tomorrow-by-together-blue-hour-moa-gif-18951417",
             "https://tenor.com/view/yeonjun-txt-tomorrow-x-together-kpop-yeonjun-noona-gif-19211100",
             "https://tenor.com/view/yeonjun-txt-tomorrow-x-together-kpop-yeonjun-noona-gif-19211095",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647836",
-            "https://tenor.com/view/choi-yeonjun-txt-tomorrowbytogether-tomorrowxtogether-gif-16277571"]
+            "https://tenor.com/view/choi-yeonjun-txt-tomorrowbytogether-tomorrowxtogether-gif-16277571",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807006777908133909/Tumblr_l_211673872934920.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807006778868236368/Tumblr_l_211734956508022.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807006781368565861/Tumblr_l_211753081701713.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807006782345445426/Tumblr_l_211780453128838.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807006782919802880/Tumblr_l_211787843879044.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007035090141184/Tumblr_l_211855654035737.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007035492270120/Tumblr_l_211876113648802.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007035958886420/Tumblr_l_211882417654633.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007036767993917/Tumblr_l_211886198497652.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007037585358868/Tumblr_l_211926113807949.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007038198120508/Tumblr_l_211929646072896.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007038902239232/Tumblr_l_212168482875773.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007039262818365/Tumblr_l_212173662393167.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007668350091334/Tumblr_l_212295783828017.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007669285683200/Tumblr_l_213925366730520.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007669654257684/Tumblr_l_213935720058328.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007670451437618/Tumblr_l_213953962443217.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007671009804308/Tumblr_l_213953365225509.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007671692689458/Tumblr_l_213959735187955.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007672465358888/Tumblr_l_213964612717849.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007673530581055/Tumblr_l_213968417346962.gif",
+            "https://cdn.discordapp.com/attachments/807006158665285673/807007674033635348/Tumblr_l_213971776728731.gif"]
 
         #7
         self.bot.txt_beomgyu_gif = ["https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-beomgyu-gif-17683775",
