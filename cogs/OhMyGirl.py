@@ -209,7 +209,8 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/caringfinishedcurlew",
             "https://cdn.discordapp.com/attachments/643623059541983242/760833049712656444/8301befb-9751-4549-b05b-e63db5493a08.gif",
             "https://gfycat.com/unevendistantindianspinyloach-oh-my-girl-yooa",
-            "https://gfycat.com/whoppingloathsomecanary-beauty"]
+            "https://gfycat.com/whoppingloathsomecanary-beauty",
+            "https://tenor.com/view/yooa-gif-19800700"]
 
     @commands.command()
     async def oh(self, ctx, my, girl, arg):

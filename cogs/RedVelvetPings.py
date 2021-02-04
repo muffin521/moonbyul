@@ -1,5 +1,6 @@
 import discord, random
 from discord.ext import commands
+from datetime import datetime
 
 #//servers
 jst = 735713250225815615
@@ -141,84 +142,6 @@ class RedVelvetPings(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
                     await ctx.send(random.choice(self.bot.joy_gif))
                     await ctx.message.delete()
-
-    @commands.command()
-    async def irene(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{jon}>, <@!{ctx.author.id}> is talking about Irene :watermelon:')
-                await ctx.send(random.choice(self.bot.irene_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
-            await ctx.send(random.choice(self.bot.irene_gif))
-            await ctx.message.delete()
-    
-    @commands.command()
-    async def seulgi(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
-                await ctx.send(random.choice(self.bot.seulgi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
-            await ctx.send(random.choice(self.bot.seulgi_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def wendy(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
-                await ctx.send(random.choice(self.bot.wendy_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
-            await ctx.send(random.choice(self.bot.wendy_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def yeri(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
-                await ctx.send(random.choice(self.bot.yeri_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
-            await ctx.send(random.choice(self.bot.yeri_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def joy(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
-                await ctx.send(random.choice(self.bot.joy_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
-            await ctx.send(random.choice(self.bot.joy_gif))
-            await ctx.message.delete()
-    
-    
-
 
 def setup(client):
     client.add_cog(RedVelvetPings(client))

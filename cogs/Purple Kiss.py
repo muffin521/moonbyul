@@ -25,7 +25,8 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/snivelingfatalgangesdolphin",
             "https://gfycat.com/definitivedeterminedantlion",
             "https://gfycat.com/glaringglitteringdore",
-            "https://tenor.com/view/yuki-purple-kiss-gif-19356715"]
+            "https://tenor.com/view/yuki-purple-kiss-gif-19356715",
+            "https://tenor.com/view/yuki-hamster-laughing-cute-purple-kiss-gif-19603707"]
 
         self.bot.nagoeun_gif = ["https://gfycat.com/BiodegradableBackClam",
             "https://gfycat.com/FrightenedQuarrelsomeHare",
@@ -45,7 +46,12 @@ class PurpleKiss(commands.Cog):
             "https://media.discordapp.net/attachments/547946725592137728/740189250909372516/20200804_082123.gif",
             "https://media.discordapp.net/attachments/547946725592137728/739990286976942100/20200803_193527.gif",
             "https://tenor.com/view/purple-kiss-na-goeun-goeun-purplekiss-goeun-dancing-gif-17914994",
-            "https://tenor.com/view/go-eun-chaein-purple-kiss-gif-19356750"]
+            "https://tenor.com/view/go-eun-chaein-purple-kiss-gif-19356750",
+            "https://tenor.com/view/goeun-purplekiss-purple_kiss-nagoeun-gif-19540241",
+            "https://tenor.com/view/goeun-nagoeun-purple-kiss-purple_kiss-gif-19673140",
+            "https://tenor.com/view/eunnie-line-eunseo-dosie-goeun-eunseong-gif-19614430",
+            "https://tenor.com/view/goeun-nagoeun-purplekiss-purple_kiss-gif-19614340",
+            "https://tenor.com/view/goeun-nagoeun-purplekiss-purple_kiss-gif-19614407"]
 
         self.bot.jieun_gif = ["https://gfycat.com/ComposedPlayfulAmethystgemclam",
             "https://gfycat.com/VastDistantAnophelesmosquito",
@@ -56,14 +62,17 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/contentorderlygibbon",
             "https://gfycat.com/elasticblankaustralianshelduck",
             "https://gfycat.com/exemplarybiodegradablelemur",
-            "https://cdn.discordapp.com/attachments/547946709758509076/797576874980147200/Jieun.gif"]
+            "https://cdn.discordapp.com/attachments/547946709758509076/797576874980147200/Jieun.gif",
+            "https://tenor.com/view/purple-kiss-park-jieun-gif-19609803",
+            "https://gfycat.com/aridfoolishbarnswallow"]
 
         self.bot.dosie_gif = ["https://gfycat.com/ShorttermAgonizingIriomotecat",
             "https://gfycat.com/ReflectingPessimisticGalapagosalbatross",
             "https://gfycat.com/QuestionableImpracticalClingfish",
             "https://gfycat.com/ImpartialHonoredBangeltiger",
             "https://gfycat.com/ImprobableWatchfulKillifish",
-            "https://cdn.discordapp.com/attachments/547946748811935755/740189265610408026/20200804_082421.gif"]
+            "https://cdn.discordapp.com/attachments/547946748811935755/740189265610408026/20200804_082421.gif",
+            "https://tenor.com/view/eunnie-line-eunseo-dosie-goeun-eunseong-gif-19614430"]
         
         self.bot.ireh_gif = ["https://gfycat.com/OpenEnchantedArcherfish",
             "https://gfycat.com/MediumScentedGeese",
@@ -76,7 +85,8 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/ireh-purple-kiss-gif-19356772",
             "https://tenor.com/view/purple-kiss-ireh-chaein-dosie-gif-19356828",
             "https://tenor.com/view/ireh-purple-kiss-gif-19356800",
-            "https://cdn.discordapp.com/attachments/680370499297345549/797591178387783740/Ireh.gif"]
+            "https://cdn.discordapp.com/attachments/680370499297345549/797591178387783740/Ireh.gif",
+            "https://tenor.com/view/done-ireh-purple-kiss-rbw-gif-19603737"]
 
         self.bot.chaein_gif = ["https://gfycat.com/filthyforkedfirecrest",
             "https://gfycat.com/miserablejealousbengaltiger",
@@ -97,7 +107,8 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/chaein-purple-kiss-lee-chaeyoung-gif-19356652",
             "https://tenor.com/view/purple-kiss-gif-19356669",
             "https://tenor.com/view/go-eun-chaein-purple-kiss-gif-19356750",
-            "https://tenor.com/view/chaein-purple-kiss-gif-19356764"]
+            "https://tenor.com/view/chaein-purple-kiss-gif-19356764",
+            "https://gfycat.com/indolentrecentaphid"]
 
         self.bot.swan_gif = ["https://gfycat.com/favoritewhoppingblueshark",
             "https://gfycat.com/babyishbelatedanaconda",

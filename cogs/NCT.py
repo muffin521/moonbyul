@@ -55,7 +55,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/mark-mark-lee-nct-kpop-cute-gif-16094611",
             "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
             "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194",
-            'https://tenor.com/view/nct-nct127-mark-lee-kpop-choc-chipg-gukies-gif-14393243']
+            "https://tenor.com/view/nct-nct127-mark-lee-kpop-choc-chipg-gukies-gif-14393243",
+            "https://tenor.com/view/mark-lee-nct-nct127-kpop-gif-19380061"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
@@ -71,8 +72,7 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-wayv-dong-sicheng-winwin-chinese-rapper-gif-15797792",
             "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935"]
 
-        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
+        self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097724523282432/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097737801793537/image0.gif",
@@ -95,7 +95,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/jaemin-nana-na-jaemin-nct-smile-gif-17013043",
             "https://tenor.com/view/kpop-boy-boring-nct-dream-jaemin-gif-15115161",
             "https://tenor.com/view/jaemin-nct-dream-serious-cute-handsome-gif-17041026",
-            "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677"]
+            "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677",
+            "https://cdn.discordapp.com/attachments/794052570574225478/804433282631729232/image0.gif"]
 
         self.bot.nct_jaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
             "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",
@@ -180,7 +181,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/xiaojun-dejun-wayv-gif-19479598",
             "https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963228",
             "https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963227",
-            "https://tenor.com/view/xiaojun-assdaya-wayv-embarrassed-gif-19225097"]
+            "https://tenor.com/view/xiaojun-assdaya-wayv-embarrassed-gif-19225097",
+            "https://cdn.discordapp.com/attachments/772975408912007180/790097352589180968/image0.gif"]
 
         self.bot.nct_hendery_gif = ["https://tenor.com/view/hendery-wayv-heart-gif-14544395",
             "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028474",
@@ -216,7 +218,10 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nctu-nct-nct127-nctdream-taeyong-gif-9647830",
             "https://tenor.com/view/nct127-nct-kpop-ccg-shock-gif-16007114",
             "https://tenor.com/view/taeyong-nct-smiling-cute-gif-14544492",
-            "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029"]
+            "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804433955771645962/image0.gif",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804433956224106587/image1.gif",
+            "https://cdn.discordapp.com/attachments/793028403463716875/804434007336026112/image0.gif"]
 
         self.bot.nct_jungwoo_gif = ["https://tenor.com/view/nct-nct127-jungwoo-kim-jungwoo-jin-ting-you-gif-16941098",
             "https://tenor.com/view/neo-culture-technology-nct-nctzen-jungwoo-park-jungwoo-gif-12100520",
@@ -295,7 +300,7 @@ class NCT(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [NCT {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [NCT {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "mark":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:

@@ -34,7 +34,6 @@ class twoneone(commands.Cog):
             "https://cdn.discordapp.com/attachments/703871901411573850/795773049114460170/iu-1.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773274193002496/iu-4.gif",
             "https://i.makeagif.com/media/10-01-2015/qGFLrI.gif",
-            "https://cdn.discordapp.com/attachments/703871901411573850/795779083686248489/iu-13.gif",
             "https://tenor.com/view/smile-%EC%94%A8%EC%97%98-mnet-asian-music-awards-winner-award-acceptance-speech-gif-19237320",
             "https://tenor.com/view/cl-kpop-lee-chaelin-2ne1-gif-19502722",
             "https://tenor.com/view/cl-2ne1-i-am-the-best-bat-ready-to-fight-gif-14343853",
@@ -42,7 +41,9 @@ class twoneone(commands.Cog):
             "https://gfycat.com/graveshoddycoyote",
             "https://tenor.com/view/cl-kpop-dance-gif-4665754",
             "https://tenor.com/view/2ne1-cl-kpop-yg-gif-5071914",
-            "https://tenor.com/view/cl-kisses-2ne1-kpop-blow-kiss-gif-8616545"]
+            "https://tenor.com/view/cl-kisses-2ne1-kpop-blow-kiss-gif-8616545",
+            "https://tenor.com/view/bigbang-gd-jiyong-2ne1-cl-gif-9296043",
+            "https://tenor.com/view/cl-korean-k-pop-2ne1-rapper-gif-9210973"]
 
         self.bot.dara_gif = ["https://tenor.com/view/dara-sandarapark-sandara-2ne1-yg-gif-5071907",
             "https://tenor.com/view/dara-sandara-sandara-park-kpop-2ne1-gif-19666838",
@@ -101,7 +102,8 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/park-bom-bom-dan%C3%A7ando-park-bom-dan%C3%A7ando-park-bom-dan%C3%A7ando-loira-dancing-gif-17924647",
             "https://tenor.com/view/park-bom-bom-2ne1-korean-k-pop-gif-10711068",
             "https://tenor.com/view/parkbom-bom-2ne1-yg-kpop-gif-5071909",
-            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif"]
+            "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif",
+            "https://tenor.com/view/elusive-elusivecaution-gif-19734281"]
 
         self.bot.minzy_gif = ["https://tenor.com/view/minzy-2ne1-yg-kong-smile-gif-12482219",
             "https://tenor.com/view/dance-moves-split-kpop-minzy-2ne1-gif-13861313",

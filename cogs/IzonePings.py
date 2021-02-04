@@ -377,7 +377,11 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/drearyuncommoncrossbill",
             "https://gfycat.com/ambitiouscloudygalapagossealion",
             "https://gfycat.com/illegaldeafeninginvisiblerail",
-            "https://gfycat.com/bonyablebunting"]
+            "https://gfycat.com/bonyablebunting",
+            "https://gfycat.com/rapidsilkyharrierhawk",
+            "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
+            "https://gfycat.com/unawareinfantileeastsiberianlaika",
+            "https://gfycat.com/linedsecondhoiho"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -470,7 +474,22 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/flickeringtenderbeardeddragon",
             "https://gfycat.com/disguisedfainthammerkop",
             "https://gfycat.com/gaseouswickedastarte",
-            "https://gfycat.com/SlimSlightCapybara"]
+            "https://gfycat.com/SlimSlightCapybara",
+            "https://gfycat.com/alertenchantingindianhare",
+            "https://gfycat.com/presentwhiteblackfly",
+            "https://gfycat.com/illiteratebittercolt",
+            "https://gfycat.com/tansoureidolonhelvum",
+            "https://gfycat.com/freecreepyblackfootedferret",
+            "https://gfycat.com/incomparablepitifularmyworm",
+            "https://gfycat.com/medicalcolossalamurminnow",
+            "https://tenor.com/view/izone-chae-yeon-lee-chae-yeon-sassy-girl-crush-gif-13456509",
+            "https://tenor.com/view/leechaeyeon-chaeyeon-chaeyeon-laugh-nlunyk-izone-gif-17893647",
+            "https://tenor.com/view/chaeyeon-izone-chaeyeon-izone-lee-chaeyeon-smile-gif-13983901",
+            "https://gfycat.com/milkyfamoushammerheadbird",
+            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-14538792",
+            "https://gfycat.com/illiteraterecentguineapig",
+            "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
+            "https://gfycat.com/offensiveblissfulbasil"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -491,7 +510,16 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/impressionabledenseaffenpinscher",
             "https://gfycat.com/kindrequiredbooby/",
             "https://tenor.com/view/izone-minju-pretty-gif-14587149",
-            "https://imgur.com/pwq5qck"]
+            "https://imgur.com/pwq5qck",
+            "https://gfycat.com/verifiableheavenlygrassspider",
+            "https://gfycat.com/grotesquemelodicfruitbat",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806344986286096414/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345243237548042/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345491176620072/image0.gif",
+            "https://cdn.discordapp.com/attachments/798320383539412992/806345636721983508/image0.gif",
+            "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
+            "https://gfycat.com/unawareinfantileeastsiberianlaika",
+            "https://gfycat.com/linedsecondhoiho"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -565,7 +593,15 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/variableunhappyborderterrier",
             "https://gfycat.com/potablewearyhellbender",
             "https://gfycat.com/tanhonesticelandicsheepdog",
-            "https://gfycat.com/infinitenewanchovy"]
+            "https://gfycat.com/infinitenewanchovy",
+            "https://gfycat.com/exhaustedrichbooby",
+            "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831",
+            "https://gfycat.com/spiffyableirishredandwhitesetter",
+            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-145387920",
+            "https://gfycat.com/illiteraterecentguineapig",
+            "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
+            "https://gfycat.com/offensiveblissfulbasil",
+            "https://gfycat.com/quarterlyinexperiencedanura"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -584,7 +620,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-izone-yena-choi-yena-izone-choi-yena-gif-19117524",
             "https://tenor.com/view/izone-choi-yena-kpop-cute-dance-gif-16540553",
             "https://tenor.com/view/yena-choi-yena-izone-izone-yena-fiesta-gif-18734350",
-            "https://tenor.com/view/izone-yena-choi-yena-kpop-produce48-gif-19471725",
             "https://tenor.com/view/iz-one-iz-one-yena-yena-choi-yena-pretty-gif-15713414",
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
             "https://gfycat.com/respectfulaptbichonfrise",
@@ -614,9 +649,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398294",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-16463654",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
-            "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760"]
+            "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760",
+            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake"]
 
-        self.bot.hitomi_gif = ["https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
+        self.bot.hitomi_gif = ["https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
+            "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-izone-hitomi-hitomi-honda-gif-16717168",
             "https://tenor.com/view/izone-hitomi-honda-hitomi-cant-hear-you-kpop-gif-17682854",
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-heart-gif-14161599",
@@ -626,7 +663,12 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-hitomi-honda-hitomi-pretty-gif-16831042",
             "https://tenor.com/view/hitomi-honda-hitomi-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%9E%88%ED%86%A0%EB%AF%B8-cute-gif-13981234",
             "https://gfycat.com/kindheartedevergreenfinch",
-            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard"]
+            "https://gfycat.com/raggeddimwittedchinesecrocodilelizard",
+            "https://gfycat.com/limpingslightaruanas",
+            "https://gfycat.com/severedearbison",
+            "https://gfycat.com/giganticleadingblackbear",
+            "https://gfycat.com/hoarseweecaribou",
+            "https://gfycat.com/hotminiaturecarp"]
 
 
     @commands.command(aliases = ['iz*one'])
@@ -668,7 +710,7 @@ class IzonePings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
                 await ctx.send(random.choice(self.bot.chaeyeon_gif))
                 await ctx.message.delete()
-        elif arg == "minju":
+        elif arg == "minju" or arg == "minjoo":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
@@ -770,9 +812,11 @@ class IzonePings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
                 await ctx.send(random.choice(self.bot.hitomi_gif))
                 await ctx.message.delete()
+        elif arg == "ame":
+            await ctx.send(f'https://cdn.discordapp.com/attachments/798646055947337778/806336960867860510/image0.gif', delete_after=3)
+            await ctx.message.delete()
 
-
-    @commands.command(aliases = ['saku', 'kkura']) #used to be purple_heart
+    @commands.command(aliases = ['saku', 'kkura', 'ame']) #used to be purple_heart
     async def sakura(self, ctx):
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
             await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')

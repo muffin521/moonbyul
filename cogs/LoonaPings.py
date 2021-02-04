@@ -790,7 +790,7 @@ class LoonaPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
                 await ctx.send(random.choice(self.bot.gowon_gif))
                 await ctx.message.delete()
-        elif arg == "oliva hye":
+        elif arg == "oliva hye" or arg == "olivia" or arg == "olihye" or arg == "oliviahye":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
@@ -947,7 +947,11 @@ class LoonaPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def chuu(self, ctx, heart="no"):
+    async def chuu(self, ctx, heart="normalloona"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Chuu {heart}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if heart == "heart":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
