@@ -22,17 +22,25 @@ class GGS(commands.Cog):
         self.bot = bot
         self.bot.logs = 786515662214397973
     #. apink
-        self.bot.apink_bomi_gif = ["https://tenor.com/view/yoon-bomi-one-one-more-time-chance-again-gif-13724908"]
+        self.bot.apink_bomi_gif = ["https://tenor.com/view/yoon-bomi-one-one-more-time-chance-again-gif-13724908",
+            "https://tenor.com/view/yoon-bomi-play-recorder-musical-instrument-flutes-gif-11868145",
+            "https://tenor.com/view/thanks-thank-you-apink-bomi-yoon-gif-9243373",
+            "https://tenor.com/view/bomi-apink-bomi-apink-bomi-apink-im-so-sick-im-so-sick-gif-14772262"]
 
-        self.bot.apink_chorong_gif = ["https://tenor.com/view/chorong-gif-7780924"]
+        self.bot.apink_chorong_gif = ["https://tenor.com/view/chorong-gif-7780924",
+            "https://tenor.com/view/nevermind-thegodbomi-chorong-apink-laughs-gif-20131482"]
         
-        self.bot.apink_eunji_gif = ["https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042"]
+        self.bot.apink_eunji_gif = ["https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042",
+            "https://tenor.com/view/apink-eunji-gif-18881050"]
 
-        self.bot.apink_hayoung_gif = ["https://tenor.com/view/hayoung-shrug-idgaf-not-my-problem-not-my-business-gif-10589324"]
+        self.bot.apink_hayoung_gif = ["https://tenor.com/view/hayoung-shrug-idgaf-not-my-problem-not-my-business-gif-10589324",
+            "https://tenor.com/view/hayoung-apink-hayoung-apink-gif-18814544"]
 
-        self.bot.apink_naeun_gif = ["https://tenor.com/view/naeun-apink-gif-18574437"]
+        self.bot.apink_naeun_gif = ["https://tenor.com/view/naeun-apink-gif-18574437",
+            "https://tenor.com/view/apink-son-naeun-nhicatung-kpop-korean-gif-5486987"]
 
-        self.bot.apink_namjoo_gif = ["https://tenor.com/view/apink-kim-namjoo-k-pop-korean-gif-10024790"]
+        self.bot.apink_namjoo_gif = ["https://tenor.com/view/apink-kim-namjoo-k-pop-korean-gif-10024790",
+            "https://tenor.com/view/namjoo-apink-oop-and-i-oop-namjoo-cover-mouth-gif-19379187"]
     #. dreamcatcher
         self.bot.dreamcatcher_jiu_gif = ["https://tenor.com/view/onex-1x-jiu-hawt-kim-minji-hawt-jiu-gif-18812596",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294061996605470/image1.gif",
