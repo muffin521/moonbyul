@@ -790,7 +790,7 @@ class LoonaPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Go Won :butterfly::pineapple:')
                 await ctx.send(random.choice(self.bot.gowon_gif))
                 await ctx.message.delete()
-        elif arg == "oliva hye" or arg == "olivia" or arg == "olihye" or arg == "oliviahye":
+        elif arg == "olivia hye" or arg == "olivia" or arg == "olihye" or arg == "oliviahye":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
@@ -798,11 +798,12 @@ class LoonaPings(commands.Cog):
                     await ctx.message.delete()
                 else:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()            
+                    await ctx.message.delete()  
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
+                await ctx.send(f'<@{ctx.author.id}> is talking about Olivia Hye :wolf:')
                 await ctx.send(random.choice(self.bot.oliviahye_gif))
                 await ctx.message.delete()
+            
 
 
 
@@ -1005,3 +1006,18 @@ class LoonaPings(commands.Cog):
 #
 def setup(client):
     client.add_cog(LoonaPings(client))
+
+
+
+    # if ctx.guild.id == luminary:
+    #             if ctx.channel.id == kbotcom:
+    #                 await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
+    #                 await ctx.send(random.choice(self.bot.oliviahye_gif))
+    #                 await ctx.message.delete()
+    #             else:
+    #                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #                 await ctx.message.delete()            
+    #         else:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Olivia Hye :wolf:')
+    #             await ctx.send(random.choice(self.bot.oliviahye_gif))
+    #             await ctx.message.delete()
