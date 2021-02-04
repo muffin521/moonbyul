@@ -859,7 +859,7 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.bot.chaeyeon_gif))
             await ctx.message.delete()
 
-    @commands.command() #used to be frog
+    @commands.command(aliases = ['tom']) #used to be frog
     async def minju(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
