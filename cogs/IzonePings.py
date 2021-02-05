@@ -489,7 +489,11 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-14538792",
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
-            "https://gfycat.com/offensiveblissfulbasil"]
+            "https://gfycat.com/offensiveblissfulbasil",
+            "https://gfycat.com/soupyuntriedhyena",
+            "https://gfycat.com/deficientslimhusky",
+            "https://gfycat.com/metallicmintycowrie",
+            "https://gfycat.com/nextfearfulallensbigearedbat"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
