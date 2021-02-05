@@ -634,6 +634,9 @@ class gifcog(commands.Cog):
             elif arg == "chaeyoung":
                 for x in self.bot.chaeyoung_gif:
                     await ctx.send(x)
+            elif arg == "dahyun":
+                for x in self.bot.dahyun_gif:
+                    await ctx.send(x)
         #.TXT
             elif arg == "txt soobin":
                 for x in self.bot.txt_soobin_gif:

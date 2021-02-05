@@ -790,7 +790,7 @@ class IzonePings(commands.Cog):
         elif arg == "yuri":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+                    await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:minjuheart:787553396734951454>')
                     await ctx.send(random.choice(self.bot.yuri_gif))
                     await ctx.message.delete()
                 else:
@@ -913,6 +913,17 @@ class IzonePings(commands.Cog):
         elif arg == "ame":
             await ctx.send(f'https://cdn.discordapp.com/attachments/798646055947337778/806336960867860510/image0.gif', delete_after=3)
             await ctx.message.delete()
+
+    @commands.command()
+    async def minyul(self, ctx):
+        if ctx.server.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@{ctx.author.id}> is shipping MinYul <:minjuheart:787553396734951454><:minjuheart:787553396734951454>')
+            await ctx.message.delete()
+
+
 
     @commands.command(aliases = ['saku', 'kkura', 'ame']) #used to be purple_heart
     async def sakura(self, ctx):
