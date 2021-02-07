@@ -709,7 +709,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/exhaustedrichbooby",
             "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831",
             "https://gfycat.com/spiffyableirishredandwhitesetter",
-            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-145387920",
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
             "https://gfycat.com/offensiveblissfulbasil",
