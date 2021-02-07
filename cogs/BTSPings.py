@@ -552,6 +552,23 @@ class BTSPings(commands.Cog):
                 await ctx.send(random.choice(self.bot.rm_gif))
                 await ctx.message.delete()
 
+    @commands.command()
+    async def k8(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@{k8}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
+                await ctx.send(random.choice(self.bot.jungkook_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
+            await ctx.send(random.choice(self.bot.jungkook_gif))
+            await ctx.message.delete()
+
+
+
     # @commands.command()
     # async def v(self, ctx):
     #     if ctx.guild.id == luminary:
@@ -597,20 +614,7 @@ class BTSPings(commands.Cog):
     #         await ctx.send(random.choice(self.bot.jhope_gif))
     #         await ctx.message.delete()
 
-    # @commands.command(aliases = ["k8"])
-    # async def jungkook(self, ctx):
-    #     if ctx.guild.id == luminary:
-    #         if ctx.channel.id == kbotcom:
-    #             await ctx.send(f'<@{lulu}>, <@{princessuwu}>, <@{k8}>, <@!{ctx.author.id}> is talking about Jungkook :heart:')
-    #             await ctx.send(random.choice(self.bot.jungkook_gif))
-    #             await ctx.message.delete()
-    #         else:
-    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-    #             await ctx.message.delete()
-    #     else:
-    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
-    #         await ctx.send(random.choice(self.bot.jungkook_gif))
-    #         await ctx.message.delete()
+    
 
     # @commands.command()
     # async def jin(self, ctx):
