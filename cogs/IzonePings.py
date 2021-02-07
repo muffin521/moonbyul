@@ -948,8 +948,12 @@ class IzonePings(commands.Cog):
 
 
 
-    @commands.command(aliases = ['saku', 'kkura', 'ame']) #used to be purple_heart
-    async def sakura(self, ctx):
+    @commands.command(aliases = ['ame']) #used to be purple_heart
+    async def ame(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Ame] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
             await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
@@ -962,37 +966,13 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
 
-    @commands.command() #used to be heart
-    async def yuri(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-                await ctx.send(random.choice(self.bot.yuri_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-            await ctx.send(random.choice(self.bot.yuri_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be white_heart
-    async def chaeyeon(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@{luke}>, <@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.bot.chaeyeon_gif))
-            await ctx.message.delete()
-        elif ctx.channel.id != 764610881513324574 and ctx.guild.id == 758468592957521972:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.bot.chaeyeon_gif))
-            await ctx.message.delete()
 
     @commands.command(aliases = ['tom']) #used to be frog
-    async def minju(self, ctx):
+    async def tom(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Tom] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
@@ -1006,126 +986,156 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.bot.minju_gif))
             await ctx.message.delete()
 
-    @commands.command() #used to be rabbit
-    async def wonyoung(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-                await ctx.send(random.choice(self.bot.wonyoung_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-            await ctx.send(random.choice(self.bot.wonyoung_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be cake
-    async def hyewon(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-                await ctx.send(random.choice(self.bot.hyewon_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-            await ctx.send(random.choice(self.bot.hyewon_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be woman_fairy
-    async def chaewon(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-                await ctx.send(random.choice(self.bot.chaewon_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-            await ctx.send(random.choice(self.bot.chaewon_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be woman_fairy
-    async def yujin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-                await ctx.send(random.choice(self.bot.yujin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-            await ctx.send(random.choice(self.bot.yujin_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be yellow_heart
-    async def yena(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-                await ctx.send(random.choice(self.bot.yena_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-            await ctx.send(random.choice(self.bot.yena_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be purple_heart
-    async def eunbi(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-                await ctx.send(random.choice(self.bot.eunbi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-            await ctx.send(random.choice(self.bot.eunbi_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def nako(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-                await ctx.send(random.choice(self.bot.nako_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-            await ctx.send(random.choice(self.bot.nako_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be strawberry
-    async def hitomi(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-                await ctx.send(random.choice(self.bot.hitomi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-            await ctx.send(random.choice(self.bot.hitomi_gif))
-            await ctx.message.delete()
 
 
 def setup(client):
     client.add_cog(IzonePings(client))
+
+    # @commands.command() #used to be heart
+    # async def yuri(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+    #             await ctx.send(random.choice(self.bot.yuri_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+    #         await ctx.send(random.choice(self.bot.yuri_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be white_heart
+    # async def chaeyeon(self, ctx):
+    #     if ctx.guild.id == jst:
+    #         await ctx.send(f'<@{luke}>, <@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
+    #         await ctx.send(random.choice(self.bot.chaeyeon_gif))
+    #         await ctx.message.delete()
+    #     elif ctx.channel.id != 764610881513324574 and ctx.guild.id == 758468592957521972:
+    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #         await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
+    #         await ctx.send(random.choice(self.bot.chaeyeon_gif))
+    #         await ctx.message.delete()
+
+    #     @commands.command() #used to be rabbit
+    # async def wonyoung(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
+    #             await ctx.send(random.choice(self.bot.wonyoung_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
+    #         await ctx.send(random.choice(self.bot.wonyoung_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be cake
+    # async def hyewon(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
+    #             await ctx.send(random.choice(self.bot.hyewon_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
+    #         await ctx.send(random.choice(self.bot.hyewon_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be woman_fairy
+    # async def chaewon(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
+    #             await ctx.send(random.choice(self.bot.chaewon_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
+    #         await ctx.send(random.choice(self.bot.chaewon_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be woman_fairy
+    # async def yujin(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
+    #             await ctx.send(random.choice(self.bot.yujin_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
+    #         await ctx.send(random.choice(self.bot.yujin_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be yellow_heart
+    # async def yena(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
+    #             await ctx.send(random.choice(self.bot.yena_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
+    #         await ctx.send(random.choice(self.bot.yena_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be purple_heart
+    # async def eunbi(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
+    #             await ctx.send(random.choice(self.bot.eunbi_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
+    #         await ctx.send(random.choice(self.bot.eunbi_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command()
+    # async def nako(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+    #             await ctx.send(random.choice(self.bot.nako_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+    #         await ctx.send(random.choice(self.bot.nako_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be strawberry
+    # async def hitomi(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+    #             await ctx.send(random.choice(self.bot.hitomi_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+    #         await ctx.send(random.choice(self.bot.hitomi_gif))
+    #         await ctx.message.delete()
