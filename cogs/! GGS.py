@@ -252,7 +252,15 @@ class GGS(commands.Cog):
             "https://tenor.com/view/weki-meki-yoojung-choi-yoo-jung-gif-18765076",
             "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf",
             "https://tenor.com/view/choiyoojung-wekimeki-gif-13666421"]
-    
+    #. soloists
+        self.bot.hyuna_gif = ["https://tenor.com/view/hyuna-lipnhip-gif-10531483",
+            "https://tenor.com/view/kpop-soloist-hyuna-wink-smile-gif-15591705",
+            "https://tenor.com/view/hyuna-gif-8262788",
+            "https://tenor.com/view/kpop-soloist-khh-hyuna-flip-hair-gif-14692978",
+            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-bleh-gif-15063282",
+            "https://tenor.com/view/hyuna-kpop-fix-hair-gif-13407251",
+            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-tired-gif-15063284",
+            "https://cdn.discordapp.com/attachments/807685485144178698/807686829544833084/image0.gif"]
     #. end of gifs
 
     @commands.command(aliases = ['dream'])
@@ -398,21 +406,21 @@ class GGS(commands.Cog):
     
 
     @commands.command()
-    async def jiu(self, ctx):
+    async def hyuna(self, ctx):
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about JiU :rabbit: ')
-                await ctx.send(random.choice(self.bot.dreamcatcher_jiu_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart: ')
+                await ctx.send(random.choice(self.bot.hyuna_gif))
                 await ctx.message.delete()
             else:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
         else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about JiU :rabbit:')
-            await ctx.send(random.choice(self.bot.dreamcatcher_jiu_gif))
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
+            await ctx.send(random.choice(self.bot.hyuna_gif))
             await ctx.message.delete()
 
-
+    
 
 def setup(client):
     client.add_cog(GGS(client))
