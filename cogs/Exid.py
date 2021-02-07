@@ -96,7 +96,7 @@ class exid(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Solji :heart: ')
                 await ctx.send(random.choice(self.bot.solji_gif))
                 await ctx.message.delete()
-        elif arg == "hyelin":
+        elif arg == "hyelin" or arg == "hyerin":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()

@@ -250,19 +250,19 @@ class gifcog(commands.Cog):
                 for x in self.bot.sihyeon_gif:
                     await ctx.send(x) 
         #.EXID
-            elif arg == "hani":
+            elif arg == "exid hani":
                 for x in self.bot.hani_gif:
                     await ctx.send(x)
-            elif arg == "jeonghwa":
+            elif arg == "exid jeonghwa":
                 for x in self.bot.jeonghwa_gif:
                     await ctx.send(x)
-            elif arg == "le":
+            elif arg == "exid le":
                 for x in self.bot.le_gif:
                     await ctx.send(x)
-            elif arg == "solji":
+            elif arg == "exid solji":
                 for x in self.bot.solji_gif:
                     await ctx.send(x)
-            elif arg == "hyelin":
+            elif arg == "exid hyelin" or arg == "exid hyerin":
                 for x in self.bot.hyelin_gif:
                     await ctx.send(x)
         #.Gidle
