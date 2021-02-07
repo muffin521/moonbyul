@@ -948,7 +948,7 @@ class IzonePings(commands.Cog):
 
 
     @commands.command(aliases = ['ame']) #used to be purple_heart
-    async def ame(self, ctx):
+    async def ame(self, ctx, arg = "nopeee"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -960,10 +960,13 @@ class IzonePings(commands.Cog):
         elif ctx.guild.id == luminary and ctx.channel.id != kbotcom:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
+        elif arg == "killer":
+            await ctx.send(f'https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123')
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
+        
 
 
     @commands.command(aliases = ['tom']) #used to be frog
