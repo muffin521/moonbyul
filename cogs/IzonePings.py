@@ -381,7 +381,16 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/rapidsilkyharrierhawk",
             "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
             "https://gfycat.com/unawareinfantileeastsiberianlaika",
-            "https://gfycat.com/linedsecondhoiho"]
+            "https://gfycat.com/linedsecondhoiho",
+            "https://gfycat.com/actualdizzydevilfish",
+            "https://gfycat.com/anxiousimmaterialgrizzlybear",
+            "https://gfycat.com/metallicjampackedafricanrockpython",
+            "https://gfycat.com/palatablesplendidflycatcher",
+            "https://gfycat.com/dimvelvetyjenny",
+            "https://gfycat.com/agilewigglyelephantbeetle",
+            "https://gfycat.com/coordinatedgentlecockroach",
+            "https://gfycat.com/slightdizzyiriomotecat",
+            "https://gfycat.com/blackandwhiteorganicacaciarat"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -641,7 +650,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/annualalertasiandamselfly",
             "https://tenor.com/view/wonyoung-jang-wonyoung-iz-one-dance-gif-14625438",
             "https://gfycat.com/warybelovedargali",
-            "https://tenor.com/view/izone-wonyoung-jang-wonyoung-maknae-%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-gif-15064171"]
+            "https://tenor.com/view/izone-wonyoung-jang-wonyoung-maknae-%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-gif-15064171",
+            "https://gfycat.com/lazypopularchrysomelid",
+            "https://gfycat.com/dishonestvigilantgecko"]
 
         self.bot.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-izone-hyewon-beware-gif-18734334",
@@ -690,7 +701,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/sharpessentialarmednylonshrimp",
             "https://gfycat.com/meekathleticgalapagosdove",
             "https://gfycat.com/costlyenchantedhornshark",
-            "https://gfycat.com/costlyenchantedhornshark",
             "https://gfycat.com/responsiblelankyiggypops",
             "https://gfycat.com/variableunhappyborderterrier",
             "https://gfycat.com/potablewearyhellbender",
@@ -703,7 +713,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
             "https://gfycat.com/offensiveblissfulbasil",
-            "https://gfycat.com/quarterlyinexperiencedanura"]
+            "https://gfycat.com/quarterlyinexperiencedanura",
+            "https://gfycat.com/tatteredadoredemperorshrimp"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -726,7 +737,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
             "https://gfycat.com/respectfulaptbichonfrise",
             "https://imgur.com/pwq5qck",
-            "https://gfycat.com/whitepositiveindianrhinoceros"]
+            "https://gfycat.com/whitepositiveindianrhinoceros",
+            "https://gfycat.com/aptreliableafricanjacana"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
@@ -742,7 +754,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/fewinsistentdromedary",
             "https://gfycat.com/revolvingaltruisticflatcoatretriever",
             "https://gfycat.com/marvelousmenacingamericanwarmblood",
-            "https://gfycat.com/revolvingmajorfinnishspitz"]
+            "https://gfycat.com/revolvingmajorfinnishspitz",
+            "https://gfycat.com/agilewigglyelephantbeetle"]
 
         self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
@@ -752,7 +765,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-16463654",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
             "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760",
-            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake"]
+            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
+            "https://gfycat.com/gracefulfinearawana"]
 
         self.bot.hitomi_gif = ["https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
             "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
@@ -770,7 +784,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/severedearbison",
             "https://gfycat.com/giganticleadingblackbear",
             "https://gfycat.com/hoarseweecaribou",
-            "https://gfycat.com/hotminiaturecarp"]
+            "https://gfycat.com/hotminiaturecarp",
+            "https://gfycat.com/dimvelvetyjenny"]
+
+        self.bot.minyul_gif = ["https://gfycat.com/bountifuldecisivegalago/",
+            "https://gfycat.com/adorableforcefularctichare",
+            "https://gfycat.com/flimsycookedbudgie"]
 
 
     @commands.command(aliases = ['iz*one'])
