@@ -158,7 +158,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/goodinferiorfritillarybutterfly",
             "https://tenor.com/view/iz-one-kpop-gif-13206670",
             "https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123",
-            "https://gfycat.com/ecstaticcreamycockroach"]
+            "https://gfycat.com/ecstaticcreamycockroach",
+            "https://tenor.com/view/izone-miyawaki-sakura-monster-gif-18569937",
+            "https://gfycat.com/thunderoussilverflee",
+            "https://gfycat.com/misguidedhideousbagworm"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -390,7 +393,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/agilewigglyelephantbeetle",
             "https://gfycat.com/coordinatedgentlecockroach",
             "https://gfycat.com/slightdizzyiriomotecat",
-            "https://gfycat.com/blackandwhiteorganicacaciarat"]
+            "https://gfycat.com/blackandwhiteorganicacaciarat",
+            "https://gfycat.com/importantyellowishbuzzard"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -502,7 +506,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/soupyuntriedhyena",
             "https://gfycat.com/deficientslimhusky",
             "https://gfycat.com/metallicmintycowrie",
-            "https://gfycat.com/nextfearfulallensbigearedbat"]
+            "https://gfycat.com/nextfearfulallensbigearedbat",
+            "https://media.discordapp.net/attachments/485105790299013123/807470022360301579/Chaeyeon.gif",
+            "https://tenor.com/view/lee-chaeyeon-chaeyeon-izone-chaeyeon-gif-14723167",
+            "https://gfycat.com/periodicexcellentantarcticfurseal"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -630,7 +637,9 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/f41fc77c4c4123fbf1c49767fb53c359/2b3d443f2cef154f-0a/s250x400/b71017a983136b56b80b90c99119d089364711de.gif",
             "https://64.media.tumblr.com/67c962a44fd54e2e6ce01777069b922b/2b3d443f2cef154f-db/s250x400/f3dd9e67b8ed005dc89521d758471f2182bef260.gif",
             "https://64.media.tumblr.com/c78ed85ff07b012da4f88dabb666dbb7/b1ca60201720aa45-8e/s400x600/89f629e956642206a07f873e44fe93afe8f092dc.gif",
-            "https://64.media.tumblr.com/7a581736fa89bd7ea10b8b49a9e1ceb2/b1ca60201720aa45-3d/s400x600/a8113875c1f2b097bfe792ec00cb56db8170be20.gif"]
+            "https://64.media.tumblr.com/7a581736fa89bd7ea10b8b49a9e1ceb2/b1ca60201720aa45-3d/s400x600/a8113875c1f2b097bfe792ec00cb56db8170be20.gif",
+            "https://tenor.com/view/minju-kim-minju-minju-eat-izone-minju-minju-happy-gif-20189694",
+            "https://tenor.com/view/iz-one-iz-one-minju-minju-kim-minju-pretty-gif-15555265"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -713,7 +722,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
             "https://gfycat.com/offensiveblissfulbasil",
             "https://gfycat.com/quarterlyinexperiencedanura",
-            "https://gfycat.com/tatteredadoredemperorshrimp"]
+            "https://gfycat.com/tatteredadoredemperorshrimp",
+            "https://gfycat.com/calculatingeasygoingkite"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -754,7 +764,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/revolvingaltruisticflatcoatretriever",
             "https://gfycat.com/marvelousmenacingamericanwarmblood",
             "https://gfycat.com/revolvingmajorfinnishspitz",
-            "https://gfycat.com/agilewigglyelephantbeetle"]
+            "https://gfycat.com/agilewigglyelephantbeetle",
+            "https://tenor.com/view/izone-kwon-eunbi-monster-gif-18569925"]
 
         self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
