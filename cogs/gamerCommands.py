@@ -109,7 +109,8 @@ class gamerPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif",
             "https://cdn.discordapp.com/attachments/798320383539412992/806345491176620072/image0.gif",
             "https://gfycat.com/quarterlyinexperiencedanura",
-            "https://64.media.tumblr.com/3629e5aed89ff2a1aa94a51a9ac0396d/ba269b895e46fb77-2d/s400x600/766afd4caedc073d6001eb909116fe2c0fea4c4d.gif"]
+            "https://64.media.tumblr.com/3629e5aed89ff2a1aa94a51a9ac0396d/ba269b895e46fb77-2d/s400x600/766afd4caedc073d6001eb909116fe2c0fea4c4d.gif",
+            "https://gfycat.com/tartpastellangur"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
