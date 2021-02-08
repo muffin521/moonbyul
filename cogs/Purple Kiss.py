@@ -31,7 +31,8 @@ class PurpleKiss(commands.Cog):
             "https://cdn.discordapp.com/attachments/547946757594677268/806562701023248404/image1.gif",
             "https://cdn.discordapp.com/attachments/547946757594677268/806572183647813662/image0.gif",
             "https://cdn.discordapp.com/attachments/547946757594677268/806572210495553588/image0.gif",
-            "https://cdn.discordapp.com/attachments/547946757594677268/806682389069037638/image0.gif"]
+            "https://cdn.discordapp.com/attachments/547946757594677268/806682389069037638/image0.gif",
+            "https://tenor.com/view/mori-koyuki-yuki-purple-kiss-mworikoyuki-gif-20125374"]
 
         self.bot.nagoeun_gif = ["https://gfycat.com/BiodegradableBackClam",
             "https://gfycat.com/FrightenedQuarrelsomeHare",
