@@ -551,7 +551,6 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/loona-gowon-gowon-loona-kpop-gif-18739724",
             "https://tenor.com/view/gowon-loona-gif-19126206",
             "https://tenor.com/view/loona-gowon-yawning-kpop-gif-18890935",
-            "https://tenor.com/view/gowon-loona-gif-19126206",
             "https://gfycat.com/athletichugeauklet-beauty",
             "https://gfycat.com/beneficialthoughtfulkudu",
             "https://gfycat.com/bewitchedelegantairedaleterrier-go-won-loona-beauty",

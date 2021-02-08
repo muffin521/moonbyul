@@ -39,7 +39,8 @@ class CLC(commands.Cog):
             "https://tenor.com/view/crystal-clear-jang-kpop-yeeun-clc-gif-14859536",
             "https://tenor.com/view/yay-wink-cute-yeeun-clc-gif-14300869",
             "https://tenor.com/view/yeeun-jang-clc-not-yummy-gif-13252749",
-            "https://tenor.com/view/crystal-clear-jang-kpop-devil-yeeun-gif-14999392"]
+            "https://tenor.com/view/crystal-clear-jang-kpop-devil-yeeun-gif-14999392",
+            "https://tenor.com/view/chonnasorn-sajakul-yeeun-clc-sorn-gif-13252160"]
 
         self.bot.clc_sorn_gif = ["https://tenor.com/bqihb.gif",
             "https://tenor.com/bunmH.gif",
