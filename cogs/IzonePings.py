@@ -1085,7 +1085,7 @@ class IzonePings(commands.Cog):
 
 
 
-    @commands.command(aliases = ['ame']) #used to be purple_heart
+    @commands.command() #used to be purple_heart
     async def ame(self, ctx, arg = "nopeee"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
@@ -1107,7 +1107,7 @@ class IzonePings(commands.Cog):
         
 
 
-    @commands.command(aliases = ['tom']) #used to be frog
+    @commands.command() #used to be frog
     async def tom(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
