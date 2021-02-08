@@ -37,7 +37,8 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty_gif-gif-19360526",
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-bye-nt-natty-gif-19176192",
             "https://tenor.com/view/nt-natty-natty-teddybear-natty_gif-heart-gif-19176286",
-            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-dance-nt-natty-gif-19280113"]
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-dance-nt-natty-gif-19280113",
+            "https://tenor.com/view/nt-natty-natty-teddybear-natty_gif-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-gif-19176185"]
 
         self.bot.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
             "https://tenor.com/view/alexa-alexa-kpop-wink-cute-wink-alex-christine-gif-18426203",
@@ -129,7 +130,10 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-lee-ji-eun-wink-cute-pretty-gif-17535138",
             "https://tenor.com/view/iu-lee-ji-eun-kpop-pretty-cute-gif-17417717",
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
-            "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417"]
+            "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417",
+            "https://tenor.com/view/iu-wink-cute-celebrity-album-gif-20152965",
+            "https://tenor.com/view/iu-celebrity-dance-album-jieun-gif-20152802",
+            "https://tenor.com/view/iu-celebrity-red-dress-album-gif-20152803"]
 
         self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
