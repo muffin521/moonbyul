@@ -161,7 +161,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/ecstaticcreamycockroach",
             "https://tenor.com/view/izone-miyawaki-sakura-monster-gif-18569937",
             "https://gfycat.com/thunderoussilverflee",
-            "https://gfycat.com/misguidedhideousbagworm"]
+            "https://gfycat.com/misguidedhideousbagworm",
+            "https://gfycat.com/bowedsparseafricanrockpython",
+            "https://gfycat.com/ignoranttameafricanparadiseflycatcher"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -394,7 +396,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/coordinatedgentlecockroach",
             "https://gfycat.com/slightdizzyiriomotecat",
             "https://gfycat.com/blackandwhiteorganicacaciarat",
-            "https://gfycat.com/importantyellowishbuzzard"]
+            "https://gfycat.com/importantyellowishbuzzard",
+            "https://tenor.com/view/jo-yuri-izone-pout-cute-gif-16605411",
+            "https://tenor.com/view/yuri-jo-yuri-izone-kpop-produce48-gif-19471727"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
