@@ -121,7 +121,9 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/794ade2e926911cf721376398ba378f4/de3281721b6bcf8d-17/s540x810/30afbd1cec7fb205e2a1c9b36e2b0b5e04b5c0dd.gif",
             "https://64.media.tumblr.com/8176d5a852babc83dbb6ecd8b1f1aedf/49f6f0edee769e57-57/s400x600/3896b7d10f97239ee5c6158ab549a5af7c9c1fe1.gif",
             "https://64.media.tumblr.com/ef592a18c0ab092967a5eaa1f550fc5d/dfae9c3e33c7ad9e-b1/s540x810/d496b5c1fa7ae75fe4b3f20d1c7858a13b473b0d.gif",
-            "https://64.media.tumblr.com/d00ec5c1177e1a0141017c38f3366b9a/tumblr_pzbhr2rE2y1w9jyl4o7_250.gif"]
+            "https://64.media.tumblr.com/d00ec5c1177e1a0141017c38f3366b9a/tumblr_pzbhr2rE2y1w9jyl4o7_250.gif",
+            "https://media.discordapp.net/attachments/485095951480913935/807851713281261628/tumblr_osmry567Q31r7fqv1o1_400.gif",
+            "https://media.discordapp.net/attachments/485095951480913935/807851845183471657/TangibleMinorBeagle.gif"]
 
         self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
@@ -143,7 +145,9 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/2523095b8f838f6d3fd6888c5f36adba/c34f869190434afd-c2/s540x810/1bc72c4de4a73abbd1f452cd7fd2dfdb931ec2a7.gif",
             "https://64.media.tumblr.com/63879d943ce9230d01af9ca99bcf07e9/7cfbd9e998c34a96-a4/s540x810/81fccfc1b6154728f664a1dc3899ae61c1da3610.gif",
             "https://64.media.tumblr.com/181710688420074ea04186dc8d001304/3c549c71ab8d6d05-3b/s500x750/bddac402025f0eb3a259ff070d81b0eca02b92c0.gif",
-            "https://64.media.tumblr.com/91bde97a8ee5d8887890c06e0ab5ceff/3c549c71ab8d6d05-10/s500x750/eb9d4d69ab499e4f1b341171e572080ebbb1ec50.gif"]
+            "https://64.media.tumblr.com/91bde97a8ee5d8887890c06e0ab5ceff/3c549c71ab8d6d05-10/s500x750/eb9d4d69ab499e4f1b341171e572080ebbb1ec50.gif",
+            "https://tenor.com/view/loona-haseul-yes-nod-gif-15405788",
+            "https://media.discordapp.net/attachments/485095951480913935/807852096622821426/tumblr_osa2azj2QB1wt6m3ho3_400.gif"]
 
         self.bot.vivi_gif = ["https://tenor.com/view/vivi-loona-gif-19076955",
             "https://tenor.com/view/vivi-loona-gif-19186243",
@@ -256,7 +260,8 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/menacingdistantdobermanpinscher",
             "https://gfycat.com/leadingnewkakarikis",
             "https://gfycat.com/bigimpeccablekangaroo-loona-kimlip-kevin",
-            "https://gfycat.com/costlyfreecurlew-loona-kim-lip-kim-jungeun-girl-group"]
+            "https://gfycat.com/costlyfreecurlew-loona-kim-lip-kim-jungeun-girl-group",
+            "https://media.discordapp.net/attachments/485095951480913935/807852152960843826/5e3ee2302026d45ceee5010a03ff2b73fa5f2b09_hq.gif"]
 
         self.bot.jinsoul_gif = ["https://tenor.com/view/jinsoul-loona-whynot-gif-18990936",
             "https://tenor.com/view/loona-whynot-jinsoul-gif-19093071",
