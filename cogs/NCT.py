@@ -56,7 +56,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
             "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194",
             "https://tenor.com/view/nct-nct127-mark-lee-kpop-choc-chipg-gukies-gif-14393243",
-            "https://tenor.com/view/mark-lee-nct-nct127-kpop-gif-19380061"]
+            "https://tenor.com/view/mark-lee-nct-nct127-kpop-gif-19380061",
+            "https://tenor.com/view/mark-lee-aestethic-mark-lee-boyfriend-mark-bad-boy-mark-superm-mark-gif-18373893"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
