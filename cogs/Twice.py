@@ -350,7 +350,12 @@ class gamerPings(commands.Cog):
             "https://tenor.com/bnZ6r.gif",
             "https://tenor.com/bbKLS.gif",
             "https://tenor.com/brGhA.gif",
-            "https://tenor.com/brT8L.gif"]
+            "https://tenor.com/brT8L.gif",
+            "https://64.media.tumblr.com/71ea9f883af7f5530f0c3ce42eee7f80/1f1e1c9a4b4f1675-d8/s540x810/5a880140c2e53231024f2bcd01eaf180c6b2f559.gif",
+            "https://64.media.tumblr.com/da427f77245c37e76492d2cc5054ed12/928dd6e3d0ee7a5a-21/s540x810/93c5c85e6d1a28fb1b274d086511e1f84a747cba.gif",
+            "https://64.media.tumblr.com/66425dd090f23083e302e76b3488b900/tumblr_p3uer2brUE1ulv0o3o1_540.gif",
+            "https://64.media.tumblr.com/1ef738843e027cb61d6eb0ded2c800bd/tumblr_pgyl83gdQB1xc5498o1_540.gif",
+            ""]
 
         self.bot.chaeyoung_gif = ["https://tenor.com/view/chaeyoung-twice-kpop-jyp-jypnation-gif-14436666",
             "https://media.giphy.com/media/xUySTt5f5AmRUBgdUI/giphy.gif",
