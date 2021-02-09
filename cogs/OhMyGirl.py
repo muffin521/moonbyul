@@ -168,7 +168,8 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/farinsignificantguanaco",
             "https://gfycat.com/allsimilardodobird",
             "https://gfycat.com/bountifulickyleveret",
-            "https://gfycat.com/physicalpassionatedarwinsfox"]
+            "https://gfycat.com/physicalpassionatedarwinsfox",
+            "https://gfycat.com/jealousmildbobolink"]
 
         self.bot.ohmygirl_yooa_gif = ["https://gfycat.com/querulousangelicarctichare-yooa",
             "https://media.discordapp.net/attachments/643623059541983242/770648857595084832/2ac60c3d-e2fd-4649-beca-88c8cc046231.gif",
