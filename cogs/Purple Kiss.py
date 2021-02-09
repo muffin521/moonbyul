@@ -158,7 +158,7 @@ class PurpleKiss(commands.Cog):
             "https://cdn.discordapp.com/attachments/547946619845345280/806571926235250728/image0.gif",
             "https://cdn.discordapp.com/attachments/547946619845345280/806572758691217448/image0.gif"]
 
-        self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E"]
+        self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E"] #.yuki
 
     @commands.command()
     async def purple(self, ctx, kiss, *, arg):
