@@ -121,7 +121,10 @@ class gamerPings(commands.Cog):
 
         self.tuna_wrong = ["Tina",
             "Yuna",
-            "Putuna"]
+            "Putuna",
+            "Tanu",
+            "Natu",
+            "Utah"]
 
     @commands.command()
     async def dreammc(self, ctx):
