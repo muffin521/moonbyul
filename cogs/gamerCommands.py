@@ -17,6 +17,7 @@ kbotcom = 764610881513324574
 muffin = 488423352206229505
 gareth = 389897179701182465
 mae = 492769416610840586
+aster = 495714786823241728
 
 class gamerPings(commands.Cog):
 
@@ -118,6 +119,10 @@ class gamerPings(commands.Cog):
             "https://www.youtube.com/watch?v=2EKKMof_Ywg",
             "https://www.youtube.com/watch?time_continue=5&v=-a57_IOKpjM&feature=emb_logo"]
 
+        self.tuna_wrong = ["Tina",
+            "Yuna",
+            "Putuna"]
+
     @commands.command()
     async def dreammc(self, ctx):
         if ctx.guild.id == jst:
@@ -200,12 +205,28 @@ class gamerPings(commands.Cog):
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()
+    async def aster(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Aster] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<@{ctx.author.id}> :heart: you <@{aster}>!')
+
+    @commands.command()
     async def god(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [G O D] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> says stop being sus <@573974040679809044>')
+
+    @commands.command()
+    async def tuna(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Tuna] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'*{random.choice(self.tuna_wrong)}')
 
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
