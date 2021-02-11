@@ -74,7 +74,8 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/3ea00548c2d0795f6bd63be0eb2564e3/tumblr_pywh2sPd461ub8hyjo2_540.gif",
             "https://64.media.tumblr.com/a8ebb79400d00a9a9ae276842073ce46/tumblr_p4o59iYLZU1u6jyp2o1_400.gif",
             "https://64.media.tumblr.com/119824cdb628c2911c9283992d646487/tumblr_piwi4yHQfO1qdr4a5o1_540.gif",
-            "https://64.media.tumblr.com/9343c97eea0fef4508d023ad220fd44e/4ed33310b98cb311-d4/s540x810/80b02b5097eb981d1e768732fb0adf7ec1ee641f.gif"]
+            "https://64.media.tumblr.com/9343c97eea0fef4508d023ad220fd44e/4ed33310b98cb311-d4/s540x810/80b02b5097eb981d1e768732fb0adf7ec1ee641f.gif",
+            "https://64.media.tumblr.com/703c94e812702bde06f62159ef4d5eef/d77253673668266b-4c/s540x810/57eee31c59bec0c3235558e9719e0612ba53179e.gif"]
 
         self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
@@ -166,7 +167,8 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/7f30de541ce5bf5d4b0c044a28cbcb18/tumblr_inline_p2fd4fxUAm1uip2hn_540.gif",
             "https://data.whicdn.com/images/324424436/original.gif",
             "https://64.media.tumblr.com/209f8ef42a1717166ec7f48d12bf6755/tumblr_pb3r4hwsQ91wvv0teo1_r1_250.gif",
-            "https://64.media.tumblr.com/08b1116fb1ddbd54916d544c3aa4d59f/tumblr_pb3r4hwsQ91wvv0teo3_250.gif"]
+            "https://64.media.tumblr.com/08b1116fb1ddbd54916d544c3aa4d59f/tumblr_pb3r4hwsQ91wvv0teo3_250.gif",
+            "https://64.media.tumblr.com/e125cc127a3618a6c180407daa931f1c/d77253673668266b-de/s540x810/37caca2f52ef242bd6de22086eb78f09b319e067.gif"]
 
         self.bot.jungkook_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781375454966972426/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781375486843551775/image0.gif",
@@ -346,7 +348,8 @@ class BTSPings(commands.Cog):
             "https://pa1.narvii.com/6910/0fe9e5d70a850430b1d852542fca402bb9640d1br1-268-314_00.gif",
             "https://64.media.tumblr.com/419664371b148b3bf3040c92f3d4e4be/c0286da27aa4d434-fc/s400x600/dc1cb4b799eb90ad861caa240eb84408243eccb4.gif",
             "https://64.media.tumblr.com/68ab4a9426bd60f1fa10777b67e2f4c4/e91380e4a422746a-84/s400x600/d18c9f0f2149cff63822e0afc71113ccc1824cb1.gif",
-            "https://64.media.tumblr.com/7d84b3fbc7a713c498e37837c218ee0f/tumblr_p6bucvHqh11x9rx33o2_400.gif"]
+            "https://64.media.tumblr.com/7d84b3fbc7a713c498e37837c218ee0f/tumblr_p6bucvHqh11x9rx33o2_400.gif",
+            "https://64.media.tumblr.com/e2b8440e478b76cc0889d5efc148c08a/e169277546dc89ae-00/s400x600/5f65e8d80215c6fc9c915e641ee54670bf4347b3.gif"]
 
         self.bot.btsjin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781378238282727464/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781378239204556810/image1.gif",
@@ -392,7 +395,8 @@ class BTSPings(commands.Cog):
             "https://data.whicdn.com/images/343749447/original.gif",
             "https://64.media.tumblr.com/4ae60ea261f5b9db769daece1e3d603c/tumblr_pb2b0394J61qdyg4co3_400.gif",
             "https://64.media.tumblr.com/a311d52fc946377b445aa22ab9d55f2e/tumblr_pb2b0394J61qdyg4co2_400.gif",
-            "https://64.media.tumblr.com/b00e896cfa573eaba26ce2f007181e38/tumblr_pb2b0394J61qdyg4co4_400.gif"]
+            "https://64.media.tumblr.com/b00e896cfa573eaba26ce2f007181e38/tumblr_pb2b0394J61qdyg4co4_400.gif",
+            "https://64.media.tumblr.com/b001340b9fa195431b8a483b19a684e6/d77253673668266b-7e/s540x810/3552ede98a42f0a6961636bed20a6d9377961cea.gif"]
 
         self.bot.jimin_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781377634956345383/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781377635636609044/image1.gif",
@@ -447,7 +451,8 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/e7c372fc42ecca8d3c64c39e619ec128/098bb4e2dd047846-ce/s540x810/bb30ebecd4b6310da47d37a1e74a1e0867b8c0e1.gif",
             "https://64.media.tumblr.com/1bf7a6a17b0ea94977e211dee9b880e4/tumblr_pa98cqm1U01wpcmcoo1_400.gif",
             "https://64.media.tumblr.com/4b2de9c20d2c9ed3f85711ad4c1214c0/tumblr_p1ubx5J8X51qj2459o7_250.gif",
-            "https://64.media.tumblr.com/85a51cc1f5162789a615ac1201cc7e3f/tumblr_pow6sqhI4J1x62phvo3_400.gif"]
+            "https://64.media.tumblr.com/85a51cc1f5162789a615ac1201cc7e3f/tumblr_pow6sqhI4J1x62phvo3_400.gif",
+            "https://64.media.tumblr.com/aa294ac0db60134b8705b930be66573e/d77253673668266b-ed/s540x810/a1e20cddf8e0cf64768efb3eec9ed6f9d0d26b7a.gif"]
 
         self.bot.rm_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374090497753098/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374226607112252/image0.gif",
@@ -495,7 +500,8 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/19832d81bd3a80223bc37ca78903aa64/tumblr_pjvl1tchua1rzcklqo1_540.gif",
             "https://64.media.tumblr.com/704def8f35eed5ccbde52f3e249ac6e2/55ea1480f09bb0f8-e8/s540x810/07e99daa97486ea04d5f02908602a33d541f9e01.gif",
             "https://64.media.tumblr.com/3b19ffd00bf00a61b347ea277dcd76da/tumblr_pggcu1uOGi1w15kmho1_540.gif",
-            "https://64.media.tumblr.com/898c3c0328c2f8faf72109fa1e5b51bb/858016a7ea9c9127-40/s540x810/7d17f4865c06f259de971b98e4c39157a96465f8.gif"]
+            "https://64.media.tumblr.com/898c3c0328c2f8faf72109fa1e5b51bb/858016a7ea9c9127-40/s540x810/7d17f4865c06f259de971b98e4c39157a96465f8.gif",
+            "https://64.media.tumblr.com/6188d9337b00299b5ec14d745cdb7e5b/d77253673668266b-e2/s540x810/d6385c120f57b3e9ad16521e08a3c87179261978.gif"]
 
     @commands.command()
     async def bts(self, ctx, *, arg):
