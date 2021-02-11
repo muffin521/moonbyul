@@ -418,10 +418,10 @@ class GGS(commands.Cog):
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Eunji :heart:') 
-                    await ctx.send(random.choice(self.bot.apink_eunji_gif))
-                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Eunji :heart:') 
+                await ctx.send(random.choice(self.bot.apink_eunji_gif))
+                await ctx.message.delete()
     
 
     @commands.command()
