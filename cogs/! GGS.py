@@ -181,14 +181,22 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
     #. weki meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
-            "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif"
-            "https://tenor.com/view/produce101-runway-walk-ioi-lol-laughing-gif-8389688",
+            "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
             "https://tenor.com/view/doyeon-wekimeki-gif-18867880",
             "https://tenor.com/view/cover-eyes-kim-doyeon-doyeon-weki-meki-kpop-gif-17688928",
             "https://tenor.com/view/doyeon-cry-produce101-hurt-kpop-gif-10276415",
             "https://tenor.com/view/kim-doyeon-hair-flip-ioi-flirt-smile-gif-9869521",
             "https://tenor.com/view/kpop-dazzle-weki-meki-kim-doyeon-music-video-gif-16419083",
-            "https://tenor.com/view/kim-doyeon-gif-19253844"]
+            "https://tenor.com/view/kim-doyeon-gif-19253844",
+            "https://tenor.com/view/doyeon-kim-doyeon-weki-meki-weki-meki-doyeon-doyeon-weki-meki-gif-20108425",
+            "https://tenor.com/view/doyeon-gif-9952856",
+            "https://tenor.com/view/%EA%B9%80%EB%8F%84%EC%97%B0-gif-18181702",
+            "https://tenor.com/view/doyeon-wekimeki-cool-gif-18963359",
+            "https://tenor.com/view/wekimeki-doyeon-gif-18847477",
+            "https://tenor.com/view/wekimeki-doyeon-gif-18847492",
+            "https://tenor.com/view/wekimeki-doyeon-gif-18908062",
+            "https://tenor.com/view/doyeon-wekimeki-cool-gif-18963344",
+            "https://tenor.com/view/doyeon-wekimeki-gif-10344450"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
