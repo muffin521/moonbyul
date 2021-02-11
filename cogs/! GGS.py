@@ -196,7 +196,12 @@ class GGS(commands.Cog):
             "https://tenor.com/view/wekimeki-doyeon-gif-18847492",
             "https://tenor.com/view/wekimeki-doyeon-gif-18908062",
             "https://tenor.com/view/doyeon-wekimeki-cool-gif-18963344",
-            "https://tenor.com/view/doyeon-wekimeki-gif-10344450"]
+            "https://tenor.com/view/doyeon-wekimeki-gif-10344450",
+            "https://tenor.com/view/doyeon-wekimeki-gif-10344452",
+            "https://tenor.com/view/doyeon-kim-wekimeki-gif-20189589",
+            "https://tenor.com/view/doyeon-wekimeki-gif-18867880",
+            "https://tenor.com/view/wekimeki-doyeon-tongue-gif-19035974",
+            "https://tenor.com/view/doyeon-kim-wekimeki-gif-20189587"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
