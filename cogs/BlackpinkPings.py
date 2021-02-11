@@ -46,7 +46,11 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/ros%C3%A9-kpop-blackpink-confused-gif-16895336",
             "https://tenor.com/view/blackpink-rose-heart-love-park-chae-young-gif-11783851",
             "https://tenor.com/view/blackpink-blink-rose-boombayah-gif-11950271",
-            "https://tenor.com/view/blackpink-rose-gif-18530274"]
+            "https://tenor.com/view/blackpink-rose-gif-18530274",
+            "https://cdn.discordapp.com/attachments/808766013302243367/808940098132901898/rose_3.gif",
+            "https://giphy.com/gifs/yNIvmlL6qTbDhI1DuD",
+            "https://giphy.com/gifs/ETBRLQUSgil31Otb8F",
+            "https://giphy.com/gifs/DwJl8UijyUSra8RIh7"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
@@ -77,7 +81,19 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jisoo-gif-18486243",
             "https://tenor.com/view/blackpink-kim-jisoo-why-what-the-gif-12589646",
             "https://tenor.com/view/jisoo-sexy-blackpink-kpop-gif-15419500",
-            "https://tenor.com/view/jisoo-weekly-idol-blackpink-lisa-rose-gif-8481189"]
+            "https://tenor.com/view/jisoo-weekly-idol-blackpink-lisa-rose-gif-8481189",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939170789195786/jisoobeauty_1.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939243857510420/jisoobeauty_2.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939316599980042/jisoobeauty_3.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939410145542204/jisoobeauty_4.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939494514229258/jisoobeauty_5.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939566462402600/jisoobeauty_6.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939631412117554/jisoobeauty_7.gif",
+            "https://cdn.discordapp.com/attachments/808765830019153941/808939694590787614/jisoobeauty_8.gif",
+            "https://giphy.com/gifs/rt9b5kdGLMEX3GR0ID",
+            "https://giphy.com/gifs/zGQVoFhhICEJCRcTtX",
+            "https://giphy.com/gifs/Cn7ZDD95iX0X5SThnC",
+            "https://giphy.com/gifs/zXYb1Z8Zzv4BpHe1J4"]
 
     @commands.command()
     async def blackpink(self, ctx, arg):
