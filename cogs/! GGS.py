@@ -31,7 +31,12 @@ class GGS(commands.Cog):
             "https://tenor.com/view/nevermind-thegodbomi-chorong-apink-laughs-gif-20131482"]
         
         self.bot.apink_eunji_gif = ["https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042",
-            "https://tenor.com/view/apink-eunji-gif-18881050"]
+            "https://tenor.com/view/apink-eunji-gif-18881050",
+            "https://cdn.discordapp.com/attachments/800205891365371915/808932802892005396/eunji_1.gif",
+            "https://cdn.discordapp.com/attachments/800205891365371915/808932957683318804/eunji_2.gif",
+            "https://giphy.com/gifs/0vFsUFprMMN3SodOCn",
+            "https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042",
+            "https://tenor.com/view/apink-eunji-gif-18881046"]
 
         self.bot.apink_hayoung_gif = ["https://tenor.com/view/hayoung-shrug-idgaf-not-my-problem-not-my-business-gif-10589324",
             "https://tenor.com/view/hayoung-apink-hayoung-apink-gif-18814544"]
@@ -403,6 +408,20 @@ class GGS(commands.Cog):
                     await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
                     await ctx.message.delete()
 
+    @commands.command()
+    async def apink(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Apink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        if arg == "eunji":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Eunji :heart:') 
+                    await ctx.send(random.choice(self.bot.apink_eunji_gif))
+                    await ctx.message.delete()
     
 
     @commands.command()
