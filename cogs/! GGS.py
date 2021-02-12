@@ -524,7 +524,6 @@ class GGS(commands.Cog):
                     await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
                     await ctx.message.delete()
 
-    
     @commands.command()
     async def wjsn(self, ctx, *, arg):
         now = datetime.now()

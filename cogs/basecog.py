@@ -742,6 +742,46 @@ class gifcog(commands.Cog):
             elif arg == "weki meki yoojung":
                 for x in self.bot.wekimeki_yoojung_gif:
                     await ctx.send(x)
+        #.WJSN
+            elif arg == "wjsn bona":
+                for x in self.bot.wjsn_bona_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn cheng xiao":
+                for x in self.bot.wjsn_cheng_xiao_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn dawon":
+                for x in self.bot.wjsn_dawon_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn dayoung":
+                for x in self.bot.wjsn_dayoung_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn eunseo":
+                for x in self.bot.wjsn_eunseo_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn exy":
+                for x in self.bot.wjsn_exy_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn luda":
+                for x in self.bot.wjsn_luda_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn seola":
+                for x in self.bot.wjsn_seola_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn soobin":
+                for x in self.bot.wjsn_soobin_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn yeonjung":
+                for x in self.bot.wjsn_yeonjung_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn yeoreum":
+                for x in self.bot.wjsn_yeoreum_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn mei qi":
+                for x in self.bot.wjsn_mei_qi_gif:
+                    await ctx.send(x)
+            elif arg == "wjsn xuan yi":
+                for x in self.bot.wjsn_xuan_yi_gif:
+                    await ctx.send(x)
         #.Misc
             elif arg == "ses":
                 for x in self.bot.ses_mv:
