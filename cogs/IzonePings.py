@@ -458,7 +458,18 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/terrificunawareblackrussianterrier",
             "https://gfycat.com/bitterwideeyedcougar",
             "https://gfycat.com/wiltedacclaimedkawala",
-            "https://gfycat.com/barecolossalalligatorgar"]
+            "https://gfycat.com/barecolossalalligatorgar",
+            "https://gfycat.com/liquideagerblueandgoldmackaw",
+            "https://gfycat.com/illfatedwindinghalicore",
+            "https://gfycat.com/parallelblushingiberianemeraldlizard",
+            "https://gfycat.com/ornerysmallbinturong",
+            "https://gfycat.com/classicblushingafricangoldencat",
+            "https://gfycat.com/sadarcticdegus",
+            "https://gfycat.com/serpentineidolizeddunlin",
+            "https://gfycat.com/slipperysomberarcticseal",
+            "https://gfycat.com/decisivegoldengreyhounddog",
+            "https://gfycat.com/insignificantjoyfulkouprey",
+            "https://gfycat.com/whimsicalfrigidcockerspaniel"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -724,7 +735,15 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/jampackedpeskydalmatian",
             "https://gfycat.com/hardscholarlyanophelesmosquito",
             "https://gfycat.com/agreeableeducateddassie",
-            "https://gfycat.com/criminalbasicbrant"]
+            "https://gfycat.com/criminalbasicbrant",
+            "https://gfycat.com/neatcreepyfieldmouse",
+            "https://gfycat.com/naturalevenabalone",
+            "https://gfycat.com/vaguepleasingantbear",
+            "https://gfycat.com/classicwananglerfish",
+            "https://gfycat.com/frightenedgivinggermanspaniel",
+            "https://gfycat.com/gravenervousdikkops",
+            "https://gfycat.com/jealouswelldocumentedimpala",
+            "https://gfycat.com/secretcoldgeese"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -889,7 +908,17 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/keylividbream",
             "https://gfycat.com/farflungfrightenedbunting",
             "https://gfycat.com/jealouslastblackfly",
-            "https://gfycat.com/rigidsilentblacklemur"]
+            "https://gfycat.com/rigidsilentblacklemur",
+            "https://gfycat.com/lastgleamingfrog",
+            "https://gfycat.com/practicalcapitalarcherfish",
+            "https://gfycat.com/affectionatekeyiberianmidwifetoad",
+            "https://gfycat.com/spectacularmadeupboto",
+            "https://gfycat.com/valuablehilariousjaguarundi",
+            "https://gfycat.com/blackandwhitenaughtyelephant",
+            "https://gfycat.com/compassionatefantastichalibut",
+            "https://gfycat.com/flamboyantsadbagworm",
+            "https://gfycat.com/loathsomemeagerarizonaalligatorlizard",
+            "https://gfycat.com/miserableappropriategoral"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
