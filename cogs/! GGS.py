@@ -179,94 +179,6 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800504277146796103/77ac81500e0bf2af4bfcd472adb00763.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504188906897418/AliveTotalIbadanmalimbe-size_restricted.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
-    #. wjsn
-        self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
-            "https://tenor.com/view/wjsn-bona-gif-9369544",
-            "https://tenor.com/view/wjsn-bona-gif-9369542",
-            "https://tenor.com/view/wjsn-bona-gif-9369548",
-            "https://tenor.com/view/bona-wjsn-cute-heart-gif-14540847",
-            "https://tenor.com/view/wjsn-bona-gif-9368967",
-            "https://tenor.com/view/wjsn-bona-gif-9369345",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148"]
-
-        self.bot.wjsn_cheng_xiao_gif = ["https://tenor.com/view/surprised-shocked-cheng-xiao-gif-12031984",
-            "https://tenor.com/view/cheng-xiao-heart-heart-shape-love-shape-gif-12031978",
-            "https://tenor.com/view/cheng-xiao-not-bad-good-gif-12031989",
-            "https://tenor.com/view/cheng-xiao-wjsn-gif-5896151",
-            "https://tenor.com/view/chengxiao-cheng-xiao-wjsn-cosmic-gif-5176863",
-            "https://tenor.com/view/cheng-xiao-wjsn-gif-19293644",
-            "https://tenor.com/view/cheng-xiao-wjsn-gif-5896142",
-            "https://tenor.com/view/cheng-xiao-wjsn-jump-flip-gif-5896127",
-            "https://tenor.com/view/cheng-xiao-wjsn-wink-gif-5896145",
-            "https://tenor.com/view/chengxiao-cheng-xiao-wjsn-cosmicgirls-gif-10710829"]
-
-        self.bot.wjsn_dawon_gif = ["https://tenor.com/view/dawon-you-wjsn-pointing-akorp-gif-10023897",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585918",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-heart-gif-18585940",
-            "https://tenor.com/view/dawon-wjsn-cosmic-girls-cosmic-girls-gif-9760986",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910"]
-
-        self.bot.wjsn_dayoung_gif = ["https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794012",
-            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794019",
-            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794050",
-            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14799931",
-            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794023",
-            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794085"]
-
-        self.bot.wjsn_eunseo_gif = ["https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627810",
-            "https://tenor.com/view/wjsn-cosmic-girls-kpop-eunseo-bunny-gif-18627757",
-            "https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627819",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eunseo-kiss-gif-18628222",
-            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382"]
-
-        self.bot.wjsn_exy_gif = ["https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-kiss-gif-17356005",
-            "https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-good-job-gif-17356001",
-            "https://tenor.com/view/yukziu-wjsn-exy-gif-19126649",
-            "https://tenor.com/view/wjsn-cosmic-girls-exy-cute-gif-15481223",
-            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801"]
-
-        self.bot.wjsn_luda_gif = ["https://tenor.com/view/luda-wjsn-gif-18881057",
-            "https://tenor.com/view/luda-wjsn-cosmic-girls-cosmic-girls-gif-9534362",
-            "https://tenor.com/view/luda-wink-wjsn-kpop-gif-14322078",
-            "https://tenor.com/view/luda-witch-spell-cute-wjsn-gif-19920488",
-            "https://tenor.com/view/luda-wjsn-gif-18881052"]
-
-        self.bot.wjsn_seola_gif = ["https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837800",
-            "https://tenor.com/view/kpop-wjsn-seola-heart-love-gif-18585890",
-            "https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837797",
-            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940",
-            "https://64.media.tumblr.com/4cda8525b629a1550d48795c954e3059/tumblr_p63onrWhcA1x3uv0jo2_400.gifv"]
-
-        self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
-            "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
-            "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586011",
-            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-kiss-gif-18586034",
-            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040"]
-
-        self.bot.wjsn_yeonjung_gif = ["https://tenor.com/view/yeonjung-cosmic-girls-wjsn-ioi-produce-gif-9932084",
-            "https://tenor.com/view/kcon2019japan-kcon-%EC%BC%80%EC%9D%B4%EC%BD%98-singing-high-note-gif-14562921",
-            "https://tenor.com/view/%EC%9A%B0%EC%A3%BC%EC%86%8C%EB%85%80-%EC%9C%A0%EC%97%B0%EC%A0%95-%EC%97%B0%EC%A0%95-stare-serious-gif-15594348",
-            "https://gfycat.com/shamefulthoughtfulappaloosa-wjsn-yeonjung-beauty",
-            "https://thumbs.gfycat.com/FarawayWeakKatydid-mobile.mp4",
-            "https://64.media.tumblr.com/e661656f4c0a69df2a743de2746b4582/71a9721563887da6-59/s400x600/ea04cfe446f86cea085c362cd095f490e7d6f94e.gif"]
-
-        self.bot.wjsn_yeoreum_gif = ["https://tenor.com/view/yeoreum-wjsn-gif-18828859",
-            "https://tenor.com/view/yeoreum-wjsn-gif-19302984",
-            "https://tenor.com/view/wjsn-la-la-love-yeoreum-lee-yeoreum-dancing-gif-17952511",
-            "https://tenor.com/view/%EC%97%AC%EB%A6%84-%EC%9D%B4%EC%97%AC%EB%A6%84-yorm-wjsn-yeoreum-gif-19970067",
-            "https://tenor.com/view/wjsn-yeoreum-gif-18829843"]
-
-        self.bot.wjsn_mei_qi_gif = ["https://tenor.com/view/meng-mei-qi-cell-phone-cry-call-hold-back-tears-gif-11918655",
-            "https://tenor.com/view/meiqi-laughing-wjsn-lmao-lol-gif-10022964",
-            "https://tenor.com/view/meng-meiqi-%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101-rocket-girls-gif-19971810",
-            "https://tenor.com/view/meng-meiqi-%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101-hjsn-gif-19971908",
-            "https://tenor.com/view/meng-mei-qi-come-on-lets-party-wink-gif-11918640"]
-
-        self.bot.wjsn_xuan_yi_gif = ["https://tenor.com/view/kpop-wjsn-cosmic-girls-xuan-yi-gif-19038371",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-xuan-yi-kiss-gif-19038397",
-            "https://tenor.com/view/xuanyi-wjsn-cosmic-girls-gif-10949761",
-            "https://tenor.com/view/xuanyi-cosmic-girls-wjsn-gif-10304350",
-            "https://tenor.com/view/xuan-yi-wjsn-k-pop-cosmic-girls-gif-11474789"]
     #. weki meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -358,6 +270,94 @@ class GGS(commands.Cog):
             "https://tenor.com/view/weki-meki-yoojung-choi-yoo-jung-gif-18765076",
             "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf",
             "https://tenor.com/view/choiyoojung-wekimeki-gif-13666421"]
+    #. wjsn
+        self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
+            "https://tenor.com/view/wjsn-bona-gif-9369544",
+            "https://tenor.com/view/wjsn-bona-gif-9369542",
+            "https://tenor.com/view/wjsn-bona-gif-9369548",
+            "https://tenor.com/view/bona-wjsn-cute-heart-gif-14540847",
+            "https://tenor.com/view/wjsn-bona-gif-9368967",
+            "https://tenor.com/view/wjsn-bona-gif-9369345",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148"]
+
+        self.bot.wjsn_cheng_xiao_gif = ["https://tenor.com/view/surprised-shocked-cheng-xiao-gif-12031984",
+            "https://tenor.com/view/cheng-xiao-heart-heart-shape-love-shape-gif-12031978",
+            "https://tenor.com/view/cheng-xiao-not-bad-good-gif-12031989",
+            "https://tenor.com/view/cheng-xiao-wjsn-gif-5896151",
+            "https://tenor.com/view/chengxiao-cheng-xiao-wjsn-cosmic-gif-5176863",
+            "https://tenor.com/view/cheng-xiao-wjsn-gif-19293644",
+            "https://tenor.com/view/cheng-xiao-wjsn-gif-5896142",
+            "https://tenor.com/view/cheng-xiao-wjsn-jump-flip-gif-5896127",
+            "https://tenor.com/view/cheng-xiao-wjsn-wink-gif-5896145",
+            "https://tenor.com/view/chengxiao-cheng-xiao-wjsn-cosmicgirls-gif-10710829"]
+
+        self.bot.wjsn_dawon_gif = ["https://tenor.com/view/dawon-you-wjsn-pointing-akorp-gif-10023897",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585918",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-heart-gif-18585940",
+            "https://tenor.com/view/dawon-wjsn-cosmic-girls-cosmic-girls-gif-9760986",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910"]
+
+        self.bot.wjsn_dayoung_gif = ["https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794012",
+            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794019",
+            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794050",
+            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14799931",
+            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794023",
+            "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794085"]
+
+        self.bot.wjsn_eunseo_gif = ["https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627810",
+            "https://tenor.com/view/wjsn-cosmic-girls-kpop-eunseo-bunny-gif-18627757",
+            "https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627819",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eunseo-kiss-gif-18628222",
+            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382"]
+
+        self.bot.wjsn_exy_gif = ["https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-kiss-gif-17356005",
+            "https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-good-job-gif-17356001",
+            "https://tenor.com/view/yukziu-wjsn-exy-gif-19126649",
+            "https://tenor.com/view/wjsn-cosmic-girls-exy-cute-gif-15481223",
+            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801"]
+
+        self.bot.wjsn_luda_gif = ["https://tenor.com/view/luda-wjsn-gif-18881057",
+            "https://tenor.com/view/luda-wjsn-cosmic-girls-cosmic-girls-gif-9534362",
+            "https://tenor.com/view/luda-wink-wjsn-kpop-gif-14322078",
+            "https://tenor.com/view/luda-witch-spell-cute-wjsn-gif-19920488",
+            "https://tenor.com/view/luda-wjsn-gif-18881052"]
+
+        self.bot.wjsn_seola_gif = ["https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837800",
+            "https://tenor.com/view/kpop-wjsn-seola-heart-love-gif-18585890",
+            "https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837797",
+            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940",
+            "https://64.media.tumblr.com/4cda8525b629a1550d48795c954e3059/tumblr_p63onrWhcA1x3uv0jo2_400.gifv"]
+
+        self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
+            "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
+            "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586011",
+            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-kiss-gif-18586034",
+            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040"]
+
+        self.bot.wjsn_yeonjung_gif = ["https://tenor.com/view/yeonjung-cosmic-girls-wjsn-ioi-produce-gif-9932084",
+            "https://tenor.com/view/kcon2019japan-kcon-%EC%BC%80%EC%9D%B4%EC%BD%98-singing-high-note-gif-14562921",
+            "https://tenor.com/view/%EC%9A%B0%EC%A3%BC%EC%86%8C%EB%85%80-%EC%9C%A0%EC%97%B0%EC%A0%95-%EC%97%B0%EC%A0%95-stare-serious-gif-15594348",
+            "https://gfycat.com/shamefulthoughtfulappaloosa-wjsn-yeonjung-beauty",
+            "https://thumbs.gfycat.com/FarawayWeakKatydid-mobile.mp4",
+            "https://64.media.tumblr.com/e661656f4c0a69df2a743de2746b4582/71a9721563887da6-59/s400x600/ea04cfe446f86cea085c362cd095f490e7d6f94e.gif"]
+
+        self.bot.wjsn_yeoreum_gif = ["https://tenor.com/view/yeoreum-wjsn-gif-18828859",
+            "https://tenor.com/view/yeoreum-wjsn-gif-19302984",
+            "https://tenor.com/view/wjsn-la-la-love-yeoreum-lee-yeoreum-dancing-gif-17952511",
+            "https://tenor.com/view/%EC%97%AC%EB%A6%84-%EC%9D%B4%EC%97%AC%EB%A6%84-yorm-wjsn-yeoreum-gif-19970067",
+            "https://tenor.com/view/wjsn-yeoreum-gif-18829843"]
+
+        self.bot.wjsn_mei_qi_gif = ["https://tenor.com/view/meng-mei-qi-cell-phone-cry-call-hold-back-tears-gif-11918655",
+            "https://tenor.com/view/meiqi-laughing-wjsn-lmao-lol-gif-10022964",
+            "https://tenor.com/view/meng-meiqi-%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101-rocket-girls-gif-19971810",
+            "https://tenor.com/view/meng-meiqi-%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101-hjsn-gif-19971908",
+            "https://tenor.com/view/meng-mei-qi-come-on-lets-party-wink-gif-11918640"]
+
+        self.bot.wjsn_xuan_yi_gif = ["https://tenor.com/view/kpop-wjsn-cosmic-girls-xuan-yi-gif-19038371",
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-xuan-yi-kiss-gif-19038397",
+            "https://tenor.com/view/xuanyi-wjsn-cosmic-girls-gif-10949761",
+            "https://tenor.com/view/xuanyi-cosmic-girls-wjsn-gif-10304350",
+            "https://tenor.com/view/xuan-yi-wjsn-k-pop-cosmic-girls-gif-11474789"]
     #. soloists
         self.bot.hyuna_gif = ["https://tenor.com/view/hyuna-lipnhip-gif-10531483",
             "https://tenor.com/view/kpop-soloist-hyuna-wink-smile-gif-15591705",
@@ -452,6 +452,79 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.dreamcatcher_yoohyeon_gif))
                 await ctx.message.delete()
 
+    @commands.command()
+    async def weki(self, ctx, meki, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        if meki == "meki":
+            if arg == "doyeon":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Doyeon :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_doyeon_gif))
+                    await ctx.message.delete()
+            elif arg == "elly":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Elly :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_elly_gif))
+                    await ctx.message.delete()
+            elif arg == "lua":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Lua :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_lua_gif))
+                    await ctx.message.delete()
+            elif arg == "lucy":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Lucy :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_lucy_gif))
+                    await ctx.message.delete()
+            elif arg == "rina":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Rina :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_rina_gif))
+                    await ctx.message.delete()
+            elif arg == "sei":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Sei :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_sei_gif))
+                    await ctx.message.delete()
+            elif arg == "suyeon":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Suyeon :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_suyeon_gif))
+                    await ctx.message.delete()
+            elif arg == "yoojung":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
+                    await ctx.message.delete()
+
+    
     @commands.command()
     async def wjsn(self, ctx, *, arg):
         now = datetime.now()
@@ -563,79 +636,6 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.wjsn_xuan_yi_gif))
                 await ctx.message.delete()
 
-    @commands.command()
-    async def weki(self, ctx, meki, *, arg):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(self.bot.logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if meki == "meki":
-            if arg == "doyeon":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Doyeon :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_doyeon_gif))
-                    await ctx.message.delete()
-            elif arg == "elly":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Elly :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_elly_gif))
-                    await ctx.message.delete()
-            elif arg == "lua":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Lua :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_lua_gif))
-                    await ctx.message.delete()
-            elif arg == "lucy":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Lucy :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_lucy_gif))
-                    await ctx.message.delete()
-            elif arg == "rina":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Rina :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_rina_gif))
-                    await ctx.message.delete()
-            elif arg == "sei":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Sei :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_sei_gif))
-                    await ctx.message.delete()
-            elif arg == "suyeon":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Suyeon :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_suyeon_gif))
-                    await ctx.message.delete()
-            elif arg == "yoojung":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
-                    await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
-                    await ctx.message.delete()
-
-    
     
 
     @commands.command()
