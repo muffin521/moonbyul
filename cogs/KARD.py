@@ -31,7 +31,9 @@ class KARD(commands.Cog):
             "https://cdn.discordapp.com/attachments/382901350259884042/471623935620939776/Animated_GIF-downsized_large_6.gif",
             "https://cdn.discordapp.com/attachments/382901350259884042/471617958674956289/Animated_GIF-downsized_large_1.gif",
             "https://pa1.narvii.com/6352/b0957fad5e9691b2228462b99e3911eb511ffe39_hq.gif",
-            "https://cdn.discordapp.com/attachments/382901350259884042/382906404543135745/2017-11-21_11-57-29.gif"]
+            "https://cdn.discordapp.com/attachments/382901350259884042/382906404543135745/2017-11-21_11-57-29.gif",
+            "https://data.whicdn.com/images/286210833/original.gif",
+            "https://68.media.tumblr.com/30dcf30d1397be0dc3d896baf6c0e1b4/tumblr_onubrmJZSq1r3hdhfo1_r1_400.gif"]
 
         self.bot.kard_jiwoo_gif = ["https://tenor.com/view/jiwoo-k-pop-gif-11761625",
             "https://tenor.com/view/jiwoo-gif-18078369",
@@ -48,13 +50,20 @@ class KARD(commands.Cog):
             "https://tenor.com/view/kard-beauty-kpop-jiwoo-pretty-gif-16768165",
             "https://tenor.com/view/jiwoo-gif-18099256",
             "https://tenor.com/view/kard-jiwoo-gif-18204638",
-            "https://tenor.com/view/kard-gunshot-jiwoo-gif-18474032"]
+            "https://tenor.com/view/kard-gunshot-jiwoo-gif-18474032",
+            "https://64.media.tumblr.com/a3b21e32c6312b086a6b249ccadb99be/25f9d085401f6658-72/s640x960/4090d57e6183f46ec0072915bf07124219fdd21b.gif",
+            "https://data.whicdn.com/images/342687083/original.gif",
+            "https://media.tenor.com/images/197b05e90666effdb56c4318973d8af6/tenor.gif"]
 
         self.bot.kard_jseph_gif = ["https://tenor.com/view/kard-kpop-ccg-ccg1-jseph-gif-19146442",
             "https://tenor.com/view/jseph-smile-kard-k-pop-gif-9866990",
             "https://tenor.com/view/j-seph-south-korean-singer-cute-handsome-gif-17875196",
             "https://tenor.com/view/taehyung-kard-jseph-kpop-gif-8375366",
-            "https://cdn.discordapp.com/attachments/382901350259884042/383984172752175104/2017-11-25_15-15-02.gif"]
+            "https://cdn.discordapp.com/attachments/382901350259884042/383984172752175104/2017-11-25_15-15-02.gif",
+            "https://64.media.tumblr.com/0cc75ed7fefc7b0ad353dac1bb3665ea/tumblr_olfrzyOOHd1w2qd96o1_540.gif",
+            "https://i.pinimg.com/originals/97/d1/83/97d183e11a8771105ba96db3d1c895e0.gif",
+            "https://media1.tenor.com/images/dc6d150dc2dd72ee34df45c5f77616fc/tenor.gif?itemid=9866990",
+            "https://i.pinimg.com/originals/cf/06/89/cf06891df8426ccdb917f8fb3ffdc4ce.gif"]
 
         self.bot.kard_somin_gif = ["https://tenor.com/view/kard-somin-kpop-red-moon-music-video-gif-16319282",
             "https://cdn.discordapp.com/attachments/382901350259884042/471619517827645441/Animated_GIF-downsized_large_3.gif",
@@ -76,7 +85,8 @@ class KARD(commands.Cog):
             "https://tenor.com/view/kard-somin-bomb-bomb-somin-bomb-bomb-kard-somin-bomb-bomb-gif-19501016",
             "https://tenor.com/view/kard-somin-sexy-kpop-fierce-gif-17092002",
             "https://tenor.com/view/kard-somin-bomb-bomb-bomb-bomb-kard-somin-somin-bomb-bomb-kard-bomb-bomb-gif-19501026",
-            "https://cdn.discordapp.com/attachments/382901350259884042/382906404543135745/2017-11-21_11-57-29.gif"]
+            "https://cdn.discordapp.com/attachments/382901350259884042/382906404543135745/2017-11-21_11-57-29.gif",
+            "https://i.pinimg.com/originals/cf/06/89/cf06891df8426ccdb917f8fb3ffdc4ce.gif"]
 
     @commands.command(aliases = ["k.a.r.d"])
     async def kard(self, ctx, arg):
