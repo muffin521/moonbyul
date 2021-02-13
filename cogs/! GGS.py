@@ -158,7 +158,15 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585074450923530/800505747473301554/dreamcatcher-really-really-gif.gif",
             "https://cdn.discordapp.com/attachments/795585001663365130/800508225841659904/7e8de75c4c5329438fefe0c193b8043c.gif",
             "https://cdn.discordapp.com/attachments/795584572405317683/800512953438830602/tumblr_omnvp00YI21vc5dxto1_500.gif",
-            "https://cdn.discordapp.com/attachments/786714676506394654/800514172197666856/a809c032f560b7c8563bdf59d6dcac1d9eb3bb91.gif"]
+            "https://cdn.discordapp.com/attachments/786714676506394654/800514172197666856/a809c032f560b7c8563bdf59d6dcac1d9eb3bb91.gif",
+            "https://tenor.com/view/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-sua-dance-gif-12255205",
+            "https://tenor.com/view/%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-dreamcatcher-sua-kim-bora-gif-19962764",
+            "https://tenor.com/view/dreamcatcher-sua-happy-smile-cheer-gif-19961384",
+            "https://tenor.com/view/dreamcatcher-sua-shake-smile-gif-18573306",
+            "https://tenor.com/view/dreamcatcher-sua-dance-dancing-gif-18573310",
+            "https://tenor.com/view/dreamcatcher-sua-gif-18981876",
+            "https://tenor.com/view/dreamcatcher-sua-angry-cloverfield-found-footage-gif-18573314",
+            "https://tenor.com/view/dreamcatcher-sua-ji-u-annoyed-smile-gif-18573311"]
 
         self.bot.dreamcatcher_yoohyeon_gif = ["https://tenor.com/view/yoohyeon-dream-catcher-heart-shape-cute-kpop-gif-16952098",
             "https://tenor.com/view/yoohyeon-in-fear-yoohyeon-kim-yoohyeon-dreamcatcher-yoohyeon-dreamcatcher-gif-19500039",
