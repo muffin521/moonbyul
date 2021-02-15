@@ -716,7 +716,6 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/f41fc77c4c4123fbf1c49767fb53c359/2b3d443f2cef154f-0a/s250x400/b71017a983136b56b80b90c99119d089364711de.gif",
             "https://64.media.tumblr.com/67c962a44fd54e2e6ce01777069b922b/2b3d443f2cef154f-db/s250x400/f3dd9e67b8ed005dc89521d758471f2182bef260.gif",
             "https://64.media.tumblr.com/c78ed85ff07b012da4f88dabb666dbb7/b1ca60201720aa45-8e/s400x600/89f629e956642206a07f873e44fe93afe8f092dc.gif",
-            "https://64.media.tumblr.com/7a581736fa89bd7ea10b8b49a9e1ceb2/b1ca60201720aa45-3d/s400x600/a8113875c1f2b097bfe792ec00cb56db8170be20.gif",
             "https://tenor.com/view/minju-kim-minju-minju-eat-izone-minju-minju-happy-gif-20189694",
             "https://tenor.com/view/iz-one-iz-one-minju-minju-kim-minju-pretty-gif-15555265",
             "https://gfycat.com/wideeyedgleaminglemur",
