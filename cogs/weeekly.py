@@ -89,8 +89,6 @@ class weeekly(commands.Cog):
 
         self.bot.weeekly_monday_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061529511886858/MD1.gif",
             "https://cdn.discordapp.com/attachments/790062662905102346/790074986702438450/MONDAY1.gif",
-            "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-heart-weeekly-heart-gif-18849380",
-            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-jihyo-weeekly-jihyo-gif-18860644",
             "https://tenor.com/view/weeekly-soojin-monday-jiyoon-soeun-gif-18168556",
             "https://tenor.com/view/monday-weeekly-laugh-kpop-cute-gif-17478647",
             "https://tenor.com/view/weeekly-monday-weeekly-monday-playm-gif-18227541",
@@ -108,13 +106,15 @@ class weeekly(commands.Cog):
             "https://cdn.discordapp.com/attachments/790062758556336128/790075085779894273/JAEHEE1.gif",
             "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-sad-weeekly-jaehee-sad-gif-18217735",
             "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-think-jaehee-think-gif-19422471",
-            "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-jaehee-cute-jaehee-cute-gif-18217794"]
+            "https://tenor.com/view/jaehee-weeekly-weeekly-jaehee-weeekly-jaehee-cute-jaehee-cute-gif-18217794",
+            "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-heart-weeekly-heart-gif-18849380"]
 
         self.bot.weeekly_jihan_gif = ["https://cdn.discordapp.com/attachments/790062796150407209/790075153744658442/JIHAN3.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075171691692032/JIHAN2.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075206399950908/JIHAN1.gif",
             "https://tenor.com/view/jihan-weeekly-weeekly-jihan-han-jihyo-kpop-gif-18464277",
-            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-cute-gif-18128616"]
+            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-cute-gif-18128616",
+            "https://tenor.com/view/weeekly-jihan-weeekly-jihan-jihyo-weeekly-jihyo-gif-18860644"]
 
         self.bot.weeekly_zoa_gif = ["https://media.discordapp.net/attachments/782405901515751445/790061591798087690/ZA3.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
