@@ -98,7 +98,6 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/moonbyul-hug-leg-silly-kpop-gif-7468199",
             "https://tenor.com/view/moonbyul-mamamoo-byul-white-wind-gogobebe-gif-13639022",
             "https://gfycat.com/tepidexemplaryarawana",
-            "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642",
             "https://tenor.com/view/mamamoo-moonbyul-wow-woah-surprised-gif-7278364",
             "https://tenor.com/view/mamamoo-moonbyul-solar-moonsun-veggies-gif-7724635",
             "https://tenor.com/view/mamamoo-moonbyul-gif-18784089",
@@ -258,7 +257,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-gogobebe-hair-flip-hairography-dance-gif-13827637",
             "https://tenor.com/view/gogobebe-mamamoo-dance-circle-gif-13821768",
             "https://tenor.com/view/gogobebe-mamamoo-dance-kpop-gif-13821774",
-            "https://tenor.com/view/mamamoo-gogobebe-dance-wheein-wink-gif-13821660"]
+            "https://tenor.com/view/mamamoo-gogobebe-dance-wheein-wink-gif-13821660",
+            "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642"]
 
     @commands.command(aliases = ['byul'])
     async def moonbyul(self, ctx):
