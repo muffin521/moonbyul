@@ -148,7 +148,6 @@ class MamamooPings(commands.Cog):
             "https://gfycat.com/elasticimpressivelice",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",
             "https://data.whicdn.com/images/323781631/original.gif",
-            "https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://data.whicdn.com/images/323064141/original.gif",
             "https://pa1.narvii.com/7083/ecf8e6d546d434772c62f1485b8de8ce10e8b1fbr1-640-359_hq.gif",
             "https://i.pinimg.com/originals/f7/13/1e/f7131e54e31f00206b78f3f6bd10b9c7.gif",
