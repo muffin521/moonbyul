@@ -249,7 +249,6 @@ class BTSPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/802261212846882826/804198636639485972/Tumblr_l_383021191996233.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/804198637164953630/Tumblr_l_383037442704567.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/804198637680066570/Tumblr_l_383093118244450.gif",
-            "https://cdn.discordapp.com/attachments/802261212846882826/804198638132920370/Tumblr_l_383105686357518.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/804198638753415189/Tumblr_l_383127170315464.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/804201653347549184/OldfashionedQueasyDragonfly-size_restricted.gif",
             "https://cdn.discordapp.com/attachments/802261212846882826/804201653896085504/AccurateForthrightBass-size_restricted.gif",
