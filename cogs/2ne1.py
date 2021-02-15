@@ -70,13 +70,11 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/omg-oh-my-god-kpop-gif-5427305",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773065274589214/iu-7.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795774289742659644/iu-14.gif",
-            "https://i.makeagif.com/media/10-01-2015/qGFLrI.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795779150849769532/iu-19.gif",
             "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif",
             "https://tenor.com/view/nodding-%EC%82%B0%EB%8B%A4%EB%9D%BC%EB%B0%95-mnet-asian-music-awards-rhythm-artist-reaction-gif-19237338"]
 
         self.bot.parkbom_gif = ["https://cdn.discordapp.com/attachments/703871901411573850/795766103766466570/image1.gif",
-            "https://cdn.discordapp.com/attachments/703871901411573850/795766103010836510/image0.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795772912208445440/iu-11.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773065274589214/iu-7.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773104982982697/iu-10.gif",
