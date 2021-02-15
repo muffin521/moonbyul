@@ -744,7 +744,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/frightenedgivinggermanspaniel",
             "https://gfycat.com/gravenervousdikkops",
             "https://gfycat.com/jealouswelldocumentedimpala",
-            "https://gfycat.com/secretcoldgeese"]
+            "https://gfycat.com/secretcoldgeese",
+            "https://cdn.discordapp.com/attachments/485095951480913935/810817528095309844/MV_SOYOU_X_IZONE___ZEROATTITUDE_FeatpH-1.gif"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
