@@ -1191,7 +1191,9 @@ class IzonePings(commands.Cog):
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
         elif arg == "killer":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(f'https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123')
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
