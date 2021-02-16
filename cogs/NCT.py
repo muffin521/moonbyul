@@ -56,7 +56,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/tipton2109-nct-mark-lee-eating-gif-13173807",
             "https://tenor.com/view/mark-lee-serious-fierce-pose-nct-gif-13469194",
             "https://tenor.com/view/nct-nct127-mark-lee-kpop-choc-chipg-gukies-gif-14393243",
-            "https://tenor.com/view/mark-lee-nct-nct127-kpop-gif-19380061"]
+            "https://tenor.com/view/mark-lee-nct-nct127-kpop-gif-19380061",
+            "https://tenor.com/view/mark-lee-aestethic-mark-lee-boyfriend-mark-bad-boy-mark-superm-mark-gif-18373893"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
@@ -441,68 +442,13 @@ class NCT(commands.Cog):
                 await ctx.message.delete()
 
 
-    @commands.command()
-    async def lucas(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{kate}>, <@!{ctx.author.id}> is talking about Lucas :heart: ')
-                await ctx.send(random.choice(self.bot.nct_lucas_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart:')
-            await ctx.send(random.choice(self.bot.nct_lucas_gif))
-            await ctx.message.delete()
     
     @commands.command()
-    async def mark(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Mark :heart: ')
-                await ctx.send(random.choice(self.bot.nct_mark_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Mark :heart:')
-            await ctx.send(random.choice(self.bot.nct_mark_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def winwin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart: ')
-                await ctx.send(random.choice(self.bot.nct_winwin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart:')
-            await ctx.send(random.choice(self.bot.nct_winwin_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def jaemin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart: ')
-                await ctx.send(random.choice(self.bot.nct_jaemin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart:')
-            await ctx.send(random.choice(self.bot.nct_jaemin_gif))
-            await ctx.message.delete()
-
-    @commands.command()
     async def jaehyun(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Jaehyun] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart: ')
@@ -519,3 +465,63 @@ class NCT(commands.Cog):
 
 def setup(client):
     client.add_cog(NCT(client))
+
+    # @commands.command()
+    # async def lucas(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{kate}>, <@!{ctx.author.id}> is talking about Lucas :heart: ')
+    #             await ctx.send(random.choice(self.bot.nct_lucas_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Lucas :heart:')
+    #         await ctx.send(random.choice(self.bot.nct_lucas_gif))
+    #         await ctx.message.delete()
+    
+    # @commands.command()
+    # async def mark(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Mark :heart: ')
+    #             await ctx.send(random.choice(self.bot.nct_mark_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Mark :heart:')
+    #         await ctx.send(random.choice(self.bot.nct_mark_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command()
+    # async def winwin(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart: ')
+    #             await ctx.send(random.choice(self.bot.nct_winwin_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Winwin :heart:')
+    #         await ctx.send(random.choice(self.bot.nct_winwin_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command()
+    # async def jaemin(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart: ')
+    #             await ctx.send(random.choice(self.bot.nct_jaemin_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Jaemin :heart:')
+    #         await ctx.send(random.choice(self.bot.nct_jaemin_gif))
+    #         await ctx.message.delete()

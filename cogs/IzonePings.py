@@ -158,7 +158,25 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/goodinferiorfritillarybutterfly",
             "https://tenor.com/view/iz-one-kpop-gif-13206670",
             "https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123",
-            "https://gfycat.com/ecstaticcreamycockroach"]
+            "https://gfycat.com/ecstaticcreamycockroach",
+            "https://tenor.com/view/izone-miyawaki-sakura-monster-gif-18569937",
+            "https://gfycat.com/thunderoussilverflee",
+            "https://gfycat.com/misguidedhideousbagworm",
+            "https://gfycat.com/bowedsparseafricanrockpython",
+            "https://gfycat.com/selfassuredmelodicgangesdolphin",
+            "https://gfycat.com/wideeyedgleaminglemur",
+            "https://gfycat.com/hideousamusinggraysquirrel",
+            "https://gfycat.com/delectableperkyermine",
+            "https://gfycat.com/elegantunsightlyemperorpenguin",
+            "https://gfycat.com/bowedsparseafricanrockpython",
+            "https://gfycat.com/periodicdetermineddaddylonglegs",
+            "https://gfycat.com/friendlyhandsomeduckbillcat",
+            "https://gfycat.com/ignoranttameafricanparadiseflycatcher",
+            "https://gfycat.com/completesolidbassethound",
+            "https://gfycat.com/impuremadeupcockatiel",
+            "https://gfycat.com/naturalspiffyarcticfox",
+            "https://gfycat.com/misguidedlastbug",
+            "https://gfycat.com/valuablecandidkakapo"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -381,7 +399,78 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/rapidsilkyharrierhawk",
             "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
             "https://gfycat.com/unawareinfantileeastsiberianlaika",
-            "https://gfycat.com/linedsecondhoiho"]
+            "https://gfycat.com/linedsecondhoiho",
+            "https://gfycat.com/actualdizzydevilfish",
+            "https://gfycat.com/anxiousimmaterialgrizzlybear",
+            "https://gfycat.com/metallicjampackedafricanrockpython",
+            "https://gfycat.com/palatablesplendidflycatcher",
+            "https://gfycat.com/dimvelvetyjenny",
+            "https://gfycat.com/agilewigglyelephantbeetle",
+            "https://gfycat.com/coordinatedgentlecockroach",
+            "https://gfycat.com/slightdizzyiriomotecat",
+            "https://gfycat.com/blackandwhiteorganicacaciarat",
+            "https://gfycat.com/importantyellowishbuzzard",
+            "https://tenor.com/view/jo-yuri-izone-pout-cute-gif-16605411",
+            "https://tenor.com/view/yuri-jo-yuri-izone-kpop-produce48-gif-19471727",
+            "https://gfycat.com/snappybewitchedgecko",
+            "https://gfycat.com/uniformbadasianporcupine",
+            "https://gfycat.com/periodickeyadeliepenguin",
+            "https://gfycat.com/pitifulunawarekagu",
+            "https://gfycat.com/thirstybackasiaticlesserfreshwaterclam",
+            "https://gfycat.com/rashacidiccoypu",
+            "https://gfycat.com/offensivevastbinturong",
+            "https://gfycat.com/tameonlydavidstiger",
+            "https://gfycat.com/thriftypitifulatlanticsharpnosepuffer",
+            "https://gfycat.com/harmoniousfloweryatlanticsharpnosepuffer",
+            "https://gfycat.com/shallowearnestanhinga",
+            "https://gfycat.com/dearestplaincoati",
+            "https://gfycat.com/anyteeminghornbill",
+            "https://gfycat.com/gaseousquaintauk",
+            "https://gfycat.com/anguishedtestyeel",
+            "https://gfycat.com/conventionallividgerenuk",
+            "https://gfycat.com/anxiousimmaterialgrizzlybear",
+            "https://gfycat.com/metallicjampackedafricanrockpython",
+            "https://gfycat.com/palatablesplendidflycatcher",
+            "https://gfycat.com/dimvelvetyjenny",
+            "https://gfycat.com/agilewigglyelephantbeetle",
+            "https://gfycat.com/unfortunateflawlesskestrel",
+            "https://gfycat.com/coordinatedgentlecockroach",
+            "https://gfycat.com/blackandwhiteorganicacaciarat",
+            "https://gfycat.com/spottedbaggyalbatross",
+            "https://gfycat.com/downrightnecessaryannelid",
+            "https://gfycat.com/cleansentimentallemur",
+            "https://gfycat.com/damagedhopefulbuckeyebutterfly",
+            "https://gfycat.com/sorrowfultestyinsect",
+            "https://gfycat.com/defenselessopendassie",
+            "https://gfycat.com/quarterlypracticalazurevase",
+            "https://gfycat.com/madeupgrotesqueanura",
+            "https://gfycat.com/mealykeyalligatorsnappingturtle",
+            "https://gfycat.com/friendlygreatamericanrobin",
+            "https://gfycat.com/vacantselfrelianthypacrosaurus",
+            "https://gfycat.com/glaringglumfoal",
+            "https://gfycat.com/clutteredlimpingherald",
+            "https://gfycat.com/smallwindinghapuku",
+            "https://gfycat.com/theseperfumeddeviltasmanian",
+            "https://gfycat.com/excellentfaroffafricanharrierhawk",
+            "https://gfycat.com/academictedioushart",
+            "https://gfycat.com/spicyimmediatekentrosaurus",
+            "https://gfycat.com/assuredmaddrake",
+            "https://gfycat.com/terrificunawareblackrussianterrier",
+            "https://gfycat.com/bitterwideeyedcougar",
+            "https://gfycat.com/wiltedacclaimedkawala",
+            "https://gfycat.com/barecolossalalligatorgar",
+            "https://gfycat.com/liquideagerblueandgoldmackaw",
+            "https://gfycat.com/illfatedwindinghalicore",
+            "https://gfycat.com/parallelblushingiberianemeraldlizard",
+            "https://gfycat.com/ornerysmallbinturong",
+            "https://gfycat.com/classicblushingafricangoldencat",
+            "https://gfycat.com/sadarcticdegus",
+            "https://gfycat.com/serpentineidolizeddunlin",
+            "https://gfycat.com/slipperysomberarcticseal",
+            "https://gfycat.com/decisivegoldengreyhounddog",
+            "https://gfycat.com/insignificantjoyfulkouprey",
+            "https://gfycat.com/whimsicalfrigidcockerspaniel",
+            "https://gfycat.com/blacklonggnat-chaewon-izone-yena-yuri-kpop"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -489,7 +578,18 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-14538792",
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
-            "https://gfycat.com/offensiveblissfulbasil"]
+            "https://gfycat.com/offensiveblissfulbasil",
+            "https://gfycat.com/soupyuntriedhyena",
+            "https://gfycat.com/deficientslimhusky",
+            "https://gfycat.com/metallicmintycowrie",
+            "https://gfycat.com/nextfearfulallensbigearedbat",
+            "https://media.discordapp.net/attachments/485105790299013123/807470022360301579/Chaeyeon.gif",
+            "https://tenor.com/view/lee-chaeyeon-chaeyeon-izone-chaeyeon-gif-14723167",
+            "https://gfycat.com/periodicexcellentantarcticfurseal",
+            "https://gfycat.com/loneentirekagu",
+            "https://gfycat.com/EthicalUnlinedIsabellinewheatear",
+            "https://gfycat.com/partialglisteningbuckeyebutterfly",
+            "https://gfycat.com/brokensnarlinggordonsetter"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -617,7 +717,38 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/f41fc77c4c4123fbf1c49767fb53c359/2b3d443f2cef154f-0a/s250x400/b71017a983136b56b80b90c99119d089364711de.gif",
             "https://64.media.tumblr.com/67c962a44fd54e2e6ce01777069b922b/2b3d443f2cef154f-db/s250x400/f3dd9e67b8ed005dc89521d758471f2182bef260.gif",
             "https://64.media.tumblr.com/c78ed85ff07b012da4f88dabb666dbb7/b1ca60201720aa45-8e/s400x600/89f629e956642206a07f873e44fe93afe8f092dc.gif",
-            "https://64.media.tumblr.com/7a581736fa89bd7ea10b8b49a9e1ceb2/b1ca60201720aa45-3d/s400x600/a8113875c1f2b097bfe792ec00cb56db8170be20.gif"]
+            "https://tenor.com/view/minju-kim-minju-minju-eat-izone-minju-minju-happy-gif-20189694",
+            "https://tenor.com/view/iz-one-iz-one-minju-minju-kim-minju-pretty-gif-15555265",
+            "https://gfycat.com/wideeyedgleaminglemur",
+            "https://gfycat.com/hideousamusinggraysquirrel",
+            "https://gfycat.com/highslimyambushbug",
+            "https://gfycat.com/lawfulgaseousgopher",
+            "https://gfycat.com/popularecstaticduckling",
+            "https://gfycat.com/blandornategallinule",
+            "https://gfycat.com/possiblecornybasil",
+            "https://gfycat.com/downrightshinydogwoodclubgall",
+            "https://gfycat.com/ickyfeminineechidna",
+            "https://gfycat.com/amplemilkycoyote",
+            "https://gfycat.com/leafyrectangularbluemorphobutterfly",
+            "https://gfycat.com/hastysardonicfoal",
+            "https://gfycat.com/ignorantsickharpyeagle",
+            "https://gfycat.com/anxiousbonyadamsstaghornedbeetle",
+            "https://gfycat.com/bothfemaledeer",
+            "https://gfycat.com/jampackedpeskydalmatian",
+            "https://gfycat.com/hardscholarlyanophelesmosquito",
+            "https://gfycat.com/agreeableeducateddassie",
+            "https://gfycat.com/criminalbasicbrant",
+            "https://gfycat.com/neatcreepyfieldmouse",
+            "https://gfycat.com/naturalevenabalone",
+            "https://gfycat.com/vaguepleasingantbear",
+            "https://gfycat.com/classicwananglerfish",
+            "https://gfycat.com/frightenedgivinggermanspaniel",
+            "https://gfycat.com/gravenervousdikkops",
+            "https://gfycat.com/jealouswelldocumentedimpala",
+            "https://gfycat.com/secretcoldgeese",
+            "https://cdn.discordapp.com/attachments/485095951480913935/810817528095309844/MV_SOYOU_X_IZONE___ZEROATTITUDE_FeatpH-1.gif",
+            "https://gfycat.com/newbelatedkestrel",
+            "https://gfycat.com/warpedultimatecleanerwrasse"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -637,7 +768,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/annualalertasiandamselfly",
             "https://tenor.com/view/wonyoung-jang-wonyoung-iz-one-dance-gif-14625438",
             "https://gfycat.com/warybelovedargali",
-            "https://tenor.com/view/izone-wonyoung-jang-wonyoung-maknae-%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-gif-15064171"]
+            "https://tenor.com/view/izone-wonyoung-jang-wonyoung-maknae-%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-gif-15064171",
+            "https://gfycat.com/lazypopularchrysomelid",
+            "https://gfycat.com/dishonestvigilantgecko"]
 
         self.bot.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-izone-hyewon-beware-gif-18734334",
@@ -686,7 +819,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/sharpessentialarmednylonshrimp",
             "https://gfycat.com/meekathleticgalapagosdove",
             "https://gfycat.com/costlyenchantedhornshark",
-            "https://gfycat.com/costlyenchantedhornshark",
             "https://gfycat.com/responsiblelankyiggypops",
             "https://gfycat.com/variableunhappyborderterrier",
             "https://gfycat.com/potablewearyhellbender",
@@ -695,11 +827,13 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/exhaustedrichbooby",
             "https://tenor.com/view/chaewon-kim-chaewon-izone-chaewon-chaewon-hair-chaewon-sexy-gif-19574831",
             "https://gfycat.com/spiffyableirishredandwhitesetter",
-            "https://tenor.com/view/2chae-chaeyeon-chaewon-hug-gif-145387920",
             "https://gfycat.com/illiteraterecentguineapig",
             "https://gfycat.com/qualifiedimaginaryafricanharrierhawk-chaeyeon-chaewon",
             "https://gfycat.com/offensiveblissfulbasil",
-            "https://gfycat.com/quarterlyinexperiencedanura"]
+            "https://gfycat.com/quarterlyinexperiencedanura",
+            "https://gfycat.com/tatteredadoredemperorshrimp",
+            "https://gfycat.com/calculatingeasygoingkite",
+            "https://gfycat.com/blacklonggnat-chaewon-izone-yena-yuri-kpop"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -709,7 +843,88 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/izone-yujin-ahn-yujin-lead-vocalist-lead-dancer-gif-17789677",
             "https://tenor.com/view/yujin-wink-izone-yujin-an-yujin-gif-18185000",
             "https://tenor.com/view/yujin-izone-yujin-an-yujin-gif-18184999",
-            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696"]
+            "https://tenor.com/view/yujin-yujin-laugh-yujin-izone-gif-19287696",
+            "https://gfycat.com/klutzydisastrousdragon",
+            "https://gfycat.com/bronzedownrightcoyote",
+            "https://gfycat.com/complexlegalalligatorgar",
+            "https://gfycat.com/yellowbitesizedeyas",
+            "https://gfycat.com/knobbyhonestgazelle",
+            "https://gfycat.com/ediblemetallicfrilledlizard",
+            "https://gfycat.com/scarcepoliteassassinbug",
+            "https://gfycat.com/unpleasantblankincatern",
+            "https://gfycat.com/readysmallcuttlefish",
+            "https://gfycat.com/spottedeasyantarcticfurseal",
+            "https://gfycat.com/impressivevengefulhamadryad",
+            "https://gfycat.com/wearybittercoelacanth",
+            "https://gfycat.com/melodictallgrosbeak",
+            "https://gfycat.com/dismaltestycleanerwrasse",
+            "https://gfycat.com/cautioussimilarinvisiblerail",
+            "https://gfycat.com/thatringedgermanspitz",
+            "https://gfycat.com/inborninsidiousgopher",
+            "https://gfycat.com/miniaturedimwittedhoiho",
+            "https://gfycat.com/heftycolossalcirriped",
+            "https://gfycat.com/thatannualboutu",
+            "https://gfycat.com/neighboringorneryleopard",
+            "https://gfycat.com/alarmednastyhamadryas",
+            "https://gfycat.com/tartpastellangur",
+            "https://gfycat.com/friendlyrevolvingbeardedcollie",
+            "https://gfycat.com/complexgroundedkissingbug",
+            "https://gfycat.com/rewardingrightcrane",
+            "https://gfycat.com/appropriatefrighteningguanaco",
+            "https://gfycat.com/pitifulexemplaryflea",
+            "https://gfycat.com/skeletalentiregrayfox",
+            "https://gfycat.com/evergreentimelyeastsiberianlaika",
+            "https://gfycat.com/vibrantcarefulleonberger",
+            "https://gfycat.com/blissfulevergreencormorant",
+            "https://gfycat.com/bronzeshimmeringflounder",
+            "https://gfycat.com/artisticfalseesok",
+            "https://gfycat.com/powerlessactualargali",
+            "https://gfycat.com/warlikeslowcowrie",
+            "https://gfycat.com/elaboratesecretcutworm",
+            "https://gfycat.com/tenseenergeticemperorpenguin",
+            "https://gfycat.com/ellipticalagreeablehackee",
+            "https://gfycat.com/bigheartedtidyfiddlercrab",
+            "https://gfycat.com/lastclosedilsamochadegu",
+            "https://gfycat.com/marriedfixedelver",
+            "https://gfycat.com/unhappyelasticbullmastiff",
+            "https://gfycat.com/mediumlongbobolink",
+            "https://gfycat.com/longincredibleibis",
+            "https://gfycat.com/carefreebeautifulgermanshepherd",
+            "https://gfycat.com/idleheftycarp",
+            "https://gfycat.com/whisperedafraidbream",
+            "https://gfycat.com/heartyflickeringkentrosaurus",
+            "https://gfycat.com/secretrapidbobwhite",
+            "https://gfycat.com/highslimyambushbug",
+            "https://gfycat.com/lawfulgaseousgopher",
+            "https://gfycat.com/popularecstaticduckling",
+            "https://gfycat.com/forsakendigitalchupacabra",
+            "https://gfycat.com/blandornategallinule",
+            "https://gfycat.com/shoddyspottedenglishpointer",
+            "https://gfycat.com/lefteageraustraliancattledog",
+            "https://gfycat.com/baggyportlyblackandtancoonhound",
+            "https://gfycat.com/circularhatefulgibbon",
+            "https://gfycat.com/lonetimelyaustraliansilkyterrier",
+            "https://gfycat.com/jampackedpeskydalmatian",
+            "https://gfycat.com/hardscholarlyanophelesmosquito",
+            "https://gfycat.com/agreeableeducateddassie",
+            "https://gfycat.com/criminalbasicbrant",
+            "https://gfycat.com/pointedfocuseddesertpupfish",
+            "https://gfycat.com/slightanyeeve",
+            "https://gfycat.com/frankinconsequentialflyingsquirrel",
+            "https://gfycat.com/keylividbream",
+            "https://gfycat.com/farflungfrightenedbunting",
+            "https://gfycat.com/jealouslastblackfly",
+            "https://gfycat.com/rigidsilentblacklemur",
+            "https://gfycat.com/lastgleamingfrog",
+            "https://gfycat.com/practicalcapitalarcherfish",
+            "https://gfycat.com/affectionatekeyiberianmidwifetoad",
+            "https://gfycat.com/spectacularmadeupboto",
+            "https://gfycat.com/valuablehilariousjaguarundi",
+            "https://gfycat.com/blackandwhitenaughtyelephant",
+            "https://gfycat.com/compassionatefantastichalibut",
+            "https://gfycat.com/flamboyantsadbagworm",
+            "https://gfycat.com/loathsomemeagerarizonaalligatorlizard",
+            "https://gfycat.com/miserableappropriategoral"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
@@ -722,7 +937,10 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/choi-yena-cute-silly-heart-izone-gif-13827415",
             "https://gfycat.com/respectfulaptbichonfrise",
             "https://imgur.com/pwq5qck",
-            "https://gfycat.com/whitepositiveindianrhinoceros"]
+            "https://gfycat.com/whitepositiveindianrhinoceros",
+            "https://gfycat.com/aptreliableafricanjacana",
+            "https://gfycat.com/delectableperkyermine",
+            "https://gfycat.com/blacklonggnat-chaewon-izone-yena-yuri-kpop"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
@@ -738,7 +956,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/fewinsistentdromedary",
             "https://gfycat.com/revolvingaltruisticflatcoatretriever",
             "https://gfycat.com/marvelousmenacingamericanwarmblood",
-            "https://gfycat.com/revolvingmajorfinnishspitz"]
+            "https://gfycat.com/revolvingmajorfinnishspitz",
+            "https://gfycat.com/agilewigglyelephantbeetle",
+            "https://tenor.com/view/izone-kwon-eunbi-monster-gif-18569925",
+            "https://gfycat.com/passionategreenamericanmarten"]
 
         self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
@@ -748,7 +969,8 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-16463654",
             "https://tenor.com/view/izone-nako-nako-izone-nako-izone-gif-14398291",
             "https://tenor.com/view/kpop-izone-nako-nako-izone-happy-chuckle-gif-14398760",
-            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake"]
+            "https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
+            "https://gfycat.com/gracefulfinearawana"]
 
         self.bot.hitomi_gif = ["https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
             "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
@@ -766,7 +988,37 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/severedearbison",
             "https://gfycat.com/giganticleadingblackbear",
             "https://gfycat.com/hoarseweecaribou",
-            "https://gfycat.com/hotminiaturecarp"]
+            "https://gfycat.com/hotminiaturecarp",
+            "https://gfycat.com/dimvelvetyjenny",
+            "https://gfycat.com/unrulychillybettong",
+            "https://gfycat.com/illinformeddefenselessamericancrocodile",
+            "https://gfycat.com/vainidlegoshawk",
+            "https://gfycat.com/lazykindheartedibadanmalimbe",
+            "https://gfycat.com/tepidwelcomeant",
+            "https://gfycat.com/rashnewindochinahogdeer",
+            "https://gfycat.com/dimvelvetyjenny",
+            "https://gfycat.com/gregariousfilthyduiker",
+            "https://gfycat.com/hairysilentankolewatusi",
+            "https://gfycat.com/browncirculardeer",
+            "https://gfycat.com/peacefulleafygreatdane",
+            "https://gfycat.com/acceptablefriendlygourami",
+            "https://gfycat.com/feistyjitteryalabamamapturtle",
+            "https://gfycat.com/infamouswhoppingborer",
+            "https://gfycat.com/palatabledirtycuscus",
+            "https://gfycat.com/largedescriptivefritillarybutterfly",
+            "https://gfycat.com/terrificrevolvingindigobunting",
+            "https://gfycat.com/heartyhappygoluckychihuahua",
+            "https://gfycat.com/bleakuglykite",
+            "https://gfycat.com/desertedwhitecowrie",
+            "https://gfycat.com/realisticwelllitladybird",
+            "https://gfycat.com/thesehomelyfritillarybutterfly",
+            "https://gfycat.com/affectionateagonizingcowrie",
+            "https://gfycat.com/grayplasticbudgie",
+            "https://gfycat.com/constantcompleteflamingo"]
+
+        self.bot.minyul_gif = ["https://gfycat.com/bountifuldecisivegalago/",
+            "https://gfycat.com/adorableforcefularctichare",
+            "https://gfycat.com/flimsycookedbudgie"]
 
 
     @commands.command(aliases = ['iz*one'])
@@ -790,7 +1042,7 @@ class IzonePings(commands.Cog):
         elif arg == "yuri":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+                    await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:minjuheart:787553396734951454>')
                     await ctx.send(random.choice(self.bot.yuri_gif))
                     await ctx.message.delete()
                 else:
@@ -914,8 +1166,23 @@ class IzonePings(commands.Cog):
             await ctx.send(f'https://cdn.discordapp.com/attachments/798646055947337778/806336960867860510/image0.gif', delete_after=3)
             await ctx.message.delete()
 
-    @commands.command(aliases = ['saku', 'kkura', 'ame']) #used to be purple_heart
-    async def sakura(self, ctx):
+    @commands.command()
+    async def minyul(self, ctx):
+        if ctx.server.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@{ctx.author.id}> is shipping MinYul <:minjuheart:787553396734951454><:minjuheart:787553396734951454>')
+            await ctx.message.delete()
+
+
+
+    @commands.command() #used to be purple_heart
+    async def ame(self, ctx, arg = "nopeee"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Ame] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
             await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
@@ -923,42 +1190,21 @@ class IzonePings(commands.Cog):
         elif ctx.guild.id == luminary and ctx.channel.id != kbotcom:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
+        elif arg == "killer":
+            await ctx.send(f'https://tenor.com/view/sad-kkura-sakura-miyawaki-sakura-iz-one-gif-14351123')
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
+        
 
-    @commands.command() #used to be heart
-    async def yuri(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-                await ctx.send(random.choice(self.bot.yuri_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
-            await ctx.send(random.choice(self.bot.yuri_gif))
-            await ctx.message.delete()
 
-    @commands.command() #used to be white_heart
-    async def chaeyeon(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@{luke}>, <@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.bot.chaeyeon_gif))
-            await ctx.message.delete()
-        elif ctx.channel.id != 764610881513324574 and ctx.guild.id == 758468592957521972:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
-            await ctx.send(random.choice(self.bot.chaeyeon_gif))
-            await ctx.message.delete()
-
-    @commands.command(aliases = ['tom']) #used to be frog
-    async def minju(self, ctx):
+    @commands.command() #used to be frog
+    async def tom(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Tom] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
@@ -972,126 +1218,156 @@ class IzonePings(commands.Cog):
             await ctx.send(random.choice(self.bot.minju_gif))
             await ctx.message.delete()
 
-    @commands.command() #used to be rabbit
-    async def wonyoung(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-                await ctx.send(random.choice(self.bot.wonyoung_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
-            await ctx.send(random.choice(self.bot.wonyoung_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be cake
-    async def hyewon(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-                await ctx.send(random.choice(self.bot.hyewon_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
-            await ctx.send(random.choice(self.bot.hyewon_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be woman_fairy
-    async def chaewon(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-                await ctx.send(random.choice(self.bot.chaewon_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
-            await ctx.send(random.choice(self.bot.chaewon_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be woman_fairy
-    async def yujin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-                await ctx.send(random.choice(self.bot.yujin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
-            await ctx.send(random.choice(self.bot.yujin_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be yellow_heart
-    async def yena(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-                await ctx.send(random.choice(self.bot.yena_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
-            await ctx.send(random.choice(self.bot.yena_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be purple_heart
-    async def eunbi(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-                await ctx.send(random.choice(self.bot.eunbi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
-            await ctx.send(random.choice(self.bot.eunbi_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def nako(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-                await ctx.send(random.choice(self.bot.nako_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
-            await ctx.send(random.choice(self.bot.nako_gif))
-            await ctx.message.delete()
-
-    @commands.command() #used to be strawberry
-    async def hitomi(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-                await ctx.send(random.choice(self.bot.hitomi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
-            await ctx.send(random.choice(self.bot.hitomi_gif))
-            await ctx.message.delete()
 
 
 def setup(client):
     client.add_cog(IzonePings(client))
+
+    # @commands.command() #used to be heart
+    # async def yuri(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+    #             await ctx.send(random.choice(self.bot.yuri_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:yuriheart:787552578447474689>')
+    #         await ctx.send(random.choice(self.bot.yuri_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be white_heart
+    # async def chaeyeon(self, ctx):
+    #     if ctx.guild.id == jst:
+    #         await ctx.send(f'<@{luke}>, <@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
+    #         await ctx.send(random.choice(self.bot.chaeyeon_gif))
+    #         await ctx.message.delete()
+    #     elif ctx.channel.id != 764610881513324574 and ctx.guild.id == 758468592957521972:
+    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #         await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyeon <:chaeyeonheart:787552459517722625>')
+    #         await ctx.send(random.choice(self.bot.chaeyeon_gif))
+    #         await ctx.message.delete()
+
+    #     @commands.command() #used to be rabbit
+    # async def wonyoung(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
+    #             await ctx.send(random.choice(self.bot.wonyoung_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
+    #         await ctx.send(random.choice(self.bot.wonyoung_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be cake
+    # async def hyewon(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
+    #             await ctx.send(random.choice(self.bot.hyewon_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
+    #         await ctx.send(random.choice(self.bot.hyewon_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be woman_fairy
+    # async def chaewon(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
+    #             await ctx.send(random.choice(self.bot.chaewon_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
+    #         await ctx.send(random.choice(self.bot.chaewon_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be woman_fairy
+    # async def yujin(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
+    #             await ctx.send(random.choice(self.bot.yujin_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin <:yujinheart:787552565322711080>')
+    #         await ctx.send(random.choice(self.bot.yujin_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be yellow_heart
+    # async def yena(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
+    #             await ctx.send(random.choice(self.bot.yena_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Yena <:yenaheart:787552551834353695> ')
+    #         await ctx.send(random.choice(self.bot.yena_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be purple_heart
+    # async def eunbi(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
+    #             await ctx.send(random.choice(self.bot.eunbi_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbi <:eunbiheart:787552473815973909>')
+    #         await ctx.send(random.choice(self.bot.eunbi_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command()
+    # async def nako(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+    #             await ctx.send(random.choice(self.bot.nako_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+    #         await ctx.send(random.choice(self.bot.nako_gif))
+    #         await ctx.message.delete()
+
+    # @commands.command() #used to be strawberry
+    # async def hitomi(self, ctx):
+    #     if ctx.guild.id == luminary:
+    #         if ctx.channel.id == kbotcom:
+    #             await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+    #             await ctx.send(random.choice(self.bot.hitomi_gif))
+    #             await ctx.message.delete()
+    #         else:
+    #             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+    #             await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+    #         await ctx.send(random.choice(self.bot.hitomi_gif))
+    #         await ctx.message.delete()

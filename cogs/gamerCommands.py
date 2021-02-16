@@ -17,6 +17,7 @@ kbotcom = 764610881513324574
 muffin = 488423352206229505
 gareth = 389897179701182465
 mae = 492769416610840586
+aster = 495714786823241728
 
 class gamerPings(commands.Cog):
 
@@ -108,13 +109,33 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/ignorantsilverbumblebee-dating-class-loona-chuu",
             "https://cdn.discordapp.com/attachments/802261212846882826/802263665729863700/image0.gif",
             "https://cdn.discordapp.com/attachments/798320383539412992/806345491176620072/image0.gif",
-            "https://gfycat.com/quarterlyinexperiencedanura"]
+            "https://gfycat.com/quarterlyinexperiencedanura",
+            "https://64.media.tumblr.com/3629e5aed89ff2a1aa94a51a9ac0396d/ba269b895e46fb77-2d/s400x600/766afd4caedc073d6001eb909116fe2c0fea4c4d.gif",
+            "https://gfycat.com/tartpastellangur",
+            "https://cdn.discordapp.com/attachments/485095951480913935/810817528095309844/MV_SOYOU_X_IZONE___ZEROATTITUDE_FeatpH-1.gif",
+            "https://gfycat.com/ampleadeptadmiralbutterfly",
+            "https://gfycat.com/leansleepyindigowingedparrot",
+            "https://gfycat.com/simplejealoushornedtoad",
+            "https://64.media.tumblr.com/911ae07c047c16b4b61b9b71ecd29a61/7290f64bf1c77ddd-dc/s250x400/903498bd7d758c0308db075034b7f432b5ba8366.gif",
+            "https://64.media.tumblr.com/81c6a572ba6f49481b1ec7ad8d1cc9f4/7290f64bf1c77ddd-2d/s250x400/25fe40f7704f40d63a4f0ddd1c7d0a4f42608344.gif",
+            "https://64.media.tumblr.com/58aac89283e92150e9135a7c07948efc/f4d925f44e07bc74-fe/s400x600/0d68b0aca7ebce4842245dd522008f41ee1a67b9.gif",
+            "https://64.media.tumblr.com/26195c752ead6f20c38191f1fbe8c29f/9cb1c0cb6ff1dcd4-92/s250x400/36634e195d411ccc5f93137e5560aadd6306cc84.gif",
+            "https://64.media.tumblr.com/e7098e2f708c07b5cafce6a83e67bf56/9cb1c0cb6ff1dcd4-36/s250x400/71ed86c087e50fb3e68350a20ad6811a5af92221.gif",
+            "https://64.media.tumblr.com/2c489910af03d86217a11d4766682d41/7cccc6538fb782ed-70/s400x600/d8d7d3ae140f15148cf90b8cbb85fe1a6ac2f733.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
             "https://www.youtube.com/watch?v=05sJVEwZuZ4",
             "https://www.youtube.com/watch?v=2EKKMof_Ywg",
             "https://www.youtube.com/watch?time_continue=5&v=-a57_IOKpjM&feature=emb_logo"]
+
+        self.tuna_wrong = ["Tina",
+            "Yuna",
+            "Putuna",
+            "Tanu",
+            "Natu",
+            "Utah",
+            "Yuta"]
 
     @commands.command()
     async def dreammc(self, ctx):
@@ -198,12 +219,28 @@ class gamerPings(commands.Cog):
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()
+    async def aster(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Aster] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<@{ctx.author.id}> :heart: you <@{aster}>!')
+
+    @commands.command()
     async def god(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [G O D] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> says stop being sus <@573974040679809044>')
+
+    @commands.command()
+    async def tuna(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Tuna] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'*{random.choice(self.tuna_wrong)}')
 
     @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):

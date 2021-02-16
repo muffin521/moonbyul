@@ -41,7 +41,14 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/likelyreadykinkajou",
             "https://gfycat.com/livelybigheartedamericantoad",
             "https://gfycat.com/specificinfatuateddikkops",
-            "https://gfycat.com/wickedgrizzledchrysomelid"]
+            "https://gfycat.com/wickedgrizzledchrysomelid",
+            "https://gfycat.com/thatnecessarycolt",
+            "https://gfycat.com/defenselesseverlastingguppy",
+            "https://gfycat.com/gentledecimalgalapagosdove",
+            "https://gfycat.com/untriedblankdoe",
+            "https://gfycat.com/lankyfatherlyamericanredsquirrel",
+            "https://gfycat.com/enragedlazycowrie",
+            "https://gfycat.com/disguisedcreamykiwi"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
                 "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
@@ -62,7 +69,12 @@ class aespaPings(commands.Cog):
                 "https://gfycat.com/scrawnyfarflungkilldeer",
                 "https://gfycat.com/testyjovialchicken",
                 "https://gfycat.com/acclaimedclearhatchetfish",
-                "https://gfycat.com/healthyimaginativekillerwhale"]
+                "https://gfycat.com/healthyimaginativekillerwhale",
+                "https://gfycat.com/clutteredtenseamericanblackvulture",
+                "https://gfycat.com/definitiverapidbuckeyebutterfly",
+                "https://gfycat.com/snarlingpastglobefish",
+                "https://gfycat.com/directpettygermanshepherd",
+                "https://gfycat.com/maleindelibleaxolotl"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
@@ -77,7 +89,12 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/slipperyblackandwhiteacornweevil",
             "https://gfycat.com/inexperiencedimperturbablebluejay",
             "https://gfycat.com/fragrantenlightenedgerenuk",
-            "https://gfycat.com/glumhighlevelindianabat"]
+            "https://gfycat.com/glumhighlevelindianabat",
+            "https://gfycat.com/understatedacceptableargentinehornedfrog",
+            "https://gfycat.com/flippantpresentivorygull",
+            "https://gfycat.com/easygoingfixedafghanhound",
+            "https://gfycat.com/educateddearestcob",
+            "https://gfycat.com/peacefulredargentineruddyduck"]
 
         self.bot.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482080427671552/20201028144417-7ae7.gif",
@@ -91,7 +108,11 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/jovialcrazycoral",
             "https://gfycat.com/shabbysarcasticharborseal",
             "https://gfycat.com/fancyunfitgalago",
-            "https://gfycat.com/distinctneatcutworm"]
+            "https://gfycat.com/distinctneatcutworm",
+            "https://gfycat.com/gracefulperfectbasilisk",
+            "https://gfycat.com/disguisedcomposedbunny",
+            "https://gfycat.com/bronzehighlevelharrierhawk",
+            "https://gfycat.com/ultimateweirdhapuku"]
 
     @commands.command()
     async def aespa(self, ctx, *, arg):

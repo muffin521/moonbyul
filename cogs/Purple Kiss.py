@@ -26,7 +26,13 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/definitivedeterminedantlion",
             "https://gfycat.com/glaringglitteringdore",
             "https://tenor.com/view/yuki-purple-kiss-gif-19356715",
-            "https://tenor.com/view/yuki-hamster-laughing-cute-purple-kiss-gif-19603707"]
+            "https://tenor.com/view/yuki-hamster-laughing-cute-purple-kiss-gif-19603707",
+            "https://cdn.discordapp.com/attachments/547946757594677268/806562700624396298/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946757594677268/806562701023248404/image1.gif",
+            "https://cdn.discordapp.com/attachments/547946757594677268/806572183647813662/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946757594677268/806572210495553588/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946757594677268/806682389069037638/image0.gif",
+            "https://tenor.com/view/mori-koyuki-yuki-purple-kiss-mworikoyuki-gif-20125374"]
 
         self.bot.nagoeun_gif = ["https://gfycat.com/BiodegradableBackClam",
             "https://gfycat.com/FrightenedQuarrelsomeHare",
@@ -51,7 +57,15 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/goeun-nagoeun-purple-kiss-purple_kiss-gif-19673140",
             "https://tenor.com/view/eunnie-line-eunseo-dosie-goeun-eunseong-gif-19614430",
             "https://tenor.com/view/goeun-nagoeun-purplekiss-purple_kiss-gif-19614340",
-            "https://tenor.com/view/goeun-nagoeun-purplekiss-purple_kiss-gif-19614407"]
+            "https://tenor.com/view/goeun-nagoeun-purplekiss-purple_kiss-gif-19614407",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806563805344956486/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806563851112939548/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806563909406163005/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806566140317925476/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806570760381530122/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806597242801750046/PURPLE_KISS_Can_We_Talk_Again_MV.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806603169541914644/PURPLE_KISS_Can_We_Talk_Again_MV_1.gif",
+            "https://cdn.discordapp.com/attachments/547946725592137728/806682296023121950/image0.gif"]
 
         self.bot.jieun_gif = ["https://gfycat.com/ComposedPlayfulAmethystgemclam",
             "https://gfycat.com/VastDistantAnophelesmosquito",
@@ -64,7 +78,11 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/exemplarybiodegradablelemur",
             "https://cdn.discordapp.com/attachments/547946709758509076/797576874980147200/Jieun.gif",
             "https://tenor.com/view/purple-kiss-park-jieun-gif-19609803",
-            "https://gfycat.com/aridfoolishbarnswallow"]
+            "https://gfycat.com/aridfoolishbarnswallow",
+            "https://cdn.discordapp.com/attachments/547946709758509076/806564005195284541/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946709758509076/806564005799133184/image1.gif",
+            "https://cdn.discordapp.com/attachments/547946709758509076/806567003711602708/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946709758509076/806682264355733504/image0.gif"]
 
         self.bot.dosie_gif = ["https://gfycat.com/ShorttermAgonizingIriomotecat",
             "https://gfycat.com/ReflectingPessimisticGalapagosalbatross",
@@ -72,7 +90,12 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/ImpartialHonoredBangeltiger",
             "https://gfycat.com/ImprobableWatchfulKillifish",
             "https://cdn.discordapp.com/attachments/547946748811935755/740189265610408026/20200804_082421.gif",
-            "https://tenor.com/view/eunnie-line-eunseo-dosie-goeun-eunseong-gif-19614430"]
+            "https://tenor.com/view/eunnie-line-eunseo-dosie-goeun-eunseong-gif-19614430",
+            "https://cdn.discordapp.com/attachments/547946748811935755/806563373672169492/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946748811935755/806563374472626177/image1.gif",
+            "https://cdn.discordapp.com/attachments/547946748811935755/806563422388486144/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946748811935755/806572101648646174/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946748811935755/806682321117380658/image0.gif"]
         
         self.bot.ireh_gif = ["https://gfycat.com/OpenEnchantedArcherfish",
             "https://gfycat.com/MediumScentedGeese",
@@ -86,7 +109,10 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/purple-kiss-ireh-chaein-dosie-gif-19356828",
             "https://tenor.com/view/ireh-purple-kiss-gif-19356800",
             "https://cdn.discordapp.com/attachments/680370499297345549/797591178387783740/Ireh.gif",
-            "https://tenor.com/view/done-ireh-purple-kiss-rbw-gif-19603737"]
+            "https://tenor.com/view/done-ireh-purple-kiss-rbw-gif-19603737",
+            "https://cdn.discordapp.com/attachments/680370499297345549/806562940525346816/image0.gif",
+            "https://cdn.discordapp.com/attachments/680370499297345549/806562941431447602/image1.gif",
+            "https://cdn.discordapp.com/attachments/680370499297345549/806682353052811264/image0.gif"]
 
         self.bot.chaein_gif = ["https://gfycat.com/filthyforkedfirecrest",
             "https://gfycat.com/miserablejealousbengaltiger",
@@ -108,7 +134,11 @@ class PurpleKiss(commands.Cog):
             "https://tenor.com/view/purple-kiss-gif-19356669",
             "https://tenor.com/view/go-eun-chaein-purple-kiss-gif-19356750",
             "https://tenor.com/view/chaein-purple-kiss-gif-19356764",
-            "https://gfycat.com/indolentrecentaphid"]
+            "https://gfycat.com/indolentrecentaphid",
+            "https://cdn.discordapp.com/attachments/663392215929716737/806562479089647696/image0.gif",
+            "https://cdn.discordapp.com/attachments/663392215929716737/806562494847123496/image0.gif",
+            "https://cdn.discordapp.com/attachments/663392215929716737/806572368968810536/image0.gif",
+            "https://cdn.discordapp.com/attachments/663392215929716737/806682412150947870/image0.gif"]
 
         self.bot.swan_gif = ["https://gfycat.com/favoritewhoppingblueshark",
             "https://gfycat.com/babyishbelatedanaconda",
@@ -116,9 +146,19 @@ class PurpleKiss(commands.Cog):
             "https://gfycat.com/forsakendishonestgrayreefshark",
             "https://gfycat.com/failingimpressionableirishdraughthorse",
             "https://cdn.discordapp.com/attachments/547946771968557076/740189347369844766/20200804_081816.gif",
-            "https://cdn.discordapp.com/attachments/547900536565924104/791258374724386836/SwanPurple.gif"]
+            "https://cdn.discordapp.com/attachments/547900536565924104/791258374724386836/SwanPurple.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806562262226960404/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806562330199851038/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806562308004380743/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806562366539563088/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806566967233871872/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946771968557076/806682442730700850/image0.gif"]
 
-        self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E"]
+        self.bot.purplekiss_gif = ["https://cdn.discordapp.com/attachments/547946619845345280/806564359551582208/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946619845345280/806571926235250728/image0.gif",
+            "https://cdn.discordapp.com/attachments/547946619845345280/806572758691217448/image0.gif"]
+
+        self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E"] #.yuki
 
     @commands.command()
     async def purple(self, ctx, kiss, *, arg):
