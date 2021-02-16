@@ -58,7 +58,13 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/arin-gif-19588473",
             "https://tenor.com/view/%EC%95%84%EB%A6%B0-%EC%98%A4%EB%A7%88%EC%9D%B4%EA%B1%B8%EC%95%84%EB%A6%B0-arin-ohmygirl-arin-kpop-gif-18295336",
             "https://tenor.com/view/2020mama-mama-moment-performance-music-kpop-gif-19768503",
-            "https://tenor.com/view/oh-my-girl-arin-gif-19488436"]
+            "https://tenor.com/view/oh-my-girl-arin-gif-19488436",
+            "https://giphy.com/gifs/O7AeKvp0MupNY3NT9p",
+            "https://giphy.com/gifs/Jsxp4ocCylbpDnJS4D",
+            "https://giphy.com/gifs/O4ijB9LRCEoooUPEkI",
+            "https://giphy.com/gifs/LXcTNZZQUA3BKGJATM",
+            "https://giphy.com/gifs/vUd4g8HpiqPhq8d8S2",
+            "https://giphy.com/gifs/OSqLtOHD6CzhXHHSyb"]
 
         self.bot.ohmygirl_binnie_gif = ["https://gfycat.com/sadlonegalapagosdove",
             "https://tenor.com/view/oh-my-girl-kpop-hi-wave-binnie-gif-15821110",
