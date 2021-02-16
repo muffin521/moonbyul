@@ -121,6 +121,7 @@ class hcommands(commands.Cog):
         embed6.add_field(name='WJSN [1]', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy```')
         embed6.add_field(name='WJSN [2]', value=f'```\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
         embed6.add_field(name='ASTRO', value=f'\nASTRO Eunwoo\nASTRO MJ\n \n \n \n ')
+        embed6.add_field(name='Apink', value=f'\nApink Eunji')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 
