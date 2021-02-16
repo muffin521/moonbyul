@@ -714,7 +714,9 @@ class LoonaPings(commands.Cog):
             "https://tenor.com/view/heart-kard-somin-gif-18981834",
             "https://gfycat.com/impressiveyoungkoi-loona-go-won",
             "https://gfycat.com/allquaintleopardseal-loona-olivia-hye-beauty",
-            "https://gfycat.com/skinnyforsakenconey"]
+            "https://gfycat.com/skinnyforsakenconey",
+            "https://gfycat.com/nervoussinglearchaeocete",
+            "https://gfycat.com/fasthopefulcommabutterfly"]
 
     @commands.command()
     async def loona(self, ctx, *, arg):
