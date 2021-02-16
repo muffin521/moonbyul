@@ -65,6 +65,13 @@ class gifcog(commands.Cog):
             elif arg == "april hyunjoo":
                 for x in self.bot.april_hyunjoo_gif:
                     await ctx.send(x)
+        #.ASTRO
+            elif arg == "astro eunwoo":
+                for x in self.bot.astro_eunwoo_gif:
+                    await ctx.send(x)
+            elif arg == "astro mj":
+                for x in self.bot.astro_mj_gif:
+                    await ctx.send(x)
         #.Blackpink 
             elif arg == "blackpink jennie":
                 for x in self.bot.jennie_gif:
