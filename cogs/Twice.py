@@ -151,7 +151,10 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sana-twice-sana-twice-twice-sana-sana-minatozaki-gif-18276672",
             "https://tenor.com/view/no-sana-life-twice-sexy-gif-20106616",
             "https://tenor.com/view/sana-minatozaki-sana-sana-run-sana-eat-twice-sana-gif-19187705",
-            "https://tenor.com/view/sana-twice-sp4rky-alyhonz-gif-18076439"]
+            "https://tenor.com/view/sana-twice-sp4rky-alyhonz-gif-18076439",
+            "https://64.media.tumblr.com/83a7b0ec824e3771ef84dded2b7c900b/66a54f2e4df06a8f-86/s540x810/ddcae7a3d6ad819fa63883cb944f71d3022b69a6.gif",
+            "https://64.media.tumblr.com/2ca54a2698519c435cecfa28a448c9bc/901c50b77df0bc64-28/s540x810/4eb757fb90cb211988f05dde5c5163008fc8da98.gif",
+            "https://tenor.com/view/twice-sana-minatozaki-sana-vocalist-kpop-gif-17963177"]
 
         self.bot.momo_gif = ["https://tenor.com/UZ2D.gif",
             "https://tenor.com/boSu5.gif",
@@ -422,7 +425,9 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/8314eac72d462460bca60681e4ba15e6/517370f51e980945-20/s250x400/48ee38d12da27adbc28416b3f0f1698ce4f6c8f3.gif",
             "https://64.media.tumblr.com/27c4f96d8d8b4893475a8014536a5bcd/b56acfb412845ebd-1f/s400x600/6034fe7725349ce7c6e1cf84e09e31fc3cec883f.gif",
             "https://64.media.tumblr.com/85e62cd5fa6a40807b60b3d74811ac0f/f89e1eb4bb20e4dc-1d/s400x600/f7d0ef1f940c98cd20514fbef78610e95969bc11.gif",
-            "https://64.media.tumblr.com/d27582691aae857df0c6bbe196e0ff87/f89e1eb4bb20e4dc-32/s400x600/05a5f1f7abf8607a2cf07c6a6455e1d14fca1655.gif"]
+            "https://64.media.tumblr.com/d27582691aae857df0c6bbe196e0ff87/f89e1eb4bb20e4dc-32/s400x600/05a5f1f7abf8607a2cf07c6a6455e1d14fca1655.gif",
+            "https://64.media.tumblr.com/b89ada7cc845be3d3a25f1ca872d2e9c/a6344a461acc1bc8-1d/s400x600/85e2a224fb6c6b0042f274f420bbff2771364662.gif",
+            "https://i.gifer.com/gUq.gif"]
 
         self.bot.jihyo_gif = ["https://media.giphy.com/media/Ph6A5WjBAI3981PAsf/giphy.gif",
             "https://tenor.com/bnZ6r.gif",
