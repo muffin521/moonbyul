@@ -152,7 +152,8 @@ class Lovelyz(commands.Cog):
             "https://tenor.com/view/lovelyz-jin-kpop-ooh-gif-15998320",
             "https://tenor.com/view/kpop-lovelyz-jin-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EB%AA%85%EC%9D%80-gif-18230835",
             "https://tenor.com/view/lovelyz-jin-baby-talking-cute-should-be-like-gif-16057160",
-            "https://tenor.com/view/lovelyz-jin-heart-pretty-cute-gif-16057166"]
+            "https://tenor.com/view/lovelyz-jin-heart-pretty-cute-gif-16057166",
+            "https://gfycat.com/FakeMilkyAbyssiniangroundhornbill"]
 
         self.bot.sujeong_gif = ["https://tenor.com/view/sujeong-lovelyz-ryu-sujeong-gif-13815496",
             "https://tenor.com/view/%EB%A5%98%EC%88%98%EC%A0%95-lovelyz-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-sujeong-gif-18225977",
