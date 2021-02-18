@@ -121,7 +121,8 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/58aac89283e92150e9135a7c07948efc/f4d925f44e07bc74-fe/s400x600/0d68b0aca7ebce4842245dd522008f41ee1a67b9.gif",
             "https://64.media.tumblr.com/26195c752ead6f20c38191f1fbe8c29f/9cb1c0cb6ff1dcd4-92/s250x400/36634e195d411ccc5f93137e5560aadd6306cc84.gif",
             "https://64.media.tumblr.com/e7098e2f708c07b5cafce6a83e67bf56/9cb1c0cb6ff1dcd4-36/s250x400/71ed86c087e50fb3e68350a20ad6811a5af92221.gif",
-            "https://64.media.tumblr.com/2c489910af03d86217a11d4766682d41/7cccc6538fb782ed-70/s400x600/d8d7d3ae140f15148cf90b8cbb85fe1a6ac2f733.gif"]
+            "https://64.media.tumblr.com/2c489910af03d86217a11d4766682d41/7cccc6538fb782ed-70/s400x600/d8d7d3ae140f15148cf90b8cbb85fe1a6ac2f733.gif",
+            "https://gfycat.com/actualaccurateayeaye"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
