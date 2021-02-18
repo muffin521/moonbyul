@@ -60,7 +60,7 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{k8}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Moonbyul Ver.**\n{byulver}', inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{weakado}>\n<@{ple}>\n<@{pemper}>\n<@{aster}>\n<@{naomi}>')
+        embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{weakado}>\n<@{ple}>\n<@{pemper}>\n<@{aster}>')
         await ctx.send(embed=embed)
 
     @commands.command()
