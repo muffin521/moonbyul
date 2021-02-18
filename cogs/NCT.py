@@ -295,6 +295,32 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-nct-dream-renjun-huang-ren-jun-hwang-in-joon-gif-17167756",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif"]
 
+        self.bot.nct_doyoung_gif = ["https://i.pinimg.com/originals/c3/3c/af/c33caff35228f8c25b79756bf3858490.gif",
+            "https://data.whicdn.com/images/320339609/original.gif",
+            "https://78.media.tumblr.com/35f8f28866bd985922db13eec3d3d2ab/tumblr_p8mek1s3a21sajt0bo1_400.gif",
+            "https://data.whicdn.com/images/312017515/original.gif",
+            "https://data.whicdn.com/images/321897209/original.gif",
+            "https://78.media.tumblr.com/b6606fbac3059d16860b14baab69d204/tumblr_p566iwH9Tv1x7lc5jo3_400.gif",
+            "https://pa1.narvii.com/6690/eb89dc13d6ffbdc52c2766001ff304496a1060e4_hq.gif",
+            "https://media1.tenor.com/images/2d40483ad03f8648a591e3d4d716216b/tenor.gif?itemid=15749825",
+            "https://64.media.tumblr.com/9b46169d562186c48dfa192edce186d4/7372b4a5ed630294-65/s540x810/62262631f234313d8c8ca221de00a5214db13b07.gif"]
+
+        self.bot.nct_haechan_gif = ["https://data.whicdn.com/images/312017472/original.gif",
+            "https://64.media.tumblr.com/20aa6e1fc21ad09a3c46a1bda021f92b/2e7c33e88cfa45b6-1a/s250x400/03e8c3e5dc265549348372c81e2326c91c0b56e7.gif",
+            "https://64.media.tumblr.com/75ef7a734537d58e74904c48c9cb7017/tumblr_inline_pow2abTWdm1waucm1_500.gif",
+            "https://p.favim.com/orig/2018/09/27/nct-127-nct-dream-regular-Favim.com-6379197.gif",
+            "https://media1.tenor.com/images/b561fa662544b25f8627f3aa83738172/tenor.gif?itemid=17383374",
+            "https://i.pinimg.com/originals/95/23/fe/9523fe8c6242656d6749518de57a1119.gif",
+            "https://i.pinimg.com/originals/32/52/9c/32529ca296c7d6114a34e44dd4e8ef48.gif"]
+
+        self.bot.nct_shotaro_gif = ["https://data.whicdn.com/images/351628694/original.gif",
+            "https://64.media.tumblr.com/6edafc4e3260369fc2985fba82b15445/28949b3c12da530c-06/s540x810/052ac6091eb548bd42872edc47493087d9effd66.gif",
+            "https://i.pinimg.com/originals/98/15/81/9815815163d0c1e0e2684b8dbf0b350a.gif",
+            "https://64.media.tumblr.com/ed525c8f42475f3a1cabc6d2415a20e1/16d2020971cda3d1-e0/s400x600/177a2c6c491972336440d4adc7c7e0e56bb7fb6b.gif",
+            "https://i.pinimg.com/originals/ff/70/ec/ff70ec397a9742db8f3a3bb899c3b862.gif",
+            "https://data.whicdn.com/images/351456132/original.gif",
+            "https://lh3.googleusercontent.com/-oPCo2mOsMNA/X2odftlLkWI/AAAAAAABIHU/WGyRoYVSc4YaMtYEp06likNYkmlvjatxwCLcBGAsYHQ/s16000/download%2B%25281%2529.gif",
+            "https://64.media.tumblr.com/479ed0fb7b0e877859761b7b4abb316e/e518acab0afea2ee-01/s250x400/1699ca4024158bdfc711a9d915558ece1c103393.gif"]
 
     @commands.command()
     async def nct(self, ctx, *, arg):
@@ -439,6 +465,30 @@ class NCT(commands.Cog):
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Renjun :heart: ')
                 await ctx.send(random.choice(self.bot.nct_renjun_gif))
+                await ctx.message.delete()
+        elif arg == "doyoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Doyoung :heart: ')
+                await ctx.send(random.choice(self.bot.nct_doyoung_gif))
+                await ctx.message.delete()
+        elif arg == "haechan":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Haechan :heart: ')
+                await ctx.send(random.choice(self.bot.nct_haechan_gif))
+                await ctx.message.delete()
+        elif arg == "shotaro":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Shotaro :heart: ')
+                await ctx.send(random.choice(self.bot.nct_shotaro_gif))
                 await ctx.message.delete()
 
 
