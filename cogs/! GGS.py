@@ -333,8 +333,7 @@ class GGS(commands.Cog):
         self.bot.wjsn_seola_gif = ["https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837800",
             "https://tenor.com/view/kpop-wjsn-seola-heart-love-gif-18585890",
             "https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837797",
-            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940",
-            "https://64.media.tumblr.com/4cda8525b629a1550d48795c954e3059/tumblr_p63onrWhcA1x3uv0jo2_400.gifv"]
+            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940"]
 
         self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
