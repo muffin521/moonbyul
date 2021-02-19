@@ -150,7 +150,8 @@ class NCT(commands.Cog):
             "https://cdn.discordapp.com/attachments/772975408912007180/790117416230322206/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117484866174996/image1.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117616676634645/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif"]
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif",
+            "https://cdn.discordapp.com/attachments/199465139026657280/805690845407739944/210131_6.gif"]
 
         self.bot.nct_kun_gif = ["https://tenor.com/view/kun-wayv-nct-gif-19030306",
             "https://tenor.com/view/kun-kun-from-home-nct-from-home-mv-from-home-gif-18886755",
