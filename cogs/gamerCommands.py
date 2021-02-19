@@ -143,7 +143,9 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/acidicunknownblacklab-beauty",
             "https://thumbs.gfycat.com/TartBabyishHorse-max-1mb.gif",
             "https://tenor.com/view/sip-tea-sips-tea-sipping-tea-tea-not-my-problem-gif-17953668",
-            "https://gfycat.com/cheeryfatherlyjerboa-oh-my-girl-kpop-yooa-dsl"]
+            "https://gfycat.com/cheeryfatherlyjerboa-oh-my-girl-kpop-yooa-dsl",
+            "https://gfycat.com/completefixedbaldeagle-lee-yongbok-stray-kids-lee-felix-adorable-kpop",
+            "https://tenor.com/view/han-gif-13343941"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
