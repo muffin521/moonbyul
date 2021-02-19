@@ -241,6 +241,166 @@ class SoloPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/811453123267657739/812085464135761920/6eb3220e-aa85-415b-b31b-c3e80ab42088.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif"]
 
+        self.bot.woodz_gif = ["https://tenor.com/view/cho-seungyoun-seungyoun-jo-seung-yeon-seung-yeon-%EC%8A%B9%EC%97%B0-gif-14259988",
+            "https://tenor.com/view/woodz-uniq-choseungyoun-gif-20298646",
+            "https://tenor.com/view/woodz-seungyoun-gif-19678841",
+            "https://tenor.com/view/x1-seungyeon-cute-gif-14910337",
+            "https://gfycat.com/forthrightwildgrizzlybear",
+            "https://giphy.com/gifs/woodz-cho-seungyeon-Yk8F6KMxYL3kDl1wSj",
+            "https://giphy.com/gifs/seungyeon-woodz-OZHIe9YchxD17vEVIt",
+            "https://gfycat.com/affectionateslightgourami-cho-seungyoun-woodz",
+            "https://gfycat.com/phonywastefulandeancondor-cho-seungyoun-producex101",
+            "https://gfycat.com/shadowyaccomplishedbackswimmer",
+            "https://gfycat.com/jubilantvibrantfirefly-cho-seungyoun-woodz-x1",
+            "https://gfycat.com/cleanblueamericanblackvulture-seungyoun-thinking-avocado-woodz-green-cute",
+            "https://tenor.com/view/xone-x1-seungyoun-cho-seungyoun-arrow-gif-15377389",
+            "https://tenor.com/view/x1-xone-seungyoun-hello-kpop-gif-15377418",
+            "https://tenor.com/view/xone-x1-seungyoun-laugh-gif-15377395",
+            "https://tenor.com/view/xone-x1-seungyoun-peace-gif-15377387"]
+
+        self.bot.kriswu_gif = ["https://64.media.tumblr.com/391969724e74ff6a203059569633fdcf/9d72462f982a6a15-f1/s400x600/74b495fe0c7095f638efb254fae8adaa92ee06ad.gif",
+            "https://64.media.tumblr.com/922086f55a81ce5f8376ef7d105b6c7e/547ebc0250338952-d5/s400x600/770217db43bc7df459e12d6a40eb7e5a17b1bd54.gif",
+            "https://64.media.tumblr.com/d74fc18aeb8e1ff7d26f4f342b6e78e8/547ebc0250338952-33/s400x600/8f77216763b215d7d0b282df1261bf98f5cad3b2.gif",
+            "https://64.media.tumblr.com/4e8bc01a9ac9ad69e067dde2d6585026/tumblr_p4a11411bs1sqc1zfo2_540.gif",
+            "https://64.media.tumblr.com/cb5f7354b92af5b8aa071397d63d1c4b/tumblr_pq0zkfLzEU1r3hdhfo6_r1_540.gif",
+            "https://64.media.tumblr.com/2b7ef69e7202955034ca33c55152aeb7/tumblr_phtbb1EOnF1tvfa7io5_r1_540.gif",
+            "https://64.media.tumblr.com/318125773472498f76ea8a42b92e9d8f/tumblr_p2px5engzF1vbs9hno8_r1_400.gif",
+            "https://data.whicdn.com/images/260211507/original.gif",
+            "https://data.whicdn.com/images/260500068/original.gif",
+            "https://64.media.tumblr.com/8e8a2f0855a04fd77606ab3064cf7b3f/04598c1cb73fcf7d-75/s540x810/8315b10ae131eb6cde32044a7356bdd86ea4b8c0.gif",
+            "https://64.media.tumblr.com/214706888b0057936b0e55b584c52212/tumblr_oo5yx2cBd31vjibn5o5_400.gif",
+            "https://64.media.tumblr.com/01fddbb408950d87eb4c7ec40cfd9ed9/tumblr_p3pyazNlvA1vbs9hno1_400.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812081442632237116/0b8d4c0c-b032-4546-8547-fa7b5fe915e5.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812081760938098698/0ca6d1e2-219e-44b4-9e14-17c2dd6061e0.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812081802613227580/0d60b216-9e10-47b2-9183-306939984f45.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812082270231330886/1acc5c59-0073-46de-a84c-3f04bb85f669.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812083117564756018/2ea6aa9c-122e-4798-a6ba-cbae4c1ba0f6.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812083417125486652/3bd63f5d-5a4b-4dfe-9c8e-9d16a694263a.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812084310681059368/4e283de4-96da-43ca-8404-4d9ddbec8af1.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812084503689297920/5a4bc271-9655-4d22-8f21-37fdca40d937.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812084968426962955/5de46fb7-e8e1-495a-ac45-24d4a1194b7b.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812085067316199454/5fe3b55a-759a-45a3-8441-d5f7d0f11e44.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812085915672379412/7e379d69-d8a1-415e-93e5-4ffb27ec3c14.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/812086086046187550/08b7b665-1158-4cfe-944f-c0da6bd241c2.gif",
+            "https://giphy.com/gifs/kriswu-kris-wu-tough-pill-4QER6SJweUz7B6bitC",
+            "https://giphy.com/gifs/kriswu-november-rain-kris-wu-29oeKjE5c1oC56pWso",
+            "https://giphy.com/gifs/interscope-kris-wu-like-that-vvJmqePcGPGfnAhKYO",
+            "https://giphy.com/gifs/coffee-kriswu-chuang2020-l10O6D2H1bFjUcCu2c",
+            "https://giphy.com/gifs/wetv-kriswu-chuang2020-kYRDnIP2F7eh9k2ZYZ"]
+
+        self.bot.luhan_gif = ["https://cdn.discordapp.com/attachments/804189463277469716/812084025320669184/4c01a4b2-8fb5-453f-88df-dd52103e2962.gif",
+            "https://giphy.com/gifs/mv-luhan-promises-MBheKRryjmyfx7AKpu",
+            "https://giphy.com/gifs/coffee-luhan-kriswu-V2Tl1qJswgh1dmELaY",
+            "https://giphy.com/gifs/luhan-behindthescenes-oncall-wHmM5DiZvHHllIANU7",
+            "https://giphy.com/gifs/lu-han-3ohjV5U2Qi5tve1wQM",
+            "https://giphy.com/gifs/lu-han-3ohjV3oP3edo6sg8ww"]
+
+        self.bot.tao_gif = ["https://giphy.com/gifs/tao-huangzitao-mv-on-wetv-L54xNewWz7VAFwhr4a",
+            "https://giphy.com/gifs/dancing-tao-chuang2020-9BYTToQ0KU2JwgdUwH",
+            "https://giphy.com/gifs/tao-cpop-theroad-nqoEziPAzo3SWrXhxh",
+            "https://giphy.com/gifs/tao-chuang2020-huangzitao-lk7z31XJJJ9VOIMswX",
+            "https://giphy.com/gifs/tao-huangzitao-pandacostume-x3kC8px73ShsEgFQyn"]
+
+        self.bot.kangdaniel_gif = ["https://giphy.com/gifs/daniel-wannaone-springbreeze-t8XajwFT6rnwCOLtA3",
+            "https://giphy.com/gifs/daniel-wanna-one-kang-3fivne1HaeeQZAqku9",
+            "https://giphy.com/gifs/daniel-wanna-one-kang-pzGIx6tzXxua2iiROq",
+            "https://giphy.com/gifs/kang-daniel-3o6fJeCcEB4wU833mU",
+            "https://giphy.com/gifs/kang-daniel-l4pTrAKUcihuT7nJ6",
+            "https://giphy.com/gifs/wanna-one-kang-daniel-kpop-2vmfW4gMn05QAhATKk",
+            "https://tenor.com/view/daniel-kang-cute-heart-gif-12998497",
+            "https://tenor.com/view/kang-daniel-cute-handsome-make-face-rabbit-teeth-gif-10832990",
+            "https://tenor.com/view/wanna-one-wannable-kang-daniel-gif-11507783",
+            "https://tenor.com/view/kang-daniel-wanna-one-cry-smile-cute-gif-10327956",
+            "https://tenor.com/view/produce101-kangdaniel-produce101season2-gif-8446224",
+            "https://tenor.com/view/kang-daniel-sexy-dance-dance-gif-14259959",
+            "https://tenor.com/view/kangdaniel-gif-18175160",
+            "https://tenor.com/view/%EA%B0%95%EB%8B%A4%EB%8B%88%EC%97%98-%EA%B0%95%EC%9D%98%EA%B1%B4-%EC%86%90%ED%95%98%ED%8A%B8-%ED%95%98%ED%8A%B8-%EB%AF%B8%EC%86%8C-gif-11346968",
+            "https://tenor.com/view/%EA%B0%95%EB%8B%A4%EB%8B%88%EC%97%98-%EB%B8%8C%EC%9D%B4-%ED%8F%AC%EC%A6%88-%EB%AF%B8%EC%86%8C-%EA%B7%80%EC%97%AC%EC%9A%B4-gif-11346998",
+            "https://tenor.com/view/ka-wanna-one-kang-daniel-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633990",
+            "https://tenor.com/view/kang-daniel-hair-flip-fresh-im-pretty-smile-gif-10418383",
+            "https://tenor.com/view/good-night-kiss-love-gif-12598323",
+            "https://tenor.com/view/wanna-one-kang-daniel-dance-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633988",
+            "https://tenor.com/view/kang-daniel-daniel-daniel-kang-wanna-one-kang-daniel-my-beloved-gif-19780561"]
+
+        self.bot.sunmi_gif = ["https://gfycat.com/aggressiveobeseannelida-miya-ne-sunmi-cute-kpop-hot",
+            "https://gfycat.com/adorablespotlesscockatiel",
+            "https://gfycat.com/bestselfassurediriomotecat-sunmi",
+            "https://gfycat.com/clearelaborateamphiuma-lee-sunmi-gashina-heroine-siren-vlive",
+            "https://gfycat.com/creamydevotedhippopotamus",
+            "https://gfycat.com/frailagreeableairedaleterrier",
+            "https://gfycat.com/querulouscomfortablehypacrosaurus",
+            "https://gfycat.com/sameorganicgoldenmantledgroundsquirrel-sunmi",
+            "https://gfycat.com/handyremotebovine-pporappippam-sunmi-kpop-solo",
+            "https://gfycat.com/webbeddefensiveblesbok",
+            "https://gfycat.com/valuablefarandeancondor",
+            "https://gfycat.com/cheerynastyguillemot-lalalay-sunmi",
+            "https://gfycat.com/crazycommoncranefly",
+            "https://gfycat.com/delayedhonestandeancat-sunmi",
+            "https://gfycat.com/flatshowygrizzlybear",
+            "https://gfycat.com/diligentmilkyfeline-sunmi",
+            "https://gfycat.com/heartyserpentinebull",
+            "https://gfycat.com/glamorousantiquecuckoo-sunmi",
+            "https://gfycat.com/generousaliveaztecant",
+            "https://gfycat.com/equatorialthornyhammerheadbird-lee-sunmi-miyayeah-korean-miyane-kpop",
+            "https://gfycat.com/equatorialcapitaladdax-lalalay-sunmi",
+            "https://gfycat.com/inconsequentialvainblacklab"]
+
+        self.bot.yubin_gif = ["https://78.media.tumblr.com/be13e6f73e9b9ca358fa421432a2c83a/tumblr_p9v2d7MMvM1wfmyhto2_540.gif",
+            "https://78.media.tumblr.com/76b2b0202c1563bd6839030659e147d1/tumblr_p9v2d7MMvM1wfmyhto3_540.gif",
+            "https://gfycat.com/timelybriefbarebirdbat-wonder-girls-kpics",
+            "https://gfycat.com/browncolorfuladmiralbutterfly-kpopgfys-europe",
+            "https://gfycat.com/aromaticelasticankolewatusi",
+            "https://64.media.tumblr.com/370eff3f3bd7edbdfeb9820517d2437b/tumblr_pkgrqcEiBN1xy0u4ko7_400.gifv",
+            "https://i.pinimg.com/originals/5d/c5/d5/5dc5d582c2b37126c3f4718aac1e66bf.gif",
+            "https://78.media.tumblr.com/99f335d067f425e4b4fe3e78a881fd8a/tumblr_p9seia7vdb1urmyjyo6_r1_500.gif",
+            "https://66.media.tumblr.com/ecf1fdfddfe263763122163dcc6d7d12/tumblr_pitu6iy92L1sy8x5ho1_500.gif"]
+
+        self.bot.rothy_gif = ["https://gfycat.com/actualfreeasianlion-k-culture-korean-music-mv-music-video-k-pop-kpop-myubi-myujigbidio",
+            "https://gfycat.com/ashamedclosedgallinule-beauty",
+            "https://gfycat.com/baggysleepydiplodocus-beauty",
+            "https://gfycat.com/coldsilveramethystinepython",
+            "https://gfycat.com/desertedcoarseiberianchiffchaff-beauty",
+            "https://gfycat.com/smoothniceamazondolphin",
+            "https://gfycat.com/belatedcolorlessdoe-rothy",
+            "https://gfycat.com/uncommondisastrousdegu",
+            "https://gfycat.com/artisticpepperyeidolonhelvum",
+            "https://gfycat.com/calculatingcourageouscardinal",
+            "https://gfycat.com/coordinatedblushingdevilfish-beauty-small-kpop-cute",
+            "https://gfycat.com/colorfulbreakableibisbill",
+            "https://gfycat.com/weakspryaustraliankelpie",
+            "https://gfycat.com/feistyunhealthyconey",
+            "https://gfycat.com/velvetyfrankgrayreefshark-mechabear-kpop",
+            "https://gfycat.com/thinhonorablebeardedcollie-rothy-kpop-bee",
+            "https://gfycat.com/dapperverifiableape-rothy-kpop-bee",
+            "https://gfycat.com/decimalrigidinexpectatumpleco",
+            "https://gfycat.com/decisiverecentabalone-mechabear-rothy-kpop",
+            "https://gfycat.com/incredibletallgrayfox-mechabear-rothy-kpop",
+            "https://gfycat.com/infinitegroundedargali",
+            "https://gfycat.com/rectangularhotherculesbeetle",
+            "https://gfycat.com/realisticembarrassedcoypu",
+            "https://gfycat.com/thatrapidherald-rothy-kpop-bee",
+            "https://gfycat.com/pinkloneeskimodog-rothy-kpop-bee",
+            "https://gfycat.com/giganticliveindianglassfish-mechabear-singer-rothy-kpop",
+            "https://gfycat.com/actualrealherring-rothy-kpop-bee",
+            "https://gfycat.com/sophisticateddisastrousargentineruddyduck-mechabear-kpop",
+            "https://gfycat.com/terribletemptingearthworm-mechabear-kpop",
+            "https://gfycat.com/uneveninfamouseelelephant-rothy",
+            "https://gfycat.com/acrobaticenragediberianmidwifetoad",
+            "https://gfycat.com/impeccabletartfalcon",
+            "https://gfycat.com/wellinformedbrilliantazurevase-mechabear-kpop",
+            "https://gfycat.com/chillyshrillhydra",
+            "https://gfycat.com/faintspeedyboto-rothy-kpop-bee",
+            "https://gfycat.com/slowfatindigobunting-mechabear-kpop",
+            "https://gfycat.com/welltodoquarrelsomegoldenmantledgroundsquirrel",
+            "https://thumbs.gfycat.com/FamousColdDalmatian-max-1mb.gif",
+            "https://pa1.narvii.com/6944/3f03a00960e34cc4f88c0601573d3cca2e009ca7r1-268-350_hq.gif",
+            "https://64.media.tumblr.com/684d6f0050c76f36c7dc7102b390611a/tumblr_psv1p683G81y48sr6o1_250.gif",
+            "https://64.media.tumblr.com/124f8c7a70a4056680b555d1c0d810e7/tumblr_p9ncynsmSq1uk0y4po5_400.gif",
+            "https://thumbs.gfycat.com/VigorousThirdCommongonolek-size_restricted.gif",
+            "https://64.media.tumblr.com/7ee4e1873a142f4bdeb6c29c181b9318/fcb6a1a1200701c2-65/s400x600/502810f4f4514b3afd73dfb215ab92ba7a48885c.gif",
+            "https://64.media.tumblr.com/2adf593ba0efc9e237663c37e63a4c65/tumblr_psp3pb1NFb1xw84pqo3_250.gif",
+            "https://imgur.com/YQFIcie",
+            "https://imgur.com/8yc402e"]
 
     @commands.command()
     async def natty(self, ctx):
@@ -375,6 +535,121 @@ class SoloPings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
             await ctx.send(random.choice(self.bot.taemin_gif))
             await ctx.message.delete()
+
+    @commands.command()
+    async def woodz(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [WOODZ | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about WOODZ :heart:')
+            await ctx.send(random.choice(self.bot.woodz_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def kris(self, ctx, arg = "wu"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Kris Wu | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "wu":
+            if ctx.guild.id == luminary and channel != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Kris Wu :heart:')
+                await ctx.send(random.choice(self.bot.kriswu_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def luhan(self, ctx): 
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Luhan | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Luhan :heart:')
+            await ctx.send(random.choice(self.bot.luhan_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def tao(self, ctx): 
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Tao | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Tao :heart:')
+            await ctx.send(random.choice(self.bot.tao_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def kang(self, ctx, arg = "dan"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Kang Daniel | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "daniel":
+            if ctx.guild.id == luminary and channel != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Kang Daniel :heart:')
+                await ctx.send(random.choice(self.bot.kangdaniel_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def sunmi(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Sunmi | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sunmi :heart:')
+            await ctx.send(random.choice(self.bot.sunmi_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def yubin(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Yubin | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yubin :heart:')
+            await ctx.send(random.choice(self.bot.yubin_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def rothy(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Rothy | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and channel != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Rothy :heart:')
+            await ctx.send(random.choice(self.bot.rothy_gif))
+            await ctx.message.delete()
+
 
 def setup(client):
     client.add_cog(SoloPings(client))
