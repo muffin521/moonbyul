@@ -203,7 +203,10 @@ class weeekly(commands.Cog):
             "https://gfycat.com/leadinghiddenindiancow",
             "https://gfycat.com/tiredagreeableastrangiacoral",
             "https://gfycat.com/lankysnarlingbream",
-            "https://gfycat.com/deepwarmhearteddiscus"]
+            "https://gfycat.com/deepwarmhearteddiscus",
+            "https://gfycat.com/abandonedmassivegangesdolphin",
+            "https://gfycat.com/accomplishedfatharrierhawk",
+            "https://gfycat.com/kaleidoscopicwhimsicalbassethound"]
 
         self.bot.weeekly_zoa_gif = ["https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075317947203634/ZOA2.gif",
