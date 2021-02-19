@@ -213,8 +213,34 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/taemin-shinee-superm-idea-mv-gif-19128526",
             "https://tenor.com/view/taemin-shinee-superm-idea-kpop-gif-19128572",
             "https://tenor.com/view/taemin-shinee-superm-dance-idea-gif-19128635",
-            "https://tenor.com/view/taemin-shinee-superm-comeback-idea-gif-19128539"]
-        #
+            "https://tenor.com/view/taemin-shinee-superm-comeback-idea-gif-19128539",
+            "https://tenor.com/view/taemin-shinee-kpop-snorting-lee-gif-17506772",
+            "https://tenor.com/view/shinee-taemin-kpop-heart-cute-gif-9591707",
+            "https://tenor.com/view/shinee-taemin-kpop-love-hearts-gif-11162284",
+            "https://gfycat.com/acclaimedcoarsegorilla",
+            "https://tenor.com/view/cry-taemin-shinee-gif-7394551",
+            "https://tenor.com/view/taemin-shinee-sleepy-tired-sleep-gif-10995497",
+            "https://tenor.com/view/taemin-shinee-kpop-korean-ice-cream-gif-7371003",
+            "https://tenor.com/view/lee-taemin-shinee-taemin-taemin-smile-gif-14850280",
+            "https://tenor.com/view/taemin-tae-gif-18422308",
+            "https://tenor.com/view/shinee-move-taemin-lee-taemin-dance-gif-16006886",
+            "https://tenor.com/view/shinee-taemin-lee-taemin-taemin-gif-14850283",
+            "https://tenor.com/view/taetaemin-gif-18433463",
+            "https://tenor.com/view/taemin-tae-gif-18422310",
+            "https://tenor.com/view/taemin-shinee-okay-smile-smiling-gif-8173054",
+            "https://tenor.com/view/taemin-sexy-taemin-tae-gif-18346817",
+            "https://tenor.com/view/taemin-tae-gif-18368806",
+            "https://tenor.com/view/taemin-shinee-lee-taemin-superm-kpop-gif-16653977",
+            "https://tenor.com/view/taemin-gif-20067233",
+            "https://tenor.com/view/taemin-heart-gif-19902456",
+            "https://tenor.com/view/taemin-bored-gif-19902443",
+            "https://tenor.com/view/taemin-you-gif-19902437",
+            "https://tenor.com/view/faeteez-shinee-taemin-taemin-eating-taemin-cute-gif-19946084",
+            "https://tenor.com/view/faeteez-taemin-taemin-cute-taemin-hot-shinee-gif-19943749",
+            "https://cdn.discordapp.com/attachments/811453123267657739/812084794740572200/5c1110a3-d35d-4970-8f70-d1c2397bad7c.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/812085464135761920/6eb3220e-aa85-415b-b31b-c3e80ab42088.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif"]
+
 
     @commands.command()
     async def natty(self, ctx):
@@ -333,6 +359,10 @@ class SoloPings(commands.Cog):
 
     @commands.command()
     async def taemin(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Taemin | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
