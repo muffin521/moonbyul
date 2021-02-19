@@ -194,7 +194,11 @@ class SoloPings(commands.Cog):
             "https://1.bp.blogspot.com/-k8KSOGed53Y/XxWqknMHmpI/AAAAAAABUlQ/kAQMBRUCZToIBM-bykS4LaGKe_QC2ZJeACLcBGAsYHQ/s1600/Honeycam%2B10796.gif",
             "https://64.media.tumblr.com/31ad864e8991c877bb429cf82702ce89/97727d9235cf894a-84/s500x750/263b3d9c4b5ee56f5f2679a9e912c905a4a6186e.gif",
             "https://thumbs.gfycat.com/InfantileFloweryIridescentshark-size_restricted.gif",
-            "https://thumbs.gfycat.com/RequiredAngelicLark-max-1mb.gif"]
+            "https://thumbs.gfycat.com/RequiredAngelicLark-max-1mb.gif",
+            "https://gfycat.com/belatedwaryaplomadofalcon",
+            "https://gfycat.com/definitearcticcommongonolek",
+            "https://gfycat.com/pessimisticlategrebe",
+            "https://gfycat.com/agiletanaustraliankelpie"]
 
         self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
             "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
