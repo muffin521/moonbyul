@@ -180,7 +180,13 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/shyoilyamericanlobster",
             "https://gfycat.com/limitedmiserlycrossbill",
             "https://gfycat.com/fakedistantasianconstablebutterfly",
-            "https://gfycat.com/NeatValuableDipper"]
+            "https://gfycat.com/NeatValuableDipper",
+            "https://gfycat.com/lividdimpledaustraliancurlew",
+            "https://gfycat.com/rewardingfrankangora",
+            "https://gfycat.com/heartycarefreeagama",
+            "https://gfycat.com/splendidquerulouschuckwalla",
+            "https://gfycat.com/aptdirtyguanaco",
+            "https://gfycat.com/flowerydearestantbear"]
 
         self.bot.yeojin_gif = ["https://tenor.com/view/yeojin-loona-star-gif-19239212",
             "https://tenor.com/view/glasses-loona-yeojin-cute-gif-14375086",
@@ -362,7 +368,8 @@ class LoonaPings(commands.Cog):
             "https://i.pinimg.com/originals/5b/4b/0c/5b4b0c6e5e620a25101c8c849ce4b4d6.gif",
             "https://i.pinimg.com/originals/ba/a7/ea/baa7eaebd16ddc3b2490232523655347.gif",
             "https://64.media.tumblr.com/dba3e19e2b17bf90f76ecc5720bc1d3d/86ff17a81a7186f2-70/s250x400/13c923b7950a216fc61bf306fcfcdc4577857ff2.gif",
-            "https://media.discordapp.net/attachments/725380066573418628/807066936055562280/Choerydance.gif"]
+            "https://media.discordapp.net/attachments/725380066573418628/807066936055562280/Choerydance.gif",
+            "https://media1.tenor.com/images/72d878e03b6818fae91eb80c27c19260/tenor.gif?itemid=16511637"]
         
         self.bot.yves_gif = ["https://tenor.com/view/yves-loona-fainting-jail-kpop-gif-18490526",
             "https://tenor.com/view/loona-whynot-yves-gif-18911743",
@@ -725,7 +732,7 @@ class LoonaPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Loona {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Loona {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "heejin":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
@@ -890,7 +897,7 @@ class LoonaPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Chuu {heart}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Chuu {heart}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if heart == "heart":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to #bot-commands', delete_after=2)
