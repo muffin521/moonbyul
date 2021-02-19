@@ -12,6 +12,7 @@ sadboi = 642497143801905190
 kbotcom = 764610881513324574
 
 #//people
+mae = 492769416610840586
 
 
 class SoloPings(commands.Cog):
@@ -95,8 +96,35 @@ class SoloPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/804451692677693511/804477697362362368/56434886-d12e-49e0-962b-75dbc006a587.gif",
             "https://cdn.discordapp.com/attachments/804451692677693511/804477697896087582/3098ada8-176d-4cc7-a8bb-267af97d60cc.gif",
             "https://cdn.discordapp.com/attachments/804451692677693511/804477699430547496/b0fc597f-0ac1-43df-8af5-e9ff3dbc596f.gif",
-            "https://cdn.discordapp.com/attachments/804451692677693511/804477699891527720/db501538-9150-4428-a7d5-209888cce00e.gif"]
-        
+            "https://cdn.discordapp.com/attachments/804451692677693511/804477699891527720/db501538-9150-4428-a7d5-209888cce00e.gif",
+            "https://64.media.tumblr.com/ceb281a838bf89bee827a7ba61ce00fa/9a13826b46307259-c1/s540x810/00e0b3643d72bacc6ac798383d435132689284f2.gif",
+            "https://64.media.tumblr.com/450d2de39b2f923757a6c670c4c585a7/73c4dfe08b926a30-d8/s400x600/bef0d427c69bdf5f4a95f741f5cd4f0fbef27c34.gif",
+            "https://64.media.tumblr.com/50fb4bc127f691524d6f1cff2aa518ed/7cafdf91d086b09d-12/s400x600/266b6e6e194b5e8c8ccd766615dcc1a88837a888.gif",
+            "https://64.media.tumblr.com/f21f48ffcef8c2bc903841f7e603aa4b/479c6aa3c0d1aef7-a5/s400x600/37e3af7f8b33222855a1de8a74df59a68a7c3525.gif",
+            "https://64.media.tumblr.com/709faead3e611a97ecffd6d2b68f7913/7ae1ef65d09f0de4-ff/s400x600/1c3a3b453f754e2d499c887799ecdccf9c29788c.gif",
+            "https://64.media.tumblr.com/6af4fb0d0848774a8ecfba0f7c073430/1d14a4a538c2095a-f0/s400x600/a47880934c52357cf24499400c30403acb499074.gif",
+            "https://64.media.tumblr.com/b78ab8e07cc0d47f520d94a88ab3c49d/af7cee881d5fecac-f3/s250x400/41a87cdca5fe569ee5d5286d1798597d0f11d212.gif",
+            "https://64.media.tumblr.com/aec19a270a09eb4e901b76c2e3807dea/tumblr_pkpbxbYhDS1xkto34o1_r1_400.gif",
+            "https://64.media.tumblr.com/5c93b325d55333f746f7db8a66cda773/tumblr_p3j2exURUl1tkcvkjo6_250.gif",
+            "https://64.media.tumblr.com/bd7eeceb614e1d8080e54f4f3355d195/4e1c15cbcd941152-a6/s400x600/d053cfd910e7b8dff86ff5158b4ef0febc8da970.gif",
+            "https://64.media.tumblr.com/649d36111e5693fb38a4be6fc756bd2c/tumblr_plnfu7fmm81sq4dzzo2_250.gif",
+            "https://64.media.tumblr.com/53337dd1df7e8576fa827d3f3635b12d/tumblr_pl75btdU1V1rwdw1wo6_250.gif",
+            "https://64.media.tumblr.com/f83edab890c80579d17302d57e8c63bc/tumblr_pjwop9sTkD1swg2mjo1_250.gif",
+            "https://64.media.tumblr.com/e8087df1bc67a782af4ed290e332dd18/tumblr_pbrewuqYfa1tkcvkjo2_400.gif",
+            "https://64.media.tumblr.com/0facf3fede68d080217cc7306c2a7856/c52f8bc2eae22946-80/s400x600/3be992b1fb86436206b2557df464f6c054aa3914.gif",
+            "https://64.media.tumblr.com/c14beb8e90e1b8f852562d12f768b7dc/2533bd52329a6eec-bf/s400x600/95f2267777c96b7b5126cdf2823b421614a54682.gif",
+            "https://64.media.tumblr.com/46278f01fd37e7e44cd5ad4e8ab92dff/2533bd52329a6eec-a7/s400x600/f10c0cd92b868e78aa4dd33ce91a8020c4e0fb90.gif",
+            "https://64.media.tumblr.com/e23d7cb7f40273b2309b944680a5a9dc/tumblr_pn3skyViLA1w8gxaso3_250.gif",
+            "https://64.media.tumblr.com/da2fd031461f2d889bb3f9f8a10a2666/tumblr_piwzmdosoc1xx74t1o4_250.gif",
+            "https://tenor.com/view/chungha-chungha-eat-chungha-staring-chungha-look-stare-gif-19318960",
+            "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521258",
+            "https://tenor.com/view/kim-chungha-chungha-smile-cute-gif-13261334",
+            "https://tenor.com/view/chungha-kim-chungha-kpop-cute-pretty-gif-16521273",
+            "https://gfycat.com/ablefailingcreature",
+            "https://gfycat.com/adorablemeatyaphid",
+            "https://gfycat.com/gloriousmeageraxolotl-chung-ha",
+            "https://gfycat.com/informalphonyibadanmalimbe"]
+
         self.bot.iu_gif = ["https://tenor.com/view/iu-fighting-cute-celeb-alarm-gif-16215337",
             "https://tenor.com/view/iu-meh-cute-annoyed-gif-14687766",
             "https://tenor.com/view/iu-lee-jieun-cute-cf-pout-gif-16660666",
@@ -133,7 +161,10 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-lee-jieun-kpop-pretty-cute-gif-17078417",
             "https://tenor.com/view/iu-wink-cute-celebrity-album-gif-20152965",
             "https://tenor.com/view/iu-celebrity-dance-album-jieun-gif-20152802",
-            "https://tenor.com/view/iu-celebrity-red-dress-album-gif-20152803"]
+            "https://tenor.com/view/iu-celebrity-red-dress-album-gif-20152803",
+            "https://gfycat.com/adorablekeychinchilla",
+            "https://gfycat.com/alertredamethystsunbird",
+            "https://gfycat.com/aggravatingparchedchupacabra"]
 
         self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
@@ -153,8 +184,36 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/yukika-gif-19463874",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
             "https://gfycat.com/SpiffyFavoriteArmyworm",
-            "https://gfycat.com/RigidSphericalEuropeanfiresalamander"]
+            "https://gfycat.com/RigidSphericalEuropeanfiresalamander",
+            "https://i.pinimg.com/originals/0b/0b/31/0b0b315c176117a296910d69bcf41146.gif",
+            "https://i.pinimg.com/originals/3b/26/f6/3b26f68951c1c5576628e0e8015e8c12.gif",
+            "https://i.pinimg.com/originals/6b/bd/5d/6bbd5d27369192d5a71a79aa13e911a5.gif",
+            "https://i.pinimg.com/originals/6a/e7/bd/6ae7bd9b715bf85a507f7f6dbbe8aa3f.gif",
+            "https://i.pinimg.com/originals/c1/8e/77/c18e777ba3fe27b6d3965fe6f7551122.gif",
+            "https://64.media.tumblr.com/278d65f119fd70c1f243bf97e209b013/tumblr_pnof7z2O2W1vbuvbno4_250.gif",
+            "https://1.bp.blogspot.com/-k8KSOGed53Y/XxWqknMHmpI/AAAAAAABUlQ/kAQMBRUCZToIBM-bykS4LaGKe_QC2ZJeACLcBGAsYHQ/s1600/Honeycam%2B10796.gif",
+            "https://64.media.tumblr.com/31ad864e8991c877bb429cf82702ce89/97727d9235cf894a-84/s500x750/263b3d9c4b5ee56f5f2679a9e912c905a4a6186e.gif",
+            "https://thumbs.gfycat.com/InfantileFloweryIridescentshark-size_restricted.gif",
+            "https://thumbs.gfycat.com/RequiredAngelicLark-max-1mb.gif"]
 
+        self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
+            "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
+            "https://tenor.com/view/taemin-shinee-kpop-shirtless-concert-gif-5097931",
+            "https://tenor.com/view/shinee-taemin-kpop-gif-7235119",
+            "https://tenor.com/view/taemin-lee-taemin-shinee-taemin-shinee-taemin-want-gif-15037342",
+            "https://tenor.com/view/shinee-kpop-taemin-hmpf-pout-gif-11162331",
+            "https://tenor.com/view/lee-taemin-taemin-shinee-kpop-cute-gif-16445806",
+            "https://tenor.com/view/lee-taemin-taemin-lee-shinee-serious-taemin-shinee-gif-15134301",
+            "https://tenor.com/view/taemin-tae-gif-18347164",
+            "https://tenor.com/view/taemin-korean-kpop-gif-10431117",
+            "https://tenor.com/view/taemin-idea-shinee-superm-kpop-gif-19128665",
+            "https://tenor.com/view/taemin-idea-shinee-superm-kpop-gif-19128560",
+            "https://tenor.com/view/taemin-idea-kpop-shinee-superm-gif-19128548",
+            "https://tenor.com/view/taemin-shinee-superm-idea-kpop-gif-19128613",
+            "https://tenor.com/view/taemin-shinee-superm-idea-mv-gif-19128526",
+            "https://tenor.com/view/taemin-shinee-superm-idea-kpop-gif-19128572",
+            "https://tenor.com/view/taemin-shinee-superm-dance-idea-gif-19128635",
+            "https://tenor.com/view/taemin-shinee-superm-comeback-idea-gif-19128539"]
         #
 
     @commands.command()
@@ -162,7 +221,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Natty | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Natty | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
@@ -181,7 +240,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [AleXa | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [AleXa | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
@@ -200,7 +259,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Chung Ha | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Chung Ha | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "ha":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
@@ -220,7 +279,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [IU | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [IU | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
@@ -239,7 +298,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Somi | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Somi | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
@@ -258,7 +317,7 @@ class SoloPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Yukika | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Yukika | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
@@ -270,6 +329,21 @@ class SoloPings(commands.Cog):
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
             await ctx.send(random.choice(self.bot.yukika_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def taemin(self, ctx):
+        if ctx.guild.id == luminary:
+            if ctx.channel.id == kbotcom:
+                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
+                await ctx.send(random.choice(self.bot.taemin_gif))
+                await ctx.message.delete()
+            else:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
+            await ctx.send(random.choice(self.bot.taemin_gif))
             await ctx.message.delete()
 
 def setup(client):

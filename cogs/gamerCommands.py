@@ -133,7 +133,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/whimsicalsimilarannashummingbird",
             "https://gfycat.com/silkyparchedgrayreefshark",
             "https://gfycat.com/weeklyshabbyindianskimmer",
-            "https://gfycat.com/bestcompassionateleafwing"]
+            "https://gfycat.com/bestcompassionateleafwing",
+            "https://tenor.com/view/chungha-chungha-eat-chungha-staring-chungha-look-stare-gif-19318960"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
