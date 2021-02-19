@@ -198,7 +198,10 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/belatedwaryaplomadofalcon",
             "https://gfycat.com/definitearcticcommongonolek",
             "https://gfycat.com/pessimisticlategrebe",
-            "https://gfycat.com/agiletanaustraliankelpie"]
+            "https://gfycat.com/agiletanaustraliankelpie",
+            "https://gfycat.com/rectangularskeletalatlanticblackgoby",
+            "https://gfycat.com/impartialillamethystinepython",
+            "https://gfycat.com/biodegradableinsignificantarchaeocete"]
 
         self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
             "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
@@ -405,6 +408,16 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/2adf593ba0efc9e237663c37e63a4c65/tumblr_psp3pb1NFb1xw84pqo3_250.gif",
             "https://imgur.com/YQFIcie",
             "https://imgur.com/8yc402e"]
+
+        self.bot.hyuna_gif = ["https://tenor.com/view/hyuna-lipnhip-gif-10531483",
+            "https://tenor.com/view/kpop-soloist-hyuna-wink-smile-gif-15591705",
+            "https://tenor.com/view/hyuna-gif-8262788",
+            "https://tenor.com/view/kpop-soloist-khh-hyuna-flip-hair-gif-14692978",
+            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-bleh-gif-15063282",
+            "https://tenor.com/view/hyuna-kpop-fix-hair-gif-13407251",
+            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-tired-gif-15063284",
+            "https://cdn.discordapp.com/attachments/807685485144178698/807686829544833084/image0.gif",
+            "https://gfycat.com/AlarmedBronzeAndalusianhorse"]
 
     @commands.command()
     async def natty(self, ctx):
@@ -652,6 +665,16 @@ class SoloPings(commands.Cog):
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Rothy :heart:')
             await ctx.send(random.choice(self.bot.rothy_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def hyuna(self, ctx):
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
+            await ctx.send(random.choice(self.bot.hyuna_gif))
             await ctx.message.delete()
 
 

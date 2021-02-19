@@ -365,15 +365,6 @@ class GGS(commands.Cog):
             "https://tenor.com/view/xuanyi-wjsn-cosmic-girls-gif-10949761",
             "https://tenor.com/view/xuanyi-cosmic-girls-wjsn-gif-10304350",
             "https://tenor.com/view/xuan-yi-wjsn-k-pop-cosmic-girls-gif-11474789"]
-    #. soloists
-        self.bot.hyuna_gif = ["https://tenor.com/view/hyuna-lipnhip-gif-10531483",
-            "https://tenor.com/view/kpop-soloist-hyuna-wink-smile-gif-15591705",
-            "https://tenor.com/view/hyuna-gif-8262788",
-            "https://tenor.com/view/kpop-soloist-khh-hyuna-flip-hair-gif-14692978",
-            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-bleh-gif-15063282",
-            "https://tenor.com/view/hyuna-kpop-fix-hair-gif-13407251",
-            "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-tired-gif-15063284",
-            "https://cdn.discordapp.com/attachments/807685485144178698/807686829544833084/image0.gif"]
     #. end of gifs
 
     @commands.command()
@@ -643,16 +634,6 @@ class GGS(commands.Cog):
                 await ctx.message.delete()
 
     
-
-    @commands.command()
-    async def hyuna(self, ctx):
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
-            await ctx.send(random.choice(self.bot.hyuna_gif))
-            await ctx.message.delete()
 
     
 
