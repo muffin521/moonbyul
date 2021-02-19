@@ -201,7 +201,17 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/agiletanaustraliankelpie",
             "https://gfycat.com/rectangularskeletalatlanticblackgoby",
             "https://gfycat.com/impartialillamethystinepython",
-            "https://gfycat.com/biodegradableinsignificantarchaeocete"]
+            "https://gfycat.com/biodegradableinsignificantarchaeocete",
+            "https://gfycat.com/scratchyniceeft",
+            "https://gfycat.com/educatedclutteredcougar",
+            "https://gfycat.com/givingbowedblackandtancoonhound",
+            "https://gfycat.com/blackfemininekagu",
+            "https://gfycat.com/lazyunimportanthoiho",
+            "https://gfycat.com/fondwanhydra",
+            "https://gfycat.com/organicforsakenhapuku",
+            "https://gfycat.com/dimgreedyafricangroundhornbill",
+            "https://gfycat.com/niftyunacceptablehoneyeater",
+            "https://gfycat.com/frayedtidyarawana"]
 
         self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
             "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
@@ -327,7 +337,10 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/kang-daniel-hair-flip-fresh-im-pretty-smile-gif-10418383",
             "https://tenor.com/view/good-night-kiss-love-gif-12598323",
             "https://tenor.com/view/wanna-one-kang-daniel-dance-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633988",
-            "https://tenor.com/view/kang-daniel-daniel-daniel-kang-wanna-one-kang-daniel-my-beloved-gif-19780561"]
+            "https://tenor.com/view/kang-daniel-daniel-daniel-kang-wanna-one-kang-daniel-my-beloved-gif-19780561",
+            "https://tenor.com/view/kang-daniel-cute-%EA%B0%95%EB%8B%A4%EB%8B%88%EC%97%98-%E5%A7%9C%E4%B8%B9%E5%B0%BC%E5%B0%94-daniel-kang-gif-14259804",
+            "https://tenor.com/view/kang-daniel-wannaone-gif-10413734",
+            "https://tenor.com/view/wanna-one-kang-daniel-smile-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633998"]
 
         self.bot.sunmi_gif = ["https://gfycat.com/aggressiveobeseannelida-miya-ne-sunmi-cute-kpop-hot",
             "https://gfycat.com/adorablespotlesscockatiel",
@@ -350,7 +363,8 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/generousaliveaztecant",
             "https://gfycat.com/equatorialthornyhammerheadbird-lee-sunmi-miyayeah-korean-miyane-kpop",
             "https://gfycat.com/equatorialcapitaladdax-lalalay-sunmi",
-            "https://gfycat.com/inconsequentialvainblacklab"]
+            "https://gfycat.com/inconsequentialvainblacklab",
+            "https://64.media.tumblr.com/9887e85fe7153210e1eb4952d5f24ddb/77fe2d58c321773c-ad/s2048x3072_c0,7778,100000,91944/d288e1e039ce0a72f0f6cd4e75f89bab8d7bd85b.gif"]
 
         self.bot.yubin_gif = ["https://78.media.tumblr.com/be13e6f73e9b9ca358fa421432a2c83a/tumblr_p9v2d7MMvM1wfmyhto2_540.gif",
             "https://78.media.tumblr.com/76b2b0202c1563bd6839030659e147d1/tumblr_p9v2d7MMvM1wfmyhto3_540.gif",
@@ -417,7 +431,25 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/hyuna-kpop-fix-hair-gif-13407251",
             "https://tenor.com/view/kim-hyuna-hyuna-kpop-wonder-girls-tired-gif-15063284",
             "https://cdn.discordapp.com/attachments/807685485144178698/807686829544833084/image0.gif",
-            "https://gfycat.com/AlarmedBronzeAndalusianhorse"]
+            "https://gfycat.com/AlarmedBronzeAndalusianhorse",
+            "https://data.whicdn.com/images/302898652/original.gif",
+            "https://i.pinimg.com/originals/f7/20/12/f72012fa70cf4671a70c45108637aa62.gif",
+            "https://data.whicdn.com/images/298835380/original.gif",
+            "https://64.media.tumblr.com/cd8345ca5b35caf1f319ea4dda66ba34/84b4f8c7f683452d-03/s500x750/86690aaf7587bd9c37ce44b269c043ab49692d6d.gif",
+            "https://thumbs.gfycat.com/DevotedTartEgret-size_restricted.gif",
+            "https://s12.favim.com/gif_previews/7/717/7171/71716/7171698.gif",
+            "http://25.media.tumblr.com/88e10afee358cb33d10d904ab6bcc1cf/tumblr_mi8yi3tRb81qbcw96o2_250.gif",
+            "http://24.media.tumblr.com/tumblr_mc9t4cna3D1rhhm87o1_500.gif",
+            "https://64.media.tumblr.com/43ff84183a76645d4202548070fb6917/tumblr_inline_pk09j0Lw5g1r0vev1_640.gif",
+            "https://0.soompi.io/wp-content/uploads/2017/12/09042558/hyuna-crazy.gif",
+            "https://i.gifer.com/LFZI.gif",
+            "https://media.tenor.com/images/6bcc2f35d849e5a14d5649fe86ffce3a/tenor.gif",
+            "https://64.media.tumblr.com/5bec5c4efea21163e5bebc0f3d8770a2/bf48312292811850-93/s540x810/8738dafe77f0838358fe597d0ab592d4ccf5c9d6.gif",
+            "https://data.whicdn.com/images/317165671/original.gif",
+            "https://64.media.tumblr.com/6006fc102d0a577e110435b293dd6e16/tumblr_oy0yj6bRvZ1r7qnpao3_400.gif",
+            "https://pa1.narvii.com/5744/62ad0a5f193311ebb6a841fdacae47aef07a3dae_hq.gif",
+            "https://gifimage.net/wp-content/uploads/2017/10/hyuna-gif-11.gif",
+            "https://67.media.tumblr.com/8f1ddb4561bb2978018a24cbb2698b52/tumblr_n9fbf9ooBD1tf6m14o1_500.gif"]
 
     @commands.command()
     async def natty(self, ctx):
