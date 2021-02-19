@@ -142,7 +142,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/blissfulimpartialcobra-blackpink-adorable-jennie-cute",
             "https://gfycat.com/acidicunknownblacklab-beauty",
             "https://thumbs.gfycat.com/TartBabyishHorse-max-1mb.gif",
-            "https://tenor.com/view/sip-tea-sips-tea-sipping-tea-tea-not-my-problem-gif-17953668"]
+            "https://tenor.com/view/sip-tea-sips-tea-sipping-tea-tea-not-my-problem-gif-17953668",
+            "https://gfycat.com/cheeryfatherlyjerboa-oh-my-girl-kpop-yooa-dsl"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

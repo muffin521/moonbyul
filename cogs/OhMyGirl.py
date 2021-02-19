@@ -64,7 +64,8 @@ class OhMyGirl(commands.Cog):
             "https://giphy.com/gifs/O4ijB9LRCEoooUPEkI",
             "https://giphy.com/gifs/LXcTNZZQUA3BKGJATM",
             "https://giphy.com/gifs/vUd4g8HpiqPhq8d8S2",
-            "https://giphy.com/gifs/OSqLtOHD6CzhXHHSyb"]
+            "https://giphy.com/gifs/OSqLtOHD6CzhXHHSyb",
+            "https://gfycat.com/neglectedspitefulasianwaterbuffalo"]
 
         self.bot.ohmygirl_binnie_gif = ["https://gfycat.com/sadlonegalapagosdove",
             "https://tenor.com/view/oh-my-girl-kpop-hi-wave-binnie-gif-15821110",
@@ -157,7 +158,24 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/mimi-ohmygirl-windyday-gif-6083154",
             "https://tenor.com/view/ohmygirl-mimi-gif-6083155",
             "https://tenor.com/view/mimi-birthday-mimi-mimi-omg-mimi-oh-my-girl-oh-my-girl-gif-19911544",
-            "https://tenor.com/view/mimi-mimi-oh-my-girl-omg-oh-my-girl-mimi-kim-mihyun-gif-19911077"]
+            "https://tenor.com/view/mimi-mimi-oh-my-girl-omg-oh-my-girl-mimi-kim-mihyun-gif-19911077",
+            "https://gfycat.com/anyfaintcaterpillar",
+            "https://gfycat.com/belovedzestyfoxterrier",
+            "https://gfycat.com/apprehensivewelltodoirishredandwhitesetter",
+            "https://gfycat.com/barefearfulgermanshepherd",
+            "https://gfycat.com/livelyagonizingleafwing-oh-my-girl-mimi",
+            "https://gfycat.com/athleticadolescentindianelephant",
+            "https://gfycat.com/fewgloomyaustralianshelduck",
+            "https://gfycat.com/magnificentidenticalaffenpinscher-oh-my-girl-mimi",
+            'https://gfycat.com/periodicdentaladdax-oh-my-girl-mimi',
+            "https://gfycat.com/bitterhonoredafricangroundhornbill-oh-my-girl-supadupa-arin-kpop-vlog",
+            "https://gfycat.com/elatedvapidbarb-gdragon-cover-oh-my-girl-mdromeda-omaigeol-kpop",
+            "https://gfycat.com/uniquemessykangaroo-oh-my-girl-behind-bungee-omaigeol-kpop-vlog",
+            "https://gfycat.com/maturewaryfoxhound-oh-my-girl-dolphin-fancam-mimi-kpop",
+            "https://gfycat.com/homelysomedugong-weekly-idol-oh-my-girl-variety-kpop-omaigeol-mimi",
+            "https://gfycat.com/equallargeblueshark-the-fifth-season-oh-my-girl-aesthetics-ssfwl",
+            "https://gfycat.com/hugeplastichypsilophodon-weekly-idol-oh-my-girl-variety-kpop-omaigeol-mimi",
+            "https://gfycat.com/fortunateamazinghoiho-oh-my-girl-ssfwl-kpop-mimi"]
 
         self.bot.ohmygirl_seunghee_gif = ["https://tenor.com/view/aww-jiggle-ohmygirl-pout-korean-gif-18118579",
             "https://gfycat.com/bountifulbronzekarakul",
@@ -218,14 +236,20 @@ class OhMyGirl(commands.Cog):
             "https://cdn.discordapp.com/attachments/643623059541983242/760833049712656444/8301befb-9751-4549-b05b-e63db5493a08.gif",
             "https://gfycat.com/unevendistantindianspinyloach-oh-my-girl-yooa",
             "https://gfycat.com/whoppingloathsomecanary-beauty",
-            "https://tenor.com/view/yooa-gif-19800700"]
+            "https://tenor.com/view/yooa-gif-19800700",
+            "https://gfycat.com/anyresponsiblecrow-oh-my-girl-yooa",
+            "https://gfycat.com/cheeryfatherlyjerboa-oh-my-girl-kpop-yooa-dsl",
+            "https://gfycat.com/bigheartedvapidleafcutterant-oh-my-girl",
+            "https://gfycat.com/drearyunrulycomet",
+            "https://gfycat.com/dearcelebratedcottonmouth",
+            "https://gfycat.com/importantpowerfulgalapagosdove-oh-my-girl-yooa-omaigeol"]
 
     @commands.command()
     async def oh(self, ctx, my, girl, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Oh My Girl {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Oh My Girl {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if my == "my" and girl == "girl":
             if arg == "arin":
                 if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
