@@ -135,7 +135,11 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/weeklyshabbyindianskimmer",
             "https://gfycat.com/bestcompassionateleafwing",
             "https://tenor.com/view/chungha-chungha-eat-chungha-staring-chungha-look-stare-gif-19318960",
-            "https://tenor.com/view/taemin-shinee-kpop-korean-ice-cream-gif-7371003"]
+            "https://tenor.com/view/taemin-shinee-kpop-korean-ice-cream-gif-7371003",
+            "https://gfycat.com/eagerembarrassedgrouper-blackpink-rose-kpop",
+            "https://gfycat.com/everlastingnaivecrow-24365-with-blackpink-kpop-rose",
+            "https://gfycat.com/understatedabandoneddarwinsfox-blackpink-jennie",
+            "https://gfycat.com/blissfulimpartialcobra-blackpink-adorable-jennie-cute"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
