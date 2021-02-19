@@ -65,7 +65,14 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/alexa-alexa-kpop-alexa-universe-rule-the-world-alexa-alexa-rule-the-world-gif-18285902",
             "https://tenor.com/view/alexa-alexa-revolution-revolution-alexa-is-the-revolution-one-girl-army-gif-19105379",
             "https://tenor.com/view/alexa-kpop-alexa-alexa-zb-label-zanybros-revolution-gif-18882682",
-            "https://tenor.com/view/alexa-happy-birthday-alexa-alexa-kpop-alexa-birthday-birthday-gif-19471506"]
+            "https://tenor.com/view/alexa-happy-birthday-alexa-alexa-kpop-alexa-birthday-birthday-gif-19471506",
+            "https://64.media.tumblr.com/a74a6728f3108973754f58017d733213/6f028fef11c855b4-ef/s500x750/caded6a1a90f6c0e5ec6893b2e3d1c87cac14f94.gif",
+            "https://64.media.tumblr.com/06d3a167ac284a37e2ff7887dec98e5f/6f028fef11c855b4-c9/s500x750/485462a727744ce689548cb2cb30c60c58b42cd5.gif",
+            "https://64.media.tumblr.com/3f314c61bc40c05fa3e62115b94caec1/6f028fef11c855b4-ad/s500x750/f2a276ed006aefad76d76f522b66011210071585.gif",
+            "https://i.pinimg.com/originals/c8/49/4c/c8494c0e2b93694446e704a720ead114.gif",
+            "https://i.pinimg.com/originals/3d/72/86/3d7286747d73a620bfc67153b7b58cef.gif",
+            "https://i.pinimg.com/originals/da/5e/3c/da5e3c9e3c74d409d738acbad785ead3.gif",
+            "https://i.pinimg.com/originals/da/2b/81/da2b810b30e8d49815f819672b294607.gif"]
 
         self.bot.chungha_gif = ["https://tenor.com/view/kiss-love-chunga-korean-gif-11126096",
             "https://tenor.com/view/chungha-gif-18541917",
