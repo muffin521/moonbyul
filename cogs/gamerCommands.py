@@ -145,7 +145,11 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sip-tea-sips-tea-sipping-tea-tea-not-my-problem-gif-17953668",
             "https://gfycat.com/cheeryfatherlyjerboa-oh-my-girl-kpop-yooa-dsl",
             "https://gfycat.com/completefixedbaldeagle-lee-yongbok-stray-kids-lee-felix-adorable-kpop",
-            "https://tenor.com/view/han-gif-13343941"]
+            "https://tenor.com/view/han-gif-13343941",
+            "https://tenor.com/view/ka-wanna-one-kang-daniel-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633990",
+            "https://tenor.com/view/kpop-bts-jin-food-eating-gif-4896466",
+            "https://tenor.com/view/changmin-tvxq-max-shim-changmin-kpop-gif-16896910",
+            "https://tenor.com/view/jimin-bts-kpop-kpop-idol-food-gif-7314625"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
