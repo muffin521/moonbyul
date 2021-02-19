@@ -122,13 +122,17 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206376210661406/800262170419396628/image3.gif",
             "https://cdn.discordapp.com/attachments/800206376210661406/800262170691764244/image4.gif",
             "https://cdn.discordapp.com/attachments/800206376210661406/800262170952466452/image5.gif",
-            "https://cdn.discordapp.com/attachments/800206376210661406/800262218733322270/image0.gif"]
+            "https://cdn.discordapp.com/attachments/800206376210661406/800262218733322270/image0.gif",
+            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392814",
+            "https://tenor.com/view/jiung-p1h-p1harmony-choi-jiung-gif-20392787",
+            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855"]
 
         self.bot.p1harmony_jongseob_gif = ["https://cdn.discordapp.com/attachments/800206414597455872/800262445016809472/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262445314211850/image1.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262554202931261/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262587488534558/image0.gif",
-            "https://cdn.discordapp.com/attachments/800206414597455872/800262610305024040/image0.gif"]
+            "https://cdn.discordapp.com/attachments/800206414597455872/800262610305024040/image0.gif",
+            "https://tenor.com/view/jongseob-p1h-gif-19927056"]
 
         self.bot.p1harmony_keeho_gif = ["https://cdn.discordapp.com/attachments/800206480837574666/800262794280304661/image0.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800262794531569684/image1.gif",
