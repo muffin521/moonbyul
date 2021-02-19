@@ -689,6 +689,30 @@ class gifcog(commands.Cog):
             elif arg == "yukika":
                 for x in self.bot.yukika_gif:
                     await ctx.send(x)
+            elif arg == "woodz":
+                for x in self.bot.woodz_gif:
+                    await ctx.send(x)
+            elif arg == "kris wu":
+                for x in self.bot.kriswu_gif:
+                    await ctx.send(x)
+            elif arg == "luhan":
+                for x in self.bot.luhan_gif:
+                    await ctx.send(x)
+            elif arg == "tao":
+                for x in self.bot.tao_gif:
+                    await ctx.send(x)
+            elif arg == "kang daniel":
+                for x in self.bot.kangdaniel_gif:
+                    await ctx.send(x)
+            elif arg == "sunmi":
+                for x in self.bot.sunmi_gif:
+                    await ctx.send(x)
+            elif arg == "yubin":
+                for x in self.bot.yubin_gif:
+                    await ctx.send(x)
+            elif arg == "rothy":
+                for x in self.bot.rothy_gif:
+                    await ctx.send(x)
         #.VAV
             elif arg == "vav ace":
                 for x in self.bot.vav_ace_gif:
