@@ -139,7 +139,9 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/eagerembarrassedgrouper-blackpink-rose-kpop",
             "https://gfycat.com/everlastingnaivecrow-24365-with-blackpink-kpop-rose",
             "https://gfycat.com/understatedabandoneddarwinsfox-blackpink-jennie",
-            "https://gfycat.com/blissfulimpartialcobra-blackpink-adorable-jennie-cute"]
+            "https://gfycat.com/blissfulimpartialcobra-blackpink-adorable-jennie-cute",
+            "https://gfycat.com/acidicunknownblacklab-beauty",
+            "https://thumbs.gfycat.com/TartBabyishHorse-max-1mb.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
