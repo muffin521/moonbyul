@@ -1248,7 +1248,10 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/defensivedifferentbuckeyebutterfly",
             "https://gfycat.com/adventurouswellwornbumblebee",
             "https://gfycat.com/glitteringheavenlybullmastiff",
-            "https://gfycat.com/vapidgreatcrow"]
+            "https://gfycat.com/vapidgreatcrow",
+            "http://pa1.narvii.com/7008/d3e03813486ebdc02afd57589e5a0c3621099bf3r1-360-360_00.gif",
+            "https://data.whicdn.com/images/322801821/original.gif",
+            "https://pa1.narvii.com/6874/e440054ebdf07c2655a5ee7f5ae2f801ee0cf7c1r1-268-352_hq.gif"]
 
         self.bot.hitomi_gif = ["https://gfycat.com/inconsequentialopendiamondbackrattlesnake",
             "https://tenor.com/view/hitomi-honda-hitomi-%ED%9E%88%ED%86%A0%EB%AF%B8-%ED%98%BC%EB%8B%A4%ED%9E%88%ED%86%A0%EB%AF%B8-wow-gif-14017107",
@@ -1304,7 +1307,10 @@ class IzonePings(commands.Cog):
 
         self.bot.minyul_gif = ["https://gfycat.com/bountifuldecisivegalago/",
             "https://gfycat.com/adorableforcefularctichare",
-            "https://gfycat.com/flimsycookedbudgie"]
+            "https://gfycat.com/flimsycookedbudgie",
+            "https://i.pinimg.com/originals/47/8f/dc/478fdc673b8a4885696522f99912316b.gif",
+            "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
+            "https://cdn.discordapp.com/attachments/807162436897603614/809762189447135272/1360194036108197890.gif"]
 
 
     @commands.command(aliases = ['iz*one'])
