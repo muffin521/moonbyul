@@ -149,7 +149,10 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/ka-wanna-one-kang-daniel-kang-daniel-danirl-ori-cat-wannable-kpop-gif-12633990",
             "https://tenor.com/view/kpop-bts-jin-food-eating-gif-4896466",
             "https://tenor.com/view/changmin-tvxq-max-shim-changmin-kpop-gif-16896910",
-            "https://tenor.com/view/jimin-bts-kpop-kpop-idol-food-gif-7314625"]
+            "https://tenor.com/view/jimin-bts-kpop-kpop-idol-food-gif-7314625",
+            "https://tenor.com/view/%EC%97%90%EB%A6%AD%EB%82%A8-%EB%82%A8%EC%9C%A4%EB%8F%84-eric-nam-kpop-eat-gif-18362142",
+            "https://tenor.com/view/somi-vitasom-gif-8958750",
+            "https://tenor.com/view/somi-eating-food-gif-8958728"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
