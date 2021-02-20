@@ -182,7 +182,8 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/jeon-so-mi-gif-8389636",
             "https://tenor.com/view/somi-jeon-somi-what-you-waiting-for-somi-comeback-somi-teaser-gif-17861737",
             "https://tenor.com/view/somi-vitasom-gif-8958750",
-            "https://tenor.com/view/somi-eating-food-gif-8958728"]
+            "https://tenor.com/view/somi-eating-food-gif-8958728",
+            "https://tenor.com/view/somi-abyan-gif-18258549"]
 
         self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
