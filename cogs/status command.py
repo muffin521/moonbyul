@@ -58,7 +58,7 @@ class scommand(commands.Cog):
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_footer(text='')
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
-        embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{k8}>', inline=True)
+        embed.add_field(name='Developer:', value=f'<@{muffin}>\n**Helpers:**\n<@{gareth}>\n<@{aster}>\n<@{k8}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Moonbyul Ver.**\n{byulver}', inline=True)
         embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{weakado}>\n<@{ple}>\n<@{pemper}>\n<@{aster}>')
         await ctx.send(embed=embed)
