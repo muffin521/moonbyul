@@ -171,7 +171,8 @@ class gamerPings(commands.Cog):
             "Tanu",
             "Natu",
             "Utah",
-            "Yuta"]
+            "Yuta",
+            "Runa"]
 
     @commands.command()
     async def dreammc(self, ctx):
