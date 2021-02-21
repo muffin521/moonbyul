@@ -120,7 +120,10 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/brownimpossibleasianconstablebutterfly",
             "https://gfycat.com/unlawfulgreatlark",
             "https://gfycat.com/practicalfancyantarcticfurseal",
-            "https://gfycat.com/specificvastbear"]
+            "https://gfycat.com/specificvastbear",
+            "https://tenor.com/view/black-mamba-aespa-ningning-aespa-ningning-kpop-gif-19881136",
+            "https://tenor.com/view/aespa-ningning-aespa-ningning-archive_aespa-archive-aespa-gif-19196653",
+            "https://tenor.com/view/ning-ning-yizhuo-ningning-yizhuo-aespa-gif-19000866"]
 
         self.bot.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482080427671552/20201028144417-7ae7.gif",

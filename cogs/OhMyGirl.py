@@ -216,7 +216,6 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/yooa-oh-my-girl-dance-gif-19129508",
             "https://tenor.com/view/yooa-ohmygirl-kick-gif-19367595",
             "https://tenor.com/view/yooa-%EC%9C%A0%EC%95%84-gif-19536364",
-            "https://tenor.com/view/yooa-%EC%9C%A0%EC%95%84-gif-19585283",
             "https://tenor.com/view/yooa-gif-19800697",
             "https://tenor.com/view/yooa-gif-19800699",
             "https://tenor.com/view/yooa-gif-19800700",

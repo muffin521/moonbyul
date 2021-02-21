@@ -153,7 +153,17 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/%EC%97%90%EB%A6%AD%EB%82%A8-%EB%82%A8%EC%9C%A4%EB%8F%84-eric-nam-kpop-eat-gif-18362142",
             "https://tenor.com/view/somi-vitasom-gif-8958750",
             "https://tenor.com/view/somi-eating-food-gif-8958728",
-            "https://tenor.com/view/somi-abyan-gif-18258549"]
+            "https://tenor.com/view/somi-abyan-gif-18258549",
+            "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-soobin-gif-16784698",
+            "https://tenor.com/view/yeonjun-eating-yeonjun-sanapinkhair-gif-18606067",
+            "https://tenor.com/view/txt-beomgyu-eating-sweet-cute-gif-14481352",
+            "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963",
+            "https://gfycat.com/farawaydecentbluewhale-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/achinghiddenislandcanary",
+            "https://gfycat.com/creepyposhjackal-fromis9-chaeyoung-lee-chaeyoung-fromis-9-idol",
+            "https://gfycat.com/infantileimpeccablehammerkop-chaeyoungs-challenge-channel-9-love-bomb",
+            "https://gfycat.com/belatedunevenlemming-fromis9"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -167,7 +177,8 @@ class gamerPings(commands.Cog):
             "Tanu",
             "Natu",
             "Utah",
-            "Yuta"]
+            "Yuta",
+            "Runa"]
 
     @commands.command()
     async def dreammc(self, ctx):

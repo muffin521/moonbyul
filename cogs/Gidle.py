@@ -166,7 +166,6 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962545",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962456",
             "https://giphy.com/gifs/GIDLE-gidle-gi-dle-dumdi-ihLlzoKG2gdOV718GN",
-            "https://tenor.com/view/soyeon-jeon-gif-19050106",
             "https://tenor.com/view/jeon-soyeon-gif-19180116",
             "https://tenor.com/view/soyeon-jeon-gidle-gif-19180104",
             "https://tenor.com/view/jeon-soyeon-gif-19180115",

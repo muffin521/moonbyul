@@ -122,8 +122,13 @@ class hcommands(commands.Cog):
         embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
         embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
+        embed6.add_field(name='fromis_9 [1]', value=f'''```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom```''')
+        embed6.add_field(name='fromis_9 [2]', value=f'''```\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon```''')
+        embed6.add_field(name='fromis_9 [3]', value=f'''```\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+
         embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
         embed6.add_field(name='Apink', value=f'```\nApink Eunji\n ```')
+        embed6.add_field(name='I Love You', value=f'```\n♡ \n♡ ```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 
@@ -220,16 +225,7 @@ class hcommands(commands.Cog):
                 # ending the loop if user doesn't react after x seconds
 
 
-    @commands.command()
-    async def invite(self, ctx):
-        embed = discord.Embed(
-            title = 'Invite Links',
-            description = 'lob u <:moonbyulheart:790333102924627968>‎',
-            colour = discord.Colour.from_rgb(198, 237, 154))
-        embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
-        embed.add_field(name='Support Server', value=f'https://discord.gg/Ntk9Jp26yx', inline=True)
-        embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
-        await ctx.send(embed=embed)
+    
 
 def setup(client):
     client.add_cog(hcommands(client))

@@ -32,7 +32,6 @@ class twoneone(commands.Cog):
             "https://cdn.discordapp.com/attachments/703871901411573850/795765505129840650/iu.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795765936542973972/image0.gif",
             "https://cdn.discordapp.com/attachments/703871901411573850/795773049114460170/iu-1.gif",
-            "https://cdn.discordapp.com/attachments/703871901411573850/795773274193002496/iu-4.gif",
             "https://i.makeagif.com/media/10-01-2015/qGFLrI.gif",
             "https://tenor.com/view/smile-%EC%94%A8%EC%97%98-mnet-asian-music-awards-winner-award-acceptance-speech-gif-19237320",
             "https://tenor.com/view/cl-kpop-lee-chaelin-2ne1-gif-19502722",
