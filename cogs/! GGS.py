@@ -187,6 +187,24 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800504277146796103/77ac81500e0bf2af4bfcd472adb00763.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504188906897418/AliveTotalIbadanmalimbe-size_restricted.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
+    #.fromis_9
+        self.bot.fromis_9_jisun_gif = []
+
+        self.bot.fromis_9_hayoung_gif = []
+
+        self.bot.fromis_9_saerom_gif = []
+
+        self.bot.fromis_9_chaeyoung_gif = []
+
+        self.bot.fromis_9_nakyung_gif = []
+
+        self.bot.fromis_9_jiwon_gif = []
+
+        self.bot.fromis_9_seoyeon_gif = []
+
+        self.bot.fromis_9_jiheon_gif = []
+
+        self.bot.fromis_9_gyuri_gif = []
     #. weki meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -283,7 +301,35 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-dazzle-weki-meki-lua-cute-gif-16419326",
             "https://tenor.com/view/kpop-dazzle-weki-meki-dance-gif-16912848",
             "https://gfycat.com/AshamedGreedyJanenschia",
-            "https://cdn.discordapp.com/attachments/800224194482274345/801700137004564481/giphy.gif"]
+            "https://cdn.discordapp.com/attachments/800224194482274345/801700137004564481/giphy.gif",
+            "https://64.media.tumblr.com/793f5793189d3a8c443a58d070af178e/c02ba4fdf91f9037-15/s400x600/c36e1b605759f5bb504ddf378b3c08e8e995c5ec.gif",
+            "https://media1.giphy.com/media/gjZGVIZhxAQ94hkZpr/giphy.gif",
+            "https://64.media.tumblr.com/580a8b372709e3537f4b4a8c3c3c9e54/9c8c2f857d7a8f98-3d/s400x600/09d48f24247c9320a2d614901486d93e6c29bdfb.gif",
+            "https://64.media.tumblr.com/96913cfa9583fbf1737227ac6124b181/faa3224d7d47dbc0-a2/s400x600/6ef350d2905e74bca68ca3797bcfcbb9184c1718.gif",
+            "https://64.media.tumblr.com/1374dc0d7e9ff146fed402f6e95e610c/faa3224d7d47dbc0-2f/s400x600/f439f8ea0a67ec93ee87df1efcf1f6fb9fdf9f5d.gif",
+            "https://gfycat.com/dentalpowerfulastarte",
+            "https://gfycat.com/masculinecelebratedgrison",
+            "https://gfycat.com/bigrigidbullmastiff",
+            "https://gfycat.com/dangeroussizzlinggreendarnerdragonfly",
+            "https://gfycat.com/milkymarvelousaidi",
+            "https://gfycat.com/unimportantwiltedaltiplanochinchillamouse",
+            "https://gfycat.com/firsttartblackfootedferret",
+            "https://gfycat.com/gratefulobedientauklet",
+            "https://gfycat.com/flippantquaintbonobo",
+            "https://gfycat.com/fittinghardtofinddeviltasmanian",
+            "https://gfycat.com/hollowgiganticcottontail-weki-meki-sookyung-kiling-wikimiki-lua",
+            "https://gfycat.com/unfittartblacklemur-wekimeki-picky-kpop-lua",
+            "https://gfycat.com/fearlessamusingacornbarnacle",
+            "https://gfycat.com/dampmildaxolotl-wekimeki-kpop-lua",
+            "https://gfycat.com/marvelousforcefulantarcticgiantpetrel-weki-meki-mechabear-kpop-lua",
+            "https://gfycat.com/hardtofindrecklessgalapagosalbatross",
+            "https://gfycat.com/amplefocusedcrane",
+            "https://gfycat.com/badyounghuia",
+            "https://gfycat.com/angelicwholegyrfalcon",
+            "https://64.media.tumblr.com/edfa37044ecf95dce0c8b30e73b4dbae/9c8c2f857d7a8f98-1d/s400x600/5af9af495dbc0bb0fb74dbadc28b657d61e3f06a.gif",
+            "https://64.media.tumblr.com/4b07f94793bd51a8a5b11facef9f3a91/0cede72b6c9e626c-e8/s400x600/925b8cc064c5afba24af666169e599099dc4060a.gif",
+            "https://64.media.tumblr.com/edfa37044ecf95dce0c8b30e73b4dbae/9c8c2f857d7a8f98-1d/s400x600/5af9af495dbc0bb0fb74dbadc28b657d61e3f06a.gif",
+            "https://1.bp.blogspot.com/-qTY4cBbsrKw/XuuNbvf-V5I/AAAAAAAAUB0/GU4jqM0V-vMad8d7WGl40Bi10CWWqrHqwCLcBGAsYHQ/s1600/DeficientOilyCapeghostfrog-size_restricted.gif"]
 
         self.bot.wekimeki_lucy_gif = ["https://gfycat.com/alarmedclutteredbobwhite",
             "https://cdn.discordapp.com/attachments/800224232759754772/800562065613914152/tenor.gif",
@@ -292,7 +338,26 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800224232759754772/801697123807526912/NastyMisguidedClownanemonefish-max-1mb.gif",
             "https://tenor.com/view/wekimeki-lucy-cool-gif-18868364",
             "https://cdn.discordapp.com/attachments/800224232759754772/801698382091124776/tumblr_p4eoesUwmM1wisj25o3_540.gif",
-            "https://gfycat.com/confuseddependableconch-mechabear-weki-meki-kpop-lucy"]
+            "https://gfycat.com/confuseddependableconch-mechabear-weki-meki-kpop-lucy",
+            "https://gfycat.com/hatefulpoliticalgerbil-weki-meki-lucy-weme-cool",
+            "https://media1.tenor.com/images/7faeaf073b5bca5e0aa56ca2ceaa030d/tenor.gif?itemid=18855932",
+            "https://64.media.tumblr.com/c4d24f28c5902664c6b029d3b0f34dea/12dda53cd4f4f410-47/s250x400/fec7f82ea030c3d8f78fa057c887bfb337d92310.gif",
+            "https://media1.tenor.com/images/2d904250ba13238b422f7c5b860ef942/tenor.gif?itemid=18855997",
+            "https://64.media.tumblr.com/990e11cfa95b594e8a26390fe32dc61c/16f0659215527f10-f9/s400x600/d2b1098e48ba56f1ba8859b1565bcb7faef63a33.gif",
+            "https://64.media.tumblr.com/427a5b4abf735e0c447376015e59e3c4/97b7120ea1979efa-1b/s250x400/16bdb7acb964ebee0de755f80d05e8df79d4d08e.gif",
+            "https://64.media.tumblr.com/6efc021d7034993b2a038c3107f13296/97b7120ea1979efa-4a/s250x400/98ffc91d7858ac3fda33a2c3f55a4f2fe3ecd825.gif",
+            "https://64.media.tumblr.com/f072ce6123b7c5e59f013b7652a29aa5/97b7120ea1979efa-b7/s250x400/8039587a664e5f45ec300543d557717aa7f57b4c.gif",
+            "https://64.media.tumblr.com/533454c90cb6975aa36bab9ea6c29d16/97b7120ea1979efa-94/s250x400/c1ac9e08320ebc1291346a2c837cd121a2da0e14.gif",
+            "https://gfycat.com/boilingunitedbarnacle",
+            "https://gfycat.com/brilliantqueasyaoudad",
+            "https://gfycat.com/advancedplainfalcon-weki-meki-noh-lucy",
+            "https://gfycat.com/advancedeminentbichonfrise",
+            "https://gfycat.com/accomplishedwellgroomedbangeltiger",
+            "https://gfycat.com/shockedrectangulargermanshepherd",
+            "https://gfycat.com/dentalkeenamethystsunbird",
+            "https://gfycat.com/clearfakehoneycreeper",
+            "https://gfycat.com/generousobedientandeancat",
+            "https://gfycat.com/dishonestfargentoopenguin-weki-meki-mechabear-kpop-lucy"]
 
         self.bot.wekimeki_rina_gif = ["https://tenor.com/view/rina-weki-meki-kpop-gif-14709543",
             "https://cdn.discordapp.com/attachments/800224289810677821/800562573548191744/dd1e1c2491e3eb9d912ccd214e33145c.gif",
@@ -302,7 +367,23 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rina-weki-meki-kpop-fierce-gif-15517942",
             "https://gfycat.com/AdolescentPinkBug",
             "https://tenor.com/view/rina-weki-meki-kpop-gif-18219670",
-            "https://gfycat.com/AgileGiddyIberiannase"]
+            "https://gfycat.com/AgileGiddyIberiannase",
+            "https://gfycat.com/blankdefiantannelida",
+            "https://gfycat.com/faroffinsidiousbufflehead",
+            "https://gfycat.com/specificdefinitivecamel",
+            "https://gfycat.com/thoroughgorgeouslarva",
+            "https://gfycat.com/brilliantsoulfulgharial-weki-meki",
+            "https://gfycat.com/advancedvapidhylaeosaurus-weki-meki-kpop-rina",
+            "https://gfycat.com/canineshoddygemsbok-weki-meki-kpop-rina",
+            "https://gfycat.com/poisedcooperativegonolek-weki-meki-rina",
+            "https://gfycat.com/spectacularniftyafricanjacana-weki-meki-rina-kpop",
+            "https://gfycat.com/revolvingoddemperorpenguin-weki-meki-rina-kpop",
+            "https://gfycat.com/raremindlessicelandicsheepdog",
+            "https://gfycat.com/untimelyviciouscoati",
+            "https://gfycat.com/saltyshamefularcherfish-weki-meki",
+            "https://gfycat.com/sarcasticdistantguanaco-weki-meki",
+            "https://gfycat.com/pastelbitterboto-weki-meki-crush-kpop-rina",
+            "https://gfycat.com/measlybruisedivorybackedwoodswallow"]
 
         self.bot.wekimeki_sei_gif = ["https://tenor.com/view/wekimeki-sei-gif-18891261",
             "https://tenor.com/view/wekimeki-sei-gif-18891289",
@@ -316,14 +397,51 @@ class GGS(commands.Cog):
             "https://gfycat.com/DefiniteGraveHarrier",
             "https://gfycat.com/TatteredGregariousFlyingfox",
             "https://gfycat.com/ClutteredNeighboringAlabamamapturtle",
-            "https://gfycat.com/MisguidedRichGangesdolphin"]
+            "https://gfycat.com/MisguidedRichGangesdolphin",
+            "https://media1.tenor.com/images/1d7b775282587a493c74aa6c5c3be086/tenor.gif?itemid=18891263",
+            "https://imgur.com/PSiYC28",
+            "https://thumbs.gfycat.com/DisguisedRewardingDrongo-max-1mb.gif",
+            "https://64.media.tumblr.com/453272a52fb45c9dc9618fa5c61d16f9/0c77f6fc7044863b-da/s250x400/3313385ec355d56f837f45e124c4972c6cf3b0a3.gif",
+            "https://64.media.tumblr.com/7c275eeeacb7ca223a4d363f7034d4ea/0c77f6fc7044863b-fe/s250x400/11e3989f18d26643bbafcfdf93a9f0ef1f5c7411.gif",
+            "https://data.whicdn.com/images/304056936/original.gif",
+            "https://64.media.tumblr.com/d4af956aa6fdb70c40aa1a1b21250b62/tumblr_p284hrsLoH1utck9fo1_400.gif",
+            "https://64.media.tumblr.com/638953d38401d975e8d96fe9cb3bdea7/tumblr_p4t3trSQFd1wgkgwro1_400.gif",
+            "https://thumbs.gfycat.com/FairBlondBluewhale-size_restricted.gif",
+            "https://media1.tenor.com/images/0d469a3878a72e4585080b96032abe10/tenor.gif?itemid=18934298",
+            "https://media1.tenor.com/images/0610ef472c8b16cbe5146c973c320b79/tenor.gif?itemid=18934293",
+            "https://gfycat.com/flowerypoorgoshawk-choiyoojung-butterfly-kimdoyeon-weki-meki",
+            "https://gfycat.com/bruisedthirdamericansaddlebred",
+            "https://gfycat.com/frankfancyjackrabbit-weki-meki-wikimiki-sei",
+            "https://gfycat.com/wellinformedmenacingdogwoodclubgall",
+            "https://gfycat.com/whichsandyguineapig-sei-weki-meki-snap"]
 
         self.bot.wekimeki_suyeon_gif = ["https://tenor.com/view/wave-hi-hello-kpop-happy-gif-16968572",
             "https://tenor.com/view/kpop-crush-suyeon-weki-meki-music-video-gif-16268466",
             "https://tenor.com/view/surprised-oopsy-oops-oopsie-weki-meki-gif-18170395",
             "https://tenor.com/view/kpop-weki-meki-suyeon-ji-suyeon-weki-meki-suyeon-gif-18712771",
             "https://cdn.discordapp.com/attachments/800224361935274004/800565729052459098/4e45b67529977ec2941e3c3dcd853ec6.gif",
-            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-ZD23n6SRWsI9jUHGeq"]
+            "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-ZD23n6SRWsI9jUHGeq",
+            "https://thumbs.gfycat.com/ConstantHeartyDwarfmongoose-max-1mb.gif",
+            "https://i.pinimg.com/originals/c2/26/58/c2265820ebf3f0631e56e653d1f83cd6.gif",
+            "https://64.media.tumblr.com/fc39d2c0f0fa9fcd6487b05fba97c065/tumblr_pghy9uFssE1w6jp1qo1_400.gif",
+            "https://data.whicdn.com/images/293839681/original.gif",
+            "https://media1.tenor.com/images/f13a331f235c79c2ca90516a9ffb7d85/tenor.gif?itemid=15217095",
+            "https://media1.tenor.com/images/032c7d3f94d6e1b66873c48855c532d1/tenor.gif?itemid=16419110",
+            "https://64.media.tumblr.com/793329e634d64eb44c5b9f7fed6192ac/f2344bf2172f0511-b2/s400x600/b0e0759a43f57181032f9f7fc827e24254b862b4.gif",
+            "https://thumbs.gfycat.com/IgnorantFavorableIndri-size_restricted.gif",
+            "https://data.whicdn.com/images/307590566/original.gif",
+            "https://gfycat.com/carelessexcitablefreshwatereel-weki-meki-yoojung-suyeon",
+            "https://gfycat.com/coldgracefulaquaticleech-weki-meki-suyeon",
+            "https://gfycat.com/pinkserpentinebovine-weki-meki-suyeon-picky-nose",
+            "https://gfycat.com/contentdirectgoat-girlgroup-suyeon-weki-meki",
+            "https://gfycat.com/impressionablegrosskomododragon-mechabear-weki-meki-suyeon-kpop-beauty",
+            "https://gfycat.com/tartspitefulinexpectatumpleco-weki-meki-mechabear-suyeon-kpop",
+            "https://gfycat.com/formaleminentbluebottle-weki-meki-suyeon-kpop",
+            "https://gfycat.com/foolishoddamericantoad-girlgroup-wekimeki-suyeon-kpop-sei",
+            "https://gfycat.com/impossibletastyaztecant-mechabear-weki-meki-suyeon-kpop",
+            "https://gfycat.com/mediumjoyfulleafcutterant",
+            "https://gfycat.com/gracefulpiercingleopardseal-weki-meki-suyeon",
+            "https://gfycat.com/glisteningweecatfish-weki-meki-suyeon"]
 
         self.bot.wekimeki_yoojung_gif = ["https://tenor.com/view/yoojung-choi-yoodaeng-daeng-choiyoojung-gif-19404386",
             "https://tenor.com/view/umm-um-yoojung-gif-8099931",
@@ -333,7 +451,48 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800224391258439721/800565546701160458/f1fc5f292c3132ff952b3b50e952698b.gif",
             "https://tenor.com/view/weki-meki-yoojung-choi-yoo-jung-gif-18765076",
             "https://giphy.com/gifs/KPopSource-mv-weki-meki-oopsy-XGaOrWHVVR669VXprf",
-            "https://tenor.com/view/choiyoojung-wekimeki-gif-13666421"]
+            "https://tenor.com/view/choiyoojung-wekimeki-gif-13666421",
+            "https://media1.tenor.com/images/14f1da957061819ee05026de2790e33c/tenor.gif?itemid=16117095",
+            "https://gfycat.com/imaginativevacantfieldspaniel-choiyoojung-kimdoyeon-weki-meki-jisuyeon",
+            "https://gfycat.com/classicpastelamericancurl",
+            "https://gfycat.com/opulentinfantilecricket-weki-meki",
+            "https://gfycat.com/legitimatepoisedkestrel",
+            "https://gfycat.com/foolishwelllitkissingbug",
+            "https://gfycat.com/saltyperiodicdromedary",
+            "https://gfycat.com/waryopengoldfish",
+            "https://gfycat.com/agonizingselfreliantherring-wekimeki-weme-kpop",
+            "https://gfycat.com/celebratedselfrelianthypsilophodon",
+            "https://gfycat.com/elegantsomberarizonaalligatorlizard",
+            "https://gfycat.com/amazingcostlydutchshepherddog-weki-meki-yoojung",
+            "https://gfycat.com/eagerthreadbarecricket-weki-meki-yoojung-kpop-wave",
+            "https://gfycat.com/questionableimaginaryblueandgoldmackaw",
+            "https://gfycat.com/cleanaccomplishedjaeger",
+            "https://gfycat.com/parchedfrayedarawana",
+            "https://gfycat.com/heavenlyafraidegg",
+            "https://gfycat.com/farawaydecentbluewhale-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/shadyfrigiddamselfly",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/menacingelementaryfalcon-weki-meki-wikimiki-gimdoyeon-jisuyeon-coeyujeong-rusi-rua-rina-sei-elri",
+            "https://gfycat.com/comfortablecarelesshammerkop-weki-meki-yoojung-kpop",
+            "https://gfycat.com/windycreativeafricangoldencat-weki-meki-yoojung-kpop",
+            "https://gfycat.com/cookedoilyadmiralbutterfly-weki-meki-yoojung",
+            "https://gfycat.com/cleverillustriousindianspinyloach-weki-meki-yoojung-kpop",
+            "https://gfycat.com/creamypeskydove-weki-meki-yoojung-kpop",
+            "https://gfycat.com/easytastyeft-weki-meki-yoojung",
+            "https://gfycat.com/pinkelementarykakarikis-weki-meki-yoojung",
+            "https://gfycat.com/silkyraggedirishredandwhitesetter-weki-meki-yoojung",
+            "https://gfycat.com/incrediblegrimyaustraliancattledog-weki-meki-yoojung",
+            "https://gfycat.com/unsightlyvigorousgiraffe-weki-meki-yoojung-kpop",
+            "https://gfycat.com/violetunfortunatechupacabra-weki-meki-yoojung",
+            "https://gfycat.com/determinedthoroughcrayfish",
+            "https://gfycat.com/discretepositiveasp",
+            "https://gfycat.com/nastymediocrekingsnake-weki-meki-yoojung",
+            "https://gfycat.com/amusedmenacingleafbird",
+            "https://gfycat.com/defenselessteemingacornbarnacle-weki-meki-yoojung-kpop",
+            "https://gfycat.com/paltrysillyasianpiedstarling",
+            "https://gfycat.com/graysnoopyatlanticspadefish-weki-meki-eng-subs-yoojung-taemin-cover",
+            "https://gfycat.com/dapperunlinedboutu",
+            "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop"]
     #. wjsn
         self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
             "https://tenor.com/view/wjsn-bona-gif-9369544",

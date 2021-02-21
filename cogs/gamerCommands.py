@@ -157,7 +157,9 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-soobin-gif-16784698",
             "https://tenor.com/view/yeonjun-eating-yeonjun-sanapinkhair-gif-18606067",
             "https://tenor.com/view/txt-beomgyu-eating-sweet-cute-gif-14481352",
-            "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963"]
+            "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963",
+            "https://gfycat.com/farawaydecentbluewhale-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/poisedsoftafricanrockpython"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
