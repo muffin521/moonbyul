@@ -203,7 +203,6 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805178727222083635/805181042301861888/image0.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181042724962324/image1.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181043102580826/image2.gif",
-            "https://cdn.discordapp.com/attachments/805178727222083635/805181131120836689/image0.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181131498061824/image1.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181131984994314/image2.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181235239714906/image0.gif",
