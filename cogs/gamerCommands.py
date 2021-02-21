@@ -159,7 +159,11 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/txt-beomgyu-eating-sweet-cute-gif-14481352",
             "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963",
             "https://gfycat.com/farawaydecentbluewhale-weki-meki-yoojung-food-kpop",
-            "https://gfycat.com/poisedsoftafricanrockpython"]
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/achinghiddenislandcanary",
+            "https://gfycat.com/creepyposhjackal-fromis9-chaeyoung-lee-chaeyoung-fromis-9-idol",
+            "https://gfycat.com/infantileimpeccablehammerkop-chaeyoungs-challenge-channel-9-love-bomb",
+            "https://gfycat.com/belatedunevenlemming-fromis9"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

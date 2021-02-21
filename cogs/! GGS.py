@@ -187,24 +187,267 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800504277146796103/77ac81500e0bf2af4bfcd472adb00763.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504188906897418/AliveTotalIbadanmalimbe-size_restricted.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
-    #.fromis_9
-        self.bot.fromis_9_jisun_gif = []
+    #. fromis_9
+        self.bot.fromis_9_jisun_gif = ["https://gfycat.com/acrobaticadoredleafhopper-mechabear-fromis-kpop",
+            "https://gfycat.com/arididolizeddugong-fromis-pretty-beauty-kpop-cute",
+            "https://gfycat.com/biginconsequentialherculesbeetle-mechabear-fromis-kpop",
+            "https://gfycat.com/affectionateimpishdamselfly-mechabear-fromis-kpop",
+            "https://gfycat.com/briskfaithfulblueandgoldmackaw-mechabear-fromis-kpop",
+            "https://gfycat.com/dimwittedvastblueandgoldmackaw-beauty",
+            "https://gfycat.com/coolspicyamethystsunbird-mechabear-fromis-kpop",
+            "https://gfycat.com/eachbaggygosling-mechabear-fromis-kpop",
+            "https://gfycat.com/amusingcelebratedbuckeyebutterfly",
+            "https://gfycat.com/apprehensiveearlygardensnake",
+            "https://gfycat.com/dishonestbigheartedbinturong-mechabear-fromis-kpop",
+            "https://gfycat.com/miserlymadalpinegoat-mechabear-fromis-kpop",
+            "https://gfycat.com/chillyhoarseeider-mechabear-fromis-kpop",
+            "https://gfycat.com/acidicdefiniteamericanbobtail-roh-jisun-fromis-9-kpop",
+            "https://gfycat.com/likelyorganicatlanticblackgoby-mechabear-fromis-kpop",
+            "https://gfycat.com/enviouscornycoral-mechabear-fromis-kpop",
+            "https://gfycat.com/enchantedsmoggyflyingsquirrel-mechabear-fromis-kpop",
+            "https://gfycat.com/considerateharshhyracotherium-mechabear-fromis-kpop",
+            "https://gfycat.com/idealisticoddconey-mechabear-fromis-kpop",
+            "https://gfycat.com/yellowishethicalfrillneckedlizard-mechabear-fromis-kpop",
+            "https://gfycat.com/celebratedwellmadedwarfrabbit",
+            "https://gfycat.com/blackrigidjuliabutterfly-mechabear-fromis-kpop",
+            "https://gfycat.com/defiantserenedore-mechabear-fromis-kpop",
+            "https://gfycat.com/craftyfalsebirdofparadise-mechabear-fromis-kpop"]
 
-        self.bot.fromis_9_hayoung_gif = []
+        self.bot.fromis_9_hayoung_gif = ["https://gfycat.com/alienatedcheapgalapagosmockingbird-song-hayoung-fromis-9-kpop",
+            "https://gfycat.com/hideoushalfamurminnow",
+            "https://gfycat.com/likelydrearyfallowdeer-hayoung-fromis",
+            "https://gfycat.com/bronzeunhappycockroach-fromis-9-hayoung-saerom-kpop",
+            "https://gfycat.com/achinghiddenislandcanary",
+            "https://gfycat.com/plastichappyfugu",
+            "https://gfycat.com/nextofficialbee-hayoung-fromis",
+            "https://gfycat.com/rashuncommonhogget-fromis-9-hayoung-kpop",
+            "https://gfycat.com/silkybothharrierhawk-fromis-9-hayoung-beauty",
+            "https://gfycat.com/appropriatefittingcrow-fromis-9-hayoung-korean-kpop",
+            "https://gfycat.com/firsthandjadedcowrie-fromis-9-hayoung-kpop",
+            "https://gfycat.com/belovedmindlessastarte-fromis-9-hayoung",
+            "https://gfycat.com/secondaryharmoniousannashummingbird",
+            "https://gfycat.com/majesticgiantbird",
+            "https://gfycat.com/defensiveearlydunlin",
+            "https://gfycat.com/negligiblespanishbelugawhale-fromis-9-hayoung",
+            "https://gfycat.com/afraidfortunateeastsiberianlaika",
+            "https://gfycat.com/grippingaggressiveleafcutterant",
+            "https://gfycat.com/oldfashioneddisastrousiberianbarbel",
+            "https://gfycat.com/cheapagitateddarklingbeetle-fromis-kpop",
+            "https://gfycat.com/belatedbelatedalaskanhusky",
+            "https://gfycat.com/educatedoddballaddax-elope",
+            "https://gfycat.com/jointcheerfulelver-elope",
+            "https://gfycat.com/spiffymelodicleopard-pole-dancing-exercise-hayoung-fromis-beauty-kpop",
+            "https://gfycat.com/unpleasantbestcougar",
+            "https://gfycat.com/blackandwhitepersonalequine-hayoung-fromis-gyuri-jiwon",
+            "https://gfycat.com/deliciouscarefreeclingfish-fromis-9-hayoung",
+            "https://gfycat.com/jauntycaringamoeba",
+            "https://gfycat.com/animatedlimitedgalapagospenguin",
+            "https://gfycat.com/scornfulobesearizonaalligatorlizard"]
 
-        self.bot.fromis_9_saerom_gif = []
+        self.bot.fromis_9_saerom_gif = ["https://gfycat.com/arcticimpuredutchsmoushond-fromis-saerom-190727",
+            "https://gfycat.com/bothvacanthypacrosaurus",
+            "https://gfycat.com/advancedvariablecrocodile-mechabear-fromis-saerom-kpop",
+            "https://gfycat.com/angelicobviousbushbaby",
+            "https://gfycat.com/afraidmindlessbighorn-mechabear-fromis-saerom-kpop",
+            "https://gfycat.com/academicimpassionedcheetah-fromis-saerom-190608",
+            "https://gfycat.com/carelessamusinghoneybee-flying-yoga-mechabear-excersice-fromis-health",
+            "https://gfycat.com/breakablebackfoxterrier-mechabear-fromis-saerom-kpop",
+            "https://gfycat.com/calmlimpchuckwalla-mechabear-saerom-fromis-kpop",
+            "https://gfycat.com/majorsardonicaffenpinscher",
+            "https://gfycat.com/alarmingnexthoneycreeper",
+            "https://gfycat.com/antiquehastyantelopegroundsquirrel-saerom-fromis-pretty-beauty-cute-kpop-blue",
+            "https://gfycat.com/agitateddeterminedjapanesebeetle-fromis-kpop-cute",
+            "https://gfycat.com/bowedfearlessharvestmouse-beauty",
+            "https://gfycat.com/illpinkindochinahogdeer-fromis-nine-petsweat-kiss-kpop-hug",
+            "https://gfycat.com/adoredethicalcobra-fromis-9-saerom-kpop",
+            "https://gfycat.com/accomplishedcomposeddeinonychus-mechabear-saerom-fromis-kpop",
+            "https://gfycat.com/brownwindingkitty-fromis9-saerom-kuro-gurokami-lee-saerom-romsae",
+            "https://gfycat.com/affectionatewebbedjunebug-fromis-9-romsae-lee-saerom-idol-kpop",
+            "https://gfycat.com/smoothadeptjaeger-fromis-9-saerom-korean-kpop",
+            "https://gfycat.com/aggravatinglimpamericanriverotter-fashion-saerom-fromis-pretty-beauty-cute-kpop-blue",
+            "https://gfycat.com/glitteringexaltedbluewhale-fromis9-saerom-kuro-gurokami-lee-saerom-romsae",
+            "https://gfycat.com/acidicflashycorydorascatfish",
+            "https://gfycat.com/actualuntriedinganue-popular-saerom-fromis-pretty-beauty-kpop-cute",
+            "https://gfycat.com/barrenorangebobcat-mechabear-fromis-kpop",
+            "https://gfycat.com/barrencloudykingsnake-mechabear-saerom-fromis-kpop",
+            "https://gfycat.com/eminentneatgraywolf-fromis9-saerom-kuro-gurokami-lee-saerom-romsae"]
 
-        self.bot.fromis_9_chaeyoung_gif = []
+        self.bot.fromis_9_chaeyoung_gif = ["https://gfycat.com/adorablethornyflee-fromis9-chaeyoung-lee-chaeyoung-kuro-gurokami",
+            "https://gfycat.com/dimpleduniquekillerwhale-mechabear-fromis-kpop",
+            "https://gfycat.com/dopeytepidblacklab-chaeyoung-mechabear-fromis-kpop",
+            "https://gfycat.com/creepyposhjackal-fromis9-chaeyoung-lee-chaeyoung-fromis-9-idol",
+            "https://gfycat.com/emotionalwhichbeardedcollie",
+            "https://gfycat.com/finisheddetailedgonolek-mechabear-fromis-kpop",
+            "https://gfycat.com/emptyspryenglishsetter-mechabear-fromis-kpop",
+            "https://gfycat.com/admiredveneratedblackbear-mechabear-fromis-kpop-cute",
+            "https://gfycat.com/ambitiousheartybooby-fromis-fromis9-fromis9-fun-funfactory",
+            "https://gfycat.com/dirtykeycomet-mechabear-fromis-kpop",
+            "https://gfycat.com/emotionalplaindotterel-fromis-beauty-kpop-cute",
+            "https://gfycat.com/elasticdelayedcamel-mechabear-fromis-kpop",
+            "https://gfycat.com/adeptachinghartebeest-chaeyoung-mechabear-fromis-kpop",
+            "https://gfycat.com/distinctrealgosling-mechabear-chaeyoung-fromis-kpop",
+            "https://gfycat.com/alienatedalarmedleopardseal",
+            "https://gfycat.com/ashamedsoupyboa-mechabear-chaeyoung-fromis-kpop",
+            "https://gfycat.com/anothersmugadouri-mechabear-fromis-kpop",
+            "https://gfycat.com/amazingwiltedbadger-mechabear-fromis-kpop",
+            "https://gfycat.com/uglyshowyflicker-chaeyoung-mechabear-squirrel-fromis",
+            "https://gfycat.com/unknownembellishedacornbarnacle-mechabear-chaeyoung-fromis-kpop",
+            "https://gfycat.com/villainousdazzlingdrever-mechabear-fromis-kpop",
+            "https://gfycat.com/weakreasonableasp-chaeyoung-fromis-beauty-cute-kpop",
+            "https://gfycat.com/warpeddamagedcreature-mechabear-fromis-kpop",
+            "https://gfycat.com/wellgroomedshockinghamster-mechabear-fromis-kpop",
+            "https://gfycat.com/ashamedhastyamericanwarmblood-mechabear-fromis-kpop",
+            "https://gfycat.com/bountifulscentedalbatross-beauty",
+            "https://gfycat.com/zanygorgeousicefish-chaeyoung-fromis-9-kpop",
+            "https://gfycat.com/smallrealisticcleanerwrasse-chaeyoung-fromis-9-korean-kpop",
+            "https://gfycat.com/gleamingflippantindochinesetiger-fromis-9-beauty",
+            "https://gfycat.com/impolitejealoushectorsdolphin",
+            "https://gfycat.com/emotionalplaindotterel-fromis-beauty-kpop-cute",
+            "https://gfycat.com/adepthardtofindairedale"]
 
-        self.bot.fromis_9_nakyung_gif = []
+        self.bot.fromis_9_nakyung_gif = ["https://gfycat.com/aromaticwillingcricket-mechabear-nakyung-fromis-kpop",
+            "https://gfycat.com/acceptablevaguehorsechestnutleafminer-mechabear-nakyung-fromis-kpop",
+            "https://gfycat.com/amusinguniformflyingfox-mechabear-fromis-kpop",
+            "https://gfycat.com/darlingdistinctfairybluebird",
+            "https://gfycat.com/bonynauticalclingfish-fromis-9-nakyung-kpop-beauty",
+            "https://gfycat.com/daringamusingdamselfly-fromis-9-nakyung-salsa-2",
+            "https://gfycat.com/brightunawarejabiru",
+            "https://gfycat.com/diligentmenacingalabamamapturtle-nakyung-fromis",
+            "https://gfycat.com/darkcraftygarpike-nakyung-fromis",
+            "https://gfycat.com/cooperativesandycondor-nakyung-fromis",
+            "https://gfycat.com/elderlysleepyimperialeagle-nakyung-fromis",
+            "https://gfycat.com/reliableuncomfortablecanadagoose-fromis9-fromis-9-nakyung-aegyo-cute",
+            "https://gfycat.com/blushinghiddenindianskimmer-fromis-9-nakyung",
+            "https://gfycat.com/jaggedunnaturalfrilledlizard-fromis9-nakyung-kpop",
+            "https://gfycat.com/menacingadmiredlemming",
+            "https://gfycat.com/friendlyamusedgalapagosalbatross-nakyung-fromis",
+            "https://gfycat.com/alarmedhiddenalbino-mechabear-fromis-kpop",
+            "https://gfycat.com/oldfashionedslushychinesecrocodilelizard-mechabear-fromis-kpop",
+            "https://gfycat.com/appropriateaffectionatecoypu",
+            "https://gfycat.com/uniformyellowcusimanse-mechabear-fromis-kpop",
+            "https://gfycat.com/consideratehappygoluckybirdofparadise-nakyung-fromis",
+            "https://gfycat.com/daringamusingdamselfly-fromis-9-nakyung-salsa-2",
+            "https://gfycat.com/enlightenednaughtydipper-mechabear-fromis-kpop",
+            "https://gfycat.com/floweryscientifichoverfly-beautiful-nakyung-fromis-pretty-kpop"]
 
-        self.bot.fromis_9_jiwon_gif = []
+        self.bot.fromis_9_jiwon_gif = ["https://gfycat.com/darlingacceptableapisdorsatalaboriosa",
+            "https://gfycat.com/famoushotitalianbrownbear-fromis9-jiwon",
+            "https://gfycat.com/acrobaticbrilliantairedale",
+            "https://gfycat.com/adoredvigorouseyra",
+            "https://gfycat.com/adeptwellwornbrant",
+            "https://gfycat.com/responsibledistanthorsechestnutleafminer-fromis9-jiwon",
+            "https://gfycat.com/bruiseddrearychimneyswift-channel9-fromis9-fm1-24-jiwon-kpop",
+            "https://gfycat.com/corruptclearborer",
+            "https://gfycat.com/windyarcticangelwingmussel",
+            "https://gfycat.com/equalhideousarctichare",
+            "https://gfycat.com/poshgloriousinvisiblerail",
+            "https://gfycat.com/heartfeltunfoldedbushbaby-fromis9-jiwon",
+            "https://gfycat.com/inferiorwelltodobobolink-stage-mix-fromis9-jiwon-kpop-fun",
+            "https://gfycat.com/paltrycaringcarp-fromis9-jiwon",
+            "https://gfycat.com/acceptablescarcedungbeetle",
+            "https://gfycat.com/scalyallarrowcrab-fromis-9-jiwon",
+            "https://gfycat.com/infantileimpeccablehammerkop-chaeyoungs-challenge-channel-9-love-bomb",
+            "https://gfycat.com/decentreadyalaskanhusky-park-jiwon-fromis9-flover-megan-kpop",
+            "https://gfycat.com/miniaturenervousislandcanary-fromis9",
+            "https://gfycat.com/klutzyemptyblackfly",
+            "https://gfycat.com/anothersnappyfieldmouse",
+            "https://gfycat.com/anybitesizedleafbird-fromis-9-jiwon",
+            "https://gfycat.com/fearfulperiodicfrogmouth-fromis-9-jiwon-beauty",
+            "https://gfycat.com/jollywaterloggedarcherfish"]
 
-        self.bot.fromis_9_seoyeon_gif = []
+        self.bot.fromis_9_seoyeon_gif = ["https://gfycat.com/ajarkeencorydorascatfish",
+            "https://gfycat.com/absolutemasculinegalapagoshawk-beauty",
+            "https://gfycat.com/agilegleefulestuarinecrocodile-mechabear-fromis-kpop",
+            "https://gfycat.com/verifiableidlebluebreastedkookaburra-beautiful-seoyeon-fashion-fromis-makeup-black-dark",
+            "https://gfycat.com/ecstaticplaintivechanticleer",
+            "https://gfycat.com/wellgroomedimmaculateafghanhound-seoyeon-fromis-kpop",
+            "https://gfycat.com/bossyaffectionateflicker-beauty",
+            "https://gfycat.com/bossyfakeblackrussianterrier-mechabear-fromis-kpop",
+            "https://gfycat.com/heartfeltlonelykite-mechabear-fromis-kpop",
+            "https://gfycat.com/cheerfulpleasedarcherfish-beauty",
+            "https://gfycat.com/compassionateellipticalhog-fromis-pretty-beauty-kpop-cute",
+            "https://gfycat.com/incomparableorneryinsect-seoyeon-fromis-kpop",
+            "https://gfycat.com/sanedaringachillestang-seoyeon-fromis-kpop",
+            "https://gfycat.com/frigiddismalbrant-fromis-9-seoyeon-korean-kpop",
+            "https://gfycat.com/malehelplessadeliepenguin-beauty",
+            "https://gfycat.com/grandiosequestionablechameleon-seoyeon-fromis",
+            "https://gfycat.com/oblongfortunateanemone",
+            "https://gfycat.com/edibleshinydoe-fromis-9-seoyeon-jisun",
+            "https://gfycat.com/latefemalefrigatebird",
+            "https://gfycat.com/nippyadoreddartfrog-fromis-9-seoyeon-jiheon",
+            "https://gfycat.com/genuinedeterminedgoat-fromis9",
+            "https://gfycat.com/educatedshockingchanticleer-beauty",
+            "https://gfycat.com/allshowyitaliangreyhound-fromis9"]
 
-        self.bot.fromis_9_jiheon_gif = []
+        self.bot.fromis_9_jiheon_gif = ["https://gfycat.com/alertfaroffleopardseal",
+            "https://gfycat.com/palatableadolescentitaliangreyhound",
+            "https://gfycat.com/negligiblebrightbelugawhale-elope",
+            "https://gfycat.com/talljollydunlin",
+            "https://gfycat.com/desertedregularhalibut-fromis-jiheon",
+            "https://gfycat.com/circularheavyarrowworm-fromis-jiheon",
+            "https://gfycat.com/waterywideeyedcaracal",
+            "https://gfycat.com/hardshadygypsymoth-jiheon-fromis-baek",
+            "https://gfycat.com/hastyshabbycrow-jiheon-fromis-baek",
+            "https://gfycat.com/electricmildgreatwhiteshark-jiheon-baek",
+            "https://gfycat.com/safematuredungenesscrab-jiheon-baek",
+            "https://gfycat.com/hideousshimmeringeagle-fromis-9-salsa-13-jiheon",
+            "https://gfycat.com/secondarypolishedasianpiedstarling-jiheon",
+            "https://gfycat.com/clearpessimisticemeraldtreeskink-fromis",
+            "https://gfycat.com/defenselesscostlyeel-fromis",
+            "https://gfycat.com/famoushilariousgenet-fromis",
+            "https://gfycat.com/gleefulhugegrouse-fromis",
+            "https://gfycat.com/limpingcompassionatebird-fromis",
+            "https://gfycat.com/livelytallgiantschnauzer-fromis",
+            "https://gfycat.com/obesegraciousfreshwatereel-fromis",
+            "https://gfycat.com/minorchillybison-fromis",
+            "https://gfycat.com/nextunkemptabyssiniancat-fromis",
+            "https://gfycat.com/rareunhealthyindianelephant-fromis",
+            "https://gfycat.com/simplewarmhoneybadger-fromis",
+            "https://gfycat.com/ablevillainouseland-fromis-jiheon-baek",
+            "https://gfycat.com/oddfrigidfly-fromis",
+            "https://gfycat.com/masculinecostlyirishredandwhitesetter",
+            "https://gfycat.com/saltyuniformchinesecrocodilelizard-baek-jiheon-beautiful-fromis-kpop-cute",
+            "https://gfycat.com/inferiorgratefulboutu-jiheon-baek",
+            "https://gfycat.com/wavytastyamberpenshell-jiheon-baek",
+            "https://gfycat.com/naughtyqualifiedleafhopper",
+            "https://gfycat.com/smoggyembellishedkinkajou",
+            "https://gfycat.com/melodicsimilardormouse-baek-jiheon",
+            "https://gfycat.com/smoggypleasedcatfish-baek-jiheon",
+            "https://gfycat.com/enormousvapidfinnishspitz-fromis-fromis9-fromis9-fun-funfactory"]
 
-        self.bot.fromis_9_gyuri_gif = []
+        self.bot.fromis_9_gyuri_gif = ["https://gfycat.com/ableesteemedangwantibo-beauty",
+            "https://gfycat.com/messypartialbarnswallow",
+            "https://gfycat.com/flashyglaringgoa-gfycat-approve-pls-thanksss-fromis-beauty-gyuri",
+            "https://gfycat.com/barequestionableintermediateegret-mechabear-fromis-gyuri-kpop",
+            "https://gfycat.com/gleefulslightamericanredsquirrel",
+            "https://gfycat.com/cluelessfrankhalicore",
+            "https://gfycat.com/thornyyoungarcticduck-jang-gyuri-fromis-9-200507-flover-vlive",
+            "https://gfycat.com/gleefulthirstyamurratsnake-mechabear-fromis-kpop",
+            "https://gfycat.com/opulentwellwornassassinbug-mechabear-fromis-kpop",
+            "https://gfycat.com/severalcooperativeicelandgull",
+            "https://gfycat.com/thosebabyishbunting-fromis-beauty-kpop",
+            "https://gfycat.com/unlinedlonghuia",
+            "https://gfycat.com/frigidinsecuredevilfish",
+            "https://gfycat.com/possiblerightbluefintuna",
+            "https://gfycat.com/sphericalalienatedhumpbackwhale",
+            "https://gfycat.com/conventionalamusinglaughingthrush-mechabear-fromis-gyuri-kpop",
+            "https://gfycat.com/dazzlingdiligentdodobird-fromis-9-gyuri",
+            "https://gfycat.com/frankwarmheartedfrenchbulldog-fromis9-gyuri-kuro-gurokami-jang-gyuri-fromis-9",
+            "https://gfycat.com/darlingserenealligator-fromis9-gyuri-kuro-gurokami-jang-gyuri-fromis-9",
+            "https://gfycat.com/generousvengefulaquaticleech",
+            "https://gfycat.com/simplisticneighboringduckbillplatypus",
+            "https://gfycat.com/adorableecstaticcuttlefish",
+            "https://gfycat.com/accomplishedquerulousimperatorangel-fromis9-gyuri",
+            "https://gfycat.com/belatedunevenlemming-fromis9",
+            "https://gfycat.com/flippantconfusedblackbear-beauty",
+            "https://gfycat.com/barrenconsiderateasiandamselfly-produce-48-fromis-9-gyuri-jang-kpop",
+            "https://gfycat.com/alienatedaccurategreendarnerdragonfly-beauty",
+            "https://gfycat.com/biodegradablenauticalangelfish-beauty",
+            "https://gfycat.com/hideousblandcrayfish-fromis-9-gyuri",
+            "https://gfycat.com/repentantseverecopperbutterfly",
+            "https://gfycat.com/diligentfoolhardyblobfish",
+            "https://gfycat.com/shamelessjadedarrowana",
+            "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
     #. weki meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -587,7 +830,7 @@ class GGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Apink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Apink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "eunji":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
@@ -602,7 +845,7 @@ class GGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "jiu" or arg == "catcher jiu":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
@@ -665,12 +908,59 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.dreamcatcher_yoohyeon_gif))
                 await ctx.message.delete()
 
+    @commands.command(aliases = ['fromis', 'fromis9'])
+    async def fromis_9(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [fromis_9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jisun":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jisun :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jisun_gif))
+                await ctx.message.delete()
+            elif arg == "hayoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hayoung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_hayoung_gif))
+                await ctx.message.delete()
+            elif arg == "saerom":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Saerom :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_saerom_gif))
+                await ctx.message.delete()
+            elif arg == "chaeyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Chaeyoung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_chaeyoung_gif))
+                await ctx.message.delete()
+            elif arg == "nakyung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nakyung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_nakyung_gif))
+                await ctx.message.delete()
+            elif arg == "jiwon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jiwon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jiwon_gif))
+                await ctx.message.delete()
+            elif arg == "seoyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seoyeon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_seoyeon_gif))
+                await ctx.message.delete()
+            elif arg == "jiheon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jiheon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jiheon_gif))
+                await ctx.message.delete()
+            elif arg == "gyuri":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
+                await ctx.message.delete()
+
     @commands.command()
     async def weki(self, ctx, meki, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Weki Meki {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if meki == "meki":
             if arg == "doyeon":
                 if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -742,7 +1032,7 @@ class GGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [WJSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [WJSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "bona":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)

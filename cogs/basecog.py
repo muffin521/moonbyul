@@ -273,6 +273,34 @@ class gifcog(commands.Cog):
             elif arg == "exid hyelin" or arg == "exid hyerin":
                 for x in self.bot.hyelin_gif:
                     await ctx.send(x)
+        #.fromis_9
+            elif arg == "fromis jisun":
+                for x in self.bot.fromis_9_jisun_gif:
+                    await ctx.send(x)
+            elif arg == "fromis hayoung":
+                for x in self.bot.fromis_9_hayoung_gif:
+                    await ctx.send(x)
+            elif arg == "fromis saerom":
+                for x in self.bot.fromis_9_saerom_gif:
+                    await ctx.send(x)
+            elif arg == "fromis chaeyoung":
+                for x in self.bot.fromis_9_chaeyoung_gif:
+                    await ctx.send(x)
+            elif arg == "fromis nakyung":
+                for x in self.bot.fromis_9_nakyung_gif:
+                    await ctx.send(x)
+            elif arg == "fromis jiwon":
+                for x in self.bot.fromis_9_jiwon_gif:
+                    await ctx.send(x)
+            elif arg == "fromis seoyeon":
+                for x in self.bot.fromis_9_seoyeon_gif:
+                    await ctx.send(x)
+            elif arg == "fromis jiheon":
+                for x in self.bot.fromis_9_jiheon_gif:
+                    await ctx.send(x)
+            elif arg == "fromis gyuri":
+                for x in self.bot.fromis_9_gyuri_gif:
+                    await ctx.send(x)
         #.Gidle
             elif arg == "gidle minnie":
                 for x in self.bot.minnie_gif:
