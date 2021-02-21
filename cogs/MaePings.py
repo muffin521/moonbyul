@@ -42,42 +42,7 @@ class MaePings(commands.Cog):
             "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421198",
             "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421190",
             "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
-        
-        #18
-        self.bot.taemin_gif = ["https://media.discordapp.net/attachments/753987619733504000/758815646162616350/ezgif-3-69847282811c.gif",
-            "https://tenor.com/view/lee-taemin-taemin-move-stare-gif-14254226",
-            "https://tenor.com/view/taemin-shinee-kpop-shirtless-concert-gif-5097931",
-            "https://tenor.com/view/shinee-taemin-kpop-gif-7235119",
-            "https://tenor.com/view/taemin-lee-taemin-shinee-taemin-shinee-taemin-want-gif-15037342",
-            "https://tenor.com/view/shinee-kpop-taemin-hmpf-pout-gif-11162331",
-            "https://tenor.com/view/lee-taemin-taemin-shinee-kpop-cute-gif-16445806",
-            "https://tenor.com/view/lee-taemin-taemin-lee-shinee-serious-taemin-shinee-gif-15134301",
-            "https://tenor.com/view/taemin-tae-gif-18347164",
-            "https://tenor.com/view/taemin-korean-kpop-gif-10431117",
-            "https://tenor.com/view/taemin-idea-shinee-superm-kpop-gif-19128665",
-            "https://tenor.com/view/taemin-idea-shinee-superm-kpop-gif-19128560",
-            "https://tenor.com/view/taemin-idea-kpop-shinee-superm-gif-19128548",
-            "https://tenor.com/view/taemin-shinee-superm-idea-kpop-gif-19128613",
-            "https://tenor.com/view/taemin-shinee-superm-idea-mv-gif-19128526",
-            "https://tenor.com/view/taemin-shinee-superm-idea-kpop-gif-19128572",
-            "https://tenor.com/view/taemin-shinee-superm-dance-idea-gif-19128635",
-            "https://tenor.com/view/taemin-shinee-superm-comeback-idea-gif-19128539"]
 
-    #taemin command for mae
-    @commands.command()
-    async def taemin(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
-                await ctx.send(random.choice(self.bot.taemin_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
-            await ctx.send(random.choice(self.bot.taemin_gif))
-            await ctx.message.delete()
 
     #krystal command for mae
     @commands.command()

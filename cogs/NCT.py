@@ -97,7 +97,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/kpop-boy-boring-nct-dream-jaemin-gif-15115161",
             "https://tenor.com/view/jaemin-nct-dream-serious-cute-handsome-gif-17041026",
             "https://tenor.com/view/na-jae-min-jaemin-nct-dream-wink-gif-14754677",
-            "https://cdn.discordapp.com/attachments/794052570574225478/804433282631729232/image0.gif"]
+            "https://cdn.discordapp.com/attachments/794052570574225478/804433282631729232/image0.gif",
+            "https://gfycat.com/differentdarkcolt-sm-entertainment-haechan-chenle-jaemin"]
 
         self.bot.nct_jaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
             "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",
@@ -149,7 +150,8 @@ class NCT(commands.Cog):
             "https://cdn.discordapp.com/attachments/772975408912007180/790117416230322206/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117484866174996/image1.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117616676634645/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif"]
+            "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif",
+            "https://cdn.discordapp.com/attachments/199465139026657280/805690845407739944/210131_6.gif"]
 
         self.bot.nct_kun_gif = ["https://tenor.com/view/kun-wayv-nct-gif-19030306",
             "https://tenor.com/view/kun-kun-from-home-nct-from-home-mv-from-home-gif-18886755",
@@ -197,7 +199,12 @@ class NCT(commands.Cog):
             "https://tenor.com/view/hendery-wayv-nct-cute-smile-gif-14733904",
             "https://tenor.com/view/hendery-way-v-nct-cute-selfie-gif-14698268",
             "https://tenor.com/view/seulgicfm-hendery-gif-19467114",
-            "https://tenor.com/view/hendery-wayv-nct-heart-gif-14723398"]
+            "https://tenor.com/view/hendery-wayv-nct-heart-gif-14723398",
+            "https://tenor.com/view/hendery-wayv-nct-gif-19296592",
+            "https://tenor.com/view/nct-hendery-turn-back-time-mv-way-v-hendery-nct-hendery-nct-hendery-turn-back-time-mv-gif-19674019",
+            "https://tenor.com/view/nct-hendery-nct-hendery-turn-back-time-mv-way-v-hendery-gif-19674013",
+            "https://tenor.com/view/hendery-wayv-hendery-crying-hendery-waaa-waaa-gif-19336487",
+            "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028470"]
 
         self.bot.nct_yangyang_gif = ["https://tenor.com/view/yangyang-wayv-ariel-liu-yangyang-gif-18990980",
             "https://tenor.com/view/wayv-nct-liu-yangyang-yangyang-handsome-gif-16282245",
@@ -222,7 +229,40 @@ class NCT(commands.Cog):
             "https://tenor.com/view/taeyong-nct-nct127-nct-u-regular-gif-13569029",
             "https://cdn.discordapp.com/attachments/793028403463716875/804433955771645962/image0.gif",
             "https://cdn.discordapp.com/attachments/793028403463716875/804433956224106587/image1.gif",
-            "https://cdn.discordapp.com/attachments/793028403463716875/804434007336026112/image0.gif"]
+            "https://cdn.discordapp.com/attachments/793028403463716875/804434007336026112/image0.gif",
+            "https://gfycat.com/actualaccurateayeaye",
+            "https://gfycat.com/likelydifficultgallinule",
+            "https://gfycat.com/equatorialadmirablegalapagospenguin-nct-2018-jaehyun-jungwoo-taeyong-chenle",
+            "https://gfycat.com/misguidedimaginaryangelfish",
+            "https://gfycat.com/dismalpastdinosaur",
+            "https://gfycat.com/honestpleasantglobefish",
+            "https://gfycat.com/joyfulorangekiskadee-beauty",
+            "https://gfycat.com/pleasantchiefguineafowl",
+            "https://gfycat.com/spiffypeacefulalleycat",
+            "https://gfycat.com/mixedhollowjaeger",
+            "https://gfycat.com/altruisticpitifulcanary",
+            "https://gfycat.com/demandingidleaustralianshelduck",
+            "https://gfycat.com/zealoussanecaimanlizard-taeyong-kpop-nct",
+            "https://gfycat.com/immateriallargekitty-lee-taeyong-sm-rookies-sr15b",
+            "https://gfycat.com/softconfusedafricanjacana-lee-taeyong-sm-rookies-sr15b",
+            "https://gfycat.com/basicfragrantanglerfish-longflight-smstation-nct-127-taeyong",
+            "https://gfycat.com/flippantimpartialbrontosaurus",
+            "https://gfycat.com/ornategentlegalapagosmockingbird",
+            "https://gfycat.com/tarthatefulhatchetfish",
+            "https://gfycat.com/legalimmaterialaddax-nct-taeyong-long-flight-sm-station",
+            "https://gfycat.com/relieveddensecomet",
+            "https://gfycat.com/impressivewideeyedcopperbutterfly-highwaytoheavenenglish-wearesuperhuman-taeyong",
+            "https://i.pinimg.com/originals/7b/c2/4b/7bc24bc7ff88fcec939303cf529ce06a.gif",
+            "https://v-phinf.pstatic.net/20201106_234/16046706748106uLnj_GIF/be1603d6daff167df8805df8f95d3f7e.gif?type=w1000",
+            "https://i.pinimg.com/originals/b3/1c/7b/b31c7bda897bf5725e8736c57d05cb00.gif",
+            "https://data.whicdn.com/images/307974399/original.gif",
+            "https://i.pinimg.com/originals/fe/83/36/fe8336d5818f5fcdfe2d72e8b6f4691f.gif",
+            "https://i.pinimg.com/originals/0d/13/48/0d1348d480ba10564048375efcaa3112.gif",
+            "https://64.media.tumblr.com/16e09ae681e7ef77c54fd8a6b8cd9473/tumblr_oxwhsdraHf1wwki56o1_400.gif",
+            "https://i.pinimg.com/originals/fe/14/36/fe14369aca437ea087221f3954f6d52b.gif",
+            "https://media4.giphy.com/media/Wn0zbBAfNFkpxOa0OI/giphy.gif",
+            "https://i.pinimg.com/originals/0f/2a/db/0f2adb19835bb7eabedf4ad81629105e.gif",
+            "https://i.pinimg.com/originals/b2/87/0f/b2870f55d9c353f26969c41a2315a731.gif"]
 
         self.bot.nct_jungwoo_gif = ["https://tenor.com/view/nct-nct127-jungwoo-kim-jungwoo-jin-ting-you-gif-16941098",
             "https://tenor.com/view/neo-culture-technology-nct-nctzen-jungwoo-park-jungwoo-gif-12100520",
@@ -232,7 +272,19 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674638",
             "https://tenor.com/view/jungwoo-nct-pose-gif-14378541",
             "https://tenor.com/view/jungwoo-nct-nct127-heart-kpop-gif-16653764",
-            "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674610"]
+            "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674610",
+            "https://tenor.com/view/jungwoo-kim-jungwoo-jungwoo-nct-kim-jungwoo-nct-jungwoo-nct127-gif-19560238",
+            "https://tenor.com/view/jungwoo-kim-jungwoo-jungwoo-nct-kim-jungwoo-nct-jungwoo-nct127-gif-19560255",
+            "https://tenor.com/view/jungwoo-kim-jungwoo-jungwoo-nct-kim-jungwoo-nct-jungwoo-nct127-gif-19560263",
+            "https://tenor.com/view/kim-jungwoo-nct-nct127-cute-adorable-gif-14675058",
+            "https://tenor.com/view/jungwoo-kim-jungwoo-jeongwoo-nct-nct-u-gif-14244195",
+            "https://tenor.com/view/jungwoo-kim-gif-18917951",
+            "https://tenor.com/view/jungwoo-kim-gif-18917950",
+            "https://tenor.com/view/nct-nct127-dowoo-doyoung-kim-dong-young-gif-17674592",
+            "https://tenor.com/view/jungwoo-nct-heart-kim-jungwoo-gif-12623235",
+            "https://tenor.com/view/jungwoo-nct-nct127-kim-jungwoo-jungwoo-nct-gif-19560127",
+            "https://tenor.com/view/jungwoo-kim-jungwoo-jungwoo-nct-kim-jungwoo-nct-jungwoo-nct127-gif-19560268",
+            "https://tenor.com/view/jungwoo-nct-gif-18755383"]
 
         self.bot.nct_yuta_gif = ["https://tenor.com/view/yuta-nakamoto-smile-cute-japanese-singer-gif-15773495",
             "https://tenor.com/view/nct-gif-18066481",
@@ -244,7 +296,11 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-nct127-yuta-nakamoto-yuta-sub-vocals-gif-17637557",
             "https://tenor.com/view/nct-nct127-yuta-nakamoto-yuta-sub-vocals-gif-17661500",
             "https://tenor.com/view/yuta-nct-nakamoto-nct127-gif-18999821",
-            "https://tenor.com/view/yuta-nakamotonct-nct127-cute-kiss-wink-gif-14733839"]
+            "https://tenor.com/view/yuta-nakamotonct-nct127-cute-kiss-wink-gif-14733839",
+            "https://tenor.com/view/yuta-nct-nct127-yuta-nakamoto-kpop-gif-17155668",
+            "https://tenor.com/view/nakamotoyuta-nct-yuta-yutagif-nct127-gif-19160084",
+            "https://tenor.com/view/really-yuta-nakamoto-nct-gif-12788521",
+            "https://tenor.com/view/yuta-yuta-nct-yuta-sexy-yuta-nakamoto-nct-sexy-yuta-nct-gif-20324650"]
 
         self.bot.nct_jeno_gif = ["https://tenor.com/view/jeno-nct-dream-sexy-dance-gif-12526719",
             "https://tenor.com/view/jeno-jeno-seolie-nct-jeno-nct-dream-gif-12958231",
@@ -258,7 +314,13 @@ class NCT(commands.Cog):
             "https://tenor.com/view/jeno-nct-jeno-idea-thought-thinking-gif-18121777",
             "https://tenor.com/view/jeno-nct-nct-dream-jeno-seolie-jeno-nct-gif-12958239",
             "https://tenor.com/view/jeno-lee-jeno-nct-nct-dream-hot-gif-16643500",
-            "https://tenor.com/view/nct-dream-jeno-nct-jeno-gif-19863273"]
+            "https://tenor.com/view/nct-dream-jeno-nct-jeno-gif-19863273",
+            "https://tenor.com/view/jeno-lee-nct-dream-winking-gif-19521202",
+            "https://tenor.com/view/please-use-your-mind-jeno-nct-lee-jeno-use-your-brain-gif-16359219",
+            "https://tenor.com/view/nct-dream-lee-jeno-kpop-gif-19250920",
+            "https://gfycat.com/soggywaterydrafthorse",
+            "https://gfycat.com/possibleashamedbug",
+            "https://gfycat.com/fatalfondcarpenterant-beauty"]
 
         self.bot.nct_jisung_gif = ["https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15640963",
             "https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15641120",
@@ -273,7 +335,12 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-dream-jisung-kpop-korean-gif-9994549",
             "https://tenor.com/view/park-ji-sung-nct-nctdream-nctjisung-adorable-gif-16921855",
             "https://tenor.com/view/jisung-nct-go-park-jisung-cute-af-gif-13149929",
-            "https://tenor.com/view/kpop-nct-jisung-gif-11399818"]
+            "https://tenor.com/view/kpop-nct-jisung-gif-11399818",
+            "https://tenor.com/view/jisung-park-jisung-dream-nct-dream-cutie-gif-16426945",
+            "https://tenor.com/view/nct-kpop-ccg-cute-nct-dream-gif-14846159",
+            "https://tenor.com/view/nct-nct-dream-jisung-park-ji-sung-main-dancer-gif-16812214",
+            "https://tenor.com/view/nct-dream-jisung-stop-wait-pause-gif-15216558",
+            "https://tenor.com/view/nct-nctdream-parkjisung-jisung-gif-19646404"]
 
         self.bot.nct_renjun_gif = ["https://tenor.com/view/finger-bite-cute-kpop-renjun-nct-dream-gif-16895396",
             "https://tenor.com/view/renjun-renjun-cute-renjun-nom-nom-renjun-bungeoppang-gif-19626068",
@@ -295,13 +362,121 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-nct-dream-renjun-huang-ren-jun-hwang-in-joon-gif-17167756",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097322155180043/image0.gif"]
 
+        self.bot.nct_doyoung_gif = ["https://i.pinimg.com/originals/c3/3c/af/c33caff35228f8c25b79756bf3858490.gif",
+            "https://data.whicdn.com/images/320339609/original.gif",
+            "https://78.media.tumblr.com/35f8f28866bd985922db13eec3d3d2ab/tumblr_p8mek1s3a21sajt0bo1_400.gif",
+            "https://data.whicdn.com/images/312017515/original.gif",
+            "https://data.whicdn.com/images/321897209/original.gif",
+            "https://78.media.tumblr.com/b6606fbac3059d16860b14baab69d204/tumblr_p566iwH9Tv1x7lc5jo3_400.gif",
+            "https://pa1.narvii.com/6690/eb89dc13d6ffbdc52c2766001ff304496a1060e4_hq.gif",
+            "https://media1.tenor.com/images/2d40483ad03f8648a591e3d4d716216b/tenor.gif?itemid=15749825",
+            "https://64.media.tumblr.com/9b46169d562186c48dfa192edce186d4/7372b4a5ed630294-65/s540x810/62262631f234313d8c8ca221de00a5214db13b07.gif"]
+
+        self.bot.nct_haechan_gif = ["https://data.whicdn.com/images/312017472/original.gif",
+            "https://64.media.tumblr.com/20aa6e1fc21ad09a3c46a1bda021f92b/2e7c33e88cfa45b6-1a/s250x400/03e8c3e5dc265549348372c81e2326c91c0b56e7.gif",
+            "https://64.media.tumblr.com/75ef7a734537d58e74904c48c9cb7017/tumblr_inline_pow2abTWdm1waucm1_500.gif",
+            "https://p.favim.com/orig/2018/09/27/nct-127-nct-dream-regular-Favim.com-6379197.gif",
+            "https://media1.tenor.com/images/b561fa662544b25f8627f3aa83738172/tenor.gif?itemid=17383374",
+            "https://i.pinimg.com/originals/95/23/fe/9523fe8c6242656d6749518de57a1119.gif",
+            "https://i.pinimg.com/originals/32/52/9c/32529ca296c7d6114a34e44dd4e8ef48.gif"]
+
+        self.bot.nct_shotaro_gif = ["https://data.whicdn.com/images/351628694/original.gif",
+            "https://64.media.tumblr.com/6edafc4e3260369fc2985fba82b15445/28949b3c12da530c-06/s540x810/052ac6091eb548bd42872edc47493087d9effd66.gif",
+            "https://i.pinimg.com/originals/98/15/81/9815815163d0c1e0e2684b8dbf0b350a.gif",
+            "https://64.media.tumblr.com/ed525c8f42475f3a1cabc6d2415a20e1/16d2020971cda3d1-e0/s400x600/177a2c6c491972336440d4adc7c7e0e56bb7fb6b.gif",
+            "https://i.pinimg.com/originals/ff/70/ec/ff70ec397a9742db8f3a3bb899c3b862.gif",
+            "https://data.whicdn.com/images/351456132/original.gif",
+            "https://lh3.googleusercontent.com/-oPCo2mOsMNA/X2odftlLkWI/AAAAAAABIHU/WGyRoYVSc4YaMtYEp06likNYkmlvjatxwCLcBGAsYHQ/s16000/download%2B%25281%2529.gif",
+            "https://64.media.tumblr.com/479ed0fb7b0e877859761b7b4abb316e/e518acab0afea2ee-01/s250x400/1699ca4024158bdfc711a9d915558ece1c103393.gif"]
+
+        self.bot.nct_taeil_gif = ["https://tenor.com/view/nct-1994-moon-tae-il-taeil-finger-heart-gif-14375657",
+            "https://tenor.com/view/nct-1994-moon-tae-il-taeil-heart-gif-14375647",
+            "https://tenor.com/view/taeil-moon-gif-18057151",
+            "https://tenor.com/view/dazed-look-distracted-concentrate-stare-gif-16109314",
+            "https://tenor.com/view/moon-taeil-nct127-cute-gif-14352845",
+            "https://tenor.com/view/moon-taeil-nct127-hot-kpop-side-view-gif-14733906",
+            "https://tenor.com/view/nct-nct127-kpop-seventeen-happy-gif-15879465",
+            "https://tenor.com/view/nct-1994-moon-tae-il-taeil-gif-14375660",
+            "https://i.pinimg.com/originals/a5/a6/4d/a5a64d5c3459e443c347509b39e4851a.gif",
+            "https://i.pinimg.com/originals/28/43/b1/2843b10af9f42c153877c5cd1878b210.gif",
+            "https://media1.tenor.com/images/e0c64433f133d81fa9e1422bd7d87c3a/tenor.gif?itemid=14266544",
+            "https://data.whicdn.com/images/248620976/original.gif",
+            "https://64.media.tumblr.com/a2f303114f52e194c367f7b439cbf9fa/tumblr_p378oh3Jaz1x2ayioo1_500.gif",
+            "https://media1.tenor.com/images/acdc3c5360386cba413bf3400f000b91/tenor.gif?itemid=14352845",
+            "https://data.whicdn.com/images/321043162/original.gif"]
+
+        self.bot.nct_johnny_gif = ["https://tenor.com/view/nct-nct127-johnny-seo-young-ho-john-suh-gif-17600646",
+            "https://tenor.com/view/nct-kpop-ccg-nct127-johnny-suh-gif-14838201",
+            "https://tenor.com/view/johnny-suh-nct-nctu-nct127-gif-19397616",
+            "https://tenor.com/view/sip-tea-sips-tea-sipping-tea-tea-not-my-problem-gif-17953668",
+            "https://tenor.com/view/johnnysuh-johnny-nct-127-johnnyseo-gif-14185990",
+            "https://tenor.com/view/johnny-suh-johnny-johnny-nct-jyani-youngho-gif-19646436",
+            "https://tenor.com/view/nct-kpop-ccg-idk-i-dont-know-gif-14838261",
+            "https://tenor.com/view/nct-nct127-johnny-seo-young-ho-john-suh-gif-17056834",
+            "https://i.pinimg.com/originals/24/a3/01/24a301425ef0e90dc3a8e931cd03e3d2.gif",
+            "https://data.whicdn.com/images/322395528/original.gif",
+            "https://64.media.tumblr.com/5c0689090b84b707ba20c4f85f284b32/tumblr_ph3o825jBP1rd83cko1_400.gif",
+            "https://pa1.narvii.com/6937/6ea104d5dd53d6a4c71813c7bfa1825245e3c08dr1-600-338_hq.gif",
+            "https://64.media.tumblr.com/6eee8c2756fedd75ce6d68592d2b05b7/c8f61988c4ad0f55-da/s400x600/0921a5511cc10017712be76e79d66ebb00670894.gif",
+            "https://64.media.tumblr.com/0ab4a42f47acf64423b50eb86ee66a91/tumblr_op2tt55N8w1vtzx3lo1_500.gif",
+            "https://static.tumblr.com/de7420edecd565e32132d0fa012d472d/sfqrjnj/8cpop35eg/tumblr_static_tumblr_static_2aa3z9eusisk0wo84s8gosgs4_focused_v3.gif",
+            "https://64.media.tumblr.com/4a31dc164ae626c8c6ddb59d6f2829da/7bcbfe36332b251a-bd/s400x600/89a256dd13ca49430ffbb26e4fd1730b3d648c18.gif",
+            "https://i.pinimg.com/originals/42/b7/5f/42b75f1ed6c341e99191ce5679e73274.gif",
+            "https://i1.daumcdn.net/thumb/R600x0/?fname=https://blog.kakaocdn.net/dn/bfHPCi/btqEh7GyMO0/6Z8uS2sFQMfVBNkYHgkQk0/img.gif",
+            "https://data.whicdn.com/images/347268939/original.gif",
+            "https://i.pinimg.com/originals/1f/d9/f8/1fd9f8b2df93d123b71163f378d1283f.gif",
+            "https://i.pinimg.com/originals/83/53/c8/8353c8c9c8aba0ee8f99b4691d04e889.gif",
+            "https://gfycat.com/bigexhaustedfishingcat-doyoung-haechan-jaehyun-jungwoo-taeyong"]
+
+        self.bot.nct_chenle_gif = ["https://tenor.com/view/alechris-gif-19117093",
+            "https://tenor.com/view/nct-chenle-nct-dream-chenle-nct-nct-dream-ridin-mv-gif-19715375",
+            "https://tenor.com/view/chenle-zhong-chenle-nct-dream-shades-on-kpop-gif-16095981",
+            "https://tenor.com/view/zhong-chenle-nct-yearbook-photoshoot-bored-gif-13626674",
+            "https://tenor.com/view/nct-chenle-nct-dream-chenle-nct-dream-chenle-nct-dream-chenle-nct-gif-19715373",
+            "https://tenor.com/view/nct-nct-dream-kpop-zhong-chenle-chenle-gif-14900503",
+            "https://gfycat.com/advanceddeafeningbobcat",
+            "https://64.media.tumblr.com/fb1b4cc9acefa5261a15384710bdd471/5708ec1f20b34f8b-22/s400x600/2677c1703d24dbb7c1ab4664229fbb8f6282bf29.gif",
+            "https://64.media.tumblr.com/2c47f819058dd28eb31a06e620080687/tumblr_oztkw5NXuj1ubch87o1_400.gif",
+            "https://zhongchenlenctdream.carrd.co/assets/images/image01.gif?v57784692551551",
+            "https://i.pinimg.com/originals/4f/16/41/4f1641bcbd46cfdd77600bbeec94c89c.gif",
+            "https://data.whicdn.com/images/309088415/original.gif",
+            "https://64.media.tumblr.com/22ffd7b241c8e6b385f08c67c3cd4ed7/tumblr_ozr19c6QFX1um8zcso1_500.gif",
+            "https://imgur.com/U5CnCWL",
+            "http://pa1.narvii.com/6823/fb669e25a2315f05262a4277bf8fa51035be3b51_00.gif"]
+
+        self.bot.nct_sungchan_gif = ["https://tenor.com/view/sungchan-sungchansmile-nct-nct2020-nctsungchan-gif-19820916",
+            "https://tenor.com/view/nct-sungchan-nct-u-sungchan-nct2020sungchan-gif-20286601",
+            "https://tenor.com/view/sungchan-jung-nct-nctu-pointing-gif-19594749",
+            "https://tenor.com/view/nct-u90s-love-sungchan-nct-u-sungchan-nct-sungchan-gif-19887803",
+            "https://tenor.com/view/nct-sungchan-nct2020sungchan-gif-20286636",
+            "https://64.media.tumblr.com/68a0632113213e4ee388f3ecb6214321/21316b4d2e005c47-f0/s400x600/60ff2adc4b04fa5993ff4d417dd8358d3a17c749.gif",
+            "https://64.media.tumblr.com/d7c8b5a150c15c77de8926203d248884/f9206b42435c4649-12/s400x600/3714b23c7e212d9a4b2e6501def9b7549fb4763d.gif",
+            "https://i.pinimg.com/originals/7e/38/e9/7e38e908c8d9349c0744348881b92230.gif",
+            "https://data.whicdn.com/images/348941908/original.gif",
+            "https://i.pinimg.com/originals/d1/8d/42/d18d42b93aaf9529ee394d4714e8577b.gif",
+            "https://media1.tenor.com/images/07ef96d11ff046f955c193cfdf75e35c/tenor.gif?itemid=19371869",
+            "https://64.media.tumblr.com/eb5a6109f128f973e1f31f3f7416b766/d3c767270b070037-30/s400x600/c677d636d7025dc10f58266aaaa72ae053a1aa1d.gif",
+            "https://64.media.tumblr.com/38efdee1d25f2698c56b524746873acd/c7085a0b7ee464e9-b2/s500x750/a91bc4d45d00f52477c5a8f727eabb30b8d99bb7.gif",
+            "https://64.media.tumblr.com/4d604f7852e24b36438dd6467d56c9f9/d3c767270b070037-ee/s400x600/0c25a3e3d12504edb22af26526d342e547c3c19a.gif",
+            "https://i.pinimg.com/originals/c1/95/b6/c195b676c01a27d23bd9bdc6b52ae16d.gif",
+            "https://media1.tenor.com/images/6c7b5b9051b7c78e62e993b3b882a184/tenor.gif?itemid=20286601",
+            "https://64.media.tumblr.com/cfbfaac0dc29bdbc5ab36f4a6a5fd4b7/c9c961a5d1076ab6-fb/s400x600/0c0daca12beac5a237082b33392a37955724449d.gif",
+            "https://tenor.com/view/sungchan-gif-19303434",
+            "https://tenor.com/view/sungchan-nct-nct-sungchan-pout-aegyo-gif-18929266",
+            "https://tenor.com/view/sungchan-gif-19899739",
+            "https://tenor.com/view/nct-sungchan-gif-19975659",
+            "https://tenor.com/view/nct-sungchan-nct-u-sungchan-nct2020sungchan-gif-20286540",
+            "https://tenor.com/view/nct-sungchan-kitty-cat-kitten-gif-19481210",
+            "https://tenor.com/view/jung-sungchan-sungchan-nct-nct-u-kiss-gif-19819628",
+            "https://tenor.com/view/nct-u-sungchan-nct-u90s-love-sungchan-nct-sungchan-nct2020-gif-19887790",
+            "https://tenor.com/view/love-sungchan-nct-jlgif-heart-gif-19798986"]
 
     @commands.command()
     async def nct(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [NCT {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [NCT {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "mark":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
@@ -440,6 +615,63 @@ class NCT(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Renjun :heart: ')
                 await ctx.send(random.choice(self.bot.nct_renjun_gif))
                 await ctx.message.delete()
+        elif arg == "doyoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Doyoung :heart: ')
+                await ctx.send(random.choice(self.bot.nct_doyoung_gif))
+                await ctx.message.delete()
+        elif arg == "haechan":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Haechan :heart: ')
+                await ctx.send(random.choice(self.bot.nct_haechan_gif))
+                await ctx.message.delete()
+        elif arg == "shotaro":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Shotaro :heart: ')
+                await ctx.send(random.choice(self.bot.nct_shotaro_gif))
+                await ctx.message.delete()
+        elif arg == "taeil":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Taeil :heart: ')
+                await ctx.send(random.choice(self.bot.nct_taeil_gif))
+                await ctx.message.delete()
+        elif arg == "johnny":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Johnny :heart: ')
+                await ctx.send(random.choice(self.bot.nct_johnny_gif))
+                await ctx.message.delete()
+        elif arg == "chenle":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chenle :heart: ')
+                await ctx.send(random.choice(self.bot.nct_chenle_gif))
+                await ctx.message.delete()
+        elif arg == "sungchan":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sungchan :heart: ')
+                await ctx.send(random.choice(self.bot.nct_sungchan_gif))
+                await ctx.message.delete()
+        
 
 
     
@@ -448,7 +680,7 @@ class NCT(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Jaehyun] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Jaehyun] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if ctx.guild.id == luminary:
             if ctx.channel.id == kbotcom:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart: ')

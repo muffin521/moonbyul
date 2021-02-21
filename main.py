@@ -24,11 +24,8 @@
 
     #= NCT:
         #. Shotaro
-        #. Sungchan
         #. Taeil
         #. Johnny
-        #. Doyoung
-        #. Haechan
         #. Chenle
 
 
