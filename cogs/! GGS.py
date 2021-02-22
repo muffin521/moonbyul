@@ -14,7 +14,7 @@ sadboi = 642497143801905190
 kbotcom = 764610881513324574
 
 #//people
-k8 = 2
+k8 = 573974040679809044
 
 class GGS(commands.Cog):
 
@@ -25,27 +25,106 @@ class GGS(commands.Cog):
         self.bot.apink_bomi_gif = ["https://tenor.com/view/yoon-bomi-one-one-more-time-chance-again-gif-13724908",
             "https://tenor.com/view/yoon-bomi-play-recorder-musical-instrument-flutes-gif-11868145",
             "https://tenor.com/view/thanks-thank-you-apink-bomi-yoon-gif-9243373",
-            "https://tenor.com/view/bomi-apink-bomi-apink-bomi-apink-im-so-sick-im-so-sick-gif-14772262"]
+            "https://tenor.com/view/bomi-apink-bomi-apink-bomi-apink-im-so-sick-im-so-sick-gif-14772262",
+            "https://64.media.tumblr.com/dd810660b761c01b16ab635e6cc50981/tumblr_plev3yT1v41vb2ospo2_250.gif",
+            "https://64.media.tumblr.com/7826fa5e6b457c9d56dfb7525e434d19/tumblr_plev3yT1v41vb2ospo1_250.gif",
+            "https://64.media.tumblr.com/0f098171263cf75ede009e6de3755772/40624a9f884798bb-17/s400x600/6cf41108fad0285eb96ef2a789123e860068ac4d.gif",
+            "https://64.media.tumblr.com/e0bbed231dc57af681cb1e7917c6cc24/tumblr_pb8r13RsIe1xxqotao4_250.gif",
+            "https://64.media.tumblr.com/f9fdcb51f0b11a5688cbad2bb877f2a6/tumblr_pxf2gmmky91xw84pqo3_250.gif",
+            "https://64.media.tumblr.com/8b2d354e6ab8709302b6643567a7f57f/46150fc377fc1dde-58/s400x600/dc630d009160fda6f1fa08e90a60d0066dd755e4.gif",
+            "https://64.media.tumblr.com/7fb4f65b4a9850c7efbd76ec04b5dc7a/tumblr_pbc0uyxa7w1tj2lfbo2_250.gif",
+            "https://64.media.tumblr.com/3c259a7c539903e95c980482427cd541/tumblr_pbaoqzu2LF1xoxm6to5_400.gif",
+            "https://64.media.tumblr.com/1162467e8d5f004975a6e1096804dad1/tumblr_pmz9tabkjX1y6jppqo4_250.gif",
+            "https://64.media.tumblr.com/381211a18182dcfa4f15c45c3a46bb24/f9acf2a8326e581f-c5/s400x600/458383e56cf3b0184bb82b14289024212e8961be.gif",
+            "https://64.media.tumblr.com/8caf8a358a466abea7e3845cf774a4f0/b50f2e3cfac1c29e-e7/s250x400/cad00c97ea627d19034b30e33b7ac3b43b7c9c0c.gif"]
 
         self.bot.apink_chorong_gif = ["https://tenor.com/view/chorong-gif-7780924",
-            "https://tenor.com/view/nevermind-thegodbomi-chorong-apink-laughs-gif-20131482"]
-        
+            "https://tenor.com/view/nevermind-thegodbomi-chorong-apink-laughs-gif-20131482",
+            "https://64.media.tumblr.com/b7c8567e26e6de856c0317e411ec6a51/6efec9cb5919446f-06/s250x400/07ee88e940934ab1decf405470618ecb1fa8c8ee.gif",
+            "https://64.media.tumblr.com/0a15491d0099bf86d6efa9e56e60dc8f/f5b2db8052ad7310-e4/s250x400/f2e6fd3491005af3c00c84fd1a7a885de2795598.gif",
+            "https://64.media.tumblr.com/76db3e8113cad8a745a99d2ba5ecf882/cd2f7c7158dab85f-29/s250x400/f7ddd754a7163fd0f51e0d36c143d8bc37743d70.gif",
+            "https://64.media.tumblr.com/5ac5fc1205779fc71631b15db729d06c/1aa4e275cf310306-3c/s400x600/5034f4e1fcfdc6ee8fe889bd566e0935aaddd434.gif",
+            "https://64.media.tumblr.com/0c521b500a5b56ab83eda2978a09e725/tumblr_pbxnzzyaze1qg5nyao1_250.gif",
+            "https://64.media.tumblr.com/857375fc74bf5ad5020bd333076114f6/tumblr_p1xkhuJxc71uu2l2ko1_250.gif",
+            "https://64.media.tumblr.com/c78b890816ff8386769d89a3ac3a4e0f/tumblr_plg1tmTgP61sh3g3mo4_250.gif",
+            "https://64.media.tumblr.com/944c623ee530d081598b585ccf1b95a9/tumblr_pj3027nio11ui9s1qo1_250.gif",
+            "https://64.media.tumblr.com/291136a62272f109ab1e7556ffc8fca6/b50f2e3cfac1c29e-57/s250x400/b7a7dffede3dd44dca3261b9e84a06a535103340.gif",
+            "https://64.media.tumblr.com/f4e673c1b1fa8e9503439efddbe5eae6/tumblr_pkyf3dB3l81somnmfo4_400.gif",
+            "https://64.media.tumblr.com/a429d70ac9f04122a8c94c4b8f346be4/ccb85531d41c47c9-7c/s250x400/d94c1e5a59ea1c72222f99e2af2cae623a9b4c74.gif",
+            "https://64.media.tumblr.com/8f9a990668c6c369e77e85aa025ea0f0/66db3935b2a70e92-46/s250x400/77982d242842405a154d753ea16321c4dc49816e.gif",
+            "https://64.media.tumblr.com/e217c0c012d57c39d188cf500552f67a/tumblr_pd35sn83rJ1uqmda6o1_400.gif",
+            "https://64.media.tumblr.com/d20a8ad49a03f75e8b4992a5074e73d0/tumblr_pbg561NRo41tlaxyuo3_250.gif"]
+
         self.bot.apink_eunji_gif = ["https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042",
             "https://tenor.com/view/apink-eunji-gif-18881050",
             "https://cdn.discordapp.com/attachments/800205891365371915/808932802892005396/eunji_1.gif",
             "https://cdn.discordapp.com/attachments/800205891365371915/808932957683318804/eunji_2.gif",
             "https://giphy.com/gifs/0vFsUFprMMN3SodOCn",
             "https://tenor.com/view/apink-girl-group-sing-music-kpop-gif-5669042",
-            "https://tenor.com/view/apink-eunji-gif-18881046"]
+            "https://tenor.com/view/apink-eunji-gif-18881046",
+            "https://64.media.tumblr.com/0e0ab1a0bc637d3ed0d9ed70162cec81/tumblr_pj462phOly1tj2lfbo1_250.gif",
+            "https://64.media.tumblr.com/b895cf04253657a1aab78402bd9d4835/b50f2e3cfac1c29e-77/s250x400/93c55c760f462e28a3a45dc844e81d602d57f9ac.gif",
+            "https://64.media.tumblr.com/560d44188ecf986376bcd0ee3bbb08f8/tumblr_pla6d9BB581y0ir8uo3_250.gif",
+            "https://64.media.tumblr.com/7f2f5e46bd4b703fad23fa031978a957/0b517273314f4dfd-d2/s400x600/bdbeb683dab873a25476e76a82d2a622fe2c0d7c.gif",
+            "https://64.media.tumblr.com/9d7216feeb31845a2a7c9d06fc2b9dd2/0b517273314f4dfd-58/s400x600/b234f6c0972ffb3f843f4fb4efc5e2f6bbe451ca.gif",
+            "https://64.media.tumblr.com/f5e51b2234e8f368bb43470621ba9a36/tumblr_plaksj2CEN1r3hdhfo3_r1_250.gif",
+            "https://64.media.tumblr.com/beb9d4191d0ffc29f4f1668fdd09eda0/9ee34cc60937c184-e0/s250x400/ddf68d730ea946d44334972b58a37663d9a0fa34.gif",
+            "https://64.media.tumblr.com/4376169717ab3b8c8dbb6883a9866789/1aa4e275cf310306-4c/s400x600/e35c6c3a51d4b8a8800a4d6150c4688089f60454.gif",
+            "https://64.media.tumblr.com/0b280d8a1302f12e56782486a23ff595/tumblr_pcg51qMYDj1tjypkvo2_250.gif",
+            "https://64.media.tumblr.com/c1bdadf1685ce547986d1ab819de077e/tumblr_pc0sngysuJ1tjypkvo2_250.gif",
+            "https://64.media.tumblr.com/182b7c18a5fb2b37faf1e561cf0e44e5/tumblr_pkyjdtExOw1uqmda6o3_400.gif",
+            "https://64.media.tumblr.com/ee5fc5d9ea64d9bd3260b4257b1b8306/tumblr_pcvkeqpQhl1vjftjjo1_250.gif",
+            "https://64.media.tumblr.com/90ddab76cf42a60c6117239541598ba7/tumblr_p64sxtGSm61rhz16go1_250.gif",
+            "https://64.media.tumblr.com/d5afb6ee75c7304928e4da9950b443f2/tumblr_p64sxtGSm61rhz16go3_250.gif"]
 
         self.bot.apink_hayoung_gif = ["https://tenor.com/view/hayoung-shrug-idgaf-not-my-problem-not-my-business-gif-10589324",
-            "https://tenor.com/view/hayoung-apink-hayoung-apink-gif-18814544"]
+            "https://tenor.com/view/hayoung-apink-hayoung-apink-gif-18814544",
+            "https://64.media.tumblr.com/5d55d7250d55a3b78aefa02a85a2672d/tumblr_pbti2xLH7g1ui9s1qo2_250.gif",
+            "https://64.media.tumblr.com/56838a734084f8d7d297fb494811469e/tumblr_pbti2xLH7g1ui9s1qo3_r1_250.gif",
+            "https://64.media.tumblr.com/238cee244ca932fa7dec9f6f3d24edd6/tumblr_pl8topcca01y0ir8uo3_250.gif",
+            "https://64.media.tumblr.com/0c1193d049cf76797d75029a9e1498ca/tumblr_pb9824WL1R1v8cwg0o1_250.gif",
+            "https://64.media.tumblr.com/60f43de82e82c9fc15373ab5cfff8eda/b50f2e3cfac1c29e-4d/s250x400/77460a7aadac4bd6c61187031363f05c6a1c20dd.gif",
+            "https://tenor.com/view/hayoung-hayoung-apink-apink-gif-18814739",
+            "https://64.media.tumblr.com/91626d29100d767142185a8431e9185b/c7d2c9d19daf33be-48/s250x400/cd32ab388b44d7749dcc2e8a7314f7ed32d6dd40.gif",
+            "https://64.media.tumblr.com/4cbb029c2d2708bdababaa0c772041c5/c7d2c9d19daf33be-89/s250x400/718006fd3849db92dbbd255eb1e16387df6fe392.gif",
+            "https://64.media.tumblr.com/53c49df83e8592cae62dfe7d6ea87064/tumblr_pwl81onkDs1xdglqzo4_250.gif",
+            "https://64.media.tumblr.com/7a976e6cc7c42b3fc89f8cbcef6731a4/0506204366eb0deb-bf/s250x400/9087b725c77af0eeff29c397639546efd706af84.gif",
+            "https://64.media.tumblr.com/6bed2f863899d3cd252b256826e7c03d/65710eedc8f711eb-fc/s250x400/f2d2c0f83ad2a5d1aa0141c64a75d324ba90b5b3.gif",
+            "https://64.media.tumblr.com/25b99c419e636d2e5e1d6841bc677930/tumblr_pbch5r5iRJ1uqmda6o3_400.gif",
+            "https://64.media.tumblr.com/6719eb3128e786152759b270f5003b60/4d429b2732a6a2f1-58/s250x400/72c26afb5391c4901e8482ba0365f6dbd17ea5d9.gif"]
 
         self.bot.apink_naeun_gif = ["https://tenor.com/view/naeun-apink-gif-18574437",
-            "https://tenor.com/view/apink-son-naeun-nhicatung-kpop-korean-gif-5486987"]
+            "https://tenor.com/view/apink-son-naeun-nhicatung-kpop-korean-gif-5486987",
+            "https://64.media.tumblr.com/c1934f7688d0c0656e6f5ee46b5f38e0/tumblr_pc9rtcuwgX1tj2lfbo3_250.gif",
+            "https://64.media.tumblr.com/f12fdaf26b03b6da3707a4c23a8603c7/tumblr_pc9rtcuwgX1tj2lfbo2_250.gif",
+            "https://64.media.tumblr.com/f4cdef238fcddde5e85cf4244860f456/1aa4e275cf310306-46/s400x600/909aef1616c14a6e23670524a7633c34ffb4f1c9.gif",
+            "https://64.media.tumblr.com/295d4bef324388526151034057fb4b05/tumblr_pcofgcg3fG1r9f1l9o3_250.gif",
+            "https://64.media.tumblr.com/90362776482ed8b1537cfe54d8364241/tumblr_pl72h4qCOe1r3hdhfo1_r1_250.gif",
+            "https://64.media.tumblr.com/f4d6b247b22972e87025c5c5fd639a0c/7bc3e9c9873b828b-5d/s250x400/fa27e67dfa124bb2cbda16d4f0cd59cfa1f71300.gif",
+            "https://64.media.tumblr.com/ed0898fe9540a52b5b33b255bbf4fbe6/tumblr_pkyh6y4Shm1uqmda6o1_400.gif",
+            "https://64.media.tumblr.com/f4f51fd0848c93db2333183ee93c088a/tumblr_pkh0r4Gqhf1s2vcg0o3_250.gif",
+            "https://64.media.tumblr.com/ffaa2e3b952d1a6a46fe033312d3ada8/tumblr_pe0cdnc1Ux1tj2lfbo5_250.gif",
+            "https://64.media.tumblr.com/579fe53e34951b4a99f627e2e93f3f84/tumblr_ptft5v0k6l1ui9s1qo1_r1_250.gif",
+            "https://64.media.tumblr.com/87e19b38cb757705ec452b13b64e887e/tumblr_p7g6xrBlHb1uqmda6o3_r2_250.gif",
+            "https://64.media.tumblr.com/f836670a86fbe377da4530c5c111f864/tumblr_po8sbx87Yy1ui9s1qo2_250.gif",
+            "https://64.media.tumblr.com/b0c68bc58a58baf364c3a8affcd5d4fa/tumblr_po8sbx87Yy1ui9s1qo1_250.gif",
+            "https://tenor.com/view/naeun-apink-kpop-sexy-white-gif-7708243"]
 
         self.bot.apink_namjoo_gif = ["https://tenor.com/view/apink-kim-namjoo-k-pop-korean-gif-10024790",
-            "https://tenor.com/view/namjoo-apink-oop-and-i-oop-namjoo-cover-mouth-gif-19379187"]
+            "https://tenor.com/view/namjoo-apink-oop-and-i-oop-namjoo-cover-mouth-gif-19379187",
+            "https://64.media.tumblr.com/d9887526832bf609edf5221cd520663d/8d086cffd945cefe-ed/s250x400/167ec6d90841e5ec94b42ef4a44f09e0eaa68a36.gif",
+            "https://64.media.tumblr.com/68af8ff34f20347eaaa89702e960bfdc/1aa4e275cf310306-9b/s400x600/9631045ed773b2cbc5a078846a757e69dceb1ffa.gif",
+            "https://64.media.tumblr.com/3ea9106e1182daaf780b21c1071398dc/8d086cffd945cefe-15/s250x400/327a87f1499249e39181d277b07c3aec51ad91d2.gif",
+            "https://64.media.tumblr.com/4598b877f2065a1c5801c27c70fd7777/7b28403c33e1a681-b2/s400x600/5ec517d3d07f36f06b648fe65ad2458af09b776f.gif",
+            "https://64.media.tumblr.com/71472056960ce79fd034df974548a9ce/c264df28891ab678-68/s250x400/ff26a0be0142e6c035a4820d8782a1b7de5e805a.gif",
+            "https://64.media.tumblr.com/971b656d451cc86322041429d94e844c/5adb8e6d2fb15a89-cd/s250x400/0af77f8de0572a18c8ff1f0261406f24dcf7e1dc.gif",
+            "https://64.media.tumblr.com/40dec0b4645782d81bba5ddf9dc31351/1e6f513c54301cdf-6d/s250x400/795743708cda73adb21c2733eabaa47797066f12.gif",
+            "https://64.media.tumblr.com/639d0f23496483f74975eeebf7b6d8ef/1e6f513c54301cdf-ed/s250x400/05e205454c6cc2d46457e629a3b335d2cac4f39e.gif",
+            "https://64.media.tumblr.com/daed4fc3c09c735bbbe999cbf3241845/f9acf2a8326e581f-b6/s400x600/df38f7338cb526890802ba11e351d2b5539fa58f.gif",
+            "https://64.media.tumblr.com/f13cd4b8a94b6cc6348416bc9d6db0f7/b50f2e3cfac1c29e-cb/s250x400/6651101b6b305e1f6a07afda3930d808e600a952.gif",
+            "https://64.media.tumblr.com/7195d7314fe311ef8a0bf1646ee01e0f/1eef5da31cda2a7b-83/s250x400/d089fe5fe7c3614c2f0fe1b967752e561492b272.gif",
+            "https://64.media.tumblr.com/09c7f567209e25029962662379f740aa/tumblr_pbe0x9v2Qf1qg5nyao4_r2_250.gif",
+            "https://64.media.tumblr.com/965d2a23f9e59bde7d08703365f526f4/2fff8d4018c3a2bd-d7/s400x600/cb8fb71b679a6c561e20c03e6470ee823d4e97d6.gif"]
     #. dreamcatcher
         self.bot.dreamcatcher_jiu_gif = ["https://tenor.com/view/onex-1x-jiu-hawt-kim-minji-hawt-jiu-gif-18812596",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294061996605470/image1.gif",
@@ -831,13 +910,53 @@ class GGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Apink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "eunji":
+        if arg == "bomi":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Bomi :heart:') 
+                await ctx.send(random.choice(self.bot.apink_bomi_gif))
+                await ctx.message.delete()
+        elif arg == "chorong":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Chorong :heart:') 
+                await ctx.send(random.choice(self.bot.apink_chorong_gif))
+                await ctx.message.delete()
+        elif arg == "eunji":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
             else:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Eunji :heart:') 
                 await ctx.send(random.choice(self.bot.apink_eunji_gif))
+                await ctx.message.delete()
+        elif arg == "hayoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hayoung :heart:') 
+                await ctx.send(random.choice(self.bot.apink_hayoung_gif))
+                await ctx.message.delete()
+        elif arg == "naeun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Naeun :heart:') 
+                await ctx.send(random.choice(self.bot.apink_naeun_gif))
+                await ctx.message.delete()
+        elif arg == "namjoo":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Namjoo :heart:') 
+                await ctx.send(random.choice(self.bot.apink_namjoo_gif))
                 await ctx.message.delete()
 
     @commands.command(aliases = ['dream'])
