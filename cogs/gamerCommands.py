@@ -163,7 +163,9 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/achinghiddenislandcanary",
             "https://gfycat.com/creepyposhjackal-fromis9-chaeyoung-lee-chaeyoung-fromis-9-idol",
             "https://gfycat.com/infantileimpeccablehammerkop-chaeyoungs-challenge-channel-9-love-bomb",
-            "https://gfycat.com/belatedunevenlemming-fromis9"]
+            "https://gfycat.com/belatedunevenlemming-fromis9",
+            "https://64.media.tumblr.com/f29c4f88c563ac00b6f794948fff42f8/tumblr_po5zevs5IE1y42eufo8_r1_400.gif",
+            "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
