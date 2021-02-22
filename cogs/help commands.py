@@ -44,7 +44,7 @@ class hcommands(commands.Cog):
         embed2.set_footer(text=f"page 2/{totalpages}")
         embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil```''')
         embed2.add_field(name='NCT [2]', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan```''')
-        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\nNCT Shotaro\nCNCT henle\n ```''')        
+        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\nNCT Shotaro\nNCT Chenle\nNCT Dream```''')        
         
         embed2.add_field(name='Iz*One [1]', value=f'''```\nIz*One Sakura\nIz*One Yuri\nIz*One Chaeyeon\nIz*One Eunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
