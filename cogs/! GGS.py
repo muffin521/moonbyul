@@ -21,7 +21,7 @@ class GGS(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.bot.logs = 786515662214397973
-    #. apink
+    #. Apink
         self.bot.apink_bomi_gif = ["https://tenor.com/view/yoon-bomi-one-one-more-time-chance-again-gif-13724908",
             "https://tenor.com/view/yoon-bomi-play-recorder-musical-instrument-flutes-gif-11868145",
             "https://tenor.com/view/thanks-thank-you-apink-bomi-yoon-gif-9243373",
@@ -125,7 +125,7 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/7195d7314fe311ef8a0bf1646ee01e0f/1eef5da31cda2a7b-83/s250x400/d089fe5fe7c3614c2f0fe1b967752e561492b272.gif",
             "https://64.media.tumblr.com/09c7f567209e25029962662379f740aa/tumblr_pbe0x9v2Qf1qg5nyao4_r2_250.gif",
             "https://64.media.tumblr.com/965d2a23f9e59bde7d08703365f526f4/2fff8d4018c3a2bd-d7/s400x600/cb8fb71b679a6c561e20c03e6470ee823d4e97d6.gif"]
-    #. dreamcatcher
+    #. Dreamcatcher
         self.bot.dreamcatcher_jiu_gif = ["https://tenor.com/view/onex-1x-jiu-hawt-kim-minji-hawt-jiu-gif-18812596",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294061996605470/image1.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294063871721472/image3.gif",
@@ -179,7 +179,18 @@ class GGS(commands.Cog):
             "https://tenor.com/view/dreamcatcher-dami-lee-yubin-kpop-pretty-gif-15811393",
             "https://cdn.discordapp.com/attachments/795585001663365130/800507388138094592/e1f635f10fdd9ee970a96f767392a0ee.gif",
             "https://cdn.discordapp.com/attachments/795584752127311873/800509691888533565/e9e4ab22e4b8f52a38d5981b1b75ffc6.gif",
-            "https://cdn.discordapp.com/attachments/795581963229462538/800511798431449099/50a753848cc3ebb4400b78043bca728801d1969b_hq.gif"]
+            "https://cdn.discordapp.com/attachments/795581963229462538/800511798431449099/50a753848cc3ebb4400b78043bca728801d1969b_hq.gif",
+            "https://c.tenor.com/OL-V69yiM7gAAAAM/dami-dreamcatcher-odd-eye.gif",
+            "https://cdn.discordapp.com/attachments/795581963229462538/812904983518248980/tumblr_ooo0obB0PF1wn1qbyo1_400.gif",
+            "https://c.tenor.com/lXpUhmWLFSQAAAAM/dreamcatcher-red-sun.gif",
+            "https://c.tenor.com/uLfVVTbKcIwAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/rPe6V0xFeeUAAAAM/dami-dreamcatcher.gif",
+            "https://c.tenor.com/-Bq1AZ4hDxMAAAAM/dami-dreamcatcher.gif",
+            "https://c.tenor.com/FRjG2-cNJd8AAAAM/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90.gif",
+            "https://thumbs.gfycat.com/AcrobaticHugeGordonsetter-max-1mb.gif",
+            "https://i.pinimg.com/originals/a3/1d/ed/a31ded97432ccda2c7afb2376ab2b681.gif",
+            "https://thumbs.gfycat.com/GlossyHopefulAmberpenshell-max-1mb.gif",
+            "https://thumbs.gfycat.com/LittleSparklingChameleon-max-1mb.gif"]
 
         self.bot.dreamcatcher_gahyeon_gif = ["https://tenor.com/view/onex-1x-dreamcatcher-dreamcatcher-gahyeon-gahyeon-kiss-gif-18704085",
             "https://cdn.discordapp.com/attachments/795584752127311873/800511696837148692/0cabae4a0b98cd2e26eb345427b06a71.gif",
@@ -202,7 +213,10 @@ class GGS(commands.Cog):
             "https://tenor.com/view/handong-dreamcatcher-yoohyeon-hug-handong-dreamcatcher-gif-19121213",
             "https://tenor.com/view/handong-dreamcatcher-dreamcatcher-handong-gif-14876335",
             "https://tenor.com/view/handong-dreamcatcher-performance-dance-kpop-gif-17568347",
-            "https://tenor.com/view/dream-catcher-handong-kpop-dongie-pose-gif-17305836"]
+            "https://tenor.com/view/dream-catcher-handong-kpop-dongie-pose-gif-17305836",
+            "https://tenor.com/view/handong-dreamcatacher-dongie-choke-gif-20128380",
+            "https://c.tenor.com/em3WGxsqjDQAAAAM/dreamcatcher-handong.gif",
+            "https://c.tenor.com/9RLWu36mhQIAAAAM/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90.gif"]
 
         self.bot.dreamcatcher_siyeon_gif = ["https://tenor.com/view/dreamcatcher-siyeon-lee-siyeon-vocalist-kpop-gif-17254566",
             "https://cdn.discordapp.com/attachments/786714676506394654/800514172197666856/a809c032f560b7c8563bdf59d6dcac1d9eb3bb91.gif",
@@ -225,7 +239,35 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585001663365130/800507255593762819/b4de5eed6d285cf70435b46dc43f2761.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800506140445114408/9060e6f5755986b8bad6707d28f55649.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800506214181896230/FreshAnimatedGrizzlybear-size_restricted.gif",
-            "https://cdn.discordapp.com/attachments/795585074450923530/800505747473301554/dreamcatcher-really-really-gif.gif"]
+            "https://cdn.discordapp.com/attachments/795585074450923530/800505747473301554/dreamcatcher-really-really-gif.gif",
+            "https://c.tenor.com/nr_Pncn9h2AAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/0sxvsEr2BEsAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/6qn_z7OfX-cAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/3CmT25pvlPgAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/nawnuCOZYkwAAAAM/dreamcatcher-siyeon.gif",
+            "https://c.tenor.com/hB70qco_w2cAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/Es9TtvIh1zwAAAAM/dream-catcher-si-yeon.gif",
+            "https://c.tenor.com/ZBdvCI6LEVAAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/AsJcgiH8R1kAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/sEgCXWbtom4AAAAM/red-sun.gif",
+            "https://c.tenor.com/VpNQGvpp_qQAAAAM/siyeon-sexy.gif",
+            "https://c.tenor.com/UUsDGjc6VPMAAAAM/siyeon-clown-siyeon.gif",
+            "https://c.tenor.com/pKHTsvaw4oYAAAAM/red-sun.gif",
+            "https://c.tenor.com/BzB3vOwFX_gAAAAM/dreamcatcher-siyeon.gif",
+            "https://c.tenor.com/8IYkj15x7r8AAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/sLLFyyWbJhcAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/Pl5VrsD7_gAAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/avMK9r819QcAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/D7l-HZhFMwoAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/C5bZW2o9M0MAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/wfzSmfZdRHQAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/SOnYhFq1rE4AAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/S2RbNaTonsAAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/O7gJfs1x02IAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/2cAF-17TceUAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/95sJElqjaMUAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/JUm3eLYrzlgAAAAM/siyeon-dreamcatcher.gif",
+            "https://c.tenor.com/WD3Cuihv8z0AAAAM/siyeon-dreamcatcher.gif"]
 
         self.bot.dreamcatcher_sua_gif = ["https://tenor.com/view/dreamcatcher-dreamcatcher-sua-sua-sua-funny-look-around-gif-19331893",
             "https://cdn.discordapp.com/attachments/795585074450923530/800505148002402344/7eae1402c662ce572a78374227c36adbd0cd2bea.gif",
@@ -527,7 +569,7 @@ class GGS(commands.Cog):
             "https://gfycat.com/diligentfoolhardyblobfish",
             "https://gfycat.com/shamelessjadedarrowana",
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
-    #. weki meki
+    #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
             "https://tenor.com/view/doyeon-wekimeki-gif-18867880",
@@ -815,7 +857,7 @@ class GGS(commands.Cog):
             "https://gfycat.com/graysnoopyatlanticspadefish-weki-meki-eng-subs-yoojung-taemin-cover",
             "https://gfycat.com/dapperunlinedboutu",
             "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop"]
-    #. wjsn
+    #. WJSN
         self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
             "https://tenor.com/view/wjsn-bona-gif-9369544",
             "https://tenor.com/view/wjsn-bona-gif-9369542",
