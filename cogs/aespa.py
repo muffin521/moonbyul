@@ -80,7 +80,8 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/3b3fc196da00138d610ed1d257ddc857/f38a3938477b5163-0f/s400x600/987f5a0b37799d76b7b297fd99bd8094dca80867.gif",
             "https://64.media.tumblr.com/20a2fe93d04090df0eeabf5a15ba5df5/f38a3938477b5163-ee/s400x600/d9af62bf35fc69bc69b944df17aa81e6911e177e.gif",
             "https://64.media.tumblr.com/f2bf798dfbca999fe6cc1a30e76b22c7/de1767081c0b7b1d-90/s400x600/97be2f7e1a84fab0e4e34d389d39bb5e32bef667.gif",
-            "https://64.media.tumblr.com/3ca0bc12cd8d9b2f4249d79f04351c17/de1767081c0b7b1d-90/s400x600/49c4d31da8f9161611049817e2610864d502f9f1.gif"]
+            "https://64.media.tumblr.com/3ca0bc12cd8d9b2f4249d79f04351c17/de1767081c0b7b1d-90/s400x600/49c4d31da8f9161611049817e2610864d502f9f1.gif",
+            "https://gfycat.com/contentdopeyalligator"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
@@ -182,7 +183,10 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/00834c0998204658a55c85a223f29e39/884f3ffb9948a614-18/s540x810/f7e91fbdb534e0c225c5e0e03286f21e6669af99.gif",
             "https://64.media.tumblr.com/a6ccbfbc89f1bdafeb2fae8d486b0f6a/9fb3f55561f1ac8b-aa/s400x600/a1f911b305ffeae8552ff2b3ba9a972cbaa05c9e.gif",
             "https://64.media.tumblr.com/c02491425ff0e8dd2f37bedbfb8ebce9/9fb3f55561f1ac8b-18/s400x600/726f287588ed620c810fb2c763484214427a8fe0.gif",
-            "https://64.media.tumblr.com/c6aaabf59ed10ff2a2ca658df0b2b998/84ee19f9ad038ab1-d6/s540x810/841be9f9fc2fbfebd730f7eddc58cd112965988d.gif"]
+            "https://64.media.tumblr.com/c6aaabf59ed10ff2a2ca658df0b2b998/84ee19f9ad038ab1-d6/s540x810/841be9f9fc2fbfebd730f7eddc58cd112965988d.gif",
+            "https://gfycat.com/gentleamusedalaskajingle",
+            "https://gfycat.com/diligentembarrassedargentineruddyduck",
+            "https://gfycat.com/forsakenbelovedfalcon"]
 
         self.bot.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482080427671552/20201028144417-7ae7.gif",
@@ -234,7 +238,8 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/90ac590a6e39fff53c01eb41d39df20d/f11f5080d76be8bf-00/s400x600/c2ab807c23ad11215609f089c20dfa9a32a896e7.gif",
             "https://64.media.tumblr.com/724dc54fe19557b3ab412473150d5d27/5761b4593766d8f3-2d/s400x600/a9cb10b57f3d75be472a95c5f9d3e1c4534229ee.gif",
             "https://64.media.tumblr.com/31e6d4c78134ef9afdc00e31827de94b/f90c14dee7fa100c-61/s400x600/b20fdd8e020a48a6d4112fd991f28fedc4cfb1af.gif",
-            "https://64.media.tumblr.com/6e4c3af4426fa37f441fb5ad3f36357e/6eba718d36e55085-31/s540x810/b906ed3aa6ebf69f95ee98d94fc471e904546f1d.gif"]
+            "https://64.media.tumblr.com/6e4c3af4426fa37f441fb5ad3f36357e/6eba718d36e55085-31/s540x810/b906ed3aa6ebf69f95ee98d94fc471e904546f1d.gif",
+            "https://gfycat.com/contentdopeyalligator"]
 
     @commands.command()
     async def aespa(self, ctx, *, arg):
