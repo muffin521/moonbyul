@@ -148,10 +148,10 @@ class NCT(commands.Cog):
             "https://cdn.discordapp.com/attachments/772975408912007180/790116946061688852/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117215944704010/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117416230322206/image0.gif",
-            "https://cdn.discordapp.com/attachments/772975408912007180/790117484866174996/image1.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117616676634645/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790117617339072512/image1.gif",
-            "https://cdn.discordapp.com/attachments/199465139026657280/805690845407739944/210131_6.gif"]
+            "https://cdn.discordapp.com/attachments/199465139026657280/805690845407739944/210131_6.gif",
+            "https://data.whicdn.com/images/248620976/original.gif"]
 
         self.bot.nct_kun_gif = ["https://tenor.com/view/kun-wayv-nct-gif-19030306",
             "https://tenor.com/view/kun-kun-from-home-nct-from-home-mv-from-home-gif-18886755",
@@ -400,7 +400,6 @@ class NCT(commands.Cog):
             "https://i.pinimg.com/originals/a5/a6/4d/a5a64d5c3459e443c347509b39e4851a.gif",
             "https://i.pinimg.com/originals/28/43/b1/2843b10af9f42c153877c5cd1878b210.gif",
             "https://media1.tenor.com/images/e0c64433f133d81fa9e1422bd7d87c3a/tenor.gif?itemid=14266544",
-            "https://data.whicdn.com/images/248620976/original.gif",
             "https://64.media.tumblr.com/a2f303114f52e194c367f7b439cbf9fa/tumblr_p378oh3Jaz1x2ayioo1_500.gif",
             "https://media1.tenor.com/images/acdc3c5360386cba413bf3400f000b91/tenor.gif?itemid=14352845",
             "https://data.whicdn.com/images/321043162/original.gif"]
