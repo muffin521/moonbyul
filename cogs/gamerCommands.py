@@ -166,7 +166,9 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/belatedunevenlemming-fromis9",
             "https://64.media.tumblr.com/f29c4f88c563ac00b6f794948fff42f8/tumblr_po5zevs5IE1y42eufo8_r1_400.gif",
             "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590",
-            "https://tenor.com/view/kai-exo-ice-cream-eat-happy-gif-5037456"]
+            "https://tenor.com/view/kai-exo-ice-cream-eat-happy-gif-5037456",
+            "https://gfycat.com/happybasicgermanwirehairedpointer",
+            "https://gfycat.com/lineartarteagle"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
