@@ -171,7 +171,9 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/iu-celebrity-red-dress-album-gif-20152803",
             "https://gfycat.com/adorablekeychinchilla",
             "https://gfycat.com/alertredamethystsunbird",
-            "https://gfycat.com/aggravatingparchedchupacabra"]
+            "https://gfycat.com/aggravatingparchedchupacabra",
+            "https://i.pinimg.com/originals/ee/04/03/ee04037e3aafeb682eb6706c4ee952c5.gif",
+            "https://tenor.com/view/box-hide-face-asian-girl-gif-4641619"]
 
         self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
@@ -326,7 +328,10 @@ class SoloPings(commands.Cog):
             "https://giphy.com/gifs/dancing-tao-chuang2020-9BYTToQ0KU2JwgdUwH",
             "https://giphy.com/gifs/tao-cpop-theroad-nqoEziPAzo3SWrXhxh",
             "https://giphy.com/gifs/tao-chuang2020-huangzitao-lk7z31XJJJ9VOIMswX",
-            "https://giphy.com/gifs/tao-huangzitao-pandacostume-x3kC8px73ShsEgFQyn"]
+            "https://giphy.com/gifs/tao-huangzitao-pandacostume-x3kC8px73ShsEgFQyn",
+            "https://cdn.discordapp.com/attachments/804188466488279040/813121046349742090/Tumblr_l_420797878791611.gif",
+            "https://cdn.discordapp.com/attachments/804188466488279040/813121046751346758/Tumblr_l_420796468318330.gif",
+            "https://cdn.discordapp.com/attachments/804188466488279040/813121259600216064/Tumblr_l_420856488625651.gif"]
 
         self.bot.kangdaniel_gif = ["https://giphy.com/gifs/daniel-wannaone-springbreeze-t8XajwFT6rnwCOLtA3",
             "https://giphy.com/gifs/daniel-wanna-one-kang-3fivne1HaeeQZAqku9",
