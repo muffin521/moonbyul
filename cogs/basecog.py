@@ -85,6 +85,9 @@ class gifcog(commands.Cog):
             elif arg == "blackpink jisoo":
                 for x in self.bot.jisoo_gif:
                     await ctx.send(x)
+            elif arg == "blackpink":
+                for x in self.bot.blackpink_gif:
+                    await ctx.send(x)
         #.The Boyz
             elif arg == "the boyz kevin":
                 for x in self.bot.theboyz_kevin_gif:

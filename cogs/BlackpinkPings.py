@@ -117,7 +117,32 @@ class BlackpinkPings(commands.Cog):
             "https://data.whicdn.com/images/323213290/original.gif",
             "https://data.whicdn.com/images/326830028/original.gif",
             "https://data.whicdn.com/images/323303224/original.gif",
-            "https://i.pinimg.com/originals/0f/15/5b/0f155b4e07d6437e52f1f2d8e3c37957.gif"]
+            "https://i.pinimg.com/originals/0f/15/5b/0f155b4e07d6437e52f1f2d8e3c37957.gif",
+            "https://p.favim.com/orig/2019/01/07/kpop-gif-blackpink-gif-rose-Favim.com-6759112.gif",
+            "https://i.pinimg.com/originals/4f/0a/09/4f0a09dc8206a756b5c7210d664081c4.gif",
+            "https://i.pinimg.com/originals/97/44/04/974404926a609594c3dc61197bb2df74.gif",
+            "https://i.pinimg.com/originals/26/f7/79/26f779d8fd63897aa5e09eadb4fcdae7.gif",
+            "https://i.pinimg.com/originals/62/6f/90/626f902a7658611f3f62be27a30dfbad.gif",
+            "https://i.pinimg.com/originals/a2/35/d3/a235d3e7ae15f2fd18c6f30b8ff73ca4.gif",
+            "https://i.pinimg.com/originals/fc/3a/e7/fc3ae74b2b77a08424026b324c8a67bc.gif",
+            "https://thumbs.gfycat.com/SafeSecretAsianlion-size_restricted.gif",
+            "https://64.media.tumblr.com/6deedfbfe498345ded5b787738fc66f1/616a1630bb598115-d8/s640x960/3f5c390069a05e18c50df20119c25d9b29787fc5.gif",
+            "https://p.favim.com/orig/2019/04/18/kpop-blackpink-gif-jennie-kim-Favim.com-7070377.gif",
+            "https://i.pinimg.com/originals/52/5f/6c/525f6c69eaf376191e1c10760a547b1c.gif",
+            "https://data.whicdn.com/images/340802416/original.gif",
+            "https://data.whicdn.com/images/314163633/original.gif",
+            "https://data.whicdn.com/images/339019056/original.gif",
+            "https://data.whicdn.com/images/334351695/original.gif",
+            "https://data.whicdn.com/images/337279813/original.gif",
+            "http://images6.fanpop.com/image/photos/43400000/BLACKPINK-how-you-like-that-music-video-black-pink-43427071-640-426.gif",
+            "https://i.gifer.com/K1kP.gif",
+            "https://data.whicdn.com/images/325986680/original.gif",
+            "https://64.media.tumblr.com/5ced8da5b13ccce42ff83dd0e3c5029d/b3f062401d3dbbca-9b/s250x400/2d643615f860f7b5d794c1d997a6b88545a182db.gif",
+            "https://i.makeagif.com/media/6-23-2017/zDntO1.gif",
+            "https://64.media.tumblr.com/84c3260b2c4541c832a7aaf1ac6c8dfc/c5a0ac2a1400fea3-52/s400x600/f8281ec4217e119f547d97932acf428fcdab166e.gif",
+            "https://i.pinimg.com/originals/7e/bc/f0/7ebcf052ee604cabc7c009d7d043d349.gif",
+            "https://data.whicdn.com/images/306074266/original.gif",
+            "https://data.whicdn.com/images/305825416/original.gif"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
@@ -200,7 +225,25 @@ class BlackpinkPings(commands.Cog):
             "https://i.pinimg.com/originals/16/da/d7/16dad7a457ee0306ccc0b4bea49bd93d.gif",
             "https://pa1.narvii.com/7037/5c3b3645a0b40001ab7bf6379a1e6fbec8b84de4r1-478-540_hq.gif",
             "https://pa1.narvii.com/6505/72f10ada419a7319aaeff4a2283d001662e6a015_hq.gif",
-            "https://64.media.tumblr.com/a4e55ebd5a5ae9e4b9f9731bedebbdbf/tumblr_oxaukxpo8G1uqef5eo2_400.gif"]
+            "https://64.media.tumblr.com/a4e55ebd5a5ae9e4b9f9731bedebbdbf/tumblr_oxaukxpo8G1uqef5eo2_400.gif",
+            "https://media0.giphy.com/media/OPA7Fg7CnTKuPlOuIj/source.gif",
+            "https://data.whicdn.com/images/320653951/original.gif",
+            "https://p.favim.com/orig/2019/04/18/kpop-blackpink-gif-jennie-kim-Favim.com-7070377.gif",
+            "https://i.pinimg.com/originals/52/5f/6c/525f6c69eaf376191e1c10760a547b1c.gif",
+            "https://data.whicdn.com/images/314163633/original.gif",
+            "https://data.whicdn.com/images/339019056/original.gif",
+            "https://images6.fanpop.com/image/photos/40500000/-BLACKPINK-AS-IF-IT-S-YOUR-LAST-M-V-black-pink-40517041-400-171.gif",
+            "https://p.favim.com/orig/2018/11/09/kpop-mv-blackpink-gif-Favim.com-6548419.gif",
+            "https://i.pinimg.com/originals/e9/1f/e4/e91fe4b4d3e92d59fcf387d9e64d2979.gif",
+            "https://64.media.tumblr.com/035f4aadef4fad97e2da79cbf113507a/6f2c4930ee8a1f7e-e1/s640x960/24bffa0ab6225cfaaac2c74a00e7c62d9e638d51.gif",
+            "https://1.bp.blogspot.com/-jq6Slh7ea8g/XvaxuHvfjpI/AAAAAAAAC9A/DzhPeE9Q4_A9cT0jl6m5LJFy_AH6Crj2ACLcBGAsYHQ/s1600/1.gif",
+            "https://i.pinimg.com/originals/7a/49/f5/7a49f59815d8d877a14d5a05c87cfbfe.gif",
+            "https://tenor.com/view/jennie-cute-smiling-blackpink-kpop-gif-14987611",
+            "https://tenor.com/view/jenniekim-blackpink-smile-cute-bye-gif-13085555",
+            "https://tenor.com/view/blackpink-cute-jennie-gif-18818148",
+            "https://tenor.com/view/jennie-blackpink-jennie-jennie-kim-kim-jennie-jennie-white-gif-19902816",
+            "https://tenor.com/view/blackpink-jennie-blackpink-jennie-boots-red-dress-gif-13366425",
+            "https://tenor.com/view/jennie-elina-jennie-kim-jennie-edit-jennie-cute-gif-18045593"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
@@ -288,7 +331,25 @@ class BlackpinkPings(commands.Cog):
             "https://gfycat.com/adeptsphericalanemonecrab-kill-this-love-blackpink-lalisa-beauty",
             "https://gfycat.com/keentornlamprey",
             "https://gfycat.com/enchantedunfinishedjellyfish",
-            "https://gfycat.com/heartfeltbabyishblobfish-behind-the-scenes-kill-this-love"]
+            "https://gfycat.com/heartfeltbabyishblobfish-behind-the-scenes-kill-this-love",
+            "https://64.media.tumblr.com/622dfeba9e934f4b0ebb28bb6c7560b0/c899ee2e8db06f45-4c/s400x600/afe0c007f785d672c54ff05ee85b72507dd7ed2b.gif",
+            "https://data.whicdn.com/images/337629384/original.gif",
+            "https://64.media.tumblr.com/55058a034ca95d624c15c6bcd028fa13/c899ee2e8db06f45-b5/s400x600/cecc2348b8f789ec7fb97ca967bdc2094729b8d8.gif",
+            "https://64.media.tumblr.com/622dfeba9e934f4b0ebb28bb6c7560b0/c899ee2e8db06f45-4c/s400x600/afe0c007f785d672c54ff05ee85b72507dd7ed2b.gif",
+            "https://64.media.tumblr.com/b6f42a7d782603de9713806e97c5a5c6/82bbd12630a78572-df/s640x960/33680a4fc315fb3061e38ea04616302bdfc2752c.gif",
+            "https://pa1.narvii.com/6287/cd13c9acbae8fc17b856b65f56c8f2876bab34fd_hq.gif",
+            "https://i.pinimg.com/originals/3d/d4/5b/3dd45b173816986e9f39ef7810bc991f.gif",
+            "https://i.pinimg.com/originals/e8/6f/a2/e86fa2d64e4526dae5e02eeaaedd4409.gif",
+            "https://i.imgur.com/hgbgPDJ.gif",
+            "https://thumbs.gfycat.com/ActualSoggyKakapo-size_restricted.gif",
+            "https://kpopchingu.com/wp-content/uploads/2020/05/tumblr_ea4b9dfb5054572706d8e24d7074df15_57394856_250.gif",
+            "https://64.media.tumblr.com/4339c3c0dcc98d60eb6d8e40307850c9/3337f9e39a3854e5-bb/s250x400/080c35ce212f203a44e11c4eab6f30f851aaf759.gif",
+            "https://66.media.tumblr.com/b1192335499e4a2f6daf419322036fe4/c6fc5c3c3bf7a041-4c/s500x750/cbd5b3143a4de8f091abd3b9cab7372748aad372.gif",
+            "https://64.media.tumblr.com/ea52670ff3857a0a3ec331a39f641347/d2d44a4e53062efa-01/s250x400/d00ab8feb1e7afec55371fe8c082df2ac70c4c5a.gif",
+            "https://i.pinimg.com/originals/82/d0/ee/82d0eef51cb0656c26a9f69bdf9be862.gif",
+            "https://i.pinimg.com/originals/de/e7/91/dee7912f699329650a1e2330ebbd3e86.gif",
+            "https://thumbs.gfycat.com/GracefulMediocreIberianlynx-max-14mb.gif",
+            "https://data.whicdn.com/images/313049520/original.gif"]
 
         self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",
@@ -435,12 +496,68 @@ class BlackpinkPings(commands.Cog):
             "https://images6.fanpop.com/image/photos/41700000/-Jisoo-jisoo-blackpink-41717212-268-360.gif",
             "https://i.pinimg.com/originals/07/ed/ba/07edba69393bb2d0adf630bebd791947.gif",
             "http://images6.fanpop.com/image/photos/40900000/-Happy-Choo-Day-black-pink-40931591-268-350.gif",
-            "https://64.media.tumblr.com/6300760d6c6a29627ead39e5b00e778e/tumblr_inline_omop140dcC1udgapp_250.gif"]
+            "https://64.media.tumblr.com/6300760d6c6a29627ead39e5b00e778e/tumblr_inline_omop140dcC1udgapp_250.gif",
+            "https://i.pinimg.com/originals/af/3e/35/af3e35ff8667195516ad0b46d4dec819.gif",
+            "https://64.media.tumblr.com/118feb45ae546625696422feabde2b23/80de7fe768328999-70/s250x400/e46ba6a77042d05d153af5a59d5842ce554e323f.gif",
+            "https://data.whicdn.com/images/280977990/original.gif",
+            "https://i.pinimg.com/originals/58/ff/28/58ff289ab81899e8193eef13fa2c4733.gif",
+            "https://i.pinimg.com/originals/83/51/64/83516423fbeeb2b23d243da65665729d.gif",
+            "https://data.whicdn.com/images/322741213/original.gif",
+            "https://data.whicdn.com/images/323815938/original.gif",
+            "https://images6.fanpop.com/image/photos/43400000/BLACKPINK-How-You-Like-That-M-V-black-pink-43425158-540-340.gif",
+            "https://i.pinimg.com/originals/be/48/e3/be48e379d06c82149895a8648e580a76.gif",
+            "https://i.pinimg.com/originals/9b/ac/17/9bac175344d3944f3a690bfd205ba4a8.gif",
+            "https://i.pinimg.com/originals/56/33/46/56334653547eb74026e8a762eca319b0.gif",
+            "https://data.whicdn.com/images/321656232/original.gif",
+            "https://i.pinimg.com/originals/f9/22/ee/f922ee8c23c8f141112bc464e5646efa.gif"]
 
-
+        self.bot.blackpink_gif = ["https://tenor.com/view/blackpink-ice-cream-unmasking-cats-cute-gif-18466410",
+            "https://media3.giphy.com/media/AFBmwFcWqQpPymsgqZ/200.gif",
+            "https://media0.giphy.com/media/fx5Eq1QkybZBYmfq7M/giphy.gif",
+            "https://v-phinf.pstatic.net/20201127_24/1606481090863EbvPC_GIF/1502571657_blackpink.gif?type=w1000",
+            "https://data.whicdn.com/images/291574558/original.gif",
+            "https://i.makeagif.com/media/7-08-2017/SgXP-I.gif",
+            "http://pa1.narvii.com/6681/d9be4e97ce3a58fb1998c8d6bf4d6c5dcc9d8cfe_00.gif",
+            "https://i.makeagif.com/media/7-08-2017/FUMKDf.gif",
+            "https://media1.tenor.com/images/424e7b4c057065743cce228815800119/tenor.gif?itemid=9540914",
+            "https://cdn130.picsart.com/292016987025201.gif?to=min&r=640",
+            "https://i.pinimg.com/originals/86/bb/fe/86bbfe3a32016a7375ea23773f2286df.gif",
+            "https://i.pinimg.com/originals/07/74/58/0774583a41a99e0ddaa93f39d2707ac5.gif",
+            "https://data.whicdn.com/images/316806986/original.gif",
+            "https://pa1.narvii.com/6726/d8916ba3096fad0204e05b567ff529a72f62c423_hq.gif",
+            "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6d2b9ca1-b0b8-4a69-83b3-02d51c0e9712/db6dunk-e714f3c1-3e78-4e9a-a5b2-8cb45974b28c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmQyYjljYTEtYjBiOC00YTY5LTgzYjMtMDJkNTFjMGU5NzEyXC9kYjZkdW5rLWU3MTRmM2MxLTNlNzgtNGU5YS1hNWIyLThjYjQ1OTc0YjI4Yy5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.RmqEl1zyZyQGbnzxOt4mre00mUbZ8TF1TCpxLxE8t9A",
+            "https://data.whicdn.com/images/323543861/original.gif",
+            "https://data.whicdn.com/images/321440311/original.gif",
+            "http://images6.fanpop.com/image/photos/40000000/-BLACKPINK-IN-YOUR-AREA-black-pink-40013183-540-203.gif",
+            "https://data.whicdn.com/images/334159492/original.gif",
+            "http://images6.fanpop.com/image/photos/42600000/-BLACKPINK-black-pink-42647842-268-350.gif",
+            "https://data.whicdn.com/images/290096171/original.gif",
+            "https://d.wattpad.com/story_parts/1/images/14fd6d1e7c684b5137783266441.gif",
+            "https://data.whicdn.com/images/349223559/original.gif",
+            "http://images6.fanpop.com/image/photos/43500000/BLACKPINK-Lovesick-Girls-MV-black-pink-43582297-540-290.gif",
+            "http://pa1.narvii.com/6872/3f7d2bf6c5fd8a0485a099c2866a6866b00fecbdr1-320-320_00.gif",
+            "https://i.pinimg.com/originals/a8/91/97/a891973a02964651f4e02de61b65e1c1.gif",
+            "https://i.pinimg.com/originals/56/6e/f3/566ef31e8313931a61b62ab6cfb2f515.gif",
+            "https://thumbs.gfycat.com/ShockingDefensiveGrassspider-max-1mb.gif",
+            "https://66.media.tumblr.com/339d011b412caa8ff18dc7be88fb5663/bfbca55e9bd354df-c4/s400x600/84b82d3b98a381106c01ac89eabc05c9a3e7ad68.gif",
+            "https://pa1.narvii.com/6840/68af37996e379609413e1a9082dbe85be9029db4_hq.gif",
+            "https://i.pinimg.com/originals/0a/25/5f/0a255f1474deaf44a65f975c4b708a49.gif",
+            "https://i.pinimg.com/originals/99/76/c8/9976c8985e5791925b8ace5b99f42f43.gif",
+            "https://i.pinimg.com/originals/17/f6/85/17f6857a870635ef3568522afa7822f4.gif",
+            "https://data.whicdn.com/images/304512491/original.gif",
+            "https://thumbs.gfycat.com/EthicalGreenAfricanaugurbuzzard-max-1mb.gif",
+            "https://data.whicdn.com/images/304840164/original.gif",
+            "https://pa1.narvii.com/6860/6f7907c54834da2144a848cacbc3a4ae52228b85r1-540-240_hq.gif",
+            "https://64.media.tumblr.com/959f5f52784febb921428997da9709f9/tumblr_pfksq5vOc31x8c5foo6_r1_540.gif",
+            "https://i.imgur.com/OztbPs2.gif",
+            "https://data.whicdn.com/images/282431852/original.gif",
+            "https://i.pinimg.com/originals/7f/7f/d4/7f7fd411a9eaa7ab35a10d8309a0b316.gif",
+            "https://pa1.narvii.com/6344/39f08e0600020f5279c5f90bcc6bd6fe9b3a0fc1_hq.gif",
+            "http://images6.fanpop.com/image/photos/41400000/-Jennie-in-DDU-DU-DDU-DU-MV-jennie-blackpink-41417598-540-304.gif",
+            "https://data.whicdn.com/images/345817705/original.gif"]
 
     @commands.command()
-    async def blackpink(self, ctx, arg):
+    async def blackpink(self, ctx, arg = "ot4"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -497,68 +614,13 @@ class BlackpinkPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
                 await ctx.send(random.choice(self.bot.jisoo_gif))
                 await ctx.message.delete()
-
-
-    @commands.command(aliases=['jendeukkie'])
-    async def jennie(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jennie :dumpling:')
-                await ctx.send(random.choice(self.bot.jennie_gif))
-                await ctx.message.delete()
-            else:
+        elif arg == "ot4":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
-            await ctx.send(random.choice(self.bot.jennie_gif))
-            await ctx.message.delete()
-
-    @commands.command(aliases=['rosé'])
-    async def rose(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Rosé :rose:')
-                await ctx.send(random.choice(self.bot.rose_gif))
-                await ctx.message.delete()
             else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=6)
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Blackpink <:wonyoungheart:787552538907115571>:black_heart:')
+                await ctx.send(random.choice(self.bot.blackpink_gif))
                 await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
-            await ctx.send(random.choice(self.bot.rose_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def lisa(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Lisa :cat:')
-                await ctx.send(random.choice(self.bot.lisa_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
-            await ctx.send(random.choice(self.bot.lisa_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def jisoo(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{gareth}>, <@{jon}>, <@{princessuwu}>, <@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-                await ctx.send(random.choice(self.bot.jisoo_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-            await ctx.send(random.choice(self.bot.jisoo_gif))
-            await ctx.message.delete()
-
-
 def setup(client):
     client.add_cog(BlackpinkPings(client))
