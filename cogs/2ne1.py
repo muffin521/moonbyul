@@ -101,7 +101,8 @@ class twoneone(commands.Cog):
             "https://tenor.com/view/parkbom-bom-2ne1-yg-kpop-gif-5071909",
             "https://cdn.discordapp.com/attachments/302268299729829888/795826916824317962/image0.gif",
             "https://tenor.com/view/elusive-elusivecaution-gif-19734281",
-            "https://media.discordapp.net/attachments/302268759140335617/788851365823905822/bom_wink.gif"]
+            "https://media.discordapp.net/attachments/302268759140335617/788851365823905822/bom_wink.gif",
+            "https://cdn.discordapp.com/attachments/302268299729829888/811091266426241064/YiQG.gif"]
 
         self.bot.minzy_gif = ["https://tenor.com/view/minzy-2ne1-yg-kong-smile-gif-12482219",
             "https://tenor.com/view/dance-moves-split-kpop-minzy-2ne1-gif-13861313",
