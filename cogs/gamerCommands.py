@@ -168,7 +168,8 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590",
             "https://tenor.com/view/kai-exo-ice-cream-eat-happy-gif-5037456",
             "https://gfycat.com/happybasicgermanwirehairedpointer",
-            "https://gfycat.com/lineartarteagle"]
+            "https://gfycat.com/lineartarteagle",
+            "https://tenor.com/view/younghoon-chanhee-the-boyz-tbz-tbz-younghoon-gif-18984986"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
