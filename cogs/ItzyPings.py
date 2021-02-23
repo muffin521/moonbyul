@@ -85,7 +85,19 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/kindheartedslimdegus-hwang-yeji-itzy-jype-kpop",
             "https://gfycat.com/ripelastingibadanmalimbe-itzy-yeji",
             "https://gfycat.com/safenaturalharlequinbug-kuro-gurokami-hwang-yeji-itzy-yeji-idol-kpop",
-            "https://gfycat.com/nimbleimpracticalbonobo-hwangyeji-itzy-issji"]
+            "https://gfycat.com/nimbleimpracticalbonobo-hwangyeji-itzy-issji",
+            "https://i.pinimg.com/originals/fb/49/73/fb49733932cb81f5bdabc5cc3c0a39a6.gif",
+            "https://i.pinimg.com/originals/92/eb/3c/92eb3cd9e6650b4505760563cf709408.gif",
+            "https://i.pinimg.com/originals/12/9c/c0/129cc0cbb6f0b9e7ca1a36203fd7724c.gif",
+            "https://p.favim.com/orig/2019/02/12/kpop-gif-gif-itzy-Favim.com-6920888.gif",
+            "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_260,h_277/https://www.knetizen.com/wp-content/uploads/2019/10/Yeji-1.gif",
+            "https://data.whicdn.com/images/331684394/original.gif",
+            "https://64.media.tumblr.com/2c1399aa5fabadad2b69f70a8e1a3224/94bef80bc1343a01-84/s250x400/8b8b35b49ba5ad3690751fdead1b9d49651755aa.gif",
+            "https://data.whicdn.com/images/334362403/original.gif",
+            "https://thumbs.gfycat.com/AdoredPositiveDanishswedishfarmdog-max-1mb.gif",
+            "https://64.media.tumblr.com/9cfe7c38f2a8750c2ba145bece7976de/53919c6335e8961f-64/s500x750/3ff4e5af57a95e2c8eceace32cb5fe643eeaf9f6.gif",
+            "https://64.media.tumblr.com/fa9c3ed79a513a5d19e132af38fb6b8f/1988d556d4de3246-0e/s540x810/84234076e5035979cd1c86ae81894839f63b5231.gif",
+            "https://media1.tenor.com/images/9e875dd8046f83f4263a6efcf1be8ca0/tenor.gif?itemid=13483480"]
 
         self.bot.itzy_ryujin_gif = ["https://tenor.com/view/ryujin-%EB%A5%98%EC%A7%84-itzy-shinryujin-gif-14922418",
             "https://tenor.com/view/ryujin-dance-moves-shake-it-pretty-gif-16723839",
@@ -149,7 +161,11 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/artisticslimyibis",
             "https://gfycat.com/barrenkaleidoscopicicefish-ryujin-itzy",
             "https://gfycat.com/bowedclumsycheetah-ryujin-itzy",
-            "https://gfycat.com/desertedspottedleafbird-beauty"]
+            "https://gfycat.com/desertedspottedleafbird-beauty",
+            "https://i.pinimg.com/originals/77/d6/59/77d6598424121959d4bc756eb405d359.gif",
+            "https://images6.fanpop.com/image/photos/42300000/Ryujin-itzy-42306296-480-357.gif",
+            "https://i.pinimg.com/originals/6b/6a/cb/6b6acb40a7d94cca1e33bd2763bcfa9c.gif",
+            "https://i.pinimg.com/originals/c0/af/b3/c0afb3d4cf692518294820ad6cb1af5b.gif"]
 
         self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",
@@ -315,7 +331,24 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/disgustingnippybeardeddragon-elope",
             "https://gfycat.com/braveboringbluemorphobutterfly",
             "https://gfycat.com/gloomyunsteadyclownanemonefish-itzy-yuna",
-            "https://gfycat.com/absoluteboringicefish"]
+            "https://gfycat.com/absoluteboringicefish",
+            "https://blog.kakaocdn.net/dn/sjOWj/btqGRQcID6U/WbVxHitbw3MCgyh5jXt71k/img.gif",
+            "https://i.pinimg.com/originals/0d/89/48/0d8948f808bb1dcbbe8b25f7d621db3b.gif",
+            "https://i.pinimg.com/originals/de/65/08/de6508031c0f167e55536fa4592a0704.gif",
+            "https://i.pinimg.com/originals/04/5d/5a/045d5a58c4b4379f812afd4752683bf8.gif",
+            "https://media1.tenor.com/images/d24e6a38784bcf483f01fbbe62817c2a/tenor.gif?itemid=13491377",
+            "https://64.media.tumblr.com/4a3d0ba8b18d67f3957f3fac0481eec1/tumblr_pn8p15JqKM1xun9oho2_400.gif",
+            "https://i.pinimg.com/originals/c3/2c/2d/c32c2d358d38f502e954b1bfefc8846c.gif",
+            "https://i.pinimg.com/originals/b8/63/7b/b8637bef8b4b66c61f60ac1f50bfbf04.gif",
+            "https://terminal-k.com/itzy/images/yuna/rep.gif",
+            "https://thumbs.gfycat.com/GlisteningAbandonedBee-size_restricted.gif",
+            "https://i.pinimg.com/originals/5b/ca/34/5bca34843b191ba6260859b66ae15372.gif",
+            "https://i.pinimg.com/originals/03/8e/73/038e73bb1411f1f508eca90138c1058e.gif",
+            "https://64.media.tumblr.com/28af3e3822484a1ddcfc3ab53326d695/tumblr_pw2eolBCJo1y5riteo5_400.gif",
+            "https://i1.wp.com/66.media.tumblr.com/383bfbba83a4ce91cc8984d4de857373/tumblr_px5hwqBmvU1xd0zdco4_400.gif?w=817&ssl=1",
+            "https://i.pinimg.com/originals/56/31/e4/5631e4995dc282de34ce1948dcf62022.gif",
+            "https://64.media.tumblr.com/65671f48be8ed23dc7debb5614e5138a/tumblr_pp0aiaJ9mD1rsi6iwo2_250.gif",
+            "https://64.media.tumblr.com/1d6854b47229aa8bcbfb683c33652bfd/tumblr_pp0aiaJ9mD1rsi6iwo1_250.gif"]
 
         self.bot.itzy_lia_gif = ["https://tenor.com/view/kpop-lia-strawberry-itzy-cute-gif-16770693",
             "https://tenor.com/view/lia-liaitzy-itzylia-itzy-gif-18066742",
@@ -383,7 +416,11 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/firstshabbyguernseycow-itzy-lia",
             "https://gfycat.com/flamboyantslipperydowitcher-beauty",
             "https://gfycat.com/frequentsomberinsect",
-            "https://gfycat.com/creepyacrobaticcob-itzy-lia"]
+            "https://gfycat.com/creepyacrobaticcob-itzy-lia",
+            "https://i.pinimg.com/originals/5d/b5/d4/5db5d45098329563ce2a3345803440ef.gif",
+            "https://media1.tenor.com/images/7e857e2ca6d372accf52d1db95215cb2/tenor.gif?itemid=18072626",
+            "https://data.whicdn.com/images/333653990/original.gif",
+            "https://gfycat.com/illegalwhisperedangelfish-itzy-lia"]
 
     @commands.command()
     async def itzy(self, ctx, arg):
