@@ -60,7 +60,15 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/cho-miyeon-gidle-cho-miyeon-gidle-passing-gidle-passing-gif-18841500",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-19979650",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-19979738",
-            "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-19979648"]
+            "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-19979648",
+            "https://thumbs.gfycat.com/WhirlwindGrouchyAfghanhound-max-1mb.gif",
+            "https://data.whicdn.com/images/317856655/original.gif",
+            "http://images6.fanpop.com/image/photos/42600000/-G-I-DLE-g-i-dle-42628992-540-300.gif",
+            "https://66.media.tumblr.com/a0c2b3b5d19459a75fa06ebf7d0404a1/tumblr_pdg3y8CtVL1xqswnmo1_500.gif",
+            "https://pa1.narvii.com/6957/46461b5e00f81cd64ceb061d0f131cfde4bebdccr1-300-300_hq.gif",
+            "https://pa1.narvii.com/6986/7840fddf1b300cfaefe0d06721856c8443a8dd22r1-500-225_hq.gif",
+            "https://64.media.tumblr.com/39d4bc38d92b5feacf3d271c198988f0/tumblr_p83qizzaZ11xqswnmo1_540.gif",
+            "http://pa1.narvii.com/6850/cea76f5859566a4f3f2a89def5c2d14b5c1603a6_00.gif"]
 
         self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
@@ -141,7 +149,17 @@ class IdlePings(commands.Cog):
             "https://gfycat.com/dimpledmellowgoldfinch",
             "https://gfycat.com/faintskeletalhyracotherium",
             "https://gfycat.com/poorearnestharpyeagle",
-            "https://gfycat.com/ripedeafeningleopardseal"]
+            "https://gfycat.com/ripedeafeningleopardseal",
+            "https://data.whicdn.com/images/342489559/original.gif",
+            "https://gfycat.com/finishedfoolhardylemming",
+            "https://gfycat.com/giddygiftedgalago",
+            "https://gfycat.com/dapperadvancedhusky",
+            "https://gfycat.com/bruisedgeneralalbacoretuna",
+            "https://gfycat.com/aptrealisticgavial",
+            "https://gfycat.com/deficientrepulsivealligator",
+            "https://gfycat.com/impartialredcottontail",
+            "https://gfycat.com/ecstaticimaginativeasianpiedstarling",
+            "https://gfycat.com/optimalmajorguineafowl"]
 
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",
@@ -156,7 +174,23 @@ class IdlePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/800597377429143554/800604718065647656/tenor_12.gif",
             "https://tenor.com/view/soojin-seo-soojin-gidle-idle-soojin-gidle-gif-19979836",
             "https://tenor.com/view/soojin-gidle-dance-seo-soojin-gif-13805717",
-            "https://tenor.com/view/seo-soojin-soojin-g-idle-cute-smile-gif-14863179"]
+            "https://tenor.com/view/seo-soojin-soojin-g-idle-cute-smile-gif-14863179",
+            "https://i.pinimg.com/originals/7a/56/e0/7a56e05b745686a393f0510e1d9673c3.gif",
+            "https://data.whicdn.com/images/343724971/original.gif",
+            "https://data.whicdn.com/images/342651579/original.gif",
+            "https://64.media.tumblr.com/6ecfd7f7cb2062529377ff762c99916d/51386a04645f4210-cc/s400x600/02bec209b374a2c0bdbb6888a3e7a50164ee4850.gif",
+            "https://64.media.tumblr.com/27cfb6e5cad8672ab4e99ec3fd1b7e71/51386a04645f4210-23/s400x600/98dc62da7ada61928ff1b2f04cd778b54858ad16.gif",
+            "https://i.pinimg.com/originals/7f/25/6f/7f256fcc02268c104e0812601724a661.gif",
+            "https://i.pinimg.com/originals/49/e1/31/49e1316079c3e206da22a8e07a185c56.gif",
+            "https://i.pinimg.com/originals/1b/75/6b/1b756bfe4a832d4e1ee22c2a51621537.gif",
+            "https://i.pinimg.com/originals/9e/46/42/9e4642aa6bfa9ae67c89fdfd93d3484d.gif",
+            "https://i.pinimg.com/originals/e9/30/92/e93092b535a16333deac8d9f1041e9d5.gif",
+            "https://thumbs.gfycat.com/WiltedTatteredKangaroo-max-1mb.gif",
+            "https://64.media.tumblr.com/213aadf4b32c680f3e80398cd37a40ea/28467a45e3f9a2b5-66/s250x400/0fb503953925ef9f7217c3650abfbdfb4bfbce1a.gif",
+            "https://64.media.tumblr.com/3cf03f246fa3dba7c27fcbaabc49d7e1/28467a45e3f9a2b5-a5/s250x400/ae740f54a151fa96e61ca37b8dd02f6d4281c254.gif",
+            "https://i.pinimg.com/originals/9c/1f/dc/9c1fdc0ab40a20d7ad50a72b4dfecb30.gif",
+            "https://64.media.tumblr.com/0e405a7000c31c58413239ca541a41bf/b330494631435200-5f/s400x600/a966253d3655e893d696a7a72f3ef0da8e9210a1.gif",
+            "https://64.media.tumblr.com/6d60293d679a28eb126e9ba52a875348/b330494631435200-61/s400x600/e7c87607274e28daf5f8da2727a26a727ceaaf7e.gif"]
 
         self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
@@ -190,7 +224,9 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962542",
             "https://tenor.com/view/soyeon-kda-the-baddest-gif-18262396",
             "https://cdn.discordapp.com/attachments/800597297704337409/800607108725866546/f8eb8ac2c6e6ee77bc7a5c50ef36df0e.gif",
-            "https://cdn.discordapp.com/attachments/800597297704337409/800607406501265458/tenor_14.gif"]
+            "https://cdn.discordapp.com/attachments/800597297704337409/800607406501265458/tenor_14.gif",
+            "https://i.pinimg.com/originals/cd/34/72/cd34726a211a5a31071025fd1b19049a.gif",
+            "https://thumbs.gfycat.com/WellgroomedNiftyArmyworm-size_restricted.gif"]
 
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
