@@ -391,7 +391,18 @@ class GGS(commands.Cog):
             "https://gfycat.com/actualuntriedinganue-popular-saerom-fromis-pretty-beauty-kpop-cute",
             "https://gfycat.com/barrenorangebobcat-mechabear-fromis-kpop",
             "https://gfycat.com/barrencloudykingsnake-mechabear-saerom-fromis-kpop",
-            "https://gfycat.com/eminentneatgraywolf-fromis9-saerom-kuro-gurokami-lee-saerom-romsae"]
+            "https://gfycat.com/eminentneatgraywolf-fromis9-saerom-kuro-gurokami-lee-saerom-romsae",
+            "https://tenor.com/view/saerom-lee-saerom-fromis-fromis_9-gif-19168566",
+            "https://tenor.com/view/saerom-fromis-fromis_9-lee-saerom-gif-20461253",
+            "https://tenor.com/view/applying-makeup-fromis-fromis_9-lee-saerom-saerom-gif-20375930",
+            "https://tenor.com/view/fromis-fromis9-saerom-lee-saerom-gif-20283180",
+            "https://tenor.com/view/fromis-fromis_9-saerom-lee-saerom-gif-20000869",
+            "https://tenor.com/view/fun-fromis9-kpop-lee-sae-rom-saerom-gif-14743546",
+            "https://tenor.com/view/fromis_9-saerom-romsae-lee-saerom-f9-gif-18288045",
+            "https://tenor.com/view/saerom-fromis9-saying-hello-posing-gif-14634603",
+            "https://tenor.com/view/saerom-fromis_9-gif-18669517",
+            "https://tenor.com/view/saerom-gif-20443499",
+            "https://tenor.com/view/lee-saerom-saerom-fromis-fromis_9-gif-20416936"]
 
         self.bot.fromis_9_chaeyoung_gif = ["https://gfycat.com/adorablethornyflee-fromis9-chaeyoung-lee-chaeyoung-kuro-gurokami",
             "https://gfycat.com/dimpleduniquekillerwhale-mechabear-fromis-kpop",
