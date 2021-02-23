@@ -1290,7 +1290,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Mei Qi :heart:') 
                 await ctx.send(random.choice(self.bot.wjsn_mei_qi_gif))
                 await ctx.message.delete()
-        elif arg == "xuan qi":
+        elif arg == "xuan yi":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
