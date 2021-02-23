@@ -422,8 +422,38 @@ class ItzyPings(commands.Cog):
             "https://data.whicdn.com/images/333653990/original.gif",
             "https://gfycat.com/illegalwhisperedangelfish-itzy-lia"]
 
+        self.bot.itzy_ot5_gif = ["https://media2.giphy.com/media/IfselfvWlziwp1aGMd/giphy.gif",
+            "https://i1.wp.com/66.media.tumblr.com/06cbfd880d5dbe6ae764d773fbc8f13c/tumblr_pvcyq6QO9q1y2nngmo2_540.gif?w=817&ssl=1",
+            "https://data.whicdn.com/images/333394396/original.gif",
+            "https://data.whicdn.com/images/341668023/original.gif",
+            "https://cdn140.picsart.com/316631257311201.gif?to=min&r=640",
+            "https://66.media.tumblr.com/596bd6b9c3d3d0d5a042a38cd9a6b6c5/tumblr_pmq8uyvGu71wfmyhto1_540.gif",
+            "https://i.pinimg.com/originals/2b/d9/ef/2bd9efe690875c302c9c1214fd00d456.gif",
+            "http://static1.squarespace.com/static/5851f79ad482e9e62dbffcc2/5853ba8ae48aee1a9e2c0767/5d0b54e80c769d0001da8552/1561342374758/itzy+cover.gif?format=1500w",
+            "https://i.pinimg.com/originals/d2/6e/30/d26e303f99c6d8f0b6c07441d7d2d423.gif",
+            "https://media1.tenor.com/images/768137bf852d855624fe075d41588cb0/tenor.gif?itemid=14709476",
+            "https://data.whicdn.com/images/333653999/original.gif",
+            "https://data.whicdn.com/images/327082238/original.gif",
+            "https://itzyejimob.files.wordpress.com/2019/02/itzy-dd.gif",
+            "https://66.media.tumblr.com/3d614961d2e5468b4d8828071cf768a4/tumblr_pyo1ileD241somnmfo4_500.gif",
+            "https://i.pinimg.com/originals/88/e5/54/88e55449b5ce5d5b759a04b0204d5d00.gif",
+            "https://64.media.tumblr.com/3d93351785bb369721b13f518f1426f0/cc5dd613ac5776ad-b9/s540x810/4cbdbcc44f1930c5a6f785b2b2013143ae8e6613.gif",
+            "https://i0.wp.com/66.media.tumblr.com/da9b91c8fbcc3fb43130e52fbd951620/cc5dd613ac5776ad-f4/s540x810/64d58b3e6e300f11033df349c0ce6ba80bb5b321.gif?w=817&ssl=1",
+            "https://64.media.tumblr.com/759a62bcdb1d8b74207830a306bb9a4b/3c23ae572b16cc82-1e/s540x810/8f74cdd84f7eec7fdc0cf011be0751e021e7fea0.gif",
+            "https://i.pinimg.com/originals/2b/9d/99/2b9d99e70f44802977795698b79bebe7.gif",
+            "https://i.pinimg.com/originals/60/1d/f9/601df960f51c924bf851073628cffa37.gif",
+            "https://i.pinimg.com/originals/70/fd/6f/70fd6f640dadaa73e2b3b8d1943c53f4.gif",
+            "https://64.media.tumblr.com/188fe0b7598b0bb76539980438525a59/003925702864528e-8a/s500x750/56b5702afb6f63b4bf27743564c37821ca404eee.gif",
+            "https://64.media.tumblr.com/84158684ac085a200c11fae04b66398f/003925702864528e-0c/s500x750/7738a91bdb9c43e5d8baa7d4a15515f26563ad92.gif",
+            "https://data.whicdn.com/images/327214371/original.gif",
+            "https://data.whicdn.com/images/351723749/original.gif",
+            "https://d.wattpad.com/story_parts/695084444/images/15e77a873c38d46f156732798447.gif",
+            "https://i1.wp.com/66.media.tumblr.com/e0caae1a76684bb3631535a3e444f460/tumblr_pvkrcjzksz1y5v18go1_540.gif?w=817&ssl=1",
+            "http://pa1.narvii.com/7548/10399d4ce4dfda7d8d0fc94d4213d31d1bf74576r1-250-324_00.gif",
+            "https://data.whicdn.com/images/327077368/original.gif"]
+
     @commands.command()
-    async def itzy(self, ctx, arg):
+    async def itzy(self, ctx, arg = "ot5"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -467,6 +497,14 @@ class ItzyPings(commands.Cog):
             else: 
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
                 await ctx.send(random.choice(self.bot.itzy_lia_gif))
+                await ctx.message.delete()
+        elif arg == "ot5":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else: 
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Itzy :heart:')
+                await ctx.send(random.choice(self.bot.itzy_ot5_gif))
                 await ctx.message.delete()
 
 def setup(client):
