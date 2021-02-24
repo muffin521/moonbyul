@@ -751,7 +751,11 @@ class LoonaPings(commands.Cog):
             "https://data.whicdn.com/images/330229567/original.gif",
             "https://data.whicdn.com/images/317331933/original.gif",
             "https://data.whicdn.com/images/317373253/original.gif",
-            "https://thumbs.gfycat.com/WildWeeChickadee-size_restricted.gif"]
+            "https://thumbs.gfycat.com/WildWeeChickadee-size_restricted.gif",
+            "https://64.media.tumblr.com/93fc3d80016d7169d1db6767e3270d2e/8e8668e36748433b-14/s400x600/c43bebdaf8d7b50a8310f9c3dffb73e54a09b9e4.gif",
+            "https://64.media.tumblr.com/6d7cd326450536b1ccd139b0853f83a4/8e8668e36748433b-b3/s400x600/033fd1b169636dbbee3c8941fd2f2508a49eb6b1.gif",
+            "https://64.media.tumblr.com/f5025c810cb490560087b4bcd99ab071/8e8668e36748433b-7d/s400x600/8c00173666f1691c20a4fe26ba4cead5a16d4689.gif",
+            "https://64.media.tumblr.com/625edc84cf68695e40abbc52bbabae69/8e8668e36748433b-ce/s400x600/c7a4cb93d4780b5cad95ff208d9e7993522b342c.gif"]
 
     @commands.command()
     async def loona(self, ctx, *, arg = "ot12"):
