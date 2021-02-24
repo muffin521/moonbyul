@@ -571,7 +571,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206337073479690/800261658508394516/image2.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261658890731550/image3.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261758714380358/image0.gif",
-            "https://cdn.discordapp.com/attachments/800206337073479690/800261759302500392/image1.gif"]
+            "https://cdn.discordapp.com/attachments/800206337073479690/800261759302500392/image1.gif",
+            "https://tenor.com/view/p1harmony-maniac-p1harmony-intak-intak-gif-19859801"]
 
         self.bot.p1harmony_jiung_gif = ["https://cdn.discordapp.com/attachments/800206376210661406/800262168904859668/image0.gif",
             "https://cdn.discordapp.com/attachments/800206376210661406/800262169299910686/image1.gif",
