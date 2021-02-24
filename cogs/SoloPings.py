@@ -491,7 +491,12 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/4adae640b0a3f8f34e4404f724a4a5ae/bf505a7169d86a31-39/s400x600/d41a93d052e31138ad9633be8c356c929d8e401b.gif",
             "https://64.media.tumblr.com/ae1421ecf2b52a263a0c1f54cd764083/bf505a7169d86a31-d1/s400x600/a62188c608d2c4b5030a2f2d103c6089888befaa.gif",
             "https://64.media.tumblr.com/926b25a1335fd4a69d9dafd52491ed6a/3dfcbe16e22b7ea0-66/s400x600/448fe2a885bb9d49d1acb32edfb0b20f4f405729.gif",
-            "https://64.media.tumblr.com/0961329165a8226342e9257c43f66487/bf505a7169d86a31-ba/s400x600/82adb7a3e899195666cbf5d4e17675371d65cdd9.gif"]
+            "https://64.media.tumblr.com/0961329165a8226342e9257c43f66487/bf505a7169d86a31-ba/s400x600/82adb7a3e899195666cbf5d4e17675371d65cdd9.gif",
+            "https://64.media.tumblr.com/05b791a75b0be45d6406b86bb52c4de8/4417d615d52bc49a-44/s400x600/179553aa94554834e1db0771e5e643c96c267f09.gif",
+            "https://64.media.tumblr.com/b27430d05c10e2326ec64006ed93a7e2/6bf05373b8ea88fe-a4/s400x600/c745d70a92a57dbe920791960aa3333c1bf25461.gif",
+            "https://64.media.tumblr.com/cdec832fda8bdbb438805cec91bf5cde/de720c64d877c65f-72/s400x600/4d83a6639e4d5805fcf04c0d083ed4880dd83bd2.gif",
+            "https://64.media.tumblr.com/787a8027f119242c5e915b9d0ccb1aba/de720c64d877c65f-a3/s400x600/5958deb7bd9f0acdd1859307d370c4ac1d60a7b9.gif",
+            "https://64.media.tumblr.com/12f1c42fb98bdba447a04206fa28632c/tumblr_p3v0v4l3JZ1r7qnpao4_400.gif"]
 
     @commands.command()
     async def natty(self, ctx):
