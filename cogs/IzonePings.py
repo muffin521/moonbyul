@@ -921,7 +921,12 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/364dfc5b175ddd91f0d425ac9ebdc3e1/390bf9c095be9280-e3/s400x600/a2a4c225b089f4f7154bd1e9ab0e77767f8b07b2.gif",
             "https://64.media.tumblr.com/d7a185905112ad4cceacac294d2a8409/tumblr_ppayxei4Hd1vp5lw2o3_400.gif",
             "https://64.media.tumblr.com/f19a0d82c54fd8fe4995b2e35e62b6fb/f24359767185417a-59/s400x600/4e1cc473178b18620f0b4122c82bd151933c08f9.gif",
-            "https://64.media.tumblr.com/df80a86ba3d725d591505b902b280229/39738077c4022168-6b/s400x600/336b96bcc51f915e1e610c2114e346e5821f349a.gif"]
+            "https://64.media.tumblr.com/df80a86ba3d725d591505b902b280229/39738077c4022168-6b/s400x600/336b96bcc51f915e1e610c2114e346e5821f349a.gif",
+            "https://64.media.tumblr.com/3ba5a82272a9c1134962bf2a7c2968d8/cc424d19e2ac2b66-74/s540x810/83fb6df09aebe1574d4132ccdc35ff5e2e22c2e3.gif",
+            "https://64.media.tumblr.com/1486760663dd12f14542c2831b226e9d/cc424d19e2ac2b66-f7/s540x810/3dd78c304bf8412f7d4f58a503e57420da7506aa.gif",
+            "https://64.media.tumblr.com/fcfdd418de91ab31aa759c76874e091b/cc424d19e2ac2b66-f2/s540x810/2d865c06eddd725421bc4c9de195a268c14aaa40.gif",
+            "https://64.media.tumblr.com/49a43022397b5422614ae3639e39b77a/tumblr_pt1ymwyCdH1ui9s1qo3_400.gif",
+            "https://64.media.tumblr.com/99f6cc55015fabcc157fd854c8fce081/tumblr_pt1ymwyCdH1ui9s1qo5_400.gif"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
