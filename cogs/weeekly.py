@@ -112,7 +112,11 @@ class weeekly(commands.Cog):
             "https://gfycat.com/knobbycrazyequestrian",
             "https://gfycat.com/digitaleleganthart",
             "https://gfycat.com/craftygraydragon",
-            "https://gfycat.com/remarkablecarefreegrayling"]
+            "https://gfycat.com/remarkablecarefreegrayling",
+            "https://64.media.tumblr.com/697568b168bbb34e383b6456ccab1e36/3b992ee99ba8744a-7e/s250x400/4d0f8a1ad490a02f9f471a7cb1463d40f64feb56.gif",
+            "https://64.media.tumblr.com/f1a6cb66b98b82d7c8c75a586825ded3/726f527e77a5de0a-9d/s250x400/ecddf386e1e65d3d456fb6b4ea6e2e305176a5f3.gif",
+            "https://64.media.tumblr.com/44fd422c9cd9eaf939b602dd2af91043/ea558dbe5decee97-9d/s250x400/d42fbcc58e71afd8c0d4772d91707b2d03fbbff6.gif",
+            "https://64.media.tumblr.com/acd91d295e6a022130ad16fb7cbe3eeb/0bba36126509207e-c2/s250x400/0ab251356f085eb53170ce1d4f2e5e606ff6142a.gif"]
 
         self.bot.weeekly_soeun_gif = ["https://tenor.com/view/weeekly-soeun-weeekly-soeun-gif-18130042",
             "https://tenor.com/view/weeekly-weeekly-jiyoon-weeekly-soeun-soeun-jiyoon-gif-18216326",
