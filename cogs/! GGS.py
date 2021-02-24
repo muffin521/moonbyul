@@ -580,6 +580,14 @@ class GGS(commands.Cog):
             "https://gfycat.com/shamelessjadedarrowana",
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
     #. GWSN
+        self.bot.gwsn_seokyoung_gif =["https://64.media.tumblr.com/5246e9dccad0b78849c4473f7c75e252/tumblr_pvopsc897r1x37j87o3_540.gif",
+            "https://64.media.tumblr.com/1cc0a38203c78dc626d9bb80e8904d3b/tumblr_pvdvr8Y3bo1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/61de90760016784ca08708232471a946/tumblr_pdy27nIr1N1thqw0ko2_540.gif",
+            "https://64.media.tumblr.com/76d0bde2238c35fff194cc71285a6e29/tumblr_pmlcgkOFil1vg2vnoo3_r1_540.gif",
+            "https://64.media.tumblr.com/1e896831ddfb5c716e2b8609a03fbbaa/tumblr_peo7x2WAjZ1x8ho42o4_r1_400.gif",
+            "https://64.media.tumblr.com/106decd67f6957bdc3aa14593e61e485/tumblr_peo7x2WAjZ1x8ho42o2_400.gif",
+            "https://64.media.tumblr.com/896195c1b749dc342b208e9d64a30075/tumblr_psafqvrfVy1x37j87o4_400.gif"]
+
         self.bot.gwsn_seoryoung_gif = ["https://64.media.tumblr.com/67b3ef9830b9cb9c72ce53d17a4e1b17/5f238814b053c503-07/s400x600/3b7e16f6c8d9c2305f9287b85cf70d81bcbd04be.gif",
             "https://64.media.tumblr.com/bf2a159ac705682b1c91ffef3fea6860/1bcd37b2ae6f35f6-3b/s400x600/564f97f7638f61f8bbc06874c66ff7d77fbb1ef1.gif",
             "https://64.media.tumblr.com/eee572c7b9bd8b2d7e431395da007bef/1bcd37b2ae6f35f6-20/s400x600/549313d59fc8fedda0e6b4777fad9221428dd893.gif",
@@ -597,7 +605,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/21ec21b8016b6458761620f375fa289b/a71919d4fb4f581e-d7/s400x600/6ca42068674ba184ab649b729f1f5ecb0d8e5974.gif",
             "https://64.media.tumblr.com/b05516a174eb6754af7205f8f46c9303/tumblr_ph8lr0MvUn1x37j87o1_540.gif",
             "https://64.media.tumblr.com/e4d2b8aeea576c14c9afe5140f5f5168/tumblr_pvc0j8R1hK1x15lmpo1_540.gif",
-            "https://64.media.tumblr.com/e87a4135756c859b7bb2dbd4a8e3a003/tumblr_pbznkmMLCY1xn9iano1_640.gif"]
+            "https://64.media.tumblr.com/e87a4135756c859b7bb2dbd4a8e3a003/tumblr_pbznkmMLCY1xn9iano1_640.gif",
+            "https://64.media.tumblr.com/e72b4f35eac23306946667fe47b00c06/tumblr_pvxr22oG5D1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/9399e7fe5b4ddc3e57c9c68071baf2f4/tumblr_pvxr22oG5D1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/d5e398aead16c68f50a42bd6624bd14c/tumblr_phbzusq8xh1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/073ae74bfa3946eb042c88f0015fdace/tumblr_phbzusq8xh1x37j87o3_400.gif"]
 
         self.bot.gwsn_anne_gif = ["https://64.media.tumblr.com/841b85f547ff2443b52ceb74b548c591/5966d4223710552a-c9/s400x600/6ebd7d3903fe828295a8c5a4176c6b10c9fa95cc.gif",
             "https://64.media.tumblr.com/c14dbd9c94fa131a97313b9e7f8cc118/5966d4223710552a-54/s400x600/7a68cc2787e15f583f3cc18b23b7462dbb226ee0.gif",
@@ -1521,7 +1533,15 @@ class GGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [GWSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "seoryoung":
+        if arg == "seokyoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seokyoung :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_seokyoung_gif))
+                await ctx.message.delete()
+        elif arg == "seoryoung":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
