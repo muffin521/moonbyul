@@ -2,7 +2,6 @@ import discord, random, datetime
 from discord.ext import commands
 from datetime import datetime
 
-        #= Dreamcatcher
 
 #//servers
 jst = 735713250225815615
@@ -961,7 +960,18 @@ class GGS(commands.Cog):
             "https://tenor.com/view/bona-wjsn-cute-heart-gif-14540847",
             "https://tenor.com/view/wjsn-bona-gif-9368967",
             "https://tenor.com/view/wjsn-bona-gif-9369345",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148"]
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148",
+            "https://gfycat.com/altruisticshamelessimperatorangel-wjsn-bona-ujusonyeo-bona",
+            "https://gfycat.com/nauticalmedicalgnu",
+            "https://gfycat.com/sardonicsecondhandbison-gimjjori",
+            "https://gfycat.com/groundedwigglydeermouse-beauty",
+            "https://gfycat.com/scalyflimsyblueshark-beauty",
+            "https://gfycat.com/acceptableexcellentibex",
+            "https://gfycat.com/dimwealthyindianringneckparakeet-ujusonyeo-wjsn-bona",
+            "https://gfycat.com/basicsardoniciggypops",
+            "https://gfycat.com/pettytediousislandcanary-wjsn-ujusonyeo-bona",
+            "https://gfycat.com/meanvalidafricanjacana-ujusonyeo-wjsn-bona",
+            "https://gfycat.com/lankybraveiberianbarbel-kuro-gurokami-kim-jiyeon-wjsn-bona-kpop-idol"]
 
         self.bot.wjsn_cheng_xiao_gif = ["https://tenor.com/view/surprised-shocked-cheng-xiao-gif-12031984",
             "https://tenor.com/view/cheng-xiao-heart-heart-shape-love-shape-gif-12031978",
@@ -978,7 +988,15 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585918",
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-heart-gif-18585940",
             "https://tenor.com/view/dawon-wjsn-cosmic-girls-cosmic-girls-gif-9760986",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910"]
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910",
+            "https://i.redd.it/72ghpgdsqzd51.gif",
+            "https://i.redd.it/klv38qyrqzd51.gif",
+            "https://media1.tenor.com/images/4306c892190de840d3eae18ff2b5d433/tenor.gif?itemid=14799929",
+            "https://64.media.tumblr.com/4af786d16f47949f1238f96f071717e0/ffd42f7dfc8b28ea-c7/s400x600/146ffd214f2c39614d64c22dc84799e82e4f38a2.gif",
+            "https://64.media.tumblr.com/93637880f2692f4c8792ea70981b837a/279e4da4e3b59802-80/s400x600/68bba7735870471ef366f511e453e6d4215321ea.gif",
+            "https://64.media.tumblr.com/b060894f3e7b41a24706c102d693e303/tumblr_pfijlux6WS1v69hruo1_540.gif",
+            "https://i.pinimg.com/originals/f1/4a/5f/f14a5fec6f96d44c067473f48a9ce2e3.gif",
+            "https://media1.tenor.com/images/39fe305ecaa8a5160d95c96befed8b56/tenor.gif?itemid=9350519"]
 
         self.bot.wjsn_dayoung_gif = ["https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794012",
             "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794019",
@@ -991,30 +1009,105 @@ class GGS(commands.Cog):
             "https://tenor.com/view/wjsn-cosmic-girls-kpop-eunseo-bunny-gif-18627757",
             "https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627819",
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-eunseo-kiss-gif-18628222",
-            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382"]
+            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382",
+            "https://wjsn.neocities.org/MEMBERS/eunseo_jay527_.gif",
+            "https://64.media.tumblr.com/6e3dcc7216b0e8536a17ed98afdc9c8a/tumblr_osi6biuADY1ros9sso7_250.gif",
+            "https://i.pinimg.com/originals/e4/1c/99/e41c99e71ea3ceb7f43573a4f3449fd9.gif",
+            "https://pa1.narvii.com/7246/9f544397b0fc258b1dd012ef41b87c47ecd63be3r1-250-336_hq.gif",
+            "https://data.whicdn.com/images/340892430/original.gif",
+            "https://i1.wp.com/66.media.tumblr.com/132341d439e0e24aa7e36e54d5202809/ba2842539cc80456-2d/s540x810/645eb133a11e9585ca7990419a7c4724d775630d.gif?w=817&ssl=1",
+            "https://i1.wp.com/66.media.tumblr.com/7a8b2a5ad68e15b185954c036cef23f7/ba2842539cc80456-f4/s640x960/0fec3900a6f5ee790f71f4178900ef2ab4ac2974.gif?w=817&ssl=1",
+            "https://68.media.tumblr.com/31a3e29a1baac5939f554106a98270be/tumblr_ok6tlvDOSY1ssnf1qo3_400.gif",
+            "https://i.pinimg.com/originals/1d/e9/cb/1de9cb8b909a7fb427d642ba694d298e.gif",
+            "https://i.pinimg.com/originals/ca/11/d0/ca11d0e2afd9d88e919095e40a205285.gif",
+            "https://data.whicdn.com/images/292960168/original.gif",
+            "https://68.media.tumblr.com/a27fc4b53e3077007df5bfdc3a08a44c/tumblr_ojac2xEr7t1v69hruo4_400.gif",
+            "https://68.media.tumblr.com/34d6ce7d7cc110f82b0ddd7ba4712f45/tumblr_ojac2xEr7t1v69hruo3_400.gif",
+            "https://64.media.tumblr.com/89f26561446f41da1a5e119513d3f4af/tumblr_otq7clvOeE1vg2vnoo1_400.gif",
+            "http://pa1.narvii.com/6474/d0e2154e35266649ae16b3a25d12441a30185db7_00.gif",
+            "http://pa1.narvii.com/6474/b51b1e7acdf32f68a70978e774aa1a6eafe8c8af_00.gif"]
 
         self.bot.wjsn_exy_gif = ["https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-kiss-gif-17356005",
             "https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-good-job-gif-17356001",
             "https://tenor.com/view/yukziu-wjsn-exy-gif-19126649",
             "https://tenor.com/view/wjsn-cosmic-girls-exy-cute-gif-15481223",
-            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801"]
+            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801",
+            "https://gfycat.com/embellishedmellowaustrianpinscher",
+            "https://gfycat.com/boilingmarvelouskakarikis",
+            "https://gfycat.com/lazybleakiberianbarbel",
+            "https://gfycat.com/oddhonoredgalapagostortoise",
+            "https://gfycat.com/lastingquerulousamericanwarmblood",
+            "https://gfycat.com/scentedcomposedbushbaby-elope",
+            "https://gfycat.com/formalthriftyalbacoretuna",
+            "https://gfycat.com/unrealisticremotebactrian-cosmic-girls-wjsn-exy",
+            "https://gfycat.com/hairyfamiliargroundbeetle-wjsn-exy",
+            "https://gfycat.com/spectacularantiquecockerspaniel-wjsn-exy",
+            "https://gfycat.com/milkygraciousamericanbittern",
+            "https://gfycat.com/feistylegitimatefoxterrier-wjsn-exy",
+            "https://gfycat.com/liveregularblackfly",
+            "https://gfycat.com/physicalknobbyfairybluebird-ujusonyeo-wjsn-exy",
+            "https://gfycat.com/regalillguineapig",
+            "https://gfycat.com/scratchydangerousairedaleterrier-beauty",
+            "https://gfycat.com/tallheartfeltjanenschia",
+            "https://gfycat.com/tintedvelvetyhairstreak-elope"]
 
         self.bot.wjsn_luda_gif = ["https://tenor.com/view/luda-wjsn-gif-18881057",
             "https://tenor.com/view/luda-wjsn-cosmic-girls-cosmic-girls-gif-9534362",
             "https://tenor.com/view/luda-wink-wjsn-kpop-gif-14322078",
             "https://tenor.com/view/luda-witch-spell-cute-wjsn-gif-19920488",
-            "https://tenor.com/view/luda-wjsn-gif-18881052"]
+            "https://tenor.com/view/luda-wjsn-gif-18881052",
+            "https://i.pinimg.com/originals/13/4c/71/134c71fc2fe9e4f2b68462a58329f8fc.gif",
+            "https://i.pinimg.com/originals/9d/b4/9d/9db49d1dbf834fdd3f1bdb9a909c93d6.gif",
+            "https://i.pinimg.com/originals/7d/95/92/7d95925419b525781ad5b19b55ed9b9e.gif",
+            "https://media1.tenor.com/images/30ca30d8738ee75639773b338de1d26f/tenor.gif?itemid=9985272",
+            "https://media1.tenor.com/images/79c944a72088ac2c1774ec16e4bf1fc9/tenor.gif?itemid=9985282",
+            "https://tenor.com/view/luda-wjsn-no-nope-never-gif-15885430"]
 
         self.bot.wjsn_seola_gif = ["https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837800",
             "https://tenor.com/view/kpop-wjsn-seola-heart-love-gif-18585890",
             "https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837797",
-            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940"]
+            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940",
+            "https://i.pinimg.com/originals/5f/03/e0/5f03e0cc8f1ed6198470c7b855bfca15.gif",
+            "https://i.pinimg.com/originals/3a/50/7c/3a507c331bf657f4a9b1363c79e2dc8c.gif",
+            "https://thumbs.gfycat.com/ShamefulMixedErne-max-14mb.gif",
+            "http://78.media.tumblr.com/d58a8515226c47e7e32d85640958acd6/tumblr_p2eav8299Y1v69hruo1_400.gif",
+            "https://data.whicdn.com/images/306259352/original.gif",
+            "https://media1.tenor.com/images/f66467fe2ce2f43321f653dfd57edb93/tenor.gif?itemid=7837790",
+            "https://thumbs.gfycat.com/JollyElectricIcelandichorse-size_restricted.gif",
+            "https://64.media.tumblr.com/e4e51c74dfb9af2062521f978abdf630/tumblr_p5uubuXK521wvpvi5o2_500.gif",
+            "https://data.whicdn.com/images/308340586/original.gif",
+            "https://data.whicdn.com/images/324684732/original.gif",
+            "https://data.whicdn.com/images/325606025/original.gif",
+            "https://data.whicdn.com/images/319602148/original.gif",
+            "https://data.whicdn.com/images/319888899/original.gif",
+            "https://data.whicdn.com/images/319889216/original.gif",
+            "https://i.pinimg.com/originals/cf/9b/0c/cf9b0c6e57310e3812e16df991a1b176.gif",
+            "https://thumbs.gfycat.com/ShockedRedGrunion-size_restricted.gif",
+            "https://i.pinimg.com/originals/0c/74/fd/0c74fdbcb6a878c1a357ba4213e7e77e.gif",
+            "http://pa1.narvii.com/6841/6f351d86a1e843c8ccbc374f9de8487f3436ea05_00.gif",
+            "https://64.media.tumblr.com/405e65a7b3ae5f77e947e5a67dadb313/7a7916d5951968ac-78/s400x600/4e05e74ce448e991e6b0c566936d6532128c44b8.gif",
+            "https://64.media.tumblr.com/60371613fae98625d974ed4cb722cb22/b8a9f8a81bc8c70d-ff/s500x750/c50f4a53ae6882c4a36200ce10bcf36ed60215bc.gif",
+            "https://i.pinimg.com/originals/3a/50/7c/3a507c331bf657f4a9b1363c79e2dc8c.gif",
+            "https://i.pinimg.com/originals/1b/ac/66/1bac664e13736a860fbeb04af806c11f.gif",
+            "https://64.media.tumblr.com/213ceed9fcca83426bf9917a3f9e8984/8fe5d64521baf456-33/s400x600/7dd44b9695404f771250882ee17e6abd017b9259.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861140111196230/Tumblr_l_1950619977388.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861906980700170/Tumblr_l_1949115983436.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861934852505630/Tumblr_l_1947078105889.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862064921149460/Tumblr_l_1944620639186.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862115085942796/Tumblr_l_1859523444511.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862306710585394/Tumblr_l_8947516048418.gif"]
 
         self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586011",
             "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-kiss-gif-18586034",
-            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040"]
+            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040",
+            "https://66.media.tumblr.com/d06844df657d7b2d11c64db52bfbb1b1/tumblr_pu0ou9yMfB1v69hruo1_540.gif",
+            "https://i.pinimg.com/originals/11/0d/59/110d5973c4f3b67a7b89c3e458e36507.gif",
+            "https://thumbs.gfycat.com/SeveralInferiorGroundhog-size_restricted.gif",
+            "https://i.pinimg.com/originals/ee/98/05/ee980569b0e9acae65c65b9fe3e5c361.gif",
+            "https://media1.tenor.com/images/7fcc1fce052c3446f27800c85dde1da7/tenor.gif?itemid=9989517",
+            "https://i.pinimg.com/originals/4f/c7/17/4fc717f3e48fe7980d299bab56d740b0.gif"]
 
         self.bot.wjsn_yeonjung_gif = ["https://tenor.com/view/yeonjung-cosmic-girls-wjsn-ioi-produce-gif-9932084",
             "https://tenor.com/view/kcon2019japan-kcon-%EC%BC%80%EC%9D%B4%EC%BD%98-singing-high-note-gif-14562921",
@@ -1027,7 +1120,21 @@ class GGS(commands.Cog):
             "https://tenor.com/view/yeoreum-wjsn-gif-19302984",
             "https://tenor.com/view/wjsn-la-la-love-yeoreum-lee-yeoreum-dancing-gif-17952511",
             "https://tenor.com/view/%EC%97%AC%EB%A6%84-%EC%9D%B4%EC%97%AC%EB%A6%84-yorm-wjsn-yeoreum-gif-19970067",
-            "https://tenor.com/view/wjsn-yeoreum-gif-18829843"]
+            "https://tenor.com/view/wjsn-yeoreum-gif-18829843",
+            "https://64.media.tumblr.com/f0dd98b6a4e93dc61f8140778ea950fd/084b37134e8ef8a1-aa/s400x600/90ec63708c469c47e69d76a604413460e61dd693.gif",
+            "https://64.media.tumblr.com/50abe6e7a9ec15fedbc3cf4f039f63ce/21b285efe1cf46b7-cf/s400x600/8bb1cd7643240be9b05de15d87390cf2baf78265.gif",
+            "https://i.pinimg.com/originals/2f/7b/43/2f7b431aff512d68a3f0bda61e3be61e.gif",
+            "https://i.pinimg.com/originals/54/ca/a3/54caa361f7a6911aadf7047bc049b65c.gif",
+            "https://i.pinimg.com/originals/f4/01/42/f401422e356c5893bf1e6be791f8a31e.gif",
+            "https://64.media.tumblr.com/9912e85bcb68af54c08a4a6b4e76cb48/956f7b1b8ffbe3ba-4e/s400x600/0a51ebc89af664068efc3f9425cca4efac82db0a.gif",
+            "https://64.media.tumblr.com/1adb2c450802d600dbc840267e5a8cf6/156829abb1f2982d-3f/s400x600/927a457270dc1371b350ce987f2f1212c3179de9.gif",
+            "https://64.media.tumblr.com/0991df09d7687b1bb1e1018bb64cc713/156829abb1f2982d-41/s400x600/1f049fc93266003f5d9ffa2a52503eee4b0331aa.gif",
+            "https://i.pinimg.com/originals/ae/1a/39/ae1a39cd83da78da7ce35c2e253fb15d.gif",
+            "https://i.pinimg.com/originals/86/70/f4/8670f455b14a37086bb081f7d55fbd24.gif",
+            "https://data.whicdn.com/images/260492388/original.gif",
+            "https://data.whicdn.com/images/227904646/original.gif",
+            "https://64.media.tumblr.com/5a2c8049cf08f3bd692e77b39ba8f73d/0f2a6a29933034ab-5b/s400x600/94abc66a527a2fd2ff5bdae5930e69d28ed96073.gif",
+            "https://i.pinimg.com/originals/e9/35/73/e935735dd2e8d4146b971c0a0e296295.gif"]
 
         self.bot.wjsn_mei_qi_gif = ["https://tenor.com/view/meng-mei-qi-cell-phone-cry-call-hold-back-tears-gif-11918655",
             "https://tenor.com/view/meiqi-laughing-wjsn-lmao-lol-gif-10022964",
