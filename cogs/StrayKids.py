@@ -115,7 +115,9 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-my-pace-gif-19747564",
             "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-my-pace-gif-19747462",
             "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-blueprint-gif-19525245",
-            "https://tenor.com/view/stray-kids-hyunjin-stray-kids-hyunjin-blueprint-gif-19512234"]
+            "https://tenor.com/view/stray-kids-hyunjin-stray-kids-hyunjin-blueprint-gif-19512234",
+            "https://gfycat.com/flatimmaterialfoxterrier-jyp-entertainment-stray-kids-bang-chan",
+            "https://gfycat.com/acidicmeaslyalbertosaurus"]
 
         self.bot.leeknow_gif = ["https://tenor.com/view/lee-know-straykids-lee-minho-leeknow-straykids-leeminho-straykids-gif-14398192",
             "https://tenor.com/view/stray-kids-lee-know-minho-lee-lee-minho-gif-13005374",
