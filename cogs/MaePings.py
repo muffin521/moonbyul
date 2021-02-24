@@ -44,7 +44,6 @@ class MaePings(commands.Cog):
             "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
 
 
-    #krystal command for mae
     @commands.command()
     async def krystal(self, ctx):
         if ctx.guild.id == luminary:
@@ -60,7 +59,6 @@ class MaePings(commands.Cog):
             await ctx.send(random.choice(self.bot.krystal_gif))
             await ctx.message.delete()
 
-    #jessica jung command for mae
     @commands.command()
     async def jessica(self, ctx):
         if ctx.guild.id == luminary:
