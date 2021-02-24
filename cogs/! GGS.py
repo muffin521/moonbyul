@@ -1459,13 +1459,13 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.apink_namjoo_gif))
                 await ctx.message.delete()
 
-    @commands.command(aliases = ['dream'])
+    @commands.command()
     async def dreamcatcher(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "jiu" or arg == "catcher jiu":
+        if arg == "jiu":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about JiU :rabbit: ')
@@ -1478,7 +1478,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about JiU :rabbit:')
                 await ctx.send(random.choice(self.bot.dreamcatcher_jiu_gif))
                 await ctx.message.delete()
-        elif arg == "dami" or arg == "catcher dami":
+        elif arg == "dami":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1486,7 +1486,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Dami :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_dami_gif))
                 await ctx.message.delete()
-        elif arg == "gahyeon" or arg == "catcher gahyeon":
+        elif arg == "gahyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1494,7 +1494,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Gahyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_gahyeon_gif))
                 await ctx.message.delete()
-        elif arg == "handong" or arg == "catcher handong":
+        elif arg == "handong":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1502,7 +1502,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Handong :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_handong_gif))
                 await ctx.message.delete()
-        elif arg == "siyeon" or arg == "catcher siyeon":
+        elif arg == "siyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1510,7 +1510,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Siyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_siyeon_gif))
                 await ctx.message.delete()
-        elif arg == "sua" or arg == "catcher sua":
+        elif arg == "sua":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1518,7 +1518,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about SuA :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_sua_gif))
                 await ctx.message.delete()
-        elif arg == "yoohyeon" or arg == "catcher yoohyeon":
+        elif arg == "yoohyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
