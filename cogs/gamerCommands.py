@@ -176,7 +176,10 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/9411c9fd3166072b172037c355f39d9c/tumblr_oz5wckrDOQ1vkvtego5_r1_500.gif",
             "https://media1.tenor.com/images/e2c72ab7088c41687ffa8104ab4890b7/tenor.gif?itemid=6042730",
             "https://tenor.com/view/txt-yeonjun-eating-bleuiz-gif-19716063",
-            "https://tenor.com/view/seulgicfm-yeonjun-eating-gif-19467105"]
+            "https://tenor.com/view/seulgicfm-yeonjun-eating-gif-19467105",
+            "https://gfycat.com/enragedlimpingivorybilledwoodpecker-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/thindefinitecarpenterant-weki-meki-wekimeki-yoojung-weme"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

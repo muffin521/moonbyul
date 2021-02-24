@@ -631,7 +631,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/illhotbarnowl",
             "https://gfycat.com/firstanimatedgrouse-weki-meki-mechabear-doyeon-kpop",
             "https://gfycat.com/grippingwarmheartedindochinesetiger-mechabear-weki-meki-doyeon-kpop",
-            "https://gfycat.com/euphoricmessyleafhopper"]
+            "https://gfycat.com/euphoricmessyleafhopper",
+            "https://thumbs.gfycat.com/JadedSparklingFrogmouth-size_restricted.gif"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
@@ -867,7 +868,91 @@ class GGS(commands.Cog):
             "https://gfycat.com/paltrysillyasianpiedstarling",
             "https://gfycat.com/graysnoopyatlanticspadefish-weki-meki-eng-subs-yoojung-taemin-cover",
             "https://gfycat.com/dapperunlinedboutu",
-            "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop"]
+            "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop",
+            "https://gfycat.com/kindlypessimisticfanworms",
+            "https://gfycat.com/jauntyemotionalhalibut",
+            "https://gfycat.com/improbablemajorcockatiel-ideal-of-idol-weki-meki-yoojung-kpop-weme-ioi",
+            "https://gfycat.com/windyharmfulbanteng-weki-meki-yoojung",
+            "https://gfycat.com/elatedtatteredangelwingmussel-weki-meki-yoojung-kpop",
+            "https://gfycat.com/felinezanyeasternnewt-weki-meki-yoojung-kpop",
+            "https://gfycat.com/embarrassedrarealpineroadguidetigerbeetle-weki-meki-yoojung-kpop",
+            "https://gfycat.com/greatajarheterodontosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/impracticaldiscreteladybug-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/spotlessuncomfortableamericanmarten",
+            "https://gfycat.com/snappyplasticallosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/tenderexaltedamethystsunbird-weki-meki-yoojung-kpop",
+            "https://gfycat.com/demandingsnoopybug",
+            "https://gfycat.com/emptyequatoriallacewing-weki-meki-yoojung",
+            "https://gfycat.com/confusedimmensebigmouthbass-weki-meki-yoojung-kpop",
+            "https://gfycat.com/cloudyminiaturearmyworm-weki-meki-yoojung-kpop",
+            "https://gfycat.com/annualplasticarmedcrab-weki-meki-yoojung",
+            "https://gfycat.com/defenselesstorncrownofthornsstarfish-weki-meki-yoojung",
+            "https://gfycat.com/fairimmaculateflyinglemur-weki-meki-yoojung-kpop",
+            "https://gfycat.com/energeticuncomfortableinganue-weki-meki-yoojung-kpop",
+            "https://gfycat.com/disguisedunnaturaldachshund-weki-meki-yoojung-kpop",
+            "https://gfycat.com/likablefancyhoneyeater",
+            "https://gfycat.com/feistydarlinghoneybee-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/fairoddduiker",
+            "https://gfycat.com/finemixedherald-weki-meki-yoojung-kpop",
+            "https://gfycat.com/forcefultepidbrahmancow-choi-yoojung-fancam-weki-meki-fancam",
+            "https://gfycat.com/highgiganticflicker-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/shrillcloseddotterel-knowing-brothers-weki-meki-yoojung-variety-kpop",
+            "https://gfycat.com/importantkindheartedcusimanse-queen-waabii-weki-meki-reaction-yoojung-wasabii",
+            "https://gfycat.com/mealykaleidoscopicgoldeneye-weki-meki-yoojung-kpop",
+            "https://gfycat.com/enragedlimpingivorybilledwoodpecker-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/imaginativesatisfiedhalicore-weki-meki-yoojung-kpop",
+            "https://gfycat.com/revolvingornatebasilisk-choi-yoojung-weki-meki-kiling-i-o-i-wikimiki-kpop",
+            "https://gfycat.com/sorepartialgrackle-weki-meki-yoojung-kpop",
+            "https://gfycat.com/skinnytartfruitfly-weki-meki-yoojung-kpop",
+            "https://gfycat.com/grippingmadeuphermitcrab-weki-meki-yoojung-kpop",
+            "https://gfycat.com/soulfulpoisedivorybackedwoodswallow-weki-meki-yoojung-kpop",
+            "https://gfycat.com/highlevellonebarasinga-weki-meki-yoojung-ioi",
+            "https://gfycat.com/kindunrulyfrogmouth-weki-meki-yoojung-kpop",
+            "https://gfycat.com/validaggressiveflyingsquirrel-weki-meki-yoojung-kpop",
+            "https://gfycat.com/reasonableredhyrax",
+            "https://gfycat.com/spottedunimportantgermanpinscher-weki-meki-yoojung-kpop",
+            "https://gfycat.com/hardunlinedamericanbadger-knowing-bros-weki-meki-variety-yoojung-kpop",
+            "https://gfycat.com/highhatefuleuropeanpolecat-weki-meki-yoojung-kpop",
+            "https://gfycat.com/vacantwarybuzzard",
+            "https://gfycat.com/plainpeacefulleveret-choiyoo-jung-sbs-kpopstar-pickypicky",
+            "https://gfycat.com/scholarlyscarybagworm-weki-meki-yoojung",
+            "https://gfycat.com/tamemellowbear",
+            "https://gfycat.com/smallobeselemming-weki-meki-yoojung-kpop",
+            "https://gfycat.com/redobesefowl-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/smartinsidiouseasteuropeanshepherd-weki-meki-pick-chu-pickchu-yoojung-kpop",
+            "https://gfycat.com/velvetyminorinsect-weki-meki-pointing-yoojung-kpop",
+            "https://gfycat.com/agitatedimaginativekoalabear-knowing-bros-weki-meki-variety-yoojung-doyeon",
+            "https://gfycat.com/windyharmfulbanteng-weki-meki-yoojung",
+            "https://gfycat.com/greatajarheterodontosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/felinezanyeasternnewt-weki-meki-yoojung-kpop",
+            "https://gfycat.com/dismalgenerousgoral",
+            "https://gfycat.com/unfortunatemadcopepod",
+            "https://gfycat.com/fluffymadeupindianpalmsquirrel",
+            "https://gfycat.com/thindefinitecarpenterant-weki-meki-wekimeki-yoojung-weme",
+            "https://gfycat.com/closedrelievedhylaeosaurus-weki-meki-yoojung",
+            "https://gfycat.com/innocentwellgroomedhog-knowing-brothers-weki-meki-yoojung-variety-kpop",
+            "https://gfycat.com/wickedenormousalleycat-weki-meki-yoojung-kpop",
+            "https://gfycat.com/bestgleefulbuffalo",
+            "https://gfycat.com/meagerweeklyamethystsunbird",
+            "https://gfycat.com/blackandwhitefelinegemsbuck",
+            "https://gfycat.com/acidicobesearchaeopteryx",
+            "https://gfycat.com/gentlegeneralbuck"]
+    
+        self.bot.wekimeki_ot8_gif = ["https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
+            "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
+            "https://pa1.narvii.com/6552/4a69f5cfb2b02749a5e1f05018f26d7698e489fd_hq.gif",
+            "https://pa1.narvii.com/6548/8d5a32a91de52e11416432428314772f3015b1c8_hq.gif",
+            "https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
+            "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
+            "https://pa1.narvii.com/6552/4a69f5cfb2b02749a5e1f05018f26d7698e489fd_hq.gif",
+            "https://pa1.narvii.com/6548/8d5a32a91de52e11416432428314772f3015b1c8_hq.gif",
+            "https://64.media.tumblr.com/7006cd368f0927c43d6966275e16eb03/0df03301fcf85168-46/s540x810/43df332ed84f159fa64a2676f24cc74d25eaf415.gif",
+            "https://66.media.tumblr.com/b68666e53672d2b741f792c242915d74/tumblr_prhoozjLjh1r0ia2uo1_500.gif",
+            "https://hozziewrites.files.wordpress.com/2020/02/weki-meki-picky-picky-gif.gif?w=386",
+            "https://64.media.tumblr.com/50c944bd58007f119d58719d1f3232a3/47091ae5b82f3e02-1d/s400x600/af965c70f094e63decd4838f723eda936e4f99fd.gif",
+            "https://data.whicdn.com/images/307720001/original.gif",
+            "https://64.media.tumblr.com/a2cff6ece71a7f0b004aab39d802178e/tumblr_p4eafvhz5B1wgkgwro1_500.gif"]
     #. WJSN
         self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
             "https://tenor.com/view/wjsn-bona-gif-9369544",
@@ -1128,7 +1213,7 @@ class GGS(commands.Cog):
                 await ctx.message.delete()
 
     @commands.command()
-    async def weki(self, ctx, meki, *, arg):
+    async def weki(self, ctx, meki, *, arg = "ot8"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -1197,6 +1282,14 @@ class GGS(commands.Cog):
                 else:
                     await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
                     await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
+                    await ctx.message.delete()
+            elif arg == "ot8":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Weki Meki :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_ot8_gif))
                     await ctx.message.delete()
 
     @commands.command()
