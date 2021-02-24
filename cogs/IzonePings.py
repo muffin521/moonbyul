@@ -1565,7 +1565,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/flimsycookedbudgie",
             "https://i.pinimg.com/originals/47/8f/dc/478fdc673b8a4885696522f99912316b.gif",
             "https://cdn.discordapp.com/attachments/485105790299013123/806428139814912020/image0.gif",
-            "https://cdn.discordapp.com/attachments/807162436897603614/809762189447135272/1360194036108197890.gif"]
+            "https://cdn.discordapp.com/attachments/807162436897603614/809762189447135272/1360194036108197890.gif",
+            "https://i.pinimg.com/originals/47/8f/dc/478fdc673b8a4885696522f99912316b.gif"]
 
 
     @commands.command(aliases = ['iz*one'])
