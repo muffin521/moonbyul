@@ -78,7 +78,23 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-stray-kids-felix-felix-skz-code-gif-20118377",
             "https://gfycat.com/badhandybilby-dance-k-pop-live-mnet-mpd-raibeu-aidol-empidi-kpab",
             "https://gfycat.com/favoritescentedbooby-dance-practice-gods-menu-stray-kids-felix-du-du",
-            "https://gfycat.com/completefixedbaldeagle-lee-yongbok-stray-kids-lee-felix-adorable-kpop"]
+            "https://gfycat.com/completefixedbaldeagle-lee-yongbok-stray-kids-lee-felix-adorable-kpop",
+            "https://tenor.com/view/stray-kids-pout-sigh-gif-12932111",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-get-cool-gif-19812247",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-get-cool-gif-19812175",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-get-cool-gif-19812131",
+            "https://tenor.com/view/stray-kids-felix-stray-kids-felix-blueprint-gif-19512201",
+            "https://tenor.com/view/stray-kids-felix-stray-kids-felix-blueprint-gif-19512191",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-victory-song-gif-19985703",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-victory-song-gif-19985866",
+            "https://tenor.com/view/felix-skz-stray-kids-lee-yongbok-gif-16974414",
+            "https://tenor.com/view/stray-kids-felix-lee-felix-lee-yongbok-lead-dancer-gif-17807471",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-grow-up-gif-19724815",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-grow-up-gif-19724641",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-chronosaurus-gif-20185279",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-chronosaurus-gif-20185844",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-my-pace-gif-19747531",
+            "https://tenor.com/view/stray-kids-stray-kids-felix-felix-awkward-silence-gif-19768869"]
 
         self.bot.shyunjin_gif = ["https://tenor.com/view/funny-jyp-cute-hyunjincute-hyunjin-gif-13417088",
             "https://tenor.com/view/hyunjin-hyunjin-skz-anyways-skz-stray-kids-gif-18096876",
@@ -92,8 +108,15 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/hyunjin-kpop-stray-kids-skz-gif-18126493",
             "https://tenor.com/view/hyunjin-stray-kids-double-knot-kpop-stray-kids-double-knot-gif-20140905",
             "https://tenor.com/view/hyunjin-hyunjin-skz-skz-code-hyunjin-laugh-laugh-gif-20300405",
-            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-skz-code-gif-20118380"]
-    
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-skz-code-gif-20118380",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-get-cool-gif-19812264",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-get-cool-gif-19811138",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-my-pace-gif-19747628",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-my-pace-gif-19747564",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-my-pace-gif-19747462",
+            "https://tenor.com/view/stray-kids-stray-kids-hyunjin-hyunjin-blueprint-gif-19525245",
+            "https://tenor.com/view/stray-kids-hyunjin-stray-kids-hyunjin-blueprint-gif-19512234"]
+
         self.bot.leeknow_gif = ["https://tenor.com/view/lee-know-straykids-lee-minho-leeknow-straykids-leeminho-straykids-gif-14398192",
             "https://tenor.com/view/stray-kids-lee-know-minho-lee-lee-minho-gif-13005374",
             "https://tenor.com/view/lee-know-lee-minho-stray-kids-shocked-kpop-gif-14968607",
@@ -105,7 +128,19 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/minho-stray-kids-kpop-gif-14976277",
             "https://tenor.com/view/minho-gif-18199692",
             "https://tenor.com/view/lee-know-lee-minho-minho-stray-kids-stray-kids-minho-gif-18175614",
-            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-know-stray-kids-minho-minho-gif-20118376"]
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-know-stray-kids-minho-minho-gif-20118376",
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-know-minho-get-cool-gif-19812206",
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-know-minho-get-cool-gif-19811249",
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-know-minho-get-cool-gif-19812245",
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-stray-kids-minho-lee-know-minho-gif-19525226",
+            "https://tenor.com/view/stray-kids-stary-kids-minho-stray-kids-lee-know-lee-know-minho-gif-19525215",
+            "https://tenor.com/view/stray-kids-minho-stray-kids-minho-stray-kids-lee-know-lee-know-gif-19512248",
+            "https://tenor.com/view/stray-kids-minho-stray-kids-minho-stray-kids-lee-know-lee-know-gif-19512255",
+            "https://tenor.com/view/stray-kids-minho-stray-kids-minho-stray-kids-lee-know-lee-know-gif-19512248",
+            "https://tenor.com/view/leeknow-lee-minho-lino-straykids-skz-gif-19016266",
+            "https://tenor.com/view/stray-kids-stray-kids-lee-know-lee-minho-gif-15263545",
+            "https://tenor.com/view/stray-kids-lee-know-lee-minho-double-knot-dance-gif-15263515",
+            "https://gfycat.com/celebratedgraciousflatcoatretriever-hwanghyunjin-seochangbin-stray-kids"]
 
         self.bot.changbin_gif = ["https://tenor.com/view/seo-changbin-changbin-stray-kids-cute-kpop-gif-16229714",
             "https://tenor.com/view/stray-kids-skx-changbin-seo-changbin-lip-bite-gif-16669575",
@@ -139,7 +174,11 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-jisung-sing-gif-14697863",
             "https://tenor.com/view/stray-kids-stray-kids-han-han-stray-kids-jisung-jisung-gif-20118370",
             "https://tenor.com/view/stray-kids-stray-kids-han-han-stray-kids-jisung-jisung-gif-20118501",
-            "https://tenor.com/view/han-jisung-han-jisung-hjs-stray-kids-han-gif-18807991"]
+            "https://tenor.com/view/han-jisung-han-jisung-hjs-stray-kids-han-gif-18807991",
+            "https://tenor.com/view/stray-kids-stray-kids-han-han-jisung-get-cool-gif-19812044",
+            "https://tenor.com/view/stray-kids-stray-kids-han-han-jisung-stray-kids-jisung-gif-19512211",
+            "https://tenor.com/view/stray-kids-han-stray-kids-han-jisung-stray-kids-jisung-gif-19512219",
+            "https://gfycat.com/crispcommonindianpalmsquirrel-stray-kids-bang-chan-seuteurei-kijeu-skz-gimujin"]
 
         self.bot.jeongin_gif = ["https://tenor.com/view/clapping-stray-kids-in-yang-jeongin-vocalist-gif-17816584",
             "https://tenor.com/view/in-yang-jeongin-shocked-stray-kids-kpop-gif-14357751",
@@ -154,7 +193,23 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-stray-kinds-in-in-stray-kids-jeongin-jeongin-gif-20118365",
             "https://tenor.com/view/stray-kids-stray-kids-in-stray-kids-jeongin-in-jeongin-gif-19525232",
             "https://tenor.com/view/stray-kids-stray-kids-in-in-jeongin-miroh-gif-19908537",
-            "https://gfycat.com/emotionalboilinghapuku-absolutely-definitely-hilarious-mixtape"]
+            "https://gfycat.com/emotionalboilinghapuku-absolutely-definitely-hilarious-mixtape",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-jeongin-miroh-gif-19908799",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-jeongin-miroh-gif-19908528",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-stray-kids-jeongin-jeongin-gif-19985991",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-stray-kids-jeongin-jeongin-gif-19985868",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-stray-kids-jeongin-jeongin-gif-19985862",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-stray-kids-jeongin-jeongin-gif-19985860",
+            "https://tenor.com/view/stray-kids-in-stray-kids-in-stray-kids-jeongin-jeongin-gif-19505918",
+            "https://tenor.com/view/stray-kids-skz-kpop-smile-clap-gif-16360530",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-jeongin-get-cool-gif-19811243",
+            "https://tenor.com/view/stray-kids-stray-kids-in-in-jeongin-get-cool-gif-19812093",
+            "https://tenor.com/view/jeongin-yang-jeongin-stray-kids-skz-blueprint-gif-19048446",
+            "https://tenor.com/view/jeongin-yang-jeongin-stray-kids-skz-blueprint-gif-19048439",
+            "https://tenor.com/view/jeongin-yang-jeongin-stray-kids-skz-blueprint-gif-19048453",
+            "https://tenor.com/view/stray-kids-jeongin-cute-gif-14222439",
+            "https://gfycat.com/bestyoungfrigatebird",
+            "https://gfycat.com/breakableweirdconey"]
 
         self.bot.seungmin_gif = ["https://tenor.com/view/stray-kids-kim-seungmin-seungmin-cute-kpop-gif-16435548",
             "https://tenor.com/view/kim-seungmin-stray-kids-seungmin-thumbs-up-approve-gif-16363315",
@@ -164,7 +219,13 @@ class StrayPings(commands.Cog):
             "https://tenor.com/view/stray-kids-seungmin-kim-seungmin-seungmin-stray-kid-pose-gif-14375800",
             "https://tenor.com/view/stray-kids-seungmin-kim-seungmin-shocked-gif-14375812",
             "https://tenor.com/view/kim-seungmin-seugmin-stray-kids-miroh-im-okay-gif-14227218",
-            "https://tenor.com/view/stray-kids-stray-kids-seungmin-seungmin-skz-code-gif-20118379"]
+            "https://tenor.com/view/stray-kids-stray-kids-seungmin-seungmin-skz-code-gif-20118379",
+            "https://tenor.com/view/stray-kids-stray-kids-seungmin-seungmin-blueprint-gif-19525203",
+            "https://tenor.com/view/seungmin-kim-seungmin-stray-kids-skz-kpop-gif-19048492",
+            "https://tenor.com/view/stray-kids-stray-kids-seungmin-seungmin-blueprint-gif-19525140",
+            "https://tenor.com/view/stray-kids-seungmin-stray-kids-seungmin-blueprint-gif-19512266",
+            "https://tenor.com/view/stray-kids-skz-kpop-blueprint-seungmin-gif-19048496",
+            "https://gfycat.com/distinctpossiblebluegill"]
 
 
     @commands.command()
