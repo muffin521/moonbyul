@@ -167,7 +167,12 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/730a29363f90d4d7dacfc55189765149/tumblr_oz5wckrDOQ1vkvtego7_r1_500.gif",
             "https://i.pinimg.com/originals/e0/3d/33/e03d339a2aaeff48160dec2e88ef0ac0.gif",
             "https://64.media.tumblr.com/9411c9fd3166072b172037c355f39d9c/tumblr_oz5wckrDOQ1vkvtego5_r1_500.gif",
-            "https://media1.tenor.com/images/e2c72ab7088c41687ffa8104ab4890b7/tenor.gif?itemid=6042730"]
+            "https://media1.tenor.com/images/e2c72ab7088c41687ffa8104ab4890b7/tenor.gif?itemid=6042730",
+            "https://64.media.tumblr.com/2e4776b8f315427d9859ddb9a55a6ecb/380f2c7bb0151981-38/s540x810/3721ac0f9a44f32bf2b54980ff41726c90ed4333.gif",
+            "https://64.media.tumblr.com/50e7603dfcc6326067dc15975f16bbbc/380f2c7bb0151981-7a/s540x810/9ff6bed514bf1b96a25f7531d54580331d40d720.gif",
+            "https://64.media.tumblr.com/45e73c0925ce35c4c9dc29e5d9dcdc7d/3731f86e4b1c8f80-cc/s540x810/aaa663cf13344e7d120a8a635ea295d2b7d99c53.gif",
+            "https://64.media.tumblr.com/2fa315b8779e6f1832dc8473b663fb51/3731f86e4b1c8f80-af/s540x810/0b8af488ff324988b8a8003651f1f8510e5a2494.gif",
+            "https://64.media.tumblr.com/41380e1820cdb9bd0e2946b7af940f5a/6c3f775c3ae2307e-f8/s540x810/5c33ecc5067d153c75c6f8a3f088a073c4083fe9.gif"]
 
         self.bot.momo_gif = ["https://tenor.com/UZ2D.gif",
             "https://tenor.com/boSu5.gif",
