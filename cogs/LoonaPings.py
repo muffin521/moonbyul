@@ -733,7 +733,8 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/fasthopefulcommabutterfly",
             "https://tenor.com/view/astro-mj-astro-astro-mj-kim-myung-jun-astro-astro-kim-myung-jun-gif-13439109",
             "https://gfycat.com/angryfatherlydegus-chaeryeong-itzy",
-            "https://tenor.com/view/jaehyun-nct-gif-18953406"]
+            "https://tenor.com/view/jaehyun-nct-gif-18953406",
+            "https://tenor.com/view/yoona-im-yoona-%EC%9C%A4%EC%95%84-snsd-girls-generation-gif-14170845"]
 
         self.bot.loona_ot12_gif = ["https://data.whicdn.com/images/337947512/original.gif",
             "https://thumbs.gfycat.com/SardonicSimilarBat-size_restricted.gif",

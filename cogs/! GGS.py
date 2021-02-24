@@ -847,21 +847,94 @@ class GGS(commands.Cog):
             "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421190",
             "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
 
-        self.bot.snsd_yuri_gif = []
+        self.bot.snsd_yuri_gif = ["https://cdn.discordapp.com/attachments/808765337498943548/812160830102700032/Tumblr_l_289268280966734.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160830657396746/Tumblr_l_289266671831734.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160831475023942/Tumblr_l_289263378440173.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160988312502342/Tumblr_l_289304914877865.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160989184786492/Tumblr_l_289303373202553.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160989982228520/Tumblr_l_289288662599747.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160990619500644/Tumblr_l_289287103638758.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160993924743178/Tumblr_l_289282704440791.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160994498445353/Tumblr_l_289281480663395.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/813182005604778005/Tumblr_l_434323575249368.gif"]
 
-        self.bot.snsd_hyoyeon_gif = []
+        self.bot.snsd_hyoyeon_gif = ["https://cdn.discordapp.com/attachments/808765398694494300/813182075510718484/Tumblr_l_434329082739210.gif",
+            "https://tenor.com/view/hyoyeon-dance-gif-12760459",
+            "https://tenor.com/view/hyoyeon-snsd-hyoyeon-mr-mr-hyoyeon-lip-bite-lip-bite-gif-16472115",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922938",
+            "https://tenor.com/view/hyoyeon-cute-smile-heart-gif-13694762",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922852",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922933",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922827",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922818"]
 
-        self.bot.snsd_sunny_gif = []
+        self.bot.snsd_sunny_gif = ["https://cdn.discordapp.com/attachments/808765410522038333/813182534892519464/Tumblr_l_434463176450929.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274066247710/Tumblr_l_434604679370563.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274473488454/Tumblr_l_434603489003480.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274977198090/Tumblr_l_434602436108480.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183585771192320/Tumblr_l_434639831425966.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183586802335754/Tumblr_l_434641361887841.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183587830333460/Tumblr_l_434670449152934.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183588585177108/Tumblr_l_434684168833345.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813184130426339358/Tumblr_l_434809906402151.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813184131408068608/Tumblr_l_434813703631369.gif"]
 
-        self.bot.snsd_yoona_gif = []
+        self.bot.snsd_yoona_gif = ["https://cdn.discordapp.com/attachments/808765488406331403/808936320709296168/yoona.gif",
+            "https://cdn.discordapp.com/attachments/808765488406331403/808936392381562920/yoona_2.gif",
+            "https://giphy.com/gifs/IWU8KuVDMR54XpA0oV",
+            "https://tenor.com/view/yoona-imyoona-snsd-yoona-gif-15953960",
+            "https://tenor.com/view/yoona-im-yoona-%EC%9C%A4%EC%95%84-snsd-girls-generation-gif-14170845",
+            "https://tenor.com/view/yoona-snsd-gif-18573846",
+            "https://tenor.com/view/yoona-imyoona-gif-10257459",
+            "https://tenor.com/view/yoona-sexy-dance-im-yoona-gif-12613643"]
 
-        self.bot.snsd_tiffany_gif = []
+        self.bot.snsd_tiffany_gif = ["https://cdn.discordapp.com/attachments/808765444814143509/812807710210392074/Tumblr_l_368644891110047.gif",
+            "https://tenor.com/view/tiffany-snsd-gif-8117537",
+            "https://tenor.com/view/heart-snsd-tiffany-gg-girls-generation-gif-17963081",
+            "https://tenor.com/view/tiffany-snsd-gif-8313892",
+            "https://tenor.com/view/tiffany-hwang-snsd-christmas-gif-7074108",
+            "https://tenor.com/view/tiffany-sassy-snsd-kpop-girls-generation-gif-9328084",
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-gif-20028373"]
 
-        self.bot.snsd_sooyoung_gif = []
+        self.bot.snsd_sooyoung_gif = ["https://thumbs.gfycat.com/AliveMajorGemsbok-small.gif",
+            "http://31.media.tumblr.com/8898f1644ddffc43f6b041c3a83fc166/tumblr_mild0qzQed1s5j8vno1_500.gif",
+            "https://i.gifer.com/K3s0.gif",
+            "http://24.media.tumblr.com/99062e2414d32c90f8edc885c77d459c/tumblr_my2gcv4qVI1r6n0uqo1_500.gif",
+            "http://33.media.tumblr.com/d479e107f7919a7b078f4d0730221e23/tumblr_ntaar8AkTC1r7k0ggo1_540.gif"]
 
-        self.bot.snsd_seohyun_gif = []
+        self.bot.snsd_seohyun_gif = ["https://cdn.discordapp.com/attachments/808765555913916497/812807366709870642/Tumblr_l_368521890967282.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807367275839518/Tumblr_l_368524516415927.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807446035824660/Tumblr_l_368532078439361.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807446674014226/Tumblr_l_368571724776377.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807447327539230/Tumblr_l_368574045461533.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807450276790292/Tumblr_l_368575618381897.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807959594663976/Tumblr_l_368701575469297.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807961630081034/Tumblr_l_368703218243411.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808070568476732/Tumblr_l_368728696483557.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808071138377778/Tumblr_l_368730735719650.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808238235254784/Tumblr_l_368764815127293.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808239368503296/Tumblr_l_368762512043909.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808239896330301/Tumblr_l_368750804346986.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808240390864926/Tumblr_l_368744898646884.gif"]
 
-        self.bot.snsd_taeyeon_gif = []
+        self.bot.snsd_taeyeon_gif = ["https://gfycat.com/acidicidlebluebreastedkookaburra-taeyeon-snsd",
+            "https://gfycat.com/agreeablewindyankole",
+            "https://gfycat.com/alarmedwholealligatorgar-beauty",
+            "https://gfycat.com/appropriatebelovedboar",
+            "https://gfycat.com/barrenambitiouslamb-taeyeon-snsd",
+            "https://gfycat.com/candiddeadgaur-taeyeon-snsd",
+            "https://gfycat.com/celebrateddensehyena",
+            "https://gfycat.com/classicremotecollie-kimtaeyeon-snsd",
+            "https://gfycat.com/cleanperkyboto",
+            "https://gfycat.com/compassionatewelloffgavial-green-soshi-cute-snsd-sone-sway",
+            "https://gfycat.com/enormousconstantbaldeagle",
+            "https://gfycat.com/emptyembarrassedballoonfish",
+            "https://gfycat.com/narrowexcellentilsamochadegu",
+            "https://gfycat.com/opulentradiantbarracuda",
+            "https://cdn.discordapp.com/attachments/803701179178811392/812135851219353700/2e56f877-ca25-4870-af6b-b3e577b2cb24.gif",
+            "https://i.pinimg.com/originals/83/cf/bd/83cfbd01650e14587b8f1e0ef6e3ab47.gif",
+            "https://cdn.discordapp.com/attachments/803701179178811392/813182565493243914/Tumblr_l_434327417407179.gif"]
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -1663,6 +1736,53 @@ class GGS(commands.Cog):
             elif arg == "gyuri":
                 await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
                 await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def snsd(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [SNSD {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jessica":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jessica :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_jessica_gif))
+                await ctx.message.delete()
+            elif arg == "yuri":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yuri :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_yuri_gif))
+                await ctx.message.delete()
+            elif arg == "hyoyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hyoyeon :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_hyoyeon_gif))
+                await ctx.message.delete()
+            elif arg == "sunny":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Sunny :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_sunny_gif))
+                await ctx.message.delete()
+            elif arg == "yoona":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yoona :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_yoona_gif))
+                await ctx.message.delete()
+            elif arg == "tiffany":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Tiffany :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_tiffany_gif))
+                await ctx.message.delete()
+            elif arg == "sooyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Sooyoung :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_sooyoung_gif))
+                await ctx.message.delete()
+            elif arg == "seohyun":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seohyun :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_seohyun_gif))
+                await ctx.message.delete()
+            elif arg == "taeyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Taeyeon :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_taeyeon_gif))
                 await ctx.message.delete()
 
     @commands.command()
