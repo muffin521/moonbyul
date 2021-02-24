@@ -834,6 +834,34 @@ class GGS(commands.Cog):
             "https://gfycat.com/bigheartedgrossgordonsetter-momoland-nancy",
             "https://gfycat.com/cluelessgrandioseaplomadofalcon-momoland-nancy",
             "https://gfycat.com/chubbyelementarybilby-nancy-momoland"]
+    #. SNSD
+        self.bot.snsd_jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
+            "https://tenor.com/view/jessica-jung-kpop-ginkoro-jessica-wonderland-gif-18005874",
+            "https://tenor.com/view/jessica-jessica-jung-pose-mic-take-skirt-off-gif-15862312",
+            "https://tenor.com/view/snsd-igab-igot-aboy-kpop-jessica-gif-13432098",
+            "https://tenor.com/view/jessica-jung-snsd-girls-generation-gg-gif-11280338",
+            "https://tenor.com/view/jessica-jung-fly-with-jess-sica-gif-5744343",
+            "https://tenor.com/view/jessica-jung-my-decade-our-decade-summer-storm-jung-soo-yeon-gif-9421185",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421192",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421198",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421190",
+            "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
+
+        self.bot.snsd_yuri_gif = []
+
+        self.bot.snsd_hyoyeon_gif = []
+
+        self.bot.snsd_sunny_gif = []
+
+        self.bot.snsd_yoona_gif = []
+
+        self.bot.snsd_tiffany_gif = []
+
+        self.bot.snsd_sooyoung_gif = []
+
+        self.bot.snsd_seohyun_gif = []
+
+        self.bot.snsd_taeyeon_gif = []
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",

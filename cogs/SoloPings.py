@@ -658,7 +658,7 @@ class SoloPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def kang(self, ctx, arg = "dan"):
+    async def kang(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
