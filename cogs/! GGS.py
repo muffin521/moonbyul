@@ -579,6 +579,86 @@ class GGS(commands.Cog):
             "https://gfycat.com/diligentfoolhardyblobfish",
             "https://gfycat.com/shamelessjadedarrowana",
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
+    #. GWSN
+        self.bot.gwsn_seoryoung_gif = ["https://64.media.tumblr.com/67b3ef9830b9cb9c72ce53d17a4e1b17/5f238814b053c503-07/s400x600/3b7e16f6c8d9c2305f9287b85cf70d81bcbd04be.gif",
+            "https://64.media.tumblr.com/bf2a159ac705682b1c91ffef3fea6860/1bcd37b2ae6f35f6-3b/s400x600/564f97f7638f61f8bbc06874c66ff7d77fbb1ef1.gif",
+            "https://64.media.tumblr.com/eee572c7b9bd8b2d7e431395da007bef/1bcd37b2ae6f35f6-20/s400x600/549313d59fc8fedda0e6b4777fad9221428dd893.gif",
+            "https://64.media.tumblr.com/08459a12a440d0430f017425542d4455/1bcd37b2ae6f35f6-71/s400x600/4a8ed5c04f75e5955cfddb216d1c9a2b37983a5f.gif",
+            "https://64.media.tumblr.com/610cf9e3fc83e52f6973879fd9926844/8f4fe32460fad3ff-f6/s640x960/771bbe6e7b0539921250e0bffe3661f589a98dd9.gif",
+            "https://64.media.tumblr.com/69dd036a0c1a55c454708992658bc2c3/5fe499d80b131d07-e8/s400x600/94d761ca7f75244e790806ea1d8c80f8300df718.gif",
+            "https://64.media.tumblr.com/c208b3a17dde334882663dd0cf6fb4f0/082f9374193fe8ed-d0/s400x600/49e84c9fe695e60e419ed48cc535f7254fb82a5b.gif",
+            "https://64.media.tumblr.com/336e103ca05a8d9c64aab85a4c92cde7/tumblr_pp5apoArCU1x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/1e4446969d2397bcd563ef2cda9331fc/tumblr_pp5apoArCU1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/f18601d53b699d3e8dd55e3e7a1e04d7/tumblr_poc3qothUY1vj35v3o2_540.gif",
+            "https://64.media.tumblr.com/13f8d91616bb3b39e598828e03a6a353/5fe499d80b131d07-64/s400x600/6793265ba5c3424a205ec6a4dec55d22251969b4.gif"]
+
+        self.bot.gwsn_soso_gif = ["https://64.media.tumblr.com/407e14b78803d11e7a1e1037ecdbc89f/tumblr_pbznkmMLCY1xn9iano2_640.gif",
+            "https://64.media.tumblr.com/149629deee6fb3cec2e097a561d27e19/a71919d4fb4f581e-26/s400x600/3e3766efe7e590354f7ad218264c6634945a23af.gif",
+            "https://64.media.tumblr.com/21ec21b8016b6458761620f375fa289b/a71919d4fb4f581e-d7/s400x600/6ca42068674ba184ab649b729f1f5ecb0d8e5974.gif",
+            "https://64.media.tumblr.com/b05516a174eb6754af7205f8f46c9303/tumblr_ph8lr0MvUn1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/e4d2b8aeea576c14c9afe5140f5f5168/tumblr_pvc0j8R1hK1x15lmpo1_540.gif",
+            "https://64.media.tumblr.com/e87a4135756c859b7bb2dbd4a8e3a003/tumblr_pbznkmMLCY1xn9iano1_640.gif"]
+
+        self.bot.gwsn_anne_gif = ["https://64.media.tumblr.com/841b85f547ff2443b52ceb74b548c591/5966d4223710552a-c9/s400x600/6ebd7d3903fe828295a8c5a4176c6b10c9fa95cc.gif",
+            "https://64.media.tumblr.com/c14dbd9c94fa131a97313b9e7f8cc118/5966d4223710552a-54/s400x600/7a68cc2787e15f583f3cc18b23b7462dbb226ee0.gif",
+            "https://64.media.tumblr.com/e632f44bf3bd83fbdc950bbccdcd1563/5966d4223710552a-f2/s400x600/6212e7b9e3e19dd94a6ad522ed0770c061dd2db0.gif",
+            "https://64.media.tumblr.com/0a9aba3dcc03a445daba4de096889fa1/638cb92f20fda7b2-63/s640x960/c472ffb1c60c3c70c2487e2339cd69278134b10c.gif",
+            "https://64.media.tumblr.com/725555311471cb54a386fc4f876de370/638cb92f20fda7b2-bb/s640x960/f9d75bc5f5267b24d987d4dc40a30abe512d99aa.gif",
+            "https://64.media.tumblr.com/1fef2acf8f156cd24abc6aab8fb57864/870252a836ab3c09-46/s640x960/42a72d3f3380561c3f5e164ee32f779376704bb0.gif",
+            "https://64.media.tumblr.com/1ea0c3bcbef6cbfd1ce1f5a22585b9f4/454cb95d07f7b8b3-4a/s540x810/155c2cb7a4a87752ad0be3e8e2951a96df94d317.gif"]
+
+        self.bot.gwsn_minju_gif = ["https://64.media.tumblr.com/b42de643631e932ab2b844a885e4e2a4/638cb92f20fda7b2-68/s640x960/04594d76b3147f9a71b05b192474a35c5d3f1aa8.gif",
+            "https://64.media.tumblr.com/1675a58d50622a3f79f4f96fe0fe9738/5c710811c40a90df-0b/s540x810/606a7837ca5532c7ec28ac6c7c817f3ea9049610.gif",
+            "https://64.media.tumblr.com/861f1c04df227aee86cf607d6047bb24/9dbd3bb22c5b1472-e2/s400x600/861621fbbff1e5f42479d455e1fd5d6b0c504c58.gif",
+            "https://64.media.tumblr.com/66779a166294a0b2629df2ebc9871e3f/9dbd3bb22c5b1472-04/s400x600/df9f41937f59abbcf22d641123ec004c30c60fdc.gif",
+            "https://64.media.tumblr.com/8293dd33ed66566dd089730175037774/tumblr_ph9s0fYuNR1xrdmk7o1_540.gif",
+            "https://64.media.tumblr.com/47d1504bca4edf1c79db4c51c55ccb32/tumblr_phuyq6WmED1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/69a262be6e5316b7e521258fc73e1563/tumblr_pvv8u1yvB01xw84pqo1_400.gif",
+            "https://64.media.tumblr.com/c4e183d7357dfa472aad1b020ddb666f/13ff771ef03080fd-92/s400x600/350ba1269934901b9a5dee2e329a64ebe66b955b.gif"]
+
+        self.bot.gwsn_lena_gif = ["https://64.media.tumblr.com/eb91f88fb76ba822d2ef873554dd0c2a/f4cd0db3cab93490-91/s400x600/3d4b80dc0b6ac66e343547bec7b53ae228441a40.gif",
+            "https://64.media.tumblr.com/b6b76d09fd0d9259bc77ff633e4b1ac0/f4cd0db3cab93490-99/s400x600/f3a9abe9f0b7f67c3810762016ce6b105011f48d.gif",
+            "https://64.media.tumblr.com/1abda44641f120492093a76bf387049d/f2c9d118304470db-12/s400x600/bede95143dd6ef8dcddc31e2be2a24d644c51099.gif",
+            "https://64.media.tumblr.com/89eaa1f0cd2630b38c357e1907d5a637/f2c9d118304470db-56/s400x600/b5596484a0df934ea050c8c0ba88fa8396f1656b.gif",
+            "https://64.media.tumblr.com/3de5243d1b2b27eb8f96450324e7277f/8f4fe32460fad3ff-08/s640x960/867b3149b0772ede91b2ade93e479c882a7c1307.gif",
+            "https://64.media.tumblr.com/57945bac6385c5132052b56e5cc78bc8/e02a75cd53651317-df/s400x600/886485e1d4b24f6072af8b05bbca67ca35991fa8.gif",
+            "https://64.media.tumblr.com/56714449856aa7c94a6b954c53576557/e02a75cd53651317-6d/s400x600/34e37c1351555a5cb59738fd274000e637b952fd.gif",
+            "https://64.media.tumblr.com/09290ecb814bb34c5eb582dd1c59739c/cb853378fb60f0c3-55/s400x600/c759d4122482bb5953182d5088cb4612ee3fc785.gif",
+            "https://64.media.tumblr.com/be6b1f0fb5a5bc8f26730a16aeec1379/d08a3b2bb0299cc6-be/s400x600/fe3d1e224689b835783268d2a19b4b41cc130a00.gif"]
+
+        self.bot.gwsn_miya_gif = ["https://media1.tenor.com/images/10a77e823e41cac84c0d4e5f76dc0cf2/tenor.gif?itemid=15860903",
+            "http://pa1.narvii.com/7256/dcb15328e80ac88e57721821cbe356513c18a713r1-268-350_00.gif",
+            "https://data.whicdn.com/images/319063272/original.gif",
+            "https://data.whicdn.com/images/344001603/original.gif",
+            "https://64.media.tumblr.com/1fea8164885804920a209070419032ef/394927407b5898f7-77/s540x810/51ddc61aa485c88023d8e5706e86f62d4e7f788b.gif",
+            "https://64.media.tumblr.com/dc2d3f452c8e46513bc61acacd1d126e/394927407b5898f7-cb/s400x600/55de35f9f085c846ca62faae97d71e66481e0402.gif",
+            "https://data.whicdn.com/images/343834498/original.gif",
+            "https://64.media.tumblr.com/35ab53af95ee2562b414e05d129be410/b843f565c7070c44-40/s400x600/6e1bbf8edce71581c4b770c85ba84e32739ac209.gif",
+            "https://64.media.tumblr.com/9e7ea922f9b06a9c1c63312d381d21e7/b843f565c7070c44-74/s250x400/b899e426d42feac6f171b1d2bd31b07be7a04779.gif",
+            "https://64.media.tumblr.com/64938229ef2fd3f3a981dc3ecf3993fb/8d680eba1e318f6e-a2/s400x600/e9d5cd3ef47ff0883cd6fa45abdfc3f52cd19756.gif",
+            "https://64.media.tumblr.com/2f8a881d108a20b554e96d58250e9334/8d680eba1e318f6e-e1/s250x400/e92b1d9efd23f93d50a3d7f3a35d10e3fc4d6775.gif",
+            "https://64.media.tumblr.com/c6b1ad950c27f2edf02e462f29e4a1c3/8d680eba1e318f6e-1c/s250x400/f7fddc86758e1d3a1cdc2d2f313573b130c439a8.gif",
+            "https://thumbs.gfycat.com/UnrealisticCrispBlackrhino-max-1mb.gif",
+            "https://64.media.tumblr.com/e6ea9f943f0e588f00c97f8a54ada9d0/394927407b5898f7-81/s400x600/c7e419af25aa6b1bfcd2f0940f1a3dec5eb241a4.gif",
+            "https://64.media.tumblr.com/496be5e52f5493840c05ce291ca42259/cbaacc3eb4ea80f9-29/s250x400/d939ea59cb7f193d45ce1abc8fadd2c5fe3cfa1b.gif",
+            "https://66.media.tumblr.com/1ca32c84505d05a744f7a6b3d1ff0f6f/tumblr_pctmpdMTyU1xa1qb9o2_400.gif",
+            "https://78.media.tumblr.com/5e726e62c08daa6c9f4ee1027ef46da6/tumblr_peqloq713x1xta1fzo2_400.gif",
+            "https://64.media.tumblr.com/6f2c405a334bfd3942a5b7e882c40e22/e6ff3ecae6cd9608-56/s400x600/6d6122816d8fbafbf082a91b08f4046f251ff606.gif",
+            "https://64.media.tumblr.com/02950fac93c38d33b9f6b9786129af9b/4d73e61d4abe5d2f-d1/s400x600/3284a20c8c0d19260281cf4c0a0ec3392c4ce10b.gif",
+            "https://64.media.tumblr.com/3658222c1125ec693d770028f27b8745/0e379c3611fc1410-ef/s400x600/c12ca0637a9490d3b60344b69a5efbfe7c0ae4ff.gif",
+            "https://64.media.tumblr.com/2b09c2ff1c0eb15344385cc2be95b60f/0e379c3611fc1410-6e/s400x600/b1e589554560a240f2b6ae40bd421e5ccc1dc37e.gif",
+            "https://64.media.tumblr.com/bc16357d22850cbd9abf3211411e8fac/0e379c3611fc1410-96/s400x600/f8cc8ddce098c9633d513d3cd935457a44e4a8b9.gif",
+            "https://data.whicdn.com/images/344000886/original.gif",
+            "https://pics.prcm.jp/0ff8db4699b19/77884410/gif/77884410.gif",
+            "https://pa1.narvii.com/7042/f1f28254f7fa405e44e6f5a246416adab1e32534r1-268-428_hq.gif",
+            "https://64.media.tumblr.com/98ff8d5fadb470baa543ca29944c5f64/tumblr_pfyjv703ga1xa1qb9o5_250.gif",
+            "https://64.media.tumblr.com/dba92a47bc313b69a923e92505fee45a/9eba9969f2e9eb5d-83/s400x600/9306a27479c3d5d8c23bfaec0348c8772923f0f1.gif",
+            "https://64.media.tumblr.com/c68aea58ae863a6b55ce951879327d3d/9eba9969f2e9eb5d-24/s400x600/bfbe533cb512c32469501307151f7cb03eb3db4e.gif",
+            "https://64.media.tumblr.com/6a52410913dac8b967fd630efaab69c6/9eba9969f2e9eb5d-da/s400x600/11b2f98fcd8c554638ce6aedb6ad6b087378cca6.gif",
+            "https://64.media.tumblr.com/242034768c0536a8f1d53d6cdf38dfdc/71ac1f5a215fea25-e5/s400x600/f1e5bb707108a401a77adadeedd8e758d064afaf.gif",
+            "https://64.media.tumblr.com/b199d96e0a6980769f098727106df097/3c3ce45e86d3eedb-6b/s640x960/e1717586bd7b45024dcbc9896eac0b2b6fc381b1.gif",
+            "https://64.media.tumblr.com/b8f3d4dcbceb00999432100ebb27e6a7/170ea3995f209d2f-a9/s540x810/60c5f50c331ca484c231437360893f2049ea5f20.gif"]
+
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -1270,6 +1350,61 @@ class GGS(commands.Cog):
             else:
                 await ctx.send(f'<@{ctx.author.id}> is talking about Yoohyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_yoohyeon_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def gwsn(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [GWSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "seoryoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seoryoung :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_seoryoung_gif))
+                await ctx.message.delete()
+        elif arg == "soso":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Soso :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_soso_gif))
+                await ctx.message.delete()
+        elif arg == "anne":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Anne :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_anne_gif))
+                await ctx.message.delete()
+        elif arg == "minju":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Minju :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_minju_gif))
+                await ctx.message.delete()
+        elif arg == "lena":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Lena :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_lena_gif))
+                await ctx.message.delete()
+        elif arg == "miya":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Miya :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_miya_gif))
                 await ctx.message.delete()
 
     @commands.command(aliases = ['fromis', 'fromis9'])
