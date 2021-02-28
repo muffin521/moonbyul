@@ -91,7 +91,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188554896867410/812085044763951164/5ea7a890-99a2-48cc-a76d-d1539be9be81.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/812085186996731954/6b32bf6f-52fa-465d-af59-32ecb7ccf283.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/812085825985577001/7c793086-658e-4980-a1dc-87712ca177bd.gif",
-            "https://cdn.discordapp.com/attachments/804188554896867410/812085871381184572/7d9b9479-9a87-4ba9-aec2-9e4ea8ae2d39.gif"]
+            "https://cdn.discordapp.com/attachments/804188554896867410/812085871381184572/7d9b9479-9a87-4ba9-aec2-9e4ea8ae2d39.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305990127747072/Tumblr_l_692363365570517.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305991137656842/Tumblr_l_692361882756195.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305991734296596/Tumblr_l_692359924210050.gif"]
 
         self.bot.exo_do_gif = ["https://tenor.com/view/head-lucky-one-kyungsoo-funny-gif-12694480",
             "https://tenor.com/view/soo-ksoo-kyungsoo-k-pop-singer-gif-5691853",
@@ -250,7 +253,9 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804189007500148786/812085027797860362/5e08f246-c680-4dd0-8c87-22e6a6b3263a.gif",
             "https://cdn.discordapp.com/attachments/804189007500148786/812085839550349402/7d0c865b-ce9e-4012-ab66-4a026f76290e.gif",
             "https://cdn.discordapp.com/attachments/804189007500148786/812086020333764618/7f391d0b-da8d-4390-9471-ca13b4fca84e.gif",
-            "https://cdn.discordapp.com/attachments/804189007500148786/812086115871490078/08e23a25-f1f1-4d4d-9dc3-c2c0a496260e.gif"]
+            "https://cdn.discordapp.com/attachments/804189007500148786/812086115871490078/08e23a25-f1f1-4d4d-9dc3-c2c0a496260e.gif",
+            "https://cdn.discordapp.com/attachments/804189007500148786/815305845247442974/Tumblr_l_692324587523709.gif",
+            "https://cdn.discordapp.com/attachments/804189007500148786/815305845817606214/Tumblr_l_692326182023240.gif"]
 
         self.bot.exo_suho_gif = ["https://tenor.com/view/exo-suho-heart-love-finger-heart-gif-15782676",
             "https://tenor.com/view/exo-sehun-suho-hunho-sejun-gif-11610480",
