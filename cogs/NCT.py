@@ -263,7 +263,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/way-v-qian-kun-nct-kun-handsome-gif-15937652",
             "https://tenor.com/view/way-v-qian-kun-nct-kun-handsome-gif-15937660",
             "https://gfycat.com/grandioseopenbillygoat-wayv-kun-nct",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-p8KfgL5e1bkwnaSHx1"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-p8KfgL5e1bkwnaSHx1",
+            "https://tenor.com/view/kun-wayv-turn-back-time-gif-18999711"]
 
         self.bot.nct_ten_gif = ["https://tenor.com/view/ten-nct-singing-nct-kpop-gif-14732794",
             "https://tenor.com/view/ten-nct-ten-nct-mark-lee-wayv-gif-14997188",
