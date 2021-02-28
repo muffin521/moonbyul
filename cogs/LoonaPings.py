@@ -334,7 +334,12 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/ee95a5f9b1310c523c81d05ecbd241a4/c8813fbf70f5df61-6f/s400x600/5dc0faab06eb305fb91bbd53ccceb10fb08dc06f.gif",
             "https://64.media.tumblr.com/4b6b7ac6207b2b44a3d69902af98d0c0/c8813fbf70f5df61-cf/s400x600/48bad054c06ef89cab24965db1705b7016adc98d.gif",
             "https://64.media.tumblr.com/a58ad9ba5ea0059f19d2178002681828/c8813fbf70f5df61-72/s400x600/ef3d57012ec2220779a80720367e7d9b5380062c.gif",
-            "https://64.media.tumblr.com/0374c58256deb3816735fb8ec6841b2a/c8813fbf70f5df61-97/s400x600/f451d21b070ff069026667c6bb6f09b773da0e4d.gif"]
+            "https://64.media.tumblr.com/0374c58256deb3816735fb8ec6841b2a/c8813fbf70f5df61-97/s400x600/f451d21b070ff069026667c6bb6f09b773da0e4d.gif",
+            "https://tenor.com/view/loona-jinsoul-jung-jinsoul-laugh-gif-20395465",
+            "https://tenor.com/view/jinsoul-loona-jung-jinsoul-jinsoul-ti-amo-mwah-gif-19973877",
+            "https://tenor.com/view/jinsoul-loona-gif-13157471",
+            "https://tenor.com/view/jinsoul-jinsoul-my-beloved-my-beloved-beloved-loona-gif-20089970",
+            "https://tenor.com/view/jinsoul-jinsoul-loona-loona-jinsoul-dance-gif-20100142"]
 
         self.bot.choerry_gif = ["https://tenor.com/view/choerry-loona-gif-18740424",
             "https://tenor.com/view/loona-choerry-kpop-cute-wave-gif-16635613",
