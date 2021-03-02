@@ -1834,18 +1834,25 @@ class IzonePings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Tom] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
-                await ctx.send(random.choice(self.bot.minju_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
-            await ctx.send(random.choice(self.bot.minju_gif))
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
             await ctx.message.delete()
+        else:
+            deathArray = [1,2,3]
+            tomDeath = random.choice(deathArray)
+            if tomDeath == 1: 
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
+                    await ctx.send(random.choice(self.bot.minju_gif))
+                    await ctx.message.delete()
+            elif tomDeath == 2:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Arin :heart:')
+                    await ctx.send(random.choice(self.bot.ohmygirl_arin_gif))
+                    await ctx.message.delete()
+            elif tomDeath == 3:
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jiho :heart:')
+                    await ctx.send(random.choice(self.bot.ohmygirl_jiho_gif))
+                    await ctx.message.delete()
+            
 
 
 
