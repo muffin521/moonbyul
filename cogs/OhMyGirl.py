@@ -65,7 +65,9 @@ class OhMyGirl(commands.Cog):
             "https://giphy.com/gifs/LXcTNZZQUA3BKGJATM",
             "https://giphy.com/gifs/vUd4g8HpiqPhq8d8S2",
             "https://giphy.com/gifs/OSqLtOHD6CzhXHHSyb",
-            "https://gfycat.com/neglectedspitefulasianwaterbuffalo"]
+            "https://gfycat.com/neglectedspitefulasianwaterbuffalo",
+            "https://gfycat.com/compassionatealivelangur-oh-my-girl-kpop-arin-omg",
+            "https://gfycat.com/consciousjitteryinexpectatumpleco"]
 
         self.bot.ohmygirl_binnie_gif = ["https://gfycat.com/sadlonegalapagosdove",
             "https://tenor.com/view/oh-my-girl-kpop-hi-wave-binnie-gif-15821110",
@@ -144,7 +146,10 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/jiho-oh-my-girl-kpop-binnie-gif-15174709",
             "https://tenor.com/view/jiho-oh-my-girl-bye-cute-gif-14786179",
             "https://tenor.com/view/jiho-oh-my-girl-kpop-gif-11085635",
-            "https://tenor.com/view/jiho-ohmygirl-gif-19507110"]
+            "https://tenor.com/view/jiho-ohmygirl-gif-19507110",
+            "https://gfycat.com/nastyverifiableanole",
+            "https://gfycat.com/assuredboldhyena",
+            "https://gfycat.com/sparsebarecreature"]
 
         self.bot.ohmygirl_mimi_gif = ["https://tenor.com/view/mimi-oh-my-girl-rap-forehead-mic-gif-15514487",
             "https://tenor.com/view/ohmygirl-mimi-gif-19477876",
