@@ -552,7 +552,11 @@ class NCT(commands.Cog):
             "https://lh3.googleusercontent.com/-oPCo2mOsMNA/X2odftlLkWI/AAAAAAABIHU/WGyRoYVSc4YaMtYEp06likNYkmlvjatxwCLcBGAsYHQ/s16000/download%2B%25281%2529.gif",
             "https://64.media.tumblr.com/479ed0fb7b0e877859761b7b4abb316e/e518acab0afea2ee-01/s250x400/1699ca4024158bdfc711a9d915558ece1c103393.gif",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-LIBd1nfU9PJJnEOdBT",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-C0LpuEm9SldsMhfrOp"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-C0LpuEm9SldsMhfrOp",
+            "https://tenor.com/view/nct-shotaro-nct-shotaro-heart-cute-gif-18928804",
+            "https://tenor.com/view/nct-nct-u-shotaro-nct-shotaro-cute-gif-18810709",
+            "https://tenor.com/view/nct-nct-u-shotaro-kpop-gif-18893113",
+            "https://tenor.com/view/shotaro-gif-20031841"]
 
         self.bot.nct_taeil_gif = ["https://tenor.com/view/nct-1994-moon-tae-il-taeil-finger-heart-gif-14375657",
             "https://tenor.com/view/nct-1994-moon-tae-il-taeil-heart-gif-14375647",
@@ -577,7 +581,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-1994-moon-tae-il-taeil-pose-gif-14375653",
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-eJuLKhM5Oi1PCOwQRo",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-SVkXSzL6INpop2mNWx",
-            "https://giphy.com/gifs/nctsmtown-nct-127-nct127-H7f1WyUAYUEkB32rqr"]
+            "https://giphy.com/gifs/nctsmtown-nct-127-nct127-H7f1WyUAYUEkB32rqr",
+            "https://tenor.com/view/nct-taeil-belle-gif-14901073"]
 
         self.bot.nct_johnny_gif = ["https://tenor.com/view/nct-nct127-johnny-seo-young-ho-john-suh-gif-17600646",
             "https://tenor.com/view/nct-kpop-ccg-nct127-johnny-suh-gif-14838201",
@@ -685,7 +690,8 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-IOZrC17vafHEuVIu2C",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-ruMxuqmAJu3O1UUFj0",
             "https://cdn.discordapp.com/attachments/813178959352037436/813786950417776640/nctdreamot73.gif",
-            "https://giphy.com/gifs/Ehd4rd16bnR3fiHh50"]
+            "https://giphy.com/gifs/Ehd4rd16bnR3fiHh50",
+            "https://data.whicdn.com/images/318273495/original.gif"]
 
         self.bot.nct_127_ot9_gif = ["https://tenor.com/view/nct-127-gif-14185973",
             "https://tenor.com/view/singing-%EC%97%94%EC%94%A8%ED%8B%B0127-nct127-touch-dancing-gif-16429761",
