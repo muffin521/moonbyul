@@ -122,13 +122,13 @@ class hcommands(commands.Cog):
         embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
         embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
-        embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Miya```')
-        embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
-        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n \n ```')
-
-        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
-        embed6.add_field(name='Luv u', value=f'```\n♡\n♡```')
-        embed6.add_field(name='<:moonbyulheart:790333102924627968>', value=f'```\n♡\n♡```')
+        embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
+        embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
+        embed6.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n ```')
+        
+        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```')
+        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ\n ```')
+        embed6.add_field(name='Luv u', value=f'```\n♡\n♡\n♡```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 

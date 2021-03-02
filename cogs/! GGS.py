@@ -786,7 +786,69 @@ class GGS(commands.Cog):
             "https://gfycat.com/generalinfinitekookaburra-relay-dance-im-so-hot-momoland-nayun",
             "https://gfycat.com/indeliblelegalarrowworm-momoland-nayun-momoraendeu-nayun"]
 
-        self.bot.momoland_jooe_gif = [""]
+        self.bot.momoland_jooe_gif = ["https://media1.tenor.com/images/5a38b14f9cf18f14b1a6cf5f539265af/tenor.gif?itemid=15044807",
+            "https://i.pinimg.com/originals/ae/84/13/ae841301114cf500493089d823b7fb8c.gif",
+            "https://i.pinimg.com/originals/83/8c/27/838c272a70a10c744090df99e5fba7cb.gif",
+            "https://thumbs.gfycat.com/SpanishAbsoluteEelelephant-size_restricted.gif",
+            "https://data.whicdn.com/images/305269204/original.gif",
+            "https://i.pinimg.com/originals/8e/fa/27/8efa27163bf2004ab50c01014f5f80cb.gif",
+            "https://64.media.tumblr.com/8754799f21b0d3f67d5bad07100a5c9e/tumblr_p4xuesEKtE1s2vcg0o3_250.gif",
+            "https://media1.tenor.com/images/4d0bde234c05782e507d1bac7d6b43f9/tenor.gif?itemid=11026810",
+            "https://64.media.tumblr.com/77be4d9d31bd6bad2db7e93daf25fee3/tumblr_p4xuesEKtE1s2vcg0o1_250.gif",
+            "https://data.whicdn.com/images/305276437/original.gif",
+            "https://kbizoom.com/wp-content/uploads/2018/12/Jooe-1.gif",
+            "https://data.whicdn.com/images/314298271/original.gif",
+            "https://pa1.narvii.com/6872/8f154ff19d5a62c549f24ac75894abcf15c427ear1-540-280_hq.gif",
+            "https://64.media.tumblr.com/7c8e692e705f35afb48f9a3dd100ef51/tumblr_pbghgj8mIJ1t7qu3mo4_400.gif",
+            "https://64.media.tumblr.com/0a362be7c77058ec2cd53b62f86aa676/tumblr_paxz23Huew1ssnf1qo4_250.gif",
+            "https://64.media.tumblr.com/e925847768e038b8b9288bf4a1ca2ef3/tumblr_paxz23Huew1ssnf1qo1_250.gif",
+            "https://data.whicdn.com/images/314813843/original.gif",
+            "https://data.whicdn.com/images/305723025/original.gif",
+            "https://data.whicdn.com/images/305276459/original.gif",
+            "https://images6.fanpop.com/image/photos/41500000/-MOMOLAND-momoland-EB-AA-A8-EB-AA-A8-EB-9E-9C-EB-93-9C-41573845-178-330.gif",
+            "https://data.whicdn.com/images/314758745/original.gif",
+            "https://images6.fanpop.com/image/photos/41500000/-MOMOLAND-momoland-EB-AA-A8-EB-AA-A8-EB-9E-9C-EB-93-9C-41573846-177-330.gif",
+            "https://data.whicdn.com/images/305334804/original.gif",
+            "https://78.media.tumblr.com/572d74e51e9649d46f2f82ae9d91fad3/tumblr_oyplwi7Fpv1uk1uhco3_400.gif",
+            "https://media1.tenor.com/images/e9c480414d765cfadc8342b74738f935/tenor.gif?itemid=19144383",
+            "https://thumbs.gfycat.com/HideousDefinitiveAmberpenshell-max-1mb.gif",
+            "https://64.media.tumblr.com/83bf04fb055df5d86cb99a9b42cff856/tumblr_paxw4gG7r81wvgtpjo3_250.gif",
+            "https://64.media.tumblr.com/14fbb0e6fecb358c582677328cd6a714/tumblr_paxw4gG7r81wvgtpjo2_250.gif",
+            "https://64.media.tumblr.com/7244787a8aba49423a84198d8d32bd29/tumblr_pbs9c6T7zc1x15lmpo2_250.gif",
+            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif",
+            "https://cdn1.diodeo.kr/cdn/webzine/2020/01/15/20200115144330_vagnlqqs.gif",
+            "https://64.media.tumblr.com/0118e91060189b7111f28b1d7ef697cd/373fc471508b3a4a-05/s400x600/20eefa85f0d763eafd6a10afbbf5c1671bae26ea.gif",
+            "https://64.media.tumblr.com/34a80ce98f5ea84ff1040a766c0bb0e3/373fc471508b3a4a-16/s400x600/381579038177bb868b7f910c35d76de36c0c37e7.gif",
+            "https://data.whicdn.com/images/308362917/original.gif",
+            "https://64.media.tumblr.com/180e1817503825f54e2f2774124ca73c/tumblr_okqsw3eovT1vk1o57o2_400.gif",
+            "https://64.media.tumblr.com/5d49cdd90292204faf71b15da6bb84ca/tumblr_okqsw3eovT1vk1o57o5_400.gif",
+            "http://pa1.narvii.com/6923/5cc4ec4b3ad024e1f22ac2ca51523f9338a2b169r1-268-150_00.gif",
+            "http://pa1.narvii.com/6742/1f47bdc17133afbce0f3539eac4b873116ec6de5_00.gif",
+            "https://gifimage.net/wp-content/uploads/2018/11/jooe-gif-3.gif",
+            "https://68.media.tumblr.com/f07da463068f65d7c74305265f711b93/tumblr_ovoufsXMoC1wuvv3do1_400.gif",
+            "https://data.whicdn.com/images/305346176/original.gif",
+            "https://pa1.narvii.com/6727/bd875088a4e98fb34ab05dca08be17148c9cad6c_hq.gif",
+            "https://i.pinimg.com/originals/84/50/07/84500782455d7b972bee756340e58b79.gif",
+            "https://data.whicdn.com/images/305887338/original.gif",
+            "https://64.media.tumblr.com/0f509dc755b4e6c873d9fffd86302798/d17a4d5675a67ca8-5b/s400x600/be16977c1376fdc221aa005175cdc76f01cab5e0.gif",
+            "https://media1.tenor.com/images/303b0f0444f51f842e9957a650054864/tenor.gif?itemid=13333056",
+            "https://thumbs.gfycat.com/BronzeSoreAfricanclawedfrog-max-14mb.gif",
+            "https://64.media.tumblr.com/f55964e87d2712838aa14abc4bee446a/tumblr_pcrg32Ivw01vc5dxto8_r1_250.gif",
+            "https://gfycat.com/brokenphysicalgreatdane",
+            "https://gfycat.com/bogusthiseasternglasslizard-jooe",
+            "https://gfycat.com/BeneficialTameBarb",
+            "https://gfycat.com/AptDecimalAtlanticblackgoby",
+            "https://gfycat.com/CarefulThriftyJoey",
+            "https://gfycat.com/AliveSaneArmyant",
+            "https://gfycat.com/InnocentUnknownAmoeba",
+            "https://gfycat.com/AdorableWatchfulLcont",
+            "https://gfycat.com/SimplisticSlushyHedgehog",
+            "https://gfycat.com/CorruptPastelCalf",
+            "https://gfycat.com/ClutteredEvergreenGalapagostortoise",
+            "https://gfycat.com/GrandioseOblongAlbertosaurus",
+            "https://gfycat.com/GlamorousDeterminedGrizzlybear",
+            "https://gfycat.com/GrandioseWaryAntelopegroundsquirrel",
+            "https://i.makeagif.com/media/4-12-2018/LxoYFp.gif"]
 
         self.bot.momoland_ahin_gif = ["https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
             "https://data.whicdn.com/images/350636191/original.gif",
@@ -803,7 +865,7 @@ class GGS(commands.Cog):
             "https://gfycat.com/jovialcourteouscommabutterfly-kim-nayun-momoland-beauty",
             "https://gfycat.com/handsomeforsakenbrocketdeer-thumbs-up-idol-room-momoland-variety-nayun-kpop"]
 
-        self.bot.momoland_nacy_gif = ["https://gfycat.com/AbsolutePleasedIndianspinyloach",
+        self.bot.momoland_nancy_gif = ["https://gfycat.com/AbsolutePleasedIndianspinyloach",
             "https://gfycat.com/AdmiredEverlastingBaiji",
             "https://gfycat.com/AdolescentGiftedEeve",
             "https://gfycat.com/CluelessOccasionalAsianpiedstarling",
@@ -1646,6 +1708,53 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.dreamcatcher_yoohyeon_gif))
                 await ctx.message.delete()
 
+    @commands.command(aliases = ['fromis', 'fromis9'])
+    async def fromis_9(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [fromis_9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jisun":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jisun :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jisun_gif))
+                await ctx.message.delete()
+            elif arg == "hayoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hayoung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_hayoung_gif))
+                await ctx.message.delete()
+            elif arg == "saerom":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Saerom :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_saerom_gif))
+                await ctx.message.delete()
+            elif arg == "chaeyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Chaeyoung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_chaeyoung_gif))
+                await ctx.message.delete()
+            elif arg == "nakyung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nakyung :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_nakyung_gif))
+                await ctx.message.delete()
+            elif arg == "jiwon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jiwon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jiwon_gif))
+                await ctx.message.delete()
+            elif arg == "seoyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seoyeon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_seoyeon_gif))
+                await ctx.message.delete()
+            elif arg == "jiheon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jiheon :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_jiheon_gif))
+                await ctx.message.delete()
+            elif arg == "gyuri":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
+                await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
+                await ctx.message.delete()
+
     @commands.command()
     async def gwsn(self, ctx, *, arg):
         now = datetime.now()
@@ -1709,53 +1818,61 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.gwsn_miya_gif))
                 await ctx.message.delete()
 
-    @commands.command(aliases = ['fromis', 'fromis9'])
-    async def fromis_9(self, ctx, arg):
+    @commands.command()
+    async def momoland(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [fromis_9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            if arg == "jisun":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Jisun :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_jisun_gif))
+        await channel.send(f"`{current_time} | USED COMMAND [Momoland {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "hyebin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hyebin :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_hyebin_gif))
                 await ctx.message.delete()
-            elif arg == "hayoung":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Hayoung :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_hayoung_gif))
+        elif arg == "jane":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jane :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_jane_gif))
                 await ctx.message.delete()
-            elif arg == "saerom":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Saerom :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_saerom_gif))
+        elif arg == "nayun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nayun :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_nayun_gif))
                 await ctx.message.delete()
-            elif arg == "chaeyoung":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Chaeyoung :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_chaeyoung_gif))
+        elif arg == "jooe":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about JooE :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_jooe_gif))
                 await ctx.message.delete()
-            elif arg == "nakyung":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Nakyung :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_nakyung_gif))
+        elif arg == "ahin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Ahin :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_ahin_gif))
                 await ctx.message.delete()
-            elif arg == "jiwon":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Jiwon :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_jiwon_gif))
+        elif arg == "nancy":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nancy :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_nancy_gif))
                 await ctx.message.delete()
-            elif arg == "seoyeon":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Seoyeon :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_seoyeon_gif))
-                await ctx.message.delete()
-            elif arg == "jiheon":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Jiheon :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_jiheon_gif))
-                await ctx.message.delete()
-            elif arg == "gyuri":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
-                await ctx.message.delete()
-
+        
     @commands.command()
     async def snsd(self, ctx, arg):
         now = datetime.now()

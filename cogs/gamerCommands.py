@@ -190,7 +190,8 @@ class gamerPings(commands.Cog):
             "https://i.pinimg.com/originals/41/31/34/4131340b5b9422311286b0e572fc4546.gif",
             "https://gfycat.com/excitablescratchyicelandichorse-chaeyeon-izone-nako",
             "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
-            "https://gfycat.com/powerlesshighkatydid"]
+            "https://gfycat.com/powerlesshighkatydid",
+            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
