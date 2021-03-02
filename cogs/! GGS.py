@@ -617,7 +617,17 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/0a9aba3dcc03a445daba4de096889fa1/638cb92f20fda7b2-63/s640x960/c472ffb1c60c3c70c2487e2339cd69278134b10c.gif",
             "https://64.media.tumblr.com/725555311471cb54a386fc4f876de370/638cb92f20fda7b2-bb/s640x960/f9d75bc5f5267b24d987d4dc40a30abe512d99aa.gif",
             "https://64.media.tumblr.com/1fef2acf8f156cd24abc6aab8fb57864/870252a836ab3c09-46/s640x960/42a72d3f3380561c3f5e164ee32f779376704bb0.gif",
-            "https://64.media.tumblr.com/1ea0c3bcbef6cbfd1ce1f5a22585b9f4/454cb95d07f7b8b3-4a/s540x810/155c2cb7a4a87752ad0be3e8e2951a96df94d317.gif"]
+            "https://64.media.tumblr.com/1ea0c3bcbef6cbfd1ce1f5a22585b9f4/454cb95d07f7b8b3-4a/s540x810/155c2cb7a4a87752ad0be3e8e2951a96df94d317.gif",
+            "https://64.media.tumblr.com/56bc43e22a8cba754a624985b00482bf/tumblr_pwnx0yEslI1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/7fc0caf0463c7fb46a6f6ecf4eca168b/tumblr_petn0vxUXe1x37j87o1_400.gif",
+            "https://64.media.tumblr.com/26d632aa0073e2c39241e3502ce09589/tumblr_pf4mtsntaI1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/068424f81338e8fe3db2fa9d1a5c47f8/tumblr_pofqdfv17C1sk2kqwo1_400.gif",
+            "https://64.media.tumblr.com/95127f7f36e46b153acc392d4d929902/tumblr_pofqdfv17C1sk2kqwo3_400.gif",
+            "https://64.media.tumblr.com/83d51c92024d24c40b0e711623111808/tumblr_pv8bfzp3Lp1x37j87o1_400.gif",
+            "https://64.media.tumblr.com/fb2743deed571245a223712114fb23d9/tumblr_pf6njoXNEw1x37j87o3_540.gif",
+            "https://64.media.tumblr.com/2afd2fec6037196b838acef6484810c2/tumblr_pf6njoXNEw1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/7316fa5efaf877b7e8302685797bee9a/tumblr_pi9rtdEC2J1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/6d924f4ad59e0a1148daccb1618a4ee7/tumblr_ph1lkhFLyx1uk0y4po3_r1_400.gif"]
 
         self.bot.gwsn_minju_gif = ["https://64.media.tumblr.com/b42de643631e932ab2b844a885e4e2a4/638cb92f20fda7b2-68/s640x960/04594d76b3147f9a71b05b192474a35c5d3f1aa8.gif",
             "https://64.media.tumblr.com/1675a58d50622a3f79f4f96fe0fe9738/5c710811c40a90df-0b/s540x810/606a7837ca5532c7ec28ac6c7c817f3ea9049610.gif",
@@ -636,7 +646,15 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/57945bac6385c5132052b56e5cc78bc8/e02a75cd53651317-df/s400x600/886485e1d4b24f6072af8b05bbca67ca35991fa8.gif",
             "https://64.media.tumblr.com/56714449856aa7c94a6b954c53576557/e02a75cd53651317-6d/s400x600/34e37c1351555a5cb59738fd274000e637b952fd.gif",
             "https://64.media.tumblr.com/09290ecb814bb34c5eb582dd1c59739c/cb853378fb60f0c3-55/s400x600/c759d4122482bb5953182d5088cb4612ee3fc785.gif",
-            "https://64.media.tumblr.com/be6b1f0fb5a5bc8f26730a16aeec1379/d08a3b2bb0299cc6-be/s400x600/fe3d1e224689b835783268d2a19b4b41cc130a00.gif"]
+            "https://64.media.tumblr.com/be6b1f0fb5a5bc8f26730a16aeec1379/d08a3b2bb0299cc6-be/s400x600/fe3d1e224689b835783268d2a19b4b41cc130a00.gif",
+            "https://64.media.tumblr.com/b0588ac0c6d76e80d6db759ff5daef62/tumblr_peedthUp6o1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/b73047b8ef9b127aed54faa706bb34d6/tumblr_peedthUp6o1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/17f4d771bd5041a3d8d4ab0c06e59a74/tumblr_pekvogwpyP1thqw0ko1_540.gif",
+            "https://64.media.tumblr.com/ef82c9b5fed775f8469d5dd8017be2a8/tumblr_phoy0yOvJb1x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/e62e4573956e048f152d251e1aba5252/tumblr_ppdeb3RWSC1x37j87o3_400.gif",
+            "https://64.media.tumblr.com/0f69546af27472290286828ff4d0dbe7/tumblr_pe9d0lzTsk1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/5e8f6ec4dff787d7b3dadfb767b05b6a/tumblr_pj8mplbjjx1xrdmk7o1_540.gif",
+            "https://64.media.tumblr.com/c9b9ee0d4dd438cf26a685e5342ba8c8/tumblr_pj8mplbjjx1xrdmk7o2_540.gif"]
 
         self.bot.gwsn_miya_gif = ["https://media1.tenor.com/images/10a77e823e41cac84c0d4e5f76dc0cf2/tenor.gif?itemid=15860903",
             "http://pa1.narvii.com/7256/dcb15328e80ac88e57721821cbe356513c18a713r1-268-350_00.gif",

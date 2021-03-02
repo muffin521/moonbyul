@@ -44,7 +44,7 @@ class hcommands(commands.Cog):
         embed2.set_footer(text=f"page 2/{totalpages}")
         embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil\nNCT Chenle```''')
         embed2.add_field(name='NCT [2]', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan\nNCT Shotaro```''')
-        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\nNCT 127\nNCT Dream\nWayV\n ```''')        
+        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\n \nNCT 127\nNCT Dream\nWayV```''')        
         
         embed2.add_field(name='Iz*One [1]', value=f'''```\nIz*One Sakura\nIz*One Yuri\nIz*One Chaeyeon\nIz*One Eunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
@@ -107,9 +107,9 @@ class hcommands(commands.Cog):
         embed5.add_field(name='Cherry Bullet', value=f'''```\nCherry Bullet Linlin\nCherry Bullet May\nCherry Bullet Mirae\nCherry Bullet Remi\nCherry Bullet Yuju```''')
         embed5.add_field(name='EXID', value=f'''```\nEXID Hani\nEXID Jeonghwa\nEXID LE\nEXID Solji\nEXID Hyelin```''')
 
-        embed5.add_field(name='SF9', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon```')
-        embed5.add_field(name='SF9', value=f'```\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho\n ```')
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n ```')
+        embed5.add_field(name='SF9', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
+        embed5.add_field(name='fromis_9', value=f'''```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+        embed5.add_field(name='EXO', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chaenyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
         embed5.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed6
@@ -122,14 +122,13 @@ class hcommands(commands.Cog):
         embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
         embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
-        embed6.add_field(name='fromis_9 [1]', value=f'''```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom```''')
-        embed6.add_field(name='fromis_9 [2]', value=f'''```\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon```''')
-        embed6.add_field(name='fromis_9 [3]', value=f'''```\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
-
         embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Miya```')
         embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
-        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ\n \n \n \n ```')
-        embed6.add_field(name='I Love You', value=f'```\n♡ \n♡ ```')
+        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n \n ```')
+
+        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
+        embed6.add_field(name='Luv u', value=f'```\n♡\n♡```')
+        embed6.add_field(name='<:moonbyulheart:790333102924627968>', value=f'```\n♡\n♡```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 
