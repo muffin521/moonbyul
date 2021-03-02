@@ -71,7 +71,8 @@ class exid(commands.Cog):
             "https://tenor.com/beIgc.gif",
             "https://tenor.com/beIfH.gif",
             "https://tenor.com/beHXP.gif",
-            "https://tenor.com/bimZx.gif"]
+            "https://tenor.com/bimZx.gif",
+            "https://media.discordapp.net/attachments/434128829821222923/811449277607837716/lewut.gif"]
 
         self.bot.solji_gif = ["https://gfycat.com/astonishinghairybobwhite",
             "https://gfycat.com/alllastcanine",
