@@ -159,7 +159,10 @@ class IdlePings(commands.Cog):
             "https://gfycat.com/deficientrepulsivealligator",
             "https://gfycat.com/impartialredcottontail",
             "https://gfycat.com/ecstaticimaginativeasianpiedstarling",
-            "https://gfycat.com/optimalmajorguineafowl"]
+            "https://gfycat.com/optimalmajorguineafowl",
+            "https://gfycat.com/deadbogushound",
+            "https://gfycat.com/glaringbrokenalaskajingle",
+            "https://gfycat.com/unitedyearlycob"]
 
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",
