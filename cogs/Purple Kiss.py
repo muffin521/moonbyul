@@ -159,13 +159,13 @@ class PurpleKiss(commands.Cog):
             "https://cdn.discordapp.com/attachments/547946619845345280/806572758691217448/image0.gif"]
 
         self.bot.pk_teasers = ["https://www.youtube.com/watch?v=k15XyaoIP0E", #.yuki
-        "https://www.youtube.com/watch?v=Dye6lE4Nxqg&ab_channel=PURPLEKISS", #.goeun
-        "https://www.youtube.com/watch?v=McH3WeahWzA&ab_channel=PURPLEKISS", #.chaein
-        "https://www.youtube.com/watch?v=I_tiX8HlasI&ab_channel=PURPLEKISS", #.swan
-        "https://www.youtube.com/watch?v=yR4gq-2wJnk&ab_channel=PURPLEKISS", #.dosie
-        "https://www.youtube.com/watch?v=eWAh5yzikBQ&ab_channel=PURPLEKISS", #.ireh
-        "https://www.youtube.com/watch?v=PHOaqnOFR28&ab_channel=PURPLEKISS", #.jieun
-        "https://www.youtube.com/watch?v=0qKI9JhAGAk&ab_channel=PURPLEKISS"] #.group
+            "https://www.youtube.com/watch?v=Dye6lE4Nxqg&ab_channel=PURPLEKISS", #.goeun
+            "https://www.youtube.com/watch?v=McH3WeahWzA&ab_channel=PURPLEKISS", #.chaein
+            "https://www.youtube.com/watch?v=I_tiX8HlasI&ab_channel=PURPLEKISS", #.swan
+            "https://www.youtube.com/watch?v=yR4gq-2wJnk&ab_channel=PURPLEKISS", #.dosie
+            "https://www.youtube.com/watch?v=eWAh5yzikBQ&ab_channel=PURPLEKISS", #.ireh
+            "https://www.youtube.com/watch?v=PHOaqnOFR28&ab_channel=PURPLEKISS", #.jieun
+            "https://www.youtube.com/watch?v=0qKI9JhAGAk&ab_channel=PURPLEKISS"] #.group
 
     @commands.command()
     async def purple(self, ctx, kiss, *, arg):
