@@ -1093,7 +1093,7 @@ class BGS(commands.Cog):
                 await ctx.message.delete()
 
     @commands.command()
-    async def golden(self, ctx, golden, arg):
+    async def golden(self, ctx, child, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -1102,14 +1102,15 @@ class BGS(commands.Cog):
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
             await ctx.message.delete()
         else:
-            if arg == "joochan":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
-                await ctx.send(random.choice(self.bot.golcha_joochan_gif))
-                await ctx.message.delete()
-            elif arg == "y":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
-                await ctx.send(random.choice(self.bot.golcha_y_gif))
-                await ctx.message.delete()
+            if child == "child":
+                if arg == "joochan":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_joochan_gif))
+                    await ctx.message.delete()
+                elif arg == "y":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_y_gif))
+                    await ctx.message.delete()
 
     @commands.command()
     async def the(self, ctx, boyz="boyz", *, arg = "group"):
