@@ -1659,7 +1659,7 @@ class IzonePings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
                 await ctx.send(random.choice(self.bot.sakura_gif))
                 await ctx.message.delete()
-        elif arg == "yuri":
+        elif arg == "yuri" or arg == "jo yuri":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:minjuheart:787553396734951454>')
@@ -1799,8 +1799,6 @@ class IzonePings(commands.Cog):
             await ctx.send(f'<@{ctx.author.id}> is shipping MinYul <:minjuheart:787553396734951454><:minjuheart:787553396734951454>')
             await ctx.message.delete()
 
-
-
     @commands.command()
     async def ame(self, ctx, arg = "nopeee"):
         now = datetime.now()
@@ -1822,9 +1820,7 @@ class IzonePings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
-        
-
-
+    
     @commands.command()
     async def tom(self, ctx):
         now = datetime.now()
