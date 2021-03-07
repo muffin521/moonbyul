@@ -503,6 +503,46 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/787a8027f119242c5e915b9d0ccb1aba/de720c64d877c65f-a3/s400x600/5958deb7bd9f0acdd1859307d370c4ac1d60a7b9.gif",
             "https://64.media.tumblr.com/12f1c42fb98bdba447a04206fa28632c/tumblr_p3v0v4l3JZ1r7qnpao4_400.gif"]
 
+        self.bot.boa_gif = ["https://cdn.discordapp.com/attachments/813116899822665808/813118089570811904/Tumblr_l_420116355437913.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118089918152745/Tumblr_l_420117988260047.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118090253566023/Tumblr_l_420125337303118.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118092116885574/Tumblr_l_420122076119838.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118493699604520/Tumblr_l_420216199901573.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118494538334223/Tumblr_l_420212653551105.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118495746949150/Tumblr_l_420209104378554.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118496182763540/Tumblr_l_420206990517826.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118856288665641/Tumblr_l_420277069443789.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118856880586792/Tumblr_l_420278151235247.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118873184239626/Tumblr_l_420286365829827.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118874622230569/Tumblr_l_420289408967690.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119023494856714/Tumblr_l_420349276899647.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119024091234304/Tumblr_l_420346529622929.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119024786440262/Tumblr_l_420344129463451.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119049570451496/Tumblr_l_420329229533509.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119129842090004/Tumblr_l_420369074636618.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119240571322398/Tumblr_l_420386390240362.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119549930995772/Tumblr_l_420455539961690.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119550773002250/Tumblr_l_420451611661639.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119573380956180/Tumblr_l_420417323903319.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119573984411649/Tumblr_l_420416088638632.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119698228609104/Tumblr_l_420505971332712.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119698791170088/Tumblr_l_420508241829222.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120035555246120/Tumblr_l_420588109321379.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120036121739326/Tumblr_l_420586021987213.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120036670668820/Tumblr_l_420583558405130.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120037158256670/Tumblr_l_420581844671641.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120181681127464/Tumblr_l_420624675734333.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120182251683844/Tumblr_l_420622339580741.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120182918709258/Tumblr_l_420620569739908.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120250731561000/Tumblr_l_420641163717452.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120383070109736/Tumblr_l_420668274104733.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120384102301757/Tumblr_l_420671929983013.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120384941293599/Tumblr_l_420665368888172.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120504608063538/Tumblr_l_420701262942637.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120505376014336/Tumblr_l_420703912102845.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120593414848553/Tumblr_l_420723207013098.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120594190008380/Tumblr_l_420724838336170.gif"]
+
     @commands.command()
     async def natty(self, ctx):
         now = datetime.now()
@@ -759,6 +799,16 @@ class SoloPings(commands.Cog):
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
             await ctx.send(random.choice(self.bot.hyuna_gif))
+            await ctx.message.delete()
+    
+    @commands.command()
+    async def boa(self, ctx):
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about BoA :heart:')
+            await ctx.send(random.choice(self.bot.boa_gif))
             await ctx.message.delete()
 
 
