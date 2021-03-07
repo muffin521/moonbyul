@@ -63,7 +63,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text=f"page 3/{totalpages}")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
         embed3.add_field(name='Blackpink', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```', inline = True)
-        embed3.add_field(name='Misc', value=f'```\nJessica\nKrystal\nKiki\n ```', inline = True)
+        embed3.add_field(name='Misc', value=f'```\nKrystal\nKiki\nS.E.S\n ```', inline = True)
         
         embed3.add_field(name='BTS', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
@@ -118,7 +118,7 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed6.set_footer(text=f"page 6/{totalpages}")
-        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nTaemin```', inline = True)
+        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA```', inline = True)
         embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
         embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
@@ -126,9 +126,9 @@ class hcommands(commands.Cog):
         embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
         embed6.add_field(name='Shinee', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
 
-        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```')
-        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ\n ```')
-        embed6.add_field(name='Thank u', value=f'```\nThank you\nfor supporting\nMoonbyul```')
+        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
+        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
+        embed6.add_field(name='Golden Child', value=f'```\nGolden Child Joochan\nGolden Child Y```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 

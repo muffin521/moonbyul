@@ -350,6 +350,38 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804189116748398633/812084698272235530/5c756d00-df9f-47a3-a9af-ecc563bd8453.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812085055698239488/5ed9f39f-1b24-48b6-9aa2-e953a47134f2.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812085576814821396/6fa39c57-a469-4552-b15e-3394d05ca193.gif"]
+    #. Golden Child
+        self.bot.golcha_joochan_gif = ["https://64.media.tumblr.com/2c33c38af5dce11489851532da286526/49083d489dab8ac6-50/s250x400/c32c3ed0a16e1f756fdf31e5cb11f25437be8f0b.gif",
+            "https://64.media.tumblr.com/b8ae7388fffd66c19999686ac7a1aac6/ff9b924952edb88f-6c/s250x400/466b4f08403a990a70b57ebef74f7cd9b04bb5e7.gif",
+            "https://64.media.tumblr.com/3e9f4cc9ea2a8e01d994c1f17959eb3d/b3c20c3fafcec14c-7b/s250x400/5459ec19455098b92df21d844b59221871d9a6f0.gif",
+            "https://64.media.tumblr.com/78ec9c4d4489c673b18e35a2461237a6/7b42ab1871c2458c-ca/s400x600/5389237c135dbe1b5af9db8c2ee82c8214d9eeb8.gif",
+            "https://64.media.tumblr.com/68a1f0013c421095fb7dafe0aee25e97/7b42ab1871c2458c-c8/s400x600/d0c717c3bf288fd057f40ec08b36d32743659b7b.gif",
+            "https://gfycat.com/dirtysmartkarakul",
+            "https://gfycat.com/silveraccurateenglishpointer",
+            "https://gfycat.com/BlandVagueBarnowl",
+            "https://gfycat.com/favoriteevilgoosefish",
+            "https://gfycat.com/narrowmagnificentflatcoatretriever",
+            "https://64.media.tumblr.com/d8bba3877e658a14d4d1746044e1120f/19d9412bb00b32b4-76/s250x400/211d5350c54191058804a62052b08ee9e6264f74.gif",
+            "https://64.media.tumblr.com/d0746d407e5be37b431b10888e41a049/ca198a95ae7ad60b-dc/s250x400/512e5a86097d38f896af0aa08900030d42cdc7d5.gif",
+            "https://64.media.tumblr.com/12e9b9c65fee8d71481d5997815a56f2/cb73fa872427ce4a-11/s250x400/8b3602fe48ed5d212203cd7f66df54aaa1ff341c.gif",
+            "https://64.media.tumblr.com/0a96987d8ebbed6acda59083bc601681/259ac045404f5916-1e/s400x600/d18f7baf16cc7759a4aa730caa987199a3805f66.gif",
+            "https://64.media.tumblr.com/e7232590d8be8a21946b71034141988a/020f7b17338f6291-52/s250x400/b18d1062804c5cc28ab26bc04c0f42d428ad0503.gif",
+            "https://tenor.com/bscu4.gif",
+            "https://tenor.com/bscu0.gif",
+            "https://tenor.com/bscvf.gif",
+            "https://tenor.com/bscyw.gif",
+            "https://tenor.com/bjzBa.gif",
+            "https://tenor.com/bd7ke.gif",
+            "https://tenor.com/bd7j1.gif",
+            "https://tenor.com/bf7sP.gif",
+            "https://tenor.com/bgNOj.gif",
+            "https://tenor.com/bgNOJ.gif"]
+
+        self.bot.golcha_y_gif = ["https://64.media.tumblr.com/55e48640d01cecdcc5023d2747fefd09/020f7b17338f6291-31/s250x400/6ce3f7faa33d5fd05105c26f30b92edaebd1324a.gif",
+            "https://64.media.tumblr.com/18ee933ba44cd38c78266d09ba5e775a/28c3096dd7c4a6ca-ae/s250x400/8d1eb15ab4d52d1f8108712b3f350f928ef31263.gif",
+            "https://64.media.tumblr.com/106f3731492a46879ae77b192c262857/28c3096dd7c4a6ca-69/s250x400/91ae13796478d7ae3a78e123928058f1818af070.gif",
+            "https://64.media.tumblr.com/33cbe957d13ce460dbb7486ec19fd1c9/49083d489dab8ac6-75/s250x400/d91de7cd0bd2115ccb53309897dbbb9354ab0fbe.gif",
+            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif"]
     #. The Boyz
         self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
             "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
@@ -1058,6 +1090,25 @@ class BGS(commands.Cog):
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Xiumin :heart:')
                 await ctx.send(random.choice(self.bot.exo_xiumin_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def golden(self, ctx, golden, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Golden Child {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "joochan":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
+                await ctx.send(random.choice(self.bot.golcha_joochan_gif))
+                await ctx.message.delete()
+            elif arg == "y":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
+                await ctx.send(random.choice(self.bot.golcha_y_gif))
                 await ctx.message.delete()
 
     @commands.command()
