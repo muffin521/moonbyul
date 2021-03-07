@@ -1010,7 +1010,6 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/iz-one-iz-one-hyewon-hyewon-kang-hyewon-pretty-gif-16546594",
             "https://tenor.com/view/izone-hyewon-kang-hyewon-rapper-vocalist-gif-17795160",
             "https://tenor.com/view/sakura-izone-hyewon-gif-13814364",
-            "https://tenor.com/view/izone-hyewon-cute-kpop-stare-gif-16129476",
             "https://tenor.com/view/iz-one-kwangbae-kangchan-kang-hyewon-hyewon-gif-14220838",
             "https://tenor.com/view/izone-izone-hyewon-kang-hyewon-izone-kwangbae-kwangbae-gif-19005616",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-kwangbae-cute-gif-17795308",
@@ -1041,7 +1040,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/nastyfortunateheterodontosaurus",
             "https://gfycat.com/harmlessmerrychevrotain",
             "https://gfycat.com/faragileblackrhino",
-            "https://gfycat.com/easygoingwavyicterinewarbler"]
+            "https://gfycat.com/easygoingwavyicterinewarbler",
+            "https://tenor.com/bfQa0.gif"]
 
         self.bot.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/loathsomecommonamericancicada",
