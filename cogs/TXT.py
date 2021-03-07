@@ -156,7 +156,6 @@ class txtPings(commands.Cog):
             "https://64.media.tumblr.com/b352306f520c92dd55a192a594845ca2/26428aed59af714b-5b/s250x400/e33339120cea48064a994cc5eefa2a2381496740.gif",
             "https://64.media.tumblr.com/4e557f6362ee900813c2ed32277ce35d/59cc50ef9fdb03e7-79/s250x400/44e7d7fa078fdfc40e261a3816c9fe2e9f7a4a68.gif",
             "https://64.media.tumblr.com/96cdac8b333060c207adeaa180563fed/2e22d4fa400d7650-42/s250x400/73ce3e962bba0fa5977a5ac7ebf8c5acbfc0cf35.gif",
-            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif",
             "https://64.media.tumblr.com/6cef17f7b063bee7dbae32abffaf4052/75c331dd786b5d51-58/s250x400/690183b088129a29575c53eb78c880f2c63d0e31.gif",
             "https://64.media.tumblr.com/609a53fd16838750ed8a418deff213e9/f70ad9f69fcbe327-b4/s400x600/8f3cf70b980e25c3ec6d40e9b54b4a036589bed7.gif",
             "https://64.media.tumblr.com/d8cf2caedf3d647517851b24ca79f227/0d16c72a083ed72e-fd/s400x600/151d8032b64cd0de8665683590bf030d824d5934.gif",
@@ -215,7 +214,8 @@ class txtPings(commands.Cog):
             "https://gfycat.com/whoppingscalyguernseycow",
             "https://gfycat.com/smoothamusingflea",
             "https://gfycat.com/ordinarypitifulilladopsis",
-            "https://tenor.com/view/cat-and-dog-txt-tomorrow-x-together-tomorrow-by-together-txt-cat-and-dog-gif-16375703"]
+            "https://tenor.com/view/cat-and-dog-txt-tomorrow-x-together-tomorrow-by-together-txt-cat-and-dog-gif-16375703",
+            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif"]
 
         self.bot.txt_taehyun_gif = ["https://tenor.com/view/txt-taehyun-kang-taehyun-kang-taehyun-txt-taehyun-txt-gif-18959632",
             "https://tenor.com/view/taehyun-kang-taehyun-txt-tomorrow-x-together-taehyunie-gif-19009636",
