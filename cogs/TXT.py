@@ -63,7 +63,8 @@ class txtPings(commands.Cog):
             "https://gfycat.com/likelygeneroushuia",
             "https://gfycat.com/euphoricnauticalgoldfish",
             "https://gfycat.com/wholerelievedharrier",
-            "https://gfycat.com/charmingdarkhoiho"]
+            "https://gfycat.com/charmingdarkhoiho",
+            "https://tenor.com/view/soobin-choi-soobin-soobin-txt-choi-soobin-txt-soobin-peace-sign-gif-15883772"]
 
         self.bot.txt_yeonjun_gif = ["https://tenor.com/view/tomorrow-by-together-big-hit-entertainmen-txt-yeonjun-handsome-gif-17716681",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647828",
