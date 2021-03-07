@@ -50,9 +50,9 @@ class hcommands(commands.Cog):
         embed2.add_field(name='Iz*One [2]', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nIz*One Chaewon\nIz*One Yujin\nIz*One Yena\nIz*One Hitomi```''')
         
-        embed2.add_field(name='Twice [1]', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo```''')
-        embed2.add_field(name='Twice [2]', value=f'''```\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon```''')
-        embed2.add_field(name='Twice [3]', value=f'''```\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
+        embed2.add_field(name='Twice [1]', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
+        embed2.add_field(name='SNSD', value=f'''```\nSNSD YoonA\nSNSD Yuri\nSNSD Hyoyeon\nSNSD Sunny\nSNSD Tiffany\nSNSD Sooyoung\nSNSD Seohyun\nSNSD Jessica\nSNSD Taeyeon```''')
+        embed2.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n \n \n ```')
         embed2.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed3
@@ -124,10 +124,10 @@ class hcommands(commands.Cog):
 
         embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
         embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
-        embed6.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n ```')
-        
-        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S```')
+        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n \n \n ```')
+
         embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ\n ```')
+        embed6.add_field(name='Thank u', value=f'```\nThank you\nfor supporting\nMoonbyul```')
         embed6.add_field(name='Luv u', value=f'```\n♡\n♡\n♡```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
