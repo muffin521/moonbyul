@@ -168,7 +168,30 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590",
             "https://tenor.com/view/kai-exo-ice-cream-eat-happy-gif-5037456",
             "https://gfycat.com/happybasicgermanwirehairedpointer",
-            "https://gfycat.com/lineartarteagle"]
+            "https://gfycat.com/lineartarteagle",
+            "https://tenor.com/view/younghoon-chanhee-the-boyz-tbz-tbz-younghoon-gif-18984986",
+            "https://pa1.narvii.com/6652/c0a9b4ac7dee8693aaf70678c5d80e29de8d618c_hq.gif",
+            "https://64.media.tumblr.com/730a29363f90d4d7dacfc55189765149/tumblr_oz5wckrDOQ1vkvtego7_r1_500.gif",
+            "https://i.pinimg.com/originals/e0/3d/33/e03d339a2aaeff48160dec2e88ef0ac0.gif",
+            "https://64.media.tumblr.com/9411c9fd3166072b172037c355f39d9c/tumblr_oz5wckrDOQ1vkvtego5_r1_500.gif",
+            "https://media1.tenor.com/images/e2c72ab7088c41687ffa8104ab4890b7/tenor.gif?itemid=6042730",
+            "https://tenor.com/view/txt-yeonjun-eating-bleuiz-gif-19716063",
+            "https://tenor.com/view/seulgicfm-yeonjun-eating-gif-19467105",
+            "https://gfycat.com/enragedlimpingivorybilledwoodpecker-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/thindefinitecarpenterant-weki-meki-wekimeki-yoojung-weme",
+            "https://data.whicdn.com/images/306259352/original.gif",
+            "https://thumbs.gfycat.com/SeveralInferiorGroundhog-size_restricted.gif",
+            "https://i.pinimg.com/originals/39/c3/84/39c384b96c6b1fffa5426ed7a1e43cca.gif",
+            "https://i.pinimg.com/originals/66/0f/fa/660ffa490c7cd211ae258448d74ae7f7.gif",
+            "https://data.whicdn.com/images/273506482/original.gif",
+            "https://i.pinimg.com/originals/38/66/71/386671ad789942f2ebfe47913247cd12.gif",
+            "https://i.pinimg.com/originals/35/e0/a1/35e0a1a1613a019d4de3b53d2d5f18b7.gif",
+            "https://i.pinimg.com/originals/41/31/34/4131340b5b9422311286b0e572fc4546.gif",
+            "https://gfycat.com/excitablescratchyicelandichorse-chaeyeon-izone-nako",
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
+            "https://gfycat.com/powerlesshighkatydid",
+            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -184,7 +207,13 @@ class gamerPings(commands.Cog):
             "Utah",
             "Yuta",
             "Runa",
-            "Robtuna"]
+            "Robtuna",
+            "Tetanus",
+            "Toupe",
+            "Toonami",
+            "Toothpaste",
+            "Toonies",
+            "2na"]
 
     @commands.command()
     async def dreammc(self, ctx):

@@ -2,7 +2,6 @@ import discord, random, datetime
 from discord.ext import commands
 from datetime import datetime
 
-        #= Dreamcatcher
 
 #//servers
 jst = 735713250225815615
@@ -391,7 +390,18 @@ class GGS(commands.Cog):
             "https://gfycat.com/actualuntriedinganue-popular-saerom-fromis-pretty-beauty-kpop-cute",
             "https://gfycat.com/barrenorangebobcat-mechabear-fromis-kpop",
             "https://gfycat.com/barrencloudykingsnake-mechabear-saerom-fromis-kpop",
-            "https://gfycat.com/eminentneatgraywolf-fromis9-saerom-kuro-gurokami-lee-saerom-romsae"]
+            "https://gfycat.com/eminentneatgraywolf-fromis9-saerom-kuro-gurokami-lee-saerom-romsae",
+            "https://tenor.com/view/saerom-lee-saerom-fromis-fromis_9-gif-19168566",
+            "https://tenor.com/view/saerom-fromis-fromis_9-lee-saerom-gif-20461253",
+            "https://tenor.com/view/applying-makeup-fromis-fromis_9-lee-saerom-saerom-gif-20375930",
+            "https://tenor.com/view/fromis-fromis9-saerom-lee-saerom-gif-20283180",
+            "https://tenor.com/view/fromis-fromis_9-saerom-lee-saerom-gif-20000869",
+            "https://tenor.com/view/fun-fromis9-kpop-lee-sae-rom-saerom-gif-14743546",
+            "https://tenor.com/view/fromis_9-saerom-romsae-lee-saerom-f9-gif-18288045",
+            "https://tenor.com/view/saerom-fromis9-saying-hello-posing-gif-14634603",
+            "https://tenor.com/view/saerom-fromis_9-gif-18669517",
+            "https://tenor.com/view/saerom-gif-20443499",
+            "https://tenor.com/view/lee-saerom-saerom-fromis-fromis_9-gif-20416936"]
 
         self.bot.fromis_9_chaeyoung_gif = ["https://gfycat.com/adorablethornyflee-fromis9-chaeyoung-lee-chaeyoung-kuro-gurokami",
             "https://gfycat.com/dimpleduniquekillerwhale-mechabear-fromis-kpop",
@@ -569,6 +579,442 @@ class GGS(commands.Cog):
             "https://gfycat.com/diligentfoolhardyblobfish",
             "https://gfycat.com/shamelessjadedarrowana",
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
+    #. GWSN
+        self.bot.gwsn_seokyoung_gif =["https://64.media.tumblr.com/5246e9dccad0b78849c4473f7c75e252/tumblr_pvopsc897r1x37j87o3_540.gif",
+            "https://64.media.tumblr.com/1cc0a38203c78dc626d9bb80e8904d3b/tumblr_pvdvr8Y3bo1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/61de90760016784ca08708232471a946/tumblr_pdy27nIr1N1thqw0ko2_540.gif",
+            "https://64.media.tumblr.com/76d0bde2238c35fff194cc71285a6e29/tumblr_pmlcgkOFil1vg2vnoo3_r1_540.gif",
+            "https://64.media.tumblr.com/1e896831ddfb5c716e2b8609a03fbbaa/tumblr_peo7x2WAjZ1x8ho42o4_r1_400.gif",
+            "https://64.media.tumblr.com/106decd67f6957bdc3aa14593e61e485/tumblr_peo7x2WAjZ1x8ho42o2_400.gif",
+            "https://64.media.tumblr.com/896195c1b749dc342b208e9d64a30075/tumblr_psafqvrfVy1x37j87o4_400.gif"]
+
+        self.bot.gwsn_seoryoung_gif = ["https://64.media.tumblr.com/67b3ef9830b9cb9c72ce53d17a4e1b17/5f238814b053c503-07/s400x600/3b7e16f6c8d9c2305f9287b85cf70d81bcbd04be.gif",
+            "https://64.media.tumblr.com/bf2a159ac705682b1c91ffef3fea6860/1bcd37b2ae6f35f6-3b/s400x600/564f97f7638f61f8bbc06874c66ff7d77fbb1ef1.gif",
+            "https://64.media.tumblr.com/eee572c7b9bd8b2d7e431395da007bef/1bcd37b2ae6f35f6-20/s400x600/549313d59fc8fedda0e6b4777fad9221428dd893.gif",
+            "https://64.media.tumblr.com/08459a12a440d0430f017425542d4455/1bcd37b2ae6f35f6-71/s400x600/4a8ed5c04f75e5955cfddb216d1c9a2b37983a5f.gif",
+            "https://64.media.tumblr.com/610cf9e3fc83e52f6973879fd9926844/8f4fe32460fad3ff-f6/s640x960/771bbe6e7b0539921250e0bffe3661f589a98dd9.gif",
+            "https://64.media.tumblr.com/69dd036a0c1a55c454708992658bc2c3/5fe499d80b131d07-e8/s400x600/94d761ca7f75244e790806ea1d8c80f8300df718.gif",
+            "https://64.media.tumblr.com/c208b3a17dde334882663dd0cf6fb4f0/082f9374193fe8ed-d0/s400x600/49e84c9fe695e60e419ed48cc535f7254fb82a5b.gif",
+            "https://64.media.tumblr.com/336e103ca05a8d9c64aab85a4c92cde7/tumblr_pp5apoArCU1x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/1e4446969d2397bcd563ef2cda9331fc/tumblr_pp5apoArCU1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/f18601d53b699d3e8dd55e3e7a1e04d7/tumblr_poc3qothUY1vj35v3o2_540.gif",
+            "https://64.media.tumblr.com/13f8d91616bb3b39e598828e03a6a353/5fe499d80b131d07-64/s400x600/6793265ba5c3424a205ec6a4dec55d22251969b4.gif"]
+
+        self.bot.gwsn_soso_gif = ["https://64.media.tumblr.com/407e14b78803d11e7a1e1037ecdbc89f/tumblr_pbznkmMLCY1xn9iano2_640.gif",
+            "https://64.media.tumblr.com/149629deee6fb3cec2e097a561d27e19/a71919d4fb4f581e-26/s400x600/3e3766efe7e590354f7ad218264c6634945a23af.gif",
+            "https://64.media.tumblr.com/21ec21b8016b6458761620f375fa289b/a71919d4fb4f581e-d7/s400x600/6ca42068674ba184ab649b729f1f5ecb0d8e5974.gif",
+            "https://64.media.tumblr.com/b05516a174eb6754af7205f8f46c9303/tumblr_ph8lr0MvUn1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/e4d2b8aeea576c14c9afe5140f5f5168/tumblr_pvc0j8R1hK1x15lmpo1_540.gif",
+            "https://64.media.tumblr.com/e87a4135756c859b7bb2dbd4a8e3a003/tumblr_pbznkmMLCY1xn9iano1_640.gif",
+            "https://64.media.tumblr.com/e72b4f35eac23306946667fe47b00c06/tumblr_pvxr22oG5D1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/9399e7fe5b4ddc3e57c9c68071baf2f4/tumblr_pvxr22oG5D1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/d5e398aead16c68f50a42bd6624bd14c/tumblr_phbzusq8xh1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/073ae74bfa3946eb042c88f0015fdace/tumblr_phbzusq8xh1x37j87o3_400.gif"]
+
+        self.bot.gwsn_anne_gif = ["https://64.media.tumblr.com/841b85f547ff2443b52ceb74b548c591/5966d4223710552a-c9/s400x600/6ebd7d3903fe828295a8c5a4176c6b10c9fa95cc.gif",
+            "https://64.media.tumblr.com/c14dbd9c94fa131a97313b9e7f8cc118/5966d4223710552a-54/s400x600/7a68cc2787e15f583f3cc18b23b7462dbb226ee0.gif",
+            "https://64.media.tumblr.com/e632f44bf3bd83fbdc950bbccdcd1563/5966d4223710552a-f2/s400x600/6212e7b9e3e19dd94a6ad522ed0770c061dd2db0.gif",
+            "https://64.media.tumblr.com/0a9aba3dcc03a445daba4de096889fa1/638cb92f20fda7b2-63/s640x960/c472ffb1c60c3c70c2487e2339cd69278134b10c.gif",
+            "https://64.media.tumblr.com/725555311471cb54a386fc4f876de370/638cb92f20fda7b2-bb/s640x960/f9d75bc5f5267b24d987d4dc40a30abe512d99aa.gif",
+            "https://64.media.tumblr.com/1fef2acf8f156cd24abc6aab8fb57864/870252a836ab3c09-46/s640x960/42a72d3f3380561c3f5e164ee32f779376704bb0.gif",
+            "https://64.media.tumblr.com/1ea0c3bcbef6cbfd1ce1f5a22585b9f4/454cb95d07f7b8b3-4a/s540x810/155c2cb7a4a87752ad0be3e8e2951a96df94d317.gif",
+            "https://64.media.tumblr.com/56bc43e22a8cba754a624985b00482bf/tumblr_pwnx0yEslI1x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/7fc0caf0463c7fb46a6f6ecf4eca168b/tumblr_petn0vxUXe1x37j87o1_400.gif",
+            "https://64.media.tumblr.com/26d632aa0073e2c39241e3502ce09589/tumblr_pf4mtsntaI1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/068424f81338e8fe3db2fa9d1a5c47f8/tumblr_pofqdfv17C1sk2kqwo1_400.gif",
+            "https://64.media.tumblr.com/95127f7f36e46b153acc392d4d929902/tumblr_pofqdfv17C1sk2kqwo3_400.gif",
+            "https://64.media.tumblr.com/83d51c92024d24c40b0e711623111808/tumblr_pv8bfzp3Lp1x37j87o1_400.gif",
+            "https://64.media.tumblr.com/fb2743deed571245a223712114fb23d9/tumblr_pf6njoXNEw1x37j87o3_540.gif",
+            "https://64.media.tumblr.com/2afd2fec6037196b838acef6484810c2/tumblr_pf6njoXNEw1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/7316fa5efaf877b7e8302685797bee9a/tumblr_pi9rtdEC2J1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/6d924f4ad59e0a1148daccb1618a4ee7/tumblr_ph1lkhFLyx1uk0y4po3_r1_400.gif"]
+
+        self.bot.gwsn_minju_gif = ["https://64.media.tumblr.com/b42de643631e932ab2b844a885e4e2a4/638cb92f20fda7b2-68/s640x960/04594d76b3147f9a71b05b192474a35c5d3f1aa8.gif",
+            "https://64.media.tumblr.com/1675a58d50622a3f79f4f96fe0fe9738/5c710811c40a90df-0b/s540x810/606a7837ca5532c7ec28ac6c7c817f3ea9049610.gif",
+            "https://64.media.tumblr.com/861f1c04df227aee86cf607d6047bb24/9dbd3bb22c5b1472-e2/s400x600/861621fbbff1e5f42479d455e1fd5d6b0c504c58.gif",
+            "https://64.media.tumblr.com/66779a166294a0b2629df2ebc9871e3f/9dbd3bb22c5b1472-04/s400x600/df9f41937f59abbcf22d641123ec004c30c60fdc.gif",
+            "https://64.media.tumblr.com/8293dd33ed66566dd089730175037774/tumblr_ph9s0fYuNR1xrdmk7o1_540.gif",
+            "https://64.media.tumblr.com/47d1504bca4edf1c79db4c51c55ccb32/tumblr_phuyq6WmED1x37j87o1_540.gif",
+            "https://64.media.tumblr.com/69a262be6e5316b7e521258fc73e1563/tumblr_pvv8u1yvB01xw84pqo1_400.gif",
+            "https://64.media.tumblr.com/c4e183d7357dfa472aad1b020ddb666f/13ff771ef03080fd-92/s400x600/350ba1269934901b9a5dee2e329a64ebe66b955b.gif"]
+
+        self.bot.gwsn_lena_gif = ["https://64.media.tumblr.com/eb91f88fb76ba822d2ef873554dd0c2a/f4cd0db3cab93490-91/s400x600/3d4b80dc0b6ac66e343547bec7b53ae228441a40.gif",
+            "https://64.media.tumblr.com/b6b76d09fd0d9259bc77ff633e4b1ac0/f4cd0db3cab93490-99/s400x600/f3a9abe9f0b7f67c3810762016ce6b105011f48d.gif",
+            "https://64.media.tumblr.com/1abda44641f120492093a76bf387049d/f2c9d118304470db-12/s400x600/bede95143dd6ef8dcddc31e2be2a24d644c51099.gif",
+            "https://64.media.tumblr.com/89eaa1f0cd2630b38c357e1907d5a637/f2c9d118304470db-56/s400x600/b5596484a0df934ea050c8c0ba88fa8396f1656b.gif",
+            "https://64.media.tumblr.com/3de5243d1b2b27eb8f96450324e7277f/8f4fe32460fad3ff-08/s640x960/867b3149b0772ede91b2ade93e479c882a7c1307.gif",
+            "https://64.media.tumblr.com/57945bac6385c5132052b56e5cc78bc8/e02a75cd53651317-df/s400x600/886485e1d4b24f6072af8b05bbca67ca35991fa8.gif",
+            "https://64.media.tumblr.com/56714449856aa7c94a6b954c53576557/e02a75cd53651317-6d/s400x600/34e37c1351555a5cb59738fd274000e637b952fd.gif",
+            "https://64.media.tumblr.com/09290ecb814bb34c5eb582dd1c59739c/cb853378fb60f0c3-55/s400x600/c759d4122482bb5953182d5088cb4612ee3fc785.gif",
+            "https://64.media.tumblr.com/be6b1f0fb5a5bc8f26730a16aeec1379/d08a3b2bb0299cc6-be/s400x600/fe3d1e224689b835783268d2a19b4b41cc130a00.gif",
+            "https://64.media.tumblr.com/b0588ac0c6d76e80d6db759ff5daef62/tumblr_peedthUp6o1x37j87o4_400.gif",
+            "https://64.media.tumblr.com/b73047b8ef9b127aed54faa706bb34d6/tumblr_peedthUp6o1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/17f4d771bd5041a3d8d4ab0c06e59a74/tumblr_pekvogwpyP1thqw0ko1_540.gif",
+            "https://64.media.tumblr.com/ef82c9b5fed775f8469d5dd8017be2a8/tumblr_phoy0yOvJb1x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/e62e4573956e048f152d251e1aba5252/tumblr_ppdeb3RWSC1x37j87o3_400.gif",
+            "https://64.media.tumblr.com/0f69546af27472290286828ff4d0dbe7/tumblr_pe9d0lzTsk1x37j87o2_400.gif",
+            "https://64.media.tumblr.com/5e8f6ec4dff787d7b3dadfb767b05b6a/tumblr_pj8mplbjjx1xrdmk7o1_540.gif",
+            "https://64.media.tumblr.com/c9b9ee0d4dd438cf26a685e5342ba8c8/tumblr_pj8mplbjjx1xrdmk7o2_540.gif"]
+
+        self.bot.gwsn_miya_gif = ["https://media1.tenor.com/images/10a77e823e41cac84c0d4e5f76dc0cf2/tenor.gif?itemid=15860903",
+            "http://pa1.narvii.com/7256/dcb15328e80ac88e57721821cbe356513c18a713r1-268-350_00.gif",
+            "https://data.whicdn.com/images/319063272/original.gif",
+            "https://data.whicdn.com/images/344001603/original.gif",
+            "https://64.media.tumblr.com/1fea8164885804920a209070419032ef/394927407b5898f7-77/s540x810/51ddc61aa485c88023d8e5706e86f62d4e7f788b.gif",
+            "https://64.media.tumblr.com/dc2d3f452c8e46513bc61acacd1d126e/394927407b5898f7-cb/s400x600/55de35f9f085c846ca62faae97d71e66481e0402.gif",
+            "https://data.whicdn.com/images/343834498/original.gif",
+            "https://64.media.tumblr.com/35ab53af95ee2562b414e05d129be410/b843f565c7070c44-40/s400x600/6e1bbf8edce71581c4b770c85ba84e32739ac209.gif",
+            "https://64.media.tumblr.com/9e7ea922f9b06a9c1c63312d381d21e7/b843f565c7070c44-74/s250x400/b899e426d42feac6f171b1d2bd31b07be7a04779.gif",
+            "https://64.media.tumblr.com/64938229ef2fd3f3a981dc3ecf3993fb/8d680eba1e318f6e-a2/s400x600/e9d5cd3ef47ff0883cd6fa45abdfc3f52cd19756.gif",
+            "https://64.media.tumblr.com/2f8a881d108a20b554e96d58250e9334/8d680eba1e318f6e-e1/s250x400/e92b1d9efd23f93d50a3d7f3a35d10e3fc4d6775.gif",
+            "https://64.media.tumblr.com/c6b1ad950c27f2edf02e462f29e4a1c3/8d680eba1e318f6e-1c/s250x400/f7fddc86758e1d3a1cdc2d2f313573b130c439a8.gif",
+            "https://thumbs.gfycat.com/UnrealisticCrispBlackrhino-max-1mb.gif",
+            "https://64.media.tumblr.com/e6ea9f943f0e588f00c97f8a54ada9d0/394927407b5898f7-81/s400x600/c7e419af25aa6b1bfcd2f0940f1a3dec5eb241a4.gif",
+            "https://64.media.tumblr.com/496be5e52f5493840c05ce291ca42259/cbaacc3eb4ea80f9-29/s250x400/d939ea59cb7f193d45ce1abc8fadd2c5fe3cfa1b.gif",
+            "https://66.media.tumblr.com/1ca32c84505d05a744f7a6b3d1ff0f6f/tumblr_pctmpdMTyU1xa1qb9o2_400.gif",
+            "https://78.media.tumblr.com/5e726e62c08daa6c9f4ee1027ef46da6/tumblr_peqloq713x1xta1fzo2_400.gif",
+            "https://64.media.tumblr.com/6f2c405a334bfd3942a5b7e882c40e22/e6ff3ecae6cd9608-56/s400x600/6d6122816d8fbafbf082a91b08f4046f251ff606.gif",
+            "https://64.media.tumblr.com/02950fac93c38d33b9f6b9786129af9b/4d73e61d4abe5d2f-d1/s400x600/3284a20c8c0d19260281cf4c0a0ec3392c4ce10b.gif",
+            "https://64.media.tumblr.com/3658222c1125ec693d770028f27b8745/0e379c3611fc1410-ef/s400x600/c12ca0637a9490d3b60344b69a5efbfe7c0ae4ff.gif",
+            "https://64.media.tumblr.com/2b09c2ff1c0eb15344385cc2be95b60f/0e379c3611fc1410-6e/s400x600/b1e589554560a240f2b6ae40bd421e5ccc1dc37e.gif",
+            "https://64.media.tumblr.com/bc16357d22850cbd9abf3211411e8fac/0e379c3611fc1410-96/s400x600/f8cc8ddce098c9633d513d3cd935457a44e4a8b9.gif",
+            "https://data.whicdn.com/images/344000886/original.gif",
+            "https://pics.prcm.jp/0ff8db4699b19/77884410/gif/77884410.gif",
+            "https://pa1.narvii.com/7042/f1f28254f7fa405e44e6f5a246416adab1e32534r1-268-428_hq.gif",
+            "https://64.media.tumblr.com/98ff8d5fadb470baa543ca29944c5f64/tumblr_pfyjv703ga1xa1qb9o5_250.gif",
+            "https://64.media.tumblr.com/dba92a47bc313b69a923e92505fee45a/9eba9969f2e9eb5d-83/s400x600/9306a27479c3d5d8c23bfaec0348c8772923f0f1.gif",
+            "https://64.media.tumblr.com/c68aea58ae863a6b55ce951879327d3d/9eba9969f2e9eb5d-24/s400x600/bfbe533cb512c32469501307151f7cb03eb3db4e.gif",
+            "https://64.media.tumblr.com/6a52410913dac8b967fd630efaab69c6/9eba9969f2e9eb5d-da/s400x600/11b2f98fcd8c554638ce6aedb6ad6b087378cca6.gif",
+            "https://64.media.tumblr.com/242034768c0536a8f1d53d6cdf38dfdc/71ac1f5a215fea25-e5/s400x600/f1e5bb707108a401a77adadeedd8e758d064afaf.gif",
+            "https://64.media.tumblr.com/b199d96e0a6980769f098727106df097/3c3ce45e86d3eedb-6b/s640x960/e1717586bd7b45024dcbc9896eac0b2b6fc381b1.gif",
+            "https://64.media.tumblr.com/b8f3d4dcbceb00999432100ebb27e6a7/170ea3995f209d2f-a9/s540x810/60c5f50c331ca484c231437360893f2049ea5f20.gif"]
+    #. Momoland
+        self.bot.momoland_hyebin_gif = ["https://i.pinimg.com/originals/67/54/39/6754394be37c79335e62ca65e3230592.gif",
+            "https://media1.tenor.com/images/cadbc43096d8671856f24fdeb94d6896/tenor.gif?itemid=15005195",
+            "https://i.pinimg.com/originals/70/1e/c4/701ec4e1479f9491581e17e044e83055.gif",
+            "https://i.pinimg.com/originals/ee/c0/ee/eec0ee897074b92962a867cfa040fe2e.gif",
+            "https://i.pinimg.com/originals/7a/35/d7/7a35d735eaffe2752b1bef99b5144547.gif",
+            "https://i.pinimg.com/originals/3b/28/bb/3b28bb2087ba06745cf888b3713f33d8.gif",
+            "https://media1.tenor.com/images/cb4f6d977c1faa9f0bad31202a6db588/tenor.gif?itemid=15922928",
+            "https://i1.wp.com/66.media.tumblr.com/ddb6cc621907730e329de73f1556c0fb/02651ee444db3d34-b0/s400x600/65a033706e6d14fa4e82340fdb26e0c33654321f.gif?w=817&ssl=1",
+            "https://data.whicdn.com/images/305877481/original.gif",
+            "https://thumbs.gfycat.com/AgitatedWarmAlligator-size_restricted.gif",
+            "https://4.bp.blogspot.com/-Lj9VBxRX4Tc/XM-RxcuVzuI/AAAAAAAAwQo/qt6hNtRR7mwwr1U49Qjq7UoZnMqMSYKFwCLcBGAs/s1600/ggulbest_44-29.gif",
+            "https://gfycat.com/admiredbrownkitfox-momoland-hyebin",
+            "https://gfycat.com/agreeablesarcasticgyrfalcon-momoland-hyebin",
+            "https://gfycat.com/carelessdopeyisabellineshrike-momoland-hyebin-kuro-gurokami-lee-hyebin-kpop",
+            "https://gfycat.com/selfishwhimsicalbullfrog-momoland-heye-kr-hyebin-maeyinundaskeom",
+            "https://gfycat.com/belovedfaroffhare",
+            "https://gfycat.com/limpimpoliteindianringneckparakeet-momoland-hyebin-kuro-gurokami-lee-hyebin-kpop",
+            "https://gfycat.com/welldocumentedspicychinchilla",
+            "https://gfycat.com/honoreddeepdoe-momoland-hyebin-kuro-gurokami-lee-hyebin-kpop",
+            "https://gfycat.com/basicachingchickadee-momoland-hyebin",
+            "https://gfycat.com/gloomyampleafricanbushviper-momoland-hyebin-momoraendeu",
+            "https://gfycat.com/paltrydistortedaardvark-mechabear-momoland-kpop",
+            "https://gfycat.com/regularillustriousbarbet-momoland-hyebin-momoland-nancy-kuro-gurokami",
+            "https://gfycat.com/eagerpastelcurlew-beauty",
+            "https://gfycat.com/firstshamelessbird-mechabear-momoland-hyebin-kpop",
+            "https://gfycat.com/gregarioustanbaboon-mechabear-momoland-hyebin-kpop",
+            "https://gfycat.com/tanhatefuladeliepenguin-mechabear-momoland-hyebin-kpop",
+            "https://gfycat.com/horriblesoftgosling-hyebin-momoraendeu",
+            "https://gfycat.com/samedistantbichonfrise-lee-hyebin-momoland",
+            "https://gfycat.com/caringpresentindianskimmer-girlgroup-reaction-boygroup-comeback",
+            "https://gfycat.com/grayannualaustralianfurseal",
+            "https://gfycat.com/snappywatchfulfulmar-momoland-hyebin-kpop",
+            "https://gfycat.com/differentselfishalbertosaurus-momoland-hyebin-kpop",
+            "https://gfycat.com/pastkeendungbeetle-momoland-hyebin-kpop",
+            "https://gfycat.com/orderlysameammonite-momoland-hyebin-kpop",
+            "https://gfycat.com/shockingalertapatosaur",
+            "https://gfycat.com/pastellipticalaplomadofalcon",
+            "https://gfycat.com/commonmarriedindianabat-momoland-mnet-momoraendeu-mpd-empidi",
+            "https://gfycat.com/spitefuleachkangaroo",
+            "https://gfycat.com/homelytendergrebe",
+            "https://gfycat.com/educateddecimalachillestang-momoland",
+            "https://gfycat.com/fatherlysarcasticindianjackal-momoland",
+            "https://gfycat.com/flawlesssnivelingfinnishspitz-momoland",
+            "https://gfycat.com/remoterawiraniangroundjay",
+            "https://gfycat.com/gleefulneglectedamoeba-momoland-hyebin-kuro-gurokami-lee-hyebin-kpop",
+            "https://gfycat.com/tanajarfoxhound-momoland-hyebin"]
+
+        self.bot.momoland_jane_gif = ["https://media1.tenor.com/images/aa8a5c6674691e71acdff06dfd7887c0/tenor.gif?itemid=12661355",
+            "https://thumbs.gfycat.com/UnkemptAnotherCassowary-max-1mb.gif",
+            "https://78.media.tumblr.com/7d8f0a3eabdb770251f07d491452c7be/tumblr_paxngliLTy1sy8x5ho3_400.gif",
+            "https://64.media.tumblr.com/a031d183507d4b32bca12f04e7ae6561/tumblr_p316joqZBd1rghadoo3_400.gif",
+            "https://i.pinimg.com/originals/75/e3/b2/75e3b259aa03f29b41f3ababd71cfb6f.gif",
+            "https://cutewallpaper.org/21/jane-momoland/Momoland-Jane-GIF-Momoland-Jane-Pinky-Discover-and-Share-GIFs.gif",
+            "http://pa1.narvii.com/7155/43f914150a701e78f536b41a0ee49abcc1bba857r1-250-270_00.gif",
+            "http://pa1.narvii.com/6756/91f31fa090fd3c953a75d38c22158c6f7bec1064_00.gif",
+            "https://64.media.tumblr.com/14e8d9abd23acc4ad7b641deee386759/tumblr_pp1r02ZrKb1ui9s1qo1_250.gif",
+            "https://i.pinimg.com/originals/a8/19/d3/a819d3f87382574d0318c2eb8c96633e.gif",
+            "https://pa1.narvii.com/6756/b927c0d5601c6767cea3315d0dd2f094d0fc11c1_hq.gif",
+            "https://pa1.narvii.com/6756/83b8ad7b51f869c9315f7191f37485c870bed5a5_hq.gif",
+            "https://64.media.tumblr.com/afa81f1c7453f609a1620b41402e0ca9/tumblr_pg7ox0mIpG1xu6x27o7_250.gif",
+            "https://gfycat.com/calmillfatedcapybara",
+            "https://gfycat.com/grippingellipticalleafhopper",
+            "https://gfycat.com/coolabandonedemu",
+            "https://gfycat.com/decisivehospitablekitten",
+            "https://gfycat.com/smoothfortunateisabellinewheatear-mldentertainment-emeldienteoteinmeonteu-momoland",
+            "https://gfycat.com/grossshowyjumpingbean-mechabear-momoland-kpop-jane",
+            "https://gfycat.com/accomplishedbackgalapagostortoise-mechabear-momoland-kpop-jane",
+            "https://gfycat.com/dentalcoldglowworm-pre-chorus-ahin-jane",
+            "https://gfycat.com/vaguegrouchyamurminnow-momos-challenge-momoland-kpop-jane",
+            "https://gfycat.com/remorsefulrewardinggrouper",
+            "https://gfycat.com/flickeringunhappyamericanriverotter-momoland-heye-kr-maeyinundaskeom-momoraendeu",
+            "https://gfycat.com/plaincheeryhomalocephale",
+            "https://gfycat.com/gentleuncommongreendarnerdragonfly-mechabear-momoland-kpop",
+            "https://gfycat.com/illiteratedisguiseddrongo-mechabear-momoland-kpop-jane",
+            "https://gfycat.com/deepillustriousconure",
+            "https://gfycat.com/shallowscrawnyasianpiedstarling-momoland-jane-kpop",
+            "https://gfycat.com/vibrantpointedangelwingmussel-buzzfeedceleb-celebrities-momoland",
+            "https://gfycat.com/defenselesscompassionatebull-relay-dance-im-so-hot-momoland-jane",
+            "https://gfycat.com/familiardismalaardvark",
+            "https://gfycat.com/favorablegleamingesok-momoland-jane-momoraendeu-jein",
+            "https://gfycat.com/presentpositiveamericanpainthorse-ready-or-not-idol-ground-momoland-kpop-jane",
+            "https://gfycat.com/innocentthriftyblackrhino-momoraendeu-jane"]
+
+        self.bot.momoland_nayun_gif = ["http://pa1.narvii.com/6650/da272c57711d72197715e0c8617b178631964ed5_00.gif",
+            "https://media1.tenor.com/images/da013b60b0fafd6545a23ab141b867d1/tenor.gif?itemid=15005116",
+            "https://media1.tenor.com/images/d482f94938f5156da4b05395c7de24eb/tenor.gif?itemid=15044836",
+            "https://media1.tenor.com/images/2787b10d2bebacf6dda24176c4ac9039/tenor.gif?itemid=14071880",
+            "https://gfycat.com/clumsybogusazurewingedmagpie-i-m-so-hot-gap-crush-momoland-nayun",
+            "https://gfycat.com/creativetensealleycat-im-so-hot-momoland-nayun",
+            "https://gfycat.com/alertpertinentdungenesscrab",
+            "https://gfycat.com/afraidequalindochinesetiger-momoland-nayun-momoraendeu",
+            "https://gfycat.com/goodnaturedunripefairyfly-mechabear-momoland-kpop",
+            "https://gfycat.com/openblackandwhiteindianringneckparakeet-mechabear-momoland-kpop",
+            "https://gfycat.com/blaringlastingconch-post-chorus-relay-dance-nayun",
+            "https://gfycat.com/generalinfinitekookaburra-relay-dance-im-so-hot-momoland-nayun",
+            "https://gfycat.com/indeliblelegalarrowworm-momoland-nayun-momoraendeu-nayun"]
+
+        self.bot.momoland_jooe_gif = ["https://media1.tenor.com/images/5a38b14f9cf18f14b1a6cf5f539265af/tenor.gif?itemid=15044807",
+            "https://i.pinimg.com/originals/ae/84/13/ae841301114cf500493089d823b7fb8c.gif",
+            "https://i.pinimg.com/originals/83/8c/27/838c272a70a10c744090df99e5fba7cb.gif",
+            "https://thumbs.gfycat.com/SpanishAbsoluteEelelephant-size_restricted.gif",
+            "https://data.whicdn.com/images/305269204/original.gif",
+            "https://i.pinimg.com/originals/8e/fa/27/8efa27163bf2004ab50c01014f5f80cb.gif",
+            "https://64.media.tumblr.com/8754799f21b0d3f67d5bad07100a5c9e/tumblr_p4xuesEKtE1s2vcg0o3_250.gif",
+            "https://media1.tenor.com/images/4d0bde234c05782e507d1bac7d6b43f9/tenor.gif?itemid=11026810",
+            "https://64.media.tumblr.com/77be4d9d31bd6bad2db7e93daf25fee3/tumblr_p4xuesEKtE1s2vcg0o1_250.gif",
+            "https://data.whicdn.com/images/305276437/original.gif",
+            "https://kbizoom.com/wp-content/uploads/2018/12/Jooe-1.gif",
+            "https://data.whicdn.com/images/314298271/original.gif",
+            "https://pa1.narvii.com/6872/8f154ff19d5a62c549f24ac75894abcf15c427ear1-540-280_hq.gif",
+            "https://64.media.tumblr.com/7c8e692e705f35afb48f9a3dd100ef51/tumblr_pbghgj8mIJ1t7qu3mo4_400.gif",
+            "https://64.media.tumblr.com/0a362be7c77058ec2cd53b62f86aa676/tumblr_paxz23Huew1ssnf1qo4_250.gif",
+            "https://64.media.tumblr.com/e925847768e038b8b9288bf4a1ca2ef3/tumblr_paxz23Huew1ssnf1qo1_250.gif",
+            "https://data.whicdn.com/images/314813843/original.gif",
+            "https://data.whicdn.com/images/305723025/original.gif",
+            "https://data.whicdn.com/images/305276459/original.gif",
+            "https://images6.fanpop.com/image/photos/41500000/-MOMOLAND-momoland-EB-AA-A8-EB-AA-A8-EB-9E-9C-EB-93-9C-41573845-178-330.gif",
+            "https://data.whicdn.com/images/314758745/original.gif",
+            "https://images6.fanpop.com/image/photos/41500000/-MOMOLAND-momoland-EB-AA-A8-EB-AA-A8-EB-9E-9C-EB-93-9C-41573846-177-330.gif",
+            "https://data.whicdn.com/images/305334804/original.gif",
+            "https://78.media.tumblr.com/572d74e51e9649d46f2f82ae9d91fad3/tumblr_oyplwi7Fpv1uk1uhco3_400.gif",
+            "https://media1.tenor.com/images/e9c480414d765cfadc8342b74738f935/tenor.gif?itemid=19144383",
+            "https://thumbs.gfycat.com/HideousDefinitiveAmberpenshell-max-1mb.gif",
+            "https://64.media.tumblr.com/83bf04fb055df5d86cb99a9b42cff856/tumblr_paxw4gG7r81wvgtpjo3_250.gif",
+            "https://64.media.tumblr.com/14fbb0e6fecb358c582677328cd6a714/tumblr_paxw4gG7r81wvgtpjo2_250.gif",
+            "https://64.media.tumblr.com/7244787a8aba49423a84198d8d32bd29/tumblr_pbs9c6T7zc1x15lmpo2_250.gif",
+            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif",
+            "https://cdn1.diodeo.kr/cdn/webzine/2020/01/15/20200115144330_vagnlqqs.gif",
+            "https://64.media.tumblr.com/0118e91060189b7111f28b1d7ef697cd/373fc471508b3a4a-05/s400x600/20eefa85f0d763eafd6a10afbbf5c1671bae26ea.gif",
+            "https://64.media.tumblr.com/34a80ce98f5ea84ff1040a766c0bb0e3/373fc471508b3a4a-16/s400x600/381579038177bb868b7f910c35d76de36c0c37e7.gif",
+            "https://data.whicdn.com/images/308362917/original.gif",
+            "https://64.media.tumblr.com/180e1817503825f54e2f2774124ca73c/tumblr_okqsw3eovT1vk1o57o2_400.gif",
+            "https://64.media.tumblr.com/5d49cdd90292204faf71b15da6bb84ca/tumblr_okqsw3eovT1vk1o57o5_400.gif",
+            "http://pa1.narvii.com/6923/5cc4ec4b3ad024e1f22ac2ca51523f9338a2b169r1-268-150_00.gif",
+            "http://pa1.narvii.com/6742/1f47bdc17133afbce0f3539eac4b873116ec6de5_00.gif",
+            "https://gifimage.net/wp-content/uploads/2018/11/jooe-gif-3.gif",
+            "https://68.media.tumblr.com/f07da463068f65d7c74305265f711b93/tumblr_ovoufsXMoC1wuvv3do1_400.gif",
+            "https://data.whicdn.com/images/305346176/original.gif",
+            "https://pa1.narvii.com/6727/bd875088a4e98fb34ab05dca08be17148c9cad6c_hq.gif",
+            "https://i.pinimg.com/originals/84/50/07/84500782455d7b972bee756340e58b79.gif",
+            "https://data.whicdn.com/images/305887338/original.gif",
+            "https://64.media.tumblr.com/0f509dc755b4e6c873d9fffd86302798/d17a4d5675a67ca8-5b/s400x600/be16977c1376fdc221aa005175cdc76f01cab5e0.gif",
+            "https://media1.tenor.com/images/303b0f0444f51f842e9957a650054864/tenor.gif?itemid=13333056",
+            "https://thumbs.gfycat.com/BronzeSoreAfricanclawedfrog-max-14mb.gif",
+            "https://64.media.tumblr.com/f55964e87d2712838aa14abc4bee446a/tumblr_pcrg32Ivw01vc5dxto8_r1_250.gif",
+            "https://gfycat.com/brokenphysicalgreatdane",
+            "https://gfycat.com/bogusthiseasternglasslizard-jooe",
+            "https://gfycat.com/BeneficialTameBarb",
+            "https://gfycat.com/AptDecimalAtlanticblackgoby",
+            "https://gfycat.com/CarefulThriftyJoey",
+            "https://gfycat.com/AliveSaneArmyant",
+            "https://gfycat.com/InnocentUnknownAmoeba",
+            "https://gfycat.com/AdorableWatchfulLcont",
+            "https://gfycat.com/SimplisticSlushyHedgehog",
+            "https://gfycat.com/CorruptPastelCalf",
+            "https://gfycat.com/ClutteredEvergreenGalapagostortoise",
+            "https://gfycat.com/GrandioseOblongAlbertosaurus",
+            "https://gfycat.com/GlamorousDeterminedGrizzlybear",
+            "https://gfycat.com/GrandioseWaryAntelopegroundsquirrel",
+            "https://i.makeagif.com/media/4-12-2018/LxoYFp.gif"]
+
+        self.bot.momoland_ahin_gif = ["https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
+            "https://data.whicdn.com/images/350636191/original.gif",
+            "https://64.media.tumblr.com/1f9550ea544231c0b87f06cdfc386ee9/5f3b4b9d5435f862-21/s500x750/b2250eac27e494ee5d29f1af2ff6e1b307374144.gif",
+            "https://64.media.tumblr.com/37fc1a10ab602e8292e83e87f2a147c6/44897822fa4a2107-8b/s500x750/32855f12ce6c01079c91556bbbee3e014262fe02.gif",
+            "https://64.media.tumblr.com/959fec05164cca0d4550a0c81fe2771a/e7889457085a5a91-3b/s500x750/5f5142ef12440ec9070a0a3278eef190c15a99b8.gif",
+            "https://i.pinimg.com/originals/23/73/68/2373682f3861f8eeb04d0b860930a2e4.gif",
+            "https://64.media.tumblr.com/11b91c943de0bf532c01a4365f69d289/3634f6feea0d5145-ae/s400x600/01b8da262905a2deaa6e08e64d45873107d5c39b.gif",
+            "https://64.media.tumblr.com/6a2d23ed2f5c03adbceb0599a763b040/96a48eb47f40074f-78/s540x810/081ec1254816699f01216e3b3a1f314c4c2e781f.gif",
+            "https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
+            "https://data.whicdn.com/images/305271470/original.gif",
+            "https://gfycat.com/delightfulflashyjackrabbit-transonglation-ready-or-not-momoland-rolling",
+            "https://gfycat.com/inferiorgoldenfrilledlizard",
+            "https://gfycat.com/jovialcourteouscommabutterfly-kim-nayun-momoland-beauty",
+            "https://gfycat.com/handsomeforsakenbrocketdeer-thumbs-up-idol-room-momoland-variety-nayun-kpop"]
+
+        self.bot.momoland_nancy_gif = ["https://gfycat.com/AbsolutePleasedIndianspinyloach",
+            "https://gfycat.com/AdmiredEverlastingBaiji",
+            "https://gfycat.com/AdolescentGiftedEeve",
+            "https://gfycat.com/CluelessOccasionalAsianpiedstarling",
+            "https://gfycat.com/AlarmingNiceAsiansmallclawedotter",
+            "https://gfycat.com/AmbitiousDistantBobolink",
+            "https://i.pinimg.com/originals/65/c4/67/65c4670e13b1478e3ac6ae5d768e9d86.gif",
+            "https://i.pinimg.com/originals/93/00/c0/9300c0935ddea7b6288a41984b002b35.gif",
+            "https://media1.tenor.com/images/37791461f108351f81e7d3331ce7c943/tenor.gif?itemid=15050049",
+            "https://gfycat.com/apprehensiveforkedflyingfish-momoland-nancy",
+            "https://gfycat.com/anymeatyhaddock",
+            "https://gfycat.com/accomplishedoptimalalpaca",
+            "https://gfycat.com/colossalanguishedjabiru-momoland-nancy",
+            "https://gfycat.com/elasticgratefulafricanwildcat-momoland-nancy",
+            "https://gfycat.com/rectangulareasygoingcolt",
+            "https://gfycat.com/scientificbackcrocodile",
+            "https://gfycat.com/sicktotalkid-momoland-nancy",
+            "https://gfycat.com/silentmelodicalbatross",
+            "https://gfycat.com/sizzlingexhaustedaddax-momoland-nancy",
+            "https://gfycat.com/unlawfulorneryhalibut-momoland",
+            "https://gfycat.com/admirablemintyhare-momoland-nancy",
+            "https://gfycat.com/wellwornwindybobwhite-momoland",
+            "https://gfycat.com/adoredsleepyamericantoad",
+            "https://gfycat.com/elasticfrequentcrow-momoland-nancy",
+            "https://gfycat.com/nimbletepideeve",
+            "https://gfycat.com/affectionatepersonaldorado-momoland-nancy",
+            "https://gfycat.com/blanddisastrousblackbird-momoland-nancy",
+            "https://gfycat.com/basiclankyharborporpoise-momoland-nancy",
+            "https://gfycat.com/shadyfemaledeinonychus",
+            "https://gfycat.com/skinnyforthrightbagworm-momoland-nancy-momoraendeu-naensi",
+            "https://gfycat.com/circularjadedamphiuma",
+            "https://gfycat.com/elatedannualblackwidowspider",
+            "https://gfycat.com/brightgeneralapatosaur",
+            "https://gfycat.com/adoredshamelessamurstarfish",
+            "https://gfycat.com/sorrowfulinsistentbighornsheep",
+            "https://gfycat.com/tenderelasticbluebottle-momoland-nancy",
+            "https://gfycat.com/amazinggrizzledcuttlefish",
+            "https://gfycat.com/shallowyellowishermine-momoland-nancy",
+            "https://gfycat.com/grandwhisperedcanine-momoland-nancy",
+            "https://gfycat.com/gianthotbluet-momoland-nancy-momoraendeu-naensi",
+            "https://gfycat.com/infiniteconsciousamericanalligator-momoland-nancy",
+            "https://gfycat.com/lividmammothamericanblackvulture",
+            "https://gfycat.com/indolentassuredirishredandwhitesetter-momoland-nancy",
+            "https://gfycat.com/ellipticalflippantarcherfish",
+            "https://gfycat.com/neglectedeveryhalcyon",
+            "https://gfycat.com/orangetangibleamazontreeboa-momoland",
+            "https://gfycat.com/bigheartedgrossgordonsetter-momoland-nancy",
+            "https://gfycat.com/cluelessgrandioseaplomadofalcon-momoland-nancy",
+            "https://gfycat.com/chubbyelementarybilby-nancy-momoland"]
+    #. SNSD
+        self.bot.snsd_jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
+            "https://tenor.com/view/jessica-jung-kpop-ginkoro-jessica-wonderland-gif-18005874",
+            "https://tenor.com/view/jessica-jessica-jung-pose-mic-take-skirt-off-gif-15862312",
+            "https://tenor.com/view/snsd-igab-igot-aboy-kpop-jessica-gif-13432098",
+            "https://tenor.com/view/jessica-jung-snsd-girls-generation-gg-gif-11280338",
+            "https://tenor.com/view/jessica-jung-fly-with-jess-sica-gif-5744343",
+            "https://tenor.com/view/jessica-jung-my-decade-our-decade-summer-storm-jung-soo-yeon-gif-9421185",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421192",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421198",
+            "https://tenor.com/view/jessica-jessica-jung-my-decade-our-decade-summer-storm-gif-9421190",
+            "https://tenor.com/view/snsd-girlsgeneration-sone-jessica-jung-jessica-gif-6144824"]
+
+        self.bot.snsd_yuri_gif = ["https://cdn.discordapp.com/attachments/808765337498943548/812160830102700032/Tumblr_l_289268280966734.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160830657396746/Tumblr_l_289266671831734.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160831475023942/Tumblr_l_289263378440173.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160988312502342/Tumblr_l_289304914877865.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160989184786492/Tumblr_l_289303373202553.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160989982228520/Tumblr_l_289288662599747.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160990619500644/Tumblr_l_289287103638758.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160993924743178/Tumblr_l_289282704440791.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/812160994498445353/Tumblr_l_289281480663395.gif",
+            "https://cdn.discordapp.com/attachments/808765337498943548/813182005604778005/Tumblr_l_434323575249368.gif"]
+
+        self.bot.snsd_hyoyeon_gif = ["https://cdn.discordapp.com/attachments/808765398694494300/813182075510718484/Tumblr_l_434329082739210.gif",
+            "https://tenor.com/view/hyoyeon-dance-gif-12760459",
+            "https://tenor.com/view/hyoyeon-snsd-hyoyeon-mr-mr-hyoyeon-lip-bite-lip-bite-gif-16472115",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922938",
+            "https://tenor.com/view/hyoyeon-cute-smile-heart-gif-13694762",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922852",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922933",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922827",
+            "https://tenor.com/view/hyoyeon-dj-hyo-kim-hyoyeon-girls-generation-kpop-gif-17922818"]
+
+        self.bot.snsd_sunny_gif = ["https://cdn.discordapp.com/attachments/808765410522038333/813182534892519464/Tumblr_l_434463176450929.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274066247710/Tumblr_l_434604679370563.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274473488454/Tumblr_l_434603489003480.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183274977198090/Tumblr_l_434602436108480.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183585771192320/Tumblr_l_434639831425966.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183586802335754/Tumblr_l_434641361887841.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183587830333460/Tumblr_l_434670449152934.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813183588585177108/Tumblr_l_434684168833345.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813184130426339358/Tumblr_l_434809906402151.gif",
+            "https://cdn.discordapp.com/attachments/808765410522038333/813184131408068608/Tumblr_l_434813703631369.gif"]
+
+        self.bot.snsd_yoona_gif = ["https://cdn.discordapp.com/attachments/808765488406331403/808936320709296168/yoona.gif",
+            "https://cdn.discordapp.com/attachments/808765488406331403/808936392381562920/yoona_2.gif",
+            "https://giphy.com/gifs/IWU8KuVDMR54XpA0oV",
+            "https://tenor.com/view/yoona-imyoona-snsd-yoona-gif-15953960",
+            "https://tenor.com/view/yoona-im-yoona-%EC%9C%A4%EC%95%84-snsd-girls-generation-gif-14170845",
+            "https://tenor.com/view/yoona-snsd-gif-18573846",
+            "https://tenor.com/view/yoona-imyoona-gif-10257459",
+            "https://tenor.com/view/yoona-sexy-dance-im-yoona-gif-12613643"]
+
+        self.bot.snsd_tiffany_gif = ["https://cdn.discordapp.com/attachments/808765444814143509/812807710210392074/Tumblr_l_368644891110047.gif",
+            "https://tenor.com/view/tiffany-snsd-gif-8117537",
+            "https://tenor.com/view/heart-snsd-tiffany-gg-girls-generation-gif-17963081",
+            "https://tenor.com/view/tiffany-snsd-gif-8313892",
+            "https://tenor.com/view/tiffany-hwang-snsd-christmas-gif-7074108",
+            "https://tenor.com/view/tiffany-sassy-snsd-kpop-girls-generation-gif-9328084",
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-gif-20028373"]
+
+        self.bot.snsd_sooyoung_gif = ["https://thumbs.gfycat.com/AliveMajorGemsbok-small.gif",
+            "http://31.media.tumblr.com/8898f1644ddffc43f6b041c3a83fc166/tumblr_mild0qzQed1s5j8vno1_500.gif",
+            "https://i.gifer.com/K3s0.gif",
+            "http://24.media.tumblr.com/99062e2414d32c90f8edc885c77d459c/tumblr_my2gcv4qVI1r6n0uqo1_500.gif",
+            "http://33.media.tumblr.com/d479e107f7919a7b078f4d0730221e23/tumblr_ntaar8AkTC1r7k0ggo1_540.gif"]
+
+        self.bot.snsd_seohyun_gif = ["https://cdn.discordapp.com/attachments/808765555913916497/812807366709870642/Tumblr_l_368521890967282.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807367275839518/Tumblr_l_368524516415927.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807446035824660/Tumblr_l_368532078439361.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807446674014226/Tumblr_l_368571724776377.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807447327539230/Tumblr_l_368574045461533.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807450276790292/Tumblr_l_368575618381897.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807959594663976/Tumblr_l_368701575469297.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812807961630081034/Tumblr_l_368703218243411.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808070568476732/Tumblr_l_368728696483557.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808071138377778/Tumblr_l_368730735719650.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808238235254784/Tumblr_l_368764815127293.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808239368503296/Tumblr_l_368762512043909.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808239896330301/Tumblr_l_368750804346986.gif",
+            "https://cdn.discordapp.com/attachments/808765555913916497/812808240390864926/Tumblr_l_368744898646884.gif"]
+
+        self.bot.snsd_taeyeon_gif = ["https://gfycat.com/acidicidlebluebreastedkookaburra-taeyeon-snsd",
+            "https://gfycat.com/agreeablewindyankole",
+            "https://gfycat.com/alarmedwholealligatorgar-beauty",
+            "https://gfycat.com/appropriatebelovedboar",
+            "https://gfycat.com/barrenambitiouslamb-taeyeon-snsd",
+            "https://gfycat.com/candiddeadgaur-taeyeon-snsd",
+            "https://gfycat.com/celebrateddensehyena",
+            "https://gfycat.com/classicremotecollie-kimtaeyeon-snsd",
+            "https://gfycat.com/cleanperkyboto",
+            "https://gfycat.com/compassionatewelloffgavial-green-soshi-cute-snsd-sone-sway",
+            "https://gfycat.com/enormousconstantbaldeagle",
+            "https://gfycat.com/emptyembarrassedballoonfish",
+            "https://gfycat.com/narrowexcellentilsamochadegu",
+            "https://gfycat.com/opulentradiantbarracuda",
+            "https://cdn.discordapp.com/attachments/803701179178811392/812135851219353700/2e56f877-ca25-4870-af6b-b3e577b2cb24.gif",
+            "https://i.pinimg.com/originals/83/cf/bd/83cfbd01650e14587b8f1e0ef6e3ab47.gif",
+            "https://cdn.discordapp.com/attachments/803701179178811392/813182565493243914/Tumblr_l_434327417407179.gif"]
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
@@ -620,7 +1066,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/illhotbarnowl",
             "https://gfycat.com/firstanimatedgrouse-weki-meki-mechabear-doyeon-kpop",
             "https://gfycat.com/grippingwarmheartedindochinesetiger-mechabear-weki-meki-doyeon-kpop",
-            "https://gfycat.com/euphoricmessyleafhopper"]
+            "https://gfycat.com/euphoricmessyleafhopper",
+            "https://thumbs.gfycat.com/JadedSparklingFrogmouth-size_restricted.gif"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
@@ -856,7 +1303,91 @@ class GGS(commands.Cog):
             "https://gfycat.com/paltrysillyasianpiedstarling",
             "https://gfycat.com/graysnoopyatlanticspadefish-weki-meki-eng-subs-yoojung-taemin-cover",
             "https://gfycat.com/dapperunlinedboutu",
-            "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop"]
+            "https://gfycat.com/quaintcloudygardensnake-weki-meki-yoojung-kpop",
+            "https://gfycat.com/kindlypessimisticfanworms",
+            "https://gfycat.com/jauntyemotionalhalibut",
+            "https://gfycat.com/improbablemajorcockatiel-ideal-of-idol-weki-meki-yoojung-kpop-weme-ioi",
+            "https://gfycat.com/windyharmfulbanteng-weki-meki-yoojung",
+            "https://gfycat.com/elatedtatteredangelwingmussel-weki-meki-yoojung-kpop",
+            "https://gfycat.com/felinezanyeasternnewt-weki-meki-yoojung-kpop",
+            "https://gfycat.com/embarrassedrarealpineroadguidetigerbeetle-weki-meki-yoojung-kpop",
+            "https://gfycat.com/greatajarheterodontosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/impracticaldiscreteladybug-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/spotlessuncomfortableamericanmarten",
+            "https://gfycat.com/snappyplasticallosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/tenderexaltedamethystsunbird-weki-meki-yoojung-kpop",
+            "https://gfycat.com/demandingsnoopybug",
+            "https://gfycat.com/emptyequatoriallacewing-weki-meki-yoojung",
+            "https://gfycat.com/confusedimmensebigmouthbass-weki-meki-yoojung-kpop",
+            "https://gfycat.com/cloudyminiaturearmyworm-weki-meki-yoojung-kpop",
+            "https://gfycat.com/annualplasticarmedcrab-weki-meki-yoojung",
+            "https://gfycat.com/defenselesstorncrownofthornsstarfish-weki-meki-yoojung",
+            "https://gfycat.com/fairimmaculateflyinglemur-weki-meki-yoojung-kpop",
+            "https://gfycat.com/energeticuncomfortableinganue-weki-meki-yoojung-kpop",
+            "https://gfycat.com/disguisedunnaturaldachshund-weki-meki-yoojung-kpop",
+            "https://gfycat.com/likablefancyhoneyeater",
+            "https://gfycat.com/feistydarlinghoneybee-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/fairoddduiker",
+            "https://gfycat.com/finemixedherald-weki-meki-yoojung-kpop",
+            "https://gfycat.com/forcefultepidbrahmancow-choi-yoojung-fancam-weki-meki-fancam",
+            "https://gfycat.com/highgiganticflicker-weki-meki-yoojung-food-kpop",
+            "https://gfycat.com/shrillcloseddotterel-knowing-brothers-weki-meki-yoojung-variety-kpop",
+            "https://gfycat.com/importantkindheartedcusimanse-queen-waabii-weki-meki-reaction-yoojung-wasabii",
+            "https://gfycat.com/mealykaleidoscopicgoldeneye-weki-meki-yoojung-kpop",
+            "https://gfycat.com/enragedlimpingivorybilledwoodpecker-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/imaginativesatisfiedhalicore-weki-meki-yoojung-kpop",
+            "https://gfycat.com/revolvingornatebasilisk-choi-yoojung-weki-meki-kiling-i-o-i-wikimiki-kpop",
+            "https://gfycat.com/sorepartialgrackle-weki-meki-yoojung-kpop",
+            "https://gfycat.com/skinnytartfruitfly-weki-meki-yoojung-kpop",
+            "https://gfycat.com/grippingmadeuphermitcrab-weki-meki-yoojung-kpop",
+            "https://gfycat.com/soulfulpoisedivorybackedwoodswallow-weki-meki-yoojung-kpop",
+            "https://gfycat.com/highlevellonebarasinga-weki-meki-yoojung-ioi",
+            "https://gfycat.com/kindunrulyfrogmouth-weki-meki-yoojung-kpop",
+            "https://gfycat.com/validaggressiveflyingsquirrel-weki-meki-yoojung-kpop",
+            "https://gfycat.com/reasonableredhyrax",
+            "https://gfycat.com/spottedunimportantgermanpinscher-weki-meki-yoojung-kpop",
+            "https://gfycat.com/hardunlinedamericanbadger-knowing-bros-weki-meki-variety-yoojung-kpop",
+            "https://gfycat.com/highhatefuleuropeanpolecat-weki-meki-yoojung-kpop",
+            "https://gfycat.com/vacantwarybuzzard",
+            "https://gfycat.com/plainpeacefulleveret-choiyoo-jung-sbs-kpopstar-pickypicky",
+            "https://gfycat.com/scholarlyscarybagworm-weki-meki-yoojung",
+            "https://gfycat.com/tamemellowbear",
+            "https://gfycat.com/smallobeselemming-weki-meki-yoojung-kpop",
+            "https://gfycat.com/redobesefowl-battle-trip-weki-meki-yoojung-bulgogi-korean-food",
+            "https://gfycat.com/poisedsoftafricanrockpython",
+            "https://gfycat.com/smartinsidiouseasteuropeanshepherd-weki-meki-pick-chu-pickchu-yoojung-kpop",
+            "https://gfycat.com/velvetyminorinsect-weki-meki-pointing-yoojung-kpop",
+            "https://gfycat.com/agitatedimaginativekoalabear-knowing-bros-weki-meki-variety-yoojung-doyeon",
+            "https://gfycat.com/windyharmfulbanteng-weki-meki-yoojung",
+            "https://gfycat.com/greatajarheterodontosaurus-weki-meki-yoojung-kpop",
+            "https://gfycat.com/felinezanyeasternnewt-weki-meki-yoojung-kpop",
+            "https://gfycat.com/dismalgenerousgoral",
+            "https://gfycat.com/unfortunatemadcopepod",
+            "https://gfycat.com/fluffymadeupindianpalmsquirrel",
+            "https://gfycat.com/thindefinitecarpenterant-weki-meki-wekimeki-yoojung-weme",
+            "https://gfycat.com/closedrelievedhylaeosaurus-weki-meki-yoojung",
+            "https://gfycat.com/innocentwellgroomedhog-knowing-brothers-weki-meki-yoojung-variety-kpop",
+            "https://gfycat.com/wickedenormousalleycat-weki-meki-yoojung-kpop",
+            "https://gfycat.com/bestgleefulbuffalo",
+            "https://gfycat.com/meagerweeklyamethystsunbird",
+            "https://gfycat.com/blackandwhitefelinegemsbuck",
+            "https://gfycat.com/acidicobesearchaeopteryx",
+            "https://gfycat.com/gentlegeneralbuck"]
+    
+        self.bot.wekimeki_ot8_gif = ["https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
+            "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
+            "https://pa1.narvii.com/6552/4a69f5cfb2b02749a5e1f05018f26d7698e489fd_hq.gif",
+            "https://pa1.narvii.com/6548/8d5a32a91de52e11416432428314772f3015b1c8_hq.gif",
+            "https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
+            "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
+            "https://pa1.narvii.com/6552/4a69f5cfb2b02749a5e1f05018f26d7698e489fd_hq.gif",
+            "https://pa1.narvii.com/6548/8d5a32a91de52e11416432428314772f3015b1c8_hq.gif",
+            "https://64.media.tumblr.com/7006cd368f0927c43d6966275e16eb03/0df03301fcf85168-46/s540x810/43df332ed84f159fa64a2676f24cc74d25eaf415.gif",
+            "https://66.media.tumblr.com/b68666e53672d2b741f792c242915d74/tumblr_prhoozjLjh1r0ia2uo1_500.gif",
+            "https://hozziewrites.files.wordpress.com/2020/02/weki-meki-picky-picky-gif.gif?w=386",
+            "https://64.media.tumblr.com/50c944bd58007f119d58719d1f3232a3/47091ae5b82f3e02-1d/s400x600/af965c70f094e63decd4838f723eda936e4f99fd.gif",
+            "https://data.whicdn.com/images/307720001/original.gif",
+            "https://64.media.tumblr.com/a2cff6ece71a7f0b004aab39d802178e/tumblr_p4eafvhz5B1wgkgwro1_500.gif"]
     #. WJSN
         self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
             "https://tenor.com/view/wjsn-bona-gif-9369544",
@@ -865,7 +1396,18 @@ class GGS(commands.Cog):
             "https://tenor.com/view/bona-wjsn-cute-heart-gif-14540847",
             "https://tenor.com/view/wjsn-bona-gif-9368967",
             "https://tenor.com/view/wjsn-bona-gif-9369345",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148"]
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-eating-bona-gif-18586148",
+            "https://gfycat.com/altruisticshamelessimperatorangel-wjsn-bona-ujusonyeo-bona",
+            "https://gfycat.com/nauticalmedicalgnu",
+            "https://gfycat.com/sardonicsecondhandbison-gimjjori",
+            "https://gfycat.com/groundedwigglydeermouse-beauty",
+            "https://gfycat.com/scalyflimsyblueshark-beauty",
+            "https://gfycat.com/acceptableexcellentibex",
+            "https://gfycat.com/dimwealthyindianringneckparakeet-ujusonyeo-wjsn-bona",
+            "https://gfycat.com/basicsardoniciggypops",
+            "https://gfycat.com/pettytediousislandcanary-wjsn-ujusonyeo-bona",
+            "https://gfycat.com/meanvalidafricanjacana-ujusonyeo-wjsn-bona",
+            "https://gfycat.com/lankybraveiberianbarbel-kuro-gurokami-kim-jiyeon-wjsn-bona-kpop-idol"]
 
         self.bot.wjsn_cheng_xiao_gif = ["https://tenor.com/view/surprised-shocked-cheng-xiao-gif-12031984",
             "https://tenor.com/view/cheng-xiao-heart-heart-shape-love-shape-gif-12031978",
@@ -882,7 +1424,15 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585918",
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-heart-gif-18585940",
             "https://tenor.com/view/dawon-wjsn-cosmic-girls-cosmic-girls-gif-9760986",
-            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910"]
+            "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910",
+            "https://i.redd.it/72ghpgdsqzd51.gif",
+            "https://i.redd.it/klv38qyrqzd51.gif",
+            "https://media1.tenor.com/images/4306c892190de840d3eae18ff2b5d433/tenor.gif?itemid=14799929",
+            "https://64.media.tumblr.com/4af786d16f47949f1238f96f071717e0/ffd42f7dfc8b28ea-c7/s400x600/146ffd214f2c39614d64c22dc84799e82e4f38a2.gif",
+            "https://64.media.tumblr.com/93637880f2692f4c8792ea70981b837a/279e4da4e3b59802-80/s400x600/68bba7735870471ef366f511e453e6d4215321ea.gif",
+            "https://64.media.tumblr.com/b060894f3e7b41a24706c102d693e303/tumblr_pfijlux6WS1v69hruo1_540.gif",
+            "https://i.pinimg.com/originals/f1/4a/5f/f14a5fec6f96d44c067473f48a9ce2e3.gif",
+            "https://media1.tenor.com/images/39fe305ecaa8a5160d95c96befed8b56/tenor.gif?itemid=9350519"]
 
         self.bot.wjsn_dayoung_gif = ["https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794012",
             "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794019",
@@ -895,30 +1445,105 @@ class GGS(commands.Cog):
             "https://tenor.com/view/wjsn-cosmic-girls-kpop-eunseo-bunny-gif-18627757",
             "https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627819",
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-eunseo-kiss-gif-18628222",
-            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382"]
+            "https://tenor.com/view/wjsn-wjsn-eunseo-eunseo-eunseo-butterfly-wjsn-eunseo-butterfly-gif-17455382",
+            "https://wjsn.neocities.org/MEMBERS/eunseo_jay527_.gif",
+            "https://64.media.tumblr.com/6e3dcc7216b0e8536a17ed98afdc9c8a/tumblr_osi6biuADY1ros9sso7_250.gif",
+            "https://i.pinimg.com/originals/e4/1c/99/e41c99e71ea3ceb7f43573a4f3449fd9.gif",
+            "https://pa1.narvii.com/7246/9f544397b0fc258b1dd012ef41b87c47ecd63be3r1-250-336_hq.gif",
+            "https://data.whicdn.com/images/340892430/original.gif",
+            "https://i1.wp.com/66.media.tumblr.com/132341d439e0e24aa7e36e54d5202809/ba2842539cc80456-2d/s540x810/645eb133a11e9585ca7990419a7c4724d775630d.gif?w=817&ssl=1",
+            "https://i1.wp.com/66.media.tumblr.com/7a8b2a5ad68e15b185954c036cef23f7/ba2842539cc80456-f4/s640x960/0fec3900a6f5ee790f71f4178900ef2ab4ac2974.gif?w=817&ssl=1",
+            "https://68.media.tumblr.com/31a3e29a1baac5939f554106a98270be/tumblr_ok6tlvDOSY1ssnf1qo3_400.gif",
+            "https://i.pinimg.com/originals/1d/e9/cb/1de9cb8b909a7fb427d642ba694d298e.gif",
+            "https://i.pinimg.com/originals/ca/11/d0/ca11d0e2afd9d88e919095e40a205285.gif",
+            "https://data.whicdn.com/images/292960168/original.gif",
+            "https://68.media.tumblr.com/a27fc4b53e3077007df5bfdc3a08a44c/tumblr_ojac2xEr7t1v69hruo4_400.gif",
+            "https://68.media.tumblr.com/34d6ce7d7cc110f82b0ddd7ba4712f45/tumblr_ojac2xEr7t1v69hruo3_400.gif",
+            "https://64.media.tumblr.com/89f26561446f41da1a5e119513d3f4af/tumblr_otq7clvOeE1vg2vnoo1_400.gif",
+            "http://pa1.narvii.com/6474/d0e2154e35266649ae16b3a25d12441a30185db7_00.gif",
+            "http://pa1.narvii.com/6474/b51b1e7acdf32f68a70978e774aa1a6eafe8c8af_00.gif"]
 
         self.bot.wjsn_exy_gif = ["https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-kiss-gif-17356005",
             "https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-good-job-gif-17356001",
             "https://tenor.com/view/yukziu-wjsn-exy-gif-19126649",
             "https://tenor.com/view/wjsn-cosmic-girls-exy-cute-gif-15481223",
-            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801"]
+            "https://tenor.com/view/wjsn-cosmic-girls-exy-chu-so-jung-kpop-gif-15479801",
+            "https://gfycat.com/embellishedmellowaustrianpinscher",
+            "https://gfycat.com/boilingmarvelouskakarikis",
+            "https://gfycat.com/lazybleakiberianbarbel",
+            "https://gfycat.com/oddhonoredgalapagostortoise",
+            "https://gfycat.com/lastingquerulousamericanwarmblood",
+            "https://gfycat.com/scentedcomposedbushbaby-elope",
+            "https://gfycat.com/formalthriftyalbacoretuna",
+            "https://gfycat.com/unrealisticremotebactrian-cosmic-girls-wjsn-exy",
+            "https://gfycat.com/hairyfamiliargroundbeetle-wjsn-exy",
+            "https://gfycat.com/spectacularantiquecockerspaniel-wjsn-exy",
+            "https://gfycat.com/milkygraciousamericanbittern",
+            "https://gfycat.com/feistylegitimatefoxterrier-wjsn-exy",
+            "https://gfycat.com/liveregularblackfly",
+            "https://gfycat.com/physicalknobbyfairybluebird-ujusonyeo-wjsn-exy",
+            "https://gfycat.com/regalillguineapig",
+            "https://gfycat.com/scratchydangerousairedaleterrier-beauty",
+            "https://gfycat.com/tallheartfeltjanenschia",
+            "https://gfycat.com/tintedvelvetyhairstreak-elope"]
 
         self.bot.wjsn_luda_gif = ["https://tenor.com/view/luda-wjsn-gif-18881057",
             "https://tenor.com/view/luda-wjsn-cosmic-girls-cosmic-girls-gif-9534362",
             "https://tenor.com/view/luda-wink-wjsn-kpop-gif-14322078",
             "https://tenor.com/view/luda-witch-spell-cute-wjsn-gif-19920488",
-            "https://tenor.com/view/luda-wjsn-gif-18881052"]
+            "https://tenor.com/view/luda-wjsn-gif-18881052",
+            "https://i.pinimg.com/originals/13/4c/71/134c71fc2fe9e4f2b68462a58329f8fc.gif",
+            "https://i.pinimg.com/originals/9d/b4/9d/9db49d1dbf834fdd3f1bdb9a909c93d6.gif",
+            "https://i.pinimg.com/originals/7d/95/92/7d95925419b525781ad5b19b55ed9b9e.gif",
+            "https://media1.tenor.com/images/30ca30d8738ee75639773b338de1d26f/tenor.gif?itemid=9985272",
+            "https://media1.tenor.com/images/79c944a72088ac2c1774ec16e4bf1fc9/tenor.gif?itemid=9985282",
+            "https://tenor.com/view/luda-wjsn-no-nope-never-gif-15885430"]
 
         self.bot.wjsn_seola_gif = ["https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837800",
             "https://tenor.com/view/kpop-wjsn-seola-heart-love-gif-18585890",
             "https://tenor.com/view/wjsn-seola-cosmicgirls-kpop-gif-7837797",
-            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940"]
+            "https://tenor.com/view/wjsn-seola-cosmicgirls-luda-exy-gif-7962940",
+            "https://i.pinimg.com/originals/5f/03/e0/5f03e0cc8f1ed6198470c7b855bfca15.gif",
+            "https://i.pinimg.com/originals/3a/50/7c/3a507c331bf657f4a9b1363c79e2dc8c.gif",
+            "https://thumbs.gfycat.com/ShamefulMixedErne-max-14mb.gif",
+            "http://78.media.tumblr.com/d58a8515226c47e7e32d85640958acd6/tumblr_p2eav8299Y1v69hruo1_400.gif",
+            "https://data.whicdn.com/images/306259352/original.gif",
+            "https://media1.tenor.com/images/f66467fe2ce2f43321f653dfd57edb93/tenor.gif?itemid=7837790",
+            "https://thumbs.gfycat.com/JollyElectricIcelandichorse-size_restricted.gif",
+            "https://64.media.tumblr.com/e4e51c74dfb9af2062521f978abdf630/tumblr_p5uubuXK521wvpvi5o2_500.gif",
+            "https://data.whicdn.com/images/308340586/original.gif",
+            "https://data.whicdn.com/images/324684732/original.gif",
+            "https://data.whicdn.com/images/325606025/original.gif",
+            "https://data.whicdn.com/images/319602148/original.gif",
+            "https://data.whicdn.com/images/319888899/original.gif",
+            "https://data.whicdn.com/images/319889216/original.gif",
+            "https://i.pinimg.com/originals/cf/9b/0c/cf9b0c6e57310e3812e16df991a1b176.gif",
+            "https://thumbs.gfycat.com/ShockedRedGrunion-size_restricted.gif",
+            "https://i.pinimg.com/originals/0c/74/fd/0c74fdbcb6a878c1a357ba4213e7e77e.gif",
+            "http://pa1.narvii.com/6841/6f351d86a1e843c8ccbc374f9de8487f3436ea05_00.gif",
+            "https://64.media.tumblr.com/405e65a7b3ae5f77e947e5a67dadb313/7a7916d5951968ac-78/s400x600/4e05e74ce448e991e6b0c566936d6532128c44b8.gif",
+            "https://64.media.tumblr.com/60371613fae98625d974ed4cb722cb22/b8a9f8a81bc8c70d-ff/s500x750/c50f4a53ae6882c4a36200ce10bcf36ed60215bc.gif",
+            "https://i.pinimg.com/originals/3a/50/7c/3a507c331bf657f4a9b1363c79e2dc8c.gif",
+            "https://i.pinimg.com/originals/1b/ac/66/1bac664e13736a860fbeb04af806c11f.gif",
+            "https://64.media.tumblr.com/213ceed9fcca83426bf9917a3f9e8984/8fe5d64521baf456-33/s400x600/7dd44b9695404f771250882ee17e6abd017b9259.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861140111196230/Tumblr_l_1950619977388.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861906980700170/Tumblr_l_1949115983436.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812861934852505630/Tumblr_l_1947078105889.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862064921149460/Tumblr_l_1944620639186.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862115085942796/Tumblr_l_1859523444511.gif",
+            "https://cdn.discordapp.com/attachments/808439751241629776/812862306710585394/Tumblr_l_8947516048418.gif"]
 
         self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586011",
             "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-kiss-gif-18586034",
-            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040"]
+            "https://tenor.com/view/wjsn-cosmic-girls-kpop-soobin-gif-18586040",
+            "https://66.media.tumblr.com/d06844df657d7b2d11c64db52bfbb1b1/tumblr_pu0ou9yMfB1v69hruo1_540.gif",
+            "https://i.pinimg.com/originals/11/0d/59/110d5973c4f3b67a7b89c3e458e36507.gif",
+            "https://thumbs.gfycat.com/SeveralInferiorGroundhog-size_restricted.gif",
+            "https://i.pinimg.com/originals/ee/98/05/ee980569b0e9acae65c65b9fe3e5c361.gif",
+            "https://media1.tenor.com/images/7fcc1fce052c3446f27800c85dde1da7/tenor.gif?itemid=9989517",
+            "https://i.pinimg.com/originals/4f/c7/17/4fc717f3e48fe7980d299bab56d740b0.gif"]
 
         self.bot.wjsn_yeonjung_gif = ["https://tenor.com/view/yeonjung-cosmic-girls-wjsn-ioi-produce-gif-9932084",
             "https://tenor.com/view/kcon2019japan-kcon-%EC%BC%80%EC%9D%B4%EC%BD%98-singing-high-note-gif-14562921",
@@ -931,7 +1556,21 @@ class GGS(commands.Cog):
             "https://tenor.com/view/yeoreum-wjsn-gif-19302984",
             "https://tenor.com/view/wjsn-la-la-love-yeoreum-lee-yeoreum-dancing-gif-17952511",
             "https://tenor.com/view/%EC%97%AC%EB%A6%84-%EC%9D%B4%EC%97%AC%EB%A6%84-yorm-wjsn-yeoreum-gif-19970067",
-            "https://tenor.com/view/wjsn-yeoreum-gif-18829843"]
+            "https://tenor.com/view/wjsn-yeoreum-gif-18829843",
+            "https://64.media.tumblr.com/f0dd98b6a4e93dc61f8140778ea950fd/084b37134e8ef8a1-aa/s400x600/90ec63708c469c47e69d76a604413460e61dd693.gif",
+            "https://64.media.tumblr.com/50abe6e7a9ec15fedbc3cf4f039f63ce/21b285efe1cf46b7-cf/s400x600/8bb1cd7643240be9b05de15d87390cf2baf78265.gif",
+            "https://i.pinimg.com/originals/2f/7b/43/2f7b431aff512d68a3f0bda61e3be61e.gif",
+            "https://i.pinimg.com/originals/54/ca/a3/54caa361f7a6911aadf7047bc049b65c.gif",
+            "https://i.pinimg.com/originals/f4/01/42/f401422e356c5893bf1e6be791f8a31e.gif",
+            "https://64.media.tumblr.com/9912e85bcb68af54c08a4a6b4e76cb48/956f7b1b8ffbe3ba-4e/s400x600/0a51ebc89af664068efc3f9425cca4efac82db0a.gif",
+            "https://64.media.tumblr.com/1adb2c450802d600dbc840267e5a8cf6/156829abb1f2982d-3f/s400x600/927a457270dc1371b350ce987f2f1212c3179de9.gif",
+            "https://64.media.tumblr.com/0991df09d7687b1bb1e1018bb64cc713/156829abb1f2982d-41/s400x600/1f049fc93266003f5d9ffa2a52503eee4b0331aa.gif",
+            "https://i.pinimg.com/originals/ae/1a/39/ae1a39cd83da78da7ce35c2e253fb15d.gif",
+            "https://i.pinimg.com/originals/86/70/f4/8670f455b14a37086bb081f7d55fbd24.gif",
+            "https://data.whicdn.com/images/260492388/original.gif",
+            "https://data.whicdn.com/images/227904646/original.gif",
+            "https://64.media.tumblr.com/5a2c8049cf08f3bd692e77b39ba8f73d/0f2a6a29933034ab-5b/s400x600/94abc66a527a2fd2ff5bdae5930e69d28ed96073.gif",
+            "https://i.pinimg.com/originals/e9/35/73/e935735dd2e8d4146b971c0a0e296295.gif"]
 
         self.bot.wjsn_mei_qi_gif = ["https://tenor.com/view/meng-mei-qi-cell-phone-cry-call-hold-back-tears-gif-11918655",
             "https://tenor.com/view/meiqi-laughing-wjsn-lmao-lol-gif-10022964",
@@ -944,6 +1583,8 @@ class GGS(commands.Cog):
             "https://tenor.com/view/xuanyi-wjsn-cosmic-girls-gif-10949761",
             "https://tenor.com/view/xuanyi-cosmic-girls-wjsn-gif-10304350",
             "https://tenor.com/view/xuan-yi-wjsn-k-pop-cosmic-girls-gif-11474789"]
+
+        self.bot.wjsn_group_gif = ["https://cdn.discordapp.com/attachments/813234370625667082/816828132832575498/wjsn.gif"]
     #. end of gifs
 
     @commands.command()
@@ -1001,13 +1642,13 @@ class GGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.apink_namjoo_gif))
                 await ctx.message.delete()
 
-    @commands.command(aliases = ['dream'])
+    @commands.command()
     async def dreamcatcher(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Dreamcatcher {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "jiu" or arg == "catcher jiu":
+        if arg == "jiu":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
                     await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about JiU :rabbit: ')
@@ -1020,7 +1661,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about JiU :rabbit:')
                 await ctx.send(random.choice(self.bot.dreamcatcher_jiu_gif))
                 await ctx.message.delete()
-        elif arg == "dami" or arg == "catcher dami":
+        elif arg == "dami":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1028,7 +1669,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Dami :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_dami_gif))
                 await ctx.message.delete()
-        elif arg == "gahyeon" or arg == "catcher gahyeon":
+        elif arg == "gahyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1036,7 +1677,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Gahyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_gahyeon_gif))
                 await ctx.message.delete()
-        elif arg == "handong" or arg == "catcher handong":
+        elif arg == "handong":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1044,7 +1685,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Handong :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_handong_gif))
                 await ctx.message.delete()
-        elif arg == "siyeon" or arg == "catcher siyeon":
+        elif arg == "siyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1052,7 +1693,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Siyeon :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_siyeon_gif))
                 await ctx.message.delete()
-        elif arg == "sua" or arg == "catcher sua":
+        elif arg == "sua":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1060,7 +1701,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about SuA :heart:') 
                 await ctx.send(random.choice(self.bot.dreamcatcher_sua_gif))
                 await ctx.message.delete()
-        elif arg == "yoohyeon" or arg == "catcher yoohyeon":
+        elif arg == "yoohyeon":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                 await ctx.message.delete()
@@ -1117,7 +1758,172 @@ class GGS(commands.Cog):
                 await ctx.message.delete()
 
     @commands.command()
-    async def weki(self, ctx, meki, *, arg):
+    async def gwsn(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [GWSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "seokyoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seokyoung :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_seokyoung_gif))
+                await ctx.message.delete()
+        elif arg == "seoryoung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seoryoung :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_seoryoung_gif))
+                await ctx.message.delete()
+        elif arg == "soso":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Soso :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_soso_gif))
+                await ctx.message.delete()
+        elif arg == "anne":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Anne :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_anne_gif))
+                await ctx.message.delete()
+        elif arg == "minju":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Minju :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_minju_gif))
+                await ctx.message.delete()
+        elif arg == "lena":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Lena :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_lena_gif))
+                await ctx.message.delete()
+        elif arg == "miya":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Miya :heart:') 
+                await ctx.send(random.choice(self.bot.gwsn_miya_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def momoland(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Momoland {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "hyebin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hyebin :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_hyebin_gif))
+                await ctx.message.delete()
+        elif arg == "jane":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jane :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_jane_gif))
+                await ctx.message.delete()
+        elif arg == "nayun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nayun :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_nayun_gif))
+                await ctx.message.delete()
+        elif arg == "jooe":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about JooE :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_jooe_gif))
+                await ctx.message.delete()
+        elif arg == "ahin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Ahin :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_ahin_gif))
+                await ctx.message.delete()
+        elif arg == "nancy":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nancy :heart:') 
+                await ctx.send(random.choice(self.bot.momoland_nancy_gif))
+                await ctx.message.delete()
+        
+    @commands.command()
+    async def snsd(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [SNSD {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jessica":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Jessica :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_jessica_gif))
+                await ctx.message.delete()
+            elif arg == "yuri":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yuri :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_yuri_gif))
+                await ctx.message.delete()
+            elif arg == "hyoyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Hyoyeon :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_hyoyeon_gif))
+                await ctx.message.delete()
+            elif arg == "sunny":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Sunny :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_sunny_gif))
+                await ctx.message.delete()
+            elif arg == "yoona":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yoona :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_yoona_gif))
+                await ctx.message.delete()
+            elif arg == "tiffany":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Tiffany :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_tiffany_gif))
+                await ctx.message.delete()
+            elif arg == "sooyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Sooyoung :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_sooyoung_gif))
+                await ctx.message.delete()
+            elif arg == "seohyun":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seohyun :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_seohyun_gif))
+                await ctx.message.delete()
+            elif arg == "taeyeon":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Taeyeon :heart:') 
+                await ctx.send(random.choice(self.bot.snsd_taeyeon_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def weki(self, ctx, meki, *, arg = "ot8"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -1186,6 +1992,14 @@ class GGS(commands.Cog):
                 else:
                     await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
                     await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
+                    await ctx.message.delete()
+            elif arg == "ot8":
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(f'<@{ctx.author.id}> is talking about Weki Meki :heart:') 
+                    await ctx.send(random.choice(self.bot.wekimeki_ot8_gif))
                     await ctx.message.delete()
 
     @commands.command()
@@ -1282,7 +2096,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Yeoreum :heart:') 
                 await ctx.send(random.choice(self.bot.wjsn_yeoreum_gif))
                 await ctx.message.delete()
-        elif arg == "mei qi":
+        elif arg == "mei qi" or arg == "mei-qi":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
@@ -1290,7 +2104,7 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Mei Qi :heart:') 
                 await ctx.send(random.choice(self.bot.wjsn_mei_qi_gif))
                 await ctx.message.delete()
-        elif arg == "xuan yi":
+        elif arg == "xuan yi" or arg == "xuanyi":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()

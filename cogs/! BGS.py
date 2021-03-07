@@ -91,7 +91,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188554896867410/812085044763951164/5ea7a890-99a2-48cc-a76d-d1539be9be81.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/812085186996731954/6b32bf6f-52fa-465d-af59-32ecb7ccf283.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/812085825985577001/7c793086-658e-4980-a1dc-87712ca177bd.gif",
-            "https://cdn.discordapp.com/attachments/804188554896867410/812085871381184572/7d9b9479-9a87-4ba9-aec2-9e4ea8ae2d39.gif"]
+            "https://cdn.discordapp.com/attachments/804188554896867410/812085871381184572/7d9b9479-9a87-4ba9-aec2-9e4ea8ae2d39.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305990127747072/Tumblr_l_692363365570517.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305991137656842/Tumblr_l_692361882756195.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305991734296596/Tumblr_l_692359924210050.gif"]
 
         self.bot.exo_do_gif = ["https://tenor.com/view/head-lucky-one-kyungsoo-funny-gif-12694480",
             "https://tenor.com/view/soo-ksoo-kyungsoo-k-pop-singer-gif-5691853",
@@ -250,7 +253,9 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804189007500148786/812085027797860362/5e08f246-c680-4dd0-8c87-22e6a6b3263a.gif",
             "https://cdn.discordapp.com/attachments/804189007500148786/812085839550349402/7d0c865b-ce9e-4012-ab66-4a026f76290e.gif",
             "https://cdn.discordapp.com/attachments/804189007500148786/812086020333764618/7f391d0b-da8d-4390-9471-ca13b4fca84e.gif",
-            "https://cdn.discordapp.com/attachments/804189007500148786/812086115871490078/08e23a25-f1f1-4d4d-9dc3-c2c0a496260e.gif"]
+            "https://cdn.discordapp.com/attachments/804189007500148786/812086115871490078/08e23a25-f1f1-4d4d-9dc3-c2c0a496260e.gif",
+            "https://cdn.discordapp.com/attachments/804189007500148786/815305845247442974/Tumblr_l_692324587523709.gif",
+            "https://cdn.discordapp.com/attachments/804189007500148786/815305845817606214/Tumblr_l_692326182023240.gif"]
 
         self.bot.exo_suho_gif = ["https://tenor.com/view/exo-suho-heart-love-finger-heart-gif-15782676",
             "https://tenor.com/view/exo-sehun-suho-hunho-sejun-gif-11610480",
@@ -338,13 +343,45 @@ class BGS(commands.Cog):
             "https://giphy.com/gifs/interview-layzhang-buzzfeedceleb-TuhHuVWrUQv2wWKOJh",
             "https://giphy.com/gifs/judge-lay-zhang-CSzDNTS1XUpgsy4teD"]
 
-        self.bot.exo_xiumin = ["https://cdn.discordapp.com/attachments/804189116748398633/812081403722334248/0b0f7062-b94d-4009-b283-eb7a4e472034.gif",
+        self.bot.exo_xiumin_gif = ["https://cdn.discordapp.com/attachments/804189116748398633/812081403722334248/0b0f7062-b94d-4009-b283-eb7a4e472034.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812082498845540372/1c522771-cba9-478f-a442-5d1099cb8037.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812083239401160714/3a1b9a55-686b-4b6a-8309-19ff8f5f95c6.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812084475474870272/05eb5300-1b2b-4266-84e6-3e5b7522a1b7.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812084698272235530/5c756d00-df9f-47a3-a9af-ecc563bd8453.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812085055698239488/5ed9f39f-1b24-48b6-9aa2-e953a47134f2.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812085576814821396/6fa39c57-a469-4552-b15e-3394d05ca193.gif"]
+    #. Golden Child
+        self.bot.golcha_joochan_gif = ["https://64.media.tumblr.com/2c33c38af5dce11489851532da286526/49083d489dab8ac6-50/s250x400/c32c3ed0a16e1f756fdf31e5cb11f25437be8f0b.gif",
+            "https://64.media.tumblr.com/b8ae7388fffd66c19999686ac7a1aac6/ff9b924952edb88f-6c/s250x400/466b4f08403a990a70b57ebef74f7cd9b04bb5e7.gif",
+            "https://64.media.tumblr.com/3e9f4cc9ea2a8e01d994c1f17959eb3d/b3c20c3fafcec14c-7b/s250x400/5459ec19455098b92df21d844b59221871d9a6f0.gif",
+            "https://64.media.tumblr.com/78ec9c4d4489c673b18e35a2461237a6/7b42ab1871c2458c-ca/s400x600/5389237c135dbe1b5af9db8c2ee82c8214d9eeb8.gif",
+            "https://64.media.tumblr.com/68a1f0013c421095fb7dafe0aee25e97/7b42ab1871c2458c-c8/s400x600/d0c717c3bf288fd057f40ec08b36d32743659b7b.gif",
+            "https://gfycat.com/dirtysmartkarakul",
+            "https://gfycat.com/silveraccurateenglishpointer",
+            "https://gfycat.com/BlandVagueBarnowl",
+            "https://gfycat.com/favoriteevilgoosefish",
+            "https://gfycat.com/narrowmagnificentflatcoatretriever",
+            "https://64.media.tumblr.com/d8bba3877e658a14d4d1746044e1120f/19d9412bb00b32b4-76/s250x400/211d5350c54191058804a62052b08ee9e6264f74.gif",
+            "https://64.media.tumblr.com/d0746d407e5be37b431b10888e41a049/ca198a95ae7ad60b-dc/s250x400/512e5a86097d38f896af0aa08900030d42cdc7d5.gif",
+            "https://64.media.tumblr.com/12e9b9c65fee8d71481d5997815a56f2/cb73fa872427ce4a-11/s250x400/8b3602fe48ed5d212203cd7f66df54aaa1ff341c.gif",
+            "https://64.media.tumblr.com/0a96987d8ebbed6acda59083bc601681/259ac045404f5916-1e/s400x600/d18f7baf16cc7759a4aa730caa987199a3805f66.gif",
+            "https://64.media.tumblr.com/e7232590d8be8a21946b71034141988a/020f7b17338f6291-52/s250x400/b18d1062804c5cc28ab26bc04c0f42d428ad0503.gif",
+            "https://tenor.com/bscu4.gif",
+            "https://tenor.com/bscu0.gif",
+            "https://tenor.com/bscvf.gif",
+            "https://tenor.com/bscyw.gif",
+            "https://tenor.com/bjzBa.gif",
+            "https://tenor.com/bd7ke.gif",
+            "https://tenor.com/bd7j1.gif",
+            "https://tenor.com/bf7sP.gif",
+            "https://tenor.com/bgNOj.gif",
+            "https://tenor.com/bgNOJ.gif"]
+
+        self.bot.golcha_y_gif = ["https://64.media.tumblr.com/55e48640d01cecdcc5023d2747fefd09/020f7b17338f6291-31/s250x400/6ce3f7faa33d5fd05105c26f30b92edaebd1324a.gif",
+            "https://64.media.tumblr.com/18ee933ba44cd38c78266d09ba5e775a/28c3096dd7c4a6ca-ae/s250x400/8d1eb15ab4d52d1f8108712b3f350f928ef31263.gif",
+            "https://64.media.tumblr.com/106f3731492a46879ae77b192c262857/28c3096dd7c4a6ca-69/s250x400/91ae13796478d7ae3a78e123928058f1818af070.gif",
+            "https://64.media.tumblr.com/33cbe957d13ce460dbb7486ec19fd1c9/49083d489dab8ac6-75/s250x400/d91de7cd0bd2115ccb53309897dbbb9354ab0fbe.gif",
+            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif"]
     #. The Boyz
         self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
             "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
@@ -363,6 +400,14 @@ class BGS(commands.Cog):
             "https://tenor.com/view/the-boyz-sangyeon-kpop-cute-handsome-gif-17604516",
             "https://tenor.com/view/the-boyz-sangyeon-hearts-kpop-finger-guns-gif-14026292",
             "https://tenor.com/view/sangyeon-tbz-the-boyz-kpop-cute-gif-17552021",
+            "https://tenor.com/view/relieved-the-boyz-sangyeon-kpop-gif-13991870",
+            "https://tenor.com/view/the-boyz-sangyeon-what-kpop-gif-14784836",
+            "https://tenor.com/view/the-boyz-tbz-sangyeon-lee-sangyeon-handsome-gif-17895538",
+            "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-sangyeon-lee-sangyeon-kpop-gif-17746977",
+            "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-sangyeon-lee-sangyeon-kpop-gif-17746979",
+            "https://tenor.com/view/the-boyz-tbz-sangyeon-lee-sangyeon-handsome-gif-17895603",
+            "https://tenor.com/view/deobi-the-boyz-sangyeon-lee-sangyeon-the-b-gif-17301901",
+            "https://tenor.com/view/sangyeon-tbz-sangyeon-the-boyz-the-boyz-sangyeon-kpop-gif-17450017",
             "https://tenor.com/view/relieved-the-boyz-sangyeon-kpop-gif-13991870",
             "https://tenor.com/view/the-boyz-sangyeon-what-kpop-gif-14784836",
             "https://tenor.com/view/the-boyz-tbz-sangyeon-lee-sangyeon-handsome-gif-17895538",
@@ -397,13 +442,27 @@ class BGS(commands.Cog):
             "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-kpop-cute-gif-17490371",
             "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-younghoon-kim-younghoon-kpop-gif-17717615",
             "https://tenor.com/view/the-boyz-younghoon-kim-younghoon-kpop-handsome-gif-15713938",
-            "https://tenor.com/view/younghoon-chanhee-the-boyz-tbz-tbz-younghoon-gif-18984986"]
+            "https://tenor.com/view/younghoon-chanhee-the-boyz-tbz-tbz-younghoon-gif-18984986",
+            "https://tenor.com/view/younghoon-chanhee-the-boyz-tbz-tbz-younghoon-gif-18984986",
+            "https://tenor.com/view/the-boyz-younghoon-kim-younghoon-kpop-handsome-gif-15713938",
+            "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-younghoon-kim-younghoon-kpop-gif-17717615",
+            "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-kpop-cute-gif-17490371",
+            "https://tenor.com/view/younghoon-the-boyz-tbz-gif-19303453",
+            "https://cdn.discordapp.com/attachments/815387335419494431/816923992043683840/image0.gif"]
 
         self.bot.theboyz_hyunjae_gif = ["https://tenor.com/view/hyunjae-hyunjae-the-boyz-stare-look-cute-gif-17364449",
             "https://tenor.com/view/the-boyz-hyunjae-cute-kpop-gif-14056530",
             "https://tenor.com/view/thanks-love-handsome-road-to-kingdom-the-boyz-gif-17641817",
             "https://tenor.com/view/hyunjae-the-boyz-hyunjae-lee-hyunjae-jaehyun-lee-jaehyun-gif-17562612",
             "https://tenor.com/view/hyunjae-lee-hyunjae-the-boyz-hyunjae-kpop-handsome-gif-17714293",
+            "https://tenor.com/view/tbz-the-boyz-hyunjae-jaehyun-heart-gif-17863032",
+            "https://tenor.com/view/hyunjae-the-boyz-kiss-tbz-gif-19725512",
+            "https://tenor.com/view/hyunjae-lee-jaehyun-hyunjae-the-boyz-tbz-the-boyz-gif-20343497",
+            "https://tenor.com/view/hyunjae-the-boyz-hyunjae-tbz-the-boyz-gif-20127794",
+            "https://tenor.com/view/hyunjae-the-boyz-jaehyun-lee-tbz-clapping-gif-17780663",
+            "https://tenor.com/view/tbz-the-boyz-jaehyun-hyunjae-cat-gif-17862602",
+            "https://tenor.com/view/tbz-the-boyz-smile-hyunjae-jaehyun-gif-17862596",
+            "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-hyunjae-lee-jaehyun-kpop-gif-16153899",
             "https://tenor.com/view/tbz-the-boyz-hyunjae-jaehyun-heart-gif-17863032",
             "https://tenor.com/view/hyunjae-the-boyz-kiss-tbz-gif-19725512",
             "https://tenor.com/view/hyunjae-lee-jaehyun-hyunjae-the-boyz-tbz-the-boyz-gif-20343497",
@@ -439,7 +498,16 @@ class BGS(commands.Cog):
             "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810545",
             "https://tenor.com/view/chanhee-new-the-boyz-the-boyz-gif-18009021",
             "https://tenor.com/view/chanhee-choi-new-the-boyz-the-boyz-gif-18810536",
-            "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810560"]
+            "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810560",
+            "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810545",
+            "https://tenor.com/view/chanhee-new-the-boyz-the-boyz-gif-18009021",
+            "https://tenor.com/view/chanhee-choi-new-the-boyz-the-boyz-gif-18810536",
+            "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810560",
+            "https://tenor.com/view/choi-chanhee-new-the-boyz-the-boyz-gif-18810551",
+            "https://64.media.tumblr.com/51cd41167c5a80d1a4d56de90810a84c/tumblr_p93qg00PK91xsj5gko5_r6_250.gif",
+            "https://tenor.com/view/chanhee-the-boyz-new-the-boyz-gif-18009008",
+            "https://tenor.com/view/kiss-the-boyz-chanhee-new-nyu-gif-16642851",
+            "https://tenor.com/view/the-boyz-new-choi-chanhee-main-vocalist-kpop-gif-16028891"]
 
         self.bot.theboyz_q_gif = ["https://tenor.com/view/the-boyz-gif-18316665",
             "https://tenor.com/view/changmin-ji-changmin-the-boyz-tbz-jungyuz-gif-19256496",
@@ -472,6 +540,13 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/2d7f4f8687eb1888a2c06c8085f094d1/tumblr_p93qg00PK91xsj5gko3_r5_250.gif",
             "https://64.media.tumblr.com/3323207580d278b8ac9fe5a4e7c2ce43/4be0cd247b5c938f-6c/s500x750/c4576327eac21e017a703db2edc756d275043c7d.gif",
             "https://64.media.tumblr.com/f9da20e9f6976400e96f97b3e3079925/tumblr_pwosvhI7J61ytb771o7_250.gif",
+            "https://64.media.tumblr.com/88422061b3c901b056d8c11a53bc4f31/2af42dbe1d769b2e-60/s250x400/270ed86bfb6a516954abee78b0dc56b163421b35.gif",
+            "https://64.media.tumblr.com/a3d46d24d322f425651b063aa7a48f44/6fcc58052d07fa49-66/s500x750/c7990e4fba9d44e17bf0bc62f3e10cc365862b2e.gif",
+            "https://64.media.tumblr.com/6b4d63210df23b83e1d409b2bfdd544d/tumblr_pjux0nhjO81s7m4tc_250.gif",
+            "https://64.media.tumblr.com/56d137b7c33ec7e5051730b4115547e3/tumblr_pjux0gyjv41s7m4tc_250.gif",
+            "https://64.media.tumblr.com/2d7f4f8687eb1888a2c06c8085f094d1/tumblr_p93qg00PK91xsj5gko3_r5_250.gif",
+            "https://64.media.tumblr.com/3323207580d278b8ac9fe5a4e7c2ce43/4be0cd247b5c938f-6c/s500x750/c4576327eac21e017a703db2edc756d275043c7d.gif",
+            "https://64.media.tumblr.com/f9da20e9f6976400e96f97b3e3079925/tumblr_pwosvhI7J61ytb771o7_250.gif",
             "https://64.media.tumblr.com/88422061b3c901b056d8c11a53bc4f31/2af42dbe1d769b2e-60/s250x400/270ed86bfb6a516954abee78b0dc56b163421b35.gif"]
 
         self.bot.theboyz_sunwoo_gif = ["https://tenor.com/view/sunwoo-the-boyz-kim-sunwoo-gif-18352599",
@@ -487,7 +562,21 @@ class BGS(commands.Cog):
             "https://tenor.com/view/sunwoo-the-boyz-kim-sunwoo-gif-18352599",
             "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590",
             "https://tenor.com/view/sunu-tbz-the-boyz-sunwoo-sunwoo-dancing-gif-18742384",
-            "https://tenor.com/view/sunwoo-gif-19843755"]
+            "https://tenor.com/view/sunwoo-gif-19843755",
+            "https://tenor.com/view/sunwoo-imitating-kevin-sunwoo-tbz-the-boyz-gif-20224449",
+            "https://tenor.com/view/tbz-the-boyz-sunwoo-kim-sunwoo-amazed-gif-17863040",
+            "https://tenor.com/view/sunwoo-kim-sunwoo-tbzhour-tbz-the-boyz-gif-18439976",
+            "https://tenor.com/view/sunwoo-the-boyz-kim-sunwoo-dance-gif-20085120",
+            "https://tenor.com/view/sunwoo-kim-sunwoo-the-boyz-tbz-kpop-gif-17323830",
+            "https://tenor.com/view/sunwoo-the-boyz-kim-sunwoo-gif-18352599",
+            "https://tenor.com/view/sunwoo-the-boyz-tbz-sunwoo-sunwooeating-sunu-gif-18876590",
+            "https://64.media.tumblr.com/77efa11b27effcd431d5c4be4e468702/498cad7066bde806-00/s250x400/7db3d004cb9613538f359fa4f271f092577f0dd6.gif",
+            "https://64.media.tumblr.com/7a9675cc77811ce55d82d543fd3d866f/498cad7066bde806-0b/s250x400/c65722cb9b531bfad0579eea5f32cdb2764f35bb.gif",
+            "https://64.media.tumblr.com/8cd7f2253b32e9cc36f05795705b4919/498cad7066bde806-a2/s250x400/8a25460c159522dd3c8f92fb32c895edb4306e94.gif",
+            "https://64.media.tumblr.com/7fc74ed8e4b1f009dec49d3f2d115e19/1da6e28388181611-48/s250x400/3a69eeab0227e03d877c3c07c95c2ff029a75298.gif",
+            "https://64.media.tumblr.com/bf53391ac9949818d0ab41d43e6f58b9/1da6e28388181611-4e/s250x400/61352b08fea3ad73ba312df34e8307839ffc0541.gif",
+            "https://64.media.tumblr.com/0e80a2295f2605fd8ca6d2c253113f0f/498cad7066bde806-d4/s250x400/046826d10ec9634fc01a5191d611bacaeeb0b75a.gif",
+            "https://64.media.tumblr.com/d0c49d486518d6b289c905db98950d1f/498cad7066bde806-02/s250x400/a44a2725b1269434c6827d0d8b93130d8db5da6b.gif"]
 
         self.bot.theboyz_eric_gif = ["https://tenor.com/view/handsome-sexy-the-boyz-eric-oh-gif-17891020",
             "https://tenor.com/view/tbz-the-boyz-eric-sohn-kpop-theb-gif-17972062",
@@ -503,13 +592,34 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/604c5181e22070e59c6268b70903ba81/e998b5ccbcda60c8-3a/s400x600/e12abae14a0b72cd4b7d15b84b7127e09b2d07cc.gif",
             "https://64.media.tumblr.com/7aec5bfbc06447681f841bcbbaa310e3/e998b5ccbcda60c8-9d/s400x600/930cf2e43f9bec8f98225b2a1107d647a19012bc.gif",
             "https://64.media.tumblr.com/91e5e74812755b47e790194d9c133c4c/98f9f54f13a26e30-47/s540x810/04515506f5468320cdfabd141f14ead9528957fd.gif"]
+
+        self.bot.theboyz_hwall_gif = ["https://64.media.tumblr.com/a95c260a8d7e2d69e2f9f17325553854/tumblr_oxzsetn9nC1wrrz1eo1_400.gif",
+            "https://64.media.tumblr.com/735dd97c8f7ba1ce6bef398579019789/tumblr_p556z9StHn1wvslp2o5_r1_250.gif",
+            "https://64.media.tumblr.com/c71a1e7e99ebf90a79436bf82d776934/tumblr_p556z9StHn1wvslp2o7_r2_250.gif",
+            "https://64.media.tumblr.com/8f3d24c31b5a726e4138bd44f1d54144/tumblr_p556z9StHn1wvslp2o6_r1_250.gif",
+            "https://64.media.tumblr.com/a8182f25ccacf80fb0374cf886dd5459/tumblr_p3xv88WcGS1wl2fq0o1_400.gif",
+            "https://64.media.tumblr.com/8b848139508618daec6d7db517b32b43/tumblr_pkc35iNQbB1xi376ko1_250.gif",
+            "https://64.media.tumblr.com/1e4214f6b5cc236db1c799c1e49e769b/tumblr_pkc35iNQbB1xi376ko4_250.gif",
+            "https://64.media.tumblr.com/ea8b324c6325c4e05c9dd21c15e0de1d/tumblr_pmftreM5Aa1wvslp2o3_r1_250.gif",
+            "https://64.media.tumblr.com/12144c75b98a04b9882429b90421a9e7/tumblr_p9izg6d3iY1wl2fq0o1_250.gif",
+            "https://64.media.tumblr.com/15b90d0657037dce08b487fd076d152f/tumblr_p9izg6d3iY1wl2fq0o7_250.gif"]
+    
+        self.bot.theboyz_group_gif = ["https://tenor.com/view/theboyz-giftheboyz-theboyzhd-tbz-gif-18694836",
+            "https://tenor.com/view/the-boyz-kpop-boyz-the-greeting-cute-gif-12285048",
+            "https://64.media.tumblr.com/c4ef728387c5a91e77b7af30cdd5d6a1/tumblr_inline_pmsbgxr5hW1w0xass_500.gif",
+            "https://64.media.tumblr.com/521c8e16e78cdcea9ae10c2fa70f7cbd/7db70edc0587b5f4-c8/s250x400/da2a36365113bcdbfcc222ee9dcc1901eb8b2bf7.gif",
+            "https://64.media.tumblr.com/8f7c652b6d790577d80b40b2af8eaaa8/tumblr_pbvq5f0dCO1swg2mjo8_r1_400.gif",
+            "https://64.media.tumblr.com/6945754e41f2cb892dd381aec3c07974/fa1b10438eef1e02-f8/s400x600/cf2a8fc5762b02b1b179d3161bfe69336bfd1a4a.gif",
+            "https://64.media.tumblr.com/a673f6c01b474dc19b9ee2f578c66e2e/tumblr_pbvq5f0dCO1swg2mjo9_r1_400.gif",
+            "https://static.tumblr.com/65bfd79d6c50c879910e19c58488c024/kizoio0/6Gpp3n960/tumblr_static_tumblr_static_2rh9vzehnw8w04kwgsg0wk0g0_focused_v3.gif"]
     #. P1Harmony
         self.bot.p1harmony_intak_gif = ["https://cdn.discordapp.com/attachments/800206337073479690/800261657557074000/image0.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261657880166400/image1.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261658508394516/image2.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261658890731550/image3.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261758714380358/image0.gif",
-            "https://cdn.discordapp.com/attachments/800206337073479690/800261759302500392/image1.gif"]
+            "https://cdn.discordapp.com/attachments/800206337073479690/800261759302500392/image1.gif",
+            "https://tenor.com/view/p1harmony-maniac-p1harmony-intak-intak-gif-19859801"]
 
         self.bot.p1harmony_jiung_gif = ["https://cdn.discordapp.com/attachments/800206376210661406/800262168904859668/image0.gif",
             "https://cdn.discordapp.com/attachments/800206376210661406/800262169299910686/image1.gif",
@@ -576,7 +686,12 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805178530279325697/805180235477024868/image0.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805180235838259220/image1.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805180236332269619/image2.gif",
-            "https://cdn.discordapp.com/attachments/805178530279325697/805180236706742342/image3.gif"]
+            "https://cdn.discordapp.com/attachments/805178530279325697/805180236706742342/image3.gif",
+            "https://64.media.tumblr.com/35a27df70216785d3b73a21006fa275f/9236732440054ab7-87/s400x600/e94e6b3a8f3763742638aa85215660c41992f420.gif",
+            "https://64.media.tumblr.com/3529ac539e5034274a9bcc2b95b336cf/tumblr_pmuz5kUPN11x8i9gko6_400.gif",
+            "https://64.media.tumblr.com/35a27df70216785d3b73a21006fa275f/9236732440054ab7-87/s400x600/e94e6b3a8f3763742638aa85215660c41992f420.gif",
+            "https://64.media.tumblr.com/3529ac539e5034274a9bcc2b95b336cf/tumblr_pmuz5kUPN11x8i9gko6_400.gif",
+            "https://64.media.tumblr.com/f92b2a111a72953ca6cfbe0d88a32c52/tumblr_pn47mbig6E1x8i9gko8_r1_400.gif"]
 
         self.bot.sf9_dawon_gif = ["https://cdn.discordapp.com/attachments/805178602554392576/805180404285177866/image0.gif",
             "https://cdn.discordapp.com/attachments/805178602554392576/805180404848001096/image1.gif",
@@ -601,7 +716,21 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805178727222083635/805181131498061824/image1.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181131984994314/image2.gif",
             "https://cdn.discordapp.com/attachments/805178727222083635/805181235239714906/image0.gif",
-            "https://cdn.discordapp.com/attachments/805178727222083635/805181235621920798/image1.gif"]
+            "https://cdn.discordapp.com/attachments/805178727222083635/805181235621920798/image1.gif",
+            "https://64.media.tumblr.com/9acaa9a75572791aef0aa97d8963a2da/tumblr_pe0vqjUELp1we7cjco2_250.gif",
+            "https://64.media.tumblr.com/81b7511869cbc44deae88eb2dba45609/tumblr_puqjqzvJtn1wmcyxto3_250.gif",
+            "https://64.media.tumblr.com/301f130bb9bbca94227b4b5d36fd8268/tumblr_p4i8ft1nsS1we7cjco2_400.gif",
+            "https://64.media.tumblr.com/d91520800e483b9a94309226716c4196/tumblr_puqjqzvJtn1wmcyxto1_250.gif",
+            "https://64.media.tumblr.com/3c59f4da9bb50651773183bbf6091625/tumblr_p5aovyIXzJ1we7cjco2_400.gif",
+            "https://64.media.tumblr.com/4a75da4b3b04755aff008392bca3e3f2/b594d9dbbb1f231d-ca/s250x400/282da0f1dfafc241b388105c19dde4c417a9fac7.gif",
+            "https://64.media.tumblr.com/2baa554ec19d3bb4e72e995c42b2c1b3/b594d9dbbb1f231d-9d/s250x400/3c94649f0ba61242ac7ca902ad019781f5fb8f58.gif",
+            "https://64.media.tumblr.com/1cb3f9121bbd731e265b1fa389d365f3/tumblr_pf9dkx1qJX1two6hzo2_400.gif",
+            "https://64.media.tumblr.com/1edc5a9930578e88d1e74855054747cb/tumblr_pexvf9oVHg1x8i9gko4_250.gif",
+            "https://64.media.tumblr.com/3ce5467634fb7f2d89734864013f29b5/tumblr_pdi751iWAq1we7cjco1_250.gif",
+            "https://64.media.tumblr.com/46c57b191f3021e9804d6bf98a076fd9/tumblr_poqfnbLV0b1x8i9gko3_400.gif",
+            "https://64.media.tumblr.com/e799940e95377e7810ce6ea43de205e0/tumblr_peydepk5lR1x1yp8ko3_250.gif",
+            "https://64.media.tumblr.com/71651211f3e80ae3711ac093a2e62e25/tumblr_p69kwkKsEg1t7qu3mo2_250.gif",
+            "https://64.media.tumblr.com/58b241f49f51d6638cf023633a9acc4b/tumblr_p7q23mFP9M1we7cjco4_250.gif"]
 
         self.bot.sf9_inseong_gif = ["https://cdn.discordapp.com/attachments/805178651799977994/805181416026406962/image0.gif",
             "https://cdn.discordapp.com/attachments/805178651799977994/805181416702738492/image1.gif",
@@ -638,7 +767,19 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805178992180199434/805182558526242856/image1.gif",
             "https://cdn.discordapp.com/attachments/805178992180199434/805182559012388864/image2.gif",
             "https://cdn.discordapp.com/attachments/805178992180199434/805182662767280209/image0.gif",
-            "https://cdn.discordapp.com/attachments/805178992180199434/805182663136116796/image1.gif"]
+            "https://cdn.discordapp.com/attachments/805178992180199434/805182663136116796/image1.gif",
+            "https://64.media.tumblr.com/1efe1be20dc3c9fbce84335e243f158c/21343b79ffc2efb5-cc/s400x600/b3ea32987e1366178058520544353860745be1f9.gif",
+            "https://64.media.tumblr.com/dbde0cc7466ac1287760ddb4c010044d/c7779f120387f22e-c9/s250x400/3bb31f9fa081afe913a3dfe911ca3e465cfc71cb.gif",
+            "https://64.media.tumblr.com/82ac1ce3a46b8eaffabde13eec7c1681/tumblr_pu358x4wyZ1y7lqmco1_250.gif",
+            "https://64.media.tumblr.com/2dad052fcc53f002d62c8b33ff61e037/1bfcf2b4b41bcf38-a0/s400x600/54b4e7004b602df53f94b046fb6e83affe7c62ea.gif",
+            "https://64.media.tumblr.com/843851d29558beb6cd5f5bba058cd611/tumblr_pd8l0b1oVG1x1yp8ko3_250.gif",
+            "https://64.media.tumblr.com/87963ad482d35228034425fd23b97ed7/tumblr_pd8l0b1oVG1x1yp8ko1_250.gif",
+            "https://64.media.tumblr.com/c1dbe277316b69b434193afa18a29ebb/tumblr_pz9mvw8CmF1w7yd36o2_400.gif",
+            "https://64.media.tumblr.com/6a1a981706f33d0c0000751eb310b5e0/tumblr_py3stqZ7bd1y7lqmco2_250.gif",
+            "https://64.media.tumblr.com/9315aaa8f16ce51a257c824037705851/3586c58cc04a19d1-a5/s400x600/135af7c85588ce67ee60e4862eb68ad718f67e98.gif",
+            "https://64.media.tumblr.com/fcb1de7b9de44edfea3d1ef1a48cc315/3586c58cc04a19d1-06/s400x600/f765fd03dbfebfb24966b3dfb13a49d65e694e2f.gif",
+            "https://64.media.tumblr.com/ee821898a3367b823bca1ed40f2190c8/tumblr_poa1qrZWac1va7u78o3_r1_400.gif",
+            "https://cdn.discordapp.com/attachments/805178992180199434/813197485077692456/image0.gif"]
 
         self.bot.sf9_taeyang_gif = ["https://cdn.discordapp.com/attachments/805179023558049852/805183900115533834/image0.gif",
             "https://cdn.discordapp.com/attachments/805179023558049852/805183900594208781/image1.gif",
@@ -685,6 +826,112 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805179084044632115/805185677905100860/image1.gif",
             "https://cdn.discordapp.com/attachments/805179084044632115/805185678777384990/image2.gif",
             "https://cdn.discordapp.com/attachments/805179084044632115/805185691482849370/image0.gif"]
+    
+        self.bot.sf9_ot9_gif = ["https://tenor.com/view/sf9-sensation-feeling9-kpop-handsome-cute-gif-16808646",
+            "https://gfycat.com/ornatewellwornballoonfish",
+            "https://giphy.com/gifs/kpop-k-pop-k-pop-l1KsDYA3KfqJpdE7C",
+            "https://giphy.com/gifs/3ohuAo3wxzDaUkQoco",
+            "https://giphy.com/gifs/kpop-k-pop-k-pop-l1KsRfB5WOIG72IxO",
+            "https://cdn.discordapp.com/attachments/813193512744517683/813196760180064256/image0.gif",
+            "https://cdn.discordapp.com/attachments/813193512744517683/813196916661288960/image0.gif",
+            "https://cdn.discordapp.com/attachments/813193512744517683/813197275723333662/image0.gif"]
+    #. Shinee
+        self.bot.shinee_jonghyun_gif = ["https://tenor.com/view/kim-jonghyun-jonghyun-shinee-kpop-cute-gif-15967764",
+            "https://tenor.com/view/jonghyun-kim-shinee-fighting-gif-17986917",
+            "https://tenor.com/view/jonghyun-kpop-shinee-heart-love-gif-9591694",
+            "https://tenor.com/view/shinee-kpop-jonghyun-heart-signs-gif-11162355",
+            "https://tenor.com/view/jonghyun-kim-jonghyun-shinee-kpop-handsome-gif-17083298",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258912",
+            "https://tenor.com/view/shinee-jonghyun-smile-gif-7740406",
+            "https://tenor.com/view/shinee-jonghyun-wave-hello-hey-gif-7837893",
+            "https://tenor.com/view/shinee-jonghyun-kpop-topless-hot-gif-17584569",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-smiles-gif-14292890",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258937",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258902",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258901",
+            "https://tenor.com/view/shinee-jonghyun-kpop-wink-winking-gif-11162160",
+            "https://tenor.com/view/shinee-jonghyun-jonghyun-clapping-jonghyun-cute-faeteez-gif-19943769",
+            "https://tenor.com/view/hug-big-for-you-jonghyun-gif-13110586",
+            "https://tenor.com/view/shinee-jonghyun-pout-cute-nod-gif-7748510",
+            "https://tenor.com/view/love-jonghyun-kim-jonghyun-precious-cute-gif-14965254",
+            "https://tenor.com/view/shinee-jonghyun-jonghyun-cute-faeteez-gif-19943770",
+            "https://tenor.com/view/sweet-dreams-gif-14381727",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-singing-gif-14221565",
+            "https://tenor.com/view/shinee-jonghyun-contented-gif-7213693",
+            "https://tenor.com/view/jonghyun-smiling-kim-jonghyun-gif-14965255",
+            "https://tenor.com/view/jonghyun-shinee-kpop-cute-eyesmile-gif-5587614",
+            "https://tenor.com/view/shinee-dino-smile-selfie-cute-gif-14476967",
+            "https://tenor.com/view/jonghyun-gif-19626260",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258920",
+            "https://tenor.com/view/gleektate-irene-jonghyun-laughing-gif-20229602",
+            "https://tenor.com/view/jonghyun-reaction-screaming-gif-10344112",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258947",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-hello-gif-14221545",
+            "https://tenor.com/view/jonghyun-jonghyun-shinee-jonghyun-kpop-jonghyun-shinee-kpop-crazy-guilty-pleasure-gif-15364593",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-view-lookup-gif-14221552",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-laugh-gif-14221544",
+            "https://tenor.com/view/jonghyun-jonghyun-shinee-jonghyun-kpop-jonghyun-shinee-kpop-crazy-guilty-pleasure-gif-15364600",
+            "https://tenor.com/view/shinee-jonghyun-smile-gif-7748521",
+            "https://tenor.com/view/127baek-jonghyun-shinee-oprah-gif-19889869",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258930",
+            "https://tenor.com/view/jonghyun-kpop-korean-hallyu-korean-music-gif-10935037",
+            "https://tenor.com/view/jonghyun-kpop-korean-hallyu-korean-music-gif-10935037",
+            "https://tenor.com/view/jong-hyun-shinee-k-pop-gif-11581439",
+            "https://tenor.com/view/jonghyun-shinee-jonghyun-sexy-jonghyun-oppa-gif-11373129",
+            "https://tenor.com/view/handsome-beautiful-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860254",
+            "https://tenor.com/view/bleh-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860249",
+            "https://tenor.com/view/jjong-jonghyun-shinee-shinee-jonghyun-kim-jonghyun-gif-19598522",
+            "https://tenor.com/view/swag-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860248",
+            "https://tenor.com/view/smile-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860247",
+            "https://tenor.com/view/jonghyun-shinee-jonghyun-kim-jonghyun-smile-gif-14860252",
+            "https://tenor.com/view/jonghyun-shinee-dance-pelvic-thrust-perform-gif-4964054",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-smile-gif-14221546",
+            "https://tenor.com/view/onew-shinee-jonghyun-gif-10717312",
+            "https://tenor.com/view/ripjonghyun-kpop-korean-gif-10547066",
+            "https://tenor.com/view/jonghyun-dancing-127baek-shinee-jonghyun-jonghyun-gif-20032175",
+            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724",
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+
+        self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
+            "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
+            "https://tenor.com/view/shinee-kpop-key-kibum-cute-gif-11162138",
+            "https://tenor.com/view/shinee-key-kibum-kpop-handsome-cute-gif-17047485",
+            "https://tenor.com/view/key-onew-kibum-kfc-mcdonalds-gif-10144594",
+            "https://tenor.com/view/shinee-key-kibum-laugh-kpop-gif-8836694",
+            "https://tenor.com/view/key-shinee-kim-ki-bum-ki-bum-shawol-gif-19757690",
+            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300"]
+
+        #^ taemin is a soloist rn, under taemin_gif
+
+        self.bot.shinee_onew_gif = ["https://tenor.com/view/onew-shinee-jonghyun-gif-10717312",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306142754144317/Tumblr_l_692393651383630.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306143340822538/Tumblr_l_692392334254673.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306144050315285/Tumblr_l_692389950153528.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif"]
+
+        self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
+            "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
+            "https://tenor.com/view/minho-choi-shinee-shineeworld-gif-13334159",
+            "https://tenor.com/view/shinee-minho-cute-smile-pose-gif-12562760",
+            "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+
+        self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
+            "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
+            "https://tenor.com/view/shinee-onew-jong-hyun-shinee-key-shinee-minho-gif-14108384",
+            "https://tenor.com/view/shinee-sing-cute-kpop-boy-group-gif-17047772",
+            "https://tenor.com/view/shinee-dxdxd-pose-kpop-cute-gif-17301140",
+            "https://tenor.com/view/gaze-look-shinee-kpop-korean-gif-3519620",
+            "https://tenor.com/view/shinee-onew-key-minho-taemin-gif-17506668",
+            "https://tenor.com/view/jonghyun-shinee-shineeminho-taemin-onew-gif-14411220",
+            "https://tenor.com/view/shinee-onew-jonghyun-taemin-shinee-key-gif-14131901",
+            "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17345444",
+            "https://tenor.com/view/shinee-gif-18448144",
+            "https://tenor.com/view/shinew-onew-jong-hyun-shinee-key-shinee-minho-gif-14108379",
+            "https://tenor.com/view/kpop-korean-shinee-group-concert-gif-3521477",
+            "https://tenor.com/view/shinee-laugh-kpop-group-pic-gif-12082547",
+            "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17083221",
+            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
@@ -743,67 +990,134 @@ class BGS(commands.Cog):
 
     #.gif end
 
-    @commands.command(aliases = ['p1h'])
-    async def p1harmony(self, ctx, arg):
+    @commands.command()
+    async def astro(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if arg == "intak":
+        await channel.send(f"`{current_time} | USED COMMAND [Astro {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "eunwoo":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
                 await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunwoo :heart:')
+                await ctx.send(random.choice(self.bot.astro_eunwoo_gif))
                 await ctx.message.delete()
-        elif arg == "jiung":
+        elif arg == "mj":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
                 await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
-                await ctx.message.delete()
-        elif arg == "jongseob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
-                await ctx.message.delete()
-        elif arg == "keeho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
-                await ctx.message.delete()
-        elif arg == "soul":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
-                await ctx.message.delete()
-        elif arg == "theo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
+                await ctx.send(f'<@!{ctx.author.id}> is talking about MJ :heart:')
+                await ctx.send(random.choice(self.bot.astro_mj_gif))
                 await ctx.message.delete()
 
     @commands.command()
-    async def the(self, ctx, boyz="boyz", *, arg):
+    async def exo(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [The Boyz {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [EXO {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "kai":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Kai :heart:')
+                await ctx.send(random.choice(self.bot.exo_kai_gif))
+                await ctx.message.delete()
+        elif arg == "do" or arg == "d.o.":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about D.O. :heart:')
+                await ctx.send(random.choice(self.bot.exo_do_gif))
+                await ctx.message.delete()
+        elif arg == "baekhyun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Baekhyun :heart:')
+                await ctx.send(random.choice(self.bot.exo_baekhyun_gif))
+                await ctx.message.delete()
+        elif arg == "chaenyeol":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chaenyeol :heart:')
+                await ctx.send(random.choice(self.bot.exo_chaenyeol_gif))
+                await ctx.message.delete()
+        elif arg == "sehun":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sehun :heart:')
+                await ctx.send(random.choice(self.bot.exo_sehun_gif))
+                await ctx.message.delete()
+        elif arg == "chen":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chen :heart:')
+                await ctx.send(random.choice(self.bot.exo_chen_gif))
+                await ctx.message.delete()
+        elif arg == "suho":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Suho :heart:')
+                await ctx.send(random.choice(self.bot.exo_suho_gif))
+                await ctx.message.delete()
+        elif arg == "lay":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Lay :heart:')
+                await ctx.send(random.choice(self.bot.exo_lay_gif))
+                await ctx.message.delete()
+        elif arg == "xiumin":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Xiumin :heart:')
+                await ctx.send(random.choice(self.bot.exo_xiumin_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def golden(self, ctx, child, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Golden Child {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if child == "child":
+                if arg == "joochan":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_joochan_gif))
+                    await ctx.message.delete()
+                elif arg == "y":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_y_gif))
+                    await ctx.message.delete()
+
+    @commands.command()
+    async def the(self, ctx, boyz="boyz", *, arg = "group"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [The Boyz {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "kevin":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -892,13 +1206,111 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Eric :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_eric_gif))
                 await ctx.message.delete()
-
+        elif arg == "group":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about The Boyz :heart:')
+                await ctx.send(random.choice(self.bot.theboyz_group_gif))
+                await ctx.message.delete()
+    
     @commands.command()
-    async def sf9(self, ctx, *, arg):
+    async def p1harmony(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [SF9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "intak":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
+                await ctx.message.delete()
+        elif arg == "jiung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
+                await ctx.message.delete()
+        elif arg == "jongseob":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
+                await ctx.message.delete()
+        elif arg == "keeho":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
+                await ctx.message.delete()
+        elif arg == "soul":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
+                await ctx.message.delete()
+        elif arg == "theo":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def shinee(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Shinee {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jonghyun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jonghyun :heart::angel:')
+                await ctx.send(random.choice(self.bot.shinee_jonghyun_gif))
+                await ctx.message.delete()
+            elif arg == "key":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Key :heart:')
+                await ctx.send(random.choice(self.bot.shinee_key_gif))
+                await ctx.message.delete()
+            elif arg == "taemin":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :heart:')
+                await ctx.send(random.choice(self.bot.taemin_gif))
+                await ctx.message.delete()
+            elif arg == "onew":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Onew :heart:')
+                await ctx.send(random.choice(self.bot.shinee_onew_gif))
+                await ctx.message.delete()
+            elif arg == "minho":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Minho :heart:')
+                await ctx.send(random.choice(self.bot.shinee_minho_gif))
+                await ctx.message.delete()
+            elif arg == "group":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Shinee :heart:')
+                await ctx.send(random.choice(self.bot.shinee_group_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def sf9(self, ctx, *, arg = "ot9"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [SF9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "chani":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -971,13 +1383,21 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Zuho :heart:')
                 await ctx.send(random.choice(self.bot.sf9_zuho_gif))
                 await ctx.message.delete()
+        elif arg == "ot9":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about SF9 :heart:')
+                await ctx.send(random.choice(self.bot.sf9_ot9_gif))
+                await ctx.message.delete()
 
     @commands.command()
     async def vav(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [VAV {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [VAV {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "ace":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -1035,28 +1455,6 @@ class BGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.vav_ziu_gif))
                 await ctx.message.delete()
 
-    @commands.command()
-    async def astro(self, ctx, arg):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(self.bot.logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Astro {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if arg == "eunwoo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunwoo :heart:')
-                await ctx.send(random.choice(self.bot.astro_eunwoo_gif))
-                await ctx.message.delete()
-        elif arg == "mj":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about MJ :heart:')
-                await ctx.send(random.choice(self.bot.astro_mj_gif))
-                await ctx.message.delete()
 
 def setup(client):
     client.add_cog(BGS(client))

@@ -36,7 +36,12 @@ class everglow(commands.Cog):
             "https://thumbs.gfycat.com/BronzeElaborateHorsemouse-size_restricted.gif",
             "https://64.media.tumblr.com/066025fff278af4c2cb175e7fcea4890/tumblr_pq5bgmFBWH1xu6x27o6_250.gif",
             "https://thumbs.gfycat.com/BountifulDismalGeese-size_restricted.gif",
-            "https://i.pinimg.com/originals/c9/4e/ef/c94eef99cd50feb39e19cc30d280b06a.gif"]
+            "https://i.pinimg.com/originals/c9/4e/ef/c94eef99cd50feb39e19cc30d280b06a.gif",
+            "https://thumbs.gfycat.com/DependentSandyLeonberger-max-1mb.gif",
+            "https://i.pinimg.com/originals/20/81/32/2081324856c9f9b9370ebb60436d8dc5.gif",
+            "https://i.pinimg.com/originals/df/ba/3e/dfba3ebc22dc694c1626deb401039764.gif",
+            "https://64.media.tumblr.com/9d6a7be34f7ef0ffd193b12d4fe28d3a/eeb3ab3561741b16-9e/s250x400/f26297555b2b8ac9b2a034f2136392bb963642e2.gif",
+            "https://data.whicdn.com/images/337224119/original.gif"]
 
         self.bot.mia_gif = ["https://tenor.com/view/everglow-mia-blow-kiss-kpop-cute-gif-15818623",
             "https://tenor.com/view/everglowmia-salute-gif-18117807",
@@ -291,7 +296,14 @@ class everglow(commands.Cog):
             "https://thumbs.gfycat.com/FreePlaintiveIndiancow-size_restricted.gif",
             "https://cdn140.picsart.com/327499246039201.gif",
             "https://i.pinimg.com/originals/3d/d0/b7/3dd0b7848292e40ada873b869cb16495.gif",
-            "https://data.whicdn.com/images/327890348/original.gif"]
+            "https://data.whicdn.com/images/327890348/original.gif",
+            "https://64.media.tumblr.com/b04a7fc605cfe8cb8d31a99f56f7d697/f4c2e248116a57ab-82/s400x600/cdad73f5423eaee7ee903207d88e2f1eb8fe0aa6.gif",
+            "https://64.media.tumblr.com/e6395df13d513c7aae3b19482f3382a6/f4c2e248116a57ab-08/s400x600/a0a548320faf912b1d97871bc6ddcf1a19a4a32f.gif",
+            "https://64.media.tumblr.com/6841bc83d57e3c259754384d8e3250dd/a4b05cf54d02d19a-87/s400x600/194bc09bbaaa093eb23750807b17807dd759c71e.gif",
+            "https://64.media.tumblr.com/b9042d612bd65d8ab81417b1016f6bab/a4b05cf54d02d19a-58/s400x600/ea2a895d9fe582e189ba8182c07b0425326e8ad8.gif",
+            "https://64.media.tumblr.com/0b477b810e29204e0d7e71ccb9ebde29/a7ca3b60e8fd76c5-da/s400x600/51ea3cf301f36d7b07eaa3e67f3c7edf724d2bf9.gif",
+            "https://media1.tenor.com/images/6c5afc8dbabe28f2eddf2b0d7e358646/tenor.gif?itemid=16259156",
+            "https://media1.tenor.com/images/3117066bc006d142b6f3b6c0cad5c48d/tenor.gif?itemid=16481573"]
 
         self.bot.sihyeon_gif = ["https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16281910",
             "https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16481660",

@@ -86,7 +86,11 @@ class CherryBullet(commands.Cog):
             "https://cdn.discordapp.com/attachments/805984245511749652/805987968955318313/image3.gif",
             "https://cdn.discordapp.com/attachments/805984245511749652/805988113264148490/image0.gif",
             "https://cdn.discordapp.com/attachments/805984245511749652/805988127477858353/image0.gif",
-            "https://cdn.discordapp.com/attachments/805984245511749652/805988135292764160/image0.gif"]
+            "https://cdn.discordapp.com/attachments/805984245511749652/805988135292764160/image0.gif",
+            "https://64.media.tumblr.com/2cd7b4899d83f13527d1cb0e3f9a2f87/tumblr_pm15e3yO6M1x15lmpo1_400.gif",
+            "https://64.media.tumblr.com/1d11acb01006ed23c21caba6cd26aa79/tumblr_pm15e3yO6M1x15lmpo2_400.gif",
+            "https://64.media.tumblr.com/5418f0e6230a16fb3a86b4ce490a0875/tumblr_pm15e3yO6M1x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/902ded09cb78a0aeafb20f40a9df32ff/tumblr_pm15e3yO6M1x15lmpo5_400.gif"]
 
         self.bot.cherrybullet_jiwon_gif = ["https://tenor.com/view/jiwon-cherrybullet-gif-19267608",
             "https://tenor.com/view/jiwon-cherrybullet-gif-19267631",
@@ -198,7 +202,11 @@ class CherryBullet(commands.Cog):
             "https://gfycat.com/vastnewfowl",
             "https://gfycat.com/dizzywhoppinghammerkop",
             "https://gfycat.com/bonythirstyafricanrockpython",
-            "https://gfycat.com/bleakanyfowl"]
+            "https://gfycat.com/bleakanyfowl",
+            "https://64.media.tumblr.com/e2be09d36751bb79ffae02cd543771ff/ce24503b95d8581b-29/s400x600/8e3b3de5b83db02b3c7abc2f7ec72e8d62538328.gif",
+            "https://64.media.tumblr.com/145e9337b9f6bf8ac99bd32b5f586f18/ce24503b95d8581b-1f/s400x600/3e07693590291a5d65d58900da11cac7ad1cacff.gif",
+            "https://64.media.tumblr.com/8d6ff2948cca8d3a0846e326ec0ba983/ce24503b95d8581b-20/s400x600/65eb1136c678de3c9304a118f78954db083959fc.gif",
+            "https://64.media.tumblr.com/11e62111137ea34ddcac564863f91273/ce24503b95d8581b-90/s400x600/e77d3c895f9fdab3c2747e394cd35518b3ccfcef.gif"]
 
         self.bot.cherrybullet_yuju_gif = ["https://tenor.com/view/yuju-cherry-bullet-kpop-huh-suprised-gif-17717737",
             "https://tenor.com/view/yuju-cherry-bullet-kpop-huh-suprised-gif-17717737",
@@ -308,9 +316,6 @@ class CherryBullet(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Yuju :heart:')
                     await ctx.send(random.choice(self.bot.cherrybullet_yuju_gif))
                     await ctx.message.delete()
-            
-            
-
 
 def setup(client):
     client.add_cog(CherryBullet(client))

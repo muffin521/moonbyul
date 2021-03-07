@@ -39,7 +39,10 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-bye-nt-natty-gif-19176192",
             "https://tenor.com/view/nt-natty-natty-teddybear-natty_gif-heart-gif-19176286",
             "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-dance-nt-natty-gif-19280113",
-            "https://tenor.com/view/nt-natty-natty-teddybear-natty_gif-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-gif-19176185"]
+            "https://tenor.com/view/nt-natty-natty-teddybear-natty_gif-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-gif-19176185",
+            "https://tenor.com/view/nt-natty-wink-natty-teddybear-natty_gif-gif-19176296",
+            "https://tenor.com/view/%EB%82%98%EB%9D%A0-%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-nt-natty-natty-teddybear-gif-19176182",
+            "https://tenor.com/view/%E0%B8%99%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89-%EB%82%98%EB%9D%A0-nt-natty-natty-teddybear-gif-19176295"]
 
         self.bot.alexa_gif = ["https://tenor.com/view/no-ahhhh-emotions-ai-trooper-alexa-gif-18362239",
             "https://tenor.com/view/alexa-alexa-kpop-wink-cute-wink-alex-christine-gif-18426203",
@@ -268,7 +271,9 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/faeteez-taemin-taemin-cute-taemin-hot-shinee-gif-19943749",
             "https://cdn.discordapp.com/attachments/811453123267657739/812084794740572200/5c1110a3-d35d-4970-8f70-d1c2397bad7c.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/812085464135761920/6eb3220e-aa85-415b-b31b-c3e80ab42088.gif",
-            "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif"]
+            "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif",
+            "https://tenor.com/view/hug-big-for-you-jonghyun-gif-13110586",
+            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724"]
 
         self.bot.woodz_gif = ["https://tenor.com/view/cho-seungyoun-seungyoun-jo-seung-yeon-seung-yeon-%EC%8A%B9%EC%97%B0-gif-14259988",
             "https://tenor.com/view/woodz-uniq-choseungyoun-gif-20298646",
@@ -464,7 +469,79 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/6006fc102d0a577e110435b293dd6e16/tumblr_oy0yj6bRvZ1r7qnpao3_400.gif",
             "https://pa1.narvii.com/5744/62ad0a5f193311ebb6a841fdacae47aef07a3dae_hq.gif",
             "https://gifimage.net/wp-content/uploads/2017/10/hyuna-gif-11.gif",
-            "https://67.media.tumblr.com/8f1ddb4561bb2978018a24cbb2698b52/tumblr_n9fbf9ooBD1tf6m14o1_500.gif"]
+            "https://67.media.tumblr.com/8f1ddb4561bb2978018a24cbb2698b52/tumblr_n9fbf9ooBD1tf6m14o1_500.gif",
+            "https://64.media.tumblr.com/e836abd0355235060122f72172f090d6/08276495afa80047-be/s540x810/e53cf49edc9dc3efb14ddebbec66d253dd08a86b.gif",
+            "https://64.media.tumblr.com/d4fca770bdd36f64c7590d6c9b0fe072/08276495afa80047-9a/s540x810/1c523dab114ee68d659b4299b4f99c3b56828437.gif",
+            "https://64.media.tumblr.com/9febc49bab550b5028dddbdb30424380/26663c1041777db4-8f/s540x810/f925a30ef6b0d00ad09babcd0ae762140d719bd8.gif",
+            "https://64.media.tumblr.com/e21ce025a6f6bc589abb81b9cb5e9d3d/26663c1041777db4-5b/s540x810/d41a7d0c57cf086158d5fe6686756926877d57ee.gif",
+            "https://64.media.tumblr.com/36ae348900c3619aee82fafcef083031/e594d7e906c544b3-f2/s540x810/3fbdc76c0abca6258f5d7773e55f2889a00472de.gif",
+            "https://64.media.tumblr.com/72ebf4168757db6aa672e52d00b79261/1a3cc3a9a1f6c780-1b/s540x810/7122fa841ef33887f9a4d6b480960da03e87ac76.gif",
+            "https://64.media.tumblr.com/5d01e4447e247a53cc7d9752ed20698c/914952c0dcacdc5c-ce/s400x600/a508f6f846f01d80a49ecb4794b129ab18f2b27f.gif",
+            "https://64.media.tumblr.com/1a8eeb197bf1c467de6762b21fcdac3d/e160b9226f0547d2-37/s540x810/928ab1dd0be8c98845cb7238100cf1b30e42861d.gif",
+            "https://64.media.tumblr.com/404b43eef586e6ac10ca81151461c7b7/02dd6157928776bb-9e/s400x600/bdaedaa1ff7b5613c94e62f9188e1c6e78083db4.gif",
+            "https://64.media.tumblr.com/930ec1f773c35af161f3f3ed54a77abc/c0a06dfaf48d12c1-0e/s400x600/bef69586c43dd5ceead5ab2ba3609f12654870bb.gif",
+            "https://64.media.tumblr.com/56bae0d6d9cf4df0d74415d0e992f0f2/c0a06dfaf48d12c1-be/s400x600/a7b99b16ed9e7588af269dc3900a948e69582ac1.gif",
+            "https://64.media.tumblr.com/afc1f4ca2487ddfba95607d5904e42c7/c0a06dfaf48d12c1-08/s400x600/7a8a5b7b9d9c9aca9ac1ef8645c1abc681ea729f.gif",
+            "https://64.media.tumblr.com/de9de3d0cec2e2c3c673bd734cc3f64d/c0a06dfaf48d12c1-9c/s400x600/1008bac1aab53efbf005c9e073eb5442318ef18b.gif",
+            "https://64.media.tumblr.com/10b89178fa90fb6fed5a9cd052c75f05/6610ad9bd320d8c4-59/s540x810/bdf2a871a88a02b0e933b6cec9bb0256c27fdb1d.gif",
+            "https://64.media.tumblr.com/8bb07a1989d1473c3c361850db0dce3c/6610ad9bd320d8c4-5e/s540x810/1e18b1e5225c449e1c6e4cc5bdd1afd62468ab0e.gif",
+            "https://64.media.tumblr.com/028cca5de183e0a0e8273bd082017fd4/6610ad9bd320d8c4-0c/s540x810/0789ca4bc9c1f2529d2c3293072869ed1bc4be17.gif",
+            "https://64.media.tumblr.com/8f0dfed017387c170e20228eba7015f1/58e45ff6d37fb9e8-57/s540x810/862d5d4da4f12b43d27da95b5f0f021331c3f4f5.gif",
+            "https://64.media.tumblr.com/d18139ac3fa018769d7323ad235a87de/9d91507a0a73417c-02/s400x600/1407f2517a3d944dc7d129f81a9c36d6c581a2f4.gif",
+            "https://64.media.tumblr.com/e7868c7f17bf647e3e801e265717701b/c783e07b4a9a2f4c-07/s540x810/fd2838ca224e1a2416f0b7a632f687a25308f8bb.gif",
+            "https://64.media.tumblr.com/82bdc84f41f36c594102871b243d0236/c783e07b4a9a2f4c-a0/s540x810/8412ed29c3ea72cb8070b0159ef8a03786908e56.gif",
+            "https://64.media.tumblr.com/8406c3f1768a6faac1c6954e921cf18c/c783e07b4a9a2f4c-36/s540x810/3d3e92156b1cdd1bf1c81525fd129e6657eb787d.gif",
+            "https://64.media.tumblr.com/5ec003e2d80668d19cc83e797f583b7c/471ded0fdfbbb88f-89/s540x810/e2a10d4d2eff8bee310c1cf095a26e981f6fd13b.gif",
+            "https://64.media.tumblr.com/0453d2a7a04965200d5f4ca75bddb9ba/471ded0fdfbbb88f-35/s540x810/fa868508fa1b5f2e2b35f35b037f2627e8a73567.gif",
+            "https://64.media.tumblr.com/4adae640b0a3f8f34e4404f724a4a5ae/bf505a7169d86a31-39/s400x600/d41a93d052e31138ad9633be8c356c929d8e401b.gif",
+            "https://64.media.tumblr.com/ae1421ecf2b52a263a0c1f54cd764083/bf505a7169d86a31-d1/s400x600/a62188c608d2c4b5030a2f2d103c6089888befaa.gif",
+            "https://64.media.tumblr.com/926b25a1335fd4a69d9dafd52491ed6a/3dfcbe16e22b7ea0-66/s400x600/448fe2a885bb9d49d1acb32edfb0b20f4f405729.gif",
+            "https://64.media.tumblr.com/0961329165a8226342e9257c43f66487/bf505a7169d86a31-ba/s400x600/82adb7a3e899195666cbf5d4e17675371d65cdd9.gif",
+            "https://64.media.tumblr.com/05b791a75b0be45d6406b86bb52c4de8/4417d615d52bc49a-44/s400x600/179553aa94554834e1db0771e5e643c96c267f09.gif",
+            "https://64.media.tumblr.com/b27430d05c10e2326ec64006ed93a7e2/6bf05373b8ea88fe-a4/s400x600/c745d70a92a57dbe920791960aa3333c1bf25461.gif",
+            "https://64.media.tumblr.com/cdec832fda8bdbb438805cec91bf5cde/de720c64d877c65f-72/s400x600/4d83a6639e4d5805fcf04c0d083ed4880dd83bd2.gif",
+            "https://64.media.tumblr.com/787a8027f119242c5e915b9d0ccb1aba/de720c64d877c65f-a3/s400x600/5958deb7bd9f0acdd1859307d370c4ac1d60a7b9.gif",
+            "https://64.media.tumblr.com/12f1c42fb98bdba447a04206fa28632c/tumblr_p3v0v4l3JZ1r7qnpao4_400.gif"]
+
+        self.bot.boa_gif = ["https://cdn.discordapp.com/attachments/813116899822665808/813118089570811904/Tumblr_l_420116355437913.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118089918152745/Tumblr_l_420117988260047.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118090253566023/Tumblr_l_420125337303118.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118092116885574/Tumblr_l_420122076119838.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118493699604520/Tumblr_l_420216199901573.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118494538334223/Tumblr_l_420212653551105.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118495746949150/Tumblr_l_420209104378554.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118496182763540/Tumblr_l_420206990517826.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118856288665641/Tumblr_l_420277069443789.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118856880586792/Tumblr_l_420278151235247.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118873184239626/Tumblr_l_420286365829827.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813118874622230569/Tumblr_l_420289408967690.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119023494856714/Tumblr_l_420349276899647.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119024091234304/Tumblr_l_420346529622929.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119024786440262/Tumblr_l_420344129463451.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119049570451496/Tumblr_l_420329229533509.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119129842090004/Tumblr_l_420369074636618.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119240571322398/Tumblr_l_420386390240362.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119549930995772/Tumblr_l_420455539961690.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119550773002250/Tumblr_l_420451611661639.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119573380956180/Tumblr_l_420417323903319.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119573984411649/Tumblr_l_420416088638632.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119698228609104/Tumblr_l_420505971332712.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813119698791170088/Tumblr_l_420508241829222.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120035555246120/Tumblr_l_420588109321379.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120036121739326/Tumblr_l_420586021987213.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120036670668820/Tumblr_l_420583558405130.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120037158256670/Tumblr_l_420581844671641.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120181681127464/Tumblr_l_420624675734333.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120182251683844/Tumblr_l_420622339580741.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120182918709258/Tumblr_l_420620569739908.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120250731561000/Tumblr_l_420641163717452.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120383070109736/Tumblr_l_420668274104733.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120384102301757/Tumblr_l_420671929983013.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120384941293599/Tumblr_l_420665368888172.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120504608063538/Tumblr_l_420701262942637.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120505376014336/Tumblr_l_420703912102845.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120593414848553/Tumblr_l_420723207013098.gif",
+            "https://cdn.discordapp.com/attachments/813116899822665808/813120594190008380/Tumblr_l_420724838336170.gif"]
 
     @commands.command()
     async def natty(self, ctx):
@@ -658,7 +735,7 @@ class SoloPings(commands.Cog):
             await ctx.message.delete()
 
     @commands.command()
-    async def kang(self, ctx, arg = "dan"):
+    async def kang(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -722,6 +799,16 @@ class SoloPings(commands.Cog):
         else:
             await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
             await ctx.send(random.choice(self.bot.hyuna_gif))
+            await ctx.message.delete()
+    
+    @commands.command()
+    async def boa(self, ctx):
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            await ctx.send(f'<@!{ctx.author.id}> is talking about BoA :heart:')
+            await ctx.send(random.choice(self.bot.boa_gif))
             await ctx.message.delete()
 
 

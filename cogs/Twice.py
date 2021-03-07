@@ -58,7 +58,15 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/058f2c58a8b5faee4b63b8ee5aa3b20c/a74ec8775c4e199d-c1/s400x600/b6a3f545f11bf6052ad4ef7d3995572ec48e606c.gif",
             "https://64.media.tumblr.com/828531bb96a302009c3bcfb1adfd9cc3/df9785efa4b7ac82-54/s400x600/91b19825d1d091a589d29db0d5c8dccd57859b85.gif",
             "https://64.media.tumblr.com/162a741e154557e2c3c5c5703a8a1689/tumblr_inline_o8xq6duwiN1rifr4k_540.gif",
-            "https://data.whicdn.com/images/324201333/original.gif"]
+            "https://data.whicdn.com/images/324201333/original.gif",
+            "https://i.pinimg.com/originals/36/2e/e2/362ee2aa370ede0a3f5e3655056f56ee.gif",
+            "https://pa1.narvii.com/7178/01f998e57524da905d03263cbbcd0cd776cdc4fbr1-250-336_hq.gif",
+            "https://data.whicdn.com/images/331006159/original.gif",
+            "https://i.pinimg.com/originals/ec/20/46/ec20467877010d16dc3bfc2f344a3b65.gif",
+            "https://data.whicdn.com/images/327246807/original.gif",
+            "https://media1.tenor.com/images/30823719b71aba5a64bca82383d1746b/tenor.gif?itemid=10715893",
+            "https://media1.tenor.com/images/fbb391cf9f5fe67b1022d086577f6fec/tenor.gif?itemid=10715896",
+            "https://i.pinimg.com/originals/8b/fb/22/8bfb228e0bc1a996c9c7a4e47d420c01.gif"]
 
         self.bot.sana_gif = ["https://tenor.com/view/sana-twice-kitty-dance-kpop-gif-17314571",
             "https://media.giphy.com/media/xUySTXXuWvIVDggisg/giphy.gif",
@@ -154,7 +162,17 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/sana-twice-sp4rky-alyhonz-gif-18076439",
             "https://64.media.tumblr.com/83a7b0ec824e3771ef84dded2b7c900b/66a54f2e4df06a8f-86/s540x810/ddcae7a3d6ad819fa63883cb944f71d3022b69a6.gif",
             "https://64.media.tumblr.com/2ca54a2698519c435cecfa28a448c9bc/901c50b77df0bc64-28/s540x810/4eb757fb90cb211988f05dde5c5163008fc8da98.gif",
-            "https://tenor.com/view/twice-sana-minatozaki-sana-vocalist-kpop-gif-17963177"]
+            "https://tenor.com/view/twice-sana-minatozaki-sana-vocalist-kpop-gif-17963177",
+            "https://pa1.narvii.com/6652/c0a9b4ac7dee8693aaf70678c5d80e29de8d618c_hq.gif",
+            "https://64.media.tumblr.com/730a29363f90d4d7dacfc55189765149/tumblr_oz5wckrDOQ1vkvtego7_r1_500.gif",
+            "https://i.pinimg.com/originals/e0/3d/33/e03d339a2aaeff48160dec2e88ef0ac0.gif",
+            "https://64.media.tumblr.com/9411c9fd3166072b172037c355f39d9c/tumblr_oz5wckrDOQ1vkvtego5_r1_500.gif",
+            "https://media1.tenor.com/images/e2c72ab7088c41687ffa8104ab4890b7/tenor.gif?itemid=6042730",
+            "https://64.media.tumblr.com/2e4776b8f315427d9859ddb9a55a6ecb/380f2c7bb0151981-38/s540x810/3721ac0f9a44f32bf2b54980ff41726c90ed4333.gif",
+            "https://64.media.tumblr.com/50e7603dfcc6326067dc15975f16bbbc/380f2c7bb0151981-7a/s540x810/9ff6bed514bf1b96a25f7531d54580331d40d720.gif",
+            "https://64.media.tumblr.com/45e73c0925ce35c4c9dc29e5d9dcdc7d/3731f86e4b1c8f80-cc/s540x810/aaa663cf13344e7d120a8a635ea295d2b7d99c53.gif",
+            "https://64.media.tumblr.com/2fa315b8779e6f1832dc8473b663fb51/3731f86e4b1c8f80-af/s540x810/0b8af488ff324988b8a8003651f1f8510e5a2494.gif",
+            "https://64.media.tumblr.com/41380e1820cdb9bd0e2946b7af940f5a/6c3f775c3ae2307e-f8/s540x810/5c33ecc5067d153c75c6f8a3f088a073c4083fe9.gif"]
 
         self.bot.momo_gif = ["https://tenor.com/UZ2D.gif",
             "https://tenor.com/boSu5.gif",
@@ -251,7 +269,9 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/carefreerelievedamazontreeboa-twice-momo-kpop",
             "https://gfycat.com/chillydownrightgodwit-twice-momo",
             "https://media1.tenor.com/images/e14bb7082bfc4a8002f0408a98ce2c9f/tenor.gif?itemid=15158886",
-            "https://data.whicdn.com/images/341787076/original.gif"]
+            "https://data.whicdn.com/images/341787076/original.gif",
+            "https://64.media.tumblr.com/145265fdaaea45f9eb415f7d0f19452a/ecd3743fde2e62c2-b1/s540x810/37da79977db9226f732e3ce0ed183da83362c87b.gif",
+            "https://64.media.tumblr.com/4814b89327d7ed29522b98b71cc0c2e5/ecd3743fde2e62c2-38/s540x810/3f4fa6fe4c5ba7968c2b17378edad47104a90713.gif"]
 
         self.bot.jeongyeon_gif = ["https://tenor.com/bgvYS.gif",
             "https://tenor.com/bm9Bh.gif",
@@ -395,7 +415,11 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/74cc1804075625dbf6c6aec0f334f861/tumblr_p3s6p7G1Xm1wk8cqeo1_400.gif",
             "https://64.media.tumblr.com/5659b83f05a84a1be4ae488245afcd50/tumblr_p6fgkoHBGl1qmrscao5_250.gif",
             "https://data.whicdn.com/images/282798038/original.gif",
-            "https://64.media.tumblr.com/76d5a66a01be3ac2862ce0e60c679376/b67e7bde41ea540d-5e/s250x400/fd7ea2c72ce82dfa311d1e3ba71d5da69da17d8c.gif"]
+            "https://64.media.tumblr.com/76d5a66a01be3ac2862ce0e60c679376/b67e7bde41ea540d-5e/s250x400/fd7ea2c72ce82dfa311d1e3ba71d5da69da17d8c.gif",
+            "https://i.pinimg.com/originals/1b/5f/50/1b5f502bc2b8e5ae596727ae0abc2cf3.gif",
+            "https://i.pinimg.com/originals/a6/e9/83/a6e9830f8818b3b6021f360aa824748c.gif",
+            "https://i.pinimg.com/originals/66/a9/4e/66a94e76f447fe22b66fac7f4a0a1415.gif",
+            "https://i.pinimg.com/originals/b5/87/6a/b5876a988de296c8d21db05c1800826d.gif"]
 
         self.bot.nayeon_gif = ["https://tenor.com/9b5w.gif",
             "https://tenor.com/YChI.gif",
@@ -439,7 +463,9 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/bd6db4c8e0820c6095eef6fdc8e00345/9040e7e76744f48f-ab/s250x400/84e76cf3e7bde3f9492c6b5d296ee7f2036af666.gif",
             "https://64.media.tumblr.com/b27e772c8d3be0aa4f50150c7b81b459/5eb1cd496a5cee38-f9/s540x810/49c6c5a3db52d721dbe8190b42cb4bb728219a6f.gif",
             "https://gfycat.com/unitedshamefuleyra-nayeon-twice-kpop",
-            "https://gfycat.com/specificfrequenthoatzin-nayeon-twice-kpop-teuwaiseu"]
+            "https://gfycat.com/specificfrequenthoatzin-nayeon-twice-kpop-teuwaiseu",
+            "https://64.media.tumblr.com/b3045118a1640064bba5b7403727b954/8f94b6a48025a8af-3b/s540x810/254844027401162b02a014f13c88554836e8ae4d.gif",
+            "https://pa1.narvii.com/7090/0b4275c35831d130ba531c70317ff8c00e0ead07r1-540-250_hq.gif"]
 
         self.bot.dahyun_gif = ["https://tenor.com/zEfV.gif",
             "https://tenor.com/ZKRA.gif",
@@ -481,7 +507,8 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/85e62cd5fa6a40807b60b3d74811ac0f/f89e1eb4bb20e4dc-1d/s400x600/f7d0ef1f940c98cd20514fbef78610e95969bc11.gif",
             "https://64.media.tumblr.com/d27582691aae857df0c6bbe196e0ff87/f89e1eb4bb20e4dc-32/s400x600/05a5f1f7abf8607a2cf07c6a6455e1d14fca1655.gif",
             "https://64.media.tumblr.com/b89ada7cc845be3d3a25f1ca872d2e9c/a6344a461acc1bc8-1d/s400x600/85e2a224fb6c6b0042f274f420bbff2771364662.gif",
-            "https://i.gifer.com/gUq.gif"]
+            "https://i.gifer.com/gUq.gif",
+            "https://media4.giphy.com/media/MFP60cjxPc8Y02EQiM/giphy.gif"]
 
         self.bot.jihyo_gif = ["https://media.giphy.com/media/Ph6A5WjBAI3981PAsf/giphy.gif",
             "https://tenor.com/bnZ6r.gif",
@@ -562,7 +589,10 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/a50e17ab04a455ce70912c038987e4a3/72c31caf2ecdbff2-34/s250x400/cdd42ad62453c4038dc41dfea4a68e19b06ef7d9.gif",
             "https://i.pinimg.com/originals/11/b1/62/11b162e443b8fb77efef53cf969dd811.gif",
             "https://data.whicdn.com/images/334849460/original.gif",
-            "https://64.media.tumblr.com/be00fede673d97d24e509dad4a0ba5a3/tumblr_p34pdtKt7j1uh7ri8o1_400.gif"]
+            "https://64.media.tumblr.com/be00fede673d97d24e509dad4a0ba5a3/tumblr_p34pdtKt7j1uh7ri8o1_400.gif",
+            "https://i.pinimg.com/originals/54/fc/63/54fc6365eed107b9955ccbed74c55500.gif",
+            "https://i.pinimg.com/originals/d2/04/e8/d204e8aff1e10b36d250438aa3d6f8e9.gif",
+            "https://64.media.tumblr.com/64db471251d963ca2f3d9000dfd99f81/978fdd4aab084484-e3/s400x600/7e31721d914884e7c83db6344bd105a77a6469eb.gif"]
 
         self.bot.chaeyoung_gif = ["https://tenor.com/view/chaeyoung-twice-kpop-jyp-jypnation-gif-14436666",
             "https://media.giphy.com/media/xUySTt5f5AmRUBgdUI/giphy.gif",
@@ -598,7 +628,11 @@ class gamerPings(commands.Cog):
             "https://i.pinimg.com/originals/2f/87/01/2f87010921e685f2df214c58b6fadafe.gif",
             "http://78.media.tumblr.com/e3bff48fbc3136a19336a1887ac9fe87/tumblr_p7aq7de3pO1wksx8oo2_400.gif",
             "https://i.pinimg.com/originals/7b/f8/5b/7bf85b25d7d6042870e86913a2f209f4.gif",
-            "https://64.media.tumblr.com/af27d79c7a20198f2124435bb3ad9331/e2eacf29e1562bb7-7c/s640x960/397ce49650f98a1639b9388c0f32adbfdb532956.gif"]
+            "https://64.media.tumblr.com/af27d79c7a20198f2124435bb3ad9331/e2eacf29e1562bb7-7c/s640x960/397ce49650f98a1639b9388c0f32adbfdb532956.gif",
+            "https://i.pinimg.com/originals/62/3f/30/623f308c98e1688656b9d9e8617060d2.gif",
+            "https://64.media.tumblr.com/a1258de557331495a90b055644bac8d7/97fee2d5054950fc-06/s400x600/ede69efa651562bef175435a35a4dc9d973e5a85.gif",
+            "https://64.media.tumblr.com/20efb2f8d946eca19982af55d5192da6/97fee2d5054950fc-d5/s400x600/2d060e7d0bf498df06eb6dea27c7473747969b02.gif",
+            "https://tenor.com/view/chaeyoung-wink-chaeyoung-cute-twice-chaeyoung-wink-twice-wink-twice-cute-wink-gif-14767428"]
 
     @commands.command()
     async def twice(self, ctx, arg):

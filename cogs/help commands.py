@@ -42,17 +42,17 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text=f"page 2/{totalpages}")
-        embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil```''')
-        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan```''')
-        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\nNCT Shotaro\nNCT Chenle\nNCT Dream```''')        
+        embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil\nNCT Chenle```''')
+        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan\nNCT Shotaro```''')
+        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\n \nNCT 127\nNCT Dream\nWayV```''')        
         
         embed2.add_field(name='Iz*One [1]', value=f'''```\nIz*One Sakura\nIz*One Yuri\nIz*One Chaeyeon\nIz*One Eunbi```''')
         embed2.add_field(name='Iz*One [2]', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
         embed2.add_field(name='Iz*One [3]', value=f'''```\nIz*One Chaewon\nIz*One Yujin\nIz*One Yena\nIz*One Hitomi```''')
         
-        embed2.add_field(name='Twice [1]', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo```''')
-        embed2.add_field(name='Twice [2]', value=f'''```\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon```''')
-        embed2.add_field(name='Twice [3]', value=f'''```\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
+        embed2.add_field(name='Twice [1]', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
+        embed2.add_field(name='SNSD', value=f'''```\nSNSD YoonA\nSNSD Yuri\nSNSD Hyoyeon\nSNSD Sunny\nSNSD Tiffany\nSNSD Sooyoung\nSNSD Seohyun\nSNSD Jessica\nSNSD Taeyeon```''')
+        embed2.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n \n \n ```')
         embed2.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed3
@@ -63,7 +63,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text=f"page 3/{totalpages}")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
         embed3.add_field(name='Blackpink', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```', inline = True)
-        embed3.add_field(name='Misc', value=f'```\nJessica\nKrystal\nKiki\n ```', inline = True)
+        embed3.add_field(name='Misc', value=f'```\nKrystal\nKiki\nS.E.S\n ```', inline = True)
         
         embed3.add_field(name='BTS', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
@@ -84,8 +84,8 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Purple Kiss', value=f'''```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan```''')
         embed4.add_field(name='CLC', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
         
-        embed4.add_field(name='WJSN [1]', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy```')
-        embed4.add_field(name='WJSN [2]', value=f'```\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
+        embed4.add_field(name='WJSN [1]', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum```')
+        embed4.add_field(name='WJSN [2]', value=f'```\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi\n ```')
         embed4.add_field(name='(G)I-dle', value=f'''```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi```''')
         
         embed4.add_field(name='P1Harmony', value=f'```\nP1Harmony Intak\nP1Harmony Jiung\nP1Harmony Jongseob\nP1Harmony Keeho\nP1Harmony Soul\nP1Harmony Theo```')
@@ -107,9 +107,9 @@ class hcommands(commands.Cog):
         embed5.add_field(name='Cherry Bullet', value=f'''```\nCherry Bullet Linlin\nCherry Bullet May\nCherry Bullet Mirae\nCherry Bullet Remi\nCherry Bullet Yuju```''')
         embed5.add_field(name='EXID', value=f'''```\nEXID Hani\nEXID Jeonghwa\nEXID LE\nEXID Solji\nEXID Hyelin```''')
 
-        embed5.add_field(name='SF9', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon```')
-        embed5.add_field(name='SF9', value=f'```\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho\n ```')
-        embed5.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\nS.E.S\n \n ```')
+        embed5.add_field(name='SF9', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
+        embed5.add_field(name='fromis_9', value=f'''```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+        embed5.add_field(name='EXO', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chaenyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
         embed5.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed6
@@ -118,17 +118,17 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed6.set_footer(text=f"page 6/{totalpages}")
-        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nTaemin```', inline = True)
+        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA```', inline = True)
         embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
         embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
-        embed6.add_field(name='fromis_9 [1]', value=f'''```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom```''')
-        embed6.add_field(name='fromis_9 [2]', value=f'''```\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon```''')
-        embed6.add_field(name='fromis_9 [3]', value=f'''```\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+        embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
+        embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
+        embed6.add_field(name='Shinee', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
 
-        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ\n \n \n \n ```')
-        embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
-        embed6.add_field(name='I Love You', value=f'```\n♡ \n♡ ```')
+        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
+        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
+        embed6.add_field(name='Golden Child', value=f'```\nGolden Child Joochan\nGolden Child Y```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 

@@ -63,7 +63,8 @@ class txtPings(commands.Cog):
             "https://gfycat.com/likelygeneroushuia",
             "https://gfycat.com/euphoricnauticalgoldfish",
             "https://gfycat.com/wholerelievedharrier",
-            "https://gfycat.com/charmingdarkhoiho"]
+            "https://gfycat.com/charmingdarkhoiho",
+            "https://tenor.com/view/soobin-choi-soobin-soobin-txt-choi-soobin-txt-soobin-peace-sign-gif-15883772"]
 
         self.bot.txt_yeonjun_gif = ["https://tenor.com/view/tomorrow-by-together-big-hit-entertainmen-txt-yeonjun-handsome-gif-17716681",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647828",
@@ -97,7 +98,11 @@ class txtPings(commands.Cog):
             "https://tenor.com/view/yeonjun-eating-yeonjun-sanapinkhair-gif-18606067",
             "https://gfycat.com/shoddydetailedkiskadee",
             "https://gfycat.com/bogusvaliddrongo",
-            "https://gfycat.com/slipperyleanaustraliancurlew"]
+            "https://gfycat.com/slipperyleanaustraliancurlew",
+            "https://tenor.com/view/txt-yeonjun-eating-bleuiz-gif-19716063",
+            "https://tenor.com/view/seulgicfm-yeonjun-eating-gif-19467105"
+            "https://tenor.com/view/txt-pissahousu-tomorrow-x-together-yeonjun-yeonjun-txt-gif-20061231",
+            "https://tenor.com/view/txt-pissahousu-tomorrow-x-together-yeonjun-yeonjun-txt-gif-20061223"]
 
         self.bot.txt_beomgyu_gif = ["https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-beomgyu-gif-17683775",
             "https://tenor.com/view/beomgyu-txt-tomorrow-x-together-kpop-choi-beomgyu-gif-19211104",
@@ -151,7 +156,6 @@ class txtPings(commands.Cog):
             "https://64.media.tumblr.com/b352306f520c92dd55a192a594845ca2/26428aed59af714b-5b/s250x400/e33339120cea48064a994cc5eefa2a2381496740.gif",
             "https://64.media.tumblr.com/4e557f6362ee900813c2ed32277ce35d/59cc50ef9fdb03e7-79/s250x400/44e7d7fa078fdfc40e261a3816c9fe2e9f7a4a68.gif",
             "https://64.media.tumblr.com/96cdac8b333060c207adeaa180563fed/2e22d4fa400d7650-42/s250x400/73ce3e962bba0fa5977a5ac7ebf8c5acbfc0cf35.gif",
-            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif",
             "https://64.media.tumblr.com/6cef17f7b063bee7dbae32abffaf4052/75c331dd786b5d51-58/s250x400/690183b088129a29575c53eb78c880f2c63d0e31.gif",
             "https://64.media.tumblr.com/609a53fd16838750ed8a418deff213e9/f70ad9f69fcbe327-b4/s400x600/8f3cf70b980e25c3ec6d40e9b54b4a036589bed7.gif",
             "https://64.media.tumblr.com/d8cf2caedf3d647517851b24ca79f227/0d16c72a083ed72e-fd/s400x600/151d8032b64cd0de8665683590bf030d824d5934.gif",
@@ -209,7 +213,9 @@ class txtPings(commands.Cog):
             "https://gfycat.com/sinfulshrillamericanpainthorse",
             "https://gfycat.com/whoppingscalyguernseycow",
             "https://gfycat.com/smoothamusingflea",
-            "https://gfycat.com/ordinarypitifulilladopsis"]
+            "https://gfycat.com/ordinarypitifulilladopsis",
+            "https://tenor.com/view/cat-and-dog-txt-tomorrow-x-together-tomorrow-by-together-txt-cat-and-dog-gif-16375703",
+            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif"]
 
         self.bot.txt_taehyun_gif = ["https://tenor.com/view/txt-taehyun-kang-taehyun-kang-taehyun-txt-taehyun-txt-gif-18959632",
             "https://tenor.com/view/taehyun-kang-taehyun-txt-tomorrow-x-together-taehyunie-gif-19009636",
@@ -301,8 +307,16 @@ class txtPings(commands.Cog):
             "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963",
             "https://gfycat.com/finishedindolentdunnart"]
 
+        self.bot.txt_ot5_gif = ["https://tenor.com/view/txt-tomorrow-x-together-teen-vogue-puma-yeonjun-gif-17788891",
+            "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-txt-group-gif-19340189",
+            "https://tenor.com/view/yeonjun-txt-cpr-yeonjun-cpr-moa-gif-17201920",
+            "https://tenor.com/view/txt-cat-dog-tomorrow-x-together-big-hit-gif-14005559",
+            "https://tenor.com/view/ot7-kaisercrew-ot5-txt-jejuisland-gif-18632016",
+            "https://tenor.com/view/txt-tomorrowxtogether-tomorrow_x_together-ot5-soobin-gif-18388545",
+            "https://tenor.com/view/bye-bye-everyone-byebye-see-yah-see-you-gif-14624568"]
+
     @commands.command()
-    async def txt(self, ctx, *, arg):
+    async def txt(self, ctx, *, arg = "ot5"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -347,7 +361,14 @@ class txtPings(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Huening Kai :penguin:')
                 await ctx.send(random.choice(self.bot.txt_hueningkai_gif))
                 await ctx.message.delete()
-
+        elif arg == "ot5":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about TXT :penguin:')
+                await ctx.send(random.choice(self.bot.txt_ot5_gif))
+                await ctx.message.delete()
 
 def setup(client):
     client.add_cog(txtPings(client))
