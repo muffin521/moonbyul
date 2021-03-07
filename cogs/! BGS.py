@@ -415,7 +415,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/the-boyz-younghoon-kim-younghoon-kpop-handsome-gif-15713938",
             "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-younghoon-kim-younghoon-kpop-gif-17717615",
             "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-kpop-cute-gif-17490371",
-            "https://tenor.com/view/younghoon-the-boyz-tbz-gif-19303453"]
+            "https://tenor.com/view/younghoon-the-boyz-tbz-gif-19303453",
+            "https://cdn.discordapp.com/attachments/815387335419494431/816923992043683840/image0.gif"]
 
         self.bot.theboyz_hyunjae_gif = ["https://tenor.com/view/hyunjae-hyunjae-the-boyz-stare-look-cute-gif-17364449",
             "https://tenor.com/view/the-boyz-hyunjae-cute-kpop-gif-14056530",
@@ -570,6 +571,15 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/ea8b324c6325c4e05c9dd21c15e0de1d/tumblr_pmftreM5Aa1wvslp2o3_r1_250.gif",
             "https://64.media.tumblr.com/12144c75b98a04b9882429b90421a9e7/tumblr_p9izg6d3iY1wl2fq0o1_250.gif",
             "https://64.media.tumblr.com/15b90d0657037dce08b487fd076d152f/tumblr_p9izg6d3iY1wl2fq0o7_250.gif"]
+    
+        self.bot.theboyz_group_gif = ["https://tenor.com/view/theboyz-giftheboyz-theboyzhd-tbz-gif-18694836",
+            "https://tenor.com/view/the-boyz-kpop-boyz-the-greeting-cute-gif-12285048",
+            "https://64.media.tumblr.com/c4ef728387c5a91e77b7af30cdd5d6a1/tumblr_inline_pmsbgxr5hW1w0xass_500.gif",
+            "https://64.media.tumblr.com/521c8e16e78cdcea9ae10c2fa70f7cbd/7db70edc0587b5f4-c8/s250x400/da2a36365113bcdbfcc222ee9dcc1901eb8b2bf7.gif",
+            "https://64.media.tumblr.com/8f7c652b6d790577d80b40b2af8eaaa8/tumblr_pbvq5f0dCO1swg2mjo8_r1_400.gif",
+            "https://64.media.tumblr.com/6945754e41f2cb892dd381aec3c07974/fa1b10438eef1e02-f8/s400x600/cf2a8fc5762b02b1b179d3161bfe69336bfd1a4a.gif",
+            "https://64.media.tumblr.com/a673f6c01b474dc19b9ee2f578c66e2e/tumblr_pbvq5f0dCO1swg2mjo9_r1_400.gif",
+            "https://static.tumblr.com/65bfd79d6c50c879910e19c58488c024/kizoio0/6Gpp3n960/tumblr_static_tumblr_static_2rh9vzehnw8w04kwgsg0wk0g0_focused_v3.gif"]
     #. P1Harmony
         self.bot.p1harmony_intak_gif = ["https://cdn.discordapp.com/attachments/800206337073479690/800261657557074000/image0.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261657880166400/image1.gif",
@@ -1010,7 +1020,7 @@ class BGS(commands.Cog):
                 await ctx.message.delete()
 
     @commands.command()
-    async def the(self, ctx, boyz="boyz", *, arg):
+    async def the(self, ctx, boyz="boyz", *, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -1102,6 +1112,14 @@ class BGS(commands.Cog):
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Eric :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_eric_gif))
+                await ctx.message.delete()
+        elif arg == "group":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about The Boyz :heart:')
+                await ctx.send(random.choice(self.bot.theboyz_group_gif))
                 await ctx.message.delete()
 
     @commands.command()
