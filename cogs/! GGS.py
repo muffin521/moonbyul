@@ -1583,6 +1583,8 @@ class GGS(commands.Cog):
             "https://tenor.com/view/xuanyi-wjsn-cosmic-girls-gif-10949761",
             "https://tenor.com/view/xuanyi-cosmic-girls-wjsn-gif-10304350",
             "https://tenor.com/view/xuan-yi-wjsn-k-pop-cosmic-girls-gif-11474789"]
+
+        self.bot.wjsn_group_gif = ["https://cdn.discordapp.com/attachments/813234370625667082/816828132832575498/wjsn.gif"]
     #. end of gifs
 
     @commands.command()
