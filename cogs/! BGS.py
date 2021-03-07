@@ -803,6 +803,103 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813193512744517683/813196760180064256/image0.gif",
             "https://cdn.discordapp.com/attachments/813193512744517683/813196916661288960/image0.gif",
             "https://cdn.discordapp.com/attachments/813193512744517683/813197275723333662/image0.gif"]
+    #. Shinee
+        self.bot.shinee_jonghyun_gif = ["https://tenor.com/view/kim-jonghyun-jonghyun-shinee-kpop-cute-gif-15967764",
+            "https://tenor.com/view/jonghyun-kim-shinee-fighting-gif-17986917",
+            "https://tenor.com/view/jonghyun-kpop-shinee-heart-love-gif-9591694",
+            "https://tenor.com/view/shinee-kpop-jonghyun-heart-signs-gif-11162355",
+            "https://tenor.com/view/jonghyun-kim-jonghyun-shinee-kpop-handsome-gif-17083298",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258912",
+            "https://tenor.com/view/shinee-jonghyun-smile-gif-7740406",
+            "https://tenor.com/view/shinee-jonghyun-wave-hello-hey-gif-7837893",
+            "https://tenor.com/view/shinee-jonghyun-kpop-topless-hot-gif-17584569",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-smiles-gif-14292890",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258937",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258902",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258901",
+            "https://tenor.com/view/shinee-jonghyun-kpop-wink-winking-gif-11162160",
+            "https://tenor.com/view/shinee-jonghyun-jonghyun-clapping-jonghyun-cute-faeteez-gif-19943769",
+            "https://tenor.com/view/hug-big-for-you-jonghyun-gif-13110586",
+            "https://tenor.com/view/shinee-jonghyun-pout-cute-nod-gif-7748510",
+            "https://tenor.com/view/love-jonghyun-kim-jonghyun-precious-cute-gif-14965254",
+            "https://tenor.com/view/shinee-jonghyun-jonghyun-cute-faeteez-gif-19943770",
+            "https://tenor.com/view/sweet-dreams-gif-14381727",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-singing-gif-14221565",
+            "https://tenor.com/view/shinee-jonghyun-contented-gif-7213693",
+            "https://tenor.com/view/jonghyun-smiling-kim-jonghyun-gif-14965255",
+            "https://tenor.com/view/jonghyun-shinee-kpop-cute-eyesmile-gif-5587614",
+            "https://tenor.com/view/shinee-dino-smile-selfie-cute-gif-14476967",
+            "https://tenor.com/view/jonghyun-gif-19626260",
+            "https://tenor.com/view/shinee-jonghyun-gif-7258920",
+            "https://tenor.com/view/gleektate-irene-jonghyun-laughing-gif-20229602",
+            "https://tenor.com/view/jonghyun-reaction-screaming-gif-10344112",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258947",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-hello-gif-14221545",
+            "https://tenor.com/view/jonghyun-jonghyun-shinee-jonghyun-kpop-jonghyun-shinee-kpop-crazy-guilty-pleasure-gif-15364593",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-view-lookup-gif-14221552",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-laugh-gif-14221544",
+            "https://tenor.com/view/jonghyun-jonghyun-shinee-jonghyun-kpop-jonghyun-shinee-kpop-crazy-guilty-pleasure-gif-15364600",
+            "https://tenor.com/view/shinee-jonghyun-smile-gif-7748521",
+            "https://tenor.com/view/127baek-jonghyun-shinee-oprah-gif-19889869",
+            "https://tenor.com/view/jonghyun-shinee-gif-7258930",
+            "https://tenor.com/view/jonghyun-kpop-korean-hallyu-korean-music-gif-10935037",
+            "https://tenor.com/view/jonghyun-kpop-korean-hallyu-korean-music-gif-10935037",
+            "https://tenor.com/view/jong-hyun-shinee-k-pop-gif-11581439",
+            "https://tenor.com/view/jonghyun-shinee-jonghyun-sexy-jonghyun-oppa-gif-11373129",
+            "https://tenor.com/view/handsome-beautiful-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860254",
+            "https://tenor.com/view/bleh-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860249",
+            "https://tenor.com/view/jjong-jonghyun-shinee-shinee-jonghyun-kim-jonghyun-gif-19598522",
+            "https://tenor.com/view/swag-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860248",
+            "https://tenor.com/view/smile-jonghyun-shinee-jonghyun-kim-jonghyun-gif-14860247",
+            "https://tenor.com/view/jonghyun-shinee-jonghyun-kim-jonghyun-smile-gif-14860252",
+            "https://tenor.com/view/jonghyun-shinee-dance-pelvic-thrust-perform-gif-4964054",
+            "https://tenor.com/view/kim-jonghyun-jonghyun-smile-gif-14221546",
+            "https://tenor.com/view/onew-shinee-jonghyun-gif-10717312",
+            "https://tenor.com/view/ripjonghyun-kpop-korean-gif-10547066",
+            "https://tenor.com/view/jonghyun-dancing-127baek-shinee-jonghyun-jonghyun-gif-20032175",
+            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724",
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+
+        self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
+            "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
+            "https://tenor.com/view/shinee-kpop-key-kibum-cute-gif-11162138",
+            "https://tenor.com/view/shinee-key-kibum-kpop-handsome-cute-gif-17047485",
+            "https://tenor.com/view/key-onew-kibum-kfc-mcdonalds-gif-10144594",
+            "https://tenor.com/view/shinee-key-kibum-laugh-kpop-gif-8836694",
+            "https://tenor.com/view/key-shinee-kim-ki-bum-ki-bum-shawol-gif-19757690",
+            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300"]
+
+        #^ taemin is a soloist rn, under taemin_gif
+
+        self.bot.shinee_onew_gif = ["https://tenor.com/view/onew-shinee-jonghyun-gif-10717312",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306142754144317/Tumblr_l_692393651383630.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306143340822538/Tumblr_l_692392334254673.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306144050315285/Tumblr_l_692389950153528.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif"]
+
+        self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
+            "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
+            "https://tenor.com/view/minho-choi-shinee-shineeworld-gif-13334159",
+            "https://tenor.com/view/shinee-minho-cute-smile-pose-gif-12562760",
+            "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+
+        self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
+            "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
+            "https://tenor.com/view/shinee-onew-jong-hyun-shinee-key-shinee-minho-gif-14108384",
+            "https://tenor.com/view/shinee-sing-cute-kpop-boy-group-gif-17047772",
+            "https://tenor.com/view/shinee-dxdxd-pose-kpop-cute-gif-17301140",
+            "https://tenor.com/view/gaze-look-shinee-kpop-korean-gif-3519620",
+            "https://tenor.com/view/shinee-onew-key-minho-taemin-gif-17506668",
+            "https://tenor.com/view/jonghyun-shinee-shineeminho-taemin-onew-gif-14411220",
+            "https://tenor.com/view/shinee-onew-jonghyun-taemin-shinee-key-gif-14131901",
+            "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17345444",
+            "https://tenor.com/view/shinee-gif-18448144",
+            "https://tenor.com/view/shinew-onew-jong-hyun-shinee-key-shinee-minho-gif-14108379",
+            "https://tenor.com/view/kpop-korean-shinee-group-concert-gif-3521477",
+            "https://tenor.com/view/shinee-laugh-kpop-group-pic-gif-12082547",
+            "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17083221",
+            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
@@ -866,7 +963,7 @@ class BGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Astro {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Astro {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "eunwoo":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -889,7 +986,7 @@ class BGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [EXO {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [EXO {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "kai":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -963,68 +1060,12 @@ class BGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.exo_xiumin_gif))
                 await ctx.message.delete()
 
-
-    @commands.command(aliases = ['p1h'])
-    async def p1harmony(self, ctx, arg):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(self.bot.logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if arg == "intak":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
-                await ctx.message.delete()
-        elif arg == "jiung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
-                await ctx.message.delete()
-        elif arg == "jongseob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
-                await ctx.message.delete()
-        elif arg == "keeho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
-                await ctx.message.delete()
-        elif arg == "soul":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
-                await ctx.message.delete()
-        elif arg == "theo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
-                await ctx.message.delete()
-
     @commands.command()
     async def the(self, ctx, boyz="boyz", *, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [The Boyz {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [The Boyz {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "kevin":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -1121,13 +1162,103 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about The Boyz :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_group_gif))
                 await ctx.message.delete()
+    
+    @commands.command()
+    async def p1harmony(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "intak":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
+                await ctx.message.delete()
+        elif arg == "jiung":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
+                await ctx.message.delete()
+        elif arg == "jongseob":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
+                await ctx.message.delete()
+        elif arg == "keeho":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
+                await ctx.message.delete()
+        elif arg == "soul":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
+                await ctx.message.delete()
+        elif arg == "theo":
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+                await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
+                await ctx.message.delete()
+
+    @commands.command()
+    async def shinee(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Shinee {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "jonghyun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jonghyun :heart::angel:')
+                await ctx.send(random.choice(self.bot.shinee_jonghyun_gif))
+                await ctx.message.delete()
+            elif arg == "key":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Key :heart:')
+                await ctx.send(random.choice(self.bot.shinee_key_gif))
+                await ctx.message.delete()
+            elif arg == "taemin":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :heart:')
+                await ctx.send(random.choice(self.bot.taemin_gif))
+                await ctx.message.delete()
+            elif arg == "onew":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Onew :heart:')
+                await ctx.send(random.choice(self.bot.shinee_onew_gif))
+                await ctx.message.delete()
+            elif arg == "minho":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Minho :heart:')
+                await ctx.send(random.choice(self.bot.shinee_minho_gif))
+                await ctx.message.delete()
+            elif arg == "group":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Shinee :heart:')
+                await ctx.send(random.choice(self.bot.shinee_group_gif))
+                await ctx.message.delete()
 
     @commands.command()
     async def sf9(self, ctx, *, arg = "ot9"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [SF9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [SF9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "chani":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
@@ -1214,7 +1345,7 @@ class BGS(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [VAV {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [VAV {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "ace":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)

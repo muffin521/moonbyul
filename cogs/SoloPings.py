@@ -271,7 +271,9 @@ class SoloPings(commands.Cog):
             "https://tenor.com/view/faeteez-taemin-taemin-cute-taemin-hot-shinee-gif-19943749",
             "https://cdn.discordapp.com/attachments/811453123267657739/812084794740572200/5c1110a3-d35d-4970-8f70-d1c2397bad7c.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/812085464135761920/6eb3220e-aa85-415b-b31b-c3e80ab42088.gif",
-            "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif"]
+            "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif",
+            "https://tenor.com/view/hug-big-for-you-jonghyun-gif-13110586",
+            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724"]
 
         self.bot.woodz_gif = ["https://tenor.com/view/cho-seungyoun-seungyoun-jo-seung-yeon-seung-yeon-%EC%8A%B9%EC%97%B0-gif-14259988",
             "https://tenor.com/view/woodz-uniq-choseungyoun-gif-20298646",
