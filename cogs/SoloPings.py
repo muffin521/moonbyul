@@ -337,7 +337,9 @@ class SoloPings(commands.Cog):
             "https://giphy.com/gifs/kriswu-november-rain-kris-wu-29oeKjE5c1oC56pWso",
             "https://giphy.com/gifs/interscope-kris-wu-like-that-vvJmqePcGPGfnAhKYO",
             "https://giphy.com/gifs/coffee-kriswu-chuang2020-l10O6D2H1bFjUcCu2c",
-            "https://giphy.com/gifs/wetv-kriswu-chuang2020-kYRDnIP2F7eh9k2ZYZ"]
+            "https://giphy.com/gifs/wetv-kriswu-chuang2020-kYRDnIP2F7eh9k2ZYZ",
+            "https://cdn.discordapp.com/attachments/804189492516093992/818296160144982046/13f8bb8e-9a59-4519-bed5-072ccd10ad5e.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/818296748123357184/21fa83d6-a68b-4e2c-bf01-1f65ca592e2f.gif"]
 
         self.bot.luhan_gif = ["https://cdn.discordapp.com/attachments/804189463277469716/812084025320669184/4c01a4b2-8fb5-453f-88df-dd52103e2962.gif",
             "https://giphy.com/gifs/mv-luhan-promises-MBheKRryjmyfx7AKpu",
