@@ -207,7 +207,7 @@ class gamerPings(commands.Cog):
             "Utah",
             "Yuta",
             "Runa",
-            "Robtuna",
+            "Robotuna",
             "Tetanus",
             "Toupe",
             "Toonami",
