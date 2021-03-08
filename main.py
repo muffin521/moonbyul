@@ -48,6 +48,7 @@ import discord
 import random
 import json
 import os
+from datetime import datetime
 from discord.ext import commands
 
 client = commands.Bot(command_prefix= '=')
@@ -67,7 +68,11 @@ async def on_ready():
 #this sets prefix to '='
 
 #takes out help command
-#//im literally crying W H Y doesnt this work when hosted
+#//im literally crying W H Y doesnt this work 
+# def logsHelper(group: str, arg: str, username: str, userid: int, guildname: str, guildid: int, channel = int):
+#     now = datetime.now()
+#     current_time = now.strftime("%H:%M:%S")
+#     await channel.send(f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
 
 #//cogs
 # This loads the cogs.

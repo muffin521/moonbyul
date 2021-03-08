@@ -532,12 +532,15 @@ class RedVelvetPings(commands.Cog):
             "https://64.media.tumblr.com/700477914dc43e27539277191a9ebcb4/c52377a6bcb2b08e-01/s540x810/548ce6fbb3004ea3ad94a18da1e56d760771a042.gif",
             "https://data.whicdn.com/images/315086075/original.gif?t=1530661540"]
 
+    
+
     @commands.command()
     async def red(self, ctx, vel="velvet", *, arg = "ot5"):
+        # logsHelper("Red Velvet", {arg}, {ctx.author.name}, {ctx.author.id}, {ctx.guild.name}, {ctx.guild.id}, ctx.bot.get_channel(self.bot.logs))
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
                 if ctx.guild.id == luminary:
@@ -592,6 +595,8 @@ class RedVelvetPings(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Red Velvet :heart:')
                     await ctx.send(random.choice(self.bot.redvelvet_group_gif))
                     await ctx.message.delete()
+
+    
 
 def setup(client):
     client.add_cog(RedVelvetPings(client))
