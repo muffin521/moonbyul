@@ -321,6 +321,14 @@ class gamerPings(commands.Cog):
         await ctx.send(f'*{random.choice(self.tuna_wrong)}')
 
     @commands.command()
+    async def nomi(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Nomi] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<:nomiVERYbuffbackwards:818618947293282364><:neck:816367879209091113><:nomiVERYbuff:817139078641745940>')
+
+    @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
