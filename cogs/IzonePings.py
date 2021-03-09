@@ -192,7 +192,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/practicalshowyblueandgoldmackaw",
             "https://gfycat.com/gloriousbowedivorygull",
             "https://gfycat.com/uniqueblankflea",
-            "https://gfycat.com/blindfabulousamericanbadger",
+            "https://thumbs.gfycat.com/BlindFabulousAmericanbadger-mobile.mp4"
             "https://64.media.tumblr.com/8b1ab4efae6be09694983c3c099eade4/tumblr_ptrp9s68W41y2eklvo6_400.gif",
             "https://64.media.tumblr.com/d89eb5ad58b70323e7e9c8ac9466db09/c8ccd21a1913f8a6-eb/s400x600/9a778210941742f031cdcb6c12cd413255cd3a5f.gif",
             "https://64.media.tumblr.com/eb625b72fce5efb22ce318156206467a/69582e3f89858399-e7/s540x810/99f53473b054db777e018e96d964ea11b52c40f4.gif",
