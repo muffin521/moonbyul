@@ -370,16 +370,16 @@ class gamerPings(commands.Cog):
             person = ctx.author.name
         else:
             person = name
-        number = random.randint(1,5)
+        number = random.randint(1,4)
         if number == 1:
             await ctx.send(f'Hey, {person} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
-        elif number == 2:
-            await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
+        # elif number == 2:
+        #     await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
         elif number == 3:
             await ctx.send(f'Hey, {person}, are you Bae Suzy?\nBecause you could literally punch me and I\'d be thankful')
         elif number == 4:
             await ctx.send(f'Hey, {person},  are you hawaiin bread rolls?\nBecause I love your buns')
-        elif number == 5:
+        elif number == 2:
             await ctx.send(f'Hey, {person}, are you Jo Yuri?\nBecause, Jo, Yuri-lly pretty')
         else:
             await ctx.send(f'{person}, please report this to @muffin521#9280, or in the support server: https://discord.gg/Ntk9Jp26yx')
