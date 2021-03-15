@@ -286,7 +286,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/sophisticatedamusedcrustacean",
             "https://gfycat.com/medicalpassionategallowaycow",
             "https://gfycat.com/flakyfittingindusriverdolphin",
-            "https://gfycat.com/speedypertinentalbatross"]
+            "https://gfycat.com/speedypertinentalbatross",
+            "https://64.media.tumblr.com/99db04d8e08b42946d4e972f397c060e/04cb3eded9fb3dff-94/s540x810/42f0acbd35cf812f9ee92e19a3f80256486edc7e.gif",
+            "https://64.media.tumblr.com/79bcd36dd81e3440d593c1550404d0ec/04cb3eded9fb3dff-41/s540x810/876dfbeb05349ad6003ac115f60c9f91841d782b.gif",
+            "https://64.media.tumblr.com/a423515b0939450be7287c3b4f3d7056/04cb3eded9fb3dff-04/s540x810/c168a951ab88e55a1684b734e034eaa1c925508a.gif",
+            "https://64.media.tumblr.com/49452bd6bd8181f4389f10b7127a60de/04cb3eded9fb3dff-0b/s540x810/2e3970c562588deeb9b984aacb532311bc93d5b3.gif",
+            "https://64.media.tumblr.com/14ec70cfabd6aa7f1869b4fdb0cdfbec/tumblr_pygvnyyZbk1xaym7so1_640.gif"]
 
         self.bot.yuri_gif = ["https://tenor.com/view/iz-one-jo-yuri-cute-tilt-kpop-gif-16502904",
             "https://tenor.com/view/joyuri-izone-cute-gif-12833269",
@@ -711,7 +716,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/kindlycostlybream",
             "https://gfycat.com/hilariousadmiredkronosaurus",
             "https://gfycat.com/uncomfortablepositivehomalocephale",
-            "https://gfycat.com/grizzleddisloyalharrierhawk"]
+            "https://gfycat.com/grizzleddisloyalharrierhawk",
+            "https://64.media.tumblr.com/bc580f13e5bc37461b7300e585bd4900/41a42ff08d6791ae-44/s400x600/56a474429ddfc46324df30f0920b0c7bec854a9d.gif",
+            "https://64.media.tumblr.com/7f0084b0beae66c408e502cff9089c7e/41a42ff08d6791ae-c0/s400x600/edfd11c26029bde3c7961515145ad06dc5d4fb9c.gif",
+            "https://64.media.tumblr.com/450471fbf78d8806bd53d691ed619fe6/tumblr_pvodrqM1l71y2eklvo1_400.gif",
+            "https://64.media.tumblr.com/43b6ad4414231967c39d88868a976c43/tumblr_pvodrqM1l71y2eklvo5_400.gif",
+            "https://64.media.tumblr.com/6a75387dc5d4cbe934836ff4ed235402/tumblr_pvodrqM1l71y2eklvo3_400.gif"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -916,7 +926,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/heartfeltbiodegradableamericanredsquirrel",
             "https://gfycat.com/easydependentjay",
             "https://gfycat.com/mildorderlyhamadryas",
-            "https://gfycat.com/alarmedhalfkinkajou"]
+            "https://gfycat.com/alarmedhalfkinkajou",
+            "https://gfycat.com/definitefreshfritillarybutterfly"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -1153,7 +1164,8 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/d1ceef182963fd12dcc71e17db4ce25e/fb48b332e2d24422-9a/s400x600/726ae9a3aaa26f3017fa5e8c72eb49f0723b48eb.gif",
             "https://64.media.tumblr.com/e958f27070257e9ebb08a13ecd264969/e5c3d0b07fc35eb6-b8/s540x810/8e88d25b159f7a93b07bf69a6650f9d2f369f5b1.gif",
             "https://64.media.tumblr.com/b0a843c17846ec8081eaa64049103351/e5c3d0b07fc35eb6-d7/s540x810/5b57fadd2e2776f54f8fcd42e0babb9b03151baf.gif",
-            "https://64.media.tumblr.com/5e6ec31f6cd4f8364019463fea7cd2db/e5c3d0b07fc35eb6-9e/s540x810/fe1bebe0f17ba3edd72bb0fc8e8925ae5796da44.gif"]
+            "https://64.media.tumblr.com/5e6ec31f6cd4f8364019463fea7cd2db/e5c3d0b07fc35eb6-9e/s540x810/fe1bebe0f17ba3edd72bb0fc8e8925ae5796da44.gif",
+            "https://kcommunities.files.wordpress.com/2020/06/ec9ea5ec9b90ec9881.gif?w=280"]
 
         self.bot.hyewon_gif = ["https://tenor.com/view/izone-izone-hyewon-kang-hyewon-kcon-hyewon-kwangbae-gif-18839326",
             "https://tenor.com/view/hyewon-kang-hyewon-izone-izone-hyewon-beware-gif-18734334",
@@ -1246,7 +1258,11 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/e98b7a04a1683d55ade524af23bd31a5/a310c439d413c368-e6/s400x600/ae4ea9628400cdf2906990ca2ae65578c9ecd7aa.gif",
             "https://64.media.tumblr.com/ffa90e773b78fc7276efb413e43dfd54/d61f558958a76c5a-df/s400x600/410a6333db34540eae59b0612a686c1106e45ab9.gif",
             "https://64.media.tumblr.com/8151db21dd32758024e19e6fef7a9c39/tumblr_psnn4hisnS1y2eklvo10_r1_400.gif",
-            "https://64.media.tumblr.com/f77af7c648c1100dbe19d6c1ace679ef/ca0b328b796c4fd6-42/s400x600/30c4850af5897374029c3019e157abd4661904a0.gif"]
+            "https://64.media.tumblr.com/f77af7c648c1100dbe19d6c1ace679ef/ca0b328b796c4fd6-42/s400x600/30c4850af5897374029c3019e157abd4661904a0.gif",
+            "https://64.media.tumblr.com/b7071fe418205233c27c08509d4b5d43/85abf4b51ec8f08b-5c/s400x600/ce91a5233d2254554ae3ec4b71537e4a57505963.gif",
+            "https://64.media.tumblr.com/eb515a5737e48ab5721f1fb3b1a787fc/85abf4b51ec8f08b-3c/s400x600/b394eaf7c2d8c9b62cd09db79a4c5e5a97527776.gif",
+            "https://64.media.tumblr.com/ac93843838901814788998b693ebcc9f/70e159ba75272e98-35/s400x600/93538e03ec8d72261d13c01a053593b6093c740a.gif",
+            "https://64.media.tumblr.com/d69511bb844c1e9c71fbc909e621f6fc/70e159ba75272e98-30/s400x600/ba38e7bee8b1f4eacea71b2c8d9ddfe64a190b89.gif"]
 
         self.bot.yujin_gif = ["https://tenor.com/view/ahn-yujin-cute-smile-gif-12316779",
             "https://tenor.com/view/an-yujin-bunny-cute-gif-13315682",
@@ -1521,7 +1537,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/responsibleterribleaurochs",
             "https://gfycat.com/afraidadorablebongo",
             "https://gfycat.com/metalliccraftyhippopotamus",
-            "https://gfycat.com/mildkeenblackfootedferret"]
+            "https://gfycat.com/mildkeenblackfootedferret",
+            "https://64.media.tumblr.com/6f0447ee061173d2e38823eaf41c7463/0fd565a0f05ee5fe-84/s400x600/4c384859740339fa31a9cfded48ccb8416af255b.gif",
+            "https://64.media.tumblr.com/40f163ddde1422ae4cdff2332df6d096/tumblr_pyngy7O7EO1qafgzno1_540.gif",
+            "https://64.media.tumblr.com/b2fb69ad393580d1ecd84fe3220cdb67/tumblr_pyngy7O7EO1qafgzno2_r1_540.gif",
+            "https://64.media.tumblr.com/c8469e3004fa7b11907c85a7cf5acae2/tumblr_pn4nwepyi91qafgzno1_400.gif",
+            "https://64.media.tumblr.com/1ed593f6782739670f0cd8fb62049d9d/tumblr_pn4nwepyi91qafgzno4_r1_400.gif"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
@@ -1702,7 +1723,9 @@ class IzonePings(commands.Cog):
             "https://tenor.com/view/eunbi-kwon-eunbi-iz-one-wink-dance-gif-16422047",
             "https://tenor.com/view/izone-izone-eunbi-eunbi-kwon-eunbi-pretty-gif-16287866",
             "https://tenor.com/view/smile-kwon-eunbi-eunbi-eunbi-rumor-gif-12333021",
-            "https://tenor.com/view/i-zone-kwon-eunbi-stare-look-kpop-gif-16473501"]
+            "https://tenor.com/view/i-zone-kwon-eunbi-stare-look-kpop-gif-16473501",
+            "https://gfycat.com/quarrelsomeimpishchrysalis",
+            "https://gfycat.com/definitefreshfritillarybutterfly"]
 
         self.bot.nako_gif = ["https://tenor.com/view/rabbitnako-nako-nakorabbit-yabuki-yabuki-nako-gif-12814937",
             "https://tenor.com/view/iz-one-iz-one-nako-nako-nako-yabuki-pretty-gif-17724933",
