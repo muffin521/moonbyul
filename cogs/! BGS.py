@@ -1062,7 +1062,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750522",
             "https://tenor.com/view/vav-jacob-vav-jacob-jacob-vav-zhang-peng-gif-15434946",
             "https://tenor.com/view/vav-jacob-vav-jacob-zhang-peng-gif-14504218",
-            "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750525"]
+            "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750525",
+            "https://cdn.discordapp.com/attachments/796980439843602472/818292834741649408/8e4c9975-c69c-46be-888c-7542d2f54edf.gif"]
 
         self.bot.vav_lou_gif = ["https://cdn.discordapp.com/attachments/796980537432211456/800508974705147914/image0.gif",
             "https://cdn.discordapp.com/attachments/796980537432211456/800509040115056700/image0.gif",
