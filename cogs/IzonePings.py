@@ -1951,9 +1951,16 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/4d91867001f3518a21369fc7faed4643/8937d5483272f0f5-13/s400x600/4ce4f8270daf136b2a905f18eed8174100945c98.gif",
             "https://64.media.tumblr.com/67bfcc65309ff5f7589dc7a177f2b571/8937d5483272f0f5-b2/s400x600/f0f2e6d718dfe91783ea36115a93ab6356101674.gif"]
 
+        self.bot.izone_group_gif = ["https://tenor.com/view/izone-kpop-members-gif-13206671",
+            "https://tenor.com/view/izone-microphones-gif-20070304",
+            "https://tenor.com/view/izone-izone-beware-twelve-gif-18734440",
+            "https://tenor.com/view/izone-together-gif-19804767",
+            "https://tenor.com/view/izone-pretty-gif-18107471",
+            "https://tenor.com/view/izone-love-hearts-heart-cute-gif-15886928",
+            "https://gfycat.com/bleakdenseblackmamba"]
 
     @commands.command(aliases = ['iz*one'])
-    async def izone(self, ctx, arg):
+    async def izone(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -2092,6 +2099,19 @@ class IzonePings(commands.Cog):
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
                 await ctx.send(random.choice(self.bot.hitomi_gif))
+                await ctx.message.delete()
+        elif arg == "group":
+            if ctx.guild.id == luminary:
+                if ctx.channel.id == kbotcom:
+                    await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Iz*One :heart:')
+                    await ctx.send(random.choice(self.bot.izone_group_gif))
+                    await ctx.message.delete()
+                else:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
+            else:
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Iz*One :heart')
+                await ctx.send(random.choice(self.bot.izone_group_gif))
                 await ctx.message.delete()
         elif arg == "ame":
             await ctx.send(f'https://cdn.discordapp.com/attachments/798646055947337778/806336960867860510/image0.gif', delete_after=3)
