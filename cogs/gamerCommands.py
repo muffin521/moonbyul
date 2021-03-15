@@ -208,7 +208,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/YellowishHonorableKinkajou",
             "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
             "https://gfycat.com/euphoricfeistykookaburra",
-            "https://gfycat.com/quickfixedindianhare"]
+            "https://gfycat.com/quickfixedindianhare",
+            "https://tenor.com/view/yeri-red-velvet-gif-11323706"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
