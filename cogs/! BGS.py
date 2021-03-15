@@ -971,7 +971,22 @@ class BGS(commands.Cog):
             "https://tenor.com/view/key-onew-kibum-kfc-mcdonalds-gif-10144594",
             "https://tenor.com/view/shinee-key-kibum-laugh-kpop-gif-8836694",
             "https://tenor.com/view/key-shinee-kim-ki-bum-ki-bum-shawol-gif-19757690",
-            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300"]
+            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818521865722658847/Tumblr_l_1093753469659430.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522020672831528/Tumblr_l_1093778223299733.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522140760211456/Tumblr_l_1093823891117320.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522501780865034/Tumblr_l_1093903089315154.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522502924861440/Tumblr_l_1093901825891926.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522504481472582/Tumblr_l_1093900612961405.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522505387048970/Tumblr_l_1093899873615051.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522613420261376/Tumblr_l_1093933063861653.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522614153871400/Tumblr_l_1093931151890560.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523085556285440/Tumblr_l_1094042337450362.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523086798061608/Tumblr_l_1094040747084373.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523147191451738/Tumblr_l_1094056187179054.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523311268692038/Tumblr_l_1094094368269613.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523311909634079/Tumblr_l_1094092720400394.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523313609113620/Tumblr_l_1094091764464978.gif"]
 
         #^ taemin is a soloist rn, under taemin_gif
 
@@ -979,14 +994,21 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/815306142754144317/Tumblr_l_692393651383630.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/815306143340822538/Tumblr_l_692392334254673.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/815306144050315285/Tumblr_l_692389950153528.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522164767752233/Tumblr_l_1093819773775394.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522232736317490/Tumblr_l_1093817018279458.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522233567445012/Tumblr_l_1093815401908886.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522901275869214/Tumblr_l_1093978031450178.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
             "https://tenor.com/view/minho-choi-shinee-shineeworld-gif-13334159",
             "https://tenor.com/view/shinee-minho-cute-smile-pose-gif-12562760",
             "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
-            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
+            "https://cdn.discordapp.com/attachments/813235536469688320/818522920153907200/Tumblr_l_1093983344508301.gif",
+            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif"]
 
         self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
             "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
@@ -1003,7 +1025,10 @@ class BGS(commands.Cog):
             "https://tenor.com/view/kpop-korean-shinee-group-concert-gif-3521477",
             "https://tenor.com/view/shinee-laugh-kpop-group-pic-gif-12082547",
             "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17083221",
-            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif"]
+            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522362231914506/Tumblr_l_1093874306738030.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522363137622026/Tumblr_l_1093873282275530.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
