@@ -742,7 +742,6 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/801512286879481926/801687284579041320/tenor-4.gif",
             "https://cdn.discordapp.com/attachments/801512286879481926/801689087936692224/fdd21e4910ff3f22437723e5b4d95261.gif",
             "https://cdn.discordapp.com/attachments/801512286879481926/801691398734610482/a0b5a78f63cd36c21e668669e1c727011a949f87r1-268-370_hq.gif",
-            "https://gfycat.com/admirablelimpingflee-olivia-hye-loona",
             "https://gfycat.com/activeillinformedharborseal-olivia-hye-loona",
             "https://gfycat.com/activescholarlycockatiel-olivia-hye-loona",
             "https://gfycat.com/activeunfoldedcob",
@@ -808,9 +807,7 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/colossalcavernousindigobunting-beauty",
             "https://gfycat.com/sophisticatedecstaticantarcticfurseal-olivia-hye-loona",
             "https://gfycat.com/tameincomparableconch-olivia-hye-loona-yves",
-            "https://gfycat.com/unfitdapperghostshrimp",
             "https://gfycat.com/variableeverydegus",
-            "https://gfycat.com/untriedglumbighornsheep-olivia-hye-loona",
             "https://gfycat.com/wickedunknownleafwing-olivia-hye-loona"]
 
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
