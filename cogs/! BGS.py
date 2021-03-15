@@ -702,7 +702,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206376210661406/800262218733322270/image0.gif",
             "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392814",
             "https://tenor.com/view/jiung-p1h-p1harmony-choi-jiung-gif-20392787",
-            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855"]
+            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jiung-choi-jiung-gif-19887400"]
 
         self.bot.p1harmony_jongseob_gif = ["https://cdn.discordapp.com/attachments/800206414597455872/800262445016809472/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262445314211850/image1.gif",
@@ -722,7 +723,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019380342804/image0.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019929665566/image1.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263020420005908/image2.gif",
-            "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452"]
+            "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-yoon-keeho-keeho-gif-19887399"]
 
         self.bot.p1harmony_soul_gif = ["https://cdn.discordapp.com/attachments/800206684193685504/800263221390213170/image0.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263221792473088/image1.gif",
@@ -742,7 +744,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206797604519936/800264225443676210/image0.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226001387540/image1.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226445852693/image2.gif",
-            "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif"]
+            "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif",
+            "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435"]
     #. SF9
         self.bot.sf9_chani_gif = ["https://cdn.discordapp.com/attachments/805178530279325697/805179888738893834/image0.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805179889082564638/image1.gif",
