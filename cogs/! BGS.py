@@ -425,13 +425,33 @@ class BGS(commands.Cog):
             "https://tenor.com/bd7j1.gif",
             "https://tenor.com/bf7sP.gif",
             "https://tenor.com/bgNOj.gif",
-            "https://tenor.com/bgNOJ.gif"]
+            "https://tenor.com/bgNOJ.gif",
+            "https://gfycat.com/KlutzyDisastrousBluetickcoonhound",
+            "https://gfycat.com/UnrealisticFrenchBeagle",
+            "https://gfycat.com/GreedyBrownKillerwhale",
+            "https://gfycat.com/WeightyWhirlwindDolphin",
+            "https://gfycat.com/UnrulyWellinformedChafer",
+            "https://gfycat.com/SecretInsidiousGoa",
+            "https://gfycat.com/UnpleasantDishonestAzurevasesponge",
+            "https://gfycat.com/LeftPessimisticHare",
+            "https://gfycat.com/SomeTheseHedgehog",
+            "https://gfycat.com/RepulsiveBlackandwhiteIcelandichorse",
+            "https://gfycat.com/SnoopyTimelyHogget",
+            "https://gfycat.com/GiftedLoathsomeAlpinegoat",
+            "https://gfycat.com/PrestigiousTidyEuropeanfiresalamander",
+            "https://gfycat.com/SpiritedClosedBilby",
+            "https://gfycat.com/PlasticWelldocumentedEland"]
 
         self.bot.golcha_y_gif = ["https://64.media.tumblr.com/55e48640d01cecdcc5023d2747fefd09/020f7b17338f6291-31/s250x400/6ce3f7faa33d5fd05105c26f30b92edaebd1324a.gif",
             "https://64.media.tumblr.com/18ee933ba44cd38c78266d09ba5e775a/28c3096dd7c4a6ca-ae/s250x400/8d1eb15ab4d52d1f8108712b3f350f928ef31263.gif",
             "https://64.media.tumblr.com/106f3731492a46879ae77b192c262857/28c3096dd7c4a6ca-69/s250x400/91ae13796478d7ae3a78e123928058f1818af070.gif",
             "https://64.media.tumblr.com/33cbe957d13ce460dbb7486ec19fd1c9/49083d489dab8ac6-75/s250x400/d91de7cd0bd2115ccb53309897dbbb9354ab0fbe.gif",
-            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif"]
+            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif",
+            "https://gfycat.com/SaltyCavernousCornsnake",
+            "https://gfycat.com/ThatIndelibleIrukandjijellyfish",
+            "https://gfycat.com/DenseParallelKawala",
+            "https://gfycat.com/JitteryAggressiveEelelephant",
+            "https://gfycat.com/HairyFluidGrizzlybear"]
     #. The Boyz
         self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
             "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
