@@ -2110,7 +2110,7 @@ class IzonePings(commands.Cog):
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Iz*One :heart')
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Iz*One :heart:')
                 await ctx.send(random.choice(self.bot.izone_group_gif))
                 await ctx.message.delete()
         elif arg == "ame":
