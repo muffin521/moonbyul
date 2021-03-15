@@ -1069,7 +1069,8 @@ class GGS(commands.Cog):
             "https://tenor.com/view/yoona-im-yoona-%EC%9C%A4%EC%95%84-snsd-girls-generation-gif-14170845",
             "https://tenor.com/view/yoona-snsd-gif-18573846",
             "https://tenor.com/view/yoona-imyoona-gif-10257459",
-            "https://tenor.com/view/yoona-sexy-dance-im-yoona-gif-12613643"]
+            "https://tenor.com/view/yoona-sexy-dance-im-yoona-gif-12613643",
+            "https://cdn.discordapp.com/attachments/808765488406331403/818294703371321374/8fabb1c6-2380-4cbb-b167-8a7203dc7c41.gif"]
 
         self.bot.snsd_tiffany_gif = ["https://cdn.discordapp.com/attachments/808765444814143509/812807710210392074/Tumblr_l_368644891110047.gif",
             "https://tenor.com/view/tiffany-snsd-gif-8117537",
