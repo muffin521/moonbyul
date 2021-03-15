@@ -71,7 +71,17 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-Kb5VEV4AIqPmb0hmaH",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-172-bRtW9WyXyRFwvMli8A",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-172-sVNY9PkKBEGlnsN1JW",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-VS8myHwaL43gIiz2vs"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-VS8myHwaL43gIiz2vs",
+            "https://gfycat.com/JubilantSelfassuredIndianabat",
+            "https://gfycat.com/HardSingleBittern",
+            "https://gfycat.com/IncomparableVengefulAurochs",
+            "https://gfycat.com/EsteemedEnlightenedBats",
+            "https://gfycat.com/ScratchyRemoteDingo",
+            "https://gfycat.com/GreedyComplexBovine",
+            "https://gfycat.com/ForthrightQuarrelsomeHorsefly",
+            "https://gfycat.com/JubilantWhiteBagworm",
+            "https://gfycat.com/FaithfulGleefulAmmonite",
+            "https://gfycat.com/GiftedMisguidedFireant"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
@@ -88,7 +98,21 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-yuta-winwin-love-yuwin-gif-11839935",
             "https://gfycat.com/definitivecreativebagworm-let-me-love-u-weishenv-yangyang-hendery",
             "https://gfycat.com/lavishdeterminedalpineroadguidetigerbeetle",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-172-cXGwNxRJHkbiZTWH3R"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-172-cXGwNxRJHkbiZTWH3R",
+            "https://gfycat.com/ShallowOrangeIvorygull",
+            "https://gfycat.com/SoupySmoggyChanticleer",
+            "https://gfycat.com/FrigidElderlyEasternglasslizard",
+            "https://gfycat.com/ElderlyPleasingChuckwalla",
+            "https://gfycat.com/FickleRipeArmadillo",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224178854854736/Tumblr_l_1157633029848552.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224179164708864/Tumblr_l_1157631458539125.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224179588988988/Tumblr_l_1157628709559022.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224195267166228/Tumblr_l_1157627041408814.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224195505717302/Tumblr_l_1157625458890325.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224195888054282/Tumblr_l_1157623061757826.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224208164913212/Tumblr_l_1157622001686733.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224208491806761/Tumblr_l_1157620093707567.gif",
+            "https://cdn.discordapp.com/attachments/790419146030317578/819224208793272320/Tumblr_l_1157619186094755.gif"]
 
         self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
@@ -264,7 +288,12 @@ class NCT(commands.Cog):
             "https://tenor.com/view/way-v-qian-kun-nct-kun-handsome-gif-15937660",
             "https://gfycat.com/grandioseopenbillygoat-wayv-kun-nct",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-p8KfgL5e1bkwnaSHx1",
-            "https://tenor.com/view/kun-wayv-turn-back-time-gif-18999711"]
+            "https://tenor.com/view/kun-wayv-turn-back-time-gif-18999711",
+            "https://cdn.discordapp.com/attachments/790418977092010064/819224430801846302/Tumblr_l_1157680677587908.gif",
+            "https://cdn.discordapp.com/attachments/790418977092010064/819224431585918996/Tumblr_l_1157677887789732.gif",
+            "https://cdn.discordapp.com/attachments/790418977092010064/819224432391749703/Tumblr_l_1157676551526243.gif",
+            "https://cdn.discordapp.com/attachments/790418977092010064/819224433125359616/Tumblr_l_1157673630093015.gif",
+            "https://cdn.discordapp.com/attachments/790418977092010064/819224433909956608/Tumblr_l_1157674652117702.gif"]
 
         self.bot.nct_ten_gif = ["https://tenor.com/view/ten-nct-singing-nct-kpop-gif-14732794",
             "https://tenor.com/view/ten-nct-ten-nct-mark-lee-wayv-gif-14997188",
@@ -310,7 +339,8 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-hendery-nct-hendery-turn-back-time-mv-way-v-hendery-gif-19674013",
             "https://tenor.com/view/hendery-wayv-hendery-crying-hendery-waaa-waaa-gif-19336487",
             "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028470",
-            "https://giphy.com/gifs/nctsmtown-nct-nct127-127-3ddsPMDOgK7PY6p0qS"]
+            "https://giphy.com/gifs/nctsmtown-nct-nct127-127-3ddsPMDOgK7PY6p0qS",
+            "https://c.tenor.com/kBpvrb_2gvYAAAAM/wayv-nct.gif"]
 
         self.bot.nct_yangyang_gif = ["https://tenor.com/view/yangyang-wayv-ariel-liu-yangyang-gif-18990980",
             "https://tenor.com/view/wayv-nct-liu-yangyang-yangyang-handsome-gif-16282245",
@@ -524,7 +554,8 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-sETpe4fZXpRL62foAm",
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-gfIQsfME5I0LrEF93O",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-S5zUE2zUAkycLqP4Nh",
-            "https://giphy.com/gifs/nctsmtown-nct-127-nct127-dxCXXifRkjIM1ur925"]
+            "https://giphy.com/gifs/nctsmtown-nct-127-nct127-dxCXXifRkjIM1ur925",
+            "https://c.tenor.com/qYLYCx2IT3gAAAAM/nct-nct127.gif"]
 
         self.bot.nct_haechan_gif = ["https://data.whicdn.com/images/312017472/original.gif",
             "https://64.media.tumblr.com/20aa6e1fc21ad09a3c46a1bda021f92b/2e7c33e88cfa45b6-1a/s250x400/03e8c3e5dc265549348372c81e2326c91c0b56e7.gif",

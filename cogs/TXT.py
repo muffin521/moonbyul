@@ -64,7 +64,9 @@ class txtPings(commands.Cog):
             "https://gfycat.com/euphoricnauticalgoldfish",
             "https://gfycat.com/wholerelievedharrier",
             "https://gfycat.com/charmingdarkhoiho",
-            "https://tenor.com/view/soobin-choi-soobin-soobin-txt-choi-soobin-txt-soobin-peace-sign-gif-15883772"]
+            "https://tenor.com/view/soobin-choi-soobin-soobin-txt-choi-soobin-txt-soobin-peace-sign-gif-15883772",
+            "https://tenor.com/view/soobin-soobin-crying-soobtime-soobin-glasses-soobin-funny-gif-20716855",
+            "https://tenor.com/view/choi-soobin-txt-tomorrow-by-together-tomorrow-x-together-todo-gif-16311086"]
 
         self.bot.txt_yeonjun_gif = ["https://tenor.com/view/tomorrow-by-together-big-hit-entertainmen-txt-yeonjun-handsome-gif-17716681",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647828",
@@ -215,7 +217,8 @@ class txtPings(commands.Cog):
             "https://gfycat.com/smoothamusingflea",
             "https://gfycat.com/ordinarypitifulilladopsis",
             "https://tenor.com/view/cat-and-dog-txt-tomorrow-x-together-tomorrow-by-together-txt-cat-and-dog-gif-16375703",
-            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif"]
+            "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif",
+            "https://tenor.com/view/beomgyu-gif-20252778"]
 
         self.bot.txt_taehyun_gif = ["https://tenor.com/view/txt-taehyun-kang-taehyun-kang-taehyun-txt-taehyun-txt-gif-18959632",
             "https://tenor.com/view/taehyun-kang-taehyun-txt-tomorrow-x-together-taehyunie-gif-19009636",

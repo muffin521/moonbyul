@@ -94,7 +94,11 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188554896867410/812085871381184572/7d9b9479-9a87-4ba9-aec2-9e4ea8ae2d39.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/815305990127747072/Tumblr_l_692363365570517.gif",
             "https://cdn.discordapp.com/attachments/804188554896867410/815305991137656842/Tumblr_l_692361882756195.gif",
-            "https://cdn.discordapp.com/attachments/804188554896867410/815305991734296596/Tumblr_l_692359924210050.gif"]
+            "https://cdn.discordapp.com/attachments/804188554896867410/815305991734296596/Tumblr_l_692359924210050.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/818295076592812052/9cccb7ae-d8c0-45e4-8dc3-aaae904ab4b4.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/818295571525271562/9e62957b-8e4c-493c-8864-4a15c4aff206.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/818296240482680832/13f08388-c626-4851-9098-d4e42caf51b3.gif",
+            "https://cdn.discordapp.com/attachments/804188554896867410/818296406020194345/18a34afb-0cc2-4de4-a5af-776bb5ae84d9.gif"]
 
         self.bot.exo_do_gif = ["https://tenor.com/view/head-lucky-one-kyungsoo-funny-gif-12694480",
             "https://tenor.com/view/soo-ksoo-kyungsoo-k-pop-singer-gif-5691853",
@@ -127,7 +131,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188814989197322/812869056888963132/Tumblr_l_381409887702782.gif",
             "https://cdn.discordapp.com/attachments/804188814989197322/812869057220968448/Tumblr_l_381408553833720.gif",
             "https://cdn.discordapp.com/attachments/804188814989197322/812869058256568350/Tumblr_l_381407153644814.gif",
-            "https://cdn.discordapp.com/attachments/804188814989197322/812869058780332052/Tumblr_l_381405579296690.gif"]
+            "https://cdn.discordapp.com/attachments/804188814989197322/812869058780332052/Tumblr_l_381405579296690.gif",
+            "https://cdn.discordapp.com/attachments/804188814989197322/818293601943289856/9a1b1357-51cf-4f46-b165-12cbe9c81f96.gif",
+            "https://cdn.discordapp.com/attachments/804188814989197322/818295465291808810/9de4caf0-2eb7-4101-b4b8-e945beb6fcf6.gif",
+            "https://cdn.discordapp.com/attachments/804188814989197322/818296075516641340/13ad2fa2-12fc-438e-a180-7928f66d19dd.gif"]
 
         self.bot.exo_baekhyun_gif = ["https://tenor.com/view/hoodie-byunny-baekhyun-hyun-baek-gif-19020958",
             "https://tenor.com/view/baekhyun-byun-exo-baek-laugh-gif-12920068",
@@ -202,7 +209,23 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188853916270622/812086160209739786/8aab3d6f-f058-4dc0-84d9-59f67e661080.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/812086180597727242/8b3cfc02-d8e6-4f5a-a005-020c43d9044c.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/812086183713833020/8abae963-8cb1-4521-9bb2-99dbfd59fb9b.gif",
-            "https://cdn.discordapp.com/attachments/804188853916270622/812086187925569587/8b626f3c-58d0-463a-ab65-403cc4ce1b14.gif"]
+            "https://cdn.discordapp.com/attachments/804188853916270622/812086187925569587/8b626f3c-58d0-463a-ab65-403cc4ce1b14.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818292627518652476/8ddd5583-6194-4901-8fde-63298eedc044.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818293015265017896/8f033e40-aee8-472d-ae5f-04395bfb35dd.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818293123100442634/8f560701-5b5f-4c46-8c44-db869ed5e93f.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818295185007050822/9d4d048f-df28-4455-8cda-7ee46e8665ca.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818295639061823498/9ebf7aae-a2f7-4782-ad01-fa6d9a6de7e2.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818295704543821844/9fb12efb-18a3-4f2d-8a91-055e5f53998a.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818295748461330472/9fc8a17e-581e-4792-abb1-55c3ab79ec12.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818295882692034570/12a736d3-23e5-4a5b-8f1b-6313abb1742d.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818296101605212170/13dbaef8-d87b-4feb-a952-fc1de04b21c0.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818296499347521576/19cbd480-b5d4-4d6a-b8c2-c02542bb7b54.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818296831556976650/023a8962-cdd0-41bf-a309-c17d9a50e12f.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818296880815276042/23dd8158-b679-4fc7-9888-26dcb1a93f2d.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521646037598289/Tumblr_l_1093682006427114.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521646573813760/Tumblr_l_1093680967810291.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521647526445096/Tumblr_l_1093675650178731.gif",
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521648323493898/Tumblr_l_1093674172835346.gif"]
 
         self.bot.exo_chaenyeol_gif = ["https://tenor.com/view/chanyeol-kiss-kpop-exo-gif-15449030",
             "https://tenor.com/view/chanyeol-exo-gif-15408144",
@@ -231,7 +254,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188917775466496/812083265581482024/3a77d3fe-ba55-40d3-b975-2eeb526ee796.gif",
             "https://cdn.discordapp.com/attachments/804188917775466496/812085201059446854/6b57ab69-0d20-4a78-b5b1-d33a9ba558b0.gif",
             "https://cdn.discordapp.com/attachments/804188917775466496/812446208316276766/Tumblr_l_315556848229622.gif",
-            "https://cdn.discordapp.com/attachments/804188917775466496/812446209120665600/Tumblr_l_315559925054569.gif"]
+            "https://cdn.discordapp.com/attachments/804188917775466496/812446209120665600/Tumblr_l_315559925054569.gif",
+            "https://cdn.discordapp.com/attachments/804188917775466496/818293813218377728/9a9f95a8-1020-4404-8fde-4b18116b0466.gif"]
 
         self.bot.exo_sehun_gif = ["https://cdn.discordapp.com/attachments/804188518985367563/812081997051985960/0ef445a5-37e5-4211-a186-d44b97e2edbc.gif",
             "https://cdn.discordapp.com/attachments/804188518985367563/812082323704381510/1b07fb73-34c8-472b-b667-1d30298d684e.gif",
@@ -244,7 +268,17 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188518985367563/812084988731588618/5df3dacf-cbb5-4d2a-8853-1146a9f8a746.gif",
             "https://cdn.discordapp.com/attachments/804188518985367563/812085106192941116/06fb7076-abfd-440e-a6f8-e95e5c250949.gif",
             "https://cdn.discordapp.com/attachments/804188518985367563/812085158428541008/6ad374ba-c270-4635-aa62-e64bf95fcccb.gif",
-            "https://cdn.discordapp.com/attachments/804188518985367563/812085369780174868/6dfde2d6-94a0-468b-b0b5-0bb24cd6a0df.gif"]
+            "https://cdn.discordapp.com/attachments/804188518985367563/812085369780174868/6dfde2d6-94a0-468b-b0b5-0bb24cd6a0df.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818293171947175966/8f645928-5b9e-45fd-b6ba-60cce7f799ea.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818295532669501470/9e918b47-d0cf-4a25-a126-4e5b9e45f259.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818295659609718794/9ed43779-03cd-4edb-b790-7080cca3d74a.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818296726946578432/23a93a98-c57f-4636-b1c0-17ed0be44ba1.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818296953238192148/24b1f449-2da5-421f-9357-b11de942a131.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818296955788460042/23ea801e-1b8d-4ef8-89d5-cc6d3cc72c96.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818521670913884180/Tumblr_l_1093134586563156.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818521671626784858/Tumblr_l_1093136219713311.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818521672381497385/Tumblr_l_1093132497569042.gif",
+            "https://cdn.discordapp.com/attachments/804188518985367563/818521672918892544/Tumblr_l_1093131221403053.gif"]
 
         self.bot.exo_chen_gif = ["https://cdn.discordapp.com/attachments/804189007500148786/812081819025408000/0d88a762-e789-4083-9a9f-20c43cdd8528.gif",
             "https://cdn.discordapp.com/attachments/804189007500148786/812083862334603285/4a377461-050f-434b-8ac1-74d54831c901.gif",
@@ -303,7 +337,18 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188541231431700/812086208112623666/8bb518b4-a84b-47d2-875e-cfb891bb577c.gif",
             "https://cdn.discordapp.com/attachments/804188541231431700/812086216899821578/8cb774f7-bab1-400d-bc4d-aeae266df514.gif",
             "https://cdn.discordapp.com/attachments/804188541231431700/812086244246683668/8d0e7f8b-886b-4df1-86e0-51764e263d04.gif",
-            "https://cdn.discordapp.com/attachments/804188541231431700/812086246754615316/8d00f64a-f1c0-4ced-bd94-527284c8c450.gif"]
+            "https://cdn.discordapp.com/attachments/804188541231431700/812086246754615316/8d00f64a-f1c0-4ced-bd94-527284c8c450.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818293639465533510/9a8d4238-92f2-4c3c-844c-c3cc941f6412.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818295404160221194/9d881348-1e15-4f25-99dc-457bb2f2b0fa.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818295839948406794/11b603df-a4a5-4fd1-8c4e-e1717ee9a32a.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296282425720863/15dfb2f0-ff4f-4683-a534-9ec54f8fbb0b.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296578405564476/20bb54de-4dac-419f-977d-91e401bb1c2e.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296592624123944/21b762a3-fcda-4df5-9d31-5118628c5324.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296660152549376/21e286be-6b2c-4e82-9ea0-1dd3f73d4bc4.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296677277499442/22dd7c72-3a6c-4729-9840-a4494153404a.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296927199166534/23f3a650-aff4-45d8-bc25-0f70322c7207.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818296986251034654/25a93b04-4388-4a3d-bcee-c1af8a862d65.gif",
+            "https://cdn.discordapp.com/attachments/804188541231431700/818297006262583347/25afe9dc-972d-4414-be3b-a9a24391ea16.gif"]
 
         self.bot.exo_lay_gif = ["https://64.media.tumblr.com/7da14c8ed43d8b8e9d2e4fe4f7e94c66/94fe4f5961e578a1-36/s540x810/3613bde3b0d000e112a0ad2037aed2d677f890f9.gif",
             "https://64.media.tumblr.com/6dfb3a8af79e0b73b81ca6b225fc48bf/94fe4f5961e578a1-12/s540x810/9802cd57df8d5d4b651e6605eda7f952cffc54c8.gif",
@@ -341,7 +386,10 @@ class BGS(commands.Cog):
             "https://giphy.com/gifs/musicvideo-lay-layzhang-wJlhPRXRQy947E00MO",
             "https://giphy.com/gifs/sheep-lay-layzhang-orwArQiwsVu5GDXMoI",
             "https://giphy.com/gifs/interview-layzhang-buzzfeedceleb-TuhHuVWrUQv2wWKOJh",
-            "https://giphy.com/gifs/judge-lay-zhang-CSzDNTS1XUpgsy4teD"]
+            "https://giphy.com/gifs/judge-lay-zhang-CSzDNTS1XUpgsy4teD",
+            "https://cdn.discordapp.com/attachments/804189050193051669/818294875458895923/9bb046d4-10f4-4dcf-b5da-8b57079e7772.gif",
+            "https://cdn.discordapp.com/attachments/804189050193051669/818295008947077140/9ca8cf02-140d-44a2-b3b7-75c833a35b45.gif",
+            "https://cdn.discordapp.com/attachments/804189050193051669/818296381029744670/17d201bd-809c-4de0-9806-3a03b17692f3.gif"]
 
         self.bot.exo_xiumin_gif = ["https://cdn.discordapp.com/attachments/804189116748398633/812081403722334248/0b0f7062-b94d-4009-b283-eb7a4e472034.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812082498845540372/1c522771-cba9-478f-a442-5d1099cb8037.gif",
@@ -349,7 +397,9 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804189116748398633/812084475474870272/05eb5300-1b2b-4266-84e6-3e5b7522a1b7.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812084698272235530/5c756d00-df9f-47a3-a9af-ecc563bd8453.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/812085055698239488/5ed9f39f-1b24-48b6-9aa2-e953a47134f2.gif",
-            "https://cdn.discordapp.com/attachments/804189116748398633/812085576814821396/6fa39c57-a469-4552-b15e-3394d05ca193.gif"]
+            "https://cdn.discordapp.com/attachments/804189116748398633/812085576814821396/6fa39c57-a469-4552-b15e-3394d05ca193.gif",
+            "https://cdn.discordapp.com/attachments/804189116748398633/818296253749788702/14b98671-7a9f-49bd-95df-e9a69f63f396.gif",
+            "https://cdn.discordapp.com/attachments/804189116748398633/818296868709990400/23d135ed-1d6a-4ff4-b26d-dcdd1eeb64bd.gif"]
     #. Golden Child
         self.bot.golcha_joochan_gif = ["https://64.media.tumblr.com/2c33c38af5dce11489851532da286526/49083d489dab8ac6-50/s250x400/c32c3ed0a16e1f756fdf31e5cb11f25437be8f0b.gif",
             "https://64.media.tumblr.com/b8ae7388fffd66c19999686ac7a1aac6/ff9b924952edb88f-6c/s250x400/466b4f08403a990a70b57ebef74f7cd9b04bb5e7.gif",
@@ -375,13 +425,33 @@ class BGS(commands.Cog):
             "https://tenor.com/bd7j1.gif",
             "https://tenor.com/bf7sP.gif",
             "https://tenor.com/bgNOj.gif",
-            "https://tenor.com/bgNOJ.gif"]
+            "https://tenor.com/bgNOJ.gif",
+            "https://gfycat.com/KlutzyDisastrousBluetickcoonhound",
+            "https://gfycat.com/UnrealisticFrenchBeagle",
+            "https://gfycat.com/GreedyBrownKillerwhale",
+            "https://gfycat.com/WeightyWhirlwindDolphin",
+            "https://gfycat.com/UnrulyWellinformedChafer",
+            "https://gfycat.com/SecretInsidiousGoa",
+            "https://gfycat.com/UnpleasantDishonestAzurevasesponge",
+            "https://gfycat.com/LeftPessimisticHare",
+            "https://gfycat.com/SomeTheseHedgehog",
+            "https://gfycat.com/RepulsiveBlackandwhiteIcelandichorse",
+            "https://gfycat.com/SnoopyTimelyHogget",
+            "https://gfycat.com/GiftedLoathsomeAlpinegoat",
+            "https://gfycat.com/PrestigiousTidyEuropeanfiresalamander",
+            "https://gfycat.com/SpiritedClosedBilby",
+            "https://gfycat.com/PlasticWelldocumentedEland"]
 
         self.bot.golcha_y_gif = ["https://64.media.tumblr.com/55e48640d01cecdcc5023d2747fefd09/020f7b17338f6291-31/s250x400/6ce3f7faa33d5fd05105c26f30b92edaebd1324a.gif",
             "https://64.media.tumblr.com/18ee933ba44cd38c78266d09ba5e775a/28c3096dd7c4a6ca-ae/s250x400/8d1eb15ab4d52d1f8108712b3f350f928ef31263.gif",
             "https://64.media.tumblr.com/106f3731492a46879ae77b192c262857/28c3096dd7c4a6ca-69/s250x400/91ae13796478d7ae3a78e123928058f1818af070.gif",
             "https://64.media.tumblr.com/33cbe957d13ce460dbb7486ec19fd1c9/49083d489dab8ac6-75/s250x400/d91de7cd0bd2115ccb53309897dbbb9354ab0fbe.gif",
-            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif"]
+            "https://64.media.tumblr.com/e3db72e153db96d71cc9f874baf76acd/da6d02ac512c0c52-52/s250x400/f0701e828b2a9c8f08fe6101c94e67ab7b3f3912.gif",
+            "https://gfycat.com/SaltyCavernousCornsnake",
+            "https://gfycat.com/ThatIndelibleIrukandjijellyfish",
+            "https://gfycat.com/DenseParallelKawala",
+            "https://gfycat.com/JitteryAggressiveEelelephant",
+            "https://gfycat.com/HairyFluidGrizzlybear"]
     #. The Boyz
         self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
             "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
@@ -393,7 +463,8 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/bc1b14d49511dc2492baadf4c890a136/tumblr_pnr6fpPREm1y76lgdo8_250.gif",
             "https://64.media.tumblr.com/24425f03695c86bb43573fd4970f4489/tumblr_pnr6fpPREm1y76lgdo1_250.gif",
             "https://64.media.tumblr.com/d5af6183784a011c7125f1ed874529a3/tumblr_pjyoqwXydm1xk8jydo3_250.gif",
-            "https://64.media.tumblr.com/fecf7ab54b06c8007e225826d4fc503f/tumblr_pmmmgdUDLa1wvslp2o3_250.gif"]
+            "https://64.media.tumblr.com/fecf7ab54b06c8007e225826d4fc503f/tumblr_pmmmgdUDLa1wvslp2o3_250.gif",
+            "https://tenor.com/view/kevin-moon-the-boyz-the-boyz-kevin-canadian-singer-handsome-gif-17250561"]
 
         self.bot.theboyz_sangyeon_gif = ["https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-sangyeon-lee-sangyeon-kpop-gif-16153887",
             "https://tenor.com/view/the-boyz-tbz-sangyeon-lee-sangyeon-handsome-gif-17895565",
@@ -483,7 +554,8 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/987a75b71d5b2e22f1de303e7c6a7d37/44e2f4a779345e33-d0/s250x400/59b060a4fa804d7261f04cb2eb1401ac61d160b8.gif",
             "https://64.media.tumblr.com/8df6f96a0ba9d8b75115d97a7877c8d0/fb2141e86ef4000c-4c/s500x750/ddba9518fd34bed3e406d0540f917aa263802501.gif",
             "https://64.media.tumblr.com/d1f917363f7233b9839b4c1f04157a19/2a95678bbf1d6ff7-0c/s250x400/8feeab15f6438bf1952286110fc4ec239e7e7f00.gif",
-            "https://64.media.tumblr.com/27cda92df9e2733e9141c9b07e688ad8/3bc76cabf7f13e6f-99/s250x400/f1e88a311f3343532e09ae936b031ce6136d3477.gif"]
+            "https://64.media.tumblr.com/27cda92df9e2733e9141c9b07e688ad8/3bc76cabf7f13e6f-99/s250x400/f1e88a311f3343532e09ae936b031ce6136d3477.gif",
+            "https://tenor.com/view/handsome-the-boyz-juyeon-tbz-kpop-gif-17904898"]
 
         self.bot.theboyz_new_gif = ["https://tenor.com/view/chanhee-the-boyz-kpop-new-the-boyz-new-gif-17717658",
             "https://tenor.com/view/chanhee-thumbs-up-supportive-the-boyz-tbz-gif-18955020",
@@ -630,7 +702,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206376210661406/800262218733322270/image0.gif",
             "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392814",
             "https://tenor.com/view/jiung-p1h-p1harmony-choi-jiung-gif-20392787",
-            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855"]
+            "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jiung-choi-jiung-gif-19887400"]
 
         self.bot.p1harmony_jongseob_gif = ["https://cdn.discordapp.com/attachments/800206414597455872/800262445016809472/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262445314211850/image1.gif",
@@ -650,7 +723,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019380342804/image0.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019929665566/image1.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263020420005908/image2.gif",
-            "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452"]
+            "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-yoon-keeho-keeho-gif-19887399"]
 
         self.bot.p1harmony_soul_gif = ["https://cdn.discordapp.com/attachments/800206684193685504/800263221390213170/image0.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263221792473088/image1.gif",
@@ -670,7 +744,8 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206797604519936/800264225443676210/image0.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226001387540/image1.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226445852693/image2.gif",
-            "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif"]
+            "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif",
+            "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435"]
     #. SF9
         self.bot.sf9_chani_gif = ["https://cdn.discordapp.com/attachments/805178530279325697/805179888738893834/image0.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805179889082564638/image1.gif",
@@ -899,7 +974,22 @@ class BGS(commands.Cog):
             "https://tenor.com/view/key-onew-kibum-kfc-mcdonalds-gif-10144594",
             "https://tenor.com/view/shinee-key-kibum-laugh-kpop-gif-8836694",
             "https://tenor.com/view/key-shinee-kim-ki-bum-ki-bum-shawol-gif-19757690",
-            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300"]
+            "https://tenor.com/view/kibum-key-kim-kibum-hair-swipe-wink-gif-17083300",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818521865722658847/Tumblr_l_1093753469659430.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522020672831528/Tumblr_l_1093778223299733.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522140760211456/Tumblr_l_1093823891117320.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522501780865034/Tumblr_l_1093903089315154.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522502924861440/Tumblr_l_1093901825891926.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522504481472582/Tumblr_l_1093900612961405.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522505387048970/Tumblr_l_1093899873615051.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522613420261376/Tumblr_l_1093933063861653.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818522614153871400/Tumblr_l_1093931151890560.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523085556285440/Tumblr_l_1094042337450362.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523086798061608/Tumblr_l_1094040747084373.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523147191451738/Tumblr_l_1094056187179054.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523311268692038/Tumblr_l_1094094368269613.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523311909634079/Tumblr_l_1094092720400394.gif",
+            "https://cdn.discordapp.com/attachments/813235635456180264/818523313609113620/Tumblr_l_1094091764464978.gif"]
 
         #^ taemin is a soloist rn, under taemin_gif
 
@@ -907,14 +997,21 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/815306142754144317/Tumblr_l_692393651383630.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/815306143340822538/Tumblr_l_692392334254673.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/815306144050315285/Tumblr_l_692389950153528.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/815306145329053756/Tumblr_l_692388125691081.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522164767752233/Tumblr_l_1093819773775394.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522232736317490/Tumblr_l_1093817018279458.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522233567445012/Tumblr_l_1093815401908886.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818522901275869214/Tumblr_l_1093978031450178.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
             "https://tenor.com/view/minho-choi-shinee-shineeworld-gif-13334159",
             "https://tenor.com/view/shinee-minho-cute-smile-pose-gif-12562760",
             "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
-            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
+            "https://cdn.discordapp.com/attachments/813235536469688320/818522920153907200/Tumblr_l_1093983344508301.gif",
+            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif"]
 
         self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
             "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
@@ -931,7 +1028,10 @@ class BGS(commands.Cog):
             "https://tenor.com/view/kpop-korean-shinee-group-concert-gif-3521477",
             "https://tenor.com/view/shinee-laugh-kpop-group-pic-gif-12082547",
             "https://tenor.com/view/shinee-onew-lee-jinki-key-kim-kibum-gif-17083221",
-            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif"]
+            "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522362231914506/Tumblr_l_1093874306738030.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522363137622026/Tumblr_l_1093873282275530.gif",
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
@@ -962,7 +1062,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750522",
             "https://tenor.com/view/vav-jacob-vav-jacob-jacob-vav-zhang-peng-gif-15434946",
             "https://tenor.com/view/vav-jacob-vav-jacob-zhang-peng-gif-14504218",
-            "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750525"]
+            "https://tenor.com/view/vav-jacob-jang-peng-rapper-vocalist-gif-17750525",
+            "https://cdn.discordapp.com/attachments/796980439843602472/818292834741649408/8e4c9975-c69c-46be-888c-7542d2f54edf.gif"]
 
         self.bot.vav_lou_gif = ["https://cdn.discordapp.com/attachments/796980537432211456/800508974705147914/image0.gif",
             "https://cdn.discordapp.com/attachments/796980537432211456/800509040115056700/image0.gif",

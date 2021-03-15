@@ -30,7 +30,9 @@ class EnhypenPings(commands.Cog):
             "https://tenor.com/view/sunoo-sunoo-enhypen-sunoo-sunflower-iland-iland-sunoo-gif-18676497",
             "https://tenor.com/view/enhypen-iland29-%E3%82%BD%E3%83%8C-gif-19801932",
             "https://tenor.com/view/sunoo-enhypen-gif-19394237",
-            "https://tenor.com/view/sunoo-kim-sunoo-sunoo-enhypen-seattltes-sunoo-cute-gif-20342832"]
+            "https://tenor.com/view/sunoo-kim-sunoo-sunoo-enhypen-seattltes-sunoo-cute-gif-20342832",
+            "https://tenor.com/view/sunoo-sunoo-gif-sunoo-gifs-enhypen-enhypen-gif-gif-20188099",
+            "https://tenor.com/view/sunoo-sunoo-enhypen-kim-sunoo-gif-20703332"]
 
         self.bot.sunghoon_gif = ["https://tenor.com/view/sunghoon-parksunghoon-sunghoon-iland-gif-18497043",
             "https://tenor.com/view/sunghoon-parksunghoon-iland-sunghoon-iland-sunghoon-enhypen-gif-18588345",

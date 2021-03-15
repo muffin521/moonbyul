@@ -165,7 +165,8 @@ class ItzyPings(commands.Cog):
             "https://i.pinimg.com/originals/77/d6/59/77d6598424121959d4bc756eb405d359.gif",
             "https://images6.fanpop.com/image/photos/42300000/Ryujin-itzy-42306296-480-357.gif",
             "https://i.pinimg.com/originals/6b/6a/cb/6b6acb40a7d94cca1e33bd2763bcfa9c.gif",
-            "https://i.pinimg.com/originals/c0/af/b3/c0afb3d4cf692518294820ad6cb1af5b.gif"]
+            "https://i.pinimg.com/originals/c0/af/b3/c0afb3d4cf692518294820ad6cb1af5b.gif",
+            "https://tenor.com/view/ryujin-hot-gif-20106938"]
 
         self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",

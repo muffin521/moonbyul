@@ -142,7 +142,18 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/84c3260b2c4541c832a7aaf1ac6c8dfc/c5a0ac2a1400fea3-52/s400x600/f8281ec4217e119f547d97932acf428fcdab166e.gif",
             "https://i.pinimg.com/originals/7e/bc/f0/7ebcf052ee604cabc7c009d7d043d349.gif",
             "https://data.whicdn.com/images/306074266/original.gif",
-            "https://data.whicdn.com/images/305825416/original.gif"]
+            "https://data.whicdn.com/images/305825416/original.gif",
+            "https://thumbs.gfycat.com/AccurateSingleIberianchiffchaff-size_restricted.gif",
+            "https://i1.wp.com/i.pinimg.com/originals/f2/b5/a0/f2b5a02d3cd4dca37eea21480188a8c8.gif?w=1170&ssl=1",
+            "https://64.media.tumblr.com/bc1a3e7b9cf8ba0d43cff52badc30e6a/d4f173de100e5191-de/s540x810/3148ef262ca9e48a2cd8961db82860fd3b6cf2dc.gif",
+            "https://68.media.tumblr.com/e8c6162069648b98949f3794b44686e4/tumblr_omxs06alBd1vjm2bjo1_400.gif",
+            "https://64.media.tumblr.com/f3f7888edfc20a780933925dac834a4b/10d12564e261d98a-0d/s500x750/609ba7a8500cfb2247ff0453fce56c29aeae5274.gif",
+            "https://64.media.tumblr.com/635758dd1dcfbb9db8c22e3f3d1d2e47/f3c9cf633faaba16-58/s540x810/8abc38e7b1f17ba98cb387c2163c2d841f3be925.gif",
+            "https://64.media.tumblr.com/4a111386bd9face2ebad3cb95abaa564/4e5e0ecfca7e91f0-81/s540x810/3d85e6cd99cf22326169a57366588576d96b0273.gif",
+            "https://tenor.com/view/blackpink-ros%C3%A9-gone-solo-happy-gif-20184346",
+            "https://tenor.com/view/rose-blackpink-on-the-ground-mv-music-gif-20713348",
+            "https://tenor.com/view/blackpink-ros%C3%A9-gone-solo-thinking-gif-20184330",
+            "https://tenor.com/view/blackpink-ros%C3%A9-gone-solo-flower-gif-20184472"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",

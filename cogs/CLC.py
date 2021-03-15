@@ -52,8 +52,7 @@ class CLC(commands.Cog):
         self.bot.clc_eunbin_gif = ["https://tenor.com/RCQt.gif",
             "https://tenor.com/RCSH.gif",
             "https://tenor.com/9gg1.gif",
-            "https://tenor.com/view/devil-crystal-clear-mbc-music-core-kwon-eunbin-kpop-gif-15048708",
-            "https://tenor.com/view/kwon-eunbin-clc-bad-papa-gif-13252690"]
+            "https://tenor.com/view/devil-crystal-clear-mbc-music-core-kwon-eunbin-kpop-gif-15048708"]
 
         self.bot.clc_yujin_gif = ["https://tenor.com/ba9ol.gif",
             "https://tenor.com/bunmO.gif",
@@ -63,7 +62,6 @@ class CLC(commands.Cog):
 
         self.bot.clc_seunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
             "https://tenor.com/view/crystal-clear-kpop-phone-devil-gif-14977696",
-            "https://tenor.com/view/clc-summer-kiss-oh-seunghee-gif-13252734",
             "https://tenor.com/view/eyebrow-kpop-bangs-clc-oh-gif-14148382",
             "https://tenor.com/view/oh-seunghee-clc-gif-13251990"]
 

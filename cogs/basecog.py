@@ -186,7 +186,7 @@ class gifcog(commands.Cog):
                 for x in self.bot.clc_seunghee_gif:
                     await ctx.send(x)
             elif arg == "clc elkie":
-                for x in self.bot.elkie_gif:
+                for x in self.bot.clc_elkie_gif:
                     await ctx.send(x)
             elif arg == "clc yujin":
                 for x in self.bot.clc_yujin_gif:

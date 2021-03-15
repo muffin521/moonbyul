@@ -176,7 +176,24 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/alertredamethystsunbird",
             "https://gfycat.com/aggravatingparchedchupacabra",
             "https://i.pinimg.com/originals/ee/04/03/ee04037e3aafeb682eb6706c4ee952c5.gif",
-            "https://tenor.com/view/box-hide-face-asian-girl-gif-4641619"]
+            "https://tenor.com/view/box-hide-face-asian-girl-gif-4641619",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495812380262410/IU_gif_17.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495818738303026/IU_gif_14.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495851109285928/IU_gif_2.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495871330156565/IU_gif_15.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495876153606154/IU_gif_1.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495876175495208/IU_gif_13.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495888611737620/IU_gif_19.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495889303273476/IU_gif_16.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495905950466058/IU_gif_9.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495923427606538/IU_gif_6.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495928561434674/IU_gif_8.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495935339429908/IU_gif_7.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495941794594826/IU_gif_4.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495957233565706/IU_gif_5.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495958107160596/IU_gif_18.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495970651668490/IU_gif_11.gif",
+            "https://cdn.discordapp.com/attachments/811821296425893918/818495971238740029/IU_gif_12.gif"]
 
         self.bot.somi_gif = ["https://tenor.com/view/jeon-somi-ioi-pout-thinking-gif-14321378",
             "https://tenor.com/view/jeon-somi-ioi-fake-smile-laugh-gif-14321383",
@@ -273,7 +290,12 @@ class SoloPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/811453123267657739/812085464135761920/6eb3220e-aa85-415b-b31b-c3e80ab42088.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/812085950640291860/7ecc87fd-31ca-4d7a-8612-9d8f93a707c3.gif",
             "https://tenor.com/view/hug-big-for-you-jonghyun-gif-13110586",
-            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724"]
+            "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724",
+            "https://cdn.discordapp.com/attachments/811453123267657739/818295123707953162/9cd4e263-6389-49b2-a7c6-5b2f7aaab95e.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/818296348042067978/16c7c180-328a-470d-b19e-8e0a86491144.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/818522280513503272/Tumblr_l_1093819102434770.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/818522934837772328/Tumblr_l_1093984449994811.gif",
+            "https://cdn.discordapp.com/attachments/811453123267657739/818523168313573416/Tumblr_l_1094056768268794.gif"]
 
         self.bot.woodz_gif = ["https://tenor.com/view/cho-seungyoun-seungyoun-jo-seung-yeon-seung-yeon-%EC%8A%B9%EC%97%B0-gif-14259988",
             "https://tenor.com/view/woodz-uniq-choseungyoun-gif-20298646",
@@ -320,7 +342,9 @@ class SoloPings(commands.Cog):
             "https://giphy.com/gifs/kriswu-november-rain-kris-wu-29oeKjE5c1oC56pWso",
             "https://giphy.com/gifs/interscope-kris-wu-like-that-vvJmqePcGPGfnAhKYO",
             "https://giphy.com/gifs/coffee-kriswu-chuang2020-l10O6D2H1bFjUcCu2c",
-            "https://giphy.com/gifs/wetv-kriswu-chuang2020-kYRDnIP2F7eh9k2ZYZ"]
+            "https://giphy.com/gifs/wetv-kriswu-chuang2020-kYRDnIP2F7eh9k2ZYZ",
+            "https://cdn.discordapp.com/attachments/804189492516093992/818296160144982046/13f8bb8e-9a59-4519-bed5-072ccd10ad5e.gif",
+            "https://cdn.discordapp.com/attachments/804189492516093992/818296748123357184/21fa83d6-a68b-4e2c-bf01-1f65ca592e2f.gif"]
 
         self.bot.luhan_gif = ["https://cdn.discordapp.com/attachments/804189463277469716/812084025320669184/4c01a4b2-8fb5-453f-88df-dd52103e2962.gif",
             "https://giphy.com/gifs/mv-luhan-promises-MBheKRryjmyfx7AKpu",

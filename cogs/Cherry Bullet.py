@@ -223,7 +223,15 @@ class CherryBullet(commands.Cog):
             "https://cdn.discordapp.com/attachments/805984467596345364/805990677476671518/image0.gif",
             "https://cdn.discordapp.com/attachments/805984467596345364/805990678357999691/image2.gif",
             "https://cdn.discordapp.com/attachments/805984467596345364/805990724868112384/image0.gif",
-            "https://cdn.discordapp.com/attachments/805984467596345364/805990725380210719/image1.gif"]
+            "https://cdn.discordapp.com/attachments/805984467596345364/805990725380210719/image1.gif",
+            "https://64.media.tumblr.com/ff5db8934d65967499f6a9b1e2eeac8b/3e8ae42d188a3377-05/s400x600/edc0f76e75a22d72a72a9042497d76174da1f8a3.gif",
+            "https://64.media.tumblr.com/bb65b51e93dba1d0543e57faaa4d1c0c/3e8ae42d188a3377-fd/s400x600/3b6cb895fb5fc66b74f994d8f04a04ab0184d129.gif",
+            "https://64.media.tumblr.com/95c8b28dca72ac6e4397980b03a3a1b0/dd68639adb58af99-c3/s400x600/3b42ab7a99da508c2891a26d306d4dc18c591869.gif",
+            "https://64.media.tumblr.com/cc0bb951397a9b48552cc3bed712eb34/dd68639adb58af99-5c/s400x600/b0f45122dc54eaf186648f68cc30b79873ec7b9c.gif",
+            "https://64.media.tumblr.com/8c45061c90bc9cd8e79ce827db9e5954/tumblr_pmq4uos8Sk1ui9xsvo2_400.gif",
+            "https://64.media.tumblr.com/04a48210a3e41f0c191a71304d5bbb2a/tumblr_piyfwbwdbc1qg5nyao1_400.gif",
+            "https://64.media.tumblr.com/1bf428c8ecb55b88d3b9dc5da6a3f71f/tumblr_plu79mIcRK1s2vcg0o3_400.gif",
+            "https://64.media.tumblr.com/50b5779e3a986e1491e445561b1f45e9/tumblr_plu79mIcRK1s2vcg0o4_400.gif"]
 
     @commands.command(aliases = ['chebul'])
     async def cherry(self, ctx, *, arg):

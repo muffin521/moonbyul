@@ -191,7 +191,25 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/excitablescratchyicelandichorse-chaeyeon-izone-nako",
             "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
             "https://gfycat.com/powerlesshighkatydid",
-            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif"]
+            "https://cdn1.diodeo.kr/cdn/webzine/2019/11/29/20191129121516_zkgagfdu.gif",
+            "https://gfycat.com/fakedaringkiskadee",
+            "https://gfycat.com/activebriskamericanwarmblood",
+            "https://gfycat.com/spectacularkaleidoscopicboubou",
+            "https://gfycat.com/ethicalwildindianjackal",
+            "https://gfycat.com/grimornerygermanwirehairedpointer",
+            "https://gfycat.com/inconsequentialrecentcrow",
+            "https://gfycat.com/SnoopyTimelyHogget",
+            "https://gfycat.com/GiftedLoathsomeAlpinegoat",
+            "https://gfycat.com/PrestigiousTidyEuropeanfiresalamander",
+            "https://gfycat.com/aromaticdimwittedglassfrog",
+            "https://gfycat.com/ImpressionableEducatedEider",
+            "https://gfycat.com/ChillyZanyGalapagosmockingbird",
+            "https://gfycat.com/HilariousJoyfulBushsqueaker",
+            "https://gfycat.com/YellowishHonorableKinkajou",
+            "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
+            "https://gfycat.com/euphoricfeistykookaburra",
+            "https://gfycat.com/quickfixedindianhare",
+            "https://tenor.com/view/yeri-red-velvet-gif-11323706"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -207,13 +225,15 @@ class gamerPings(commands.Cog):
             "Utah",
             "Yuta",
             "Runa",
-            "Robtuna",
+            "Robotuna",
             "Tetanus",
             "Toupe",
             "Toonami",
             "Toothpaste",
             "Toonies",
-            "2na"]
+            "2na",
+            "Attituna",
+            "Toilet Lid"]
 
     @commands.command()
     async def dreammc(self, ctx):
@@ -321,6 +341,14 @@ class gamerPings(commands.Cog):
         await ctx.send(f'*{random.choice(self.tuna_wrong)}')
 
     @commands.command()
+    async def nomi(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Nomi] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'<:nomiVERYbuffbackwards:818618947293282364><:neck:816367879209091113><:nomiVERYbuff:817139078641745940>')
+
+    @commands.command()
     async def llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
@@ -360,16 +388,16 @@ class gamerPings(commands.Cog):
             person = ctx.author.name
         else:
             person = name
-        number = random.randint(1,5)
+        number = random.randint(1,4)
         if number == 1:
             await ctx.send(f'Hey, {person} are you a short little bald white boy on a television kids show?\nBecause youre Caillou-te')
-        elif number == 2:
-            await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
+        # elif number == 2:
+        #     await ctx.send(f'If you are the us police can I be systematic racism?\nBecause I think we\'d be naturally together')
         elif number == 3:
             await ctx.send(f'Hey, {person}, are you Bae Suzy?\nBecause you could literally punch me and I\'d be thankful')
         elif number == 4:
             await ctx.send(f'Hey, {person},  are you hawaiin bread rolls?\nBecause I love your buns')
-        elif number == 5:
+        elif number == 2:
             await ctx.send(f'Hey, {person}, are you Jo Yuri?\nBecause, Jo, Yuri-lly pretty')
         else:
             await ctx.send(f'{person}, please report this to @muffin521#9280, or in the support server: https://discord.gg/Ntk9Jp26yx')
