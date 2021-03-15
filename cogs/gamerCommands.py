@@ -201,7 +201,14 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/SnoopyTimelyHogget",
             "https://gfycat.com/GiftedLoathsomeAlpinegoat",
             "https://gfycat.com/PrestigiousTidyEuropeanfiresalamander",
-            "https://gfycat.com/aromaticdimwittedglassfrog"]
+            "https://gfycat.com/aromaticdimwittedglassfrog",
+            "https://gfycat.com/ImpressionableEducatedEider",
+            "https://gfycat.com/ChillyZanyGalapagosmockingbird",
+            "https://gfycat.com/HilariousJoyfulBushsqueaker",
+            "https://gfycat.com/YellowishHonorableKinkajou",
+            "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
+            "https://gfycat.com/euphoricfeistykookaburra",
+            "https://gfycat.com/quickfixedindianhare"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
