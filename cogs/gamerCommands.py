@@ -291,16 +291,6 @@ class gamerPings(commands.Cog):
         await ctx.message.delete()
 
     @commands.command()
-    async def sex(self, ctx):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [sex] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if ctx.guild.id == jst:
-            await ctx. send(f'https://www.youtube.com/watch?v=VfCYZ3pks48&list=FLFkJiNcjfwfDWZMEHJ1C_Ew&index=522')
-            await ctx.message.delete()
-
-    @commands.command()
     async def ren(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
