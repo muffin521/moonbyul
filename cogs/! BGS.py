@@ -1688,7 +1688,11 @@ class BGS(commands.Cog):
             "https://tenor.com/view/ripjonghyun-kpop-korean-gif-10547066",
             "https://tenor.com/view/jonghyun-dancing-127baek-shinee-jonghyun-jonghyun-gif-20032175",
             "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724",
-            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445252668948530/Tumblr_l_239399224563101.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445253637570611/Tumblr_l_239397973464039.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255206502467/Tumblr_l_239400507954663.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif"]
 
         self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
             "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
@@ -1725,7 +1729,15 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/818522232736317490/Tumblr_l_1093817018279458.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/818522233567445012/Tumblr_l_1093815401908886.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/818522901275869214/Tumblr_l_1093978031450178.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445267944996925/Tumblr_l_239418077804396.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445268498120705/Tumblr_l_239416339838146.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445269018476584/Tumblr_l_239414946167522.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445269596504104/Tumblr_l_239414450535543.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445305169575976/Tumblr_l_239391294710708.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445305957449758/Tumblr_l_239389382270188.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445306539933726/Tumblr_l_239388140540188.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
