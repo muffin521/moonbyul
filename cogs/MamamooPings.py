@@ -152,7 +152,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-rbw-entertainment-gif-17529521",
             "https://tenor.com/view/mamamoo-gogobebe-wheein-laugh-gif-13827607",
             "https://tenor.com/view/bored-boring-wheein-mamamoo-kpop-gif-13821727",
-            "https://tenor.com/view/mamamoo-gogobebe-wheein-dance-gif-13827605"]
+            "https://tenor.com/view/mamamoo-gogobebe-wheein-dance-gif-13827605",
+            "https://media.giphy.com/media/WRZ49jIsUn83l65gOy/giphy.gif"]
 
         self.bot.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
             "https://tenor.com/view/mamamoo-solar-kim-yong-sun-leader-vocalist-gif-17148597",
