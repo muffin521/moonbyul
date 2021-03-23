@@ -3,16 +3,11 @@ from discord.ext import commands
 from datetime import datetime
 
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
-
-#//people
-
 
 class OhMyGirl(commands.Cog):
 
