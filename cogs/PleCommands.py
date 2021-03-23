@@ -33,14 +33,9 @@ class PlePings(commands.Cog):
     #kiki command for ple and mae
     @commands.command()
     async def kiki(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{ple}>, <@{mae}>, <@!{ctx.author.id}> is talking about Kiki')
-                await ctx.send(random.choice(self.bot.kiki_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+            await ctx.message.delete()
         else:
             await ctx.send(f'<@416903886968979466>, <@492769416610840586>, <@!{ctx.author.id}> is talking about Kiki')
             await ctx.send(random.choice(self.bot.kiki_gif))
