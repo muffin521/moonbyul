@@ -11,15 +11,6 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
-weakado = 259409277482041344
-jat = 236787566530134017
-k8 = 573974040679809044
-agus = 683791381667250208
-mae = 492769416610840586
-cronus = 186533260803833858
-luke = 150742733743587328
-
 class IzonePings(commands.Cog):
 
 #saku command is special for now bc i cant be asked to fix em rn
@@ -1976,7 +1967,7 @@ class IzonePings(commands.Cog):
         await channel.send(f"`{current_time} | USED COMMAND [Iz*One {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "sakura" or arg == "saku" or arg == "kkura":
             if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
-                await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
                 await ctx.send(random.choice(self.bot.sakura_gif))
                 await ctx.message.delete()
             elif ctx.guild.id == luminary and ctx.channel.id != kbotcom:
@@ -1989,7 +1980,7 @@ class IzonePings(commands.Cog):
         elif arg == "yuri" or arg == "jo yuri":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{jat}>, <@{k8}>, <@!{ctx.author.id}> is talking about Yuri <:minjuheart:787553396734951454>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Yuri <:minjuheart:787553396734951454>')
                     await ctx.send(random.choice(self.bot.yuri_gif))
                     await ctx.message.delete()
                 else:
@@ -2010,7 +2001,7 @@ class IzonePings(commands.Cog):
         elif arg == "minju" or arg == "minjoo":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{mae}>, <@{cronus}>, <@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Minju <:minjuheart:787553396734951454>')
                     await ctx.send(random.choice(self.bot.minju_gif))
                     await ctx.message.delete()
                 else:
@@ -2023,7 +2014,7 @@ class IzonePings(commands.Cog):
         elif arg == "wonyoung":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{mae}>, <@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Wonyoung <:wonyoungheart:787552538907115571>')
                     await ctx.send(random.choice(self.bot.wonyoung_gif))
                     await ctx.message.delete()
                 else:
@@ -2036,7 +2027,7 @@ class IzonePings(commands.Cog):
         elif arg == "hyewon":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Hyewon <:hyewonheart:787552503121313832>')
                     await ctx.send(random.choice(self.bot.hyewon_gif))
                     await ctx.message.delete()
                 else:
@@ -2049,7 +2040,7 @@ class IzonePings(commands.Cog):
         elif arg == "chaewon":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{agus}>, <@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Chaewon <:chaewonheart:787552449631879168>')
                     await ctx.send(random.choice(self.bot.chaewon_gif))
                     await ctx.message.delete()
                 else:
@@ -2086,7 +2077,7 @@ class IzonePings(commands.Cog):
         elif arg == "nako":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Nako <:nakoheart:787542480690216981>')
                     await ctx.send(random.choice(self.bot.nako_gif))
                     await ctx.message.delete()
                 else:
@@ -2099,7 +2090,7 @@ class IzonePings(commands.Cog):
         elif arg == "hitomi":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Hitomi <:hitomiheart:787552489569517578>')
                     await ctx.send(random.choice(self.bot.hitomi_gif))
                     await ctx.message.delete()
                 else:
@@ -2112,7 +2103,7 @@ class IzonePings(commands.Cog):
         elif arg == "group":
             if ctx.guild.id == luminary:
                 if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@!{ctx.author.id}> is talking about Iz*One :heart:')
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Iz*One :heart:')
                     await ctx.send(random.choice(self.bot.izone_group_gif))
                     await ctx.message.delete()
                 else:
@@ -2146,7 +2137,7 @@ class IzonePings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Ame] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if (ctx.channel.id == kbotcom and ctx.guild.id == luminary) or ctx.guild.id == jst or ctx.guild.id == sadboi:
-            await ctx.send(f'<@{weakado}>, <@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sakura <:sakuraheart:787552522130554891>')
             await ctx.send(random.choice(self.bot.sakura_gif))
             await ctx.message.delete()
         elif ctx.guild.id == luminary and ctx.channel.id != kbotcom:
