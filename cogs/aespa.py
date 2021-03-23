@@ -144,7 +144,9 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/c08231f25bbf9db8d8d059b6ebdf0c93/9f12c101faf5aad2-82/s540x810/88d80b65bab4d1cfdfefad913facce02e64bf6c9.gif",
             "https://64.media.tumblr.com/8c8ff527353c00577ff67084dab6ef4a/038233fae3e5404b-58/s400x600/e1a2ba24c9918e0b5b84bc2090834b0401bd7337.gif",
             "https://64.media.tumblr.com/ca7a40876317bff2683ecfdf06462330/038233fae3e5404b-9c/s400x600/0606d41607027fcba6d0968bf7bf43b560545589.gif",
-            "https://64.media.tumblr.com/b55e278f99002e78ee01425e79c41692/1afa7cbad15c9063-81/s540x810/8faa4285b18a1b25b85545f00a36e12126addc6e.gif"]
+            "https://64.media.tumblr.com/b55e278f99002e78ee01425e79c41692/1afa7cbad15c9063-81/s540x810/8faa4285b18a1b25b85545f00a36e12126addc6e.gif",
+            "https://gfycat.com/nervouseasygoingandeancondor",
+            "https://gfycat.com/weehideousaddax"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
