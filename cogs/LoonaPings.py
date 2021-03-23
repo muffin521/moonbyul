@@ -137,7 +137,8 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/ChillyZanyGalapagosmockingbird",
             "https://gfycat.com/HilariousJoyfulBushsqueaker",
             "https://gfycat.com/YellowishHonorableKinkajou",
-            "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse"]
+            "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
+            "https://gfycat.com/gloomyfittingape"]
 
         self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
