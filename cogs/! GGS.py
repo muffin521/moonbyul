@@ -821,7 +821,6 @@ class GGS(commands.Cog):
             "https://gfycat.com/tanhatefuladeliepenguin-mechabear-momoland-hyebin-kpop",
             "https://gfycat.com/horriblesoftgosling-hyebin-momoraendeu",
             "https://gfycat.com/samedistantbichonfrise-lee-hyebin-momoland",
-            "https://gfycat.com/caringpresentindianskimmer-girlgroup-reaction-boygroup-comeback",
             "https://gfycat.com/grayannualaustralianfurseal",
             "https://gfycat.com/snappywatchfulfulmar-momoland-hyebin-kpop",
             "https://gfycat.com/differentselfishalbertosaurus-momoland-hyebin-kpop",
@@ -868,7 +867,6 @@ class GGS(commands.Cog):
             "https://gfycat.com/illiteratedisguiseddrongo-mechabear-momoland-kpop-jane",
             "https://gfycat.com/deepillustriousconure",
             "https://gfycat.com/shallowscrawnyasianpiedstarling-momoland-jane-kpop",
-            "https://gfycat.com/vibrantpointedangelwingmussel-buzzfeedceleb-celebrities-momoland",
             "https://gfycat.com/defenselesscompassionatebull-relay-dance-im-so-hot-momoland-jane",
             "https://gfycat.com/familiardismalaardvark",
             "https://gfycat.com/favorablegleamingesok-momoland-jane-momoraendeu-jein",
@@ -887,7 +885,9 @@ class GGS(commands.Cog):
             "https://gfycat.com/openblackandwhiteindianringneckparakeet-mechabear-momoland-kpop",
             "https://gfycat.com/blaringlastingconch-post-chorus-relay-dance-nayun",
             "https://gfycat.com/generalinfinitekookaburra-relay-dance-im-so-hot-momoland-nayun",
-            "https://gfycat.com/indeliblelegalarrowworm-momoland-nayun-momoraendeu-nayun"]
+            "https://gfycat.com/indeliblelegalarrowworm-momoland-nayun-momoraendeu-nayun",
+            "https://gfycat.com/jovialcourteouscommabutterfly-kim-nayun-momoland-beauty",
+            "https://gfycat.com/handsomeforsakenbrocketdeer-thumbs-up-idol-room-momoland-variety-nayun-kpop"]
 
         self.bot.momoland_jooe_gif = ["https://media1.tenor.com/images/5a38b14f9cf18f14b1a6cf5f539265af/tenor.gif?itemid=15044807",
             "https://i.pinimg.com/originals/ae/84/13/ae841301114cf500493089d823b7fb8c.gif",
@@ -964,9 +964,7 @@ class GGS(commands.Cog):
             "https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
             "https://data.whicdn.com/images/305271470/original.gif",
             "https://gfycat.com/delightfulflashyjackrabbit-transonglation-ready-or-not-momoland-rolling",
-            "https://gfycat.com/inferiorgoldenfrilledlizard",
-            "https://gfycat.com/jovialcourteouscommabutterfly-kim-nayun-momoland-beauty",
-            "https://gfycat.com/handsomeforsakenbrocketdeer-thumbs-up-idol-room-momoland-variety-nayun-kpop"]
+            "https://gfycat.com/caringpresentindianskimmer-girlgroup-reaction-boygroup-comeback"]
 
         self.bot.momoland_nancy_gif = ["https://gfycat.com/AbsolutePleasedIndianspinyloach",
             "https://gfycat.com/AdmiredEverlastingBaiji",
@@ -1016,7 +1014,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/orangetangibleamazontreeboa-momoland",
             "https://gfycat.com/bigheartedgrossgordonsetter-momoland-nancy",
             "https://gfycat.com/cluelessgrandioseaplomadofalcon-momoland-nancy",
-            "https://gfycat.com/chubbyelementarybilby-nancy-momoland"]
+            "https://gfycat.com/chubbyelementarybilby-nancy-momoland",
+            "https://gfycat.com/vibrantpointedangelwingmussel-buzzfeedceleb-celebrities-momoland"]
     #. SNSD
         self.bot.snsd_jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
             "https://tenor.com/view/jessica-jung-kpop-ginkoro-jessica-wonderland-gif-18005874",
