@@ -211,7 +211,11 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/quickfixedindianhare",
             "https://tenor.com/view/yeri-red-velvet-gif-11323706",
             "https://gfycat.com/RecklessRewardingEidolonhelvum",
-            "https://gfycat.com/UnhappyBadBeetle"]
+            "https://gfycat.com/UnhappyBadBeetle",
+            "https://tenor.com/view/crystal-clear-yeeun-korean-cute-gif-16805024",
+            "https://tenor.com/view/kwon-eunbin-eunbin-clc-maknae-cube-entertainment-gif-17697064",
+            "https://tenor.com/view/cute-yujin-clc-hi-wave-gif-13944583",
+            "https://tenor.com/view/clc-elkie-hungry-eating-gif-13944518"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
