@@ -1123,7 +1123,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/flickeringmassivebichonfrise",
             "https://gfycat.com/tenderbigheartedkittiwake",
             "https://gfycat.com/handsomebeautifulafricangroundhornbill",
-            "https://gfycat.com/TenseUnfoldedLeopardseal"]
+            "https://gfycat.com/TenseUnfoldedLeopardseal",
+            "https://gfycat.com/discretevaluableharpseal",
+            "https://gfycat.com/livelydiligentfanworms"]
 
         self.bot.wonyoung_gif = ["https://gfycat.com/illfatedjollyamericanwigeon",
             "https://gfycat.com/finishedspecificagouti",
@@ -1207,7 +1209,8 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/harmlessmerrychevrotain",
             "https://gfycat.com/faragileblackrhino",
             "https://gfycat.com/easygoingwavyicterinewarbler",
-            "https://tenor.com/bfQa0.gif"]
+            "https://tenor.com/bfQa0.gif",
+            "https://gfycat.com/talkativefragrantizuthrush-hyewon"]
 
         self.bot.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/loathsomecommonamericancicada",
@@ -1543,7 +1546,16 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/40f163ddde1422ae4cdff2332df6d096/tumblr_pyngy7O7EO1qafgzno1_540.gif",
             "https://64.media.tumblr.com/b2fb69ad393580d1ecd84fe3220cdb67/tumblr_pyngy7O7EO1qafgzno2_r1_540.gif",
             "https://64.media.tumblr.com/c8469e3004fa7b11907c85a7cf5acae2/tumblr_pn4nwepyi91qafgzno1_400.gif",
-            "https://64.media.tumblr.com/1ed593f6782739670f0cd8fb62049d9d/tumblr_pn4nwepyi91qafgzno4_r1_400.gif"]
+            "https://64.media.tumblr.com/1ed593f6782739670f0cd8fb62049d9d/tumblr_pn4nwepyi91qafgzno4_r1_400.gif",
+            "https://64.media.tumblr.com/f86ab842bebf122bcd02c7783ca4c44e/8b2476b52d0771a7-67/s540x810/83e70a9f779ff3f9331e56e63775ee3464c5c0ad.gif",
+            "https://64.media.tumblr.com/fc3f61ccf33fb56b6dbc09eb7b7a4058/8b2476b52d0771a7-81/s540x810/dbe1fc561eaf3b40f64f2828a6f607c825a35f5b.gif",
+            "https://64.media.tumblr.com/cd1358aa87da38ce73bd0857975cc77f/8b2476b52d0771a7-b6/s540x810/1fdde0081039f13b0bcc9ffc0ded10857734c46f.gif",
+            "https://64.media.tumblr.com/93d1ea76020a94167cbc04243da33238/8b2476b52d0771a7-40/s540x810/728a0cd589fd726bf54536423b241f38a3be6535.gif",
+            "https://64.media.tumblr.com/278a38a3291dcaa2fb255de5cd14a5b3/8b2476b52d0771a7-48/s540x810/10fc8c62615ee339d457e9d0c203fd9f1d58e747.gif",
+            "https://64.media.tumblr.com/d3416c603971e4765ab5f763c7259787/053102a5d219953c-bb/s540x810/746097b6e07421454267951d9a83c1b0db84ebf5.gif",
+            "https://64.media.tumblr.com/628dac1f62f3deb97e4965690801f541/053102a5d219953c-e1/s540x810/4a9e01701ae6f6c32cdb997e560cd3039d7c2b4c.gif",
+            "https://64.media.tumblr.com/d7f9acdc7f76844bab513271b36654ca/053102a5d219953c-7c/s540x810/af33da4bcc3363fdc20511950f4737fe4b22d246.gif",
+            "https://64.media.tumblr.com/b89d0147f9aebcaf00352042fe02f810/053102a5d219953c-35/s540x810/3a766a8c35272180a5d424a89ac8bf35deedb147.gif"]
 
         self.bot.yena_gif = ["https://tenor.com/view/rykkura-yena-cute-big-mouth-gif-16891786",
             "https://tenor.com/view/yena-choi-pretty-smile-kpop-gif-13596533",
@@ -1598,7 +1610,9 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/f6215c19dec36a6b4bb8235accc931ad/7d764f5cf0949130-1a/s400x600/c1284e63a22c898aefbfe548e66ad3b433f951f1.gif",
             "https://64.media.tumblr.com/79cf13c1e3584136ab88dc4e96acba5c/7d764f5cf0949130-11/s400x600/ed38bd8329cde3cf1e9d5b01fbfcd9a73d189543.gif",
             "https://64.media.tumblr.com/a5a6b2ad13e20a488970f044876a14c6/7d764f5cf0949130-2e/s400x600/6634a7194a07e3e0e765313f96b8cfb3043c9702.gif",
-            "https://64.media.tumblr.com/66a9d96c33e3373c82921347a0928c26/7d764f5cf0949130-be/s400x600/4f40447be379630e0b751538a5eefa24ba175dad.gif"]
+            "https://64.media.tumblr.com/66a9d96c33e3373c82921347a0928c26/7d764f5cf0949130-be/s400x600/4f40447be379630e0b751538a5eefa24ba175dad.gif",
+            "https://imgur.com/QTxoJBb",
+            "https://media.discordapp.net/attachments/385627404053512194/819184202410623016/1615378773.gif"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
