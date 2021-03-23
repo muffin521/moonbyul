@@ -13,9 +13,6 @@ logs = 786515662214397973
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
-
-
 class EnhypenPings(commands.Cog):
 
     def __init__(self, bot):
