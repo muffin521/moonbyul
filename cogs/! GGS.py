@@ -1117,7 +1117,9 @@ class GGS(commands.Cog):
             "https://gfycat.com/opulentradiantbarracuda",
             "https://cdn.discordapp.com/attachments/803701179178811392/812135851219353700/2e56f877-ca25-4870-af6b-b3e577b2cb24.gif",
             "https://i.pinimg.com/originals/83/cf/bd/83cfbd01650e14587b8f1e0ef6e3ab47.gif",
-            "https://cdn.discordapp.com/attachments/803701179178811392/813182565493243914/Tumblr_l_434327417407179.gif"]
+            "https://cdn.discordapp.com/attachments/803701179178811392/813182565493243914/Tumblr_l_434327417407179.gif",
+            "https://cdn.discordapp.com/attachments/803701179178811392/821868271468544010/Tumblr_l_174014505725074.gif",
+            "https://cdn.discordapp.com/attachments/803701179178811392/821868274689114152/Tumblr_l_174023371997363.gif"]
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
