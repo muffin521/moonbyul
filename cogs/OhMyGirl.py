@@ -62,7 +62,9 @@ class OhMyGirl(commands.Cog):
             "https://giphy.com/gifs/OSqLtOHD6CzhXHHSyb",
             "https://gfycat.com/neglectedspitefulasianwaterbuffalo",
             "https://gfycat.com/compassionatealivelangur-oh-my-girl-kpop-arin-omg",
-            "https://gfycat.com/consciousjitteryinexpectatumpleco"]
+            "https://gfycat.com/consciousjitteryinexpectatumpleco",
+            "https://giphy.com/gifs/adBnV0HzCbW5ppwzVB",
+            "https://giphy.com/gifs/RDVsYATtSE2sb2meBR"]
 
         self.bot.ohmygirl_binnie_gif = ["https://gfycat.com/sadlonegalapagosdove",
             "https://tenor.com/view/oh-my-girl-kpop-hi-wave-binnie-gif-15821110",
