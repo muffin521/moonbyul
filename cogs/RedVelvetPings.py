@@ -3,16 +3,11 @@ from discord.ext import commands
 from datetime import datetime
 
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
-
-#//people
-jon = 109914198544240640
 
 class RedVelvetPings(commands.Cog):
 
@@ -762,14 +757,9 @@ class RedVelvetPings(commands.Cog):
         await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
-                if ctx.guild.id == luminary:
-                    if ctx.channel.id == kbotcom:
-                        await ctx.send(f'<@{jon}>, <@!{ctx.author.id}> is talking about Irene :watermelon:')
-                        await ctx.send(random.choice(self.bot.irene_gif))
-                        await ctx.message.delete()
-                    else:
-                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                        await ctx.message.delete()
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
                 else:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
                     await ctx.send(random.choice(self.bot.irene_gif))
