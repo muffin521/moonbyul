@@ -64,7 +64,15 @@ class txtPings(commands.Cog):
             "https://gfycat.com/charmingdarkhoiho",
             "https://tenor.com/view/soobin-choi-soobin-soobin-txt-choi-soobin-txt-soobin-peace-sign-gif-15883772",
             "https://tenor.com/view/soobin-soobin-crying-soobtime-soobin-glasses-soobin-funny-gif-20716855",
-            "https://tenor.com/view/choi-soobin-txt-tomorrow-by-together-tomorrow-x-together-todo-gif-16311086"]
+            "https://tenor.com/view/choi-soobin-txt-tomorrow-by-together-tomorrow-x-together-todo-gif-16311086",
+            "https://media1.tenor.com/images/92ccb726618c588e7ab08674db2fe6ca/tenor.gif?itemid=20082223",
+            "https://64.media.tumblr.com/bf9dbdf8b28b92805a065e4770f48380/a7a2ad230bebc38b-ca/s400x600/cf932ef8e3b2d67824ed7a0adee58a59c6dde2d9.gif",
+            "https://64.media.tumblr.com/9af0b9bc7a10cea6248bd69108750bc7/5c5a52eaee897510-89/s400x600/fd3b8ac5babd4759f28f5ff144ea427d39f2e8bf.gif",
+            "https://64.media.tumblr.com/f617a15876c42f39770b967f965d3d8e/5d48f4159aebd465-60/s400x600/44c2af6bd95826634c9dde7d1441fa397123d4bf.gif",
+            "https://64.media.tumblr.com/f7921046e85eb39608a3278c7730c6ce/c9b23b34279a36b2-d8/s400x600/28cdd93983d4140a546db5e5684f99a72f681d3d.gif",
+            "https://64.media.tumblr.com/a4d5dcee47a46c66b4317b0d70242003/6504a210d47a014f-35/s400x600/400bba1e69352ae91f6f63d789e45e762f6425ed.gif",
+            "https://64.media.tumblr.com/350faee76a66ce64fff2f229f2f5bd49/6a9291fc4b9b6071-d4/s250x400/8bba5b511e3f0aff24552ef49d0610070ef0146b.gif",
+            "https://64.media.tumblr.com/dd7fe71ba13809076cf1ac0980cf0a97/73099da6f96f700e-10/s400x600/89e99ab51c676ad4198540e103b45c9563dc3003.gif"]
 
         self.bot.txt_yeonjun_gif = ["https://tenor.com/view/tomorrow-by-together-big-hit-entertainmen-txt-yeonjun-handsome-gif-17716681",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17647828",
@@ -102,7 +110,16 @@ class txtPings(commands.Cog):
             "https://tenor.com/view/txt-yeonjun-eating-bleuiz-gif-19716063",
             "https://tenor.com/view/seulgicfm-yeonjun-eating-gif-19467105"
             "https://tenor.com/view/txt-pissahousu-tomorrow-x-together-yeonjun-yeonjun-txt-gif-20061231",
-            "https://tenor.com/view/txt-pissahousu-tomorrow-x-together-yeonjun-yeonjun-txt-gif-20061223"]
+            "https://tenor.com/view/txt-pissahousu-tomorrow-x-together-yeonjun-yeonjun-txt-gif-20061223",
+            "https://64.media.tumblr.com/cc452133876fccf7d67d85c4add60057/2178bb893b9f65c6-76/s250x400/451e700b4b809fa14394a6bee1ce9a53740fc668.gif",
+            "https://64.media.tumblr.com/8a0d292785918528a993fa9de01d62d7/0047d5df2de3b93c-f0/s250x400/823ed72261f6ab44cd842411a082c80412a8edc9.gif",
+            "https://64.media.tumblr.com/9a1af61f7ffa1569b49159820f0941b6/6368be94d33429d2-4c/s250x400/94e06328f396722f2e1568b9faedc2a4132773f2.gif",
+            "https://64.media.tumblr.com/f2c7b815087e84282156def7d203fa0a/5d48f4159aebd465-c1/s400x600/ac6423f4e7aab7d3aeb4a9c526aae26d25920c1a.gif",
+            "https://64.media.tumblr.com/bce95bcd5fd69a11a21bc8b9f1dfe036/a9247eb4d3e49b91-53/s400x600/df28577320e37e1bbf63aaed6fca67429fe3b23c.gif",
+            "https://64.media.tumblr.com/a8060166d06fb2f1eb419f584f15d434/0f1e5acd83a8b5e1-42/s400x600/05baafb3be68f8ce2e520d05b109915b6757ae72.gif",
+            "https://64.media.tumblr.com/75b7df6adacf3a449143eab9a5475635/af3e20ffe89330c2-e8/s400x600/b56c4495a103a9f16b8eb2594eb345c11474fb1c.gif",
+            "https://64.media.tumblr.com/3c1ce03f906acf5c975ff5b47e51ce2b/d9c8ef6961cdd3cb-27/s250x400/fbbd10f759d0e50efe7e43fd7f140b02a44c3c99.gif",
+            "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-yeonjun-gif-17660387"]
 
         self.bot.txt_beomgyu_gif = ["https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-big-hit-entertainment-beomgyu-gif-17683775",
             "https://tenor.com/view/beomgyu-txt-tomorrow-x-together-kpop-choi-beomgyu-gif-19211104",
@@ -216,7 +233,14 @@ class txtPings(commands.Cog):
             "https://gfycat.com/ordinarypitifulilladopsis",
             "https://tenor.com/view/cat-and-dog-txt-tomorrow-x-together-tomorrow-by-together-txt-cat-and-dog-gif-16375703",
             "https://64.media.tumblr.com/894da9834cc6c98edbbb2c7d147dabfe/2b2ea54ceedd91a4-0c/s400x600/08953cbe0b90a39f5867f843f400607abf63bbc7.gif",
-            "https://tenor.com/view/beomgyu-gif-20252778"]
+            "https://tenor.com/view/beomgyu-gif-20252778",
+            "https://64.media.tumblr.com/07859541b320b10a1a78542e6b726af2/5ef3bad8a6e251a8-ee/s400x600/1d1e82b3f70876f32a2ccc0cc3eb6a198a1554ef.gif",
+            "https://64.media.tumblr.com/ea634761bd3c615f6e447a97117da47d/06bdf2c781c74817-48/s400x600/5476072dd692beb943e8291b03ad375d4620e937.gif",
+            "https://64.media.tumblr.com/7db3b698fe8b83e4bcdd96ae7c49ce95/5d48f4159aebd465-a9/s400x600/231f6b1b9e340748d3f3bcccaf62c186466a4b20.gif",
+            "https://64.media.tumblr.com/673d9289e9a655a2d1729d18d0b8f85d/0580479c7efc0106-4a/s400x600/0a31089d6f8732352690f29398d35a98438aef7d.gif",
+            "https://64.media.tumblr.com/0187bfc41f4d25446acc41b49873d7ee/abab74038e3d20b9-bd/s250x400/8638ebe4a4f4cbbee3772b355ce2b19eab417c6b.gif",
+            "https://64.media.tumblr.com/2724bdd6f2bb53b767904eeefec73381/fddd53a694491a4f-aa/s400x600/f506fea6acfc28aac02bbd4dff8f83a74f8b8109.gif",
+            "https://64.media.tumblr.com/1241e38ee08e3be44f6937006dc563ef/a5dbe3683adb8030-2d/s400x600/16eb460baf3107149b0d30de7040d58a3d93dc9e.gif"]
 
         self.bot.txt_taehyun_gif = ["https://tenor.com/view/txt-taehyun-kang-taehyun-kang-taehyun-txt-taehyun-txt-gif-18959632",
             "https://tenor.com/view/taehyun-kang-taehyun-txt-tomorrow-x-together-taehyunie-gif-19009636",
@@ -265,7 +289,14 @@ class txtPings(commands.Cog):
             "https://64.media.tumblr.com/f61c35f6ab75c48f59fa0d623f00187c/7d56f23aa5a39ecb-4d/s250x400/892c947636e069f31e11acb5d0a8b63c28194666.gif",
             "https://tenor.com/view/txt-taehyun-taehyun-kangtaehyun-taehyun-cute-taehyun-txt-gif-19361137",
             "https://gfycat.com/creepyglamorouseyas",
-            "https://gfycat.com/determinedunselfishamberpenshell"]
+            "https://gfycat.com/determinedunselfishamberpenshell",
+            "https://64.media.tumblr.com/2e79ce9762ab7782f08f8a9f4a169999/c3ab7c149d2a9c64-6e/s250x400/8bae50d101c704b86dad2b1930cbfd7509791981.gif",
+            "https://64.media.tumblr.com/75140022484cec5bb5359528d78a1967/7f5dad734a250b8f-82/s400x600/1a2dc4ba6da5774493b84eab4d0fbbe9585580ee.gif",
+            "https://64.media.tumblr.com/649ff6a87be60c74a7da51b728c30575/60be577af46c9d61-c5/s400x600/7aa042bf9147930f87d5a9dc346e983aca5d0946.gif",
+            "https://64.media.tumblr.com/92cff61771d92cbfb0db52c6c8521833/0bfd125490ee9d9e-c1/s400x600/cc802be6b183a0a17636aaf9b3aca73737f8c3d4.gif",
+            "https://64.media.tumblr.com/dbb89237b35b7aae236f247888a87c8d/ea27b480dfa209ac-5e/s400x600/35b62151ddffdc7de974ffee595559e4ff3fdaea.gif",
+            "https://64.media.tumblr.com/5c1bc0df30da79cf123e73fccdb34b70/ea27b480dfa209ac-46/s400x600/190dddf90449008642b814cf01426e573e420540.gif",
+            "https://64.media.tumblr.com/1008a39ce3eea67ea5b724e784472c83/6ae379a360a75b7d-f1/s400x600/14ba7a31072c2cbae611cda9056f668708d82d3d.gif"]
 
         self.bot.txt_hueningkai_gif = ["https://tenor.com/view/txt-huening-kai-hyuka-txt-hueningkai-huening-kai-blue-hour-gif-19341353",
             "https://tenor.com/view/love-huening-kai-wink-confetti-performance-gif-16420492",
@@ -306,7 +337,13 @@ class txtPings(commands.Cog):
             "https://64.media.tumblr.com/79ef6af4fda0839abe65b027b846a495/tumblr_pnjh8yEkLn1y4f16vo2_400.gif",
             "https://64.media.tumblr.com/bc0777b016138d7077010b9d6b752d64/ceac2dffda5e4ffe-22/s250x400/69105ca55da91a92fc26db0508100590771a0666.gif",
             "https://tenor.com/view/sookai-soobin-hueningkai-kai-hyuka-gif-18364963",
-            "https://gfycat.com/finishedindolentdunnart"]
+            "https://gfycat.com/finishedindolentdunnart",
+            "https://64.media.tumblr.com/f57c2a1f0f53b893e7e730e966cd711e/9c3d909260c8cd9e-40/s400x600/127400746f7956965bea3d6603383faed8d3be7f.gif",
+            "https://64.media.tumblr.com/d87cdef55bc4aa1b6621a324eb698e9d/eb1cffd93fc7c64b-4e/s250x400/a5f812b583050896f2e3ef86b0dd3f572157d87d.gif",
+            "https://64.media.tumblr.com/47370fc555f95147cdf2e82a83bf1fcd/f3f7cde57759031a-11/s250x400/e6b98fb528c83b219311e56b926445144423a401.gif",
+            "https://64.media.tumblr.com/b58a947f600ce493fe0675ca61658919/f3f7cde57759031a-41/s250x400/0a51f7eeacfb03a2f3e93541f881f5ed26266d7e.gif",
+            "https://64.media.tumblr.com/4a43f922a8ecc32953a84d0f2283e625/60be577af46c9d61-43/s400x600/8e00a833931f109508f50da2d551d7e53b6381e8.gif",
+            "https://64.media.tumblr.com/075cd385bb611ef4b9dee9dccab78783/2a67c7d46c999842-5b/s400x600/31cde7748048b0a0c8e202747fdfa3162f81209f.gif"]
 
         self.bot.txt_ot5_gif = ["https://tenor.com/view/txt-tomorrow-x-together-teen-vogue-puma-yeonjun-gif-17788891",
             "https://tenor.com/view/txt-tomorrow-x-together-tomorrow-by-together-txt-group-gif-19340189",
