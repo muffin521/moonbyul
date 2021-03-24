@@ -376,6 +376,9 @@ class gifcog(commands.Cog):
             elif arg == "izone hitomi":
                 for x in self.bot.hitomi_gif:
                     await ctx.send(x)
+            elif arg == "izone":
+                for x in self.bot.izone_group_gif:
+                    await ctx.send(x)
         #.KARD
             elif arg == "kard bm":
                 for x in self.bot.kard_bm_gif:
