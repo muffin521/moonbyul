@@ -304,7 +304,6 @@ class RedVelvetPings(commands.Cog):
             "https://gfycat.com/fakeidlegartersnake",
             "https://gfycat.com/flimsyflusteredalpinegoat",
             "https://i.pinimg.com/originals/85/1e/02/851e02616f72a2a148e1ebc307ade2c2.gif",
-            "https://i.pinimg.com/originals/2f/2f/e5/2f2fe585a0255e68bc58a2fb6ee6f20c.gif",
             "https://pa1.narvii.com/6912/aec98160c588ddf9c326a7e5b023e03d0a37f0d1r1-540-230_hq.gif",
             "https://64.media.tumblr.com/037158d4d333be0d8deb2553e0ad4d6c/94ad1cdf9635cd11-56/s540x810/1e81a8e6a1d4beb15b2c39426c79d6402e7d72ff.gif",
             "https://64.media.tumblr.com/df0af9f15fc9991b9848f900e417cadc/94ad1cdf9635cd11-dd/s540x810/f368cee966244e82c0aa6dcc58e602c769b2309a.gif",
