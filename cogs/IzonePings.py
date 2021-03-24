@@ -557,7 +557,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/excellentfaroffafricanharrierhawk",
             "https://gfycat.com/assuredmaddrake",
             "https://gfycat.com/bitterwideeyedcougar",
-            "https://gfycat.com/wiltedacclaimedkawala",
             "https://gfycat.com/liquideagerblueandgoldmackaw",
             "https://gfycat.com/illfatedwindinghalicore",
             "https://gfycat.com/parallelblushingiberianemeraldlizard",

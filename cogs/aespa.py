@@ -46,7 +46,6 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/disguisedcreamykiwi",
             "https://gfycat.com/scornfulequalharlequinbug",
             "https://gfycat.com/nervouseasygoingandeancondor",
-            "https://gfycat.com/weehideousaddax",
             "https://gfycat.com/warmheartedrequiredcirriped",
             "https://gfycat.com/fancytalkativefairyfly",
             "https://gfycat.com/unripegraciousivorygull-giselle-aespa",

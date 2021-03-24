@@ -663,7 +663,6 @@ class RedVelvetPings(commands.Cog):
             "https://thumbs.gfycat.com/CheerfulTimelyGar-max-14mb.gif",
             "https://data.whicdn.com/images/237846376/original.gif",
             "https://media1.tenor.com/images/9c36c78d57f5f5185303a224f50c96b6/tenor.gif?itemid=12576883",
-            "https://qph.fs.quoracdn.net/main-qimg-096ea32ab8c8385a79c9fa3cdbd68ad5",
             "https://data.whicdn.com/images/293456104/original.gif",
             "https://data.whicdn.com/images/314761301/original.gif",
             "https://pa1.narvii.com/7118/1f55f012d8feca8c1ec02d966d40fbe1fce33cfbr1-500-231_hq.gif",

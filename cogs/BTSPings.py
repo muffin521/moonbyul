@@ -411,7 +411,6 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/ef4f3676f00437d67baf6aed1f0839c4/08ac61f680b5f2b2-db/s400x600/51efd9348131f37b877b73c14bb3f42b4fb69d9e.gif",
             "https://64.media.tumblr.com/8d280c4cad37fd254e0d6f07fd47b235/d9a64e7334cbd09b-ab/s400x600/978794e3577d0ea1497fb5f627b0f9920a5590e8.gif",
             "https://64.media.tumblr.com/06324a06e9dc1f2d1d6e8d192bff58e6/23a9afe2e1985e6b-0b/s400x600/b2fbf8010bbfc166fd6c08ce83454f51e74ee4f3.gif",
-            "https://64.media.tumblr.com/05a685b49ac232955df0574fb46d6937/23a9afe2e1985e6b-f2/s400x600/852e0a322a197f9bdfb7efa8c4f224d363af5804.gif",
             "https://64.media.tumblr.com/75553e151e61e6e96a227115dd59b4c2/a74b7f59e834d444-0d/s250x400/87b8d147bc3e265cad333b1110b54f01c49ea53b.gif",
             "https://64.media.tumblr.com/6d385f776d977e45d719fd7165ffae9f/71503a01d0e8fa43-53/s540x810/a5ef6749a3ac595cbaed24e9b064885377592a93.gif",
             "https://64.media.tumblr.com/790c805554baf814f42a08956eb905fd/71503a01d0e8fa43-de/s540x810/197101f9b06af873a6ce2b15c8c67f7ba44c88d5.gif",

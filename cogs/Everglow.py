@@ -286,7 +286,6 @@ class everglow(commands.Cog):
             "https://thumbs.gfycat.com/FirmEmotionalBangeltiger-size_restricted.gif",
             "https://thumbs.gfycat.com/JollyDetailedBuffalo-size_restricted.gif",
             "https://i.pinimg.com/originals/3a/09/98/3a0998b31224c921f44460ea7ac452b0.gif",
-            "https://media1.tenor.com/images/3117066bc006d142b6f3b6c0cad5c48d/tenor.gif?itemid=16481573",
             "https://data.whicdn.com/images/334557397/original.gif",
             "https://d.wattpad.com/story_parts/781040295/images/15fce16d3016ea69918258632648.gif",
             "https://66.media.tumblr.com/0c17e1710b7117f5c10347de3a1276b7/tumblr_pwo0y45B5J1yoiwkxo6_250.gif",
