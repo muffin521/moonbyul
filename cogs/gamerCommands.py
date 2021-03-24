@@ -209,7 +209,16 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
             "https://gfycat.com/euphoricfeistykookaburra",
             "https://gfycat.com/quickfixedindianhare",
-            "https://tenor.com/view/yeri-red-velvet-gif-11323706"]
+            "https://tenor.com/view/yeri-red-velvet-gif-11323706",
+            "https://gfycat.com/RecklessRewardingEidolonhelvum",
+            "https://gfycat.com/UnhappyBadBeetle",
+            "https://tenor.com/view/crystal-clear-yeeun-korean-cute-gif-16805024",
+            "https://tenor.com/view/kwon-eunbin-eunbin-clc-maknae-cube-entertainment-gif-17697064",
+            "https://tenor.com/view/cute-yujin-clc-hi-wave-gif-13944583",
+            "https://tenor.com/view/clc-elkie-hungry-eating-gif-13944518",
+            "https://i.pinimg.com/originals/5a/b6/6c/5ab66c4e8d4607b8a34a272bafdf80f7.gif",
+            "https://data.whicdn.com/images/319081662/original.gif",
+            "https://d.wattpad.com/story_parts/727104930/images/159ab7d3f4edc87d40297965869.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -236,13 +245,6 @@ class gamerPings(commands.Cog):
             "Toilet Lid"]
 
     @commands.command()
-    async def dreammc(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@150742733743587328>, <@!{ctx.author.id}> is talking about Dream :cactus:')
-            await ctx.send(random.choice(self.dream_gif))
-            await ctx.message.delete()
-
-    @commands.command()
     async def food(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
@@ -264,15 +266,6 @@ class gamerPings(commands.Cog):
         await ctx.message.delete()
 
     @commands.command()
-    async def rahul(self, ctx):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [rahul] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        await ctx.send(f'<@579636764889841665> monke ' + random.choice(self.monke))
-        await ctx.message.delete()
-
-    @commands.command()
     async def weakado(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
@@ -291,16 +284,6 @@ class gamerPings(commands.Cog):
         await ctx.message.delete()
 
     @commands.command()
-    async def sex(self, ctx):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [sex] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if ctx.guild.id == jst:
-            await ctx. send(f'https://www.youtube.com/watch?v=VfCYZ3pks48&list=FLFkJiNcjfwfDWZMEHJ1C_Ew&index=522')
-            await ctx.message.delete()
-
-    @commands.command()
     async def ren(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
@@ -313,7 +296,7 @@ class gamerPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [muffin] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Muffin] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()

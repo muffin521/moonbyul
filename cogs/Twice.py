@@ -3,16 +3,11 @@ from discord.ext import commands
 from datetime import datetime
 
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
-
-#//people
-gareth = 389897179701182465
 
 class gamerPings(commands.Cog):
 
@@ -639,120 +634,75 @@ class gamerPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Twice {arg} | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Twice {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "mina":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Mina :heart:')
-                    await ctx.send(random.choice(self.bot.mina_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Mina :heart:')
                 await ctx.send(random.choice(self.bot.mina_gif))
                 await ctx.message.delete()
         elif arg == "sana":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Sana :heart:')
-                    await ctx.send(random.choice(self.bot.sana_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Sana :heart:')
                 await ctx.send(random.choice(self.bot.sana_gif))
                 await ctx.message.delete()
         elif arg == "momo":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Momo :heart:')
-                    await ctx.send(random.choice(self.bot.momo_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Momo :heart:')
                 await ctx.send(random.choice(self.bot.momo_gif))
                 await ctx.message.delete()
         elif arg == "jeongyeon":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Jeongyeon :heart:')
-                    await ctx.send(random.choice(self.bot.jeongyeon_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jeongyeon :heart:')
                 await ctx.send(random.choice(self.bot.jeongyeon_gif))
                 await ctx.message.delete()
         elif arg == "tzuyu":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Tzuyu :heart:')
-                    await ctx.send(random.choice(self.bot.tzuyu_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Tzuyu :heart:')
                 await ctx.send(random.choice(self.bot.tzuyu_gif))
                 await ctx.message.delete()
         elif arg == "nayeon":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Nayeon :heart:')
-                    await ctx.send(random.choice(self.bot.nayeon_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Nayeon :heart:')
                 await ctx.send(random.choice(self.bot.nayeon_gif))
                 await ctx.message.delete()
         elif arg == "dahyun" or arg == "dubu":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Dahyun :heart:')
-                    await ctx.send(random.choice(self.bot.dahyun_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Dahyun :heart:')
                 await ctx.send(random.choice(self.bot.dahyun_gif))
                 await ctx.message.delete()
         elif arg == "jihyo":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Jihyo :heart:')
-                    await ctx.send(random.choice(self.bot.jihyo_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jihyo :heart:')
                 await ctx.send(random.choice(self.bot.jihyo_gif))
                 await ctx.message.delete()
         elif arg == "chaeyoung":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{gareth}>, <@!{ctx.author.id}> is talking about Chaeyoung :heart:')
-                    await ctx.send(random.choice(self.bot.chaeyoung_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeyoung :heart:')
                 await ctx.send(random.choice(self.bot.chaeyoung_gif))

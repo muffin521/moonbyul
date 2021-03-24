@@ -10,14 +10,6 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
-muffin = 488423352206229505
-weakado = 259409277482041344
-k8 = 573974040679809044
-mae = 492769416610840586
-kiwi = 390317665463566336
-kate = 382715972722753536
-
 class KpopPings(commands.Cog):
 
     def __init__(self, bot):

@@ -11,9 +11,6 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
-
-
 class exid(commands.Cog):
 
 

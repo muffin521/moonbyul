@@ -3,16 +3,11 @@ from discord.ext import commands
 from datetime import datetime
 
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
-
-#//people
-jon = 109914198544240640
 
 class RedVelvetPings(commands.Cog):
 
@@ -668,7 +663,6 @@ class RedVelvetPings(commands.Cog):
             "https://thumbs.gfycat.com/CheerfulTimelyGar-max-14mb.gif",
             "https://data.whicdn.com/images/237846376/original.gif",
             "https://media1.tenor.com/images/9c36c78d57f5f5185303a224f50c96b6/tenor.gif?itemid=12576883",
-            "https://qph.fs.quoracdn.net/main-qimg-096ea32ab8c8385a79c9fa3cdbd68ad5",
             "https://data.whicdn.com/images/293456104/original.gif",
             "https://data.whicdn.com/images/314761301/original.gif",
             "https://pa1.narvii.com/7118/1f55f012d8feca8c1ec02d966d40fbe1fce33cfbr1-500-231_hq.gif",
@@ -762,14 +756,9 @@ class RedVelvetPings(commands.Cog):
         await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
-                if ctx.guild.id == luminary:
-                    if ctx.channel.id == kbotcom:
-                        await ctx.send(f'<@{jon}>, <@!{ctx.author.id}> is talking about Irene :watermelon:')
-                        await ctx.send(random.choice(self.bot.irene_gif))
-                        await ctx.message.delete()
-                    else:
-                        await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                        await ctx.message.delete()
+                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                    await ctx.message.delete()
                 else:
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
                     await ctx.send(random.choice(self.bot.irene_gif))

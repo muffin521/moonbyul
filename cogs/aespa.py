@@ -11,11 +11,6 @@ sadboi = 642497143801905190
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
-k8 = 573974040679809044
-mae = 492769416610840586
-rith = 346724857725059075
-
 class aespaPings(commands.Cog):
 
     def __init__(self, bot):
@@ -51,7 +46,6 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/disguisedcreamykiwi",
             "https://gfycat.com/scornfulequalharlequinbug",
             "https://gfycat.com/nervouseasygoingandeancondor",
-            "https://gfycat.com/weehideousaddax",
             "https://gfycat.com/warmheartedrequiredcirriped",
             "https://gfycat.com/fancytalkativefairyfly",
             "https://gfycat.com/unripegraciousivorygull-giselle-aespa",
@@ -144,7 +138,9 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/c08231f25bbf9db8d8d059b6ebdf0c93/9f12c101faf5aad2-82/s540x810/88d80b65bab4d1cfdfefad913facce02e64bf6c9.gif",
             "https://64.media.tumblr.com/8c8ff527353c00577ff67084dab6ef4a/038233fae3e5404b-58/s400x600/e1a2ba24c9918e0b5b84bc2090834b0401bd7337.gif",
             "https://64.media.tumblr.com/ca7a40876317bff2683ecfdf06462330/038233fae3e5404b-9c/s400x600/0606d41607027fcba6d0968bf7bf43b560545589.gif",
-            "https://64.media.tumblr.com/b55e278f99002e78ee01425e79c41692/1afa7cbad15c9063-81/s540x810/8faa4285b18a1b25b85545f00a36e12126addc6e.gif"]
+            "https://64.media.tumblr.com/b55e278f99002e78ee01425e79c41692/1afa7cbad15c9063-81/s540x810/8faa4285b18a1b25b85545f00a36e12126addc6e.gif",
+            "https://gfycat.com/nervouseasygoingandeancondor",
+            "https://gfycat.com/weehideousaddax"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
@@ -274,53 +270,33 @@ class aespaPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [aespa {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "giselle":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@{rith}> <@!{ctx.author.id}> is talking about Giselle :crescent_moon: ')
-                    await ctx.send(random.choice(self.bot.giselle_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Giselle :crescent_moon:')
                 await ctx.send(random.choice(self.bot.giselle_gif))
                 await ctx.message.delete()
         elif arg == "winter":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Winter :star: ')
-                    await ctx.send(random.choice(self.bot.winter_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Winter :star:')
                 await ctx.send(random.choice(self.bot.winter_gif))
                 await ctx.message.delete()
         elif arg == "ningning" or arg == "ning ning":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{k8}>, <@{mae}>, <@{rith}> <@!{ctx.author.id}> is talking about Ningning :star: ')
-                    await ctx.send(random.choice(self.bot.ningning_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Ningning :star:')
                 await ctx.send(random.choice(self.bot.ningning_gif))
                 await ctx.message.delete()
         elif arg == "karina":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Karnia :star: ')
-                    await ctx.send(random.choice(self.bot.karina_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Karina :star:')
                 await ctx.send(random.choice(self.bot.karina_gif))

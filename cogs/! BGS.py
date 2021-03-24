@@ -2,19 +2,13 @@ import discord, random, datetime
 from discord.ext import commands
 from datetime import datetime
 
-        #= P1Harmony
-        #= VAV
-
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
-#//people
 
 class BGS(commands.Cog):
 
@@ -401,6 +395,291 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804189116748398633/818296253749788702/14b98671-7a9f-49bd-95df-e9a69f63f396.gif",
             "https://cdn.discordapp.com/attachments/804189116748398633/818296868709990400/23d135ed-1d6a-4ff4-b26d-dcdd1eeb64bd.gif"]
     #. Golden Child
+        self.bot.golcha_bomin_gif = ["https://gfycat.com/FastTartBirdofparadise",
+            "https://gfycat.com/ComposedBiodegradableCuttlefish",
+            "https://gfycat.com/ElectricCarelessEmperorshrimp",
+            "https://gfycat.com/MealyEnlightenedKarakul",
+            "https://gfycat.com/EminentRedHaddock",
+            "https://gfycat.com/FortunatePlaintiveAmericanlobster",
+            "https://gfycat.com/PleasantHideousArmyant",
+            "https://gfycat.com/VigorousImpressionableFowl",
+            "https://gfycat.com/SlimyJealousElephant",
+            "https://gfycat.com/EvenIllinformedGuineafowl",
+            "https://gfycat.com/IllegalDetailedKakapo",
+            "https://gfycat.com/AngryAthleticCanary",
+            "https://gfycat.com/ThankfulYellowishAllosaurus",
+            "https://gfycat.com/RepulsiveDarlingGossamerwingedbutterfly",
+            "https://gfycat.com/TenderHonestBushbaby",
+            "https://gfycat.com/SilentScrawnyChinesecrocodilelizard",
+            "https://gfycat.com/SnoopyVelvetyAtlanticsharpnosepuffer",
+            "https://gfycat.com/EllipticalImaginativeHypsilophodon",
+            "https://gfycat.com/EachOrganicDoctorfish",
+            "https://gfycat.com/FormalLittleArkshell",
+            "https://gfycat.com/MenacingHorribleIchidna",
+            "https://gfycat.com/DefenselessCompetentFrigatebird",
+            "https://gfycat.com/CraftySameDuckbillcat",
+            "https://gfycat.com/MiserlyGlisteningAdamsstaghornedbeetle",
+            "https://gfycat.com/FoolhardyClassicAbyssiniangroundhornbill",
+            "https://gfycat.com/ElegantCloudyCollardlizard",
+            "https://gfycat.com/ScornfulSimplisticAsiandamselfly",
+            "https://gfycat.com/VictoriousImpracticalGarpike",
+            "https://gfycat.com/FrightenedEvilAtlanticspadefish",
+            "https://gfycat.com/MellowEsteemedGeese",
+            "https://gfycat.com/TastyScentedDogwoodclubgall",
+            "https://gfycat.com/WelltodoShamelessLcont",
+            "https://gfycat.com/WaryScarceGoral",
+            "https://gfycat.com/UnawarePlaintiveCopperhead",
+            "https://gfycat.com/AgileVibrantBufeo",
+            "https://gfycat.com/ShabbyWebbedAlbino",
+            "https://gfycat.com/OrnateMessyBooby",
+            "https://gfycat.com/BrilliantUniformArmyant",
+            "https://gfycat.com/BothFirmDonkey",
+            "https://gfycat.com/LeanAridArawana",
+            "https://gfycat.com/GenuinePoliticalCaiman",
+            "https://gfycat.com/SlightIdioticAntbear",
+            "https://gfycat.com/ExcellentPerfumedDiplodocus",
+            "https://gfycat.com/IllfatedExcitableHedgehog",
+            "https://gfycat.com/KindlyAlertAnkole",
+            "https://gfycat.com/AdolescentPalatableGreatwhiteshark",
+            "https://gfycat.com/ClassicScarceEsok",
+            "https://gfycat.com/IdealisticMiserlyGrouse",
+            "https://gfycat.com/RevolvingIllegalFlicker",
+            "https://gfycat.com/PerfectImperturbableAmmonite",
+            "https://gfycat.com/ShallowReflectingFlyinglemur",
+            "https://gfycat.com/DazzlingWhisperedCony",
+            "https://gfycat.com/ClosedCluelessJackrabbit",
+            "https://gfycat.com/GiantOldfashionedEasternglasslizard",
+            "https://gfycat.com/OffensiveZealousBrahmancow",
+            "https://gfycat.com/FlawlessRareCuttlefish",
+            "https://gfycat.com/HeavenlyFantasticHawaiianmonkseal",
+            "https://gfycat.com/SilkyPerfectAntbear",
+            "https://gfycat.com/GreedyGloomyAlligatorsnappingturtle",
+            "https://gfycat.com/SimilarZanyFlyinglemur",
+            "https://gfycat.com/ColdHonestFunnelweaverspider",
+            "https://gfycat.com/HarmfulNaughtyGibbon",
+            "https://gfycat.com/DapperSelfishBlacknorwegianelkhound",
+            "https://gfycat.com/OblongWeeklyHog",
+            "https://gfycat.com/OffensiveFakeBurro",
+            "https://gfycat.com/SerpentineGroundedAxisdeer",
+            "https://gfycat.com/ImaginativeIdolizedIchthyosaurs",
+            "https://gfycat.com/BossyImpassionedFinch",
+            "https://gfycat.com/HospitableWebbedGiraffe",
+            "https://gfycat.com/SecondaryGenuineBuck",
+            "https://gfycat.com/AptAridCrocodileskink",
+            "https://gfycat.com/SpotlessNiceDragon",
+            "https://gfycat.com/GlisteningInsignificantAfricanparadiseflycatcher",
+            "https://gfycat.com/DeliriousCanineCuckoo",
+            "https://gfycat.com/JoyousArtisticFrillneckedlizard",
+            "https://tenor.com/bqc82.gif",
+            "https://tenor.com/bqc85.gif",
+            "https://tenor.com/bqc68.gif",
+            "https://tenor.com/bhvNP.gif",
+            "https://tenor.com/bvHzx.gif"]
+
+        self.bot.golcha_daeyeol_gif = ["https://gfycat.com/WhoppingUnpleasantBoilweevil",
+            "https://gfycat.com/SkinnyTastyCoypu",
+            "https://gfycat.com/HandyMeaslyItalianbrownbear",
+            "https://gfycat.com/HotRightGoral",
+            "https://gfycat.com/RawDeepIrishwaterspaniel",
+            "https://tenor.com/bzrsg.gif",
+            "https://tenor.com/bv9tu.gif",
+            "https://tenor.com/bv9tA.gif",
+            "https://tenor.com/bv9tx.gif",
+            "https://tenor.com/bw8ka.gif",
+            "https://gfycat.com/BlaringAmazingBagworm",
+            "https://gfycat.com/DisfiguredEverlastingAdouri",
+            "https://gfycat.com/SpanishSnivelingCreature",
+            "https://gfycat.com/AgedWholeDrongo",
+            "https://gfycat.com/ComposedShortKillerwhale",
+            "https://gfycat.com/SimplisticPresentAdder",
+            "https://gfycat.com/TangibleSandyIslandcanary",
+            "https://gfycat.com/ForsakenLiveAfricanaugurbuzzard",
+            "https://gfycat.com/ScornfulGiganticDowitcher",
+            "https://gfycat.com/FeistyShorttermHarborporpoise",
+            "https://gfycat.com/ColdEnragedGardensnake",
+            "https://gfycat.com/ElegantImpracticalJuliabutterfly",
+            "https://gfycat.com/QuarrelsomeGrippingFurseal",
+            "https://gfycat.com/PettySlimIndianjackal",
+            "https://gfycat.com/SharpSoulfulCuttlefish",
+            "https://gfycat.com/AstonishingWarpedDeviltasmanian",
+            "https://gfycat.com/UnnaturalDefiantGourami",
+            "https://gfycat.com/AnotherUnfitApisdorsatalaboriosa",
+            "https://gfycat.com/DescriptiveDimwittedAmbushbug",
+            "https://gfycat.com/UnhappyThankfulChevrotain",
+            "https://gfycat.com/IlliterateAchingHummingbird",
+            "https://gfycat.com/AjarZigzagIberiannase",
+            "https://gfycat.com/UnevenDarlingIndiancow",
+            "https://gfycat.com/ViciousMilkyGrayfox",
+            "https://gfycat.com/NearDeterminedAtlanticbluetang",
+            "https://gfycat.com/BigheartedJaggedBrownbear",
+            "https://gfycat.com/AggravatingConsiderateHog",
+            "https://gfycat.com/OldTintedFlatfish",
+            "https://gfycat.com/GleamingMilkyLamb",
+            "https://gfycat.com/IdealisticBitesizedGrasshopper"]
+
+        self.bot.golcha_donghyun_gif = ["https://gfycat.com/IdolizedTameBangeltiger",
+            "https://gfycat.com/DifficultDeadEyra",
+            "https://gfycat.com/SlimWhoppingHarpseal",
+            "https://gfycat.com/JitteryExemplaryGharial",
+            "https://gfycat.com/VapidAppropriateAmericanalligator",
+            "https://gfycat.com/PitifulShadyBats",
+            "https://gfycat.com/ExcitableDarlingIvorybackedwoodswallow",
+            "https://gfycat.com/FastFelineEnglishsetter",
+            "https://gfycat.com/LonePleasantCaecilian",
+            "https://gfycat.com/BowedEveryAfricanparadiseflycatcher",
+            "https://gfycat.com/IllustriousFamousAlbertosaurus",
+            "https://gfycat.com/SecondaryGargantuanJunebug",
+            "https://gfycat.com/BriskCorruptIrishdraughthorse",
+            "https://gfycat.com/GlamorousAstonishingBonobo",
+            "https://gfycat.com/UnnaturalBeautifulAllensbigearedbat",
+            "https://gfycat.com/AggressivePersonalBanteng",
+            "https://gfycat.com/EqualEnragedCardinal",
+            "https://gfycat.com/TestyNimbleHound",
+            "https://gfycat.com/ClosedWideGraysquirrel",
+            "https://gfycat.com/DarlingGleamingArcherfish",
+            "https://gfycat.com/MadeupShamelessAnaconda",
+            "https://gfycat.com/ZanyWeeCougar",
+            "https://gfycat.com/PresentSinfulBronco",
+            "https://gfycat.com/UnsightlySeveralCorydorascatfish",
+            "https://gfycat.com/JealousSatisfiedCoypu",
+            "https://gfycat.com/SparklingDistantJabiru",
+            "https://gfycat.com/NearKlutzyBobolink",
+            "https://gfycat.com/SpicyDizzyBlackwidowspider",
+            "https://gfycat.com/FancyNaiveAngwantibo",
+            "https://gfycat.com/LazyValuableGavial",
+            "https://gfycat.com/DismalTintedAzurevasesponge",
+            "https://gfycat.com/NaughtySecondhandJumpingbean",
+            "https://gfycat.com/FatalNeighboringAnchovy",
+            "https://gfycat.com/WildUnitedCamel",
+            "https://gfycat.com/FloweryDecisiveLeafcutterant",
+            "https://gfycat.com/EvenPoorKite",
+            "https://gfycat.com/ColossalFormalItaliangreyhound",
+            "https://gfycat.com/WarlikeIncompatibleAzurevase",
+            "https://gfycat.com/OptimalPastelElephant",
+            "https://gfycat.com/FelineVariableGoldeneye"]
+
+        self.bot.golcha_jaehyun_gif = ["https://gfycat.com/BlackUncomfortableGreyhounddog",
+            "https://gfycat.com/ThreadbareOpulentCusimanse",
+            "https://gfycat.com/MedicalHandsomeIrishwaterspaniel",
+            "https://gfycat.com/DaringSlightIceblueredtopzebra",
+            "https://gfycat.com/PastSillyBlackfootedferret",
+            "https://gfycat.com/LikableMintyChafer",
+            "https://gfycat.com/CorruptSmallBeauceron",
+            "https://gfycat.com/ActualForkedClam",
+            "https://gfycat.com/HelplessGiantAmericanbulldog",
+            "https://gfycat.com/HatefulBonyIndianabat",
+            "https://gfycat.com/DeterminedRespectfulArmedcrab",
+            "https://gfycat.com/EnlightenedCommonBelugawhale",
+            "https://gfycat.com/ImpressionableColorfulImperialeagle",
+            "https://gfycat.com/CornyBlindBarb",
+            "https://gfycat.com/HollowIgnorantDeinonychus",
+            "https://gfycat.com/TastyFastKoodoo",
+            "https://gfycat.com/LivelyJovialAlbertosaurus",
+            "https://gfycat.com/RecklessRewardingEidolonhelvum",
+            "https://gfycat.com/ImmediateRingedHarborporpoise",
+            "https://gfycat.com/OrdinarySneakyAustraliankelpie",
+            "https://gfycat.com/MinorRealEastrussiancoursinghounds",
+            "https://gfycat.com/CostlyMerryHyracotherium",
+            "https://gfycat.com/DimParchedAfricanelephant",
+            "https://gfycat.com/AdoredPaleCowrie",
+            "https://gfycat.com/MeanKindKodiakbear",
+            "https://gfycat.com/LonelyTartBorzoi",
+            "https://gfycat.com/FewJadedDouglasfirbarkbeetle",
+            "https://gfycat.com/LegalGenerousFattaileddunnart",
+            "https://gfycat.com/SpotlessFrenchDaddylonglegs",
+            "https://gfycat.com/SmallKindheartedHammerheadshark",
+            "https://gfycat.com/CostlySecondHalicore",
+            "https://gfycat.com/CharmingGivingGreatwhiteshark",
+            "https://gfycat.com/HollowSnivelingAntipodesgreenparakeet",
+            "https://gfycat.com/NastyDarkEsok",
+            "https://tenor.com/bdsbP.gif",
+            "https://tenor.com/buDym.gif",
+            "https://tenor.com/boH1F.gif",
+            "https://tenor.com/bzm6O.gif",
+            "https://tenor.com/bzzSY.gif"]
+
+        self.bot.golcha_jangjun_gif = ["https://gfycat.com/UnhappyHospitableAmericanalligator",
+            "https://gfycat.com/SoreRewardingBangeltiger",
+            "https://gfycat.com/UnfortunateAggressiveFlyingsquirrel",
+            "https://gfycat.com/ThinTotalEagle",
+            "https://gfycat.com/GlitteringOldfashionedCapeghostfrog",
+            "https://tenor.com/bqphM.gif",
+            "https://tenor.com/bxpHr.gif",
+            "https://tenor.com/bytvG.gif",
+            "https://tenor.com/bzCXX.gif",
+            "https://tenor.com/bzt3g.gif",
+            "https://gfycat.com/RevolvingRespectfulHarrierhawk",
+            "https://gfycat.com/SeveralReflectingJapanesebeetle",
+            "https://gfycat.com/GreedyDistinctHoneyeater",
+            "https://gfycat.com/UncomfortableInformalFox",
+            "https://gfycat.com/MelodicDiligentAnemonecrab",
+            "https://gfycat.com/GleefulCapitalKingsnake",
+            "https://gfycat.com/ImpressionableNaughtyHumpbackwhale",
+            "https://gfycat.com/WelcomeUltimateKite",
+            "https://gfycat.com/GleefulJointBarnswallow",
+            "https://gfycat.com/MilkyGargantuanHare",
+            "https://gfycat.com/ExemplaryDeadBee",
+            "https://gfycat.com/DesertedHauntingEquestrian",
+            "https://gfycat.com/MistyBadGuanaco",
+            "https://gfycat.com/FarawayBlissfulAustraliansilkyterrier",
+            "https://gfycat.com/SnarlingUnkemptFurseal",
+            "https://gfycat.com/CrazyRipeCoati",
+            "https://gfycat.com/SplendidOldfashionedBorer",
+            "https://gfycat.com/ImpassionedSecretChickadee",
+            "https://gfycat.com/WellwornKaleidoscopicHartebeest",
+            "https://gfycat.com/FlickeringLinedIggypops",
+            "https://gfycat.com/AccurateFreshGrison",
+            "https://gfycat.com/PeriodicFearlessBergerpicard",
+            "https://gfycat.com/GroundedSandyBlackpanther",
+            "https://gfycat.com/PresentAmpleBluebottlejellyfish",
+            "https://gfycat.com/CandidIdioticAlpinegoat",
+            "https://gfycat.com/BronzeWiltedAmericancrow",
+            "https://gfycat.com/SorrowfulIllegalGoldenretriever",
+            "https://gfycat.com/ShrillSizzlingLamb",
+            "https://gfycat.com/DisloyalAchingAstrangiacoral",
+            "https://gfycat.com/CookedAnyHorsechestnutleafminer"]
+
+        self.bot.golcha_jibeom_gif = ["https://gfycat.com/AmpleThriftyInchworm",
+            "https://gfycat.com/HiddenRemorsefulBobolink",
+            "https://gfycat.com/GloriousFlickeringArcticduck",
+            "https://gfycat.com/UnsungRespectfulGull",
+            "https://gfycat.com/QuerulousDifficultAlleycat",
+            "https://gfycat.com/SpicyCooperativeAsp",
+            "https://gfycat.com/NimbleNegativeGull",
+            "https://gfycat.com/HelpfulGlisteningLamb",
+            "https://gfycat.com/PleasingBiodegradableChanticleer",
+            "https://gfycat.com/ClearUnfortunateKoalabear",
+            "https://gfycat.com/ExcitableLimpJellyfish",
+            "https://gfycat.com/MaleInsignificantEeve",
+            "https://gfycat.com/ConcernedTintedCrownofthornsstarfish",
+            "https://gfycat.com/VictoriousSmartHadrosaurus",
+            "https://gfycat.com/InfamousImportantCrustacean",
+            "https://gfycat.com/GloriousLawfulAfricanporcupine",
+            "https://gfycat.com/UncommonPessimisticCurlew",
+            "https://gfycat.com/DesertedHighAegeancat",
+            "https://gfycat.com/PerkyCompleteGreatdane",
+            "https://gfycat.com/QuarrelsomeKindlyDorado",
+            "https://gfycat.com/EmbarrassedHollowAntarcticfurseal",
+            "https://gfycat.com/LegalElasticAztecant",
+            "https://gfycat.com/HastyCavernousFeline",
+            "https://gfycat.com/WildFoolhardyIvorygull",
+            "https://gfycat.com/PracticalSilentJunco",
+            "https://gfycat.com/WateryMellowBlackpanther",
+            "https://gfycat.com/KeenHonorableJohndory",
+            "https://gfycat.com/UnawareEnergeticBarasinga",
+            "https://gfycat.com/InsidiousDeliriousCowbird",
+            "https://gfycat.com/ActiveDisloyalBeauceron",
+            "https://gfycat.com/SmallHastyGavial",
+            "https://gfycat.com/UnhappyBadBeetle",
+            "https://gfycat.com/UnnaturalOilyLice",
+            "https://gfycat.com/WelllitBeneficialKestrel",
+            "https://gfycat.com/CorruptOldBass",
+            "https://gfycat.com/FrighteningWillingBernesemountaindog",
+            "https://gfycat.com/TimelyBonyAtlasmoth",
+            "https://gfycat.com/GreenFamiliarDog",
+            "https://gfycat.com/FreeEntireLhasaapso",
+            "https://gfycat.com/DefinitiveOffbeatBlacklab"]
+
         self.bot.golcha_joochan_gif = ["https://64.media.tumblr.com/2c33c38af5dce11489851532da286526/49083d489dab8ac6-50/s250x400/c32c3ed0a16e1f756fdf31e5cb11f25437be8f0b.gif",
             "https://64.media.tumblr.com/b8ae7388fffd66c19999686ac7a1aac6/ff9b924952edb88f-6c/s250x400/466b4f08403a990a70b57ebef74f7cd9b04bb5e7.gif",
             "https://64.media.tumblr.com/3e9f4cc9ea2a8e01d994c1f17959eb3d/b3c20c3fafcec14c-7b/s250x400/5459ec19455098b92df21d844b59221871d9a6f0.gif",
@@ -440,7 +719,129 @@ class BGS(commands.Cog):
             "https://gfycat.com/GiftedLoathsomeAlpinegoat",
             "https://gfycat.com/PrestigiousTidyEuropeanfiresalamander",
             "https://gfycat.com/SpiritedClosedBilby",
-            "https://gfycat.com/PlasticWelldocumentedEland"]
+            "https://gfycat.com/PlasticWelldocumentedEland",
+            "https://gfycat.com/MisguidedUnfoldedInganue",
+            "https://gfycat.com/DeadlyRepulsiveJuliabutterfly",
+            "https://gfycat.com/NastyDishonestAfricanjacana",
+            "https://gfycat.com/IllustriousNegativeHoverfly",
+            "https://gfycat.com/AstonishingEuphoricCornsnake",
+            "https://gfycat.com/ImaginativeAdvancedHoopoe",
+            "https://gfycat.com/DesertedFilthyAmericancrayfish",
+            "https://gfycat.com/TartAltruisticFritillarybutterfly",
+            "https://gfycat.com/HandsomeGreedyLice",
+            "https://gfycat.com/SimplisticBlindAmericanbadger",
+            "https://gfycat.com/FailingAthleticElver",
+            "https://gfycat.com/ChubbyEachBluewhale",
+            "https://gfycat.com/WillingVigorousBichonfrise",
+            "https://gfycat.com/SleepyGranularAllensbigearedbat",
+            "https://gfycat.com/IncomparableHugeKoodoo",
+            "https://gfycat.com/CookedUncomfortableAnteater",
+            "https://gfycat.com/AnchoredBeautifulAfricanharrierhawk",
+            "https://gfycat.com/IdenticalAbleGnatcatcher",
+            "https://gfycat.com/JaggedCreepyDeer",
+            "https://gfycat.com/HandyBewitchedGonolek",
+            "https://gfycat.com/DeadlySparseJunebug",
+            "https://gfycat.com/BaggyLawfulCarpenterant",
+            "https://gfycat.com/AnguishedCarefulAntarcticfurseal",
+            "https://gfycat.com/JampackedGleamingAmericanbulldog",
+            "https://gfycat.com/CostlyBarrenImperatorangel",
+            "https://gfycat.com/OrderlyDismalDeinonychus",
+            "https://gfycat.com/WideLimpingBlackandtancoonhound",
+            "https://gfycat.com/ThirdDemandingCat",
+            "https://gfycat.com/PiercingQualifiedCrossbill",
+            "https://gfycat.com/FriendlyMiserlyLeopardseal",
+            "https://gfycat.com/RegalBelatedIceblueredtopzebra",
+            "https://gfycat.com/LiveCelebratedDove",
+            "https://gfycat.com/PinkAdeptFrog",
+            "https://gfycat.com/RealHighlevelAvians",
+            "https://gfycat.com/TimelySadHomalocephale",
+            "https://gfycat.com/SinfulSparklingGarpike",
+            "https://gfycat.com/TemptingMemorableKiwi",
+            "https://gfycat.com/RemarkableSpottedFugu", 
+            "https://gfycat.com/GrippingAngelicHen",
+            "https://gfycat.com/DownrightGlossyHellbender"]
+
+        self.bot.golcha_seungmin_gif = ["https://gfycat.com/MiserlyZealousCockatiel",
+            "https://gfycat.com/SmoggyHelpfulCoral",
+            "https://gfycat.com/PossibleBeneficialHippopotamus",
+            "https://gfycat.com/UnnaturalRectangularIndianhare",
+            "https://gfycat.com/OpulentWiltedCoypu",
+            "https://gfycat.com/WillingCarefreeGrebe",
+            "https://gfycat.com/CompassionateFrigidEider",
+            "https://gfycat.com/WearySaneHusky",
+            "https://gfycat.com/TightReadyGalapagostortoise",
+            "https://gfycat.com/AdmirablePaleAffenpinscher",
+            "https://gfycat.com/LeftInexperiencedKawala",
+            "https://gfycat.com/ClassicBlissfulAtlanticsharpnosepuffer",
+            "https://gfycat.com/ApprehensiveCookedEgg",
+            "https://gfycat.com/QueasyFittingBeaver",
+            "https://gfycat.com/MelodicHarmfulErne",
+            "https://gfycat.com/GrotesqueSoggyCollie",
+            "https://gfycat.com/AffectionateBoringGecko",
+            "https://gfycat.com/FragrantTerrificAruanas",
+            "https://gfycat.com/VeneratedObeseInsect",
+            "https://gfycat.com/UnevenClutteredCentipede",
+            "https://gfycat.com/IdealNarrowBird",
+            "https://gfycat.com/UnnaturalQuestionableGallowaycow",
+            "https://gfycat.com/NiftyThornyGoat",
+            "https://gfycat.com/UnripeBitterDiscus",
+            "https://gfycat.com/ParallelTenderAlabamamapturtle",
+            "https://gfycat.com/HarmoniousShrillKiskadee",
+            "https://gfycat.com/DigitalValidJellyfish",
+            "https://gfycat.com/JovialDimpledAmethystsunbird",
+            "https://gfycat.com/EvilWindingCricket",
+            "https://gfycat.com/PlasticWhoppingAtlanticblackgoby",
+            "https://gfycat.com/EquatorialThisFoxterrier",
+            "https://gfycat.com/BreakableFewFritillarybutterfly",
+            "https://gfycat.com/OffbeatFondGonolek",
+            "https://gfycat.com/CleverGlumHart",
+            "https://gfycat.com/HastyRadiantHamadryas",
+            "https://gfycat.com/FailingLegalHectorsdolphin",
+            "https://gfycat.com/PolishedPitifulBlackbird",
+            "https://gfycat.com/DimpledFantasticBordercollie",
+            "https://gfycat.com/OblongMasculineBengaltiger",
+            "https://gfycat.com/CommonEasygoingHog"]
+
+        self.bot.golcha_tag_gif = ["https://gfycat.com/PinkHospitableFinwhale",
+            "https://gfycat.com/SoreCrispBlackfish",
+            "https://gfycat.com/UnderstatedOrangeKoala",
+            "https://gfycat.com/LazyLavishDogfish",
+            "https://gfycat.com/AdvancedNeighboringAkitainu",
+            "https://tenor.com/8Zad.gif",
+            "https://tenor.com/bygVf.gif",
+            "https://tenor.com/5r3M.gif",
+            "https://tenor.com/buDyn.gif",
+            "https://tenor.com/bwxhA.gif",
+            "https://gfycat.com/SoftSimplisticAmericansaddlebred",
+            "https://gfycat.com/ObedientTameIbizanhound",
+            "https://gfycat.com/ShimmeringMiserableArcticseal",
+            "https://gfycat.com/SimplePowerfulIndianpalmsquirrel",
+            "https://gfycat.com/PossibleVainDouglasfirbarkbeetle",
+            "https://gfycat.com/SecondhandQuaintGhostshrimp",
+            "https://gfycat.com/SardonicImmaculateHog",
+            "https://gfycat.com/UnfoldedWarmheartedDartfrog",
+            "https://gfycat.com/UntriedIncomparableIvorybilledwoodpecker",
+            "https://gfycat.com/YellowSeveralGalapagosdove",
+            "https://gfycat.com/AbsoluteThoseAsianconstablebutterfly",
+            "https://gfycat.com/FocusedExemplaryFirebelliedtoad",
+            "https://gfycat.com/EnormousAgreeableCobra",
+            "https://gfycat.com/KlutzyDaringCottontail",
+            "https://gfycat.com/ThankfulFewCoyote",
+            "https://gfycat.com/TestySmoothBengaltiger",
+            "https://gfycat.com/BareMindlessCamel",
+            "https://gfycat.com/DemandingKeenApatosaur",
+            "https://gfycat.com/ExaltedIncompleteJabiru",
+            "https://gfycat.com/OrangeUnrulyChupacabra",
+            "https://gfycat.com/DelightfulIcyCurassow",
+            "https://gfycat.com/GlamorousUnhappyBlackbear",
+            "https://gfycat.com/ExaltedAlertFossa",
+            "https://gfycat.com/SevereInferiorHusky",
+            "https://gfycat.com/TornObeseBushsqueaker",
+            "https://gfycat.com/HeftyRaggedErmine",
+            "https://gfycat.com/EverlastingBaggyEft",
+            "https://gfycat.com/FatherlyUnsightlyFox",
+            "https://gfycat.com/RareVapidGosling",
+            "https://gfycat.com/SingleDirectEastsiberianlaika"]
 
         self.bot.golcha_y_gif = ["https://64.media.tumblr.com/55e48640d01cecdcc5023d2747fefd09/020f7b17338f6291-31/s250x400/6ce3f7faa33d5fd05105c26f30b92edaebd1324a.gif",
             "https://64.media.tumblr.com/18ee933ba44cd38c78266d09ba5e775a/28c3096dd7c4a6ca-ae/s250x400/8d1eb15ab4d52d1f8108712b3f350f928ef31263.gif",
@@ -451,7 +852,37 @@ class BGS(commands.Cog):
             "https://gfycat.com/ThatIndelibleIrukandjijellyfish",
             "https://gfycat.com/DenseParallelKawala",
             "https://gfycat.com/JitteryAggressiveEelelephant",
-            "https://gfycat.com/HairyFluidGrizzlybear"]
+            "https://gfycat.com/HairyFluidGrizzlybear",
+            "https://gfycat.com/ZanyBraveJaguarundi",
+            "https://gfycat.com/OddballPotableHogget",
+            "https://gfycat.com/ColorlessImpressionableEwe",
+            "https://gfycat.com/HomelyRectangularBarbet",
+            "https://gfycat.com/DecisivePastHagfish",
+            "https://gfycat.com/FittingInferiorBoilweevil",
+            "https://gfycat.com/CourageousViciousGalapagossealion",
+            "https://gfycat.com/WholeIdealisticBlackbuck",
+            "https://gfycat.com/DishonestNervousBaiji",
+            "https://gfycat.com/DefensiveHeavyAntbear",
+            "https://gfycat.com/OpulentAnyLeopard",
+            "https://gfycat.com/EnormousCrispAmethystinepython",
+            "https://gfycat.com/WhiteJollyAmericanbobtail",
+            "https://gfycat.com/HeavenlyScentedAyeaye",
+            "https://gfycat.com/BleakDefenselessGhostshrimp",
+            "https://gfycat.com/FreshSpiffyEchidna",
+            "https://gfycat.com/IndelibleCreepyIberianlynx",
+            "https://gfycat.com/ElementaryGlisteningCutworm",
+            "https://gfycat.com/IdenticalMeagerDeer",
+            "https://gfycat.com/UnhappyJitteryLeafcutterant",
+            "https://gfycat.com/WellinformedAdeptArctichare",
+            "https://gfycat.com/PleasingWastefulIlsamochadegu",
+            "https://gfycat.com/DecimalChubbyGalapagosmockingbird",
+            "https://gfycat.com/DefensiveValuableInexpectatumpleco",
+            "https://gfycat.com/LikableSeveralBlackbear",
+            "https://gfycat.com/ShowyRepentantFeline",
+            "https://gfycat.com/VigilantPeriodicBorderterrier",
+            "https://gfycat.com/CourteousSmallBarasinga",
+            "https://gfycat.com/KeyJovialAmericansaddlebred",
+            "https://gfycat.com/ThisBeautifulArmyworm"]
     #. The Boyz
         self.bot.theboyz_kevin_gif = ["https://tenor.com/view/the-boyz-kevin-cute-kpop-peace-out-gif-12754924",
             "https://tenor.com/view/kevin-moon-kevin-tbz-tbz-the-boyz-kevin-gif-20137479",
@@ -519,7 +950,27 @@ class BGS(commands.Cog):
             "https://tenor.com/view/%EB%8D%94%EB%B3%B4%EC%9D%B4%EC%A6%88-the-boyz-younghoon-kim-younghoon-kpop-gif-17717615",
             "https://tenor.com/view/younghoon-the-boyz-kim-younghoon-kpop-cute-gif-17490371",
             "https://tenor.com/view/younghoon-the-boyz-tbz-gif-19303453",
-            "https://cdn.discordapp.com/attachments/815387335419494431/816923992043683840/image0.gif"]
+            "https://cdn.discordapp.com/attachments/815387335419494431/816923992043683840/image0.gif",
+            "https://64.media.tumblr.com/a200291aa466e4532833e9e9b2299137/ee10f750df78267f-6b/s540x810/7e7af3a03fcb0dffda22fd2b8fb76bfa6898cb6e.gif",
+            "https://64.media.tumblr.com/b9a5ae4e16c39489e685db1dcad60b93/ee10f750df78267f-bf/s540x810/898bf5b727984311b68670cfa4860c8dcae9effb.gif",
+            "https://64.media.tumblr.com/e457d0abe2e00f6744695080cc20a71b/15b224548b6f596d-7f/s400x600/666653f6f90eff9370ff3b2ca13309b4f349933d.gif",
+            "https://64.media.tumblr.com/d512d355fd7517c2211c797cb035b4ad/3e3c8c440d69ef1d-30/s540x810/f236107ca3cc2188a48e04d4d68c121e2652d79c.gif",
+            "https://64.media.tumblr.com/3c4d0ee5bc3e9a7f8b08fab45c2b06e2/3e3c8c440d69ef1d-3c/s540x810/38e08b07d50bb4654b4a04dd53e6b521ec5e3fb2.gif",
+            "https://64.media.tumblr.com/02d89c18492db7d521276ee2b9a9511b/3e3c8c440d69ef1d-cc/s540x810/618a0ac26f99773f8664f6010617149286998a4a.gif",
+            "https://64.media.tumblr.com/6be26e6b290c42e952c8981df3206409/3e3c8c440d69ef1d-30/s540x810/a9244ce15f784d2883c59a3453270a683c18dd0f.gif",
+            "https://64.media.tumblr.com/f7c9e155b850aaef95cf87d9d08bd176/56efc61063453b3f-ae/s640x960/32afce67bcb58af8af279cf4f070889d2efeb5d4.gif",
+            "https://64.media.tumblr.com/89bd9c334d04c5206ef0eb2e0973bf4e/dc12d9ade3530ddd-c9/s400x600/192d130ee99e40bc3396ef465eb23b13290f1362.gif",
+            "https://64.media.tumblr.com/3602816f137cc585380d944dc3390efe/tumblr_p0k3kpftan1wvslp2o4_500.gif",
+            "https://data.whicdn.com/images/322832844/original.gif",
+            "https://66.media.tumblr.com/9f95aff2ab925c453d50c8feaf0f7cf7/4449f6155ef6b7cb-1e/s400x600/883343d45cbd819a390250fa520aa073dc819501.gif",
+            "https://64.media.tumblr.com/945bc7478026da7c86eb0f371ea983ff/8da340711f62c008-dd/s400x600/38172ba3fc0d130b5cf3a6e46e796f701d9ff563.gif",
+            "https://data.whicdn.com/images/320880041/original.gif",
+            "https://data.whicdn.com/images/322769161/original.gif",
+            "http://pa1.narvii.com/7002/42cee87ae642a079fdecfeafbda2fded361d62f9r1-268-334_00.gif",
+            "https://data.whicdn.com/images/323183931/original.gif",
+            "https://cdn.kstarlive.com/image/1580375532856-0.gif",
+            "https://64.media.tumblr.com/a594a9370e31cb598eac3d7dfa35a34a/tumblr_p0u24rbBvm1wvzntio3_400.gif",
+            "https://cdn140.picsart.com/329166859007201.gif?to=min&r=640"]
 
         self.bot.theboyz_hyunjae_gif = ["https://tenor.com/view/hyunjae-hyunjae-the-boyz-stare-look-cute-gif-17364449",
             "https://tenor.com/view/the-boyz-hyunjae-cute-kpop-gif-14056530",
@@ -746,6 +1197,306 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226445852693/image2.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif",
             "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435"]
+    
+        self.bot.p1harmony_group_gif = ["https://tenor.com/view/thoe-p1harmony-theo-keeho-p1h-gif-19371047",
+            "https://tenor.com/view/p1harmony-gif-19761328",
+            "https://tenor.com/view/p1h-p1harmony-gif-19927014",
+            "https://tenor.com/view/p1harmony-kpop-siren-siren-p1harmony-p1harmony-siren-gif-19887489",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-p1harmony-siren-siren-kpop-gif-19887478",
+            "https://tenor.com/view/p1harmony-siren-siren-p1harmony-p1harmony-siren-kpop-gif-19887473",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jongseob-kim-jongseob-gif-19887398"]
+    #. Seventeen
+        self.bot.seventeen_scoups_gif = ["https://tenor.com/view/s-coups-seventeen-handsome-gif-13332018",
+            "https://tenor.com/view/scoups-seventeen-svt-jicheol-okay-gif-11883208",
+            "https://tenor.com/view/seungcheol-kpop-homerun-scoups-seventeen-gif-18815323",
+            "https://tenor.com/view/s-coups-choi-seungcheol-kpop-cute-serious-face-gif-15763940",
+            "https://tenor.com/view/choi-seungcheol-time-scoups-seventeen-svt-gif-16207048",
+            "https://tenor.com/view/scoups-seventeen-seungcheol-smile-cute-gif-15501046",
+            "https://tenor.com/view/seungcheol-choi-scoups-gif-18064505",
+            "https://tenor.com/view/scoups-gif-18097690",
+            "https://tenor.com/view/seungcheol-scoups-seventeen-scoups-cheol-dancing-gif-17675232",
+            "https://tenor.com/view/scoups-seungcheol-seventeen-hearts-love-gif-15673610",
+            "https://tenor.com/view/seungcheol-scoups-svt-gif-18064497",
+            "https://gfycat.com/disastrousoldbats",
+            "https://tenor.com/view/seungcheol-svt-seventeen-funny-firework-gif-8747127",
+            "https://tenor.com/view/svt-seventeen-kpop-ccg-ccg1-gif-19005762",
+            "https://tenor.com/view/seventeen-svt-ccg-kpop-scoups-gif-15519817",
+            "https://tenor.com/view/scoups-seventeen-left-and-right-seventeen-choi-seungcheol-seventeen-scoups-seventeen-gif-19125334",
+            "https://tenor.com/view/seventeenscoups-seungcheol-choiseungcheol-seventeenseungcheol-leftnrightseventeen-gif-18121123"]
+
+        self.bot.seventeen_wonwoo_gif = ["https://tenor.com/view/jeon-wonwoo-wonwoo-wonu-jeon-wonu-seventeen-gif-13528172",
+            "https://tenor.com/view/wonwoo-jeon-wonwoo-seventeen-seventeen-wonwoo-gif-18117134",
+            "https://tenor.com/view/seventeen-wonwoo-jeon-won-woo-lead-rapper-sub-vocalist-gif-17355993",
+            "https://tenor.com/view/wonwoo-seventeen-seventeen-falling-flower-seventeen-wonwoo-jeon-wonwoo-gif-19117555",
+            "https://tenor.com/view/seventeen-wonwoo-jeon-won-woo-lead-rapper-sub-vocalist-gif-17580514",
+            "https://tenor.com/view/wonwoo-seventeen-cute-gif-15490179",
+            "https://tenor.com/view/kpop-seventeen-wonwoo-jeon-wonwoo-handsome-gif-17677215",
+            "https://tenor.com/view/kpop-seventeen-wonwoo-jeon-wonwoo-handsome-gif-15563909",
+            "https://tenor.com/view/wonwoo-seventeen-cute-handsome-kpop-gif-16124120",
+            "https://tenor.com/view/wonwoo-seventeen-smile-gif-15468801",
+            "https://tenor.com/view/seventeen-wonwoo-gif-17976335",
+            "https://tenor.com/view/wonwoo-jeon-wonwoo-seventeen-seventeen-wonwoo-gif-18117161",
+            "https://tenor.com/view/wonwoo-jeon-wonwoo-wonu-seventeen-svt-gif-18115775",
+            "https://tenor.com/view/seventeen-wow-wonwoo-wow-hoshi-wow-wonwoo-seventeen-hoshi-seventeen-gif-20037407",
+            "https://tenor.com/view/svtszone-wonwoo-wonwoo-crying-svt-wonwoo-wonwoo-seventee-gif-17694336",
+            "https://tenor.com/view/wonwoo-seventeen-24h-seventeen-wonwoo-seventeen-jeon-wonwoo-gif-19434628",
+            "https://tenor.com/view/wonwoo-seventeen-heart-love-kpop-gif-9089134",
+            "https://tenor.com/view/wonwoo-handsome-cute-cool-cutie-gif-16661313",
+            "https://tenor.com/view/sleepy-wonwoo-svt-seventeen-yawn-gif-15464698",
+            "https://tenor.com/view/wonwoo-mingyu-seventeen-gif-8982788",
+            "https://tenor.com/view/wonwoo-seventeen-my-my-seventeen-wonwoo-seventeen-my-my-gif-19125780",
+            "https://tenor.com/view/seventeen-wonwoo-jeon-won-woo-lead-rapper-sub-vocalist-gif-17581708"]
+
+        self.bot.seventeen_mingyu_gif = ["https://tenor.com/view/seventeen-svt-kpop-ccg-kim-mingyu-gif-14815665",
+            "https://tenor.com/view/min7yu-mingyu-seventeen-svt-gif-18317581",
+            "https://tenor.com/view/seventeen-kim-mingyu-hot-gif-12464691",
+            "https://tenor.com/view/mingyu-seventeen-pose-pot-cute-gif-15519436",
+            "https://tenor.com/view/kim-mingyu-gyu-mingyu-seventeen-hot-gif-12535346",
+            "https://tenor.com/view/seventeen-mingyu-kim-mingyu-handsome-gif-16071110",
+            "https://tenor.com/view/mingyu-gyu-gyu-kim-smile-svt-seventeen-cute-gif-13510257",
+            "https://tenor.com/view/seventeen-mingyu-kim-mingyu-gif-15422130",
+            "https://tenor.com/view/kpop-seventeen-svt-kim-mingyu-mingyu-gif-15502818",
+            "https://tenor.com/view/seventeen-mingyu-kim-mingyu-gif-16009204",
+            "https://tenor.com/view/wonwoo-mingyu-seventeen-gif-8982788",
+            "https://tenor.com/view/mingyu-korean-thumbs-up-approve-gif-10004095",
+            "https://tenor.com/view/seventeen-mingyu-kim-mingyu-kpop-handsome-gif-15460246",
+            "https://tenor.com/view/mingyu-seventeen-my-my-seventeen-mingyu-seventeen-kim-mingyu-gif-19125837",
+            "https://64.media.tumblr.com/a2a6c2fc395b83b1e9c54fd32c1bd4cd/12416bda98f57482-65/s540x810/7b685e4b2785ba3c179e9b6f7ef0cf95c214613e.gif"]
+
+        self.bot.seventeen_vernon_gif = ["https://tenor.com/view/vernon-seventeen-kpop-wink-gif-5144884",
+            "https://tenor.com/view/seventeen-vernon-vernon-pose-gif-12266891",
+            "https://tenor.com/view/vernon-hansol-vernon-chwe-seventeen-kpop-cute-gif-16190243",
+            "https://tenor.com/view/seventeen-kpop-17-hansol-vernon-gif-8043534",
+            "https://tenor.com/view/vernon-hansol-kpop-seventeen-mingyu-gif-7622748",
+            "https://tenor.com/view/seventeen-vernon-hansol-vernon-chwe-kpop-cute-gif-16650650",
+            "https://tenor.com/view/svt-seventeen-vernon-gif-18312901",
+            "https://tenor.com/view/vernon-seventeen-seventeen-vernon-hansol-hansol-chwe-gif-18117310",
+            "https://tenor.com/view/seventeen-vernon-vernon-chwe-hansol-hansol-chwe-gif-18117314",
+            "https://tenor.com/view/henggarae-seventeen-vernon-svt-%EC%84%B8%EB%B8%90%ED%8B%B4-gif-17712664",
+            "https://tenor.com/view/vernon-seventeen-kpop-gif-5080446",
+            "https://gfycat.com/concernedfeistybunting",
+            "https://gfycat.com/warlikehelplesskoi",
+            "https://c.tenor.com/F65o_FQ_m-wAAAAM/seventeen-vernon.gif",
+            "https://c.tenor.com/XTERrBCsJSUAAAAM/vernon-seventeen.gif",
+            "https://c.tenor.com/8xmCegFFLhQAAAAM/vernon-seventeen.gif",
+            "https://c.tenor.com/ldoUdTYKIp4AAAAM/vernon-seventeen.gif",
+            "https://c.tenor.com/9Ioc6K-xqpQAAAAM/vernon-seventeen.gif",
+            "https://c.tenor.com/nwBeqfh2vrkAAAAM/vernon-seventeen.gif",
+            "https://giphy.com/gifs/vernon-hansol-chwe-LNHifSMammT2U",
+            "https://giphy.com/gifs/vernon-hansol-chwe-NVIob9GyE1lHa",
+            "https://64.media.tumblr.com/7548bf869991809ccba8f6c960ac62b2/544aa913eaa695f8-94/s540x810/1d0e65ac8514523723370bb9670d1e416a1173c1.gif",
+            "https://64.media.tumblr.com/d73a9a4f7df6edd53b8d030ac3018324/544aa913eaa695f8-a1/s540x810/9c853e95e00e52ea9b14a708d5a1d777495d69f4.gif",
+            "https://64.media.tumblr.com/1d884a4eea0520b89a8cff4e2445b04e/tumblr_pjj9quz8ZT1qbst9go3_400.gif"]
+
+        self.bot.seventeen_woozi_gif = ["https://tenor.com/view/woozi-musician-artist-music-sing-gif-5680981",
+            "https://tenor.com/view/seventeen-woozi-smile-cute-gif-15490074",
+            "https://tenor.com/view/woozi-dance-kpop-gif-14972216",
+            "https://tenor.com/view/woozi-svt-gif-18020196",
+            "https://tenor.com/view/woozi-seventeen-ji-hoon-lee-jihoon-woozi-seventeen-gif-19434481",
+            "https://tenor.com/view/woozi-musician-artist-music-sing-gif-5680979",
+            "https://tenor.com/view/seventeen-woozi-kpop-gif-9061880",
+            "https://tenor.com/view/jicheol-hi-seventeen-woozi-cute-gif-11758352",
+            "https://tenor.com/view/kpop-seventeen-woozi-lee-jihoon-handsome-gif-15536382",
+            "https://tenor.com/view/woozi-gif-9896801",
+            "https://tenor.com/view/jicheol-sad-seventeen-woozi-cute-gif-11758353",
+            "https://tenor.com/view/seventeen-woozi-playing-gif-10314518",
+            "https://tenor.com/view/woozi-dance-kpop-gif-14972216",
+            "https://tenor.com/view/kpop-seventeen-woozi-lee-jihoon-handsome-gif-15536389",
+            "https://cdn.discordapp.com/attachments/812175781341560853/812194110537596928/woozi.gif",
+            "https://giphy.com/gifs/kpop-svt-woozi-eGOqv0O6QKRUMibuvJ"]
+
+        self.bot.seventeen_jeonghan_gif = ["https://tenor.com/view/jeonghan-seventeen-cute-smile-peekaboo-gif-16321993",
+            "https://tenor.com/view/seventeen-jeonghan-gif-19104339",
+            "https://tenor.com/view/svtszone-jeonghan-jeonghan-svt-seventeen-jeonghan-confused-gif-17684082",
+            "https://tenor.com/view/jeonghan-yoon-long-hair-seventeen-peace-flower-gif-17299312",
+            "https://tenor.com/view/seventeen-jeonghan-yoon-jeonghan-sexy-hot-gif-15291690",
+            "https://tenor.com/view/seventeen-yoon-jeonghan-jeonghan-hot-kpop-gif-15291691",
+            "https://tenor.com/view/muzzzies-jeonghan-seventeen-svt-jeonghan-hitting-camera-gif-18968596",
+            "https://tenor.com/view/seventeen-jeonghan-gif-19104339",
+            "https://tenor.com/view/jeonghan-gif-18595241",
+            "https://tenor.com/view/jeonghan-choking-seungkwan-choking-jeonghan-svt-jeonghan-seventeen-jeonghan-gif-17675262",
+            "https://tenor.com/view/yoon-jeonghan-jeonghan-seventeen-kpop-blonde-gif-19089551",
+            "https://tenor.com/view/seventeen-seventeen-jeonghan-yoon-jeonghan-jeonghan-kpop-gif-15498170",
+            "https://gfycat.com/antiqueunpleasantinganue-seventeen-jeonghan",
+            "https://gfycat.com/blankevilindianrhinoceros",
+            "https://gfycat.com/whiterevolvingasiantrumpetfish",
+            "https://tenor.com/view/jeong-han-seventeen-my-my-seventeen-jeonghan-seventeen-my-my-gif-19125647",
+            "https://64.media.tumblr.com/5883ad93f4f695da55c67d663a642df5/d5909d563ff3f1ec-77/s540x810/8be58212ceb6e6255c950cc691015d88908d9c26.gif",
+            "https://64.media.tumblr.com/6f778c09e885cad20a653938b376858e/d5909d563ff3f1ec-a9/s540x810/422f37691b6ca1a67d5c672a50a62bafd96836a3.gif",
+            "https://64.media.tumblr.com/64f2f1a09fd6ebad6bb2b5afc41cb470/d5909d563ff3f1ec-b9/s540x810/3aaed04f37ef35beafe1f11b09f9a5f92a03b9e1.gif",
+            "https://64.media.tumblr.com/014ae9e474a0d5de9287e46645b13609/12416bda98f57482-30/s540x810/0177847632b300051ebf0edb711f3fd5e146bad1.gif"]
+
+        self.bot.seventeen_joshua_gif = ["https://tenor.com/view/seventeen-joshua-joshua-hong-hong-ji-soo-lead-vocalist-gif-17103306",
+            "https://tenor.com/view/joshua-joshua-seventeen-seventeen-joshua-joshua-hong-seventeen-gif-19512745",
+            "https://tenor.com/view/seventeen-joshua-seventeen-joshua-svt-svt-joshua-gif-19508629",
+            "https://tenor.com/view/josh-joshua-joshua-hong-josh-hong-seventeen-gif-15121872",
+            "https://tenor.com/view/joshua-hong-seventeen-svt-jisoo-laugh-gif-10308342",
+            "https://tenor.com/view/joshua-joshua-seventeen-seventeen-svt-joshua-confused-gif-17675614",
+            "https://tenor.com/view/joshua-hong-svt-seventeen-kpop-korean-gif-10998286",
+            "https://tenor.com/view/joshua-seventeen-love-gif-15877342",
+            "https://tenor.com/view/seventeen-joshua-joshua-hong-hong-ji-soo-lead-vocalist-gif-17704358",
+            "https://tenor.com/view/joshua-hong-svt-seventeen-gif-10998281",
+            "https://tenor.com/view/choco-seventeen-joshua-kpop-chocolate-gif-11662308",
+            "https://tenor.com/view/ji-soo-joshua-seventeen-left-and-right-seventeen-left-and-right-seventeen-gif-19114951",
+            "https://64.media.tumblr.com/772171e67ee98707a0338e208862013b/0647cdf4181ab186-a6/s400x600/a31d9539bf30dab343014332a86fb409f1f3ea8f.gif",
+            "https://64.media.tumblr.com/e947b4c37c0b557b19e1d095db822f2e/760bff8848442216-63/s400x600/29e23bc63c3919aa27f7b6e6a9bce15b0cb1bef3.gif"]
+
+        self.bot.seventeen_dk_gif = ["https://tenor.com/view/seventeen-dk-dokyeom-lee-seok-min-vocalist-gif-17218035",
+            "https://tenor.com/view/seventeen-dk-dokyeom-laugh-gif-15556452",
+            "https://tenor.com/view/dk-dokyeom-seventeen-cute-gif-15454895",
+            "https://tenor.com/view/seventeen-dk-dokyeom-smile-cute-gif-15498964",
+            "https://tenor.com/view/seventeen-dk-dokyeom-kpop-gif-15556457",
+            "https://tenor.com/view/seventeen-dk-dokyeom-lee-seokmin-left-and-right-gif-17758259",
+            "https://tenor.com/view/dk-smile-cute-kpop-gif-15454900",
+            "https://tenor.com/view/dk-seventeen-svt-dab-dance-gif-15464702",
+            "https://tenor.com/view/dk-dokyeom-seventeen-kpop-smile-gif-15455037",
+            "https://tenor.com/view/seventeen-dk-dokyeom-lee-seok-min-vocalist-gif-17225558",
+            "https://tenor.com/view/seventeen-dokyeom-dk-fix-hair-gif-15498955",
+            "https://tenor.com/view/seventeen-dk-seventeen-dk-lee-seokmin-pledis-entertainment-gif-17279788",
+            "https://tenor.com/view/seventeen-dk-dokyeom-lee-seok-min-vocalist-gif-17741933",
+            "https://64.media.tumblr.com/d6983f5db91ad038d4fac0f64645e78f/0fa48e4845010ee6-25/s500x750/05adfb566fde2f438ae9cdb107a0ba5cb7eb0edc.gif",
+            "https://giphy.com/gifs/kpop-k-pop-seventeen-l0ErUhF5QGceuqSwo",
+            "https://64.media.tumblr.com/51e9e220e7e97fd5584fd3c2edc29cef/4ef9177dcd70d655-ad/s500x750/acfadc8f8cdff555b2a8df17e1bcab140b2ce7c1.gif",
+            "https://64.media.tumblr.com/e02610c18faa6b49da03a9cbb25b8e7f/4ef9177dcd70d655-6f/s500x750/f7a5e7c596b1e942481343b84ce1ce047e51d987.gif",
+            "https://64.media.tumblr.com/4f0116f3dde03669912a5ee1df8d4855/4ef9177dcd70d655-25/s500x750/891a5fbc7b3fd13ae501383bf325ee1a0f0adf54.gif",
+            "https://64.media.tumblr.com/4f0116f3dde03669912a5ee1df8d4855/4ef9177dcd70d655-25/s500x750/891a5fbc7b3fd13ae501383bf325ee1a0f0adf54.gif",
+            "https://64.media.tumblr.com/dcdb3f046b02f18467b55ad08a820e4f/b702552a6cb5b989-72/s400x600/6306b9113aad4b0a4fba416edc8b43a8048f5db5.gif",
+            "https://64.media.tumblr.com/4eb7c4f2ef646c22b603f86e33f7633d/b702552a6cb5b989-7a/s400x600/0a89dfb5d9eed00e14e0a52273b7861ba1c0d286.gif",
+            "https://64.media.tumblr.com/9d276b9714aa818f27bc93ce3148f25a/b702552a6cb5b989-93/s400x600/8bf7545794ee2cc331953329fb78313a1d11c8a3.gif",
+            "https://64.media.tumblr.com/921f6e46df461f2068989e029e688e8e/9f91cba612e2a294-d3/s400x600/f6630543699e1e320584d9b4d7c26ec49d4b96d3.gif",
+            "https://64.media.tumblr.com/424a80a66c701a002bf3f8739afa10ab/1c79149f70d7f8f6-fe/s250x400/b4e22647dce75c24957bd76e2529545ab809d322.gif",
+            "https://64.media.tumblr.com/775a7fbc4cf4b7ee8b78e61f0e5eb6b7/1c79149f70d7f8f6-aa/s250x400/c652679602d809b71cc77fa58b05c98a5b89d17d.gif",
+            "https://64.media.tumblr.com/8b3527e1f26ec0fe3e1f9db0e981e69d/1c79149f70d7f8f6-f0/s250x400/bff76d14ca46c5f2d0f4bcf1dbd46e061eb421c5.gif",
+            "https://64.media.tumblr.com/eec14f07f966f0ba29b84c639848554e/be29939023e06360-c8/s400x600/01634b21bc93ea7bf959f438b8dd3c59c7107d01.gif",
+            "https://64.media.tumblr.com/ac9b440b49fd1f7ec333b1e4d1d9e313/d008bf0111427939-4d/s250x400/5bfb4046f1a4403e239e9db1baabe90e49b9a392.gif",
+            "https://64.media.tumblr.com/b3248adc3aa6ea262e55419703ccc06a/d008bf0111427939-c3/s250x400/a7d70e355fd5642012811a71e348194f73f9d23d.gif",
+            "https://64.media.tumblr.com/2f9c10be0a067a69cac1de57b53cb157/d008bf0111427939-20/s250x400/e665425de5dda6eac33db366ba10bcb9af465b4d.gif",
+            "https://64.media.tumblr.com/437629c402fa6e7e53da59e3a497d877/c69cb9e310746a97-f5/s400x600/05c216c51bbb57f85e76cc2300ff40e808957546.gif",
+            "https://64.media.tumblr.com/0b03c436e1d82d41e09c8165f6f94cba/1f4d50e1f1b62b2c-ab/s400x600/826fcc0473c486cd4249aa82365bfc9453c19340.gif"]
+
+        self.bot.seventeen_seungkwan_gif = ["https://tenor.com/view/%EC%8A%B9%EA%B4%80-seungkwan-%EC%84%B8%EB%B8%90%ED%8B%B4-seventeen-%EB%B6%80%EC%8A%B9%EA%B4%80-gif-18205335",
+            "https://tenor.com/view/performance-stage-music-dance-dance-performance-gif-15895493",
+            "https://tenor.com/view/seungkwan-side-eye-caratiz-boo-seungkwan-kpop-gif-19587947",
+            "https://tenor.com/view/kpop-boo-seungkwan-boo-seungkwan-seventeen-gif-12059496",
+            "https://tenor.com/view/boo-seungkwan-cute-seventeen-kpop-gif-15461084",
+            "https://tenor.com/view/svt-seventeen-kpop-ccg-ccg1-gif-19005803",
+            "https://tenor.com/view/booricano-seungkwan-shocked-seungkwan-shock-seungkwan-stare-seungkwan-staring-gif-18996227",
+            "https://tenor.com/view/booricano-seungkwan-punch-seungkwan-punching-screen-seungkwan-gif-18996177",
+            "https://tenor.com/view/seungkwan-seventeen-seventeen-seungkwan-boo-seungkwan-seventeen-boo-seungkwan-gif-19982867",
+            "https://tenor.com/view/%EC%8A%B9%EA%B4%80-seungkwan-%EC%84%B8%EB%B8%90%ED%8B%B4-seventeen-%EB%B6%80%EC%8A%B9%EA%B4%80-gif-18205383",
+            "https://tenor.com/view/performance-stage-music-dance-dance-performance-gif-15895495",
+            "https://tenor.com/view/bskfiles-seungkwan-seventeen-boo-seungkwan-seventeen-seungkwan-gif-20206149",
+            "https://tenor.com/view/%EC%8A%B9%EA%B4%80-seungkwan-%EC%84%B8%EB%B8%90%ED%8B%B4-seventeen-%EB%B6%80%EC%8A%B9%EA%B4%80-gif-18205399",
+            "https://tenor.com/view/boo-seungkwan-seungkwan-seventeen-oh-my-gawd-suprised-gif-13403075"]
+
+        self.bot.seventeen_hoshi_gif = ["https://tenor.com/view/hoshi-seventeen-cat-paw-cute-gif-15513589",
+            "https://tenor.com/view/hoshi-seventeen-kwon-soonyoung-smile-kpop-gif-16362661",
+            "https://tenor.com/view/hoshi-soonyoung-kwon-soonyoung-seventeen-gif-15135297",
+            "https://tenor.com/view/kwon-soonyoung-hoshi-seventeen-kpop-cute-gif-15763948",
+            "https://tenor.com/view/seventeen-kpop-hoshi-gif-9426790",
+            "https://tenor.com/view/seventeen-wow-wonwoo-wow-hoshi-wow-wonwoo-seventeen-hoshi-seventeen-gif-20037407",
+            "https://tenor.com/view/hoshi-kpop-seventeen-seventeen-hoshi-soonyoung-gif-14750860",
+            "https://tenor.com/view/hoshi-seventeenhoshi-kwonsoonyoung-horanghae-hoshihoranghae-gif-18120878",
+            "https://tenor.com/view/kpop-hoshi-seventeen-kwon-soonyoung-handsome-gif-17675637",
+            "https://tenor.com/view/thumbs-up-soonyoung-kwon-hoshi-seventeen-gif-9298464",
+            "https://tenor.com/view/hoshi-seventeen-seventeen-hoshi-soonyoung-kwon-soonyoung-gif-18117255",
+            "https://tenor.com/view/hoshi-seventeen-kpop-gif-15556451",
+            "https://tenor.com/view/hoshi-wink-seventeen-hoshi-seventeen-hoshi-wink-kwon-soonyoung-soonyoung-gif-18098031",
+            "https://tenor.com/view/hoshi-seventeen-going-seventeen-hoshi-going-seventeen-seventeen-hoshi-gif-20167573",
+            "https://tenor.com/view/seventeen-going-seventeen-gose-hoshi-soonyoung-gif-17008409",
+            "https://tenor.com/view/seventeen-hoshi-kwon-soon-young-leader-main-dancer-gif-17311478",
+            "https://tenor.com/view/seventeen-hoshi-abs-gif-17-gif-19933095",
+            "https://gfycat.com/sarcasticappropriategaur",
+            "https://64.media.tumblr.com/70f8bd6be632741225c955439f3ba947/43ff1411b29809a1-3c/s540x810/cc69b87026e3c26a949e108a251e55f050eddd07.gif",
+            "https://64.media.tumblr.com/7075359d55ce86215714749d8fd59aba/43ff1411b29809a1-ae/s540x810/dea547eaaa238f9318e50776f731d9a748a89698.gif",
+            "https://64.media.tumblr.com/7beac75bb388c22b1cb6bead9227f9a7/43ff1411b29809a1-4c/s540x810/b1ce333cd42a53b6c40d2079bc4c86e53fe35cf5.gif",
+            "https://64.media.tumblr.com/243e87481947e87787ba98dde178d8bd/43ff1411b29809a1-7e/s540x810/559440eb9332ca977328abaf1fc764aa002f544e.gif",
+            "https://64.media.tumblr.com/fdb720766c0d21d83da617910fcadc2c/43ff1411b29809a1-7b/s540x810/b0d39493c895b5e7e081bc675ba0c2513ea8c59f.gif"]
+
+        self.bot.seventeen_jun_gif = ["https://tenor.com/view/junhui-jun-seventeen-svt-seventeen-jun-gif-17166952",
+            "https://tenor.com/view/seventeen-jun-wen-junhui-kpop-cute-gif-16830644",
+            "https://tenor.com/view/seventeen-jun-junhui-wen-junhui-kpop-gif-15498186",
+            "https://tenor.com/view/wen-junhui-junhui-jun-seventeen-smile-gif-17005986",
+            "https://tenor.com/view/svt-seventeen-kpop-ccg-ccg1-gif-19005846",
+            "https://tenor.com/view/junhui-seventeen-svt-kpop-gif-10751052",
+            "https://tenor.com/view/nicesnupi-jun-svt-jun-jun-svt-seventeen-jun-gif-19159473",
+            "https://tenor.com/view/seventeen-jun-seventeen-jun-and-joshua-jun-junhui-junhui2x-speed-gif-19689672",
+            "https://tenor.com/view/jun-seventeen-jun-seventeen-moon-junhwi-gif-19434376",
+            "https://tenor.com/view/seventeen-jun-junhui-gif-15481250",
+            "https://tenor.com/view/jun-seventeen-jun-svt-svt-jun-svt-china-line-jun-hui-wen-gif-13410894",
+            "https://tenor.com/view/nicesnupi-seventeen-svt-going-seventeen-gose-gif-20000257",
+            "https://tenor.com/view/jun-junhui-seventeen-kpop-heart-gif-13407252",
+            "https://gfycat.com/afraidfrenchiberiannase-wen-junhui-seventeen",
+            "https://gfycat.com/bewitchedfalseblackbuck-wen-junhui-seventeen",
+            "https://gfycat.com/animatedredangelfish-seventeen-wen-junhui",
+            "https://gfycat.com/charmingsizzlingbullmastiff-seventeen-wen-junhui",
+            "https://gfycat.com/uniformuglybluet-seventeen-wen-junhui",
+            "https://tenor.com/view/jun-wen-junhui-seventeen-oh-my-sing-gif-14128437",
+            "https://64.media.tumblr.com/04334f9e1c6196f739a7e2fd82349ffa/e3ecbfb6e01493f2-2e/s400x600/3e6159241fd4b4128c5226e6985a4e632e9a07c7.gif",
+            "https://64.media.tumblr.com/1b2557a34ebb7c283555bbeda9726f0d/374d82f7f6e0c436-8c/s400x600/34c4edcd2a926974aae24a434f43be3e24f8a395.gif",
+            "https://64.media.tumblr.com/b38bdd2aa8349c9b8b24aef1c9938a77/374d82f7f6e0c436-65/s400x600/d219cb2a489801a0d51783a40c0aef121481107f.gif",
+            "https://64.media.tumblr.com/2b3f07c1547d8101befaef9314d61cc8/374d82f7f6e0c436-bc/s400x600/83f65ec2853290228a351378724a16101f68d34f.gif",
+            "https://64.media.tumblr.com/e037caa857a260ac7efeff6d4205f267/26c8029e44aebe40-c6/s250x400/ac3a522d9358e238387a31eb91f001ed31aa02df.gif",
+            "https://64.media.tumblr.com/8810f2886dd00e8ee6491761e7ac686d/26c8029e44aebe40-f5/s250x400/b6a569319b6905476669298def50f37ad5499615.gif",
+            "https://64.media.tumblr.com/79b4d71106af23349dd7a199257c36f9/92e816405be096b2-27/s250x400/57ba247c7eaf89c4ae345906d99f3620edd02b4a.gif",
+            "https://64.media.tumblr.com/863718fbd22649be0763808519c7843d/92e816405be096b2-ad/s250x400/e6ec2190110dfef0325efa5006cb5eb107cab224.gif",
+            "https://64.media.tumblr.com/9825052c6c34cce3cde13956b24a5368/92e816405be096b2-2a/s250x400/c396d30a1be84016490e6efa30e656326183cd23.gif",
+            "https://64.media.tumblr.com/0a012bc8430c6efd184d58fae144ccb1/92e816405be096b2-65/s250x400/625271bf08c8a805b0f9b52d0cb7d1ba575bb4b7.gif",
+            "https://64.media.tumblr.com/c8b6c98418f52c7200e8abb90e6c3e26/243afcafa21d0717-7c/s400x600/2b3500248f7dd258fe3a6b18ccdcc76e8d6ddfc5.gif",
+            "https://64.media.tumblr.com/a3abbf372406215775b4674aba9533d1/243afcafa21d0717-69/s400x600/fa0bbeee07a23670196dc5ddc89c0d3da8da203c.gif",
+            "https://64.media.tumblr.com/8fbac147e7e8991723a61fa89cf4575f/a3a97a6656520278-4c/s400x600/3e8e66251d28d9593671673bd9b59582e99b40b8.gif",
+            "https://64.media.tumblr.com/452c10310cf7931c28145ccce3ecf9fa/a3a97a6656520278-4f/s400x600/3ac82a098eaefe6b538c2ba23cac2dd588b07ddb.gif",
+            "https://64.media.tumblr.com/f2e81ca998c5169791db71056ac1bede/0b5a8266b6f38d16-3b/s400x600/52c6315670f309382526c512f8b512a6f355831d.gif",
+            "https://64.media.tumblr.com/d65dcfb9aa77d3b09e9a0d5448c543e5/23d82e58bcd64a01-63/s400x600/2f430fac42784c3f21bb0051aa31756e0f426518.gif",
+            "https://64.media.tumblr.com/05c43d373a233c07ca83260379616f44/23d82e58bcd64a01-02/s400x600/5253e01f67b88b23dc2974944eda92e7bbb857bf.gif",
+            "https://64.media.tumblr.com/fc4c3cfbaac3c2ec44d2cf421a299a44/23d82e58bcd64a01-91/s400x600/27f74dc92158fac3094914f3cecd36e2a76ff8f2.gif",
+            "https://64.media.tumblr.com/d34096e38548c73abf8a6025457c0ee3/fa0df3da4c75faf5-d3/s250x400/f9a3ec699cb696a770a6a2a533097c54f2077625.gif",
+            "https://64.media.tumblr.com/eba1b60835808dd229c1b7a00401ab04/fa0df3da4c75faf5-72/s250x400/851f4fe48c5d2bed8d489826b82cb05162cf1dc9.gif",
+            "https://64.media.tumblr.com/daac9ed2d8cd74ee7e7b7483c461eecf/ba8dbbe285699cf0-e7/s400x600/1953d3431bd3abd37d6249ef08e2aa7c518f0a48.gif",
+            "https://64.media.tumblr.com/43ba6a343b46137c252ac93ad5a015c4/b80192dd49386c42-74/s250x400/0aea0cd0a272d41d0d3cb699e5a06b122171c6dd.gif",
+            "https://64.media.tumblr.com/49f84c3e5ebcf0ce2a2a8c4c902e4a20/159cba653ca05de2-19/s400x600/b62ada2dec5385b34b40df6eb0db8e568b44421a.gif",
+            "https://64.media.tumblr.com/1143c04aa224b9a6936076d76a80c3fd/cef2fafff3e1e049-cf/s250x400/eb74e9e1db9710a26b9949310508a554c055e6be.gif",
+            "https://64.media.tumblr.com/94e8aa4429ee6c1b87facc532982c56c/cef2fafff3e1e049-3b/s250x400/9e3129d9d5fd87f4a227e936683e3a7c03850726.gif",
+            "https://64.media.tumblr.com/c04262ccc6b4608e8edd84a2d8ccc0d4/120dbd0642a8f262-75/s400x600/b47e4156c950bc3bcf70bbd74a5e64af6aecaf4a.gif",
+            "https://64.media.tumblr.com/e0e451f0aec612038dc700619a909091/6512d23b287b2e51-41/s400x600/216af084da927e6f87f72489255a5b16ca87c5b6.gif",
+            "https://64.media.tumblr.com/dca75c8eb2d688be13bbf5c5eb5f599d/6512d23b287b2e51-3a/s400x600/d18a29d1374de6bfff9d6289653bbe9336bdc774.gif",
+            "https://64.media.tumblr.com/ab95a1e62d658a21d293c46a38f65f35/6496313074ee7df7-3a/s250x400/7c73395eefa283474ade52e9bd769c45569bec97.gif",
+            "https://64.media.tumblr.com/e8e693d70907de3b3aec5ec20884b3a0/6496313074ee7df7-64/s250x400/fe82b918e4f17b6b7707bda4009e20d298893a52.gif",
+            "https://64.media.tumblr.com/ad3d99bd253d29719325a0c9237852dd/9bf10f307743baac-7e/s400x600/7b62a104de186e817644f64c5d418bdbe20dc960.gif"]
+
+        self.bot.seventeen_the8_gif = ["https://tenor.com/view/kpop-minghao-seventeen-xu-minghao-handsome-gif-15563182",
+            "https://tenor.com/view/8zones-minghao-the8-gif-18639338",
+            "https://tenor.com/view/the8-xu-minghao-seventeen-bite-finger-gif-14128433",
+            "https://tenor.com/view/minghao-svt-the8-seventeen-xu-minghao-gif-18929071",
+            "https://tenor.com/view/minghao-pink-billboard-gift-wink-gif-19837558",
+            "https://tenor.com/view/8zones-minghao-the8-gif-18638552",
+            "https://tenor.com/view/the8-seventeen-xu-minghao-wave-smile-gif-16728125",
+            "https://tenor.com/view/minghao-svt-the8-seventeen-kpop-gif-15464730",
+            "https://tenor.com/view/kpop-minghao-seventeen-xu-minghao-handsome-gif-15824823",
+            "https://tenor.com/view/the8-seventeen-handsome-cute-cool-gif-16728127",
+            "https://tenor.com/view/minghao-xu-minghao-the8-seventeen-svt-gif-17346025",
+            "https://tenor.com/view/minghao-the8-seventeen-the8-seventeen-svt-gif-20088190",
+            "https://64.media.tumblr.com/b337ddf297f729d314fa493d7f7598d2/03c8e7411d027c2b-84/s400x600/c3b8bcf3ef2239f5f1bed89e47cdea3561777228.gif"]
+
+        self.bot.seventeen_dino_gif = ["https://tenor.com/view/seventeen-dino-lee-chan-main-dancer-vocalist-gif-17591014",
+            "https://tenor.com/view/dino-seventeen-seventeen-smile-dino-smile-seventeen-gif-20041133",
+            "https://tenor.com/view/dino-seventeen-seventeen-dino-lee-chan-seventeen-snapshoot-seventeen-gif-19116959",
+            "https://tenor.com/view/seventeen-dino-lee-chan-main-dancer-vocalist-gif-17704447",
+            "https://tenor.com/view/dino-seventeen-dino-lee-chan-chan-dino-seventeen-chan-gif-19987833",
+            "https://tenor.com/view/lee-chan-dino-seventeen-smile-cute-gif-15673658",
+            "https://tenor.com/view/gifs-seven-gif-20400681",
+            "https://tenor.com/view/dinoloops-dino-dino-svt-seventeen-dino-svt-gif-gif-19131074",
+            "https://tenor.com/view/dino-seventeen-bangs-gif-13388669",
+            "https://tenor.com/view/kpop-svt-seventeen-ccg-dino-gif-15524297",
+            "https://tenor.com/view/lol-seventeen-dino-seventeen-going-seventeen-seventeen-lol-gif-20204692",
+            "https://tenor.com/view/lee-chan-dino-seventeen-gif-15471840",
+            "https://64.media.tumblr.com/a73658c0b300a9edc8da1e017792fe5d/9d049a3ab45f07f4-73/s400x600/097f3448463994ccf630eb951812d264ce5a07d1.gif",
+            "https://64.media.tumblr.com/755893a92e50d94993708c3fc98a45de/24bbea4d6fd61d33-db/s400x600/9411934009319ae3edf9031620d028380cd4af9a.gif",
+            "https://64.media.tumblr.com/7a668f27892e61feb74a2bddd4f2e2c8/24bbea4d6fd61d33-d7/s400x600/99443d4243003a0dc2f5ec7dcbeb45e96c1f0984.gif",
+            "https://64.media.tumblr.com/fe14464b8abc1457de2682e877283270/24bbea4d6fd61d33-5a/s400x600/739a42c333fcc82ef4d980f93bbce0a7cd01801f.gif",
+            "https://64.media.tumblr.com/aebdd74c443b1be8a3242bbfb732f15b/24bbea4d6fd61d33-d5/s400x600/5ea5879905e7f72dabe174926968be847ce2dbda.gif",
+            "https://64.media.tumblr.com/b1acf3d64dc124d69b4a186e1942692e/1c5850b3002ee5c5-01/s400x600/ee7b6e04db78687734bdf757b0f2f6d88919ab67.gif",
+            "https://64.media.tumblr.com/6c6c6228f5582b3a9e34162381a56055/1c5850b3002ee5c5-3b/s400x600/1135e8dfd11c47ef3ccfb011f53c23141ca9c9d7.gif"]
     #. SF9
         self.bot.sf9_chani_gif = ["https://cdn.discordapp.com/attachments/805178530279325697/805179888738893834/image0.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805179889082564638/image1.gif",
@@ -965,7 +1716,11 @@ class BGS(commands.Cog):
             "https://tenor.com/view/ripjonghyun-kpop-korean-gif-10547066",
             "https://tenor.com/view/jonghyun-dancing-127baek-shinee-jonghyun-jonghyun-gif-20032175",
             "https://tenor.com/view/shinee-excuse-me-miss-j-onghyun-taemin-dance-gif-17047724",
-            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262"]
+            "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445252668948530/Tumblr_l_239399224563101.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445253637570611/Tumblr_l_239397973464039.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255206502467/Tumblr_l_239400507954663.gif",
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif"]
 
         self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
             "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
@@ -1002,7 +1757,15 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/818522232736317490/Tumblr_l_1093817018279458.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/818522233567445012/Tumblr_l_1093815401908886.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/818522901275869214/Tumblr_l_1093978031450178.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/818523179449319464/Tumblr_l_1094062293494104.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445267944996925/Tumblr_l_239418077804396.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445268498120705/Tumblr_l_239416339838146.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445269018476584/Tumblr_l_239414946167522.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445269596504104/Tumblr_l_239414450535543.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445305169575976/Tumblr_l_239391294710708.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445305957449758/Tumblr_l_239389382270188.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445306539933726/Tumblr_l_239388140540188.gif",
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
@@ -1204,9 +1967,41 @@ class BGS(commands.Cog):
             await ctx.message.delete()
         else:
             if child == "child":
-                if arg == "joochan":
+                if arg == "bomin":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Bomin :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_bomin_gif))
+                    await ctx.message.delete()
+                elif arg == "daeyeol":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Daeyeol :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_daeyeol_gif))
+                    await ctx.message.delete()
+                elif arg == "donghyun":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Donghyun :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_donghyun_gif))
+                    await ctx.message.delete()
+                elif arg == "jaehyun":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_jaehyun_gif))
+                    await ctx.message.delete()
+                elif arg == "jangjun":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jangjun :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_jangjun_gif))
+                    await ctx.message.delete()
+                elif arg == "jibeom":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jibeom :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_jibeom_gif))
+                    await ctx.message.delete()
+                elif arg == "joochan":
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
                     await ctx.send(random.choice(self.bot.golcha_joochan_gif))
+                    await ctx.message.delete()
+                elif arg == "seungmin":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Seungmin :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_seungmin_gif))
+                    await ctx.message.delete()
+                elif arg == "tag":
+                    await ctx.send(f'<@!{ctx.author.id}> is talking about Tag :heart:')
+                    await ctx.send(random.choice(self.bot.golcha_tag_gif))
                     await ctx.message.delete()
                 elif arg == "y":
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
@@ -1316,59 +2111,106 @@ class BGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.theboyz_group_gif))
                 await ctx.message.delete()
     
-    @commands.command()
-    async def p1harmony(self, ctx, arg):
+    @commands.command(aliases = ['p1h'])
+    async def p1harmony(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "intak":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+            if arg == "intak":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
                 await ctx.message.delete()
-        elif arg == "jiung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "jiung":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
                 await ctx.message.delete()
-        elif arg == "jongseob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "jongseob":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
                 await ctx.message.delete()
-        elif arg == "keeho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "keeho":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
                 await ctx.message.delete()
-        elif arg == "soul":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "soul":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
                 await ctx.message.delete()
-        elif arg == "theo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "theo":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
+                await ctx.message.delete()
+            elif arg == "group":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about P1Harmony :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_group_gif))
+                await ctx.message.delete()
+        
+
+    @commands.command()
+    async def seventeen(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Seventeen {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+        else:
+            if arg == "scoups" or arg == "s.coups":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about S.coups :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_scoups_gif))
+                await ctx.message.delete()
+            elif arg == "wonwoo":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Wonwoo :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_wonwoo_gif))
+                await ctx.message.delete()
+            elif arg == "mingyu":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Mingyu :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_mingyu_gif))
+                await ctx.message.delete()
+            elif arg == "vernon":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Vernon :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_vernon_gif))
+                await ctx.message.delete()
+            elif arg == "woozi":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Woozi :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_woozi_gif))
+                await ctx.message.delete()
+            elif arg == "jeonghan":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghan :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_jeonghan_gif))
+                await ctx.message.delete()
+            elif arg == "joshua":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Joshua :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_joshua_gif))
+                await ctx.message.delete()
+            elif arg == "dk":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about DK :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_dk_gif))
+                await ctx.message.delete()
+            elif arg == "seungkwan":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungkwan :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_seungkwan_gif))
+                await ctx.message.delete()
+            elif arg == "hoshi":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Hoshi :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_hoshi_gif))
+                await ctx.message.delete()
+            elif arg == "jun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jun :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_jun_gif))
+                await ctx.message.delete()
+            elif arg == "the8":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about The8 :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_the8_gif))
+                await ctx.message.delete()
+            elif arg == "dino":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Dino :gem:')
+                await ctx.send(random.choice(self.bot.seventeen_dino_gif))
                 await ctx.message.delete()
 
     @commands.command()

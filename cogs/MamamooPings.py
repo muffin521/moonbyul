@@ -3,22 +3,11 @@ from discord.ext import commands
 from datetime import datetime
 
 #//servers
-jst = 735713250225815615
 luminary = 758468592957521972
-sadboi = 642497143801905190
 
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
-
-#//people
-muffin = 488423352206229505
-ari = 633823096541020170
-stanley = 727312020717830264
-rith = 346724857725059075
-masa = 725138411823956079
-mae = 492769416610840586
-agus = 683791381667250208
 
 class MamamooPings(commands.Cog):
 
@@ -163,7 +152,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-wheein-jung-wheein-vocalist-rbw-entertainment-gif-17529521",
             "https://tenor.com/view/mamamoo-gogobebe-wheein-laugh-gif-13827607",
             "https://tenor.com/view/bored-boring-wheein-mamamoo-kpop-gif-13821727",
-            "https://tenor.com/view/mamamoo-gogobebe-wheein-dance-gif-13827605"]
+            "https://tenor.com/view/mamamoo-gogobebe-wheein-dance-gif-13827605",
+            "https://media.giphy.com/media/WRZ49jIsUn83l65gOy/giphy.gif"]
 
         self.bot.solar_gif = ["https://tenor.com/view/solar-mamamoo-shirt-rip-gif-15962906",
             "https://tenor.com/view/mamamoo-solar-kim-yong-sun-leader-vocalist-gif-17148597",
@@ -259,69 +249,6 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-gogobebe-dance-wheein-wink-gif-13821660",
             "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642"]
 
-    @commands.command(aliases = ['byul'])
-    async def moonbyul(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Moonbyul :heart:')
-                await ctx.send(random.choice(self.bot.moonbyul_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Moonbyul :heart:')
-            await ctx.send(random.choice(self.bot.moonbyul_gif))
-            await ctx.message.delete()
-
-    @commands.command()
-    async def wheein(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}>, <@!{ctx.author.id}> is talking about Wheein :white_heart:')
-                await ctx.send(random.choice(self.bot.wheein_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Wheein :white_heart:')
-            await ctx.send(random.choice(self.bot.wheein_gif))
-            await ctx.message.delete()
-    
-    #solar command for me and mae
-    @commands.command()
-    async def solar(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@{mae}>, <@!{ctx.author.id}> is talking about Solar :blue_heart:')
-                await ctx.send(random.choice(self.bot.solar_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Solar :blue_heart:')
-            await ctx.send(random.choice(self.bot.solar_gif))
-            await ctx.message.delete()
-
-    #hwasa command for me
-    @commands.command()
-    async def hwasa(self, ctx):
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
-                await ctx.send(random.choice(self.bot.hwasa_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
-            await ctx.send(random.choice(self.bot.hwasa_gif))
-            await ctx.message.delete()
-
-    #mamamoo command
     @commands.command()
     async def mamamoo(self, ctx, arg="i say mama, mama mooooo"):
         now = datetime.now()
@@ -329,66 +256,41 @@ class MamamooPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Mamamoo {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "moonbyul" or arg == "byul":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Moonbyul :heart:')
-                    await ctx.send(random.choice(self.bot.moonbyul_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Moonbyul :heart:')
                 await ctx.send(random.choice(self.bot.moonbyul_gif))
                 await ctx.message.delete()
         elif arg == "wheein":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{muffin}>, <@{stanley}>, <@{rith}>, <@{masa}>, <@{agus}>, <@!{ctx.author.id}> is talking about Wheein :white_heart:')
-                    await ctx.send(random.choice(self.bot.wheein_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Wheein :white_heart:')
                 await ctx.send(random.choice(self.bot.wheein_gif))
                 await ctx.message.delete()
         elif arg == "solar":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{muffin}>, <@{mae}>, <@!{ctx.author.id}> is talking about Solar :blue_heart:')
-                    await ctx.send(random.choice(self.bot.solar_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Solar :blue_heart:')
                 await ctx.send(random.choice(self.bot.solar_gif))
                 await ctx.message.delete()
         elif arg == "hwasa":
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@{muffin}>, <@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
-                    await ctx.send(random.choice(self.bot.hwasa_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hwasa :yellow_heart:')
                 await ctx.send(random.choice(self.bot.hwasa_gif))
                 await ctx.message.delete()
         else:
-            if ctx.guild.id == luminary:
-                if ctx.channel.id == kbotcom:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Mamamoo :green_heart:')
-                    await ctx.send(random.choice(self.bot.mamamoo_gif))
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
+            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+                await ctx.message.delete()
             else:
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Mamamoo :green_heart:')
                 await ctx.send(random.choice(self.bot.mamamoo_gif))
