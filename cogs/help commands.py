@@ -16,7 +16,7 @@ class hcommands(commands.Cog):
     async def help(self, ctx):
         
         cur_page = 1
-        totalpages = 6
+        totalpages = 7
     #//embed 1
         embed1 = discord.Embed(
             title = 'COMMANDS',
@@ -63,7 +63,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text=f"page 3/{totalpages}")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
         embed3.add_field(name='Blackpink', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```', inline = True)
-        embed3.add_field(name='Misc', value=f'```\nKrystal\nKiki\nS.E.S\n ```', inline = True)
+        embed3.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n ```')
         
         embed3.add_field(name='BTS', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
@@ -126,10 +126,29 @@ class hcommands(commands.Cog):
         embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
         embed6.add_field(name='Shinee', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
 
-        embed6.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
-        embed6.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
-        embed6.add_field(name='Golden Child', value=f'```\nGolden Child Joochan\nGolden Child Y```')
+        embed6.add_field(name='Misc', value=f'```\nKrystal\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ```', inline = True)
+        embed6.add_field(name='ASTRO', value=f'```\nGolden Child Daeyeol\nGolden Child Y\nGolden Child Jangjun\nGolden Child Tag\nGolden Child Seungmin```')
+        embed6.add_field(name='Golden Child', value=f'```\nGolden Child Jaehyun\nGolden Child Jibeom\nGolden Child Donghyun\nGolden Child Joochan\nGolden Child Bomin```')
         embed6.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
+
+    #//embed7
+        embed7 = discord.Embed(
+            title = 'COMMANDS',
+            description = description,
+            colour = discord.Color.from_rgb(198, 237, 154))
+        embed7.set_footer(text=f"page 7/{totalpages}")
+        embed7.add_field(name='Seventeen [1]', value=f'```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua```', inline = True)
+        embed7.add_field(name='Seventeen [2]', value=f'```\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino\n ```', inline = True)
+        # embed7.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
+
+        # embed7.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
+        # embed7.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
+        # embed7.add_field(name='Shinee', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
+
+        # embed7.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
+        # embed7.add_field(name='ASTRO', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
+        # embed7.add_field(name='Golden Child', value=f'```\nGolden Child Joochan\nGolden Child Y```')
+        embed7.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
         
 
     #//end of embeds:)
