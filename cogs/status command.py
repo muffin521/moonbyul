@@ -7,13 +7,12 @@ byulver = '1.3.9'
 muffin = 488423352206229505 #// other things
 gareth = 389897179701182465 #// other things
 k8 = 573974040679809044 #//helper
-weakado = 259409277482041344
-ple = 416903886968979466
-dj = 373369932303433728 #.not in
-aster = 495714786823241728 
-himiko = 745060875483742258
+aster = 495714786823241728 #// do NOT remove under any circumstances D:<
+himiko = 542979553531002922
 naomi = 175498897324507138
 nina = 689578336737165314
+vinny = 695885441253245000
+
 
 class scommand(commands.Cog):
 
@@ -58,10 +57,9 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{aster}>\n<@{k8}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Servers**\n' + str(servers), inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{weakado}>\n<@{aster}>')
+        embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{vinny}>\n<@{aster}>')
         embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
         await ctx.send(embed=embed)
-        #. <@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{weakado}>\n<@{aster}>
 
     @commands.command()
     @commands.is_owner()
