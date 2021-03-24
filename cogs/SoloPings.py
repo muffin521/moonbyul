@@ -733,7 +733,7 @@ class SoloPings(commands.Cog):
             await ctx.send(random.choice(self.bot.luhan_gif))
             await ctx.message.delete()
 
-    @commands.command()
+    @commands.command(alises = ['xitao', 'ztao'])
     async def tao(self, ctx): 
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
