@@ -245,13 +245,6 @@ class gamerPings(commands.Cog):
             "Toilet Lid"]
 
     @commands.command()
-    async def dreammc(self, ctx):
-        if ctx.guild.id == jst:
-            await ctx.send(f'<@150742733743587328>, <@!{ctx.author.id}> is talking about Dream :cactus:')
-            await ctx.send(random.choice(self.dream_gif))
-            await ctx.message.delete()
-
-    @commands.command()
     async def food(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
@@ -270,15 +263,6 @@ class gamerPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [screm] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send('https://tenor.com/view/loona-loona-hyunjin-hyunjin-kim-hyunjin-loona-aeong-gif-18902504')
-        await ctx.message.delete()
-
-    @commands.command()
-    async def rahul(self, ctx):
-        now = datetime.now()
-        channel = ctx.bot.get_channel(logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [rahul] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        await ctx.send(f'<@579636764889841665> monke ' + random.choice(self.monke))
         await ctx.message.delete()
 
     @commands.command()
@@ -312,7 +296,7 @@ class gamerPings(commands.Cog):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
         current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [muffin] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await channel.send(f"`{current_time} | USED COMMAND [Muffin] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'<@!{ctx.author.id}> :heart: you <@488423352206229505>')
 
     @commands.command()
