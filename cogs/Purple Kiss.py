@@ -297,7 +297,7 @@ class PurpleKiss(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Swan :heart:')
                     await ctx.send(random.choice(self.bot.swan_gif))
                     await ctx.message.delete()
-            elif arg == "teaser":
+            elif arg == "teaser" or arg == "teasers":
                 if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
                     await ctx.message.delete()
