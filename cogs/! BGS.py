@@ -1197,6 +1197,14 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226445852693/image2.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif",
             "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435"]
+    
+        self.bot.p1harmony_group_gif = ["https://tenor.com/view/thoe-p1harmony-theo-keeho-p1h-gif-19371047",
+            "https://tenor.com/view/p1harmony-gif-19761328",
+            "https://tenor.com/view/p1h-p1harmony-gif-19927014",
+            "https://tenor.com/view/p1harmony-kpop-siren-siren-p1harmony-p1harmony-siren-gif-19887489",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-p1harmony-siren-siren-kpop-gif-19887478",
+            "https://tenor.com/view/p1harmony-siren-siren-p1harmony-p1harmony-siren-kpop-gif-19887473",
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jongseob-kim-jongseob-gif-19887398"]
     #. Seventeen
         self.bot.seventeen_scoups_gif = ["https://tenor.com/view/s-coups-seventeen-handsome-gif-13332018",
             "https://tenor.com/view/scoups-seventeen-svt-jicheol-okay-gif-11883208",
@@ -2103,60 +2111,44 @@ class BGS(commands.Cog):
                 await ctx.send(random.choice(self.bot.theboyz_group_gif))
                 await ctx.message.delete()
     
-    @commands.command()
-    async def p1harmony(self, ctx, arg):
+    @commands.command(aliases = ['p1h'])
+    async def p1harmony(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "intak":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+            await ctx.message.delete()
+            if arg == "intak":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
                 await ctx.message.delete()
-        elif arg == "jiung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "jiung":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
                 await ctx.message.delete()
-        elif arg == "jongseob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "jongseob":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
                 await ctx.message.delete()
-        elif arg == "keeho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "keeho":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
                 await ctx.message.delete()
-        elif arg == "soul":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "soul":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
                 await ctx.message.delete()
-        elif arg == "theo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "theo":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
                 await ctx.message.delete()
+            elif arg == "group":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about P1Harmony :rotating_light:')
+                await ctx.send(random.choice(self.bot.p1harmony_group_gif))
+                await ctx.message.delete()
+        
 
     @commands.command()
     async def seventeen(self, ctx, arg):
