@@ -218,7 +218,8 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/clc-elkie-hungry-eating-gif-13944518",
             "https://i.pinimg.com/originals/5a/b6/6c/5ab66c4e8d4607b8a34a272bafdf80f7.gif",
             "https://data.whicdn.com/images/319081662/original.gif",
-            "https://d.wattpad.com/story_parts/727104930/images/159ab7d3f4edc87d40297965869.gif"]
+            "https://d.wattpad.com/story_parts/727104930/images/159ab7d3f4edc87d40297965869.gif",
+            "https://data.whicdn.com/images/349284985/original.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
