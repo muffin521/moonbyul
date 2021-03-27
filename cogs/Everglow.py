@@ -68,7 +68,10 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/8acfa453a5c44c7f9b702d729b17e199/tumblr_pxk0rb7XHG1ud83y5o1_250.gif",
             "https://64.media.tumblr.com/2a4c18fda810e3685f669f8c1f1c8107/cfb284170e1e5f20-1a/s400x600/b0014c7059ce389f1422dca1097f722b569e44f3.gif",
             "https://64.media.tumblr.com/fe476f085781ecc3cce317304438919b/dcd85241d73f3b61-cd/s500x750/6dade2304c8ff2d75c3346bbadeaf9927e205b2b.gif",
-            "https://data.whicdn.com/images/327894135/original.gif"]
+            "https://data.whicdn.com/images/327894135/original.gif",
+            "https://tenor.com/view/everglow-mia-everglow-mia-mia-everglow-everglow-reaction-gif-20785329",
+            "https://tenor.com/view/mia-everglow-gif-19015835",
+            "https://tenor.com/view/mia-everglow-gif-19015837"]
 
         self.bot.yiren_gif = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
             "https://tenor.com/view/love-you-more-wink-side-eye-flirt-smile-gif-16944406",
@@ -299,7 +302,10 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/b9042d612bd65d8ab81417b1016f6bab/a4b05cf54d02d19a-58/s400x600/ea2a895d9fe582e189ba8182c07b0425326e8ad8.gif",
             "https://64.media.tumblr.com/0b477b810e29204e0d7e71ccb9ebde29/a7ca3b60e8fd76c5-da/s400x600/51ea3cf301f36d7b07eaa3e67f3c7edf724d2bf9.gif",
             "https://media1.tenor.com/images/6c5afc8dbabe28f2eddf2b0d7e358646/tenor.gif?itemid=16259156",
-            "https://media1.tenor.com/images/3117066bc006d142b6f3b6c0cad5c48d/tenor.gif?itemid=16481573"]
+            "https://media1.tenor.com/images/3117066bc006d142b6f3b6c0cad5c48d/tenor.gif?itemid=16481573",
+            "https://i.pinimg.com/originals/48/c9/c1/48c9c1662e471e2da75f89bc6f5cdc8a.gif",
+            "https://thumbs.gfycat.com/AmusedSpryIcterinewarbler-size_restricted.gif",
+            "https://66.media.tumblr.com/33fc67ca83e5e45cb6e2976e56142bb7/76b840f7b2231cf7-28/s400x600/2c57436687e43844ecc22f0daed8caa16703deea.gif"]
 
         self.bot.sihyeon_gif = ["https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16281910",
             "https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16481660",
