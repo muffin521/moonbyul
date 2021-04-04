@@ -170,7 +170,12 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/2dafc604c6f4090417598e6867fe8061/055d1c173241cba4-e3/s540x810/b188a25df28ad4418cfaa9034931617fd456df71.gif",
             "https://64.media.tumblr.com/37d58c02e7cb216d5de041630dc41f6b/30c0ecabfd91c106-e4/s540x810/d2bb9d85842edc352ef528166f9d06464903e4a6.gif",
             "https://64.media.tumblr.com/7ef02e333ea077bd8866252068fb73ef/6211136ab0e65c25-c7/s540x810/5172af8792b4bbd905971ebeb93e492c28d6aa04.gif",
-            "https://64.media.tumblr.com/82a6a814f60bfdd0869919144c7145e0/dfe68734f83ee524-9d/s540x810/5354069b7f382a21f213f000a9a239e925d30d34.gif"]
+            "https://64.media.tumblr.com/82a6a814f60bfdd0869919144c7145e0/dfe68734f83ee524-9d/s540x810/5354069b7f382a21f213f000a9a239e925d30d34.gif",
+            "https://tenor.com/view/bts-yoongi-suga-gif-16010007",
+            "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-suga-min-yoongi-gif-17662409",
+            "https://tenor.com/view/suga-cute-min-yoongi-pointing-gif-14815431",
+            "https://tenor.com/view/bts-yoongi-suga-sad-gif-14569182",
+            "https://tenor.com/view/yoongishh-yoongi-suga-min-yoongi-shhhh-gif-18584227"]
 
         self.bot.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376182888431616/image1.gif",
