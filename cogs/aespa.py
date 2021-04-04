@@ -80,7 +80,12 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/0bc835c6ec70a816862e2c15e4cf9d3c/1ea4aeef098a5a47-8e/s400x600/e559699a7b36392f5c24ca86bec1582da1ab3b00.gif",
             "https://64.media.tumblr.com/265358dc143b0d4e32e38599f94b0b97/1ea4aeef098a5a47-78/s400x600/8cfe092a29dce477d3c8a30f03df42152a9d2969.gif",
             "https://64.media.tumblr.com/59f3fe806b41a682fbde65e1b56a8e1f/5be48bdf92b7f151-f2/s400x600/2fe16c9a2254ed2b39f1f8ca07538e40200fa86b.gif",
-            "https://64.media.tumblr.com/fa15311755bf13375b8897025401b845/5be48bdf92b7f151-4e/s400x600/2467e97f66f7a37c0dc595edfb40f2dbacbea429.gif"]
+            "https://64.media.tumblr.com/fa15311755bf13375b8897025401b845/5be48bdf92b7f151-4e/s400x600/2467e97f66f7a37c0dc595edfb40f2dbacbea429.gif",
+            "https://64.media.tumblr.com/245c1e821c0a1d750418aa341954e3c0/1a289d9df2fd0341-52/s400x600/7098300ca7fefc14cc735dfbe42a81a50dcfa54e.gif",
+            "https://64.media.tumblr.com/ea2065c82af866e2547a399dc4ce7c52/1a289d9df2fd0341-a1/s400x600/78dfba6d1dd3a61b5c8fab4dbe4f08f6c0d0bfec.gif",
+            "https://64.media.tumblr.com/2b4bc619a3d781b6f294b00530374b8f/1a289d9df2fd0341-ee/s400x600/6af3aa16b0bd41a1298db71dbce1f94c8199e3aa.gif",
+            "https://64.media.tumblr.com/c7e6caba14dc67117c79bf40c181fc86/1a289d9df2fd0341-91/s400x600/d9708b834aa8981d999d2184958699023b33f22c.gif",
+            "https://64.media.tumblr.com/575e8a58489f211774022fece0d64229/46b350f908e890fa-34/s540x810/aa033a5572883f49ed0cfd57c8d0b7756bad0602.gif"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
@@ -140,7 +145,10 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/ca7a40876317bff2683ecfdf06462330/038233fae3e5404b-9c/s400x600/0606d41607027fcba6d0968bf7bf43b560545589.gif",
             "https://64.media.tumblr.com/b55e278f99002e78ee01425e79c41692/1afa7cbad15c9063-81/s540x810/8faa4285b18a1b25b85545f00a36e12126addc6e.gif",
             "https://gfycat.com/nervouseasygoingandeancondor",
-            "https://gfycat.com/weehideousaddax"]
+            "https://gfycat.com/weehideousaddax",
+            "https://64.media.tumblr.com/99d78ddc357f5a2d33473bee7c2bee5a/d33d8eab023eb5c1-8f/s400x600/ae282f1df2015aba484611b932313a5b3eecdd2e.gif",
+            "https://64.media.tumblr.com/d19e3e3478b50f1d566c6fe2f1a84694/d33d8eab023eb5c1-7e/s400x600/b9a2d4d5c117aeed694836d29247f06cf0bf9644.gif",
+            "https://64.media.tumblr.com/af5067e8169b14bfcb2df7cabbe8a4b2/6d32b94cef3d975d-e9/s400x600/bda8cace54308eceff52599e7b6de79e2893fd6a.gif"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
@@ -199,7 +207,12 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/7eaf10d253c6133097506d26d6fa55a5/b9c09782851df7cf-e7/s400x600/29b46622d688ad64e29368a96d17bda302bee02d.gif",
             "https://64.media.tumblr.com/ed6eb25de492e7d7c584342c17b6cbf8/b9c09782851df7cf-2c/s400x600/34c516a7923a51aac1980a619e201da16805b60c.gif",
             "https://64.media.tumblr.com/14f5a3ab758cb5f2bf3b1566f248a424/b9c09782851df7cf-ec/s400x600/b8e901bdb42b8e912c861a3da9e9b0757f73d019.gif",
-            "https://64.media.tumblr.com/936788e2dce6792b736a4bdc8d8d1255/b9c09782851df7cf-3e/s540x810/67fbe9b17520b9a1a4672aa5bf3af20159b49c12.gif"]
+            "https://64.media.tumblr.com/936788e2dce6792b736a4bdc8d8d1255/b9c09782851df7cf-3e/s540x810/67fbe9b17520b9a1a4672aa5bf3af20159b49c12.gif",
+            "https://64.media.tumblr.com/e6a8d57d68fef97cb0a0d4c4b31d7edc/217ea684a2645140-d2/s400x600/3f8272dbcf159b071ff21cd714c2f3054299badc.gif",
+            "https://64.media.tumblr.com/556b92b7b904fb07d2b8c48244de1e8d/217ea684a2645140-bf/s400x600/3da24eeae7bcfb0bb01821fc2496d2058f78365e.gif",
+            "https://64.media.tumblr.com/e63a1820b174b8cf0f09495172ffa05f/217ea684a2645140-30/s400x600/8d1afb8573c78b4607721782a7d8aec0640d3ad7.gif",
+            "https://64.media.tumblr.com/71f7f910911e1d5995dc67f32158bf50/a4605680ab1fccd3-8e/s540x810/04902036cc9dd0e9ce89495ed97f904ca5395e79.gif",
+            "https://64.media.tumblr.com/418efb75ad499d70941e840e28dd33f7/a4605680ab1fccd3-7b/s540x810/ee6bc1c6a01e64a5c18f9a21c52adcf9d8ba016c.gif"]
 
         self.bot.karina_gif = ["https://cdn.discordapp.com/attachments/772980032086999090/782482078616125470/giphy.gif",
             "https://cdn.discordapp.com/attachments/772980032086999090/782482080427671552/20201028144417-7ae7.gif",
@@ -261,7 +274,11 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/9933e17cb24e262f8eafd14c8c5943d7/a7c5565699f1b25f-00/s400x600/dc37bee8331f80ea746a4a24ba3c8ecca77f7b33.gif",
             "https://64.media.tumblr.com/46b489acff78be20fc8a820778669aac/a7c5565699f1b25f-e0/s400x600/b573c87af4116b83f35d254c2c16d814220d0cef.gif",
             "https://64.media.tumblr.com/c4d0a6d6f9d960066bd72f81fc91a9ef/a7c5565699f1b25f-74/s400x600/5bfe774b9a331278b00e8c871a342e80cca45d6f.gif",
-            "https://64.media.tumblr.com/c307c7ed5c292461e138bf3d403d5c53/a7c5565699f1b25f-31/s540x810/ac0b3b45e8803d0c6173a594d696fe0ed4704568.gif"]
+            "https://64.media.tumblr.com/c307c7ed5c292461e138bf3d403d5c53/a7c5565699f1b25f-31/s540x810/ac0b3b45e8803d0c6173a594d696fe0ed4704568.gif",
+            "https://64.media.tumblr.com/1b8ab174ce810c855f461f494b815ea9/1fadfc2f27cbbe91-28/s400x600/a2bc02843d031cedc13180b9b9f3158f50318171.gif",
+            "https://64.media.tumblr.com/202e0e59ca0b9ccf44f3a78bbba5675e/1fadfc2f27cbbe91-f0/s400x600/152ef47aad575a0d8e7907321f702aebf8d5063e.gif",
+            "https://64.media.tumblr.com/c894cdf8c3b5a3066e4df58d24050a3b/87e40117001791ea-b4/s540x810/e2e28e689724ed3586355dc9ed6280b42ca0ed05.gif",
+            "https://64.media.tumblr.com/28820817ffbcf9dac57078ad28900565/8d5b52e78f77ce70-3b/s400x600/39f8dd0daf2f9be365060f9d540812a48c1314c0.gif"]
 
     @commands.command()
     async def aespa(self, ctx, *, arg):
