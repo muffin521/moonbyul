@@ -1,6 +1,7 @@
 import discord, random, datetime
 from discord.ext import commands
 from datetime import datetime
+from typing import List
 
 #//servers
 luminary = 758468592957521972
@@ -8,6 +9,7 @@ luminary = 758468592957521972
 #=channels
 #.luminary bot-commands
 kbotcom = 764610881513324574
+
 
 
 class BGS(commands.Cog):
@@ -1907,7 +1909,7 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Baekhyun :heart:')
                 await ctx.send(random.choice(self.bot.exo_baekhyun_gif))
                 await ctx.message.delete()
-        elif arg == "chaenyeol":
+        elif arg == "chanyeol":
             if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
                 await ctx.message.delete()
@@ -2397,6 +2399,22 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Ziu :heart:')
                 await ctx.send(random.choice(self.bot.vav_ziu_gif))
                 await ctx.message.delete()
+
+    # @bot.command()
+    # async def sendGif(self, ctx, idol:str, gifSet:List[str], emoji:str):
+    #     if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
+    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+    #         await ctx.message.delete()
+    #     else:
+    #         await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
+    #         await ctx.send(random.choice(gifSet))
+    #         await ctx.message.delete()
+
+    # @commands.command()
+    # async def panda(self, ctx):
+    #     sendGif(self, ctx, "HELP", self.bot.golcha_joochan_gif, "heart")
+
+    
 
 
 def setup(client):

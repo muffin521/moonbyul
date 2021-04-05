@@ -146,7 +146,37 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/786714676506394654/800513877405073438/tenor-2.gif",
             "https://cdn.discordapp.com/attachments/786714676506394654/800513938458542110/tumblr_op8ssqIAi81tmc4fuo1_400.gif",
             "https://cdn.discordapp.com/attachments/786714676506394654/800514030656553000/tumblr_okcn65yiNA1ue8w9eo1_400.gif",
-            "https://cdn.discordapp.com/attachments/786714676506394654/800514172197666856/a809c032f560b7c8563bdf59d6dcac1d9eb3bb91.gif"]
+            "https://cdn.discordapp.com/attachments/786714676506394654/800514172197666856/a809c032f560b7c8563bdf59d6dcac1d9eb3bb91.gif",
+            "https://gfycat.com/aromaticrigidiberianchiffchaff",
+            "https://gfycat.com/distantheftycockerspaniel",
+            "https://gfycat.com/aggressivebowedhaddock",
+            "https://gfycat.com/illinformedfeminineboto",
+            "https://gfycat.com/caninehomelydogwoodclubgall",
+            "https://gfycat.com/gentleablegangesdolphin",
+            "https://gfycat.com/activedefinitehornedtoad",
+            "https://gfycat.com/deficientfrequentbushsqueaker",
+            "https://gfycat.com/shyhauntingblesbok",
+            "https://gfycat.com/betterquarrelsomebuffalo",
+            "https://gfycat.com/everygreatgermanshepherd",
+            "https://gfycat.com/massiveremotedunnart",
+            "https://gfycat.com/infatuatedpastelacornweevil",
+            "https://gfycat.com/warlikeellipticalindianelephant",
+            "https://gfycat.com/wellinformedafraiddeer",
+            "https://gfycat.com/belatedwickediberianmidwifetoad",
+            "https://gfycat.com/capitalwelldocumentedalligator",
+            "https://gfycat.com/fantasticgentlechick",
+            "https://gfycat.com/circularpolishedhoneyeater",
+            "https://gfycat.com/measlymiserlyamericanbadger",
+            "https://gfycat.com/kindimmensedairycow",
+            "https://gfycat.com/querulousessentialamericancurl",
+            "https://gfycat.com/grippingactualafricanpiedkingfisher",
+            "https://gfycat.com/hopefulbrownarizonaalligatorlizard",
+            "https://gfycat.com/finishedtotalhog",
+            "https://gfycat.com/lameinfantilealligatorsnappingturtle",
+            "https://gfycat.com/softinsecuregangesdolphin",
+            "https://gfycat.com/uglyidolizedgordonsetter",
+            "https://gfycat.com/whitemeanfrigatebird",
+            "https://gfycat.com/pepperygaseousislandcanary"]
 
         self.bot.dreamcatcher_dami_gif = ["https://tenor.com/view/dreamcatcher-%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-dami-cute-dance-gif-12255241",
             "https://tenor.com/view/dami-dreamcatcher-dcboca-gif-18178539",
@@ -189,7 +219,11 @@ class GGS(commands.Cog):
             "https://thumbs.gfycat.com/AcrobaticHugeGordonsetter-max-1mb.gif",
             "https://i.pinimg.com/originals/a3/1d/ed/a31ded97432ccda2c7afb2376ab2b681.gif",
             "https://thumbs.gfycat.com/GlossyHopefulAmberpenshell-max-1mb.gif",
-            "https://thumbs.gfycat.com/LittleSparklingChameleon-max-1mb.gif"]
+            "https://thumbs.gfycat.com/LittleSparklingChameleon-max-1mb.gif",
+            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812829",
+            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812828",
+            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812824",
+            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812822"]
 
         self.bot.dreamcatcher_gahyeon_gif = ["https://tenor.com/view/onex-1x-dreamcatcher-dreamcatcher-gahyeon-gahyeon-kiss-gif-18704085",
             "https://cdn.discordapp.com/attachments/795584752127311873/800511696837148692/0cabae4a0b98cd2e26eb345427b06a71.gif",
@@ -204,7 +238,11 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795584752127311873/800510323903299604/original_2.gif",
             "https://cdn.discordapp.com/attachments/795584752127311873/800509989127061544/o6MpBX.gif",
             "https://cdn.discordapp.com/attachments/795584752127311873/800509840983851028/tenor_6.gif",
-            "https://cdn.discordapp.com/attachments/795584752127311873/800509691888533565/e9e4ab22e4b8f52a38d5981b1b75ffc6.gif"]
+            "https://cdn.discordapp.com/attachments/795584752127311873/800509691888533565/e9e4ab22e4b8f52a38d5981b1b75ffc6.gif",
+            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673709",
+            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673707",
+            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673702",
+            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673701"]
 
         self.bot.dreamcatcher_handong_gif = ["https://tenor.com/view/dreamcatcher-handong-gif-18881069",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif",
@@ -286,7 +324,12 @@ class GGS(commands.Cog):
             "https://tenor.com/view/dreamcatcher-sua-dance-dancing-gif-18573310",
             "https://tenor.com/view/dreamcatcher-sua-gif-18981876",
             "https://tenor.com/view/dreamcatcher-sua-angry-cloverfield-found-footage-gif-18573314",
-            "https://tenor.com/view/dreamcatcher-sua-ji-u-annoyed-smile-gif-18573311"]
+            "https://tenor.com/view/dreamcatcher-sua-ji-u-annoyed-smile-gif-18573311",
+            "https://gfycat.com/aptanycamel",
+            "https://gfycat.com/bossyuglyarrowcrab",
+            "https://gfycat.com/frailbrowngopher",
+            "https://gfycat.com/honorableagitatedkitty",
+            "https://gfycat.com/malebasiccoati"]
 
         self.bot.dreamcatcher_yoohyeon_gif = ["https://tenor.com/view/yoohyeon-dream-catcher-heart-shape-cute-kpop-gif-16952098",
             "https://tenor.com/view/yoohyeon-in-fear-yoohyeon-kim-yoohyeon-dreamcatcher-yoohyeon-dreamcatcher-gif-19500039",
@@ -306,7 +349,18 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/795585170974834728/800504498493325372/b7f7cebe82b631415bc3c4d2b6e14c38.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504277146796103/77ac81500e0bf2af4bfcd472adb00763.gif",
             "https://cdn.discordapp.com/attachments/795585170974834728/800504188906897418/AliveTotalIbadanmalimbe-size_restricted.gif",
-            "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif"]
+            "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif",
+            "https://tenor.com/view/yoohyeon-kimyoohyeon-dreamcatcher-gif-19860409",
+            "https://tenor.com/view/onex-1x-dreamcatcher-yoohyeon-squishy-yooh-squish-gif-18679645",
+            "https://tenor.com/view/dreamcatcher-sahara-what-ha-kpop-gif-16557843",
+            "https://tenor.com/view/siyeon-dreamcatcher-yoohyeon-gif-18385761",
+            "https://tenor.com/view/onex-1x-yoohyeon-lick-secret-yoohyeon-secret-yooh-secret-gif-18812648",
+            "https://tenor.com/view/%EB%93%9C%EB%A6%BC%EC%BA%90%EC%B3%90-yoohyeon-dreamcatcher-gif-19962865",
+            "https://tenor.com/view/kpop-yoohyeon-pigtails-gif-18414314",
+            "https://tenor.com/view/yoohyeon-dreamcatcher-gif-20845795",
+            "https://tenor.com/view/yoo-hyeon-dream-catcher-gif-8860008",
+            "https://tenor.com/view/yoohyeon-kimyoohyeon-dreamcatcher-heart-gif-19860403",
+            "https://tenor.com/view/ending-fairy-kpop-yoohyeon-yoohyun-gif-18340541"]
     #. fromis_9
         self.bot.fromis_9_jisun_gif = ["https://gfycat.com/acrobaticadoredleafhopper-mechabear-fromis-kpop",
             "https://gfycat.com/arididolizeddugong-fromis-pretty-beauty-kpop-cute",
