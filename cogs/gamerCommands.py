@@ -246,6 +246,9 @@ class gamerPings(commands.Cog):
             "Attituna",
             "Toilet Lid"]
 
+        self.paul_wrong = ["Pual",
+            "Anpaul"]
+
     @commands.command()
     async def food(self, ctx):
         now = datetime.now()
@@ -324,6 +327,14 @@ class gamerPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Tuna] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'*{random.choice(self.tuna_wrong)}')
+
+    @commands.command()
+    async def paul(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Paul] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'*{random.choice(self.paul_wrong)}')
 
     @commands.command()
     async def nomi(self, ctx):
