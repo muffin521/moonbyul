@@ -1992,7 +1992,10 @@ class IzonePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/807162436897603614/809762189447135272/1360194036108197890.gif",
             "https://i.pinimg.com/originals/47/8f/dc/478fdc673b8a4885696522f99912316b.gif",
             "https://64.media.tumblr.com/4d91867001f3518a21369fc7faed4643/8937d5483272f0f5-13/s400x600/4ce4f8270daf136b2a905f18eed8174100945c98.gif",
-            "https://64.media.tumblr.com/67bfcc65309ff5f7589dc7a177f2b571/8937d5483272f0f5-b2/s400x600/f0f2e6d718dfe91783ea36115a93ab6356101674.gif"]
+            "https://64.media.tumblr.com/67bfcc65309ff5f7589dc7a177f2b571/8937d5483272f0f5-b2/s400x600/f0f2e6d718dfe91783ea36115a93ab6356101674.gif",
+            "https://gfycat.com/shockingorangeflyingsquirrel",
+            "https://gfycat.com/gaseousbravecommabutterfly",
+            "https://gfycat.com/actualleafyfireant"]
 
         self.bot.izone_group_gif = ["https://tenor.com/view/izone-kpop-members-gif-13206671",
             "https://tenor.com/view/izone-microphones-gif-20070304",
