@@ -766,7 +766,6 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/untimelyselfreliantekaltadeta-olivia-hye-loona",
             "https://gfycat.com/alienatedoilyborer-olivia-hye-loona",
             "https://gfycat.com/ajarickygerbil",
-            "https://gfycat.com/abandonedenergeticaardwolf",
             "https://gfycat.com/anyfatleafbird-olivia-hye-loona",
             "https://gfycat.com/affectionateorderlyiberianbarbel",
             "https://gfycat.com/antiquedefiantkilldeer-olivia-hye-loona",
