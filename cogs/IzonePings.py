@@ -31,7 +31,6 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/bitterimpartialarmyant",
             "https://tenor.com/view/miyawakisakura-miyawaki-sakura-produce48-gif-11809360",
             "https://tenor.com/view/iz-one-iz-one-sakura-sakura-sakura-miyawaki-pretty-gif-16341190",
-            "https://tenor.com/view/sakura-izone-wrestling-me-liking-josh-gif-17235397",
             "https://tenor.com/view/sakura-izone-sakura-miyawaki-sakura-saku-chan-chaekura-kkura-gif-13532539",
             "https://gfycat.com/similarscentedgrassspider",
             "https://tenor.com/view/miyawaki-sakura-gif-13854495",
