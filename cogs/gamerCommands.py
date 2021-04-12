@@ -241,10 +241,14 @@ class gamerPings(commands.Cog):
             "Toupe",
             "Toonami",
             "Toothpaste",
-            "Toonies",
+            "Toonie",
             "2na",
             "Attituna",
-            "Toilet Lid"]
+            "Toilet Lid",
+            "Nuna",
+            "Toque",
+            "Tube",
+            "Tulips"]
 
         self.paul_wrong = ["Pual",
             "Anpaul"]
