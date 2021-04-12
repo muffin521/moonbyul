@@ -220,7 +220,13 @@ class gamerPings(commands.Cog):
             "https://data.whicdn.com/images/319081662/original.gif",
             "https://d.wattpad.com/story_parts/727104930/images/159ab7d3f4edc87d40297965869.gif",
             "https://data.whicdn.com/images/349284985/original.gif",
-            "https://tenor.com/view/%e0%b8%99%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b5%e0%b9%89-%eb%82%98%eb%9d%a0-nt-natty-natty_gif-gif-19360528"]
+            "https://tenor.com/view/%e0%b8%99%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b5%e0%b9%89-%eb%82%98%eb%9d%a0-nt-natty-natty_gif-gif-19360528",
+            "https://gfycat.com/improbablemerryegg",
+            "https://gfycat.com/lastingmeaslydodo",
+            "https://gfycat.com/compassionateoccasionalborderterrier",
+            "https://gfycat.com/frigidinconsequentialbandicoot",
+            "https://gfycat.com/scalysmallcopperbutterfly",
+            "https://gfycat.com/silkyhealthyadeliepenguin"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
