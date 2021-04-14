@@ -254,7 +254,8 @@ class gamerPings(commands.Cog):
             "Nuna",
             "Toque",
             "Tube",
-            "Tulips"]
+            "Tulips",
+            "Turina"]
 
         self.paul_wrong = ["Pual",
             "Anpaul"]
