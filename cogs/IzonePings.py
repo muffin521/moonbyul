@@ -1157,7 +1157,9 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/1b706aecff007f21be8ecc273a3fb27b/210a593a2e267d2d-4d/s250x400/e2dd5ba43d7523a2b32a0f3167745ca76dc30ef0.gif",
             "https://64.media.tumblr.com/3b3bbd1ee88f81edbad7cc233abc001c/210a593a2e267d2d-00/s250x400/0c0f1ad6fa1809c5acb7bc29555b37f6dcef93f7.gif",
             "https://64.media.tumblr.com/03bf2a56ded7c19852d0f1542c3b8c49/210a593a2e267d2d-f1/s250x400/6152602f74e3b2d96b6f76625bc2e409e97540fa.gif",
-            "https://64.media.tumblr.com/050ff2e36fbebab433cba905be6cd527/210a593a2e267d2d-b5/s250x400/7fbf39319cd8e55d9f1e4b7bc1a8e5b9c9a5953e.gif"]
+            "https://64.media.tumblr.com/050ff2e36fbebab433cba905be6cd527/210a593a2e267d2d-b5/s250x400/7fbf39319cd8e55d9f1e4b7bc1a8e5b9c9a5953e.gif",
+            "https://gfycat.com/majorpinkguineafowl",
+            "https://gfycat.com/incompletepalatablefrogmouth"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
