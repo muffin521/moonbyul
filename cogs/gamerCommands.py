@@ -227,7 +227,8 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/frigidinconsequentialbandicoot",
             "https://gfycat.com/scalysmallcopperbutterfly",
             "https://gfycat.com/silkyhealthyadeliepenguin",
-            "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif"]
+            "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif",
+            "https://tenor.com/view/loona-chuu-kpop-gif-20917460"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
