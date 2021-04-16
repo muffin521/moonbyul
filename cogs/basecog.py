@@ -5,6 +5,7 @@ from discord.ext import commands
 muffin = 488423352206229505
 dj = 373369932303433728
 k8 = 573974040679809044
+aster = 495714786823241728
 
 class gifcog(commands.Cog):
 
@@ -13,7 +14,7 @@ class gifcog(commands.Cog):
 
     @commands.command()
     async def gif(self, ctx, *, arg):
-        if ctx.author.id == muffin or ctx.author.id == dj or ctx.author.id == k8:
+        if ctx.author.id == muffin or ctx.author.id == dj or ctx.author.id == k8 or ctx.author.id == aster:
         #.2ne1
             if arg == "2ne1 cl":
                 for x in self.bot.cl_gif:
