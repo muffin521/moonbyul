@@ -1652,7 +1652,12 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/arctichatefulimperatorangel",
             "https://gfycat.com/craftyindolentbronco",
             "https://gfycat.com/olddampdegu",
-            "https://gfycat.com/distanthandmadekid"]
+            "https://gfycat.com/distanthandmadekid",
+            "https://64.media.tumblr.com/0603a2d26b37b6f0f9013d501c58f69c/7f2230d198722808-98/s400x600/95bdfef387baf7d860fbd254bdbbc19c19cc40b8.gif",
+            "https://64.media.tumblr.com/ba585c4837c4b3b47aecfe51324d6c12/7f2230d198722808-ba/s400x600/61f98b28d1a3d252546cf07b37c8f88d92b24982.gif",
+            "https://64.media.tumblr.com/d29514de11e2de7df6c128c333a7733f/7f2230d198722808-41/s400x600/f53369386de5871d1b121057a52c6596b06bf6b3.gif",
+            "https://64.media.tumblr.com/d264dc678ec5aa78bbc3813e10f3c734/7f2230d198722808-44/s400x600/a9589dab24a83cc539df23c7849b4b9e339b9e7d.gif",
+            "https://64.media.tumblr.com/c588b3abfa516c476aa962bdef8409cb/98471f580b9d688b-a5/s540x810/eff6b3bd91fb2944e45b2a0ab3d037efde781396.gif"]
 
         self.bot.chaewon_gif = ["https://gfycat.com/imaginarysickgoldenmantledgroundsquirrel",
             "https://gfycat.com/loathsomecommonamericancicada",
