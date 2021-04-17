@@ -1159,7 +1159,11 @@ class IzonePings(commands.Cog):
             "https://64.media.tumblr.com/03bf2a56ded7c19852d0f1542c3b8c49/210a593a2e267d2d-f1/s250x400/6152602f74e3b2d96b6f76625bc2e409e97540fa.gif",
             "https://64.media.tumblr.com/050ff2e36fbebab433cba905be6cd527/210a593a2e267d2d-b5/s250x400/7fbf39319cd8e55d9f1e4b7bc1a8e5b9c9a5953e.gif",
             "https://gfycat.com/majorpinkguineafowl",
-            "https://gfycat.com/incompletepalatablefrogmouth"]
+            "https://gfycat.com/incompletepalatablefrogmouth",
+            "https://gfycat.com/linearsmallelkhound",
+            "https://gfycat.com/adoredsneakycougar",
+            "https://gfycat.com/bountifulcreativehen",
+            "https://gfycat.com/revolvingquerulouskestrel"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
