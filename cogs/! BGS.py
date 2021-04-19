@@ -2464,7 +2464,7 @@ class BGS(commands.Cog):
                 await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
                 await ctx.message.delete()
             else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chaenyeol :heart:')
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Chanyeol :heart:')
                 await ctx.send(random.choice(self.bot.exo_chaenyeol_gif))
                 await ctx.message.delete()
         elif arg == "sehun":
