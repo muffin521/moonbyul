@@ -339,7 +339,6 @@ class ItzyPings(commands.Cog):
             "https://64.media.tumblr.com/4a3d0ba8b18d67f3957f3fac0481eec1/tumblr_pn8p15JqKM1xun9oho2_400.gif",
             "https://i.pinimg.com/originals/c3/2c/2d/c32c2d358d38f502e954b1bfefc8846c.gif",
             "https://i.pinimg.com/originals/b8/63/7b/b8637bef8b4b66c61f60ac1f50bfbf04.gif",
-            "https://terminal-k.com/itzy/images/yuna/rep.gif",
             "https://thumbs.gfycat.com/GlisteningAbandonedBee-size_restricted.gif",
             "https://i.pinimg.com/originals/5b/ca/34/5bca34843b191ba6260859b66ae15372.gif",
             "https://i.pinimg.com/originals/03/8e/73/038e73bb1411f1f508eca90138c1058e.gif",
