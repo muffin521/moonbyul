@@ -2672,6 +2672,7 @@ class BGS(commands.Cog):
         if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
             await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
             await ctx.message.delete()
+        else:
             if arg == "intak":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
