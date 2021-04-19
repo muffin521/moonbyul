@@ -159,7 +159,8 @@ class RedVelvetPings(commands.Cog):
             "https://pa1.narvii.com/7626/bf8e99923dbf01d6c6493461e7260be06c2a761dr1-540-235_hq.gif",
             "https://i.pinimg.com/originals/8c/38/50/8c385069ac61e994af62661a1923ecd1.gif",
             "http://images6.fanpop.com/image/photos/40600000/-Kang-Seulgi-red-velvet-40663758-540-262.gif",
-            "https://i.pinimg.com/originals/d0/44/21/d0442166bb204ae5a864fdeedbc7b452.gif"]
+            "https://i.pinimg.com/originals/d0/44/21/d0442166bb204ae5a864fdeedbc7b452.gif",
+            "https://gfycat.com/TinyUnrealisticCougar"]
 
         self.bot.wendy_gif = ["https://tenor.com/view/ryoo-seungwan-wendy-red-velvet-kpop-redhair-gif-5230074",
             "https://tenor.com/view/red-velvet-dance-dumb-dumb-joy-irene-gif-14365084",

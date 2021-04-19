@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.3.10'
+byulver = '1.3.11'
 
 #//people
 muffin = 488423352206229505 #// other things
@@ -82,8 +82,8 @@ class scommand(commands.Cog):
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Support Server', value=f'https://discord.gg/Ntk9Jp26yx', inline=True)
-        embed.add_field(name='Invite Link', value=f'Invites Paused', inline=False)
-        # embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
+        # embed.add_field(name='Invite Link', value=f'Invites Paused', inline=False)
+        embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
         await ctx.send(embed=embed)
 
 def setup(client):

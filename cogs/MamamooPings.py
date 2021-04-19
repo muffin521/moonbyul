@@ -125,7 +125,10 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/mamamoo-gogobebe-cheerful-moonbyul-dance-gif-13830990",
             "https://media.discordapp.net/attachments/547900536565924104/793254662589513758/Moonbyul_37.gif",
             "https://media.discordapp.net/attachments/547900536565924104/793253281170325564/Moonbyul_26.gif",
-            "https://gfycat.com/alarmedcreamyalligatorgar"]
+            "https://gfycat.com/alarmedcreamyalligatorgar",
+            "https://gfycat.com/BouncyUnselfishBorderterrier",
+            "https://gfycat.com/MerrySoftIndianrhinoceros",
+            "https://gfycat.com/TinyUnrealisticCougar"]
 
         self.bot.wheein_gif = ["https://media.discordapp.net/attachments/167744692820246528/767418260395130890/99B40A445F8C65582A.gif",
             "https://media.discordapp.net/attachments/167744692820246528/768433005726531594/download_1.gif",
@@ -247,7 +250,8 @@ class MamamooPings(commands.Cog):
             "https://tenor.com/view/gogobebe-mamamoo-dance-circle-gif-13821768",
             "https://tenor.com/view/gogobebe-mamamoo-dance-kpop-gif-13821774",
             "https://tenor.com/view/mamamoo-gogobebe-dance-wheein-wink-gif-13821660",
-            "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642"]
+            "https://tenor.com/view/hwasa-moonbyul-dingga-wink-solar-gif-18874642",
+            "https://gfycat.com/AdventurousRealBluefintuna"]
 
     @commands.command()
     async def mamamoo(self, ctx, arg="i say mama, mama mooooo"):

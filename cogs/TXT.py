@@ -141,7 +141,6 @@ class txtPings(commands.Cog):
             "https://64.media.tumblr.com/2b176cefd35037757f765005a0bc8516/764627cc1bdae6ab-c8/s540x810/014bab6b00844c5007758f579e2e94aced9086f4.gif",
             "https://64.media.tumblr.com/01b83e4ce482cad69b3188cffedfe4fd/764627cc1bdae6ab-92/s540x810/4889a761e8613856ca7888366ea4aa5d08d57c9d.gif",
             "https://64.media.tumblr.com/7d0ea4ffe958ead2ddc107174f35681e/764627cc1bdae6ab-31/s540x810/7bfb2f9c69db69802554c634dbb5f4cdb10859c7.gif",
-            "https://64.media.tumblr.com/8f54adf9c3c0b68852de33c9a319b307/6fe51525e67da24e-1e/s400x600/bffa87459721cb8b7bc401425d39981c5a9e0563.gif",
             "https://64.media.tumblr.com/66bc26328c9a18f1ab0685b8cbb9b976/6fe51525e67da24e-0d/s400x600/05db0a387c4c7ff8fc8a29208218628ad6fab23a.gif",
             "https://64.media.tumblr.com/0fbba2de87e3267ac3351f52799a1736/c091cdf2484de6dc-a8/s400x600/ced774b156a15920a1ab4ac2c494b30f622727a3.gif",
             "https://64.media.tumblr.com/e8367b35fdc9d43be86bbd8ed161c81b/48b49720094c29a8-1d/s400x600/1bf630e50fe25fadc881d108351cc2b496f15cfa.gif",

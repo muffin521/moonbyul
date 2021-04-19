@@ -220,7 +220,15 @@ class gamerPings(commands.Cog):
             "https://data.whicdn.com/images/319081662/original.gif",
             "https://d.wattpad.com/story_parts/727104930/images/159ab7d3f4edc87d40297965869.gif",
             "https://data.whicdn.com/images/349284985/original.gif",
-            "https://tenor.com/view/%e0%b8%99%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b5%e0%b9%89-%eb%82%98%eb%9d%a0-nt-natty-natty_gif-gif-19360528"]
+            "https://tenor.com/view/%e0%b8%99%e0%b8%b1%e0%b8%95%e0%b8%95%e0%b8%b5%e0%b9%89-%eb%82%98%eb%9d%a0-nt-natty-natty_gif-gif-19360528",
+            "https://gfycat.com/improbablemerryegg",
+            "https://gfycat.com/lastingmeaslydodo",
+            "https://gfycat.com/compassionateoccasionalborderterrier",
+            "https://gfycat.com/frigidinconsequentialbandicoot",
+            "https://gfycat.com/scalysmallcopperbutterfly",
+            "https://gfycat.com/silkyhealthyadeliepenguin",
+            "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif",
+            "https://tenor.com/view/loona-chuu-kpop-gif-20917460"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
@@ -241,10 +249,20 @@ class gamerPings(commands.Cog):
             "Toupe",
             "Toonami",
             "Toothpaste",
-            "Toonies",
+            "Toonie",
             "2na",
             "Attituna",
-            "Toilet Lid"]
+            "Toilet Lid",
+            "Nuna",
+            "Toque",
+            "Tube",
+            "Tulips",
+            "Turina",
+            ":sparkles:TUNAAA:sparkles:",
+            "Forgetuna"]
+
+        self.paul_wrong = ["Pual",
+            "Anpaul"]
 
     @commands.command()
     async def food(self, ctx):
@@ -324,6 +342,14 @@ class gamerPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Tuna] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         await ctx.send(f'*{random.choice(self.tuna_wrong)}')
+
+    @commands.command()
+    async def paul(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Paul] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'*{random.choice(self.paul_wrong)}')
 
     @commands.command()
     async def nomi(self, ctx):

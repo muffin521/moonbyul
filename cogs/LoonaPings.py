@@ -74,7 +74,14 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/801510815156797490/818496749416874024/Heejin_gif_15.gif",
             "https://cdn.discordapp.com/attachments/801510815156797490/818496750595735582/Heejin_gif_11.gif",
             "https://cdn.discordapp.com/attachments/801510815156797490/818496751589523496/Heejin_gif_12.gif",
-            "https://cdn.discordapp.com/attachments/801510815156797490/818496759072292904/Heejin_gif_17.gif"]
+            "https://cdn.discordapp.com/attachments/801510815156797490/818496759072292904/Heejin_gif_17.gif",
+            "https://tenor.com/view/heejin-jeonheejin-loona-gif-20298532",
+            "https://tenor.com/view/heejin-jeonheejin-loona-gif-20298533",
+            "https://tenor.com/view/heejin-jeonheejin-loona-gif-20298529",
+            "https://tenor.com/view/heejin-jeonheejin-loona-gif-20298527",
+            "https://tenor.com/view/heejin-jeonheejin-loona-gif-20298531",
+            "https://tenor.com/view/heejin-loona-kpop-gif-20917467",
+            "https://tenor.com/view/heejin-loona-kpop-gif-20917465"]
 
         self.bot.hyunjin_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/771239029291221022/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239029982101534/image1.gif",
@@ -138,7 +145,8 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/HilariousJoyfulBushsqueaker",
             "https://gfycat.com/YellowishHonorableKinkajou",
             "https://gfycat.com/AcrobaticMeagerAmericanquarterhorse",
-            "https://gfycat.com/gloomyfittingape"]
+            "https://gfycat.com/gloomyfittingape",
+            "https://tenor.com/view/loona-aeong-hyunjin-gif-20728087"]
 
         self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
@@ -344,7 +352,17 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/leadingnewkakarikis",
             "https://gfycat.com/bigimpeccablekangaroo-loona-kimlip-kevin",
             "https://gfycat.com/costlyfreecurlew-loona-kim-lip-kim-jungeun-girl-group",
-            "https://media.discordapp.net/attachments/485095951480913935/807852152960843826/5e3ee2302026d45ceee5010a03ff2b73fa5f2b09_hq.gif"]
+            "https://media.discordapp.net/attachments/485095951480913935/807852152960843826/5e3ee2302026d45ceee5010a03ff2b73fa5f2b09_hq.gif",
+            "https://tenor.com/view/kimlip-loona-kimjungeun-gif-20578634",
+            "https://tenor.com/view/kimlip-loona-kimjungeun-gif-20578635",
+            "https://tenor.com/view/kimlip-loona-kimjungeun-gif-20578636",
+            "https://tenor.com/view/loona-kim-lip-kpop-gif-20917456",
+            "https://tenor.com/view/loona-kim-lip-kpop-gif-20917455",
+            "https://tenor.com/view/loona-kim-lip-gif-20751361",
+            "https://tenor.com/view/loona-kim-lip-gif-20751360",
+            "https://tenor.com/view/loona-kim-lip-gif-20751357",
+            "https://tenor.com/view/loona-kim-lip-gif-20751352",
+            "https://tenor.com/view/loona-kim-lip-gif-20751356"]
 
         self.bot.jinsoul_gif = ["https://tenor.com/view/jinsoul-loona-whynot-gif-18990936",
             "https://tenor.com/view/loona-whynot-jinsoul-gif-19093071",
@@ -455,7 +473,12 @@ class LoonaPings(commands.Cog):
             "https://i.pinimg.com/originals/ba/a7/ea/baa7eaebd16ddc3b2490232523655347.gif",
             "https://64.media.tumblr.com/dba3e19e2b17bf90f76ecc5720bc1d3d/86ff17a81a7186f2-70/s250x400/13c923b7950a216fc61bf306fcfcdc4577857ff2.gif",
             "https://media.discordapp.net/attachments/725380066573418628/807066936055562280/Choerydance.gif",
-            "https://media1.tenor.com/images/72d878e03b6818fae91eb80c27c19260/tenor.gif?itemid=16511637"]
+            "https://media1.tenor.com/images/72d878e03b6818fae91eb80c27c19260/tenor.gif?itemid=16511637",
+            "https://tenor.com/view/loona-choerry-kpop-gif-20820967",
+            "https://tenor.com/view/loona-choerry-gif-20815097",
+            "https://tenor.com/view/loona-choerry-kpop-gif-20820974",
+            "https://tenor.com/view/loona-choerry-kpop-gif-20820976",
+            "https://tenor.com/view/loona-choerry-kpop-gif-20820978"]
         
         self.bot.yves_gif = ["https://tenor.com/view/yves-loona-fainting-jail-kpop-gif-18490526",
             "https://tenor.com/view/loona-whynot-yves-gif-18911743",
@@ -532,7 +555,8 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/801512129358200852/818497774151663626/Yves_gif_30.gif",
             "https://cdn.discordapp.com/attachments/801512129358200852/818497817701122068/Yves_gif_13.gif",
             "https://cdn.discordapp.com/attachments/801512129358200852/818497834302439424/Yves_gif_10.gif",
-            "https://cdn.discordapp.com/attachments/801512129358200852/818497843492814878/Yves_gif_11.gif"]
+            "https://cdn.discordapp.com/attachments/801512129358200852/818497843492814878/Yves_gif_11.gif",
+            "https://media.discordapp.net/attachments/803582935482892291/824997568819757109/tumblr_d8649319ff6d6f2ba110e6fd5f541630_e62c274b_250.gif"]
 
         self.bot.chuu_gif = ["https://tenor.com/view/chuu-loona-jiwoo-loona-chuu-heart-attack-gif-19200978",
             "https://tenor.com/view/fome-eat-hungry-snow-girl-gif-17723791",
@@ -645,7 +669,19 @@ class LoonaPings(commands.Cog):
             "https://data.whicdn.com/images/309943072/original.gif",
             "https://pa1.narvii.com/6841/48689193ba5a7efd908be67c8e621480f9e663dd_hq.gif",
             "https://i.pinimg.com/originals/f5/d7/d1/f5d7d19554d260e3d372a84c680a9052.gif",
-            "https://data.whicdn.com/images/309943072/original.gif"]
+            "https://data.whicdn.com/images/309943072/original.gif",
+            "https://thumbs.gfycat.com/AlertFavorableFrog-size_restricted.gif",
+            "https://thumbs.gfycat.com/FixedOptimalFinnishspitz-size_restricted.gif",
+            "https://data.whicdn.com/images/341142629/original.gif",
+            "https://tenor.com/view/idarui-sonyeo-xix-loona-xx-kim-ji-woo-gif-14113576",
+            "https://tenor.com/view/loona-butterfly-chuu-dancing-gif-14113878",
+            "https://tenor.com/view/loona-butterfly-chuu-dancing-gif-14113839",
+            "https://tenor.com/view/loona-chuu-kpop-gif-20917460",
+            "https://tenor.com/view/loona-chuu-kpop-gif-20820971",
+            "https://tenor.com/view/loona-chuu-gif-20815077",
+            "https://tenor.com/view/loona-chuu-gif-20748040",
+            "https://tenor.com/view/loona-chuu-gif-20747816",
+            "https://tenor.com/view/loona-chuu-gif-20747997"]
 
         self.bot.gowon_gif = ["https://tenor.com/view/gowon-park-gowon-park-chaewon-loona-loona-gowon-gif-13191168",
             "https://tenor.com/view/loona-go-won-kpop-gif-14252120",
@@ -766,7 +802,6 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/untimelyselfreliantekaltadeta-olivia-hye-loona",
             "https://gfycat.com/alienatedoilyborer-olivia-hye-loona",
             "https://gfycat.com/ajarickygerbil",
-            "https://gfycat.com/abandonedenergeticaardwolf",
             "https://gfycat.com/anyfatleafbird-olivia-hye-loona",
             "https://gfycat.com/affectionateorderlyiberianbarbel",
             "https://gfycat.com/antiquedefiantkilldeer-olivia-hye-loona",
@@ -830,7 +865,8 @@ class LoonaPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/815387335419494431/816923992043683840/image0.gif",
             "https://thumbs.gfycat.com/GregariousSkinnyEelelephant-size_restricted.gif",
             "https://p.favim.com/orig/2018/12/09/ig-jone-i-Favim.com-6642193.gif",
-            "https://cdn130.picsart.com/299125546139201.gif"]
+            "https://cdn130.picsart.com/299125546139201.gif",
+            "https://tenor.com/view/loona-choerry-kpop-gif-20820976"]
 
         self.bot.loona_ot12_gif = ["https://data.whicdn.com/images/337947512/original.gif",
             "https://thumbs.gfycat.com/SardonicSimilarBat-size_restricted.gif",
@@ -852,7 +888,8 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/93fc3d80016d7169d1db6767e3270d2e/8e8668e36748433b-14/s400x600/c43bebdaf8d7b50a8310f9c3dffb73e54a09b9e4.gif",
             "https://64.media.tumblr.com/6d7cd326450536b1ccd139b0853f83a4/8e8668e36748433b-b3/s400x600/033fd1b169636dbbee3c8941fd2f2508a49eb6b1.gif",
             "https://64.media.tumblr.com/f5025c810cb490560087b4bcd99ab071/8e8668e36748433b-7d/s400x600/8c00173666f1691c20a4fe26ba4cead5a16d4689.gif",
-            "https://64.media.tumblr.com/625edc84cf68695e40abbc52bbabae69/8e8668e36748433b-ce/s400x600/c7a4cb93d4780b5cad95ff208d9e7993522b342c.gif"]
+            "https://64.media.tumblr.com/625edc84cf68695e40abbc52bbabae69/8e8668e36748433b-ce/s400x600/c7a4cb93d4780b5cad95ff208d9e7993522b342c.gif",
+            "https://tenor.com/view/loona-gif-18979396"]
 
     @commands.command()
     async def loona(self, ctx, *, arg = "ot12"):

@@ -25,7 +25,6 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/b9baab82f79bf54ae9d55dfeeae404f7/c2c0d737ddf77bee-31/s400x600/21a1e7283aef69779b6e964e07522ed17fe686b1.gif",
             "https://64.media.tumblr.com/7f447af2c8af7859490e4ad1be7fd08c/7378d62a6b5e080d-7b/s400x600/3c087510487f48bd494604058246679ec819841d.gif",
             "https://64.media.tumblr.com/e247fe8c9fe7e8c56731e5fe1131a7c5/d6d42f274ab81eb9-ed/s540x810/9d022e647bfc39663d2884d252594e522271345f.gif",
-            "https://64.media.tumblr.com/9f60506b39f318fbd864ba46c5d04cf6/ea259c1353ae60d4-20/s400x600/1e8426d4f812ca6f890086991969290af5828cfd.gif",
             "https://64.media.tumblr.com/692e8b5944bf0c03651a4bfb9475fe9c/fbddd6465e73e5be-88/s540x810/cccb18e6439e1d483e1a2c030ce6c35491a1b488.gif",
             "https://64.media.tumblr.com/1962f8fb8b35e6202ce1968408b790d4/ac86dbbe396b04a5-0e/s540x810/71f05ff7c39623e7f31ae3a22b5aed063758c690.gif",
             "https://64.media.tumblr.com/26e9c4978b68f728f098f1dd7abcc666/e330829990f571a5-66/s540x810/e26e99166689f2c7373af3de241ce397954f2a39.gif",
