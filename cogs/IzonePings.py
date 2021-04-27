@@ -1163,7 +1163,9 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/linearsmallelkhound",
             "https://gfycat.com/adoredsneakycougar",
             "https://gfycat.com/bountifulcreativehen",
-            "https://gfycat.com/revolvingquerulouskestrel"]
+            "https://gfycat.com/revolvingquerulouskestrel",
+            "https://gfycat.com/easygoingseverebullmastiff",
+            "https://gfycat.com/forkedinformalgnat"]
 
         self.bot.minju_gif = ["https://gfycat.com/lawfulickykodiakbear",
             "https://gfycat.com/ancientcomplicatedbluefintuna",
@@ -3486,12 +3488,13 @@ class IzonePings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Minyul] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.server.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@{ctx.author.id}> is shipping MinYul <:minjuheart:787553396734951454><:minjuheart:787553396734951454>')
-            await ctx.message.delete()
+        # if ctx.server.id == luminary and ctx.channel.id != kbotcom:
+        #     await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+        #     await ctx.message.delete()
+        # else:
+        await ctx.send(f'<@{ctx.author.id}> is shipping MinYul <:minjuheart:787553396734951454><:minjuheart:787553396734951454>')
+        await ctx.send(random.choice(self.bot.minyul_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def ame(self, ctx, arg = "nopeee"):
