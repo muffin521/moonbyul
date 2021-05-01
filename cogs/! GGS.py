@@ -1291,7 +1291,10 @@ class GGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/808765337498943548/812160990619500644/Tumblr_l_289287103638758.gif",
             "https://cdn.discordapp.com/attachments/808765337498943548/812160993924743178/Tumblr_l_289282704440791.gif",
             "https://cdn.discordapp.com/attachments/808765337498943548/812160994498445353/Tumblr_l_289281480663395.gif",
-            "https://cdn.discordapp.com/attachments/808765337498943548/813182005604778005/Tumblr_l_434323575249368.gif"]
+            "https://cdn.discordapp.com/attachments/808765337498943548/813182005604778005/Tumblr_l_434323575249368.gif",
+            "https://tenor.com/view/yuri-snsd-girlsgeneration-youthink-kpop-gif-9336864",
+            "https://tenor.com/view/yuri-snsd-youthink-girlsgeneration-kpop-gif-9336860",
+            "https://tenor.com/view/yuri-snsd-girlsgeneration-kpop-youthink-gif-9336859"]
 
         self.bot.snsd_hyoyeon_gif = ["https://cdn.discordapp.com/attachments/808765398694494300/813182075510718484/Tumblr_l_434329082739210.gif",
             "https://tenor.com/view/hyoyeon-dance-gif-12760459",
@@ -1331,7 +1334,9 @@ class GGS(commands.Cog):
             "https://tenor.com/view/tiffany-hwang-snsd-christmas-gif-7074108",
             "https://tenor.com/view/tiffany-sassy-snsd-kpop-girls-generation-gif-9328084",
             "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-young-gif-20028381",
-            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-gif-20028373"]
+            "https://tenor.com/view/angai313-snsd-soshi-girls-generation-tiffany-gif-20028373",
+            "https://tenor.com/view/tiffanyyoung-snsd-girlsgeneration-hwangmiyoung-gif-20812987",
+            "https://tenor.com/view/sm-tiffanyyoung-snsd-girlsgeneration-hwangmiyoung-gif-20812986"]
 
         self.bot.snsd_sooyoung_gif = ["https://thumbs.gfycat.com/AliveMajorGemsbok-small.gif",
             "http://31.media.tumblr.com/8898f1644ddffc43f6b041c3a83fc166/tumblr_mild0qzQed1s5j8vno1_500.gif",
@@ -1372,7 +1377,24 @@ class GGS(commands.Cog):
             "https://i.pinimg.com/originals/83/cf/bd/83cfbd01650e14587b8f1e0ef6e3ab47.gif",
             "https://cdn.discordapp.com/attachments/803701179178811392/813182565493243914/Tumblr_l_434327417407179.gif",
             "https://cdn.discordapp.com/attachments/803701179178811392/821868271468544010/Tumblr_l_174014505725074.gif",
-            "https://cdn.discordapp.com/attachments/803701179178811392/821868274689114152/Tumblr_l_174023371997363.gif"]
+            "https://cdn.discordapp.com/attachments/803701179178811392/821868274689114152/Tumblr_l_174023371997363.gif",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812903",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812904",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812914",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812913",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812916",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812908",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812912",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812901",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812897",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812896",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812889",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812887",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812888",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812886",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812885",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812882",
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812884"]
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
