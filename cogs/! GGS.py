@@ -1442,12 +1442,12 @@ class GGS(commands.Cog):
             "https://gfycat.com/smoothfrailibis",
             "https://gfycat.com/grandbraveechidna",
             "https://gfycat.com/alarmingboilingafricanaugurbuzzard-yoojung-doyeon-ioi",
-            "https://gfycat.com/grossmindlessdwarfrabbit-yoojung-god-rap",
             "https://gfycat.com/illhotbarnowl",
             "https://gfycat.com/firstanimatedgrouse-weki-meki-mechabear-doyeon-kpop",
             "https://gfycat.com/grippingwarmheartedindochinesetiger-mechabear-weki-meki-doyeon-kpop",
             "https://gfycat.com/euphoricmessyleafhopper",
-            "https://thumbs.gfycat.com/JadedSparklingFrogmouth-size_restricted.gif"]
+            "https://thumbs.gfycat.com/JadedSparklingFrogmouth-size_restricted.gif",
+            "https://tenor.com/view/kpop-ioi-dazzle-weki-meki-kim-doyeon-gif-16418994"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
@@ -1520,7 +1520,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/edfa37044ecf95dce0c8b30e73b4dbae/9c8c2f857d7a8f98-1d/s400x600/5af9af495dbc0bb0fb74dbadc28b657d61e3f06a.gif",
             "https://64.media.tumblr.com/4b07f94793bd51a8a5b11facef9f3a91/0cede72b6c9e626c-e8/s400x600/925b8cc064c5afba24af666169e599099dc4060a.gif",
             "https://64.media.tumblr.com/edfa37044ecf95dce0c8b30e73b4dbae/9c8c2f857d7a8f98-1d/s400x600/5af9af495dbc0bb0fb74dbadc28b657d61e3f06a.gif",
-            "https://1.bp.blogspot.com/-qTY4cBbsrKw/XuuNbvf-V5I/AAAAAAAAUB0/GU4jqM0V-vMad8d7WGl40Bi10CWWqrHqwCLcBGAsYHQ/s1600/DeficientOilyCapeghostfrog-size_restricted.gif"]
+            "https://1.bp.blogspot.com/-qTY4cBbsrKw/XuuNbvf-V5I/AAAAAAAAUB0/GU4jqM0V-vMad8d7WGl40Bi10CWWqrHqwCLcBGAsYHQ/s1600/DeficientOilyCapeghostfrog-size_restricted.gif",
+            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812790",
+            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812791",
+            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812793",
+            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812789"]
 
         self.bot.wekimeki_lucy_gif = ["https://gfycat.com/alarmedclutteredbobwhite",
             "https://cdn.discordapp.com/attachments/800224232759754772/800562065613914152/tenor.gif",
@@ -1574,7 +1578,12 @@ class GGS(commands.Cog):
             "https://gfycat.com/saltyshamefularcherfish-weki-meki",
             "https://gfycat.com/sarcasticdistantguanaco-weki-meki",
             "https://gfycat.com/pastelbitterboto-weki-meki-crush-kpop-rina",
-            "https://gfycat.com/measlybruisedivorybackedwoodswallow"]
+            "https://gfycat.com/measlybruisedivorybackedwoodswallow",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15953387",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15517847",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15517810",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15769868",
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15433543"]
 
         self.bot.wekimeki_sei_gif = ["https://tenor.com/view/wekimeki-sei-gif-18891261",
             "https://tenor.com/view/wekimeki-sei-gif-18891289",
@@ -1632,7 +1641,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/impossibletastyaztecant-mechabear-weki-meki-suyeon-kpop",
             "https://gfycat.com/mediumjoyfulleafcutterant",
             "https://gfycat.com/gracefulpiercingleopardseal-weki-meki-suyeon",
-            "https://gfycat.com/glisteningweecatfish-weki-meki-suyeon"]
+            "https://gfycat.com/glisteningweecatfish-weki-meki-suyeon",
+            "https://tenor.com/view/kpop-suyeon-dazzle-weki-meki-gif-16419110"]
 
         self.bot.wekimeki_yoojung_gif = ["https://tenor.com/view/yoojung-choi-yoodaeng-daeng-choiyoojung-gif-19404386",
             "https://tenor.com/view/umm-um-yoojung-gif-8099931",
@@ -1752,7 +1762,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/meagerweeklyamethystsunbird",
             "https://gfycat.com/blackandwhitefelinegemsbuck",
             "https://gfycat.com/acidicobesearchaeopteryx",
-            "https://gfycat.com/gentlegeneralbuck"]
+            "https://gfycat.com/gentlegeneralbuck",
+            "https://gfycat.com/grossmindlessdwarfrabbit-yoojung-god-rap"]
     
         self.bot.wekimeki_ot8_gif = ["https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
             "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
@@ -1767,7 +1778,11 @@ class GGS(commands.Cog):
             "https://hozziewrites.files.wordpress.com/2020/02/weki-meki-picky-picky-gif.gif?w=386",
             "https://64.media.tumblr.com/50c944bd58007f119d58719d1f3232a3/47091ae5b82f3e02-1d/s400x600/af965c70f094e63decd4838f723eda936e4f99fd.gif",
             "https://data.whicdn.com/images/307720001/original.gif",
-            "https://64.media.tumblr.com/a2cff6ece71a7f0b004aab39d802178e/tumblr_p4eafvhz5B1wgkgwro1_500.gif"]
+            "https://64.media.tumblr.com/a2cff6ece71a7f0b004aab39d802178e/tumblr_p4eafvhz5B1wgkgwro1_500.gif",
+            "https://tenor.com/view/oopsy-weki-meki-suyeon-lucy-doyeon-gif-17708073",
+            "https://tenor.com/view/kpop-dazzle-choreography-weki-meki-dance-gif-16423903",
+            "https://tenor.com/view/kpop-girl-group-dazzle-choreography-gif-16424000",
+            "https://tenor.com/view/kpop-dazzle-weki-meki-lua-girls-gif-16419302"]
     #. WJSN
         self.bot.wjsn_bona_gif = ["https://tenor.com/view/wjsn-bona-heart-gif-9368960",
             "https://tenor.com/view/wjsn-bona-gif-9369544",
