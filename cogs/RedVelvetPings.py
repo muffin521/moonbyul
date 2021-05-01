@@ -767,53 +767,29 @@ class RedVelvetPings(commands.Cog):
         await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
-                    await ctx.send(random.choice(self.bot.irene_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
+                await ctx.send(random.choice(self.bot.irene_gif))
+                await ctx.message.delete()
             elif arg == "seulgi":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
-                    await ctx.send(random.choice(self.bot.seulgi_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
+                await ctx.send(random.choice(self.bot.seulgi_gif))
+                await ctx.message.delete()
             elif arg == "wendy":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
-                    await ctx.send(random.choice(self.bot.wendy_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
+                await ctx.send(random.choice(self.bot.wendy_gif))
+                await ctx.message.delete()
             elif arg == "yeri":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
-                    await ctx.send(random.choice(self.bot.yeri_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
+                await ctx.send(random.choice(self.bot.yeri_gif))
+                await ctx.message.delete()
             elif arg == "joy":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
-                    await ctx.send(random.choice(self.bot.joy_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
+                await ctx.send(random.choice(self.bot.joy_gif))
+                await ctx.message.delete()
             elif arg == "ot5":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Red Velvet :heart:')
-                    await ctx.send(random.choice(self.bot.redvelvet_group_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Red Velvet :heart:')
+                await ctx.send(random.choice(self.bot.redvelvet_group_gif))
+                await ctx.message.delete()
 
     
 
