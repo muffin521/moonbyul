@@ -210,7 +210,9 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/rose-roseblackpink-blackpink-parkchaeyoung-rosecute-gif-20485961",
             "https://tenor.com/view/ros%c3%a9-parkchaeyoung-roseblackpink-blackpink-gif-20431836",
             "https://tenor.com/view/roseblackpink-rose-parkchaeyoung-blackpink-rosecute-gif-20433123",
-            "https://tenor.com/view/blackpink-rose-parkchaeyoung-gif-8100028"]
+            "https://tenor.com/view/blackpink-rose-parkchaeyoung-gif-8100028",
+            "https://gfycat.com/gracefulconventionalkagu-blackpink-mechabear-rose-kpop",
+            "https://gfycat.com/redwholecarp-blackpink-mechabear-rose-kpop"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
