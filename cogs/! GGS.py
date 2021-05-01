@@ -770,6 +770,48 @@ class GGS(commands.Cog):
             "https://gfycat.com/diligentfoolhardyblobfish",
             "https://gfycat.com/shamelessjadedarrowana",
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop"]
+    #. f(x)
+        self.bot.fx_victoria_gif = ["https://gfycat.com/welloffsaltycygnet",
+            "https://gfycat.com/kindheartedsoftclam",
+            "https://gfycat.com/unrulykeyafricanclawedfrog",
+            "https://gfycat.com/marvelousfarawayjabiru",
+            "https://gfycat.com/blaringweepyeasternglasslizard",
+            "https://gfycat.com/affectionatemediumindianglassfish",
+            "https://gfycat.com/concreteplumpiberianemeraldlizard"]
+
+        self.bot.fx_amber_gif = ["https://gfycat.com/imaginativeinstructiveelephantseal",
+            "https://gfycat.com/alivegratefulkillerwhale",
+            "https://gfycat.com/jubilantgratefuljapanesebeetle",
+            "https://gfycat.com/diligentfrigidkrill",
+            "https://gfycat.com/responsibleparchedannashummingbird"]
+
+        self.bot.fx_luna_gif = ["https://gfycat.com/revolvingmajorbandicoot",
+            "https://gfycat.com/concreteoldafricanfisheagle",
+            "https://gfycat.com/pastdishonestjoey",
+            "https://gfycat.com/selfishqualifiedcarp",
+            "https://gfycat.com/incompletegleamingkagu",
+            "https://gfycat.com/farflungglitteringamericanratsnake",
+            "https://gfycat.com/farflungglitteringamericanratsnake",
+            "https://gfycat.com/friendlyoldkissingbug"]
+
+        self.bot.fx_sulli_gif = ["https://gfycat.com/advancedcheeryamericanpainthorse",
+            "https://gfycat.com/dearbitterfoxhound-sulli",
+            "https://gfycat.com/elatedsarcasticaldabratortoise",
+            "https://gfycat.com/shoddytangibledogwoodtwigborer",
+            "https://gfycat.com/elaborateunitedchickadee-beautiful-aegyo-sulli-cute-shy",
+            "https://gfycat.com/goodimprobabledolphin",
+            "https://gfycat.com/carefulaliveindianrhinoceros"]
+
+        self.bot.fx_krystal_gif = ["https://tenor.com/view/krystal-gif-18548219",
+            "https://tenor.com/view/krystal-jung-fx-sunglasses-cute-gif-17279699",
+            "https://tenor.com/view/krystal-fx-gif-5547157",
+            "https://tenor.com/view/krystal-jung-jung-soojung-fx-krystal-smile-gif-14392248",
+            "https://tenor.com/view/krystal-jung-soo-jung-vampire-neck-bite-gif-14254218",
+            "https://tenor.com/view/soo-jung-krystal-jung-pretty-serious-gif-14167646",
+            "https://tenor.com/view/krystal-jung-pose-photo-shoot-blank-stare-gif-9466254",
+            "https://tenor.com/view/fx-jung-soojung-kpop-krystal-krystal-jung-gif-16701717",
+            "https://tenor.com/view/rum-pum-pum-pum-pink-tape-rppp-fx-krystal-gif-17115324",
+            "https://tenor.com/view/krystal-jung-jung-soojung-fx-krystal-tip-hat-gif-14392249"]
     #. GWSN
         self.bot.gwsn_seokyoung_gif =["https://64.media.tumblr.com/5246e9dccad0b78849c4473f7c75e252/tumblr_pvopsc897r1x37j87o3_540.gif",
             "https://64.media.tumblr.com/1cc0a38203c78dc626d9bb80e8904d3b/tumblr_pvdvr8Y3bo1x15lmpo4_400.gif",
@@ -2014,6 +2056,33 @@ class GGS(commands.Cog):
                 await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
                 await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
                 await ctx.message.delete()
+
+    @commands.command(aliases = ['f(x)'])
+    async def fx(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [f(x) {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "victoria":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Victoria :heart:') 
+            await ctx.send(random.choice(self.bot.fx_victoria_gif))
+            await ctx.message.delete()
+        elif arg == "amber":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Amver :heart:') 
+            await ctx.send(random.choice(self.bot.fx_amber_gif))
+            await ctx.message.delete()
+        elif arg == "luna":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Luna :heart:') 
+            await ctx.send(random.choice(self.bot.fx_luna_gif))
+            await ctx.message.delete()
+        elif arg == "sulli":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Sulli :angel:') 
+            await ctx.send(random.choice(self.bot.fx_sulli_gif))
+            await ctx.message.delete()
+        elif arg == "krystal":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Krystal :heart:') 
+            await ctx.send(random.choice(self.bot.fx_krystal_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def gwsn(self, ctx, *, arg):
