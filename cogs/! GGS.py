@@ -357,7 +357,9 @@ class GGS(commands.Cog):
             "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812829",
             "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812828",
             "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812824",
-            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812822"]
+            "https://tenor.com/view/dami-dreamcatcher-leeyubin-gif-20812822",
+            "https://cdn.discordapp.com/attachments/795581963229462538/829156003298934784/GIF-210406_184604.gif",
+            "https://cdn.discordapp.com/attachments/795581963229462538/829156055283400714/GIF-210406_184432.gif"]
 
         self.bot.dreamcatcher_gahyeon_gif = ["https://tenor.com/view/onex-1x-dreamcatcher-dreamcatcher-gahyeon-gahyeon-kiss-gif-18704085",
             "https://cdn.discordapp.com/attachments/795584752127311873/800511696837148692/0cabae4a0b98cd2e26eb345427b06a71.gif",
@@ -376,7 +378,8 @@ class GGS(commands.Cog):
             "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673709",
             "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673707",
             "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673702",
-            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673701"]
+            "https://tenor.com/view/gahyeon-dreamcatcher-leegahyeon-gif-20673701",
+            "https://cdn.discordapp.com/attachments/795584752127311873/829156215036313630/04.gif"]
 
         self.bot.dreamcatcher_handong_gif = ["https://tenor.com/view/dreamcatcher-handong-gif-18881069",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif",
