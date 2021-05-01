@@ -124,6 +124,140 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/7195d7314fe311ef8a0bf1646ee01e0f/1eef5da31cda2a7b-83/s250x400/d089fe5fe7c3614c2f0fe1b967752e561492b272.gif",
             "https://64.media.tumblr.com/09c7f567209e25029962662379f740aa/tumblr_pbe0x9v2Qf1qg5nyao4_r2_250.gif",
             "https://64.media.tumblr.com/965d2a23f9e59bde7d08703365f526f4/2fff8d4018c3a2bd-d7/s400x600/cb8fb71b679a6c561e20c03e6470ee823d4e97d6.gif"]
+    #. Brave Girls
+        self.bot.brave_girls_eunji_gif = ["https://gfycat.com/embellishedmadharlequinbug",
+            "https://gfycat.com/limpweirdblackfly",
+            "https://cdn.discordapp.com/attachments/816771796334018650/816895624293122048/iu-15.gif",
+            "https://cdn.discordapp.com/attachments/816771796334018650/816895665891966976/iu-16.gif",
+            "https://cdn.discordapp.com/attachments/816771796334018650/816896432686628884/iu-18.gif",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20915778",
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20847292",
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20847287",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20821575",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20806130",
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690339",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20714566",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20714657",
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690338",
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690334"]
+
+        self.bot.brave_girls_minyoung_gif = ["https://gfycat.com/agedquickbrant",
+            "https://gfycat.com/agedquickbrant",
+            "https://gfycat.com/loathsomethiskestrel",
+            "https://gfycat.com/admireddecenteelelephant",
+            "https://gfycat.com/healthytintedalbino",
+            "https://cdn.discordapp.com/attachments/816771845520621598/816896707299901490/iu-20.gif",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915783",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915784",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915779",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915776",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915749",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915747",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915741",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915743",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915710",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915704",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20915703",
+            "https://tenor.com/view/wink-rollin-minyoung-bravegirls-kimminyoung-gif-20915673",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20806159",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20806123",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20804729",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20715019",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20715020",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-20715018",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-20715016",
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20714991"]
+
+        self.bot.brave_girls_yujeong_gif = ["https://tenor.com/view/yujeong-bravegirls-gif-18867965",
+            "https://cdn.discordapp.com/attachments/816771902965415987/816897752330928158/iu-25.jpeg",
+            "https://cdn.discordapp.com/attachments/816771902965415987/816897809411866624/iu-21.gif",
+            "https://cdn.discordapp.com/attachments/816771902965415987/816897853619306537/iu-22.gif",
+            "https://cdn.discordapp.com/attachments/816771902965415987/816897924331077643/iu-23.gif",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915780",
+            "https://tenor.com/view/kiss-rollin-yujeong-bravegirls-namyujeong-gif-20915742",
+            "https://tenor.com/view/hii-rollin-yujeong-bravegirls-namyujeong-gif-20915746",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915719",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915716",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915717",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915721",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20915715",
+            "https://tenor.com/view/cute-yujeong-bravegirls-namyujeong-kpop-gif-20915512",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20915510",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20915509",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857322",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857327",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857328",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857326",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857319",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857320",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857321",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857314",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857315",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857317",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857320",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857321",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857314",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20857315",
+            "https://tenor.com/view/yujeong-bravegirls-namyujeong-kpop-gif-20857317",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20847345",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20847343",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20847339",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20847337",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20847342",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20844421",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20844419",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20844416",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20844418",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20844413",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20821433",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20821414",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20806138",
+            "https://tenor.com/view/cute-rollin-yujeong-bravegirls-namyujeong-gif-20804732",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20796525",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20796523",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20796515",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20796516",
+            "https://tenor.com/view/cute-rollin-yujeong-bravegirls-namyujeong-gif-20796514",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715486",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715482",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715483",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715487",
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715485"]
+
+        self.bot.brave_girls_yuna_gif = ["https://cdn.discordapp.com/attachments/816771927376265277/816888431007105034/iu-7.gif",
+            "https://cdn.discordapp.com/attachments/816771927376265277/816888445716267028/iu-4.gif",
+            "https://cdn.discordapp.com/attachments/816771927376265277/816888800101269504/iu-11.gif",
+            "https://cdn.discordapp.com/attachments/816771927376265277/816888937397092372/iu-12.gif",
+            "https://cdn.discordapp.com/attachments/816771927376265277/816889142885613598/iu-13.gif",
+            "https://gfycat.com/accomplishedfaintargentineruddyduck",
+            "https://gfycat.com/blackunlawfulindianhare",
+            "https://tenor.com/view/yunachoa-brave-girls-yuna-gif-21020375",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-heart-gif-20915888",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20915777",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20857272",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20857270",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20857277",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20847425",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20847348",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20847354",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20847350",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20847353",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20821594",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20821589",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20821591",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20821580",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20821582",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20821445",
+            "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20821426",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20806156",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20806144",
+            "https://tenor.com/view/yuna-bravegirls-leeyuna-gif-20804738",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20804742",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20804731",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714939",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714957",
+            "https://tenor.com/view/cute-rollin-yuna-bravegirls-leeyuna-gif-20714940",
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714953"]
     #. Dreamcatcher
         self.bot.dreamcatcher_jiu_gif = ["https://tenor.com/view/onex-1x-jiu-hawt-kim-minji-hawt-jiu-gif-18812596",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294061996605470/image1.gif",
@@ -1802,6 +1936,29 @@ class GGS(commands.Cog):
                 await ctx.message.delete()
 
     @commands.command()
+    async def brave(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Brave {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "girls eunji":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Eunji :heart:') 
+            await ctx.send(random.choice(self.bot.brave_girls_eunji_gif))
+            await ctx.message.delete()
+        elif arg == "girls minyoung":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Minyoung :heart:') 
+            await ctx.send(random.choice(self.bot.brave_girls_minyoung_gif))
+            await ctx.message.delete()
+        elif arg == "girls yujeong":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yujeong :heart:') 
+            await ctx.send(random.choice(self.bot.brave_girls_yujeong_gif))
+            await ctx.message.delete()
+        elif arg == "girls yuna":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yuna :heart:') 
+            await ctx.send(random.choice(self.bot.brave_girls_yuna_gif))
+            await ctx.message.delete()
+
+    @commands.command()
     async def dreamcatcher(self, ctx, *, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
@@ -2168,109 +2325,57 @@ class GGS(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [WJSN {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "bona":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Bona :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_bona_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Bona :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_bona_gif))
+            await ctx.message.delete()
         elif arg == "cheng xiao":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Cheng Xiao :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_cheng_xiao_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Cheng Xiao :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_cheng_xiao_gif))
+            await ctx.message.delete()
         elif arg == "dawon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Dawon :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_dawon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Dawon :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_dawon_gif))
+            await ctx.message.delete()
         elif arg == "dayoung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Dayoung :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_dayoung_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Dayoung :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_dayoung_gif))
+            await ctx.message.delete()
         elif arg == "eunseo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Eunseo :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_eunseo_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Eunseo :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_eunseo_gif))
+            await ctx.message.delete()
         elif arg == "exy":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Exy :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_exy_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Exy :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_exy_gif))
+            await ctx.message.delete()
         elif arg == "luda":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Luda :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_luda_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Luda :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_luda_gif))
+            await ctx.message.delete()
         elif arg == "seola":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Seola :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_seola_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Seola :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_seola_gif))
+            await ctx.message.delete()
         elif arg == "soobin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Soobin :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_soobin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Soobin :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_soobin_gif))
+            await ctx.message.delete()
         elif arg == "yeonjung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Yeonjung :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_yeonjung_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yeonjung :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_yeonjung_gif))
+            await ctx.message.delete()
         elif arg == "yeoreum":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Yeoreum :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_yeoreum_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yeoreum :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_yeoreum_gif))
+            await ctx.message.delete()
         elif arg == "mei qi" or arg == "mei-qi":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Mei Qi :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_mei_qi_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Mei Qi :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_mei_qi_gif))
+            await ctx.message.delete()
         elif arg == "xuan yi" or arg == "xuanyi":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-            else:
-                await ctx.send(f'<@{ctx.author.id}> is talking about Xuan Yi :heart:') 
-                await ctx.send(random.choice(self.bot.wjsn_xuan_yi_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Xuan Yi :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_xuan_yi_gif))
+            await ctx.message.delete()
 
     
 

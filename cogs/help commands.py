@@ -63,7 +63,7 @@ class hcommands(commands.Cog):
         embed3.set_footer(text=f"page 3/{totalpages}")
         embed3.add_field(name='aespa', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
         embed3.add_field(name='Blackpink', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```', inline = True)
-        embed3.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n ```')
+        embed3.add_field(name='Brave Girls', value=f'```\nBrave Girls EUnji\nBrave Girls Minyoung\nBrave Girls Yujeong\nBrave Girls Yuna```')
         
         embed3.add_field(name='BTS', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
         embed3.add_field(name='Enhypen', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
@@ -139,7 +139,7 @@ class hcommands(commands.Cog):
         embed7.set_footer(text=f"page 7/{totalpages}")
         embed7.add_field(name='Seventeen', value=f'```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua```', inline = True)
         embed7.add_field(name='Seventeen', value=f'```\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino\n ```', inline = True)
-        # embed7.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
+        embed7.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n \n \n \n ```')
 
         # embed7.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
         # embed7.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
