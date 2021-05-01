@@ -2960,11 +2960,6 @@ class BGS(commands.Cog):
     #         await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
     #         await ctx.send(random.choice(gifSet))
     #         await ctx.message.delete()
-
-    # @commands.command()
-    # async def panda(self, ctx):
-    #     sendGif(self, ctx, "HELP", self.bot.golcha_joochan_gif, "heart")
-
     
 
 
