@@ -5,10 +5,6 @@ from datetime import datetime
 #//servers
 luminary = 758468592957521972
 
-#=channels
-#.luminary bot-commands
-kbotcom = 764610881513324574
-
 class weeekly(commands.Cog):
 
     def __init__(self, bot):
@@ -41,7 +37,11 @@ class weeekly(commands.Cog):
             "https://gfycat.com/delayedoblongarabianoryx",
             "https://gfycat.com/absolutedarlingcleanerwrasse",
             "https://gfycat.com/fantasticmarvelousgroundbeetle",
-            "https://gfycat.com/grimyearnestjackal"]
+            "https://gfycat.com/grimyearnestjackal",
+            "https://gfycat.com/whirlwindsanecatfish",
+            "https://gfycat.com/insignificantflatbichonfrise",
+            "https://gfycat.com/deadeverygodwit",
+            "https://gfycat.com/welcomethesehackee"]
 
         self.bot.weeekly_jiyoon_gif = ["https://cdn.discordapp.com/attachments/790062585054625873/790074833609949214/JIYOON4.gif",
             "https://cdn.discordapp.com/attachments/790062585054625873/790074875695071292/JIYOON3.gif",
@@ -80,7 +80,13 @@ class weeekly(commands.Cog):
             "https://gfycat.com/aggravatinghappygoluckyiriomotecat",
             "https://gfycat.com/amusingopenbison",
             "https://gfycat.com/belovedwickedinexpectatumpleco",
-            "https://gfycat.com/demandinglankyboubou"]
+            "https://gfycat.com/demandinglankyboubou",
+            "https://gfycat.com/acclaimedrequiredbassethound",
+            "https://gfycat.com/glumbleakgrosbeak",
+            "https://gfycat.com/lastingsinglehuman",
+            "https://gfycat.com/handmaderingedhornet",
+            "https://gfycat.com/uncomfortablecompetentarcticduck",
+            "https://gfycat.com/immediatetartamericanwigeon"]
 
         self.bot.weeekly_monday_gif = ["https://cdn.discordapp.com/attachments/790062662905102346/790074986702438450/MONDAY1.gif",
             "https://tenor.com/view/weeekly-soojin-monday-jiyoon-soeun-gif-18168556",
@@ -111,7 +117,12 @@ class weeekly(commands.Cog):
             "https://64.media.tumblr.com/697568b168bbb34e383b6456ccab1e36/3b992ee99ba8744a-7e/s250x400/4d0f8a1ad490a02f9f471a7cb1463d40f64feb56.gif",
             "https://64.media.tumblr.com/f1a6cb66b98b82d7c8c75a586825ded3/726f527e77a5de0a-9d/s250x400/ecddf386e1e65d3d456fb6b4ea6e2e305176a5f3.gif",
             "https://64.media.tumblr.com/44fd422c9cd9eaf939b602dd2af91043/ea558dbe5decee97-9d/s250x400/d42fbcc58e71afd8c0d4772d91707b2d03fbbff6.gif",
-            "https://64.media.tumblr.com/acd91d295e6a022130ad16fb7cbe3eeb/0bba36126509207e-c2/s250x400/0ab251356f085eb53170ce1d4f2e5e606ff6142a.gif"]
+            "https://64.media.tumblr.com/acd91d295e6a022130ad16fb7cbe3eeb/0bba36126509207e-c2/s250x400/0ab251356f085eb53170ce1d4f2e5e606ff6142a.gif",
+            "https://gfycat.com/angryrightferret",
+            "https://gfycat.com/vibrantcourageousbufeo",
+            "https://gfycat.com/scaryinsecurecony",
+            "https://gfycat.com/silkyaggressivecornsnake",
+            "https://gfycat.com/distortedspotlessbull"]
 
         self.bot.weeekly_soeun_gif = ["https://tenor.com/view/weeekly-soeun-weeekly-soeun-gif-18130042",
             "https://tenor.com/view/weeekly-weeekly-jiyoon-weeekly-soeun-soeun-jiyoon-gif-18216326",
@@ -139,7 +150,9 @@ class weeekly(commands.Cog):
             "https://gfycat.com/plasticallindianpalmsquirrel",
             "https://gfycat.com/respectfulangrycottonmouth",
             "https://gfycat.com/bigheartedbiodegradableduck",
-            "https://gfycat.com/essentialcriminalhoopoe"]
+            "https://gfycat.com/essentialcriminalhoopoe",
+            "https://gfycat.com/practicalorangecolt",
+            "https://gfycat.com/veneratedpossiblegavial"]
 
         self.bot.weeekly_jaehee_gif = ["https://cdn.discordapp.com/attachments/790062758556336128/790075085779894273/JAEHEE1.gif",
             "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-sad-weeekly-jaehee-sad-gif-18217735",
@@ -163,7 +176,10 @@ class weeekly(commands.Cog):
             "https://gfycat.com/serpentinehairyafricanbushviper",
             "https://gfycat.com/shadyconfusedaegeancat",
             "https://gfycat.com/absolutetiredeuropeanpolecat",
-            "https://gfycat.com/distanthugeeider"]
+            "https://gfycat.com/distanthugeeider",
+            "https://gfycat.com/disloyalgloriouseider",
+            "https://gfycat.com/yellowheftyhapuku",
+            "https://gfycat.com/necessaryuntimelycanadagoose"]
 
         self.bot.weeekly_jihan_gif = ["https://cdn.discordapp.com/attachments/790062796150407209/790075153744658442/JIHAN3.gif",
             "https://cdn.discordapp.com/attachments/790062796150407209/790075171691692032/JIHAN2.gif",
@@ -205,7 +221,16 @@ class weeekly(commands.Cog):
             "https://gfycat.com/deepwarmhearteddiscus",
             "https://gfycat.com/abandonedmassivegangesdolphin",
             "https://gfycat.com/accomplishedfatharrierhawk",
-            "https://gfycat.com/kaleidoscopicwhimsicalbassethound"]
+            "https://gfycat.com/kaleidoscopicwhimsicalbassethound",
+            "https://gfycat.com/fluffyyellowbarnowl",
+            "https://gfycat.com/sparsepoliteinexpectatumpleco",
+            "https://gfycat.com/secondhandsecondarydavidstiger",
+            "https://gfycat.com/euphoricfabulouscleanerwrasse",
+            "https://gfycat.com/wholepoliticalbrownbutterfly",
+            "https://gfycat.com/paltryclutteredcusimanse",
+            "https://gfycat.com/sphericalinferiorfritillarybutterfly",
+            "https://tenor.com/view/weeekly-jihan-gif-20926965",
+            "https://tenor.com/view/jihan-weeekly-gif-20911075"]
 
         self.bot.weeekly_zoa_gif = ["https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075317947203634/ZOA2.gif",
@@ -230,7 +255,11 @@ class weeekly(commands.Cog):
             "https://gfycat.com/candidwarmheartedgreyhounddog",
             "https://gfycat.com/grizzledboguseasternnewt",
             "https://gfycat.com/icyklutzyelephantbeetle",
-            "https://gfycat.com/ignorantdefiantfrogmouth"]
+            "https://gfycat.com/ignorantdefiantfrogmouth",
+            "https://gfycat.com/madeupshamefulcarpenterant",
+            "https://gfycat.com/peacefulplayfulcuckoo",
+            "https://gfycat.com/informalmedicalbobolink",
+            "https://gfycat.com/inferiorlastingangelwingmussel"]
 
     @commands.command()
     async def weeekly(self, ctx, arg):
@@ -239,61 +268,33 @@ class weeekly(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Weeekly {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "soojin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_soojin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_soojin_gif))
+            await ctx.message.delete()
         elif arg == "jiyoon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiyoon :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_jiyoon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jiyoon :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_jiyoon_gif))
+            await ctx.message.delete()
         elif arg == "monday":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_monday_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_monday_gif))
+            await ctx.message.delete()
         elif arg == "soeun":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soeun :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soeun :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
+            await ctx.message.delete()
         elif arg == "jaehee":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
+            await ctx.message.delete()
         elif arg == "jihan":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jihan :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_jihan_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jihan :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_jihan_gif))
+            await ctx.message.delete()
         elif arg == "zoa":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Zoa :heart:')
-                await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Zoa :heart:')
+            await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(weeekly(client))

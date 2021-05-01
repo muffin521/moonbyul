@@ -250,7 +250,8 @@ class RedVelvetPings(commands.Cog):
             "http://67.media.tumblr.com/bfb1b602916a0cdf0f325f3a93bfc69c/tumblr_o4i7taKVF31ti7fhko1_400.gif",
             "https://i.gifer.com/PUOr.gif",
             "https://data.whicdn.com/images/168405144/original.gif",
-            "https://data.whicdn.com/images/252577390/original.gif"]
+            "https://data.whicdn.com/images/252577390/original.gif",
+            "https://thumbs.gfycat.com/OilyEnormousCollardlizard-size_restricted.gif"]
 
         self.bot.yeri_gif = ["https://tenor.com/view/kim-yerim-yeri-pointing-lipstick-on-gif-12579366",
             "https://tenor.com/view/yeri-dance-cute-gif-13149660",
@@ -669,7 +670,15 @@ class RedVelvetPings(commands.Cog):
             "http://cdn.lowgif.com/medium/22120b272b262b63-cutest-animated-gif-4058499-by-olga-b-on-favim-com.gif",
             "https://i.pinimg.com/originals/43/1a/ff/431aff1ff5bf827a0fb3beee03846a49.gif",
             "https://gifimage.net/wp-content/uploads/2018/06/yeri-gif-2.gif",
-            "https://66.media.tumblr.com/cf66b57ce50e96849d921309fde28b2e/2d083e34c8630001-5d/s400x600/53d22e2bfbba1130a0dee4213e9312240de73e5f.gif"]
+            "https://66.media.tumblr.com/cf66b57ce50e96849d921309fde28b2e/2d083e34c8630001-5d/s400x600/53d22e2bfbba1130a0dee4213e9312240de73e5f.gif",
+            "https://tenor.com/view/yeri-redvelvet-kimyerim-gif-20664861",
+            "https://tenor.com/view/yeri-redvelvet-kimyerim-gif-20664857",
+            "https://tenor.com/view/yeri-redvelvet-kimyerim-gif-20664852",
+            "https://tenor.com/view/yeri-rookie-gif-20351386",
+            "https://tenor.com/view/yeri-gif-20227654",
+            "https://tenor.com/view/mayaspapayas-yeri-stare-yeri-yeri-red-velvet-red-velvet-yeri-gif-20385800",
+            "https://tenor.com/view/yeri-my-beloved-yeri-red-velvet-red-velvet-my-beloved-kim-yeri-gif-20036828",
+            "https://tenor.com/view/revehuislol-yeri-red-velvet-yerimybeloved-gif-20102623"]
 
         self.bot.joy_gif = ["https://tenor.com/view/joy-joy-red-velvet-red-velvet-joy-red-velvet-%EC%A1%B0%EC%9D%B4-gif-19140467",
             "https://tenor.com/view/joy-joy-red-velvet-red-velvet-joy-red-velvet-%EB%B0%95%EC%88%98%EC%98%81-gif-19140470",
@@ -715,7 +724,9 @@ class RedVelvetPings(commands.Cog):
             "https://data.whicdn.com/images/237846376/original.gif",
             "https://media1.tenor.com/images/9c36c78d57f5f5185303a224f50c96b6/tenor.gif?itemid=12576883",
             "https://i.pinimg.com/originals/db/a8/00/dba8003945f735ec0534c2fe61507483.gif",
-            "https://i.pinimg.com/originals/81/7c/cb/817ccbf77e0b1930ec03f2b5fb0feca1.gif"]
+            "https://i.pinimg.com/originals/81/7c/cb/817ccbf77e0b1930ec03f2b5fb0feca1.gif",
+            "https://tenor.com/view/joy-redvelvet-parksooyoung-gif-20490367",
+            "https://tenor.com/view/joy-redvelvet-parksooyoung-gif-20490365"]
 
         self.bot.redvelvet_group_gif = ["https://i.pinimg.com/originals/69/88/a3/6988a3beb07459e565763eb59c99e938.gif",
             "https://i.pinimg.com/originals/0b/6b/41/0b6b41f6b5b7a2f14ef136c671e939cf.gif",
@@ -756,53 +767,29 @@ class RedVelvetPings(commands.Cog):
         await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
-                    await ctx.send(random.choice(self.bot.irene_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
+                await ctx.send(random.choice(self.bot.irene_gif))
+                await ctx.message.delete()
             elif arg == "seulgi":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
-                    await ctx.send(random.choice(self.bot.seulgi_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seulgi :pineapple:')
+                await ctx.send(random.choice(self.bot.seulgi_gif))
+                await ctx.message.delete()
             elif arg == "wendy":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
-                    await ctx.send(random.choice(self.bot.wendy_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Wendy :blue_heart:')
+                await ctx.send(random.choice(self.bot.wendy_gif))
+                await ctx.message.delete()
             elif arg == "yeri":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
-                    await ctx.send(random.choice(self.bot.yeri_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeri :grapes:')
+                await ctx.send(random.choice(self.bot.yeri_gif))
+                await ctx.message.delete()
             elif arg == "joy":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
-                    await ctx.send(random.choice(self.bot.joy_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Joy :kiwi:')
+                await ctx.send(random.choice(self.bot.joy_gif))
+                await ctx.message.delete()
             elif arg == "ot5":
-                if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                    await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                    await ctx.message.delete()
-                else:
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Red Velvet :heart:')
-                    await ctx.send(random.choice(self.bot.redvelvet_group_gif))
-                    await ctx.message.delete()
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Red Velvet :heart:')
+                await ctx.send(random.choice(self.bot.redvelvet_group_gif))
+                await ctx.message.delete()
 
     
 

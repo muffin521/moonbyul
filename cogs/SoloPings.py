@@ -750,19 +750,56 @@ class SoloPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/813116899822665808/813120593414848553/Tumblr_l_420723207013098.gif",
             "https://cdn.discordapp.com/attachments/813116899822665808/813120594190008380/Tumblr_l_420724838336170.gif"]
 
+        self.bot.wonho_gif = ["https://64.media.tumblr.com/94717f668d0ca5c0033afa4be55b8413/cb11f567c6ef0d4e-7c/s400x600/84ef55ccbd7ff32aa6025aad251989e316df55ac.gif",
+            "https://64.media.tumblr.com/b98a63347d447a4fbc16da7736ff53c7/cb11f567c6ef0d4e-a0/s400x600/b39320bac50db08def53026f90ddcac4b163560b.gif",
+            "https://64.media.tumblr.com/6215c88e03444519d311fa76516a446a/337faab67081e317-1e/s400x600/dd778e260c28fce860db9a6cd735e2da6f17ab0a.gif",
+            "https://64.media.tumblr.com/1ea057a919bfa788f0e50769e6ab7eb5/9f04c6eb4183e454-10/s400x600/f58936b268c9a9eaaa82fb6afb4f32d3ef8234d0.gif",
+            "https://64.media.tumblr.com/90b46d5417b52f970ceae13e3b37145b/9f04c6eb4183e454-a0/s400x600/5f52e94ea635e80031f0ef41b3c3532e660dbec0.gif",
+            "https://64.media.tumblr.com/fbeb4be3e6227229245404b75f07a5a7/a551376b5fd21d62-e8/s400x600/be84c7d75fbff064e83e7381ac9da43820a7b396.gif",
+            "https://64.media.tumblr.com/ec79071f2240d8d1e1f23cb884b67466/d85a77e580d193f4-03/s250x400/522529141a08a7cd8fd3f97054b8d91063bb4461.gif",
+            "https://64.media.tumblr.com/0ee04c33db0bfb9a778df9501e73bccd/ef9cc29e7319e8b1-61/s400x600/1805e35e8aefeaa5947021dedf283990e6faf4a8.gif",
+            "https://64.media.tumblr.com/742b0a7b0560ea55e7b8f386fe442329/7a032a6e70a304af-12/s400x600/012303bb760045e5e76dabeb7dec389f3b1b90fc.gif",
+            "https://64.media.tumblr.com/ffaaecf990c206b2ba65bd901db95e5c/c980b478726d6d35-68/s400x600/9992684a148b82f7ecdd6f6c1c237ce8e68a11c8.gif",
+            "https://64.media.tumblr.com/b96d0058ccf7865f77d3b00871a243eb/1304454b8871260b-b0/s400x600/b081a88335cf3806e9b3bd437162989ae1a737b8.gif",
+            "https://64.media.tumblr.com/86fcc5938d79ff85e89ea34fac7a1145/cf3390246c8a7a94-09/s400x600/f7c12c25dcb9de85b1a75d4c3db05e405104064d.gif"]
+
+        self.bot.dpr_ian_gif = ["https://cdn.discordapp.com/attachments/822327229782163467/822444412117450782/Tumblr_l_74660478524225.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444412742271006/Tumblr_l_74657508304799.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444413535911986/Tumblr_l_74639893616056.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444414181310505/Tumblr_l_74637252741473.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444680661958656/Tumblr_l_74635869279755.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444681006678056/Tumblr_l_74632187474548.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444757489811456/Tumblr_l_74603737831278.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444757812510750/Tumblr_l_74602237755081.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444758101786674/Tumblr_l_74600914694769.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444758449389568/Tumblr_l_74599275184665.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827193963905064/Tumblr_l_285379373589415.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827345148117002/Tumblr_l_285426918051428.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827345639243776/Tumblr_l_285426053656272.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827345970331688/Tumblr_l_285425318229137.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827346344149032/Tumblr_l_285425323959814.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827366065242132/Tumblr_l_285420651423410.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827366497517598/Tumblr_l_285418040497473.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827550039867412/Tumblr_l_285470898798026.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822827550518149160/Tumblr_l_285470519728339.gif",
+            "https://64.media.tumblr.com/479128a926ac5b91c912493a52b472fa/tumblr_poozc6CIrc1qb69o4_400.gif",
+            "https://64.media.tumblr.com/00ff77e1a6b20e83276fec99d2a0cca5/2afb16606e59d3f1-b2/s400x600/83c2b0f336dd6233814d3652d7e1045df55a6b39.gif",
+            "https://64.media.tumblr.com/0acb924493e324dbb1f35130656a272c/2afb16606e59d3f1-58/s400x600/5a96aa61dc683460aa536e0d9c95f8ca78cc1e07.gif",
+            "https://64.media.tumblr.com/c5b6dcd02c6ba104ef2b015e164db8f7/tumblr_pet8gfIJ331x6d8igo4_250.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/823542532558159932/Ian_gif_9.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/823542546399494175/Ian_gif_10.gif",
+            "https://cdn.discordapp.com/attachments/822327229782163467/822444411115405322/Tumblr_l_74662172219016.gif"]
+
     @commands.command()
     async def natty(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Natty] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
-            await ctx.send(random.choice(self.bot.natty_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Natty :teddy_bear:')
+        await ctx.send(random.choice(self.bot.natty_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def alexa(self, ctx):
@@ -770,13 +807,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [AleXa] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
-            await ctx.send(random.choice(self.bot.alexa_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about AleXa :blue_heart:')
+        await ctx.send(random.choice(self.bot.alexa_gif))
+        await ctx.message.delete()
 
     @commands.command(aliases = ['chung'])
     async def chungha(self, ctx, arg="ha"):
@@ -785,13 +819,9 @@ class SoloPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Chung Ha] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "ha":
-            if ctx.guild.id == luminary and channel != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
-                await ctx.send(random.choice(self.bot.chungha_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
+            await ctx.send(random.choice(self.bot.chungha_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def iu(self, ctx):
@@ -799,13 +829,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [IU] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
-            await ctx.send(random.choice(self.bot.iu_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about IU <:blueming:787451831478910996>')
+        await ctx.send(random.choice(self.bot.iu_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def somi(self, ctx):
@@ -813,18 +840,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Somi] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
-                await ctx.send(random.choice(self.bot.somi_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
-            await ctx.send(random.choice(self.bot.somi_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Somi :heart:')
+        await ctx.send(random.choice(self.bot.somi_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def yukika(self, ctx):
@@ -832,18 +851,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Yukika] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary:
-            if ctx.channel.id == kbotcom:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
-                await ctx.send(random.choice(self.bot.yukika_gif))
-                await ctx.message.delete()
-            else:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
-            await ctx.send(random.choice(self.bot.yukika_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Yukika :heart:')
+        await ctx.send(random.choice(self.bot.yukika_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def taemin(self, ctx):
@@ -851,13 +862,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Taemin] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
-            await ctx.send(random.choice(self.bot.taemin_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :baby::cheese:')
+        await ctx.send(random.choice(self.bot.taemin_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def woodz(self, ctx):
@@ -865,13 +873,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [WOODZ] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about WOODZ :heart:')
-            await ctx.send(random.choice(self.bot.woodz_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about WOODZ :heart:')
+        await ctx.send(random.choice(self.bot.woodz_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def kris(self, ctx, arg = "wu"):
@@ -880,13 +885,9 @@ class SoloPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Kris Wu] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "wu":
-            if ctx.guild.id == luminary and channel != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Kris Wu :heart:')
-                await ctx.send(random.choice(self.bot.kriswu_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Kris Wu :heart:')
+            await ctx.send(random.choice(self.bot.kriswu_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def luhan(self, ctx): 
@@ -894,13 +895,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Luhan] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Luhan :heart:')
-            await ctx.send(random.choice(self.bot.luhan_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Luhan :heart:')
+        await ctx.send(random.choice(self.bot.luhan_gif))
+        await ctx.message.delete()
 
     @commands.command(alises = ['xitao', 'ztao'])
     async def tao(self, ctx): 
@@ -908,13 +906,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Tao] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Tao :heart:')
-            await ctx.send(random.choice(self.bot.tao_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Tao :heart:')
+        await ctx.send(random.choice(self.bot.tao_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def kang(self, ctx, arg):
@@ -923,13 +918,9 @@ class SoloPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Kang Daniel] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "daniel":
-            if ctx.guild.id == luminary and channel != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Kang Daniel :heart:')
-                await ctx.send(random.choice(self.bot.kangdaniel_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Kang Daniel :heart:')
+            await ctx.send(random.choice(self.bot.kangdaniel_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def sunmi(self, ctx):
@@ -937,13 +928,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Sunmi] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Sunmi :heart:')
-            await ctx.send(random.choice(self.bot.sunmi_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Sunmi :heart:')
+        await ctx.send(random.choice(self.bot.sunmi_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def yubin(self, ctx):
@@ -951,13 +939,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Yubin] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Yubin :heart:')
-            await ctx.send(random.choice(self.bot.yubin_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Yubin :heart:')
+        await ctx.send(random.choice(self.bot.yubin_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def rothy(self, ctx):
@@ -965,13 +950,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Rothy] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and channel != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Rothy :heart:')
-            await ctx.send(random.choice(self.bot.rothy_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Rothy :heart:')
+        await ctx.send(random.choice(self.bot.rothy_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def hyuna(self, ctx):
@@ -979,13 +961,10 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Hyuna] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
-            await ctx.send(random.choice(self.bot.hyuna_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Hyuna :heart:')
+        await ctx.send(random.choice(self.bot.hyuna_gif))
+        await ctx.message.delete()
     
     @commands.command()
     async def boa(self, ctx):
@@ -993,14 +972,32 @@ class SoloPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [BoA] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about BoA :heart:')
-            await ctx.send(random.choice(self.bot.boa_gif))
-            await ctx.message.delete()
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about BoA :heart:')
+        await ctx.send(random.choice(self.bot.boa_gif))
+        await ctx.message.delete()
 
+    @commands.command()
+    async def wonho(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Wonho] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Wonho :heart:')
+        await ctx.send(random.choice(self.bot.wonho_gif))
+        await ctx.message.delete()
+
+    @commands.command()
+    async def dpr(self, ctx, dprMan = "ian"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [DPR Ian] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about DPR Ian :heart:')
+        await ctx.send(random.choice(self.bot.dpr_ian_gif))
+        await ctx.message.delete()
 
 def setup(client):
     client.add_cog(SoloPings(client))

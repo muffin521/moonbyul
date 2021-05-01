@@ -348,60 +348,46 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/1819ba1ced1d4f9b236106401e20409c/tumblr_pq6oug8iwh1ui9xsvo2_250.gif",
             "https://1.bp.blogspot.com/-JUA9q671nm8/Xn0TiuSah9I/AAAAAAAANCU/2IWgPgKjvCs88FUE2eTdlubehsD1zUnOACLcBGAsYHQ/s1600/tumblr_dac21be8d01703f645d43558cdc11528_15ba696c_540.gif"]
 
+        self.bot.everglow_group_gif = ["https://tenor.com/view/everglow-gif-20711215",
+            "https://tenor.com/view/everglow-gif-20711213",
+            "https://tenor.com/view/everglow-gif-20711185",
+            "https://64.media.tumblr.com/15884c5080abb61db315a2124b0d30a5/1a0c8ea9c697ad23-c6/s540x810/a2e8a4b0c969a3cf205c6d9e32e2580b70fd20b3.gif",
+            "https://64.media.tumblr.com/048570cb7edd5a721916e0b540ad87db/1a0c8ea9c697ad23-c1/s540x810/a7e3c0a1145c9ccf03c3356b0832df81db7f3693.gif"]
+
     @commands.command()
-    async def everglow(self, ctx, arg):
+    async def everglow(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Everglow {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "eu" or arg == "e:u":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about E:U :heart: ')
-                await ctx.send(random.choice(self.bot.eu_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about E:U :heart: ')
+            await ctx.send(random.choice(self.bot.eu_gif))
+            await ctx.message.delete()
         elif arg =="mia":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Mia :heart: ')
-                await ctx.send(random.choice(self.bot.mia_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Mia :heart: ')
+            await ctx.send(random.choice(self.bot.mia_gif))
+            await ctx.message.delete()
         elif arg == "yiren":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yiren :orange_heart:')
-                await ctx.send(random.choice(self.bot.yiren_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yiren :orange_heart:')
+            await ctx.send(random.choice(self.bot.yiren_gif))
+            await ctx.message.delete()
         elif arg == "aisha":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Aisha :heart: ')
-                await ctx.send(random.choice(self.bot.aisha_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Aisha :heart: ')
+            await ctx.send(random.choice(self.bot.aisha_gif))
+            await ctx.message.delete()
         elif arg == "onda":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Onda :heart: ')
-                await ctx.send(random.choice(self.bot.onda_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Onda :heart: ')
+            await ctx.send(random.choice(self.bot.onda_gif))
+            await ctx.message.delete()
         elif arg == "sihyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sihyeon :heart: ')
-                await ctx.send(random.choice(self.bot.sihyeon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sihyeon :heart: ')
+            await ctx.send(random.choice(self.bot.sihyeon_gif))
+            await ctx.message.delete()
+        elif arg == "group":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Everglow :heart: ')
+            await ctx.send(random.choice(self.bot.everglow_group_gif))
+            await ctx.message.delete()
 
    
 
