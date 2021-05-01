@@ -272,7 +272,8 @@ class ItzyPings(commands.Cog):
             "https://tenor.com/view/chaeryeong-itzy-chaeryeong-hitting-chaeryeong-slap-gif-20694481",
             "https://tenor.com/view/chaeryeong-itzy-chaer-chaeryeong-my-beloved-gif-19866890",
             "https://tenor.com/view/t2704-happy-birthday-chaeryeong-itzy-gif-20979815",
-            "https://tenor.com/view/t2704-chaeryeong-conspiracy-theory-itzy-writing-gif-20953171"]
+            "https://tenor.com/view/t2704-chaeryeong-conspiracy-theory-itzy-writing-gif-20953171",
+            "https://tenor.com/view/itzy-itzy-chaeryeong-mafia-in-the-morning-itzy-mafia-in-the-morning-mafia-in-the-morning-itzy-gif-21372210"]
 
         self.bot.itzy_yuna_gif = ["https://tenor.com/view/yuna-yuna-itzy-itzy-yuna-shin-yuna-itzy-gif-13910454",
             "https://tenor.com/view/yuna-yuna-itzy-shin-yuna-gif-18719264",
