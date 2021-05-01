@@ -1199,7 +1199,8 @@ class GGS(commands.Cog):
             "https://gfycat.com/GrandioseOblongAlbertosaurus",
             "https://gfycat.com/GlamorousDeterminedGrizzlybear",
             "https://gfycat.com/GrandioseWaryAntelopegroundsquirrel",
-            "https://i.makeagif.com/media/4-12-2018/LxoYFp.gif"]
+            "https://i.makeagif.com/media/4-12-2018/LxoYFp.gif",
+            "https://gfycat.com/carefulcharminggodwit-music-kpop-momoland-jooe"]
 
         self.bot.momoland_ahin_gif = ["https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
             "https://data.whicdn.com/images/350636191/original.gif",
@@ -1212,7 +1213,11 @@ class GGS(commands.Cog):
             "https://thumbs.gfycat.com/NippyMarriedKissingbug-size_restricted.gif",
             "https://data.whicdn.com/images/305271470/original.gif",
             "https://gfycat.com/delightfulflashyjackrabbit-transonglation-ready-or-not-momoland-rolling",
-            "https://gfycat.com/caringpresentindianskimmer-girlgroup-reaction-boygroup-comeback"]
+            "https://gfycat.com/caringpresentindianskimmer-girlgroup-reaction-boygroup-comeback",
+            "https://tenor.com/view/ahin-momoland-leeahin-gif-20298483",
+            "https://tenor.com/view/ahin-momoland-leeahin-gif-20298482",
+            "https://tenor.com/view/ahin-momoland-leeahin-gif-20298484",
+            "https://tenor.com/view/ahin-momoland-leeahin-gif-20298485"]
 
         self.bot.momoland_nancy_gif = ["https://gfycat.com/AbsolutePleasedIndianspinyloach",
             "https://gfycat.com/AdmiredEverlastingBaiji",
