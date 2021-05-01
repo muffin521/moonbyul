@@ -230,7 +230,8 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif",
             "https://tenor.com/view/loona-chuu-kpop-gif-20917460",
             "https://gfycat.com/snoopyjointbeaver",
-            "https://gfycat.com/firsthandrecklesseyelashpitviper"]
+            "https://gfycat.com/firsthandrecklesseyelashpitviper",
+            "https://64.media.tumblr.com/ec79071f2240d8d1e1f23cb884b67466/d85a77e580d193f4-03/s250x400/522529141a08a7cd8fd3f97054b8d91063bb4461.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
