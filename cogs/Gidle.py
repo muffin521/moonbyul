@@ -8,10 +8,6 @@ jst = 735713250225815615
 luminary = 758468592957521972
 sadboi = 642497143801905190
 
-#=channels
-#.luminary bot-commands
-kbotcom = 764610881513324574
-
 class IdlePings(commands.Cog):
 
     def __init__(self, bot):
@@ -66,7 +62,14 @@ class IdlePings(commands.Cog):
             "https://64.media.tumblr.com/526eeb5f5ddbf5f926feb4ee5742f92b/d0caacc79318354e-e2/s250x400/dd0eb8a8f53239edbd91963ee9622e6b8e8b2c5f.gif",
             "https://64.media.tumblr.com/a6fbaa438023b9be3ef3ec291f001231/tumblr_ptspjlmSbq1xqn7lno6_r1_250.gif",
             "https://64.media.tumblr.com/597c35ee2fc3fd86bf50d482cff7a551/c9f0548871f8c0c2-bf/s400x600/a2cd0d0305a5a213e4ab1e4ac15f2cba098e851a.gif",
-            "https://64.media.tumblr.com/f22428dc1be7e78f525f02b7d9081bb0/a0b54dc99e35f921-05/s250x400/5ada968e16a275094df623207e426cacd7b5194e.gif"]
+            "https://64.media.tumblr.com/f22428dc1be7e78f525f02b7d9081bb0/a0b54dc99e35f921-05/s250x400/5ada968e16a275094df623207e426cacd7b5194e.gif",
+            "https://tenor.com/view/gidle-minnie-minnie-gidle-gidle-minnie-%eb%af%bc%eb%8b%88-gif-20513142",
+            "https://tenor.com/view/minnie-gidle-gif-20142206",
+            "https://tenor.com/view/minnie-gidle-gif-20086642",
+            "https://tenor.com/view/minne-gidle-gif-20045325",
+            "https://tenor.com/view/minnie-gidle-gif-20045210",
+            "https://tenor.com/view/minnie-gidle-gif-20045279",
+            "https://tenor.com/view/%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-idle-gidle-minniegidle-gif-19954171"]
 
         self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
@@ -94,7 +97,12 @@ class IdlePings(commands.Cog):
             "https://pa1.narvii.com/6957/46461b5e00f81cd64ceb061d0f131cfde4bebdccr1-300-300_hq.gif",
             "https://pa1.narvii.com/6986/7840fddf1b300cfaefe0d06721856c8443a8dd22r1-500-225_hq.gif",
             "https://64.media.tumblr.com/39d4bc38d92b5feacf3d271c198988f0/tumblr_p83qizzaZ11xqswnmo1_540.gif",
-            "http://pa1.narvii.com/6850/cea76f5859566a4f3f2a89def5c2d14b5c1603a6_00.gif"]
+            "http://pa1.narvii.com/6850/cea76f5859566a4f3f2a89def5c2d14b5c1603a6_00.gif",
+            "https://media0.giphy.com/media/YOwSq4SrMzKtjRJQBw/giphy.gif",
+            "https://thumbs.gfycat.com/KeyLameDotterel-size_restricted.gif",
+            "https://64.media.tumblr.com/2ed9d0451f6e1f2dfa4916484472ed31/tumblr_pwjl056o7u1vpomzuo7_540.gif",
+            "https://tenor.com/view/miyeon-gidle-gidle-miyeon-idle-miyeon-%eb%af%b8%ec%97%b0-gif-20677187",
+            "https://tenor.com/view/gidle-miyeon-gidle-hwaa-gidle-kpop-gif-19940042"]
 
         self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
@@ -188,7 +196,8 @@ class IdlePings(commands.Cog):
             "https://gfycat.com/optimalmajorguineafowl",
             "https://gfycat.com/deadbogushound",
             "https://gfycat.com/glaringbrokenalaskajingle",
-            "https://gfycat.com/unitedyearlycob"]
+            "https://gfycat.com/unitedyearlycob",
+            "https://tenor.com/view/shuhua-gidle-shuhuagidle-idle-yehshuhua-gif-19899070"]
 
         self.bot.soojin_gif = ["https://tenor.com/view/soojin-gif-18250849",
             "https://tenor.com/view/gidle-soojin-seo-soojin-idle-gif-15287479",
@@ -219,7 +228,9 @@ class IdlePings(commands.Cog):
             "https://64.media.tumblr.com/3cf03f246fa3dba7c27fcbaabc49d7e1/28467a45e3f9a2b5-a5/s250x400/ae740f54a151fa96e61ca37b8dd02f6d4281c254.gif",
             "https://i.pinimg.com/originals/9c/1f/dc/9c1fdc0ab40a20d7ad50a72b4dfecb30.gif",
             "https://64.media.tumblr.com/0e405a7000c31c58413239ca541a41bf/b330494631435200-5f/s400x600/a966253d3655e893d696a7a72f3ef0da8e9210a1.gif",
-            "https://64.media.tumblr.com/6d60293d679a28eb126e9ba52a875348/b330494631435200-61/s400x600/e7c87607274e28daf5f8da2727a26a727ceaaf7e.gif"]
+            "https://64.media.tumblr.com/6d60293d679a28eb126e9ba52a875348/b330494631435200-61/s400x600/e7c87607274e28daf5f8da2727a26a727ceaaf7e.gif",
+            "https://tenor.com/view/gidle-hwaa-gidle-miyeon-gidle-kpop-gif-19939998",
+            "https://i.pinimg.com/originals/3e/a4/62/3ea462daa1c481be467966d637a73035.gif"]
 
         self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
@@ -255,7 +266,30 @@ class IdlePings(commands.Cog):
             "https://cdn.discordapp.com/attachments/800597297704337409/800607108725866546/f8eb8ac2c6e6ee77bc7a5c50ef36df0e.gif",
             "https://cdn.discordapp.com/attachments/800597297704337409/800607406501265458/tenor_14.gif",
             "https://i.pinimg.com/originals/cd/34/72/cd34726a211a5a31071025fd1b19049a.gif",
-            "https://thumbs.gfycat.com/WellgroomedNiftyArmyworm-size_restricted.gif"]
+            "https://thumbs.gfycat.com/WellgroomedNiftyArmyworm-size_restricted.gif",
+            "https://gfycat.com/adorableeveryamericantoad",
+            "https://gfycat.com/adventurouswatchfulboilweevil-gidle-soyeon-kpop",
+            "https://gfycat.com/deepgrimyflounder",
+            "https://gfycat.com/ablepreciousavians",
+            "https://gfycat.com/angryablecaribou",
+            "https://gfycat.com/agitatedsecondaryachillestang-jeon-soyeon-g-i-dle-senorita-jeonsoyeon",
+            "https://gfycat.com/openunfitarmyworm",
+            "https://gfycat.com/blondseriousbackswimmer-oh-my-god-g-i-dle-fancam-soyeon-kpop",
+            "https://gfycat.com/lonelyfailingcoati-soyeon-gidle-kpop-uhoh",
+            "https://gfycat.com/excitablekindakitainu",
+            "https://gfycat.com/gregariouswethornedviper-neverland-gidle-soyeon-kpop",
+            "https://thumbs.gfycat.com/AntiqueBlaringAllosaurus-max-1mb.gif",
+            "https://data.whicdn.com/images/327064851/original.gif",
+            "http://images6.fanpop.com/image/photos/42600000/-G-I-DLE-g-i-dle-42628971-540-240.gif",
+            "https://64.media.tumblr.com/3d76b929391567e46dae52eb83371df4/tumblr_p83hdfN8e61xqn7lno6_r1_540.gif",
+            "https://tenor.com/view/soyeon-hwaa-soyeon-hwaa-soyeon-hwaa-gidle-gif-19912975",
+            "https://tenor.com/view/soyeon-hwaa-gidle-soyeon-hwaa-gidle-hwaa-gif-19911673",
+            "https://tenor.com/view/soyeon-gidle-gidle-soyeon-%ec%86%8c%ec%97%b0-%ec%a0%84%ec%86%8c%ec%97%b0-gif-20291503",
+            "https://tenor.com/view/soyeon-gidle-gidle-soyeon-%ec%86%8c%ec%97%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20382488",
+            "https://tenor.com/view/gidle-soyeon-soyeon-gidle-soyeon-idle-%ec%86%8c%ec%97%b0-gif-20407218",
+            "https://tenor.com/view/gidle-soyeon-gidle-soyeon-jeon-soyeon-%ec%a0%84%ec%86%8c%ec%97%b0-gif-20279296",
+            "https://tenor.com/view/gidle-soyeon-gif-19733990",
+            "https://tenor.com/view/gidle-soyeon-gif-19705068"]
 
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
@@ -271,62 +305,71 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-gidle-idle-gif-19954016",
             "https://tenor.com/view/yuqi-g-idle-kpop-cute-gif-15296803",
             "https://tenor.com/view/g-idle-yuqi-song-yuqi-chinese-singer-pretty-gif-17257186",
-            "https://gfycat.com/giantcorruptflee-song-yuqi-gidle-vlive-kpop"]
+            "https://gfycat.com/giantcorruptflee-song-yuqi-gidle-vlive-kpop",
+            "https://tenor.com/view/yuqi-gif-20744549",
+            "https://tenor.com/view/yuqi-gidle-yuqi-gidle-%ec%9a%b0%ea%b8%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20751642",
+            "https://tenor.com/view/yuqi-gidle-yuqi-gidle-%ec%9a%b0%ea%b8%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20751649",
+            "https://tenor.com/view/yuqi-gidle-kpop-cute-gif-15296843",
+            "https://tenor.com/view/yuqi-gif-19476509",
+            "https://tenor.com/view/yuqi-gif-19476506",
+            "https://tenor.com/view/yuqi-gif-19476512",
+            "https://tenor.com/view/gidle-yuqi-gidle-yuqi-haan-gidle-yuqi-kpop-gidle-yuqi-mma-gif-17953872",
+            "https://tenor.com/view/yuqi-gif-19476497",
+            "https://tenor.com/view/yuqi-gif-19476494",
+            "https://tenor.com/view/yuqi-gif-18904257",
+            "https://tenor.com/view/yuqi-gidle-gif-19696215",
+            "https://tenor.com/view/song-yuqi-gidle-lion-yuqi-mbc-gif-16090892",
+            "https://tenor.com/view/gidle-yuqi-song-yuqi-kpop-cute-gif-15859578",
+            "https://tenor.com/view/gidle-yuqi-song-yuqi-kpop-cute-gif-15859570",
+            "https://tenor.com/view/yuqi-miyeon-gidle-gif-18369762",
+            "https://tenor.com/view/yuqi-gidle-yuqi-gidle-%ec%9a%b0%ea%b8%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20291475",
+            "https://tenor.com/view/yuqi-gidle-gif-20344769"]
+
+        self.bot.gidle_gif = ["https://media0.giphy.com/media/RKMdehrdDT8QvGmzra/giphy.gif",
+            "https://66.media.tumblr.com/a34816584fefad1c1b4e01fdd0848b02/46ede9e5d46388a5-7e/s500x750/f5b9c6b0339717a5f2e4551c37eefab37714b64c.gif",
+            "https://64.media.tumblr.com/6765a39d3c40bf4b9393c11d66ea6e67/tumblr_pczdw3eUom1somnmfo3_400.gif",
+            "https://64.media.tumblr.com/0ab83c90b0a2c3a52f6f5dfad0d9b929/9094ebc62f3da167-82/s400x600/f1c6b3218d41c4e4b89103a695da4d1e901bb8da.gif",
+            "https://64.media.tumblr.com/d96cbe4a166b38db09b843d872fd95fc/tumblr_piwb21yNox1somnmfo2_400.gif",
+            "https://64.media.tumblr.com/3949f119e6cd6a280f58ad354493bb78/tumblr_p88fcoTQEx1xqn7lno4_400.gif",
+            "https://64.media.tumblr.com/72adad7584ccff50e7906928924b78ab/tumblr_pl02bwUaQh1somnmfo5_400.gif",
+            "https://64.media.tumblr.com/3370b1bc65022b6969403c5acb012373/tumblr_p94jwojzWG1xqn7lno1_r1_500.gif",
+            "https://64.media.tumblr.com/108468eb2e4f514f02ff1876e754cd05/8e8807cd02a15d58-24/s500x750/64c19f3041ad21acc2bf8292fcc9b57efd84409d.gif",
+            "https://tenor.com/view/gidle-hwaa-hwaa-gidle-hwaa-gidle-gif-19910130"]
 
     @commands.command(aliases = ['(g)i-dle', 'idle'])
-    async def gidle(self, ctx, arg):
+    async def gidle(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [(G)I-dle {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "minnie":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Minnie :heart:')
-                await ctx.send(random.choice(self.bot.minnie_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Minnie :heart:')
+            await ctx.send(random.choice(self.bot.minnie_gif))
+            await ctx.message.delete()
         elif arg == "miyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Miyeon :heart:')
-                await ctx.send(random.choice(self.bot.miyeon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Miyeon :heart:')
+            await ctx.send(random.choice(self.bot.miyeon_gif))
+            await ctx.message.delete()
         elif arg == "shuhua":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Shuhua :heart:')
-                await ctx.send(random.choice(self.bot.shuhua_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Shuhua :heart:')
+            await ctx.send(random.choice(self.bot.shuhua_gif))
+            await ctx.message.delete()
         elif arg == "soojin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
-                await ctx.send(random.choice(self.bot.soojin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
+            await ctx.send(random.choice(self.bot.soojin_gif))
+            await ctx.message.delete()
         elif arg == "soyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soyeon :lollipop:')
-                await ctx.send(random.choice(self.bot.soyeon_gif))
-                await ctx.message.delete() 
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soyeon :lollipop:')
+            await ctx.send(random.choice(self.bot.soyeon_gif))
+            await ctx.message.delete() 
         elif arg == "yuqi":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yuqi :heart:')
-                await ctx.send(random.choice(self.bot.yuqi_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yuqi :heart:')
+            await ctx.send(random.choice(self.bot.yuqi_gif))
+            await ctx.message.delete()
+        elif arg == "group":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about (G)I-dle) :heart:')
+            await ctx.send(random.choice(self.bot.gidle_gif))
+            await ctx.message.delete()
 
 
 def setup(client):
