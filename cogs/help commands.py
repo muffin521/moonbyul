@@ -42,15 +42,15 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed2.set_footer(text=f"page 2/{totalpages}")
-        embed2.add_field(name='NCT [1]', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil\nNCT Chenle```''')
-        embed2.add_field(name='NCT [2]', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan\nNCT Shotaro```''')
-        embed2.add_field(name='NCT [3]', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\n \nNCT 127\nNCT Dream\nWayV```''')        
+        embed2.add_field(name='NCT', value=f'''```\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil\nNCT Chenle```''')
+        embed2.add_field(name='NCT', value=f'''```\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan\nNCT Shotaro```''')
+        embed2.add_field(name='NCT', value=f'''```\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung\n \nNCT 127\nNCT Dream\nWayV```''')        
         
-        embed2.add_field(name='Iz*One [1]', value=f'''```\nIz*One Sakura\nIz*One Yuri\nIz*One Chaeyeon\nIz*One Eunbi```''')
-        embed2.add_field(name='Iz*One [2]', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
-        embed2.add_field(name='Iz*One [3]', value=f'''```\nIz*One Chaewon\nIz*One Yujin\nIz*One Yena\nIz*One Hitomi```''')
+        embed2.add_field(name='Iz*One', value=f'''```\nIz*One Sakura\nIz*One Yuri\nIz*One Chaeyeon\nIz*One Eunbi```''')
+        embed2.add_field(name='Iz*One', value=f'''```\nIz*One Minju\nIz*One Hyewon\nIz*One Wonyoung\nIz*One Nako```''')
+        embed2.add_field(name='Iz*One', value=f'''```\nIz*One Chaewon\nIz*One Yujin\nIz*One Yena\nIz*One Hitomi```''')
         
-        embed2.add_field(name='Twice [1]', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
+        embed2.add_field(name='Twice', value=f'''```\nTwice Mina\nTwice Sana\nTwice Momo\nTwice Jeongyeon\nTwice Tzuyu\nTwice Nayeon\nTwice Dahyun\nTwice Chaeyoung\nTwice Jihyo```''')
         embed2.add_field(name='SNSD', value=f'''```\nSNSD YoonA\nSNSD Yuri\nSNSD Hyoyeon\nSNSD Sunny\nSNSD Tiffany\nSNSD Sooyoung\nSNSD Seohyun\nSNSD Jessica\nSNSD Taeyeon```''')
         embed2.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n \n \n ```')
         embed2.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
@@ -84,8 +84,8 @@ class hcommands(commands.Cog):
         embed4.add_field(name='Purple Kiss', value=f'''```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan```''')
         embed4.add_field(name='CLC', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
         
-        embed4.add_field(name='WJSN [1]', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum```')
-        embed4.add_field(name='WJSN [2]', value=f'```\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi\n ```')
+        embed4.add_field(name='WJSN', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum```')
+        embed4.add_field(name='WJSN', value=f'```\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi\n ```')
         embed4.add_field(name='(G)I-dle', value=f'''```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi\n ```''')
         
         embed4.add_field(name='P1Harmony', value=f'```\nP1Harmony Intak\nP1Harmony Jiung\nP1Harmony Jongseob\nP1Harmony Keeho\nP1Harmony Soul\nP1Harmony Theo```')
@@ -118,9 +118,9 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed6.set_footer(text=f"page 6/{totalpages}")
-        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA```', inline = True)
-        embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna```', inline = True)
-        embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
+        embed6.add_field(name='Soloists', value=f'```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA\nWonho```', inline = True)
+        embed6.add_field(name='Soloists', value=f'```\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna\nDPR Ian```', inline = True)
+        embed6.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n \n ```''')
 
         embed6.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
         embed6.add_field(name='Apink', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo\n ```')
@@ -137,8 +137,8 @@ class hcommands(commands.Cog):
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
         embed7.set_footer(text=f"page 7/{totalpages}")
-        embed7.add_field(name='Seventeen [1]', value=f'```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua```', inline = True)
-        embed7.add_field(name='Seventeen [2]', value=f'```\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino\n ```', inline = True)
+        embed7.add_field(name='Seventeen', value=f'```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua```', inline = True)
+        embed7.add_field(name='Seventeen', value=f'```\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino\n ```', inline = True)
         # embed7.add_field(name='Everglow', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon\n \n ```''')
 
         # embed7.add_field(name='GWSN', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
