@@ -957,7 +957,12 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/a36458440ea1286cd7c2772eabe65354/tumblr_piapkbLlW31wuxchuo1_r3_400.gif",
             "https://64.media.tumblr.com/76ce07209473ef7ea4135a158ec335df/tumblr_pvu8p8tUGy1x37j87o2_400.gif",
             "https://64.media.tumblr.com/764abe7622d5e69eca203531c91bc362/tumblr_pva0irExho1x37j87o4_400.gif",
-            "https://64.media.tumblr.com/5ade122afd9dfc58d61402bdf5780a13/tumblr_pva0irExho1x37j87o3_400.gif"]
+            "https://64.media.tumblr.com/5ade122afd9dfc58d61402bdf5780a13/tumblr_pva0irExho1x37j87o3_400.gif",
+            "https://gfycat.com/milkyspanishgnatcatcher",
+            "https://gfycat.com/distantwetimperatorangel",
+            "https://gfycat.com/jubilantshoddyblowfish",
+            "https://gfycat.com/nextdismalambushbug",
+            "https://gfycat.com/deliriousshamefulchafer"]
 
         self.bot.gwsn_lena_gif = ["https://64.media.tumblr.com/eb91f88fb76ba822d2ef873554dd0c2a/f4cd0db3cab93490-91/s400x600/3d4b80dc0b6ac66e343547bec7b53ae228441a40.gif",
             "https://64.media.tumblr.com/b6b76d09fd0d9259bc77ff633e4b1ac0/f4cd0db3cab93490-99/s400x600/f3a9abe9f0b7f67c3810762016ce6b105011f48d.gif",
@@ -1023,7 +1028,17 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/6a52410913dac8b967fd630efaab69c6/9eba9969f2e9eb5d-da/s400x600/11b2f98fcd8c554638ce6aedb6ad6b087378cca6.gif",
             "https://64.media.tumblr.com/242034768c0536a8f1d53d6cdf38dfdc/71ac1f5a215fea25-e5/s400x600/f1e5bb707108a401a77adadeedd8e758d064afaf.gif",
             "https://64.media.tumblr.com/b199d96e0a6980769f098727106df097/3c3ce45e86d3eedb-6b/s640x960/e1717586bd7b45024dcbc9896eac0b2b6fc381b1.gif",
-            "https://64.media.tumblr.com/b8f3d4dcbceb00999432100ebb27e6a7/170ea3995f209d2f-a9/s540x810/60c5f50c331ca484c231437360893f2049ea5f20.gif"]
+            "https://64.media.tumblr.com/b8f3d4dcbceb00999432100ebb27e6a7/170ea3995f209d2f-a9/s540x810/60c5f50c331ca484c231437360893f2049ea5f20.gif",
+            "https://gfycat.com/colorfulelegantdeer",
+            "https://gfycat.com/fardecisiveblackbird",
+            "https://gfycat.com/criminalgoodduckling",
+            "https://gfycat.com/grouchycalmbullmastiff",
+            "https://gfycat.com/ambitiouscleanbrownbear",
+            "https://gfycat.com/enormousnaughtybull",
+            "https://gfycat.com/clumsyvaluableaustralianshelduck",
+            "https://gfycat.com/elementarycreativechimpanzee",
+            "https://gfycat.com/identicalspecificgemsbuck",
+            "https://gfycat.com/failinglivegarpike"]
     #. Momoland
         self.bot.momoland_hyebin_gif = ["https://i.pinimg.com/originals/67/54/39/6754394be37c79335e62ca65e3230592.gif",
             "https://media1.tenor.com/images/cadbc43096d8671856f24fdeb94d6896/tenor.gif?itemid=15005195",
