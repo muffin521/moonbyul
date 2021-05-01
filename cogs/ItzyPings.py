@@ -95,7 +95,10 @@ class ItzyPings(commands.Cog):
             "https://thumbs.gfycat.com/AdoredPositiveDanishswedishfarmdog-max-1mb.gif",
             "https://64.media.tumblr.com/9cfe7c38f2a8750c2ba145bece7976de/53919c6335e8961f-64/s500x750/3ff4e5af57a95e2c8eceace32cb5fe643eeaf9f6.gif",
             "https://64.media.tumblr.com/fa9c3ed79a513a5d19e132af38fb6b8f/1988d556d4de3246-0e/s540x810/84234076e5035979cd1c86ae81894839f63b5231.gif",
-            "https://media1.tenor.com/images/9e875dd8046f83f4263a6efcf1be8ca0/tenor.gif?itemid=13483480"]
+            "https://media1.tenor.com/images/9e875dd8046f83f4263a6efcf1be8ca0/tenor.gif?itemid=13483480",
+            "https://tenor.com/view/t2704-yeji-staring-itzy-whatever-gif-20891316",
+            "https://tenor.com/view/t2704-yeji-yeji-itzy-itzy-laughing-gif-20896002",
+            "https://tenor.com/view/tdchrs-gif-20800397"]
 
         self.bot.itzy_ryujin_gif = ["https://tenor.com/view/ryujin-%EB%A5%98%EC%A7%84-itzy-shinryujin-gif-14922418",
             "https://tenor.com/view/ryujin-dance-moves-shake-it-pretty-gif-16723839",
@@ -164,7 +167,12 @@ class ItzyPings(commands.Cog):
             "https://images6.fanpop.com/image/photos/42300000/Ryujin-itzy-42306296-480-357.gif",
             "https://i.pinimg.com/originals/6b/6a/cb/6b6acb40a7d94cca1e33bd2763bcfa9c.gif",
             "https://i.pinimg.com/originals/c0/af/b3/c0afb3d4cf692518294820ad6cb1af5b.gif",
-            "https://tenor.com/view/ryujin-hot-gif-20106938"]
+            "https://tenor.com/view/ryujin-hot-gif-20106938",
+            "https://tenor.com/view/t2704-ryujin-mouth-open-mouth-open-gif-20557239",
+            "https://tenor.com/view/t2704-ryujin-itzy-winking-wink-gif-20557186",
+            "https://tenor.com/view/ryujin-itzy-t2704-gif-20558090",
+            "https://tenor.com/view/t2704-ryujin-cat-hug-tilted-gif-20557168",
+            "https://tenor.com/view/ryujin-itzy-jyp-entertainment-itzy-ryujin-ryujin-itzy-gif-20479552"]
 
         self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",
@@ -255,7 +263,16 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/lastinglazyherring",
             "https://gfycat.com/rewardinginsistentarrowcrab-beauty",
             "https://gfycat.com/angelicdeliriousalbatross",
-            "https://gfycat.com/ambitiousvibrantfunnelweaverspider"]
+            "https://gfycat.com/ambitiousvibrantfunnelweaverspider",
+            "https://tenor.com/view/mayaspapayas-lee-chaeryeong-chaeryeong-itzy-itzy-chaeryeong-gif-20390530",
+            "https://tenor.com/view/chaeryeong-lee-chaeryeong-mayaspapayas-chaeryeong-itzy-itzy-gif-20390540",
+            "https://tenor.com/view/chaeryeong-mayaspapayas-lee-chaeryeong-chaeryeong-itzy-itzy-gif-20390514",
+            "https://tenor.com/view/itzy-chaeryeong-wink-chaeryeong-crying-gif-20931278",
+            "https://tenor.com/view/itzy-chaeryeong-chaeryeong-surprised-shocked-gif-20931287",
+            "https://tenor.com/view/chaeryeong-itzy-chaeryeong-hitting-chaeryeong-slap-gif-20694481",
+            "https://tenor.com/view/chaeryeong-itzy-chaer-chaeryeong-my-beloved-gif-19866890",
+            "https://tenor.com/view/t2704-happy-birthday-chaeryeong-itzy-gif-20979815",
+            "https://tenor.com/view/t2704-chaeryeong-conspiracy-theory-itzy-writing-gif-20953171"]
 
         self.bot.itzy_yuna_gif = ["https://tenor.com/view/yuna-yuna-itzy-itzy-yuna-shin-yuna-itzy-gif-13910454",
             "https://tenor.com/view/yuna-yuna-itzy-shin-yuna-gif-18719264",
@@ -346,7 +363,12 @@ class ItzyPings(commands.Cog):
             "https://i1.wp.com/66.media.tumblr.com/383bfbba83a4ce91cc8984d4de857373/tumblr_px5hwqBmvU1xd0zdco4_400.gif?w=817&ssl=1",
             "https://i.pinimg.com/originals/56/31/e4/5631e4995dc282de34ce1948dcf62022.gif",
             "https://64.media.tumblr.com/65671f48be8ed23dc7debb5614e5138a/tumblr_pp0aiaJ9mD1rsi6iwo2_250.gif",
-            "https://64.media.tumblr.com/1d6854b47229aa8bcbfb683c33652bfd/tumblr_pp0aiaJ9mD1rsi6iwo1_250.gif"]
+            "https://64.media.tumblr.com/1d6854b47229aa8bcbfb683c33652bfd/tumblr_pp0aiaJ9mD1rsi6iwo1_250.gif",
+            "https://gfycat.com/bareunconsciousamericanblackvulture-itzy-yuna-yuna-itzy",
+            "https://gfycat.com/wanflusteredjunebug-yuna-itzy",
+            "https://gfycat.com/littlebarrengiraffe-yuna-itzy",
+            "https://gfycat.com/perfumedbrightbooby-yuna-itzy",
+            "https://gfycat.com/carefreefancyasianpiedstarling-yuna-itzy"]
 
         self.bot.itzy_lia_gif = ["https://tenor.com/view/kpop-lia-strawberry-itzy-cute-gif-16770693",
             "https://tenor.com/view/lia-liaitzy-itzylia-itzy-gif-18066742",
@@ -418,7 +440,9 @@ class ItzyPings(commands.Cog):
             "https://i.pinimg.com/originals/5d/b5/d4/5db5d45098329563ce2a3345803440ef.gif",
             "https://media1.tenor.com/images/7e857e2ca6d372accf52d1db95215cb2/tenor.gif?itemid=18072626",
             "https://data.whicdn.com/images/333653990/original.gif",
-            "https://gfycat.com/illegalwhisperedangelfish-itzy-lia"]
+            "https://gfycat.com/illegalwhisperedangelfish-itzy-lia",
+            "https://gfycat.com/enchantedslowadouri",
+            "https://gfycat.com/capitaldetailedcatfish"]
 
         self.bot.itzy_ot5_gif = ["https://media2.giphy.com/media/IfselfvWlziwp1aGMd/giphy.gif",
             "https://i1.wp.com/66.media.tumblr.com/06cbfd880d5dbe6ae764d773fbc8f13c/tumblr_pvcyq6QO9q1y2nngmo2_540.gif?w=817&ssl=1",
@@ -448,7 +472,8 @@ class ItzyPings(commands.Cog):
             "https://d.wattpad.com/story_parts/695084444/images/15e77a873c38d46f156732798447.gif",
             "https://i1.wp.com/66.media.tumblr.com/e0caae1a76684bb3631535a3e444f460/tumblr_pvkrcjzksz1y5v18go1_540.gif?w=817&ssl=1",
             "http://pa1.narvii.com/7548/10399d4ce4dfda7d8d0fc94d4213d31d1bf74576r1-250-324_00.gif",
-            "https://data.whicdn.com/images/327077368/original.gif"]
+            "https://data.whicdn.com/images/327077368/original.gif",
+            "https://tenor.com/view/itzy-hwang-yeji-itzy-hot-itzy-jype-itzy-members-gif-13483478"]
 
     @commands.command()
     async def itzy(self, ctx, arg = "ot5"):
@@ -457,53 +482,29 @@ class ItzyPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Itzy {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "yeji":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
-                await ctx.send(random.choice(self.bot.itzy_yeji_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yeji :heart:')
+            await ctx.send(random.choice(self.bot.itzy_yeji_gif))
+            await ctx.message.delete()
         elif arg == "ryujin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Ryujin :heart:')
-                await ctx.send(random.choice(self.bot.itzy_ryujin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Ryujin :heart:')
+            await ctx.send(random.choice(self.bot.itzy_ryujin_gif))
+            await ctx.message.delete()
         elif arg == "chaeryeong":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
-                await ctx.send(random.choice(self.bot.itzy_chaeryeong_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chaeryeong :heart:')
+            await ctx.send(random.choice(self.bot.itzy_chaeryeong_gif))
+            await ctx.message.delete()
         elif arg == "yuna":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
-                await ctx.send(random.choice(self.bot.itzy_yuna_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yuna :heart:')
+            await ctx.send(random.choice(self.bot.itzy_yuna_gif))
+            await ctx.message.delete()
         elif arg == "lia":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
-                await ctx.send(random.choice(self.bot.itzy_lia_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lia :heart:')
+            await ctx.send(random.choice(self.bot.itzy_lia_gif))
+            await ctx.message.delete()
         elif arg == "ot5":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Itzy :heart:')
-                await ctx.send(random.choice(self.bot.itzy_ot5_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Itzy :heart:')
+            await ctx.send(random.choice(self.bot.itzy_ot5_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(ItzyPings(client))
