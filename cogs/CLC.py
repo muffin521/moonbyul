@@ -69,7 +69,12 @@ class CLC(commands.Cog):
             "https://64.media.tumblr.com/f96053e54377ab9b0f23ee5e78a2470b/ed9c43afbac98e03-2d/s250x400/bc1c07b91b13fab7b177978a383f0e71906d4190.gif",
             "https://tenor.com/view/gee-crystal-clear-chonnasorn-sajakul-sorn-mbc-gif-16423580",
             "https://tenor.com/view/clc-crystal-clear-kpop-cute-girl-group-gif-15041318",
-            "https://tenor.com/view/mnet-one-step-crystal-clear-gif-15007494"]
+            "https://tenor.com/view/mnet-one-step-crystal-clear-gif-15007494",
+            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019513",
+            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019506",
+            "https://tenor.com/view/sorn-clc-chonnasornsajkul-gif-21019505",
+            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019504",
+            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019502"]
 
         self.bot.clc_eunbin_gif = ["https://tenor.com/RCQt.gif",
             "https://tenor.com/RCSH.gif",
@@ -211,38 +216,34 @@ class CLC(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [CLC {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
+        if arg == "yeeun":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
+            await ctx.send(random.choice(self.bot.clc_yeeun_gif))
             await ctx.message.delete()
-        else:
-            if arg == "yeeun":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeeun :heart:')
-                await ctx.send(random.choice(self.bot.clc_yeeun_gif))
-                await ctx.message.delete()
-            elif arg == "sorn":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sorn :heart:')
-                await ctx.send(random.choice(self.bot.clc_sorn_gif))
-                await ctx.message.delete()
-            elif arg == "eunbin":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbin :heart:')
-                await ctx.send(random.choice(self.bot.clc_eunbin_gif))
-                await ctx.message.delete()
-            elif arg == "yujin":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin :heart:')
-                await ctx.send(random.choice(self.bot.clc_yujin_gif))
-                await ctx.message.delete()
-            elif arg == "seunghee":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seunghee :heart:')
-                await ctx.send(random.choice(self.bot.clc_seunghee_gif))
-                await ctx.message.delete()
-            elif arg == "seungyeon":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungyeon :heart:')
-                await ctx.send(random.choice(self.bot.clc_seungyeon_gif))
-                await ctx.message.delete()
-            elif arg == "elkie":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Elkie :heart:')
-                await ctx.send(random.choice(self.bot.clc_elkie_gif))
-                await ctx.message.delete()
+        elif arg == "sorn":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sorn :heart:')
+            await ctx.send(random.choice(self.bot.clc_sorn_gif))
+            await ctx.message.delete()
+        elif arg == "eunbin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Eunbin :heart:')
+            await ctx.send(random.choice(self.bot.clc_eunbin_gif))
+            await ctx.message.delete()
+        elif arg == "yujin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yujin :heart:')
+            await ctx.send(random.choice(self.bot.clc_yujin_gif))
+            await ctx.message.delete()
+        elif arg == "seunghee":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Seunghee :heart:')
+            await ctx.send(random.choice(self.bot.clc_seunghee_gif))
+            await ctx.message.delete()
+        elif arg == "seungyeon":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Seungyeon :heart:')
+            await ctx.send(random.choice(self.bot.clc_seungyeon_gif))
+            await ctx.message.delete()
+        elif arg == "elkie":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Elkie :heart:')
+            await ctx.send(random.choice(self.bot.clc_elkie_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(CLC(client))
