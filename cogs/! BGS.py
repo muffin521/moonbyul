@@ -38,6 +38,266 @@ class BGS(commands.Cog):
             "https://tenor.com/view/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%A1%9C-astro-kpop-astro-cute-astro-mj-gif-17176426",
             "https://tenor.com/view/rocky-astro-rocky-astro-eunwoo-astro-jinjin-astro-gif-17380951",
             "https://tenor.com/view/mj-astro-excited-eunwoo-happy-gif-17381113"]
+    #. Cravity
+        self.bot.cravity_serim_gif = ["https://tenor.com/view/park-serim-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853031",
+            "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969322",
+            "https://tenor.com/view/serim-cravity-serim-park-serim-nervous-serim-gif-18679099",
+            "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969326",
+            "https://tenor.com/view/serim-park-serim-cravity-gif-17969342",
+            "https://tenor.com/view/cravity-serim-park-serim-starship-entertainment-kpop-gif-16609570",
+            "https://tenor.com/view/serim-park-serim-cravity-gif-17969345",
+            "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969325",
+            "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969321",
+            "https://tenor.com/view/cravity-serim-park-serim-park-wonjin-gif-20152184",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-gif-16902247",
+            "https://tenor.com/view/park-serim-cravity-serim-gif-17969336",
+            "https://tenor.com/view/serim-park-serim-cravity-gif-17969343",
+            "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969327",
+            "https://tenor.com/view/serim-park-serim-cravity-gif-17969340",
+            "https://tenor.com/view/serim-park-serim-cravity-gif-17969349",
+            "https://tenor.com/view/serim-cravity-parkserim-gif-20463805",
+            "https://tenor.com/view/serim-cravity-parkserim-gif-20463809",
+            "https://tenor.com/view/park-serim-serim-cravity-gif-17969284",
+            "https://64.media.tumblr.com/79c05ab6c54f69c9248f6fe8b1512298/fded38ccaabae57f-49/s500x750/e44d1d611338e6090d9aa59b133854aeb7b92933.gif",
+            "https://64.media.tumblr.com/4a0543f7bb55a220ee02d7d24ca66b34/f7491ee6926fd2bc-70/s400x600/f0ea1b31a17bcb2d1b7e06f70403175cf67d5dfb.gif",
+            "https://i.pinimg.com/originals/31/d4/58/31d458df3408a1fbc6e1381007593f10.gif",
+            "https://64.media.tumblr.com/6ec7d51e16053aa1abe9c09741e295cd/258e062d66926837-b8/s400x600/4fec97884b5bcf808caa503706b95a600dd28c19.gif",
+            "https://64.media.tumblr.com/4b8eb16fc8a3a9e0cc7a2df1708edfc6/9f1511fea0329cb1-23/s400x600/13396b473eba71aaae4683cf2545ae6cefca2599.gif"]
+
+        self.bot.cravity_allen_gif = ["https://tenor.com/view/cravity-allen-allen-ma-rapper-starship-entertainment-gif-16609568",
+            "https://tenor.com/view/cravity-allen-allen-ma-rapper-starship-entertainment-gif-17437665",
+            "https://tenor.com/view/cravity-allen-allen-ma-rapper-starship-entertainment-gif-16609572",
+            "https://tenor.com/view/allen-ma-ma-allen-cravity-allen-cravity-allen-gif-18324779",
+            "https://tenor.com/view/cravity-allen-kpop-gif-20503359",
+            "https://tenor.com/view/allen-ma-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853025",
+            "https://tenor.com/view/cravity-kpop-my-turn-allen-allen-ma-gif-20013025",
+            "https://tenor.com/view/allen-cravity-gif-18595518",
+            "https://tenor.com/view/allen-cravity-vicsgif-gif-19764935",
+            "https://tenor.com/view/2020mama-mama-moment-performance-music-kpop-gif-19768114",
+            "https://tenor.com/view/cravity-allen-allen-ma-rapper-starship-entertainment-gif-16883683",
+            "https://tenor.com/view/allen-allen-ma-cravity-twerk-twerking-gif-18512517",
+            "https://64.media.tumblr.com/d7654f29f9808b3bfe36b673ae51f6d3/7f1e61f797a0e6b6-08/s540x810/92c67b022d12e03654e2cb5a5f2054b82c7ac86e.gif",
+            "https://64.media.tumblr.com/8ca7f5a3e9841444afa829672e20b2d2/10831a9fb6f6373f-d6/s500x750/94a32d14c7be767fe9d7fb23a3109831886827f9.gif",
+            "https://64.media.tumblr.com/8dd4549ff1dcf03080e2dabd03eaff82/ef0ad708c7fea194-ad/s500x750/a5b178c48a5d3667ac2eb23992343cf55f901282.gif",
+            "https://64.media.tumblr.com/a41f0cd6cb6f83d56e0b2c2f36c8c979/cd9ef75316ec493c-a9/s540x810/06530900d6a8f30585f784a8053e2f3aa241386e.gif",
+            "https://64.media.tumblr.com/66610b180b5c5a792acec64a24b3d94e/ef0ad708c7fea194-18/s500x750/dda88ce111f46c0ba33b3fa20c099887a0d2a89a.gif",
+            "https://i.pinimg.com/originals/b8/eb/f9/b8ebf9e7b432f518b0ffd6665c5b0cc4.gif",
+            "https://64.media.tumblr.com/514ba1b19705dbadba0cd5e48f4b8ed9/ef0ad708c7fea194-c6/s500x750/262ed7b7e91879c04024a2ee07cdc219bb08bf63.gif",
+            "https://64.media.tumblr.com/313ebfc24c764619bd66f188aa929b89/ca02e3ab13aad0c6-0b/s640x960/85acc1f2157f18a33b1e6fd09cc77de625ad06d8.gif"]
+
+        self.bot.cravity_jungmo_gif = ["https://tenor.com/view/jungmo-koo-jungmo-cravity-gif-17968742",
+            "https://tenor.com/view/cravity-koo-jungmo-jungmo-gif-17968747",
+            "https://tenor.com/view/jungmo-smirk-jungmo-cravity-%EC%A0%95%EB%AA%A8-cravity-jungmo-gif-19791538",
+            "https://tenor.com/view/jungmo-fall-jungmo-%EC%A0%95%EB%AA%A8-cravity-cravity-jungmo-gif-19791531",
+            "https://tenor.com/view/jungmo-cravity-cloud9-heart-kpop-gif-17562285",
+            "https://tenor.com/view/jungmo-cravity-kpop-finger-heart-handsome-gif-17167742",
+            "https://tenor.com/view/jungmo-jungmo-smile-jungmo-cute-jungmo-cravity-cravity-gif-18356279",
+            "https://tenor.com/view/koo-jungmo-jungmo-cravity-gif-17968745",
+            "https://tenor.com/view/jungmo-koo-jungmo-cravity-dab-dabbing-gif-18932200",
+            "https://tenor.com/view/jungmo-smirk-cravity-cravity-jungmo-%EC%A0%95%EB%AA%A8-gif-19791529",
+            "https://tenor.com/view/koo-jungmo-jungmo-cravity-gif-17969281",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-gif-16902242",
+            "https://tenor.com/view/koo-jungmo-jungmo-cravity-gif-17968748",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-gif-16902248",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-jungmoo-gif-16902235",
+            "https://tenor.com/view/cravity-jungmo-gif-20503308",
+            "https://tenor.com/view/jungmo-koo-cravity-kpop-gif-17998113",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-jungmo-gif-16902236",
+            "https://tenor.com/view/koo-jungmo-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853038",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-smile-gif-16902231",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-gif-16902245",
+            "https://tenor.com/view/jeongmo-jungmo-koo-jeongmo-starship-produce-x101-gif-14407608",
+            "https://tenor.com/view/koo-jeongmo-koo-jungmo-produce-x101-cute-gif-14543773",
+            "https://tenor.com/view/jeongmo-jungmo-koo-jeongmo-koo-jungmo-goojeongmo-gif-14697789",
+            "https://tenor.com/view/jeongmo-jungmo-koo-jeongmo-koo-jungmo-goojeongmo-gif-14697787",
+            "https://tenor.com/view/jeongmo-jungmo-koo-jungmo-koo-jeongmo-produce-x101-gif-14407591",
+            "https://tenor.com/view/cute-jungmo-koo-jeongmo-goo-jeongmo-koo-jungmo-gif-14357045",
+            "https://tenor.com/view/jeongmo-koo-jeongmo-koo-jungmo-jungmo-produce-x101-gif-14543772",
+            "https://64.media.tumblr.com/e2fb5446d0db6dcfdf377548e223cbf9/ccdf9243be5c2bc3-fe/s540x810/2fd7c40f70826ddb7b04f4b7dfdac8a6e79fb6ce.gif",
+            "https://i.pinimg.com/originals/2e/9c/cd/2e9ccd41309402ebb3b58425ad516789.gif",
+            "https://64.media.tumblr.com/b60e4cc04c16b0412a3455a4fca72dd5/2ea9f724fa44d14d-53/s400x600/b7d8c62280dbec071c2d984454679ecd0441861d.gif",
+            "https://64.media.tumblr.com/64ade4718cc317650e3e7309a6255ff1/f7491ee6926fd2bc-13/s400x600/184e7e6e60ebad8d7729259ba36693cbf972950c.gif"]
+
+        self.bot.cravity_woobin_gif = ["https://tenor.com/view/seo-woobin-woobin-cravity-starship-entertainment-break-all-the-rules-gif-16853030",
+            "https://tenor.com/view/cravity-serim-allen-jungmo-woobin-gif-17558271",
+            "https://tenor.com/view/cravity-kpop-my-turn-woobin-seo-woobin-gif-20013026",
+            "https://tenor.com/view/woobin-cravity-kpop-seo-ruby-gif-20423137",
+            "https://tenor.com/view/woobin-kpop-cravity-ruby-seo-gif-20422893",
+            "https://tenor.com/view/2020mama-mama-moment-performance-music-kpop-gif-19768111",
+            "https://tenor.com/view/cravity-ruby-woobin-gif-19670304",
+            "https://64.media.tumblr.com/bfa6a1222994e6bc0fb4392423c1e58e/42cff016837f9236-dd/s400x600/3fbaf5c171b0b272bbac44f8d5f184a7875c875d.gif",
+            "https://thumbs.gfycat.com/SilverBraveCormorant-size_restricted.gif",
+            "https://64.media.tumblr.com/575a4eab21c52a6301ebb0b61b8cda86/42cff016837f9236-0f/s250x400/bd5bc9ca1406d89b064e28f5c9ecaca8321880ee.gif",
+            "https://64.media.tumblr.com/ac13578fcf62a2b6fde196d704494603/29b0efd8de9fb3b1-39/s500x750/ece01cdef112432933f9b2f30946cd17041d2e57.gif",
+            "https://64.media.tumblr.com/934ba262f5a7f7fc2b752ba3d3d4b91f/29b0efd8de9fb3b1-8b/s500x750/2dc83a85ad5648c0d7ce1637df5e31c0aab83a65.gif",
+            "https://64.media.tumblr.com/3e6ab99e3791c7a7beb78f5195be0749/29b0efd8de9fb3b1-f5/s500x750/53a749f8fbec7118829fbb1309d1408b2f954c34.gif",
+            "https://64.media.tumblr.com/791f7b2223f6479e16de99ac463ce77f/dbfdac3e846b5e8b-be/s400x600/0add976fbe46e0e365a473890d3b9ed15baa3662.gif",
+            "https://64.media.tumblr.com/0245cc028cb599ebd779e1fff1dc18f3/9aa23b09ef4b53ec-84/s400x600/120838587929880a5056d31110ed5b0331b2c2e4.gif",
+            "https://64.media.tumblr.com/24d64f90da26582fd80ef74023d6416e/708bddfe8a7d9349-3b/s500x750/7d58da9cf74de6d043ae39262c1aa0613ce484a5.gif",
+            "https://64.media.tumblr.com/07f1e4caebc32f35bd91fec5ea5845d4/99d6d2b1cb6e69bc-35/s400x600/39b366b489a8e16c6436120e6cf94742d72dfa1b.gif",
+            "https://64.media.tumblr.com/d15bd66787dcfdf1beff2b4b6c58926e/10df00a9ff005afd-2f/s640x960/071973a889637e8743cc77b7d87b3ecdfa7d9d22.gif",
+            "https://64.media.tumblr.com/5450d869d217cfcc5cea8671e644f5fe/b5ed03661f321267-e9/s250x400/8656698a5ea1f5ba2cbadb0c74a83aea5c8298af.gif",
+            "https://64.media.tumblr.com/26bcda0bc9a8be85283f211453c0f814/2032db3ed624cdfc-7e/s500x750/35a7e8d216588ccb2082da80f104f0b6628ef172.gif",
+            "https://64.media.tumblr.com/d726e83c1dc062f29c662d9d01f0ee88/2c7d2776a7f0407b-5a/s500x750/2ca6a11f2fb3a65976217e9295666d4f6c83e300.gif"]
+
+        self.bot.cravity_wonjin_gif = ["https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966683",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966592",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966688",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966686",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966679",
+            "https://tenor.com/view/wonjin-gif-18871967",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966703",
+            "https://tenor.com/view/cravity-ham-wonjin-wonjin-kpop-cute-gif-16853023",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966596",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966603",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-starship-entertainment-kpop-gif-16609574",
+            "https://tenor.com/view/%E0%B8%A7%E0%B8%AD%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%99-what-sad-%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B9%89%E0%B8%B2-wonjin-gif-14805661",
+            "https://tenor.com/view/cravity-wonjin-gif-19950389",
+            "https://tenor.com/view/wonjin-cravity-kpop-thug-life-shades-gif-17664022",
+            "https://tenor.com/view/ham-wonjin-produce-x101-cute-red-lips-gif-14806688",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966595",
+            "https://tenor.com/view/wonjin-ham-wonjin-starship-starship-entertainment-gif-14351022",
+            "https://tenor.com/view/ham-wonjin-sad-stare-gif-14806036",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966594",
+            "https://tenor.com/view/ham-wonjin-cute-kpop-produce101-gif-14806594",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966598",
+            "https://tenor.com/view/cravity-wonjin-ham-won-jin-vocalist-starship-entertainment-gif-17966693",
+            "https://tenor.com/view/ham-wonjin-produce-x101-dance-gif-14806689",
+            "https://tenor.com/view/ham-wonjin-kpop-produce101-gif-14806770",
+            "https://thumbs.gfycat.com/NastyScarceIndri-max-1mb.gif",
+            "https://64.media.tumblr.com/e04387682b6803dbe197165f58c4c0b9/2c7d2776a7f0407b-32/s1280x1920/b595c1af266c0527522dc209935423b4815ed422.gif",
+            "https://blog.kakaocdn.net/dn/VPDFY/btq0iAHxxMO/iW99KifX9bDyeyow0ZqEd0/img.gif"]
+
+        self.bot.cravity_minhee_gif = ["https://tenor.com/view/cravity-minhee-kang-minhee-tbzmoncraviteen-x1-gif-18931955",
+            "https://tenor.com/view/cravity-minhee-kang-min-hee-starship-entertainment-kpop-gif-16609569",
+            "https://tenor.com/view/x1-minhee-kpop-dance-gif-14841162",
+            "https://tenor.com/view/minhee-cravity-minhee-dance-kang-minhee-x1-gif-18553675",
+            "https://tenor.com/view/cravity-minhee-kang-min-hee-starship-entertainment-kpop-gif-16609571",
+            "https://tenor.com/view/cravity-minhee-kang-min-hee-vocalist-starship-entertainment-gif-17659302",
+            "https://tenor.com/view/minhee-cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-gif-16902228",
+            "https://tenor.com/view/cravity-minhee-kang-min-hee-vocalist-starship-entertainment-gif-17562245",
+            "https://tenor.com/view/minhee-kang-minhee-cravity-gif-20355592",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-minhee-gif-16902239",
+            "https://tenor.com/view/minhee-kang-minhee-cravity-x1-gif-19974321",
+            "https://tenor.com/view/kang-min-hee-cravity-min-hee-talking-cute-gif-17043118",
+            "https://tenor.com/view/minhee-cravity-kikabae-gif-19444322",
+            "https://tenor.com/view/minhee-kang-minhee-cravity-gif-19313838",
+            "https://tenor.com/view/produce-x101-minhee-kang-minhee-surprised-gif-14594346",
+            "https://tenor.com/view/x1-minhee-kang-minhee-kpop-gif-14841176",
+            "https://tenor.com/view/minhee-cravity-smile-kang-minhee-x1-gif-19946460",
+            "https://tenor.com/view/x1-minhee-kang-minhee-kpop-gif-14841155",
+            "https://tenor.com/view/x1-minhee-kang-minhee-gif-14990590",
+            "https://tenor.com/view/x1-minhee-kang-minhee-mini-kang-mini-gif-15046757",
+            "https://tenor.com/view/produce-x101-minhee-kang-minhee-cute-smile-gif-14598580",
+            "https://tenor.com/view/x1-one-it-minhee-kang-minhee-kpop-gif-14972843",
+            "https://tenor.com/view/minhee-cravity-minhee-reaction-minhee-gif-minhee-cravity-gif-19389640",
+            "https://tenor.com/view/minhee-kang-cravity-x1-jaemin-gif-17589371",
+            "https://tenor.com/view/x1-one-it-minhee-kang-minhee-kpop-gif-14972848",
+            "https://tenor.com/view/kang-minhee-produce-x101-produce-x-cute-dance-gif-14264523",
+            "https://tenor.com/view/minhee-kang-cute-jaemin-woobin-gif-17589238",
+            "https://tenor.com/view/x1-starship-kang-minhee-produce-x101-kpop-gif-14877975",
+            "https://tenor.com/view/x1-minhee-kang-kpop-cute-gif-15471747",
+            "https://tenor.com/view/x1-starship-kang-minhee-produce-x101-clapping-gif-14877978",
+            "https://tenor.com/view/x1-starship-kang-minhee-minhee-produce-x101-gif-14877970",
+            "https://tenor.com/view/starship-clap-smile-kang-minhee-produce-x101-gif-14520289",
+            "https://tenor.com/view/cravity-kang-minhee-minhee-x1minhee-minhee-cravity-gif-18969870",
+            "https://tenor.com/view/x1-minhee-kang-minhee-smile-cute-gif-14988961",
+            "https://64.media.tumblr.com/1201bc690a47a947565e85318bbf0d53/dc3cf1cf4d15f595-ad/s2048x3072/63c269b0d0dd476698fd0d8cc0fb1fb4747a7790.gif",
+            "https://64.media.tumblr.com/634fa4c5145db09ba655bcf89f724361/2e1b490040d16b4e-52/s540x810/f508bf975aa7ae26ea40a57cd69a67ce1b1b49d4.gif",
+            "https://data.whicdn.com/images/335717726/original.gif"]
+
+        self.bot.cravity_hyeongjun_gif = ["https://tenor.com/view/hyeongjun-cravity-song-hyeongjun-gif-20381325",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-hyeongjun-cravity-cravity-hyeongjun-cravity-gif-18259085",
+            "https://tenor.com/view/cravity-hyeongjun-song-hyeong-jun-vocalist-starship-entertainment-gif-16883679",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-cravity-x1-gif-19974424",
+            "https://tenor.com/view/cravity-song-hyeongjun-x1-kpop-cute-gif-16616306",
+            "https://tenor.com/view/cravity-hyeongjun-song-hyeong-jun-vocalist-starship-entertainment-gif-16883678",
+            "https://tenor.com/view/hyeongjun-kpop-cravity-gif-20503351",
+            "https://tenor.com/view/song-hyeongjun-hyeongjun-hyeongjun-cravity-hyeongjun-x1-cravity-gif-18259098",
+            "https://tenor.com/view/hyeongjun-cravity-song-hyeongjun-gif-20379960",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-cravity-x1-gif-20352811",
+            "https://tenor.com/view/hyeongjun-cravity-song-hyeongjun-gif-20325014",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-cravity-x1-gif-19974353",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-cravity-x1-gif-19922464",
+            "https://tenor.com/view/x1-song-hyeongjun-cravity-starship-entertainment-break-all-the-rules-gif-16853028",
+            "https://tenor.com/view/hyeongjun-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-%ED%98%95%EC%A4%80-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0%ED%98%95%EC%A4%80-cravity-gif-19872346",
+            "https://tenor.com/view/hyeongjun-cravity-x1-song-hyeongjun-gif-20314246",
+            "https://tenor.com/view/hyeongjun-dancing-christmas-happy-hyeongjun-christmas-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-gif-19872226",
+            "https://tenor.com/view/cravity-starship-entertainment-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-kpop-kiss-gif-16902232",
+            "https://tenor.com/view/hyeongjun-cravity-confused-%ED%81%AC%EB%9E%98%EB%B9%84%ED%8B%B0-%ED%98%95%EC%A4%80-gif-19896368",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-starship-entertainment-cravity-dance-gif-17712631",
+            "https://tenor.com/view/cravity-hyeongjun-gif-19861360",
+            "https://tenor.com/view/hyeongjun-cravity-gif-20390143",
+            "https://tenor.com/view/cravity-hyeongjun-song-hyeong-jun-vocalist-starship-entertainment-gif-16883684",
+            "https://tenor.com/view/cravity-song-hyeongjun-x1-kpop-cute-gif-16616304",
+            "https://tenor.com/view/hyeongjun-hyungjun-song-hyeongjun-song-hyungjun-produce-x101-gif-14354307",
+            "https://tenor.com/view/hyeongjun-cravity-song-hyeongjun-gif-20390266",
+            "https://tenor.com/view/cravity-hyeongjun-song-hyeong-jun-vocalist-starship-entertainment-gif-17731121",
+            "https://tenor.com/view/x1-hyeongjun-cute-gif-15046756",
+            "https://tenor.com/view/hyeongjun-cravity-song-hyeongjun-x1-gif-20325044",
+            "https://tenor.com/view/hyeongjun-song-cravity-x1-strawberrykyuns-gif-20561303",
+            "https://tenor.com/view/hyeongjun-song-hyeongjun-cravity-x1-gif-19974395",
+            "https://tenor.com/view/song-hyeongjun-song-hyungjun-starship-produce-x101-gif-14362980",
+            "https://tenor.com/view/song-hyeongjun-x1-cravity-kpop-cute-gif-16972735",
+            "https://tenor.com/view/x1-song-hyeongjun-hyeongjun-hyeongjun-cute-aegyo-gif-18878540"]
+
+        self.bot.cravity_taeyoung_gif = ["https://tenor.com/view/taeyoung-cravity-kim-taeyoung-cute-gif-17966307",
+            "https://tenor.com/view/cravity-taeyoung-kim-tae-young-vocalist-starship-entertainment-gif-17965646",
+            "https://tenor.com/view/%ED%83%9C%EC%98%81-taeyoung-taeyoung-cravity-cravity-nadeull-gif-20098871",
+            "https://tenor.com/view/kim-taeyoung-smile-cravity-x1-kpop-gif-16616302",
+            "https://tenor.com/view/kim-taeyoung-smile-cravity-x1-kpop-gif-16616303",
+            "https://tenor.com/view/cravity-taeyoung-kim-taeyoung-dog-kpop-gif-17965616",
+            "https://tenor.com/view/taeyoung-kim-taeyoung-cravity-kpop-handsome-gif-17965611",
+            "https://tenor.com/view/taeyoung-cravity-kim-taeyoung-kitty-cute-gif-17966304",
+            "https://tenor.com/view/taeyoung-kim-taeyoung-cravity-kpop-handsome-gif-17965602",
+            "https://tenor.com/view/cravity-taeyoung-kim-tae-young-vocalist-starship-entertainment-gif-16883681",
+            "https://tenor.com/view/taeyoung-youngtae-my-turn-cravity-kim-taeyoung-gif-20038732",
+            "https://tenor.com/view/cravity-taeyoung-gif-19853718",
+            "https://tenor.com/view/kpop-cravity-my-turn-taeyoung-youngtae-gif-20012907",
+            "https://tenor.com/view/taeyoung-kim-taeyoung-cravity-kpop-handsome-gif-17965608",
+            "https://tenor.com/view/kim-taeyoung-taeyoung-cravity-kpop-handsome-gif-17965612",
+            "https://tenor.com/view/cravity-taeyoung-cravity-taeyoung-gif-18440673",
+            "https://tenor.com/view/taeyoung-youngtae-cravity-gif-19358980",
+            "https://tenor.com/view/cravity-kpop-cloud9-kim-taeyoung-youngtae-gif-20656180",
+            "https://tenor.com/view/taeyoung-taeyoung-cravity-taeyoung-heart-cravity-nadeull-gif-20098864",
+            "https://tenor.com/view/kim-taeyoung-youngtae-taeyoung-cravity-cute-gif-20014222",
+            "https://tenor.com/view/kpop-cravity-my-turn-taeyoung-youngtae-gif-20012915",
+            "https://tenor.com/view/kim-taeyoung-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853029",
+            "https://tenor.com/view/taeyoung-cravity-ending-fairy-my-turn-gif-20457170",
+            "https://tenor.com/view/youngtae-taeyoung-cravity-shock-kimtaeyoung-gif-19935846",
+            "https://tenor.com/view/cravity-taeyoung-gif-20379246"]
+
+        self.bot.cravity_seongmin_gif = ["https://tenor.com/view/ahn-seongmin-seongmin-cravity-kpop-smile-gif-17964356",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958501",
+            "https://tenor.com/view/seungmin-cravity-ahn-seongmin-kpop-cute-gif-16616299",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958504",
+            "https://tenor.com/view/ahn-seongmin-seongmin-cravity-starship-entertainment-kpop-gif-16853027",
+            "https://tenor.com/view/ahn-seongmin-seongmin-cravity-gif-17969278",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17519249",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958332",
+            "https://tenor.com/view/seongmin-ahn-seongmin-cravity-cute-kpop-gif-17964359",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958499",
+            "https://tenor.com/view/seongmin-ahn-seongmin-cravity-ottoke-song-cute-gif-16904162",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958440",
+            "https://tenor.com/view/cravity-kpop-cloud9-ahn-seongmin-seongmin-gif-20656198",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958488",
+            "https://tenor.com/view/cravity-seongmin-ahn-seong-min-vocalist-maknae-gif-17958485",
+            "https://tenor.com/view/cravity-kpop-cloud9-ahn-seongmin-seongmin-gif-20656177",
+            "https://tenor.com/view/cravity-kpop-my-turn-seongmin-ahn-seongmin-gif-20013023",
+            "https://tenor.com/view/ahn-seongmin-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853037",
+            "https://tenor.com/view/seongmin-luvity-cravity-gif-20048812",
+            "https://tenor.com/view/2020mama-mama-moment-performance-music-kpop-gif-19768137",
+            "https://tenor.com/view/cravity-seongmin-reaction-gif-19651294",
+            "https://tenor.com/view/seungmin-cravity-ahn-seongmin-kpop-cute-gif-16616300",
+            "https://tenor.com/view/ahn-seongmin-cravity-seongmin-bunny-cute-gif-17964361",
+            "https://tenor.com/view/ahn-seongmin-cravity-kpop-cute-handsome-gif-17602528",
+            "https://tenor.com/view/cravity-seonglem-seongmin-hyeongjun-gif-20153978",
+            "https://tenor.com/view/seongmin-ahn-seongmin-cravity-gif-19167335",
+            "https://tenor.com/view/kpop-cravity-my-turn-seongmin-ahn-seongmin-gif-20012912",
+            "https://tenor.com/view/seongmin-cravity-vicsgif-gif-20019573",
+            "https://tenor.com/view/cravity-seongmin-ahn-seongmin-gif-19851238",
+            "https://tenor.com/view/cravity-kpop-my-turn-seongmin-ahn-seongmin-gif-20013057",
+            "https://tenor.com/view/cravity-serim-allen-jungmo-woobin-gif-17558276"]
     #. EXO
         self.bot.exo_kai_gif = ["https://tenor.com/view/kim-kai-gif-18024912",
             "https://tenor.com/view/exo-kai-remove-shirt-gif-15477423",
@@ -2413,21 +2673,56 @@ class BGS(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Astro {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "eunwoo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Eunwoo :heart:')
-                await ctx.send(random.choice(self.bot.astro_eunwoo_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Eunwoo :heart:')
+            await ctx.send(random.choice(self.bot.astro_eunwoo_gif))
+            await ctx.message.delete()
         elif arg == "mj":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about MJ :heart:')
-                await ctx.send(random.choice(self.bot.astro_mj_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about MJ :heart:')
+            await ctx.send(random.choice(self.bot.astro_mj_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def cravity(self, ctx, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Cravity {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "serim":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Serim :heart:')
+            await ctx.send(random.choice(self.bot.cravity_serim_gif))
+            await ctx.message.delete()
+        elif arg == "allen":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Allen :heart:')
+            await ctx.send(random.choice(self.bot.cravity_allen_gif))
+            await ctx.message.delete()
+        elif arg == "jungmo":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jungmo :heart:')
+            await ctx.send(random.choice(self.bot.cravity_jungmo_gif))
+            await ctx.message.delete()
+        elif arg == "woobin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Woobin :heart:')
+            await ctx.send(random.choice(self.bot.cravity_woobin_gif))
+            await ctx.message.delete()
+        elif arg == "wonjin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Wonjin :heart:')
+            await ctx.send(random.choice(self.bot.cravity_wonjin_gif))
+            await ctx.message.delete()
+        elif arg == "minhee":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Minhee :heart:')
+            await ctx.send(random.choice(self.bot.cravity_minhee_gif))
+            await ctx.message.delete()
+        elif arg == "hyeongjun":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hyeongjun :heart:')
+            await ctx.send(random.choice(self.bot.cravity_hyeongjun_gif))
+            await ctx.message.delete()
+        elif arg == "taeyoung":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Taeyoung :heart:')
+            await ctx.send(random.choice(self.bot.cravity_taeyoung_gif))
+            await ctx.message.delete()
+        elif arg == "seongmin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Seongmin :heart:')
+            await ctx.send(random.choice(self.bot.cravity_seongmin_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def exo(self, ctx, arg):
@@ -2436,77 +2731,41 @@ class BGS(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [EXO {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "kai":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Kai :heart:')
-                await ctx.send(random.choice(self.bot.exo_kai_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Kai :heart:')
+            await ctx.send(random.choice(self.bot.exo_kai_gif))
+            await ctx.message.delete()
         elif arg == "do" or arg == "d.o.":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about D.O. :heart:')
-                await ctx.send(random.choice(self.bot.exo_do_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about D.O. :heart:')
+            await ctx.send(random.choice(self.bot.exo_do_gif))
+            await ctx.message.delete()
         elif arg == "baekhyun":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Baekhyun :heart:')
-                await ctx.send(random.choice(self.bot.exo_baekhyun_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Baekhyun :heart:')
+            await ctx.send(random.choice(self.bot.exo_baekhyun_gif))
+            await ctx.message.delete()
         elif arg == "chanyeol":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chanyeol :heart:')
-                await ctx.send(random.choice(self.bot.exo_chaenyeol_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chanyeol :heart:')
+            await ctx.send(random.choice(self.bot.exo_chaenyeol_gif))
+            await ctx.message.delete()
         elif arg == "sehun":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Sehun :heart:')
-                await ctx.send(random.choice(self.bot.exo_sehun_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Sehun :heart:')
+            await ctx.send(random.choice(self.bot.exo_sehun_gif))
+            await ctx.message.delete()
         elif arg == "chen":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chen :heart:')
-                await ctx.send(random.choice(self.bot.exo_chen_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chen :heart:')
+            await ctx.send(random.choice(self.bot.exo_chen_gif))
+            await ctx.message.delete()
         elif arg == "suho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Suho :heart:')
-                await ctx.send(random.choice(self.bot.exo_suho_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Suho :heart:')
+            await ctx.send(random.choice(self.bot.exo_suho_gif))
+            await ctx.message.delete()
         elif arg == "lay":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lay :heart:')
-                await ctx.send(random.choice(self.bot.exo_lay_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lay :heart:')
+            await ctx.send(random.choice(self.bot.exo_lay_gif))
+            await ctx.message.delete()
         elif arg == "xiumin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Xiumin :heart:')
-                await ctx.send(random.choice(self.bot.exo_xiumin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Xiumin :heart:')
+            await ctx.send(random.choice(self.bot.exo_xiumin_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def golden(self, ctx, child, arg):
