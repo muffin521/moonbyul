@@ -1039,6 +1039,181 @@ class GGS(commands.Cog):
             "https://gfycat.com/elementarycreativechimpanzee",
             "https://gfycat.com/identicalspecificgemsbuck",
             "https://gfycat.com/failinglivegarpike"]
+    #. I.O.I
+        self.bot.ioi_nayeon_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
+            "https://tenor.com/view/spaced-out-dazed-nayoung-lim-nayoung-pristin-gif-17689007",
+            "https://tenor.com/view/lim-nayoung-good-night-sleep-tight-dream-kiss-gif-13794045",
+            "https://tenor.com/view/rupoldh-idol-ioi-nayoung-christmas-gif-10491505",
+            "https://tenor.com/view/na-young-pristin-ioi-gif-8120706",
+            "https://tenor.com/view/imnayoung-limnayoung-nayoung-ioi-produce101-gif-19266842",
+            "https://tenor.com/view/rupoldh-idol-nayoung-k-pop-gif-10491438",
+            "https://tenor.com/view/nayoung-ioi-noodles-gif-15772737",
+            "https://tenor.com/view/rupoldh-idol-ioi-nayoung-christmas-gif-10491597",
+            "https://tenor.com/view/arman515-gif-20105625",
+            "https://tenor.com/view/korean-gif-8389689",
+            "https://tenor.com/view/pristin-na-young-ioi-gif-8120707"]
+
+        #// chungha (solo)
+
+        self.bot.ioi_sejeong_gif = ["https://tenor.com/view/student-korean-k-drama-school2017-thumbs-up-gif-9602517",
+            "https://tenor.com/view/sejeong-sleepy-study-wake-up-student-gif-15951042",
+            "https://tenor.com/view/sejeong-gif-7789781",
+            "https://tenor.com/view/sejeong-squish-gif-8256422",
+            "https://tenor.com/view/dancing-gif-7243155",
+            "https://tenor.com/view/%EA%B9%80%EC%84%B8%EC%A0%95-gif-19331566",
+            "https://tenor.com/view/soju-%EA%B9%80%EC%84%B8%EC%A0%95-joeun-day-good-day-ioi-gif-18771113",
+            "https://tenor.com/view/%EA%B9%80%EC%84%B8%EC%A0%95-gif-19331561",
+            "https://tenor.com/view/sejeong-kim-sejeong-gugudan-k-pop-korean-gif-11145901",
+            "https://tenor.com/view/sejeong-ioi-running-away-kpop-smile-gif-15128025",
+            "https://tenor.com/view/produce101-ioi-kim-sejeong-kpop-%EC%84%B8%EC%A0%95-gif-8389702",
+            "https://tenor.com/view/sejeong-kim-sejeong-ioi-gugudan-busted-gif-20510847",
+            "https://tenor.com/view/sejeong-sejeong-kim-kpop-gugudan-gif-11145881",
+            "https://tenor.com/view/sejeong-kimsejeong-smile-name-whats-your-name-gif-12176145",
+            "https://tenor.com/view/kim-sejeong-ioi-k-pop-korean-smile-gif-9860953",
+            "https://tenor.com/view/sejeong-cute-hi-hello-post-gif-5479480",
+            "https://tenor.com/view/hot-warm-kim-sejeong-sejeong-gugudan-gif-11145895",
+            "https://tenor.com/view/sejeong-kpop-korean-ioi-laughing-gif-9908377",
+            "https://tenor.com/view/kim-sejeong-bang-shooting-gunshot-finger-gun-gif-11962485"]
+
+        self.bot.ioi_chaeyeon_gif = ["https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116477",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116479",
+            "https://tenor.com/view/chaeyeon-ioi-dia-explaining-gif-8792708",
+            "https://tenor.com/view/chaeyeon-dia-chaeyeon-dia-chaeyeon-jung-gif-14688205",
+            "https://tenor.com/view/chaeyeon-dia-ioi-cute-angry-gif-9611186",
+            "https://tenor.com/view/chaeyeon-jung-excited-ioi-clapping-yay-gif-9869749",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-dia-chaeyeon-jung-ioi-gif-14688207",
+            "https://tenor.com/view/chaeyeon-produce101-ioi-dia-kpop-gif-9103529",
+            "https://tenor.com/view/chaeyeon-jung-singing-ioi-k-pop-smile-gif-9869673",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116573",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116422",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116599",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116569",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116461",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116412",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116460",
+            "https://tenor.com/view/catchae-chaeyeon-heehyun-huihyeon-ki-huihyeon-gif-19165050",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116448",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116653",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116436",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116544",
+            "https://tenor.com/view/huh-chaeyeon-jung-chae-yeon-dia-kpop-gif-17689010",
+            "https://tenor.com/view/%EC%A0%95%EC%B1%84%EC%97%B0-gif-19322959",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116439",
+            "https://tenor.com/view/%EC%A0%95%EC%B1%84%EC%97%B0-%EB%8B%A4%EC%9D%B4%EC%95%84-gif-18190978",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116458",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116669",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116622",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116617",
+            "https://tenor.com/view/chaeyeon-jung-chaeyeon-dia-tea-chaeyeon-tea-gif-19947182",
+            "https://tenor.com/view/jung-chaeyeon-wave-chaeyeon-happy-smile-gif-15476786",
+            "https://tenor.com/view/chaeyeon-chaeyeon-dia-chaeyeon-kpop-gif-19116574",
+            "https://tenor.com/view/jung-chaeyeon-chaeyeon-dia-gif-19154341",
+            "https://tenor.com/view/jung-chaeyeon-chaeyeon-dia-gif-19154357",
+            "https://tenor.com/view/chaeyeon-chaeyeon-kpop-chaeyeon-dia-gif-19116640",
+            "https://tenor.com/view/chaeyeon-dia-jung-chae-yeon-smile-kpop-gif-15174806"]
+
+        self.bot.ioi_kyulkyung_gif = ["https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147418",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147416",
+            "https://tenor.com/view/jieqiong-zhoujieqiong-kyulkyung-pinky-pristin-gif-20447406",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147427",
+            "https://tenor.com/view/jieqiong-drink-drink-water-drinking-zhou-jieqiong-gif-20447418",
+            "https://tenor.com/view/jieqiong-eating-kyulkyung-zhou-jieqiong-pinky-gif-20447419",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147443",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147471",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147430",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joi-pristin-gif-10195171",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185850",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185707",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147431",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147423",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joi-pristin-gif-10195124",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147421",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joi-pristin-gif-10195170",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147412",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185709",
+            "https://tenor.com/view/kyulkyung-jieqiong-laugh-bubbles-gif-19334552",
+            "https://tenor.com/view/jieqiong-dancing-kyulkyung-k-pop-gif-9869415",
+            "https://tenor.com/view/kyulkyung-jieqiong-pinky-ioi-pristin-gif-10202897",
+            "https://tenor.com/view/kyulkyung-pristin-gif-11504196",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joi-pristin-gif-10195122",
+            "https://tenor.com/view/jieqiong-zhou-jieqiong-kyulkyung-pinky-pristin-gif-20447403",
+            "https://tenor.com/view/kyulkyung-k-pop-ioi-fix-hair-gif-9869474",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147433",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185730",
+            "https://tenor.com/view/kyul-kyung-pristin-gif-11504204",
+            "https://tenor.com/view/joo-kyulkyung-greedy-i-want-it-greed-desire-gif-11628145",
+            "https://tenor.com/view/pristin-pristin-v-kyulkyung-pinky-unzip-gif-15772892",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-pristin-joo-gif-10147419",
+            "https://tenor.com/view/pristin-pristin-v-kyulkyung-pinky-unzip-gif-15772892",
+            "https://tenor.com/view/jieqiong-kyulkyung-gramarly-laugh-gif-19334219",
+            "https://tenor.com/view/kyul-kyung-pinky-jieqiong-pristin-joo-gif-10147463",
+            "https://tenor.com/view/zhou-jie-qiong-face-palm-speechless-gif-11001746",
+            "https://tenor.com/view/zhou-jie-qiong-spicy-hot-gif-11001783",
+            "https://tenor.com/view/zhou-jie-qiong-wow-surprised-gif-11001719",
+            "https://tenor.com/view/%EC%A3%BC%EA%B2%B0%EA%B2%BD-gif-18627710",
+            "https://tenor.com/view/%EA%B2%B0%EA%B2%BD-gif-18172271",
+            "https://tenor.com/view/%EC%A3%BC%EA%B2%B0%EA%B2%BD-gif-18177604"]
+
+        self.bot.ioi_sohye_gif = ["https://tenor.com/view/sohye-ioi-kpop-sign-gif-8138618",
+            "https://tenor.com/view/sohye-ioi-veryveryvery-gif-7981006",
+            "https://tenor.com/view/sohye-ioi-produce101-gif-8445828",
+            "https://tenor.com/view/sohye-ioi-kpop-radio-show-gif-8138616",
+            "https://tenor.com/view/sohye-ioi-produce101-gif-8445738",
+            "https://tenor.com/view/sohye-ioi-produce101-gif-8445702",
+            "https://tenor.com/view/ok-sohye-produce101-k-pop-gotit-gif-10795758",
+            "https://tenor.com/view/sohye-ioi-kpop-radio-gif-8138613",
+            "https://tenor.com/view/sohye-yoojung-doyeon-ioi-kpop-gif-7997311",
+            "https://tenor.com/view/sohye-ioi-produce101-gif-8445691",
+            "https://tenor.com/view/sohye-ioi-gif-8091293",
+            "https://tenor.com/view/sohye-ioi-gif-8055855",
+            "https://tenor.com/view/sohye-ioi-gif-8445762",
+            "https://tenor.com/view/ioi-sohye-catallena-penguin-gif-8770790",
+            "https://tenor.com/view/sohye-kpop-ioi-gif-18500931",
+            "https://tenor.com/view/kim-sohye-ioi-kpop-korean-ghost-gif-9281265",
+            "https://tenor.com/view/sohye-sejeong-gif-6105694",
+            "https://tenor.com/view/sohye-ioi-gif-7974921",
+            "https://tenor.com/view/produce101-gif-8389691",
+            "https://tenor.com/view/sohye-kpop-cute-gif-8473252"]
+
+        #// yeonjung (wjsn)
+
+        #// yoojung (weki meki)
+
+        self.bot.ioi_mina_gif = ["https://tenor.com/view/kang-mina-kpop-eyebrows-raise-mina-gif-17316719",
+            "https://tenor.com/view/mina-jieqiong-kyulkyung-ioi-kangmina-gif-20592169",
+            "https://tenor.com/view/kang-mina-gugudan-cute-finesse-dance-gif-14542208",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-produce101-gif-20378222",
+            "https://tenor.com/view/gugudan-mina-kang-kang-mina-ioi-gif-16253290",
+            "https://tenor.com/view/gugudan-mina-kang-mina-kang-ioi-gif-16253312",
+            "https://tenor.com/view/gugudan-ioi-mina-gif-9606508",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-gif-20379727",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-gif-20375243",
+            "https://tenor.com/view/bts-jimin-kpop-taehyung-jungkook-gif-13370210",
+            "https://tenor.com/view/mina-gugudan-kang-mina-ioi-wink-gif-20416843",
+            "https://tenor.com/view/mina-kang-mina-gugudan-ioi-gif-20592109",
+            "https://tenor.com/view/kang-mina-kangmin-mina-gugudan-ioi-gif-20416925",
+            "https://tenor.com/view/mina-kang-mina-gugudan-ioi-gif-20375280",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-gif-20378206",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-laughing-gif-20329405",
+            "https://tenor.com/view/mina-oguogu-gugudan-gif-9463975",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-gif-20378190",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-produce101-gif-20378942",
+            "https://tenor.com/view/mina-gugudan-ioi-kangmina-cheek-gif-20592076",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-seuiwdz-gif-20343246",
+            "https://tenor.com/view/kang-mina-mina-gugudan-ioi-seuiwdz-gif-20326110",
+            "https://tenor.com/view/mina-kang-mina-laughing-gugudan-gif-20592097",
+            "https://tenor.com/view/mina-kangmina-gugudan-ioi-gif-20627714",
+            "https://tenor.com/view/mina-ioi-gugudan-explaining-gif-8949978",
+            "https://tenor.com/view/kang-mina-mina-ioi-gugudan-hotel-del-luna-gif-20379821",
+            "https://tenor.com/view/mina-kang-mina-laugh-ioi-gugudan-gif-20343302",
+            "https://tenor.com/view/mina-kang-sejeong-oguogu-kpop-korean-gif-10605159",
+            "https://tenor.com/view/mina-kangmina-kang-ioi-gugudan-gif-20737551",
+            "https://tenor.com/view/gugudan-smile-glasses-smirk-kpop-gif-10849527",
+            "https://tenor.com/view/gugudan-chococo-gif-10611460"]
+
+        #// doyeon (weki meki)
+
+        #// somi (solo)
     #. Momoland
         self.bot.momoland_hyebin_gif = ["https://i.pinimg.com/originals/67/54/39/6754394be37c79335e62ca65e3230592.gif",
             "https://media1.tenor.com/images/cadbc43096d8671856f24fdeb94d6896/tenor.gif?itemid=15005195",
@@ -2174,6 +2349,57 @@ class GGS(commands.Cog):
         elif arg == "miya":
             await ctx.send(f'<@{ctx.author.id}> is talking about Miya :heart:') 
             await ctx.send(random.choice(self.bot.gwsn_miya_gif))
+            await ctx.message.delete()
+
+    @commands.command(aliases = ['i.o.i', 'i.o.i.'])
+    async def ioi(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [I.O.I {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "nayeon":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Nayeon :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_nayeon_gif))
+            await ctx.message.delete()
+        elif arg == "chungha" or arg == "chung ha":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Chung Ha :heart:') 
+            await ctx.send(random.choice(self.bot.chungha_gif))
+            await ctx.message.delete()
+        elif arg == "sejeong":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Sejeong :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_sejeong_gif))
+            await ctx.message.delete()
+        elif arg == "chaeyeon":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Chaeyeon :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_chaeyeon_gif))
+            await ctx.message.delete()
+        elif arg == "kyulkyung" or arg == "pinky" or arg == "jieqiong":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Kyulkyung :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_kyulkyung_gif))
+            await ctx.message.delete()
+        elif arg == "sohye":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Sohye :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_sohye_gif))
+            await ctx.message.delete()
+        elif arg == "yeonjung":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yeonjung :heart:') 
+            await ctx.send(random.choice(self.bot.wjsn_yeonjung_gif))
+            await ctx.message.delete()
+        elif arg == "yoojung":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Yoojung :heart:') 
+            await ctx.send(random.choice(self.bot.wekimeki_yoojung_gif))
+            await ctx.message.delete()
+        elif arg == "mina":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Mina :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_mina_gif))
+            await ctx.message.delete()
+        elif arg == "doyeon":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Doyeon :heart:') 
+            await ctx.send(random.choice(self.bot.wekimeki_doyeon_gif))
+            await ctx.message.delete()
+        elif arg == "somi":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Somi :heart:') 
+            await ctx.send(random.choice(self.bot.somi_gif))
             await ctx.message.delete()
 
     @commands.command()
