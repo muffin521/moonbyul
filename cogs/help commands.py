@@ -165,7 +165,7 @@ class hcommands(commands.Cog):
         embed7.add_field(name='I.O.I', value=f'```\\nI.O.I Yeonjung\nI.O.I Yoojung\nI.O.I Mina\nI.O.I Doyeon\nI.O.I Somi\n ```')
         embed7.add_field(name='K.A.R.D', value=f'```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin\n \n```')
 
-        embed7.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart\n \n ```')
+        embed7.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
         
         # embed7.add_field(name='Shinee', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
         # embed7.add_field(name='Golden Child', value=f'```\nGolden Child Joochan\nGolden Child Y```')
