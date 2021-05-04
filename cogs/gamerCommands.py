@@ -231,7 +231,12 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/loona-chuu-kpop-gif-20917460",
             "https://gfycat.com/snoopyjointbeaver",
             "https://gfycat.com/firsthandrecklesseyelashpitviper",
-            "https://64.media.tumblr.com/ec79071f2240d8d1e1f23cb884b67466/d85a77e580d193f4-03/s250x400/522529141a08a7cd8fd3f97054b8d91063bb4461.gif"]
+            "https://64.media.tumblr.com/ec79071f2240d8d1e1f23cb884b67466/d85a77e580d193f4-03/s250x400/522529141a08a7cd8fd3f97054b8d91063bb4461.gif",
+            "https://tenor.com/view/nayoung-ioi-noodles-gif-15772737",
+            "https://tenor.com/view/jieqiong-eating-kyulkyung-zhou-jieqiong-pinky-gif-20447419",
+            "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185730",
+            "https://tenor.com/view/gugudan-mina-kang-kang-mina-ioi-gif-16253290",
+            "https://tenor.com/view/gugudan-mina-kang-mina-kang-ioi-gif-16253312"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
