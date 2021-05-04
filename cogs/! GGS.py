@@ -2402,7 +2402,6 @@ class GGS(commands.Cog):
             await ctx.send(random.choice(self.bot.somi_gif))
             await ctx.message.delete()
 
-
     @commands.command()
     async def momoland(self, ctx, *, arg):
         now = datetime.now()
