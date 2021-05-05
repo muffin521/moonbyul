@@ -1040,7 +1040,7 @@ class GGS(commands.Cog):
             "https://gfycat.com/identicalspecificgemsbuck",
             "https://gfycat.com/failinglivegarpike"]
     #. I.O.I
-        self.bot.ioi_nayeon_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
+        self.bot.ioi_nayoung_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
             "https://tenor.com/view/spaced-out-dazed-nayoung-lim-nayoung-pristin-gif-17689007",
             "https://tenor.com/view/lim-nayoung-good-night-sleep-tight-dream-kiss-gif-13794045",
             "https://tenor.com/view/rupoldh-idol-ioi-nayoung-christmas-gif-10491505",
@@ -2357,9 +2357,9 @@ class GGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [I.O.I {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "nayeon":
-            await ctx.send(f'<@{ctx.author.id}> is talking about Nayeon :heart:') 
-            await ctx.send(random.choice(self.bot.ioi_nayeon_gif))
+        if arg == "nayoung":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Nayoung :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_nayoung_gif))
             await ctx.message.delete()
         elif arg == "chungha" or arg == "chung ha":
             await ctx.send(f'<@{ctx.author.id}> is talking about Chung Ha :heart:') 

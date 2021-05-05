@@ -161,8 +161,8 @@ class hcommands(commands.Cog):
         embed7.add_field(name='Momoland', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy\n ```')
         
         #// uneven (6,4)
-        embed7.add_field(name='I.O.I', value=f'```\nI.O.I Nayeon\nI.O.I Chung Ha\nI.O.I Sejeong\nI.O.I Chaeyeon\nI.O.I Kyulkyung\nI.O.I Sohye```')
-        embed7.add_field(name='I.O.I', value=f'```\\nI.O.I Yeonjung\nI.O.I Yoojung\nI.O.I Mina\nI.O.I Doyeon\nI.O.I Somi\n ```')
+        embed7.add_field(name='I.O.I', value=f'```\nI.O.I Nayoung\nI.O.I Chung Ha\nI.O.I Sejeong\nI.O.I Chaeyeon\nI.O.I Kyulkyung\nI.O.I Sohye```')
+        embed7.add_field(name='I.O.I', value=f'```\nI.O.I Yeonjung\nI.O.I Yoojung\nI.O.I Mina\nI.O.I Doyeon\nI.O.I Somi\n ```')
         embed7.add_field(name='K.A.R.D', value=f'```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin\n \n```')
 
         embed7.add_field(name='Extra Commands', value=f'```\nFood\nChuu Heart```')
