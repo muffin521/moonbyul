@@ -146,7 +146,8 @@ class PurpleKiss(commands.Cog):
             "https://64.media.tumblr.com/3f1a5afe2ac887828cae87d673df5ad6/e6430bce2995b80c-5d/s250x400/00a5f33b54eca4ce38a788023d8eeb9140f59575.gif",
             "https://64.media.tumblr.com/d13dad22c720fcff331dc8e72344cf59/e6430bce2995b80c-ae/s250x400/e3364a063773a2ea5fd6e7b8ef4f31e0ab579240.gif",
             "https://64.media.tumblr.com/1a2b8afbe7fcd8fa9f54f88670eaaa14/c06ca3690cfe4471-92/s250x400/22d4a1ac6fb930160ec56f6e33595962185ccd04.gif",
-            "https://64.media.tumblr.com/9b448337a6f7ed6ca84cf8b57c24293d/c06ca3690cfe4471-26/s500x750/62cee7674b29a72df603d6eecd9790495e22dfee.gif"]
+            "https://64.media.tumblr.com/9b448337a6f7ed6ca84cf8b57c24293d/c06ca3690cfe4471-26/s500x750/62cee7674b29a72df603d6eecd9790495e22dfee.gif",
+            "https://giant.gfycat.com/GorgeousSpryBlueandgoldmackaw.mp4"]
 
         self.bot.jieun_gif = ["https://gfycat.com/ComposedPlayfulAmethystgemclam",
             "https://gfycat.com/VastDistantAnophelesmosquito",
