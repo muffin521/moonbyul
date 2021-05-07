@@ -11,6 +11,121 @@ class hcommands(commands.Cog):
     def __init__(self, client):
         self.client = client
 
+        self.unsorted_groups_list = ["Mamamoo", "2ne1", "f(x)", "LOOΠΔ", "Stray Kids", "Lovelyz", "Weki Meki",
+            "NCT", "Iz*One", "Twice", "SNSD", "Cravity",
+            "aespa", "Blackpink", "Brave Girls", "BTS", "Enhypen", "April", "TXT", "Itzy", "Red Velvet",
+            "WEEEKLY", "Purple Kiss", "CLC", "WJSN", "P1Harmony", "The Boyz",
+            "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
+            "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
+            "Seventeen", "Momoland", "I.O.I", "K.A.R.D."]
+
+        self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
+        self.groups_list.append("Misc")
+        # print(self.unsorted_group_list)
+        self.groupName = "\n"
+        for x in self.groups_list:
+            self.groupName += x + "\n"
+
+    @commands.command(aliases = ['g', 'groups'])
+    async def group(self, ctx, *, arg = "DEFAULT"):
+        embed1 = discord.Embed(
+            # title = 'Mamamoo Commands',
+            # description = description,
+            colour = discord.Color.from_rgb(198, 237, 154))
+        if arg == "mamamoo":
+            embed1.add_field(name='Mamamoo Commands', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```')
+        elif arg == "2ne1":
+            embed1.add_field(name='2NE1 Commands', value=f'```\n2NE1\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom```')
+        elif arg == "fx" or arg == "f(x)":
+            embed1.add_field(name='f(x) Commands', value=f'\naliases: `f(x)`, `fx` ```\nf(x) Victoria\nf(x) Amber\nf(x) Luna\nf(x) Sulli\nf(x) Krystal```')
+        elif arg == "loona" or arg == "looπδ":
+            embed1.add_field(name='LOOΠΔ Commands', value=f'''\naliases: `LOOΠΔ`, `Loona` ```\nLoona Heejin\nLoona Hyunjin\nLoona Haseul\nLoona ViVi\nLoona Yeojin\nLoona Kim Lip\nLoona Jinsoul\nLoona Choerry\nLoona Yves\nLoona Chuu\nLoona Go Won\nLoona Olivia Hye```''')
+        elif arg == "stray kids":
+            embed1.add_field(name='Stray Kids Commands', value=f'''```\nStray Kids Felix\nStray Kids Hyunjin\nStray Kids Bang Chan\nStray Kids Lee Know\nStray Kids Changbin\nStray Kids Han\nStray Kids I.N\nStray Kids Seungmin```''')
+        elif arg == "lovelyz":
+            embed1.add_field(name='Lovelyz Commands', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong```''')
+        elif arg == "weki meki":
+            embed1.add_field(name='Weki Meki Commands', value=f'''```\nWeki Meki Doyeon\nWeki Meki Elly\nWeki Meki Lua\nWeki Meki Lucy\nWeki Meki Rina\nWeki Meki Sei\nWeki Meki Suyeon\nWeki Meki Yoojung```''')
+        elif arg == "test":
+            embed1.add_field(name='Mamamoo Commands', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```')
+        elif arg == "aespa":
+            embed1.add_field(name='aespa Commands', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
+        elif arg == "blackpink":
+            embed1.add_field(name='Blackpink Commands', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```')
+        elif arg == "brave girls":
+            embed1.add_field(name='Brave Girls Commands', value=f'```\nBrave Girls EUnji\nBrave Girls Minyoung\nBrave Girls Yujeong\nBrave Girls Yuna```')
+        elif arg == "bts":
+            embed1.add_field(name='BTS Commands', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
+        elif arg == "txt":
+            embed1.add_field(name='Enhypen Commands', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
+        elif arg == "april":
+            embed1.add_field(name='April Commands', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
+        elif arg == "txt":
+            embed1.add_field(name='TXT Commands', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
+        elif arg == "itzy":
+            embed1.add_field(name='Itzy Commands', value=f'''```\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
+        elif arg == "red velvet":
+            embed1.add_field(name='Red Velvet Commands', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
+        elif arg == "weeekly":
+            embed1.add_field(name='WEEEKLY Commands', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
+        elif arg == "purple kiss" or arg == "purple k!ss":
+            embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan```''')
+        elif arg == "clc":
+            embed1.add_field(name='CLC Commands', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
+        elif arg == "wjsn":
+            embed1.add_field(name='WJSN Commands', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
+        elif arg == "gwsn":
+            embed1.add_field(name='GWSN Commands', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
+        elif arg == "p1harmony" or arg == "p1h":
+            embed1.add_field(name='P1Harmony Commands', value=f'\naliases: `P1Harmony`, `P1H` ```\nP1Harmony Intak\nP1Harmony Jiung\nP1Harmony Jongseob\nP1Harmony Keeho\nP1Harmony Soul\nP1Harmony Theo```')
+        elif arg == "the boyz":
+            embed1.add_field(name='The Boyz Commands', value=f'```\nThe Boyz Kevin\nThe Boyz Sangyeon\nThe Boyz Jacob\nThe Boyz Younghoon\nThe Boyz Hyunjae\nThe Boyz Juyeon\nThe Boyz New\nThe Boyz Q\nThe Boyz Haknyeon\nThe Boyz Sunwoo\nThe Boyz Eric```')
+        elif arg == "oh my girl":
+            embed5.add_field(name='Oh My Girl Commands', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
+        elif arg == "dreamcatcher":
+            embed1.add_field(name='Dreamcatcher Commands', value=f'```\nDreamcatcer Dami\nDreamcatcher JiU\nDreamcatcher Gahyeon\nDreamcatcher Handong\nDreamcatcher Siyeon\nDreamcatcher Sua\nDreamcatcher Yoohyeon```', inline = True)
+        elif arg == "vav":
+            embed1.add_field(name='VAV Commands', value=f'```\nVAV Ace\nVAV Ayno\nVAV Baron\nVAV Jacob\nVAV Lou\nVAV St.Van\nVAV Ziu```')
+        elif arg == "cherry bullet":
+            embed1.add_field(name='Cherry Bullet Commands', value=f'''```\nCherry Bullet Bora\nCherry Bullet Chaerin\nCherry Bullet Haeyoon\nCherry Bullet Jiwon\nCherry Bullet Kokoro\nCherry Bullet Linlin\nCherry Bullet May\nCherry Bullet Mirae\nCherry Bullet Remi\nCherry Bullet Yuju```''')
+        elif arg == "exid":
+            embed1.add_field(name='EXID Commands', value=f'''```\nEXID Hani\nEXID Jeonghwa\nEXID LE\nEXID Solji\nEXID Hyelin```''')
+        elif arg == "sf9":
+            embed1.add_field(name='SF9 Commands', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
+        elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9":
+            embed1.add_field(name='fromis_9 Commands', value=f'''\naliases: `fromis_9`, `fromis`, `fromis9` ```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+        elif arg == "exo":
+            embed1.add_field(name='EXO Commands', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chanyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
+        elif arg == "seventeen" or arg == "svt":
+            embed1.add_field(name='Seventeen Commands', value=f'\naliases: `Seventeen`, `SVT` ```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino```', inline = True)
+        elif arg == "momoland":
+            embed1.add_field(name='Momoland Commands', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy```')
+        elif arg == "ioi" or arg == "i.o.i":
+            embed1.add_field(name='I.O.I Commands', value=f'\naliases: `I.O.I`, `IOI` ```\nI.O.I Nayoung\nI.O.I Chung Ha\nI.O.I Sejeong\nI.O.I Chaeyeon\nI.O.I Kyulkyung\nI.O.I Sohye\nI.O.I Yeonjung\nI.O.I Yoojung\nI.O.I Mina\nI.O.I Doyeon\nI.O.I Somi```')
+        elif arg == "kard" or arg == "k.a.r.d":
+            embed1.add_field(name='K.A.R.D Commands', value=f'\naliases: `K.A.R.D.`, `KARD` ```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin```')
+        elif arg == "everglow":
+            embed1.add_field(name='Everglow Commands', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon```''')
+        elif arg == "(g)i-dle" or arg == "gidle":
+            embed1.add_field(name='(G)I-dle Commands', value=f'''\naliases: `(G)I-dle`, `Gidle` ```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi```''')
+        elif arg == "apink":
+            embed1.add_field(name='Apink Commands', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
+        elif arg == "shinee":
+            embed1.add_field(name='Shinee Commands', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
+        elif arg == "misc":
+            embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ\n ```')
+        elif arg == "golden child":
+            embed1.add_field(name='Golden Child Commands', value=f'```\nGolden Child Y\nGolden Child Jibeom\nGolden Child Jangjun\nGolden Child Tag\nGolden Child Bomin\nGolden Child Daeyeol\nGolden Child Jaehyun\nGolden Child Donghyun\nGolden Child Joochan\nGolden Child Seungmin```')
+        elif arg == "DEFAULT":
+            embed1.add_field(name='Groups', value=f'```{self.groupName}```')
+
+        elif arg == "solo" or "soloists" or "soloist":
+            embed1.add_field(name='Soloist Commands', value=f'\nSoloists have no group! ```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA\nWonho\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna\nDPR Ian```')
+
+
+
+        embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
+        await ctx.send(embed=embed1)
 
     @commands.command()
     async def help(self, ctx):
@@ -38,7 +153,8 @@ class hcommands(commands.Cog):
         embed1.add_field(name='Lovelyz', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong```''')
         embed1.add_field(name='Weki Meki', value=f'''```\nWeki Meki Doyeon\nWeki Meki Elly\nWeki Meki Lua\nWeki Meki Lucy\nWeki Meki Rina\nWeki Meki Sei\nWeki Meki Suyeon\nWeki Meki Yoojung```''')
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
-        
+
+    #. not in group command yet    
     #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
@@ -80,7 +196,7 @@ class hcommands(commands.Cog):
         #// even (5)
         embed3.add_field(name='TXT', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
         embed3.add_field(name='Itzy', value=f'''```\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
-        embed3.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```', inline = True)
+        embed3.add_field(name='Red Velvet', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
         embed3.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
     #//embed4
