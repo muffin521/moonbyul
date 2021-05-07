@@ -2960,9 +2960,8 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about P1Harmony :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_group_gif))
                 await ctx.message.delete()
-        
-
-    @commands.command()
+    
+    @commands.command(aliases = ['svt'])
     async def seventeen(self, ctx, arg):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)

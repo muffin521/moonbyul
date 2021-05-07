@@ -540,7 +540,7 @@ class StrayPings(commands.Cog):
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Bang Chan :heart:')
                     await ctx.send(random.choice(self.bot.bangchan_gif))
                     await ctx.message.delete()
-            elif arg == "lee know" or arg == "minho":
+            elif arg == "lee know" or arg == "minho" or arg == "lino":
                 if ctx.guild.id == luminary:
                     if ctx.channel.id == kbotcom:
                         await ctx.send(f'<@!{ctx.author.id}> is talking about Lee Know :heart:')
