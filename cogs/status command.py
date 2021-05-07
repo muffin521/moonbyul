@@ -57,7 +57,7 @@ class scommand(commands.Cog):
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{aster}>\n<@{k8}>', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Servers**\n' + str(servers), inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{vinny}>\n<@{aster}>')
+        # embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{vinny}>\n<@{aster}>')
         embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
         await ctx.send(embed=embed)
 
