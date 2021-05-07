@@ -129,6 +129,19 @@ class hcommands(commands.Cog):
 
     @commands.command()
     async def help(self, ctx):
+        helpEmbed = discord.Embed(
+            title = 'Commands',
+            description = description,
+            colour = discord.Color.from_rgb(198, 237, 154))
+        helpEmbed.add_field(name='Groups', value=f'\nAliases: `Group`, `G`\n \n`Show available Groups and Idols`')
+        helpEmbed.add_field(name='Invite', value=f'\n`Invite Moonbyul to your Server!`')
+        helpEmbed.add_field(name='Bot', value=f'\n`See information about Moonbyul`')
+        helpEmbed.add_field(name='Ping', value=f'\n`Pong`')
+        helpEmbed.add_field(name='Support Server:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
+        await ctx.send(embed=helpEmbed)        
+
+    @commands.command()
+    async def NOTHELP(self, ctx):
         
         cur_page = 1
         totalpages = 7
