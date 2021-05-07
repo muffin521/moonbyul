@@ -359,6 +359,14 @@ class gamerPings(commands.Cog):
         await ctx.send(f'*{random.choice(self.paul_wrong)}')
 
     @commands.command()
+    async def cindy(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Cindy] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
+        await ctx.send(f'https://cdn.discordapp.com/attachments/803870279020707860/840108792502681640/makesweet.gif')
+
+    @commands.command()
     async def nomi(self, ctx):
         now = datetime.now()
         channel = ctx.bot.get_channel(logs)
