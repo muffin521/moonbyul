@@ -342,7 +342,10 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/blackponk-jenniep-gif-20667143",
             "https://tenor.com/view/blackpink-gif-20604598",
             "https://tenor.com/view/blackpink-gifs-gif-20604626",
-            "https://tenor.com/view/jennie-gif-19082685"]
+            "https://tenor.com/view/jennie-gif-19082685",
+            "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398252",
+            "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398249",
+            "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398250"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
