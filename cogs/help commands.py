@@ -56,12 +56,12 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Brave Girls Commands', value=f'```\nBrave Girls EUnji\nBrave Girls Minyoung\nBrave Girls Yujeong\nBrave Girls Yuna```')
         elif arg == "bts":
             embed1.add_field(name='BTS Commands', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
-        elif arg == "txt":
+        elif arg == "enhypen":
             embed1.add_field(name='Enhypen Commands', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
         elif arg == "april":
             embed1.add_field(name='April Commands', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
-        elif arg == "txt":
-            embed1.add_field(name='TXT Commands', value=f'''```\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
+        elif arg == "txt": #. has a group command
+            embed1.add_field(name='TXT Commands', value=f'''```\nTXT\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
         elif arg == "itzy":
             embed1.add_field(name='Itzy Commands', value=f'''```\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
         elif arg == "red velvet":
