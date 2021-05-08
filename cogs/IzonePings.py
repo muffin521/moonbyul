@@ -928,7 +928,7 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/unlinedphonyleafhopper",
             "https://gfycat.com/aromaticshrillekaltadeta",
             "https://gfycat.com/shockingglumbelugawhale",
-            "https://gfycat.com/arcticaromaticcentipede"
+            "https://gfycat.com/arcticaromaticcentipede",
             "https://gfycat.com/thoughtfulsatisfiedcapybara",
             "https://gfycat.com/insecureadolescentbrocketdeer",
             "https://gfycat.com/helplesswholedragon",
