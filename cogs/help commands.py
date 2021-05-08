@@ -32,89 +32,87 @@ class hcommands(commands.Cog):
             # title = 'Mamamoo Commands',
             # description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
-        if arg == "mamamoo":
+        if arg == "mamamoo": #= has a group command
             embed1.add_field(name='Mamamoo Commands', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```')
-        elif arg == "2ne1":
+        elif arg == "2ne1": #= has a group command
             embed1.add_field(name='2NE1 Commands', value=f'```\n2NE1\n2NE1 CL\n2NE1 Dara\n2NE1 Minzy\n2NE1 Park Bom```')
-        elif arg == "fx" or arg == "f(x)":
+        elif arg == "fx" or arg == "f(x)": #. no group command
             embed1.add_field(name='f(x) Commands', value=f'\naliases: `f(x)`, `fx` ```\nf(x) Victoria\nf(x) Amber\nf(x) Luna\nf(x) Sulli\nf(x) Krystal```')
-        elif arg == "loona" or arg == "looπδ":
+        elif arg == "loona" or arg == "looπδ":#= has a group command
             embed1.add_field(name='LOOΠΔ Commands', value=f'''\naliases: `LOOΠΔ`, `Loona` ```\nLoona Heejin\nLoona Hyunjin\nLoona Haseul\nLoona ViVi\nLoona Yeojin\nLoona Kim Lip\nLoona Jinsoul\nLoona Choerry\nLoona Yves\nLoona Chuu\nLoona Go Won\nLoona Olivia Hye```''')
-        elif arg == "stray kids":
+        elif arg == "stray kids": #. no group command
             embed1.add_field(name='Stray Kids Commands', value=f'''```\nStray Kids Felix\nStray Kids Hyunjin\nStray Kids Bang Chan\nStray Kids Lee Know\nStray Kids Changbin\nStray Kids Han\nStray Kids I.N\nStray Kids Seungmin```''')
-        elif arg == "lovelyz":
+        elif arg == "lovelyz": #. no group command
             embed1.add_field(name='Lovelyz Commands', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong```''')
-        elif arg == "weki meki":
+        elif arg == "weki meki": #= has a group command
             embed1.add_field(name='Weki Meki Commands', value=f'''```\nWeki Meki Doyeon\nWeki Meki Elly\nWeki Meki Lua\nWeki Meki Lucy\nWeki Meki Rina\nWeki Meki Sei\nWeki Meki Suyeon\nWeki Meki Yoojung```''')
-        elif arg == "test":
-            embed1.add_field(name='Mamamoo Commands', value=f'```\nMamamoo\nMamamoo Moonbyul\nMamamoo Hwasa\nMamamoo Solar\nMamamoo Wheein```')
-        elif arg == "aespa":
+        elif arg == "aespa": #. no group command
             embed1.add_field(name='aespa Commands', value=f'''```\naespa Giselle\naespa Winter\naespa NingNing\naespa Karina```''')
-        elif arg == "blackpink":
+        elif arg == "blackpink": #= has a group command
             embed1.add_field(name='Blackpink Commands', value=f'```\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```')
-        elif arg == "brave girls":
+        elif arg == "brave girls": #. no group command
             embed1.add_field(name='Brave Girls Commands', value=f'```\nBrave Girls EUnji\nBrave Girls Minyoung\nBrave Girls Yujeong\nBrave Girls Yuna```')
-        elif arg == "bts":
+        elif arg == "bts": #= has a group command
             embed1.add_field(name='BTS Commands', value=f'''```\nBTS V\nBTS Suga\nBTS J-hope\nBTS Jin\nBTS Jimin\nBTS RM\nBTS Jungkook```''')
-        elif arg == "enhypen":
+        elif arg == "enhypen": #. no group command
             embed1.add_field(name='Enhypen Commands', value=f'''```\nEnhypen Sunoo\nEnhypen Sunghoon\nEnhypen Jake\nEnhypen Jungwon\nEnhypen Heeseung\nEnhypen Jay\nEnhypen Ni-Ki```''')
-        elif arg == "april":
+        elif arg == "april": #. no group command
             embed1.add_field(name='April Commands', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
-        elif arg == "txt": #. has a group command
+        elif arg == "txt": #= has a group command
             embed1.add_field(name='TXT Commands', value=f'''```\nTXT\nTXT Soobin\nTXT Yeonjun\nTXT Beomgyu\nTXT Taehyun\nTXT Huening Kai```''')
-        elif arg == "itzy":
+        elif arg == "itzy": #= has a group command
             embed1.add_field(name='Itzy Commands', value=f'''```\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
-        elif arg == "red velvet":
+        elif arg == "red velvet": #= has a group command
             embed1.add_field(name='Red Velvet Commands', value=f'```\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
-        elif arg == "weeekly":
+        elif arg == "weeekly": #. no group command
             embed1.add_field(name='WEEEKLY Commands', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
-        elif arg == "purple kiss" or arg == "purple k!ss":
-            embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan```''')
-        elif arg == "clc":
+        elif arg == "purple kiss" or arg == "purple k!ss": #. no group command
+            embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan\nPurple Kiss Teaser```''')
+        elif arg == "clc": #. no group command
             embed1.add_field(name='CLC Commands', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
-        elif arg == "wjsn":
+        elif arg == "wjsn": #. no group command
             embed1.add_field(name='WJSN Commands', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
-        elif arg == "gwsn":
+        elif arg == "gwsn": #. no group command
             embed1.add_field(name='GWSN Commands', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
-        elif arg == "p1harmony" or arg == "p1h":
+        elif arg == "p1harmony" or arg == "p1h": #= has a group command
             embed1.add_field(name='P1Harmony Commands', value=f'\naliases: `P1Harmony`, `P1H` ```\nP1Harmony Intak\nP1Harmony Jiung\nP1Harmony Jongseob\nP1Harmony Keeho\nP1Harmony Soul\nP1Harmony Theo```')
-        elif arg == "the boyz":
+        elif arg == "the boyz": #= has a group command
             embed1.add_field(name='The Boyz Commands', value=f'```\nThe Boyz Kevin\nThe Boyz Sangyeon\nThe Boyz Jacob\nThe Boyz Younghoon\nThe Boyz Hyunjae\nThe Boyz Juyeon\nThe Boyz New\nThe Boyz Q\nThe Boyz Haknyeon\nThe Boyz Sunwoo\nThe Boyz Eric```')
-        elif arg == "oh my girl":
+        elif arg == "oh my girl": #. no group command
             embed5.add_field(name='Oh My Girl Commands', value=f'```\nOh My Girl Arin\nOh My Girl Binnie\nOh My Girl Hyojung\nOh My Girl Jiho\nOh My Girl Mimi\nOh My Girl Seunghee\nOh My Girl YooA```')
-        elif arg == "dreamcatcher":
+        elif arg == "dreamcatcher": #. no group command
             embed1.add_field(name='Dreamcatcher Commands', value=f'```\nDreamcatcer Dami\nDreamcatcher JiU\nDreamcatcher Gahyeon\nDreamcatcher Handong\nDreamcatcher Siyeon\nDreamcatcher Sua\nDreamcatcher Yoohyeon```', inline = True)
-        elif arg == "vav":
+        elif arg == "vav": #. no group command
             embed1.add_field(name='VAV Commands', value=f'```\nVAV Ace\nVAV Ayno\nVAV Baron\nVAV Jacob\nVAV Lou\nVAV St.Van\nVAV Ziu```')
-        elif arg == "cherry bullet":
+        elif arg == "cherry bullet": #. no group command
             embed1.add_field(name='Cherry Bullet Commands', value=f'''```\nCherry Bullet Bora\nCherry Bullet Chaerin\nCherry Bullet Haeyoon\nCherry Bullet Jiwon\nCherry Bullet Kokoro\nCherry Bullet Linlin\nCherry Bullet May\nCherry Bullet Mirae\nCherry Bullet Remi\nCherry Bullet Yuju```''')
-        elif arg == "exid":
+        elif arg == "exid": #. no group command
             embed1.add_field(name='EXID Commands', value=f'''```\nEXID Hani\nEXID Jeonghwa\nEXID LE\nEXID Solji\nEXID Hyelin```''')
-        elif arg == "sf9":
+        elif arg == "sf9": #= has a group command
             embed1.add_field(name='SF9 Commands', value=f'```\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
-        elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9":
+        elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9": #. no group command
             embed1.add_field(name='fromis_9 Commands', value=f'''\naliases: `fromis_9`, `fromis`, `fromis9` ```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
-        elif arg == "exo":
+        elif arg == "exo": #. no group command
             embed1.add_field(name='EXO Commands', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chanyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
-        elif arg == "seventeen" or arg == "svt":
+        elif arg == "seventeen" or arg == "svt": #. no group command
             embed1.add_field(name='Seventeen Commands', value=f'\naliases: `Seventeen`, `SVT` ```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino```', inline = True)
-        elif arg == "momoland":
+        elif arg == "momoland": #. no group command
             embed1.add_field(name='Momoland Commands', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy```')
-        elif arg == "ioi" or arg == "i.o.i":
+        elif arg == "ioi" or arg == "i.o.i": #. no group command
             embed1.add_field(name='I.O.I Commands', value=f'\naliases: `I.O.I`, `IOI` ```\nI.O.I Nayoung\nI.O.I Chung Ha\nI.O.I Sejeong\nI.O.I Chaeyeon\nI.O.I Kyulkyung\nI.O.I Sohye\nI.O.I Yeonjung\nI.O.I Yoojung\nI.O.I Mina\nI.O.I Doyeon\nI.O.I Somi```')
-        elif arg == "kard" or arg == "k.a.r.d":
+        elif arg == "kard" or arg == "k.a.r.d": #. no group command
             embed1.add_field(name='K.A.R.D Commands', value=f'\naliases: `K.A.R.D.`, `KARD` ```\nK.A.R.D BM\nK.A.R.D Jiwoo\nK.A.R.D J.Seph\nK.A.R.D Somin```')
-        elif arg == "everglow":
+        elif arg == "everglow": #= has a group command
             embed1.add_field(name='Everglow Commands', value=f'''```\nEverglow Yiren\nEverglow E:U\nEverglow Mia\nEverglow Aisha\nEverglow Onda\nEverglow Sihyeon```''')
-        elif arg == "(g)i-dle" or arg == "gidle":
+        elif arg == "(g)i-dle" or arg == "gidle": #= has a group command
             embed1.add_field(name='(G)I-dle Commands', value=f'''\naliases: `(G)I-dle`, `Gidle` ```\n(G)I-dle Minnie\n(G)I-dle Miyeon\n(G)I-dle Shuhua\n(G)I-dle Soojin\n(G)I-dle Soyeon\n(G)I-dle Yuqi```''')
-        elif arg == "apink":
+        elif arg == "apink": #. no group command
             embed1.add_field(name='Apink Commands', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
-        elif arg == "shinee":
+        elif arg == "shinee": #. no group command
             embed1.add_field(name='Shinee Commands', value=f'```\nShinee Jonghyun\nShinee Key\nShinee Taemin\nShinee Minho\nShinee Onew\nShinee```')
         elif arg == "misc":
             embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ\n ```')
-        elif arg == "golden child":
+        elif arg == "golden child": #. no group command
             embed1.add_field(name='Golden Child Commands', value=f'```\nGolden Child Y\nGolden Child Jibeom\nGolden Child Jangjun\nGolden Child Tag\nGolden Child Bomin\nGolden Child Daeyeol\nGolden Child Jaehyun\nGolden Child Donghyun\nGolden Child Joochan\nGolden Child Seungmin```')
         elif arg == "DEFAULT":
             embed1.add_field(name='Groups', value=f'```{self.groupName}```')
