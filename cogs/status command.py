@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.3.13'
+byulver = '1.4.0'
 
 #//people
 muffin = 488423352206229505 #// other things
@@ -55,9 +55,10 @@ class scommand(commands.Cog):
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_footer(text='')
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
-        embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{aster}>\n<@{k8}>', inline=True)
+        # embed.add_field(name='Developer:', value=f'<@{muffin}>\n \n**Helpers:**\n<@{gareth}>\n<@{aster}>\n<@{k8}>', inline=True)
+        embed.add_field(name='Developer:', value=f'muffin521#9280\n \n**Helpers:**\nGareth#3830\nYoake Mochi#4211\nk8#6666', inline=True)
         embed.add_field(name='Ping:', value=f'{round(self.client.latency * 1000)}ms\n \n**Servers**\n' + str(servers), inline=True)
-        embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{vinny}>\n<@{aster}>')
+        # embed.add_field(name='Top Gifs:', value=f'<@{naomi}>\n<@{nina}>\n<@{k8}>\n<@{himiko}>\n<@{vinny}>\n<@{aster}>')
         embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
         await ctx.send(embed=embed)
 

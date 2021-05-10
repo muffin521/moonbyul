@@ -104,7 +104,8 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/768e4c57ae0082acc9375bc56cfdcc26/fff351731549a12b-a5/s540x810/7a9572ee7eadc368e910c8791bc543956f7e8691.gif",
             "https://64.media.tumblr.com/4f4342985ba6d30698621b8217538ccf/43c2b04539e85597-cf/s540x810/feae37886b8b9b5a440e2dce61a55705859e1d59.gif",
             "https://64.media.tumblr.com/217c825eec0c87074a199531ff00e04d/eb5cb16b5f2cf999-8a/s400x600/c886010018b05aa0fc19d0e1f2e052b06619f19d.gif",
-            "https://64.media.tumblr.com/d80987fb64ee94a3f3719aa5ed3addd5/eb5cb16b5f2cf999-b0/s400x600/c261fc86ef3050b1c70bd6b4435c9693078ed604.gif"]
+            "https://64.media.tumblr.com/d80987fb64ee94a3f3719aa5ed3addd5/eb5cb16b5f2cf999-b0/s400x600/c261fc86ef3050b1c70bd6b4435c9693078ed604.gif",
+            "https://cdn.discordapp.com/attachments/802261119900975144/839534238659248189/image0.gif"]
 
         self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",

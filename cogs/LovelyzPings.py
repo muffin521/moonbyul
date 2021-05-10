@@ -58,7 +58,12 @@ class Lovelyz(commands.Cog):
             "https://tenor.com/view/lovelyz-kei-mijoo-kiss-kpop-gif-16318978",
             "https://tenor.com/view/lovelyz-lovelyz-kei-kei-kim-kei-kim-jiyeon-gif-16341360",
             "https://tenor.com/view/lovelyz-kei-will-kpop-gif-14248063",
-            "https://tenor.com/view/lovelyz-kei-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%BC%80%EC%9D%B4-gif-19103729"]
+            "https://tenor.com/view/lovelyz-kei-kpop-%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88-%EC%BC%80%EC%9D%B4-gif-19103729",
+            "https://gfycat.com/DesertedThatJohndory",
+            "https://gfycat.com/UntriedDearEskimodog",
+            "https://gfycat.com/ScaryBoldElk",
+            "https://gfycat.com/DirectBlackandwhiteDonkey",
+            "https://gfycat.com/DecimalFirstAmazonparrot"]
 
         self.bot.lovelyz_jisoo_gif = ["https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570444",
             "https://tenor.com/view/lovelyz-jisoo-oblivate-gif-18570439",

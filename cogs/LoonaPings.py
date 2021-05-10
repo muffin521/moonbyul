@@ -893,7 +893,7 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/625edc84cf68695e40abbc52bbabae69/8e8668e36748433b-ce/s400x600/c7a4cb93d4780b5cad95ff208d9e7993522b342c.gif",
             "https://tenor.com/view/loona-gif-18979396"]
 
-    @commands.command()
+    @commands.command(aliases = ['looπδ'])
     async def loona(self, ctx, *, arg = "ot12"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)

@@ -359,53 +359,29 @@ class txtPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [TXT {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "soobin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else: 
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soobin :rabbit:')
-                await ctx.send(random.choice(self.bot.txt_soobin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soobin :rabbit:')
+            await ctx.send(random.choice(self.bot.txt_soobin_gif))
+            await ctx.message.delete()
         elif arg == "yeonjun":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yeonjun :fox:')
-                await ctx.send(random.choice(self.bot.txt_yeonjun_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yeonjun :fox:')
+            await ctx.send(random.choice(self.bot.txt_yeonjun_gif))
+            await ctx.message.delete()
         elif arg == "beomgyu":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Beomgyu :bear:')
-                await ctx.send(random.choice(self.bot.txt_beomgyu_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Beomgyu :bear:')
+            await ctx.send(random.choice(self.bot.txt_beomgyu_gif))
+            await ctx.message.delete()
         elif arg == "taehyun":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Taehyun :chipmunk:')
-                await ctx.send(random.choice(self.bot.txt_taehyun_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Taehyun :chipmunk:')
+            await ctx.send(random.choice(self.bot.txt_taehyun_gif))
+            await ctx.message.delete()
         elif arg == "huening kai":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Huening Kai :penguin:')
-                await ctx.send(random.choice(self.bot.txt_hueningkai_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Huening Kai :penguin:')
+            await ctx.send(random.choice(self.bot.txt_hueningkai_gif))
+            await ctx.message.delete()
         elif arg == "ot5":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about TXT :penguin:')
-                await ctx.send(random.choice(self.bot.txt_ot5_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about TXT :heart:')
+            await ctx.send(random.choice(self.bot.txt_ot5_gif))
+            await ctx.message.delete()
 
 def setup(client):
     client.add_cog(txtPings(client))

@@ -1040,7 +1040,7 @@ class GGS(commands.Cog):
             "https://gfycat.com/identicalspecificgemsbuck",
             "https://gfycat.com/failinglivegarpike"]
     #. I.O.I
-        self.bot.ioi_nayeon_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
+        self.bot.ioi_nayoung_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
             "https://tenor.com/view/spaced-out-dazed-nayoung-lim-nayoung-pristin-gif-17689007",
             "https://tenor.com/view/lim-nayoung-good-night-sleep-tight-dream-kiss-gif-13794045",
             "https://tenor.com/view/rupoldh-idol-ioi-nayoung-christmas-gif-10491505",
@@ -1997,7 +1997,6 @@ class GGS(commands.Cog):
             "https://tenor.com/view/kpop-wjsn-cosmic-girls-dawon-gif-18585910",
             "https://i.redd.it/72ghpgdsqzd51.gif",
             "https://media1.tenor.com/images/4306c892190de840d3eae18ff2b5d433/tenor.gif?itemid=14799929",
-            "https://64.media.tumblr.com/4af786d16f47949f1238f96f071717e0/ffd42f7dfc8b28ea-c7/s400x600/146ffd214f2c39614d64c22dc84799e82e4f38a2.gif",
             "https://64.media.tumblr.com/93637880f2692f4c8792ea70981b837a/279e4da4e3b59802-80/s400x600/68bba7735870471ef366f511e453e6d4215321ea.gif",
             "https://64.media.tumblr.com/b060894f3e7b41a24706c102d693e303/tumblr_pfijlux6WS1v69hruo1_540.gif",
             "https://i.pinimg.com/originals/f1/4a/5f/f14a5fec6f96d44c067473f48a9ce2e3.gif",
@@ -2009,6 +2008,7 @@ class GGS(commands.Cog):
             "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14799931",
             "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794023",
             "https://tenor.com/view/im-dayoung-dayoung-wjsn-cosmic-girls-gif-14794085",
+            "https://64.media.tumblr.com/4af786d16f47949f1238f96f071717e0/ffd42f7dfc8b28ea-c7/s400x600/146ffd214f2c39614d64c22dc84799e82e4f38a2.gif",
             "https://i.redd.it/klv38qyrqzd51.gif"]
 
         self.bot.wjsn_eunseo_gif = ["https://tenor.com/view/wjsn-cosmic-girls-eunseo-gif-18627810",
@@ -2357,9 +2357,9 @@ class GGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [I.O.I {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "nayeon":
-            await ctx.send(f'<@{ctx.author.id}> is talking about Nayeon :heart:') 
-            await ctx.send(random.choice(self.bot.ioi_nayeon_gif))
+        if arg == "nayoung":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Nayoung :heart:') 
+            await ctx.send(random.choice(self.bot.ioi_nayoung_gif))
             await ctx.message.delete()
         elif arg == "chungha" or arg == "chung ha":
             await ctx.send(f'<@{ctx.author.id}> is talking about Chung Ha :heart:') 
