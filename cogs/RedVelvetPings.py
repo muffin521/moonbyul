@@ -9,6 +9,11 @@ luminary = 758468592957521972
 #.luminary bot-commands
 kbotcom = 764610881513324574
 
+def logsHelper(group = str, arg = str, username = str, userid = int, guildname = str, guildid = int, channel = int):
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    return (f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
+
 class RedVelvetPings(commands.Cog):
 
     def __init__(self, bot):
@@ -761,18 +766,16 @@ class RedVelvetPings(commands.Cog):
     #     await ctx.send(random.choice(self.bot.irene_gif))
     #     await ctx.message.delete()
 
-    def logsHelper(group = str, arg = str, username = str, userid = int, guildname = str, guildid = int, channel = int):
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
-        print (f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
+    
 
     @commands.command()
     async def red(self, ctx, vel="velvet", *, arg = "ot5"):
-        # logsHelper("Red Velvet", {arg}, {ctx.author.name}, {ctx.author.id}, {ctx.guild.name}, {ctx.guild.id}, ctx.bot.get_channel(self.bot.logs))
-        now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
-        current_time = now.strftime("%H:%M:%S")
-        await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        await channel.send(logsHelper("Red Velvet", {arg}, {ctx.author.name}, {ctx.author.id}, {ctx.guild.name}, {ctx.guild.id}, ctx.bot.get_channel(self.bot.logs)))
+        # now = datetime.now()
+        # channel = ctx.bot.get_channel(self.bot.logs)
+        # current_time = now.strftime("%H:%M:%S")
+        # await channel.send(f"`{current_time} | USED COMMAND [Red Velvet {arg}] | USER: {ctx.author.name}] [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if vel == "velvet":
             if arg == "irene":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Irene :watermelon:')
