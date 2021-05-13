@@ -756,7 +756,15 @@ class RedVelvetPings(commands.Cog):
             "https://64.media.tumblr.com/700477914dc43e27539277191a9ebcb4/c52377a6bcb2b08e-01/s540x810/548ce6fbb3004ea3ad94a18da1e56d760771a042.gif",
             "https://data.whicdn.com/images/315086075/original.gif?t=1530661540"]
 
-    
+    # def commandHelper(self, ctx, member , authorId, emoji, gifList):
+    #     await ctx.send(f'<@!{authorId}> is talking about {member} :watermelon:')
+    #     await ctx.send(random.choice(self.bot.irene_gif))
+    #     await ctx.message.delete()
+
+    def logsHelper(group = str, arg = str, username = str, userid = int, guildname = str, guildid = int, channel = int):
+        now = datetime.now()
+        current_time = now.strftime("%H:%M:%S")
+        print (f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
 
     @commands.command()
     async def red(self, ctx, vel="velvet", *, arg = "ot5"):
