@@ -442,7 +442,7 @@ class RedVelvetPings(commands.Cog):
             "https://45.media.tumblr.com/8a9871bde0bdc1ffd93d8b76cb2d9018/tumblr_o45j2tea4f1ugf371o2_400.gif",
             "https://49.media.tumblr.com/c351c6fb4b2651e63d6333ca73af8474/tumblr_o45b0enAf61v0e4aao2_500.gif",
             "https://68.media.tumblr.com/3dca14c0ea9560177c319425e53d5982/tumblr_oly14k2mHI1vz7a02o7_250.gif",
-            "https://s-media-cache-ak0.pinimg.com/originals/c7/69/29/c76929bb1e211c7c1101d436019872ff.jpg",
+            "https://s-media-cache-ak0.pinimg.com/originals/c7/69/29/c76929bb1e211c7c1101d436019872ff.gif",
             "https://66.media.tumblr.com/ae0c20ed0a2708c59c19aff080fe3366/tumblr_nvqimb7wLT1u2a5o6o1_500.gif",
             "https://68.media.tumblr.com/d7ebf4986b5d534b1f8e7b45f2d206e6/tumblr_oq81vtTvWh1uhjfaxo2_540.gif",
             "https://68.media.tumblr.com/b6f02628f6f74c7f6072d23351355c01/tumblr_oq81vtTvWh1uhjfaxo1_540.gif",
