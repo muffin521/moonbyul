@@ -481,7 +481,21 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188853916270622/818521646037598289/Tumblr_l_1093682006427114.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/818521646573813760/Tumblr_l_1093680967810291.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/818521647526445096/Tumblr_l_1093675650178731.gif",
-            "https://cdn.discordapp.com/attachments/804188853916270622/818521648323493898/Tumblr_l_1093674172835346.gif"]
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521648323493898/Tumblr_l_1093674172835346.gif",
+            "https://64.media.tumblr.com/973a45d98b608fc8f9a5bde9142e345a/be182a3ce688bed3-6f/s400x600/238e75da07e0280390d23a3168fea9535f30323d.gif",
+            "https://64.media.tumblr.com/63db20fbf37d5d54256aee718792955a/be182a3ce688bed3-e3/s400x600/5a8a3227a10ec0eb80d4cba66b8a1d24eba95b35.gif",
+            "https://64.media.tumblr.com/aa1833b561959450a4765c2a5cf5a6a5/be182a3ce688bed3-57/s400x600/ffcec9120b95a6b925d2ee89a7b6618dfa46b0c8.gif",
+            "https://64.media.tumblr.com/2acfaab83e8637a9fd44824d50968d75/be182a3ce688bed3-2e/s400x600/3a18e5269bc460301b83708d1df7ef763b9a2e7f.gif",
+            "https://64.media.tumblr.com/a7f11de76309a0aed237dfad98121c6c/be182a3ce688bed3-8a/s400x600/7cc54866defe21c18913d26c75352b235d9aef86.gif",
+            "https://64.media.tumblr.com/27a7347d1e1cf3fe88988ee2b39f6a21/be182a3ce688bed3-bf/s400x600/0021d4c774587f233ab5c0b75ebe1b3429e2cfe5.gif",
+            "https://64.media.tumblr.com/9a0c93ab6665847bf03b9f7ba2755bd8/be182a3ce688bed3-4b/s400x600/8c9f6d97ae78d748afc988c3642681968d14506d.gif",
+            "https://64.media.tumblr.com/0f104e2e7c7ad307320c2343f1793571/be182a3ce688bed3-95/s400x600/b9cdf110e7807a96ff56051ec1923600bab0d85b.gif",
+            "https://64.media.tumblr.com/c990f0068206f216a2d6ce0519d21ed5/534cd3b35b85d537-dc/s540x810/cfe65fff55c03b2d6b684954e81ef7d94cc26fdc.gif",
+            "https://64.media.tumblr.com/dc051214a688bcedbd35cadcd82a5c5d/534cd3b35b85d537-22/s540x810/6f59d7cbdd218407f86f9648838ea8a76a6e60dc.gif",
+            "https://64.media.tumblr.com/1d11d634440c1ef34f4255c9652cbe38/534cd3b35b85d537-41/s540x810/15e7e19e5a1992bd72f2f0e861a163584f400eda.gif",
+            "https://64.media.tumblr.com/1648b40066a3263b32364edaa3cda8cc/534cd3b35b85d537-15/s540x810/3b78975fff11207e57f579bb6506c9d8dab3a9c0.gif",
+            "https://64.media.tumblr.com/338bfb7dcd7aa4318e294495bd2ed4f1/534cd3b35b85d537-e7/s540x810/34f346b51d06de28927a96a83d8fe0f1a93ec052.gif",
+            "https://64.media.tumblr.com/3d57e6eee0cd1246df0f7220c41a9814/534cd3b35b85d537-94/s540x810/c4204afce7c0aa077913ab181e4a7ad783d4a8ec.gif"]
 
         self.bot.exo_chaenyeol_gif = ["https://tenor.com/view/chanyeol-kiss-kpop-exo-gif-15449030",
             "https://tenor.com/view/chanyeol-exo-gif-15408144",
