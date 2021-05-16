@@ -1243,7 +1243,12 @@ class GGS(commands.Cog):
             "https://gfycat.com/clumsyvaluableaustralianshelduck",
             "https://gfycat.com/elementarycreativechimpanzee",
             "https://gfycat.com/identicalspecificgemsbuck",
-            "https://gfycat.com/failinglivegarpike"]
+            "https://gfycat.com/failinglivegarpike",
+            "https://64.media.tumblr.com/8a6a38635e2198db6e888487b8e8b265/12ec85a793dd0782-c0/s540x810/a6fcda6038792816fae3685effa8ee3a573be2df.gif",
+            "https://64.media.tumblr.com/325f90ca24b9a7d5b385c06dfef4a2ac/12ec85a793dd0782-28/s540x810/8761ead748eb52926221b87e98f4288d321a4323.gif",
+            "https://64.media.tumblr.com/172b879e4c51b34c19e5abf6c706b76a/12ec85a793dd0782-dd/s540x810/e52e2e12cab37106f98eb50556a0feea2c54648c.gif",
+            "https://64.media.tumblr.com/cb73364b253b4cd5ee8b4d25c14215e8/12ec85a793dd0782-e1/s540x810/51cb56861bf81449a66362099739208865cd7ef6.gif",
+            "https://64.media.tumblr.com/a0777d7c335961709eb69971aa4dfcae/12ec85a793dd0782-ff/s540x810/972e4ef77f1961a0822bcf2b340f2394c17ed78f.gif"]
     #. I.O.I
         self.bot.ioi_nayoung_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
             "https://tenor.com/view/spaced-out-dazed-nayoung-lim-nayoung-pristin-gif-17689007",
