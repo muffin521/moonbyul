@@ -2500,7 +2500,8 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/9315aaa8f16ce51a257c824037705851/3586c58cc04a19d1-a5/s400x600/135af7c85588ce67ee60e4862eb68ad718f67e98.gif",
             "https://64.media.tumblr.com/fcb1de7b9de44edfea3d1ef1a48cc315/3586c58cc04a19d1-06/s400x600/f765fd03dbfebfb24966b3dfb13a49d65e694e2f.gif",
             "https://64.media.tumblr.com/ee821898a3367b823bca1ed40f2190c8/tumblr_poa1qrZWac1va7u78o3_r1_400.gif",
-            "https://cdn.discordapp.com/attachments/805178992180199434/813197485077692456/image0.gif"]
+            "https://cdn.discordapp.com/attachments/805178992180199434/813197485077692456/image0.gif",
+            "https://tenor.com/view/sf9-rowoon-kim-seokwoo-singer-cute-gif-17138180"]
 
         self.bot.sf9_taeyang_gif = ["https://cdn.discordapp.com/attachments/805179023558049852/805183900115533834/image0.gif",
             "https://cdn.discordapp.com/attachments/805179023558049852/805183900594208781/image1.gif",
@@ -2522,7 +2523,9 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805179023558049852/805184557057703976/image2.gif",
             "https://tenor.com/view/yoo-taeyang-yangie-sf9-gif-18417580",
             "https://tenor.com/view/taeyang-sf9-sexy-dance-kpop-gif-12405955",
-            "https://tenor.com/view/yoo-taeyang-sf9-hot-cute-dance-gif-14364411"]
+            "https://tenor.com/view/yoo-taeyang-sf9-hot-cute-dance-gif-14364411",
+            "https://tenor.com/view/yoo-taeyang-sf9-cute-smile-gif-14541885",
+            "https://tenor.com/view/yoo-taeyang-taeyang-sf9-kpop-kpop-meme-gif-20846375"]
 
         self.bot.sf9_youngbin_gif = ["https://cdn.discordapp.com/attachments/805179056093003816/805184741627133982/image0.gif",
             "https://cdn.discordapp.com/attachments/805179056093003816/805184742206734336/image1.gif",
