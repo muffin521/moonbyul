@@ -102,7 +102,11 @@ class IdlePings(commands.Cog):
             "https://thumbs.gfycat.com/KeyLameDotterel-size_restricted.gif",
             "https://64.media.tumblr.com/2ed9d0451f6e1f2dfa4916484472ed31/tumblr_pwjl056o7u1vpomzuo7_540.gif",
             "https://tenor.com/view/miyeon-gidle-gidle-miyeon-idle-miyeon-%eb%af%b8%ec%97%b0-gif-20677187",
-            "https://tenor.com/view/gidle-miyeon-gidle-hwaa-gidle-kpop-gif-19940042"]
+            "https://tenor.com/view/gidle-miyeon-gidle-hwaa-gidle-kpop-gif-19940042",
+            "https://64.media.tumblr.com/1043e2bde17eb7e9ab76d90f14c2e86d/ad6c5220d39ec301-7a/s500x750/5b8eff1f523c908bf000d393a9fe35d391f28f77.gif",
+            "https://64.media.tumblr.com/b631304e26166ef37ee57f0b1ad653ca/ad6c5220d39ec301-37/s500x750/aab4f32d0f3e830f4c3c5f077c360310bc0e9a00.gif",
+            "https://64.media.tumblr.com/53968b332ae52b2cb317d743d9f4c79f/ad6c5220d39ec301-7d/s500x750/6aa7fad27b52bfe5bbb647c6d12783e1a5bb9505.gif",
+            "https://64.media.tumblr.com/36d80589f36c6d552175c0264d0c765f/ad6c5220d39ec301-e3/s500x750/385dd7d13d2554052fed1b2efb172bfd98631bad.gif"]
 
         self.bot.shuhua_gif = ["https://tenor.com/view/pop-taiwanese-kpop-yehshuhua-selfdefense-gif-18118582",
             "https://tenor.com/view/gidle-shuhua-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-%ec%8a%88%ed%99%94-gif-16949157",
@@ -230,7 +234,16 @@ class IdlePings(commands.Cog):
             "https://64.media.tumblr.com/0e405a7000c31c58413239ca541a41bf/b330494631435200-5f/s400x600/a966253d3655e893d696a7a72f3ef0da8e9210a1.gif",
             "https://64.media.tumblr.com/6d60293d679a28eb126e9ba52a875348/b330494631435200-61/s400x600/e7c87607274e28daf5f8da2727a26a727ceaaf7e.gif",
             "https://tenor.com/view/gidle-hwaa-gidle-miyeon-gidle-kpop-gif-19939998",
-            "https://i.pinimg.com/originals/3e/a4/62/3ea462daa1c481be467966d637a73035.gif"]
+            "https://i.pinimg.com/originals/3e/a4/62/3ea462daa1c481be467966d637a73035.gif",
+            "https://64.media.tumblr.com/abb780c5f1245a7d5572e01fc1956284/308077778f5e29c5-a4/s250x400/8dc91f8ee4e0cd7cbf998b8ffe9116e92c1d6baa.gif",
+            "https://64.media.tumblr.com/dd8362fd57ee7d28b181f5ffa4648737/308077778f5e29c5-08/s250x400/701556cd53e5ab79531cc24993250a5c30c0c7ac.gif",
+            "https://64.media.tumblr.com/d33d2e84af508fc650d63c06fe9e08c6/308077778f5e29c5-be/s250x400/b12e83414d6e60779c131eae14d2b35cfd87782b.gif",
+            "https://64.media.tumblr.com/3c2816704ba2b574933d262bdcc0a1ea/308077778f5e29c5-9b/s250x400/2f13b805b74f4485d00d8cf085974ceca729524d.gif",
+            "https://64.media.tumblr.com/95df8a6d29f41b4725b9a14fa4a0e087/887a0f8e85311748-24/s400x600/29725ed14b972e062edb9228311c80f5030f6cd9.gif",
+            "https://64.media.tumblr.com/1a44bed8e87fb0fe68d7ede8c750c118/887a0f8e85311748-9d/s400x600/b0ee9b2d8d759414583004808135f3fc8478c9cb.gif",
+            "https://64.media.tumblr.com/647f9f0677b14dbd9b8d13c082b92fe7/887a0f8e85311748-24/s400x600/aede67598a2716441265047cc118baeed07e5e28.gif",
+            "https://64.media.tumblr.com/37bc8b315b161e7695aa0c9679e16327/887a0f8e85311748-4b/s400x600/fd1da4b089726b003119be52545a85bacc4b5f33.gif",
+            "https://64.media.tumblr.com/a6683ff37367648f9acc072c6d773db0/887a0f8e85311748-ea/s400x600/fa2445adee9ef2a454414367e6b33bbe5a9524c7.gif"]
 
         self.bot.soyeon_gif = ["https://tenor.com/view/soyeon-jeon-gif-19050110",
             "https://tenor.com/view/soyeon-jeon-soyeon-gidle-idle-soyeon-gidle-gif-18962551",
@@ -289,7 +302,12 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/gidle-soyeon-soyeon-gidle-soyeon-idle-%ec%86%8c%ec%97%b0-gif-20407218",
             "https://tenor.com/view/gidle-soyeon-gidle-soyeon-jeon-soyeon-%ec%a0%84%ec%86%8c%ec%97%b0-gif-20279296",
             "https://tenor.com/view/gidle-soyeon-gif-19733990",
-            "https://tenor.com/view/gidle-soyeon-gif-19705068"]
+            "https://tenor.com/view/gidle-soyeon-gif-19705068",
+            "https://64.media.tumblr.com/8a445883acf5ed9398d074b7647f63c9/7984be3a2eb87cbe-ef/s400x600/2d647c2bd636c16a7fc4918ad5944c5a125ea09c.gif",
+            "https://64.media.tumblr.com/bbcf683669caadf9296b9ae28e35f8a5/7984be3a2eb87cbe-54/s400x600/49f7ba39adc849785d519d042d4189d66b63aed4.gif",
+            "https://64.media.tumblr.com/bbcf683669caadf9296b9ae28e35f8a5/7984be3a2eb87cbe-54/s400x600/49f7ba39adc849785d519d042d4189d66b63aed4.gif",
+            "https://64.media.tumblr.com/6f1ad8680ed885d342b1684eb5afdefa/7984be3a2eb87cbe-58/s400x600/04025302919f07afa99c91e4279abb0e5f5cf8e2.gif",
+            "https://64.media.tumblr.com/177876a55b2a0c1f430f05cf534e18f9/7984be3a2eb87cbe-20/s400x600/05251294ae3e8fcee0ea4cc6a2a5b232ca101205.gif"]
 
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
@@ -323,7 +341,9 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/gidle-yuqi-song-yuqi-kpop-cute-gif-15859570",
             "https://tenor.com/view/yuqi-miyeon-gidle-gif-18369762",
             "https://tenor.com/view/yuqi-gidle-yuqi-gidle-%ec%9a%b0%ea%b8%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20291475",
-            "https://tenor.com/view/yuqi-gidle-gif-20344769"]
+            "https://tenor.com/view/yuqi-gidle-gif-20344769",
+            "https://64.media.tumblr.com/0e923aca83c8476c596c7ce33d23a4d6/af25c9d46d60925d-e1/s400x600/cc9973d05a01f4f9e3ded0d4b1221d8ac37e5b7e.gif",
+            "https://64.media.tumblr.com/75517de17b0cc6154a3afd119d4d18c5/af25c9d46d60925d-2a/s400x600/9e819b5086e0dc8837727ff7c4b117c438404aca.gif"]
 
         self.bot.gidle_gif = ["https://media0.giphy.com/media/RKMdehrdDT8QvGmzra/giphy.gif",
             "https://66.media.tumblr.com/a34816584fefad1c1b4e01fdd0848b02/46ede9e5d46388a5-7e/s500x750/f5b9c6b0339717a5f2e4551c37eefab37714b64c.gif",
