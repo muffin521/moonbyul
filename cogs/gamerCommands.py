@@ -250,7 +250,11 @@ class gamerPings(commands.Cog):
             "https://gfycat.com/obedientidealbluebottle",
             "https://gfycat.com/exaltedreadyinexpectatumpleco",
             "https://gfycat.com/flawedhatefulgemsbuck"
-            "https://gfycat.com/optimalplasticdiplodocus"]
+            "https://gfycat.com/optimalplasticdiplodocus",
+            "https://64.media.tumblr.com/aa305c3db0f15580ddd9784c1fb2bdf6/37cb228260570230-6b/s400x600/c9cc914d841eaacd4f711727b952608730268399.gif",
+            "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989536",
+            "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989537",
+            "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989540"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

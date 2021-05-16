@@ -70,8 +70,8 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan\nPurple Kiss Teaser```''')
         elif arg == "clc": #. no group command
             embed1.add_field(name='CLC Commands', value=f'''```\nCLC Yeeun\nCLC Sorn\nCLC Elkie\nCLC Eunbin\nCLC Yujin\nCLC Seunghee\nCLC Seungyeon```''')
-        elif arg == "wjsn": #. no group command
-            embed1.add_field(name='WJSN Commands', value=f'```\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
+        elif arg == "wjsn": #= has a group command
+            embed1.add_field(name='WJSN Commands', value=f'```\nWJSN\nWJSN Bona\nWJSN Cheng Xiao\nWJSN Dawon\nWJSN Dayoung\nWJSN Eunseo\nWJSN Exy\nWJSN Yeoreum\nWJSN Luda\nWJSN Mei Qi\nWJSN Seola\nWJSN Soobin\nWJSN Yeonjung\nWJSN Xuan Yi```')
         elif arg == "gwsn": #. no group command
             embed1.add_field(name='GWSN Commands', value=f'```\nGWSN Seokyoung\nGWSN Seoryoung\nGWSN Soso\nGWSN Anne\nGWSN Minju\nGWSN Lena\nGWSN Miya```')
         elif arg == "p1harmony" or arg == "p1h": #= has a group command
