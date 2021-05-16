@@ -76,7 +76,11 @@ class NCT(commands.Cog):
             "https://gfycat.com/JubilantWhiteBagworm",
             "https://gfycat.com/FaithfulGleefulAmmonite",
             "https://gfycat.com/GiftedMisguidedFireant",
-            "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif"]
+            "https://64.media.tumblr.com/4c8ccb5971f27489d6612f009f14085f/302e44f76695bfda-07/s540x810/888e5bc69d9e083c6abde2229d9b998f5b3a1db9.gif",
+            "https://64.media.tumblr.com/4b511af6dd2230efc43ceaa590f37610/c87a3204abc8b407-bb/s540x810/fba8e20beb86457c2d719317b0ad577ace2db087.gif",
+            "https://64.media.tumblr.com/53ca22153eb6db61860f227582c4c39b/c87a3204abc8b407-23/s540x810/2f43d1287beb9a1a69d140d2b4780cec884d9441.gif",
+            "https://64.media.tumblr.com/a6d84da509ee2670b83ef2fd81d9d080/c87a3204abc8b407-a1/s540x810/e590c39a4be0adea5dbd8ff16b16baa9569df3c8.gif",
+            "https://64.media.tumblr.com/0bc18a01b14ddde58a361dc81fbcac17/c87a3204abc8b407-a0/s540x810/43f9ec110daad37cc6885d78ac6d8cccfdfa2d20.gif"]
 
         self.bot.nct_winwin_gif = ["https://tenor.com/view/winwin-nct-127-way-v-gif-13776784",
             "https://tenor.com/view/dong-siicheng-winwin-nct-wayv-cute-gif-14464703",
@@ -112,7 +116,16 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/591b99ef8c3a46477a21e130509cd60d/d127c60627a34218-fb/s540x810/cfc9262662a8e271af508722cddf67918cb0d92e.gif",
             "https://64.media.tumblr.com/c6f7631c7f5c978b474937455beca55e/d127c60627a34218-c6/s540x810/5ec85880e5b1daadfc79876c47e3c15130e0ffa8.gif",
             "https://64.media.tumblr.com/dd192138e30a3a84bd3d913fe9c30ce0/140e02c93672e4df-92/s400x600/a01eb9af02ca6f3e7dbc86983cd36425d39ab726.gif",
-            "https://64.media.tumblr.com/0f7b1950d46e76ec5c4d74e363430b36/ea0352b5ba837d08-d0/s400x600/a0e49471478f26bcda2215680c8600414f67e360.gif"]
+            "https://64.media.tumblr.com/0f7b1950d46e76ec5c4d74e363430b36/ea0352b5ba837d08-d0/s400x600/a0e49471478f26bcda2215680c8600414f67e360.gif",
+            "https://64.media.tumblr.com/f2ce4fcfdf235349e4df06118a45cd27/091f5aec6fd81576-72/s540x810/69bd00fe8e97ae923af47939bbf5d96b52cef724.gif",
+            "https://64.media.tumblr.com/4f32c27d66d43f117222bbfaa6de89f2/091f5aec6fd81576-45/s540x810/4b60e00c76d9da4c4d1bafeff785d7c1f6cf881e.gif",
+            "https://64.media.tumblr.com/2fd2d1baebbc2bb7b6575273d1100d76/091f5aec6fd81576-08/s540x810/73e1cb108bd098e6d04d35753cb6b368524be71e.gif",
+            "https://64.media.tumblr.com/202497eff3306a7d52332a347ba716ae/968a10c5229ff6b9-64/s400x600/72eed8ec9b367f7dd85c40661b1e1c87c72c4766.gif",
+            "https://64.media.tumblr.com/f2410472fc668cf4c458aecf80c22524/968a10c5229ff6b9-aa/s400x600/33880f53590628f82eceaf6496c4c936f43424cf.gif",
+            "https://64.media.tumblr.com/19dae48a70a3e8c1b52baa83e3bf468f/968a10c5229ff6b9-28/s400x600/2ca66bd685b478083e09ecc238757e8a2599b01d.gif",
+            "https://64.media.tumblr.com/1617ecd457cf697fc04e4ac6a4952370/968a10c5229ff6b9-df/s400x600/047d3b84e9ef2c4f2ab3f6200d2cca4f7eef3154.gif",
+            "https://64.media.tumblr.com/12d8e6db3df86af1d62f7167d6612609/d0697493ab1302b4-4e/s540x810/941236df8b14575e5ca2cd2324ac14318a02938e.gif",
+            "https://64.media.tumblr.com/ee425902f725ee260c2294be6f982085/d0697493ab1302b4-b7/s540x810/d9a6e35dae4cb0e412d95b6445eaf4d895f8577b.gif"]
 
         self.bot.nct_jaemin_gif = ["https://cdn.discordapp.com/attachments/772975408912007180/790097423921315840/image0.gif",
             "https://cdn.discordapp.com/attachments/772975408912007180/790097683116326912/image0.gif",
@@ -145,7 +158,14 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-tUBSmzCGLGfAYynRTu",
             "https://64.media.tumblr.com/39d9536c2228b944dfd596ccbbd8e16f/1b91aaec34336370-03/s400x600/0c301160b8475b80adcd085b7966c1bbc8695216.gif",
             "https://tenor.com/view/jaemin-nct-najaemin-gif-20812989",
-            "https://tenor.com/view/jaemin-nct-najaemin-gif-20812988"]
+            "https://tenor.com/view/jaemin-nct-najaemin-gif-20812988",
+            "https://64.media.tumblr.com/00327246eeb9db16b81be9af782354f1/c38b9d94e1ecb25e-7f/s540x810/4051c1034773b76361ca00b280d327ea1197422a.gif",
+            "https://64.media.tumblr.com/33868c027289c83fc78b0ab1679f726e/c38b9d94e1ecb25e-a2/s540x810/a41ac560010ef2268ade8d2b5101d8729cec922f.gif",
+            "https://64.media.tumblr.com/1f361073bab909e8d75dd4a67fcc5a67/c38b9d94e1ecb25e-b1/s540x810/d1722e1f3af53952f342280bc66bbe8c62446017.gif",
+            "https://64.media.tumblr.com/8a21455dc1b78396a889faceea0c6af1/c38b9d94e1ecb25e-bb/s540x810/3634f0f253f61f2de9d36994d0112f9e5b9a8afa.gif",
+            "https://64.media.tumblr.com/15e00101638efbed2f4e42532a1c6efc/c38b9d94e1ecb25e-d8/s540x810/6ecdda8d8c2aa27d6794c0c147d36390e725be1e.gif",
+            "https://64.media.tumblr.com/35f0513ff54387ac64b31cc38c3fb269/82dccaaf6aec16e9-68/s540x810/86fcb378319d05db80e86ba04bed3368b6a1fcbd.gif",
+            "https://64.media.tumblr.com/ec865e73bca9d65a3001aceb4e0cc937/82dccaaf6aec16e9-5b/s540x810/d472a7311a6fa9be3f162a0d10bb8ecf3f618bd1.gif"]
 
         self.bot.nct_jaehyun_gif = ["https://tenor.com/view/jaehyun-kiss-nct-127-kpop-gif-15454039",
             "https://tenor.com/view/nct127-nct-kick-it-jeong-jaehyun-nct-jaehyun-gif-18047865",
@@ -277,7 +297,10 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-h4kpeInzW26mnl7q9K",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-QZ2WEYReF4GQ32ak2u",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-ZdrNfc8OxKmjojoBDq",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-dM7e06nO13X0PW9vS3"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-nct127-dM7e06nO13X0PW9vS3",
+            "https://64.media.tumblr.com/69e781c266811d41f10226fc92d8fcfa/c10476fa9c37c072-87/s540x810/f1464642f299970ad59045fcf86b53ab4a195b02.gif",
+            "https://64.media.tumblr.com/1b3f43d27994336349b38959344b6a0a/c10476fa9c37c072-7a/s540x810/57bbe5cad4a15e9c80f63cb0911972b0a42eb3e9.gif",
+            "https://64.media.tumblr.com/c2c9515837cd73242c3d2c680044408f/c10476fa9c37c072-d3/s540x810/ce6487485d086f08da4e0fc6cb7a914f92ff4c65.gif"]
 
         self.bot.nct_kun_gif = ["https://tenor.com/view/kun-wayv-nct-gif-19030306",
             "https://tenor.com/view/kun-kun-from-home-nct-from-home-mv-from-home-gif-18886755",
@@ -298,7 +321,12 @@ class NCT(commands.Cog):
             "https://cdn.discordapp.com/attachments/790418977092010064/819224433125359616/Tumblr_l_1157673630093015.gif",
             "https://cdn.discordapp.com/attachments/790418977092010064/819224433909956608/Tumblr_l_1157674652117702.gif",
             "https://gfycat.com/whirlwinddangerousbird-wayv-ehind-weishenv-takeoff-music-wu-yi-er-fei",
-            "https://64.media.tumblr.com/3d9e3e214707fe9461aeeefabd0b805c/ea0352b5ba837d08-47/s400x600/af1dda2cb9bca4c512fb59e9416ec8841e705610.gif"]
+            "https://64.media.tumblr.com/3d9e3e214707fe9461aeeefabd0b805c/ea0352b5ba837d08-47/s400x600/af1dda2cb9bca4c512fb59e9416ec8841e705610.gif",
+            "https://64.media.tumblr.com/e5271a94e3d1b471a840ae443f607863/3b0dd9c5f30a8e8d-1f/s400x600/908ddcc6c31a4218e800ad88f8c9a725eb497a4a.gif",
+            "https://64.media.tumblr.com/90b2c3b8bf485629816eab3c5c753484/3b0dd9c5f30a8e8d-9f/s400x600/793d43e544db4bf3d2cb182545f2c3d11d160545.gif",
+            "https://64.media.tumblr.com/0f753e65a8f15b9629505a250b244f36/3b0dd9c5f30a8e8d-c9/s400x600/4a1a92becd3cc11f4cf6b41b6de3514e78aceac9.gif",
+            "https://64.media.tumblr.com/ab38ce6422a9d204f6347c2a73d235b6/3b0dd9c5f30a8e8d-0d/s400x600/f5918e3d6a2a94c1c40679c56be2a909741930df.gif",
+            "https://64.media.tumblr.com/a868c72de807f13b6d9996cb192b618f/3b0dd9c5f30a8e8d-31/s400x600/89f06092353af2ff730fce60f6446a4e133acef3.gif"]
 
         self.bot.nct_ten_gif = ["https://tenor.com/view/ten-nct-singing-nct-kpop-gif-14732794",
             "https://tenor.com/view/ten-nct-ten-nct-mark-lee-wayv-gif-14997188",
@@ -334,7 +362,46 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/7cefd266fc15ff37507c0ac6527a89d7/64462799c5d24d24-c4/s250x400/ef8414d696b9a74398be18f9c01018ab6c952ac4.gif",
             "https://64.media.tumblr.com/d7fa9d4840a87ec36cecbfceed1cafa1/64462799c5d24d24-97/s250x400/3692bb543ddf8bc55948d2908b3aedc8ce11f3e6.gif",
             "https://64.media.tumblr.com/50cebe13b7dcee0c2b0b0074735e5e0c/64462799c5d24d24-2f/s250x400/2e825570947479abe98c4076e928a1422327d468.gif",
-            "https://64.media.tumblr.com/cf959c5f2b2bb00c7f54b2569bee2956/64462799c5d24d24-82/s250x400/6ff638377149f911846f825d4cfa49c388e0ad9e.gif"]
+            "https://64.media.tumblr.com/cf959c5f2b2bb00c7f54b2569bee2956/64462799c5d24d24-82/s250x400/6ff638377149f911846f825d4cfa49c388e0ad9e.gif",
+            "https://64.media.tumblr.com/a7b50bf3657908679bbe45a28f864126/a1083425252bb015-49/s540x810/43c87f487917b2991e9961e6202d98bb045923c0.gif",
+            "https://64.media.tumblr.com/a77072471739dcb1d8605c448cd7f940/a1083425252bb015-01/s540x810/fb136bff99dab53711608344f38071642d9cf91f.gif",
+            "https://64.media.tumblr.com/9d934089c01fc776e454530a2a9091a5/a1083425252bb015-20/s540x810/2d91a8ad1d3740544d7f10d1212d46d99f335907.gif",
+            "https://64.media.tumblr.com/07570d854961073a1072b361e9911f8a/a1083425252bb015-fb/s540x810/2a51e2bab8dbc5fd29cbe5a9eaaedede6b7f63bc.gif",
+            "https://64.media.tumblr.com/dbf352bb69cbd7571f244a572f759505/754fcd2cbb801c0f-1a/s400x600/bea00a803c10faa391b5b7604bf4b469b370c182.gif",
+            "https://64.media.tumblr.com/9788a412aa79036ec8e71a6348eb7a17/754fcd2cbb801c0f-15/s400x600/af73d318a9a4245cba97030a233bd3620df13a31.gif",
+            "https://64.media.tumblr.com/601cfe06dbec0fa32438c30fc254b7df/754fcd2cbb801c0f-81/s400x600/39dad3ee625b8e6e24bd7f7e0b84b1ce75d82221.gif",
+            "https://64.media.tumblr.com/5759d185a7c103acf21a0089d70b37ee/754fcd2cbb801c0f-f0/s400x600/0cf1341c2b02bdd60db48ec16a50f96790c7858a.gif",
+            "https://64.media.tumblr.com/be5f81d01f8c2202584c5d3d97d1495a/9cfb955b4f3b661d-cf/s540x810/fe558b43d2347222fe82bb6ccc45c7cc272688c6.gif",
+            "https://64.media.tumblr.com/5ea70312bda7eba5bca194c91669bfd3/9cfb955b4f3b661d-67/s540x810/de9ee1ebf37b563a7c78308ae184b18af68693cc.gif",
+            "https://64.media.tumblr.com/f0d46339c7822be157df8280c7afa03a/9cfb955b4f3b661d-21/s540x810/7c743f5f0f392493d04f92e0d7036c253d7e9280.gif",
+            "https://64.media.tumblr.com/9ab08f8eb9895d4ab638de5ab6622053/9cfb955b4f3b661d-07/s540x810/bb18200763e3c4a08f8f8a997c09aad555f8766c.gif",
+            "https://64.media.tumblr.com/b82f033541b683924d32c5e967c97836/8bfc4601d5838d3b-b9/s400x600/140dacdb79cfa89068c861e5c58d33e7712d7170.gif",
+            "https://64.media.tumblr.com/6cb1aa900ca0aef5393943b3e579c4b6/8bfc4601d5838d3b-e7/s400x600/22591f81f3a9c4832e259843ba31b45cabdb0d63.gif",
+            "https://64.media.tumblr.com/3f69f671d6bb851540bade2118f6fc6c/8bfc4601d5838d3b-14/s400x600/8b1656ded55fd518a3908e11ab345db3805c050d.gif",
+            "https://64.media.tumblr.com/25d9810cbc33733c1c3fe3cd89376845/8bfc4601d5838d3b-91/s400x600/6ebe5a23d926abfcb2115ce8bb6f10f58038071b.gif",
+            "https://64.media.tumblr.com/5ed9c632aea1df0058114b912a97365b/6d496e4df795a5eb-46/s540x810/374f41984b79bd0cdb01d0fcbcf071e432068b9a.gif",
+            "https://64.media.tumblr.com/74a5593c8658f13466bbdc60afe646fe/6d496e4df795a5eb-13/s540x810/4e9cfab044ceb5c304fd7312ed176884fcaa5fa4.gif",
+            "https://64.media.tumblr.com/3ac5350824635679873a2ef8c24f3388/6d496e4df795a5eb-7a/s540x810/7fbe22afe40807cb408e9282b85f3f79ae3f7e6c.gif",
+            "https://64.media.tumblr.com/4a1190ee31b37a7fa4a0ffbd2e9cff5c/6d496e4df795a5eb-99/s540x810/db9bfc0e8eb288fe738be4567bdaff32357728fa.gif",
+            "https://64.media.tumblr.com/03f6b2d75219066cb193b03be410dbe7/6d496e4df795a5eb-1a/s540x810/5d4a4c6d196038f588d84b24bc42f1507d48e43b.gif",
+            "https://64.media.tumblr.com/ef328de2dc7386eb3aefb544896a6ea8/22c285e0bd8bbd99-8e/s540x810/67b9b6c4a16c2851c91aa29fc403c49dcf6e040a.gif",
+            "https://64.media.tumblr.com/99d1bd519bd731d5faa50eac1911ae6d/22c285e0bd8bbd99-83/s540x810/f2b909173b768d835ff51a4544e055946f9a9111.gif",
+            "https://64.media.tumblr.com/b15dec4823e8c9edf8aef047aaa9f894/22c285e0bd8bbd99-07/s540x810/ba76a9643092adfdee34b731e0b2875c0f9805a7.gif",
+            "https://64.media.tumblr.com/95f48bdfe7c1b40d91211e54eabc2834/22c285e0bd8bbd99-39/s540x810/a486f907b26c65259b857d083f2e06cbcbcdcc93.gif",
+            "https://64.media.tumblr.com/742565b748ea84547fcdb2747387ecea/af1066b24e598019-d7/s540x810/6b328049e75bbc6cb149ef2b8b39bac3d0adc412.gif",
+            "https://64.media.tumblr.com/d0d4e8a0d6c88cfde40fc1e3d3faceb3/af1066b24e598019-06/s540x810/01fbc13bdbba1589c76107a7e789560a24838f1f.gif",
+            "https://64.media.tumblr.com/b9d88e10af2fc869a4bcbf3c31e57e4a/af1066b24e598019-3e/s540x810/07d95d8f2bf207936d4a0c9a03b07050205604ba.gif",
+            "https://64.media.tumblr.com/4f558ee02b57172dd129dadfc8d8992b/af1066b24e598019-54/s540x810/60175de11b8f2497ca048457f1827ee676a2751e.gif",
+            "https://64.media.tumblr.com/c27c3983b4a331dc63c3f272fe8537a8/af1066b24e598019-92/s540x810/d5843ea50251611b36ce7ec3b7ae9183d2e4da51.gif",
+            "https://64.media.tumblr.com/22a30f81df90c5cea543404809eeb433/6891742f7fdf2072-49/s400x600/5ceeb8f52f8eb6a3badc42596d46a8623efae3b3.gif",
+            "https://64.media.tumblr.com/6eb891679a3739d7d31db745d7129215/6891742f7fdf2072-4d/s400x600/6303b40dfd3010c1e75996879b86760b62d6c75b.gif",
+            "https://64.media.tumblr.com/4629cd6bf63ce6fbedb3d12e5b22a714/6891742f7fdf2072-e6/s400x600/a44e6dce0aeabcd898ee58e5c0a8587353b059be.gif",
+            "https://64.media.tumblr.com/9ab76495fe3d7968331f9d62b5558527/6891742f7fdf2072-aa/s400x600/2072f9016d08bd6dd91252a89efa541ecb28672a.gif",
+            "https://64.media.tumblr.com/b86afa38141feaaf71ff0b9363fceb3a/6891742f7fdf2072-ce/s400x600/67e7e1e35133eba754c66c830a6f48554a904db1.gif",
+            "https://64.media.tumblr.com/6877dfe5a0239055f545f3663b0aa181/d060ddc2797645d9-34/s540x810/958baf1de1c96320e84d0055419442a1c04f0989.gif",
+            "https://64.media.tumblr.com/0e064c2892f8bfc9aa0523d5afd90922/7cccda6e936f49b9-5f/s540x810/39b649b3c67c5020b66cb140a565f3602a453f6c.gif",
+            "https://64.media.tumblr.com/37a5ab29a5b46b8b82cc10327622cfc3/7cccda6e936f49b9-60/s540x810/f7997f89cdfea2e85a70179d48a3e812eb11076e.gif",
+            "https://64.media.tumblr.com/e828698ebd75664a10e480f1486642d9/7cccda6e936f49b9-1b/s540x810/f82c543bc2867936ce64f7e02ac9de9472871984.gif"]
 
         self.bot.nct_xiaojun_gif = ["https://tenor.com/view/wayv-nct-xiaojun-xiao-de-jun-handsome-gif-15963229",
             "https://tenor.com/view/nct-wayv-xiaojun-nct-wayv-regular-gif-13760124",
@@ -362,7 +429,30 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/ff72cff90d37f7093cc5bc453981bcf0/a580af8e2c2029f2-48/s400x600/6ec385e89d5cc30696b19b85ab3e30572242ba3a.gif",
             "https://64.media.tumblr.com/c7b558e5b05ae6229dd6d98117e2d191/c0808ecc543292fb-88/s400x600/d515c11e24e25d94c1b6a0ea20966432fb6be2ce.gif",
             "https://64.media.tumblr.com/f34ed7074322f9dfb0a80f7268030d07/52faa2430392084f-b6/s250x400/1d77d74b2167f78d494dfa68b5e389e279410887.gif",
-            "https://64.media.tumblr.com/f4bc74919a69032478f6ed297237cedc/0a8e63c36f42914c-fc/s400x600/8d6377b04a8df126795fbe720a25797e0bc0c67e.gif"]
+            "https://64.media.tumblr.com/f4bc74919a69032478f6ed297237cedc/0a8e63c36f42914c-fc/s400x600/8d6377b04a8df126795fbe720a25797e0bc0c67e.gif",
+            "https://64.media.tumblr.com/6c1b6f56135cd279380d28dcde0426e9/5f3fc0473ced82c7-92/s540x810/9f7cd03436aaffff5262e2a33476485357a234b0.gif",
+            "https://64.media.tumblr.com/b5f717c89b63f3012d187dda8220c93b/5f3fc0473ced82c7-9b/s540x810/79c86c1c5bced729c42dd89b068c9c4da692ea65.gif",
+            "https://64.media.tumblr.com/5b9cbf712cb9124dab5d39b1e5f1fd9c/5f3fc0473ced82c7-ba/s540x810/0bdcc28c0f99a8eb42d59fbabef5e1265a592297.gif",
+            "https://64.media.tumblr.com/3400f01cc5b1c7c7fd02add66ede5212/5f3fc0473ced82c7-d4/s540x810/8dc1cc258ab1e1eef0dbfd7fc560d4a6c392641f.gif",
+            "https://64.media.tumblr.com/0a55def023112e1bb949f38cf1096c2a/5f3fc0473ced82c7-ff/s540x810/9b83a11cd7109954a99c217a8e477c8c19fbfa20.gif",
+            "https://64.media.tumblr.com/c68ac8cbccc08b7fa443c7d5c667c82d/a76ce518254309b4-80/s540x810/bfce672ba0d249f5faa793b41e81bbfc89f41b59.gif",
+            "https://64.media.tumblr.com/fb5af5ca7f65f5bc87000029fe735e3e/a76ce518254309b4-b5/s540x810/1808d6ff34c0fc53c7b22c3c911393bd27744116.gif",
+            "https://64.media.tumblr.com/375504c919ffc31ec2f4cd2ce21a1917/a76ce518254309b4-89/s540x810/36f4d73f1991925ed62a16421cb818e134cca9e1.gif",
+            "https://64.media.tumblr.com/4783a6d1497d3fb7c4cadaf589d4bb0f/a76ce518254309b4-27/s540x810/10e85835eab30c348744ac9cbf545a1bbcda5455.gif",
+            "https://64.media.tumblr.com/f435f8528068eaa52bf02d737905c3d5/a76ce518254309b4-e7/s540x810/22fd74ad61e4f509408fc8e1f9e0a5e13d9fbc8c.gif",
+            "https://64.media.tumblr.com/9b3a9a25323b43e14e69415d5764f119/a76ce518254309b4-6c/s540x810/0aa15d9cb5c08c8c4d2e544419fcce096cc9e69b.gif ",
+            "https://64.media.tumblr.com/bce5ddac819fdd7d867275153578a4e2/26701154d6751049-86/s540x810/d7a1dce7416c144cf46dd81921469bcd35a1211c.gif",
+            "https://64.media.tumblr.com/6c1f3c1fdaadb69a08a5502e5bc4d1f6/26701154d6751049-16/s540x810/e5be2197336f5b6d6ca27e7ade5f127acb666a5a.gif",
+            "https://64.media.tumblr.com/1d836ba75c4b6a112b1dc62d3f636d38/26701154d6751049-6a/s540x810/21c4dbee74e65c8a0710e4f96513ab5ee659219a.gif",
+            "https://64.media.tumblr.com/c05f4ebd753f3cbf6859573b0962a33d/26701154d6751049-b2/s540x810/1ccc817daa88aca1023cc83b4f031b05c9947d00.gif",
+            "https://64.media.tumblr.com/a8e142a22571d8eea17fbf4abc9bf23c/48ccc7802c380a7a-db/s400x600/caf55e682ff824068ea3856ac283476ab416a9df.gif",
+            "https://64.media.tumblr.com/88ff2927c0aa2c89dca1ff4ccdabc476/48ccc7802c380a7a-70/s400x600/a7d90e058d8b2b495d17ae2a267b29b424dcc768.gif",
+            "https://64.media.tumblr.com/c959082da56ffdba73c7a8636170dd4e/48ccc7802c380a7a-b1/s400x600/80b4a89304095624600a1d2e9dd10ea0ea072c23.gif",
+            "https://64.media.tumblr.com/a903938a5c8461762c7c00b1a29aae29/48ccc7802c380a7a-fa/s400x600/fbbdb1a9178f293755f29dc4918b7536966edad5.gif",
+            "https://64.media.tumblr.com/f257f4c1874598efd7527cb77d87b5cc/ed60b0f96a1922a5-e3/s400x600/80df1e9e7a6b9ee9394acced2c746602714c5890.gif",
+            "https://64.media.tumblr.com/87aa3d0f1aa60bea4755ae6d436b0fe6/ed60b0f96a1922a5-98/s400x600/38415563b2d14c999c696133f76f1a57f4793cf7.gif",
+            "https://64.media.tumblr.com/1a083e8257f9e7b96945008553412376/ed60b0f96a1922a5-56/s400x600/bb0df692e1dd9da2652ffecf6900a08544d468c6.gif",
+            "https://64.media.tumblr.com/9f4bcd6cc9ca29c51fce12dbc0491a1b/ed60b0f96a1922a5-2b/s400x600/db587c31803aa41424885606a28e9d1764b045e1.gif"]
 
         self.bot.nct_hendery_gif = ["https://tenor.com/view/hendery-wayv-heart-gif-14544395",
             "https://tenor.com/view/wayv-nct-hendery-wong-kunhang-handsome-gif-16028474",
@@ -461,7 +551,13 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/70c593935525b850c726ab48ce788ebb/f759bd4235b1e56c-27/s400x600/e8e830f8aa592c4ea38d1e11e02626a63e1f587a.gif",
             "https://64.media.tumblr.com/162e0ece1ad19f96f79b1fa801e1f001/a6d3f7d457d2f56a-66/s400x600/488b3cbb90f5be3fcd0a5261a96c7a62b27cd962.gif",
             "https://64.media.tumblr.com/33d57d3fde835aa6136bf9331bb48635/7f5723e904e0f637-05/s250x400/40ead5ecd9ca3ddf32e7a94b9f361cb9955c1120.gif",
-            "https://64.media.tumblr.com/efbe54e869f5a98e339513ccd8c979e8/c7dcdd5404cc3291-b5/s400x600/9c746c8380b32509f93f8a8ec7d3b77e12a522ee.gif"]
+            "https://64.media.tumblr.com/efbe54e869f5a98e339513ccd8c979e8/c7dcdd5404cc3291-b5/s400x600/9c746c8380b32509f93f8a8ec7d3b77e12a522ee.gif",
+            "https://64.media.tumblr.com/eefa9ca65be7b1c86999ca26b277ef3c/fbcf5866fa1898b7-8d/s400x600/8787f2822ef9939cd4f9b1cbd0a1ec3dd3a231db.gif",
+            "https://64.media.tumblr.com/6ea7b237687b866b14466bf1d5e902ec/fbcf5866fa1898b7-64/s400x600/9c502d64586a3dcfe492a7443583215261e097c1.gif",
+            "https://64.media.tumblr.com/33e957fb46fe42784cc06cbab80faa03/0134dc27939d1eeb-cf/s540x810/dddbed1cdfc6248d51ec1c63784b9bf6df82a859.gif",
+            "https://64.media.tumblr.com/e56a3919db409d74ab1cf83d29514789/0134dc27939d1eeb-32/s540x810/165fec66283784c69020930fd2df85298fd96f2f.gif",
+            "https://64.media.tumblr.com/db4179234ae980ba3d4ee62953be148b/0134dc27939d1eeb-09/s540x810/9162b3868c65bba16e75af41fed233c17c38aae9.gif",
+            "https://64.media.tumblr.com/023e4a3b44bac29141673d10ac03ef7c/0134dc27939d1eeb-8e/s540x810/c7e453802813ff9afa1fdcb7c18781351bdf083a.gif"]
 
         self.bot.nct_taeyong_gif = ["https://tenor.com/view/nct-taeyong-cute-gif-15119070",
             "https://tenor.com/view/nct-vocalist-visual-sm-entertainment-nct-subunit-gif-17505770",
@@ -524,7 +620,26 @@ class NCT(commands.Cog):
             "https://tenor.com/view/taeyong-nct-leetaeyong-gif-20693050",
             "https://tenor.com/view/taeyong-nct-leetaeyong-gif-20693049",
             "https://tenor.com/view/nct-nct127-kpop-lee-taeyong-ccg-gif-14769111",
-            "https://tenor.com/view/nct-nct127-kpop-lee-taeyong-ccg-gif-14769157"]
+            "https://tenor.com/view/nct-nct127-kpop-lee-taeyong-ccg-gif-14769157",
+            "https://64.media.tumblr.com/1b6807dfbb273d2ae257ca12e018ed16/3bb18236463da95d-d6/s400x600/24f23dd2b668263c9bc36f396c953fb854b43e4e.gif",
+            "https://64.media.tumblr.com/ce9d72279906f90802d173b0d96ee641/3bb18236463da95d-54/s400x600/a1f16449f19fbeac802916a1bab3629345f75b50.gif",
+            "https://64.media.tumblr.com/8bc2fe2ff6776eb9c063a0eb0a02eb60/3bb18236463da95d-e2/s400x600/7161a4649564b0fa5ca4b493a376620434683e44.gif",
+            "https://64.media.tumblr.com/2ceb3547267b715943d628ac4d978476/3bb18236463da95d-af/s400x600/37083500e298ce3ad653a973529b03e0fddc2d11.gif",
+            "https://64.media.tumblr.com/06a62bc3eed413fb2899eebb1e1465fb/79dc2e4a6c37b9c2-28/s540x810/61525e6e3dac395597d9f822ca774b7fdda60c74.gif",
+            "https://64.media.tumblr.com/6148f759ce7ac7e2398e9eb869a72819/79dc2e4a6c37b9c2-e2/s540x810/878739fe9dfe7d5f36c2b6a54a97b73e4042b82a.gif",
+            "https://64.media.tumblr.com/45bec8024c6f30ef9f6df2d32918aad6/79dc2e4a6c37b9c2-6c/s540x810/52664e954db1824d97d3055b1881f24daf281827.gif",
+            "https://64.media.tumblr.com/a030745584bbb1e8e079458465d1bd12/79dc2e4a6c37b9c2-9d/s540x810/5cad369003e22dba088d969fde607df9f807a654.gif",
+            "https://64.media.tumblr.com/d80df9883bc1c7488beb5bb611655f0d/8ece6e785987bc1f-ba/s400x600/fdd8b01f88548626d73f48ba023c934c154ea99e.gif",
+            "https://64.media.tumblr.com/3c32eb1c46f86290d0c81e95bf5a9425/8ece6e785987bc1f-32/s400x600/341006918f5a16a9814a57c6fc7a91b539d554bd.gif",
+            "https://64.media.tumblr.com/0fc146973b6aa61d32176d3621736275/8ece6e785987bc1f-63/s400x600/2de65d072d1d8361b22dad7efdb3afd4f84d85fc.gif",
+            "https://64.media.tumblr.com/1cb4ec0fccdf00622fbc84d3f703c591/8ece6e785987bc1f-e3/s400x600/2b88c26a37765402641cd30398225a9fa388d94e.gif",
+            "https://64.media.tumblr.com/ebbc01292226a787e384f6364f594d93/8ece6e785987bc1f-75/s400x600/022625002ff6399b1925dd5a2c09107eeda55834.gif",
+            "https://64.media.tumblr.com/2a2bc5c53c78ecf63e24296b14cac4ff/a5c8eda6150422b2-7e/s400x600/e774c5177c0d1a865ae55137889e3e122f4e8d6b.gif",
+            "https://64.media.tumblr.com/0fefa399ea140efdc6aa66f8c8b63cb5/a5c8eda6150422b2-9c/s400x600/68d66397ca027cc87e0071593790644c65a2ee67.gif",
+            "https://64.media.tumblr.com/02773601857288afe82c52728a7d5b6f/a5c8eda6150422b2-2c/s400x600/3c7a89a18b020c2bbdf877c58d2716f7b152ed2d.gif",
+            "https://64.media.tumblr.com/bf8db7ffbd24a7281914f4043386c7ba/a5c8eda6150422b2-7b/s400x600/bb13a578cc4047d8042d44d910bd13a310f2b4fa.gif",
+            "https://64.media.tumblr.com/7eb7175bb540ddc4cc6d5ac0dc1fdcb8/a5c8eda6150422b2-06/s400x600/6adec45a8b8820398f7e52c1b4c54dc1fc0a73e2.gif",
+            "https://64.media.tumblr.com/c4d32bb3d50595140756c13b71497c69/a5c8eda6150422b2-cf/s400x600/74691fbaab96c979b887a767fe7ada0efde647ca.gif"]
 
         self.bot.nct_jungwoo_gif = ["https://tenor.com/view/nct-nct127-jungwoo-kim-jungwoo-jin-ting-you-gif-16941098",
             "https://tenor.com/view/neo-culture-technology-nct-nctzen-jungwoo-park-jungwoo-gif-12100520",
@@ -554,7 +669,11 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-KfqKwHSEP5ZmokrmYp",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-jn1TRkYIshuxOd4hcn",
             "https://giphy.com/gifs/nctsmtown-nct-127-u-kEp104oGLhMB7rawA3",
-            "https://giphy.com/gifs/nctsmtown-nct-127-u-hz5fsO2337Z6SwBEcD"]
+            "https://giphy.com/gifs/nctsmtown-nct-127-u-hz5fsO2337Z6SwBEcD",
+            "https://64.media.tumblr.com/98a52ec8ef5fb074bdd3fd77e34ff2a0/428def7b86a1b3e5-ed/s400x600/d165147bae0955e700e86b05a31269f04e16dc8d.gif",
+            "https://64.media.tumblr.com/5e5320c453e5dc210646ff2d228e8f39/428def7b86a1b3e5-3b/s400x600/3e16283c608bae635289689407ef2614f03e6ef2.gif",
+            "https://64.media.tumblr.com/8e016154262da22d20f7bb1333840c0f/428def7b86a1b3e5-69/s400x600/0f0f555f4c31a6dad85b2cd1591454f06abb9a18.gif",
+            "https://64.media.tumblr.com/5ebc5e5b04a789fb53b9500d569b4d7e/428def7b86a1b3e5-88/s400x600/74d91a5037610ab7b5423c9d3b4008624d5c7270.gif"]
 
         self.bot.nct_yuta_gif = ["https://tenor.com/view/yuta-nakamoto-smile-cute-japanese-singer-gif-15773495",
             "https://tenor.com/view/nct-gif-18066481",
@@ -579,7 +698,19 @@ class NCT(commands.Cog):
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-RlI2wIV2Yo6vW54rci",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-cIEXH1rEagHtQ9LWsT",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-lSgkIQH7fnueclfEwQ",
-            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-vE9s1D7gnQ6h2K4vfW"]
+            "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-vE9s1D7gnQ6h2K4vfW",
+            "https://64.media.tumblr.com/019ab7ca44c81262fc914ee1251c09eb/b17f44465e15ef50-9a/s540x810/5714fcfd70417469ab99fa7e27a44b800e7b0d5d.gif",
+            "https://64.media.tumblr.com/d8368560f5efd9ac3719b921e60043e1/b17f44465e15ef50-f8/s540x810/2c2dde83f1c762952325b25cd41ff51e897311e3.gif",
+            "https://64.media.tumblr.com/8ea6d4039e7b2b98ccb1f4f419b03d82/b17f44465e15ef50-a4/s540x810/1f92c4e48c90324e00749c82158208b837dd2d35.gif",
+            "https://64.media.tumblr.com/21ed474a237ad1a7798fb5565195dd1a/b17f44465e15ef50-bb/s540x810/35346397c0ad5a388fd383105de5a0b188173804.gif",
+            "https://64.media.tumblr.com/aa595044192f52a5fa3cf78fbc6f6753/28589857ec308a2f-53/s540x810/f1cc21b4bc7ac730b621020bba99ef47275a6714.gif",
+            "https://64.media.tumblr.com/e25a5f88c4ae44dd31e917e453f9f35a/28589857ec308a2f-ee/s540x810/d7524918fd2c29828322c88a2868eaa699004b6c.gif",
+            "https://64.media.tumblr.com/5b78a27ee600190b659c2207dca48e75/b17f44465e15ef50-1b/s540x810/797ee15aa35cbf5aa56c417ba33660f64dd039d7.gif",
+            "https://64.media.tumblr.com/5d0883651c9b9e4ee500150f08e49f10/b17f44465e15ef50-99/s540x810/beb3daaa9706a8adc11c92250cb071d14507734f.gif",
+            "https://64.media.tumblr.com/db92b7a25036801195f46efb755adbca/05c07bdaa73a7bcb-c6/s400x600/2f84d129046ed275f7ad8d654c8fd371afe363af.gif",
+            "https://64.media.tumblr.com/c2bc91e441c44c2725920dc16e6c7cdb/05c07bdaa73a7bcb-39/s400x600/9e26197275d3b830868ffad219236d424fd94cdd.gif",
+            "https://64.media.tumblr.com/4e1fa2e2e578faee795581c23c33a761/05c07bdaa73a7bcb-81/s400x600/f0378e61d2f36c29f25172d4e0f584d410bc1632.gif",
+            "https://64.media.tumblr.com/c604e02f05810560b34b0a07228798dd/05c07bdaa73a7bcb-4e/s400x600/6b1d3c5f9176814f161f69320fbd5aa6ca2867f2.gif"]
 
         self.bot.nct_jeno_gif = ["https://tenor.com/view/jeno-nct-dream-sexy-dance-gif-12526719",
             "https://tenor.com/view/jeno-jeno-seolie-nct-jeno-nct-dream-gif-12958231",
@@ -691,7 +822,13 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/da7655f0229fce16f13fad0889387986/4830f3edab6ae05a-55/s400x600/a8d701e1ef8a937f06cc523270541dbc73514362.gif",
             "https://64.media.tumblr.com/e67110a6971ecc9c7457445578ae2174/be2c5dc1e5c569be-c3/s540x810/635af669560e31f9a920e14614a240d5e568c540.gif",
             "https://64.media.tumblr.com/9101ad07ad7f8b43efff056acbfe8619/be2c5dc1e5c569be-d6/s540x810/d8e2034a06a0c441dfd1a68ea05c3340e3a92b1a.gif",
-            "https://64.media.tumblr.com/e1a33202169d4e18f3fefb891251f682/be2c5dc1e5c569be-34/s540x810/4d5b5b1d6a8f4d041d3d9ec805c2e6a2e0f4a1f9.gif"]
+            "https://64.media.tumblr.com/e1a33202169d4e18f3fefb891251f682/be2c5dc1e5c569be-34/s540x810/4d5b5b1d6a8f4d041d3d9ec805c2e6a2e0f4a1f9.gif",
+            "https://64.media.tumblr.com/5f3e9cd879911701938998d81c84ab06/49ecf67fe0d54709-96/s540x810/311c2075e84dc0e07a7d3e5c577da9669896b498.gif",
+            "https://64.media.tumblr.com/5fd03c9c4fdb3b06c7ab358182168108/49ecf67fe0d54709-49/s400x600/b965933cd00a6ae9ab31e3e932b1ec7fcb8b15a2.gif",
+            "https://64.media.tumblr.com/68a341a9e352a25dc6215e45f391a1cc/f904825fbc8070a1-d1/s250x400/0de1a0561453a0705a1ed6bad45dcd7ffb610c52.gif",
+            "https://64.media.tumblr.com/d4e2c0a471190684f8b3da6b55e0b13f/f904825fbc8070a1-9a/s250x400/29e5dfbfaacafdc1b6058ff160b31970fe4502e8.gif",
+            "https://64.media.tumblr.com/edf3afeb0f518f2920958afae4a605de/f904825fbc8070a1-b7/s250x400/ade4bbfc9e1eae6d453b9e954a7747de3b09cc12.gif",
+            "https://64.media.tumblr.com/8a23868ad742f5007131bebc724f44be/f904825fbc8070a1-dd/s250x400/b33fadbfef538a19fc2a6fff73485bc8ff533f67.gif"]
 
         self.bot.nct_jisung_gif = ["https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15640963",
             "https://tenor.com/view/nct-jisung-park-jisung-kpop-handsome-gif-15641120",
@@ -719,7 +856,19 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/cb220315360ff0c0440d5ad6a6a8404b/302e44f76695bfda-8c/s500x750/015e2787f19361223c8e97b12b350f923767a226.gif",
             "https://64.media.tumblr.com/610cb8e0b1335b19825b9d19dfabec55/704b1d967a24ffdc-01/s540x810/702b6b88d5e0fa76e4175ddf6ae501257022c508.gif",
             "https://64.media.tumblr.com/3fb4f0eb5292f9d84164f5122accd764/3e06e7f2aa66ccb0-d4/s400x600/c84e1ef324e46d78f9011864c0e1d269dca3ab09.gif",
-            "https://64.media.tumblr.com/cdff03dd7840e13517bfee83ca15fcea/3e06e7f2aa66ccb0-54/s400x600/28b76afc88d852ebea1fd22c787c18615faa6a6f.gif"]
+            "https://64.media.tumblr.com/cdff03dd7840e13517bfee83ca15fcea/3e06e7f2aa66ccb0-54/s400x600/28b76afc88d852ebea1fd22c787c18615faa6a6f.gif",
+            "https://64.media.tumblr.com/8958b7bde6fe0ff6a62104531a715ba0/fa92f571ec7dc781-f8/s250x400/29f8e67c50ada8f93a9feaa0db44bcbe707c4981.gif",
+            "https://64.media.tumblr.com/c6628c9b1647ccd4e1419823e11c0ad9/fa92f571ec7dc781-44/s250x400/94a08dbef98bfc779d6153e3461addc12dbacedd.gif",
+            "https://64.media.tumblr.com/702eccdde2f2fe2ffce68853b920d35e/fa92f571ec7dc781-e8/s250x400/10a4bc1b44fd1940a98e97380076c4e9f691e252.gif",
+            "https://64.media.tumblr.com/6a043961d0bd5a14ab443648146a2916/fa92f571ec7dc781-51/s250x400/2dff33afe62b379873d31ea863b2374ca3eb30a5.gif",
+            "https://64.media.tumblr.com/57ecc24cc8aa81fec2791b4542fda041/0ac88729273b9752-28/s250x400/68e5a758acf6c4396992d6ce6dea5523e9e0831c.gif",
+            "https://64.media.tumblr.com/cd4e9e73bad31cf8a2407531200eb08b/0ac88729273b9752-28/s250x400/517dad30c44a05515969e122063de25edd1fc083.gif",
+            "https://64.media.tumblr.com/1b49302a5b81ce19bee887fde8366cec/0ac88729273b9752-2b/s250x400/16a745393844d6d9df3ab3a98a91c87c3a83315f.gif",
+            "https://64.media.tumblr.com/6c7d528691416da57d2552501ed8d89b/0ac88729273b9752-9f/s250x400/9c096c621b7d10568914a8bddb05347d3453b70e.gif",
+            "https://64.media.tumblr.com/81f8be0b3a43cbbde6c37cc6842b8791/c2cb547c67940f9d-eb/s400x600/758c1af649c67d751d335511ebc3bbaeef1d3723.gif",
+            "https://64.media.tumblr.com/3f2fa976f836c4c9e231400c334b7d93/c2cb547c67940f9d-6a/s400x600/00560ead3ab59fcd920a6588e96dad31bbe84a55.gif",
+            "https://64.media.tumblr.com/060f62c5ad4602e651087a6edf8f253e/c2cb547c67940f9d-b3/s400x600/8ef18754b779abf8580d62d9c40608c4eb52ad23.gif",
+            "https://64.media.tumblr.com/2c4ba1159e7ed026b7f17956ad99c11b/c2cb547c67940f9d-38/s400x600/fc103a9e144403ce32c754330c432d563233edc4.gif"]
 
         self.bot.nct_renjun_gif = ["https://tenor.com/view/finger-bite-cute-kpop-renjun-nct-dream-gif-16895396",
             "https://tenor.com/view/renjun-renjun-cute-renjun-nom-nom-renjun-bungeoppang-gif-19626068",
@@ -746,7 +895,31 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/62feaf9dee731d8a9c49ee7868addfe8/704b1d967a24ffdc-79/s540x810/515c2d271e4ce689b99fc7cbefa8dd2ec79b7f81.gif",
             "https://64.media.tumblr.com/fff46228b7dbc8fa7b549c785f1011a9/9bfb580552b2eb77-6a/s250x400/3d89fc486ec9cc3e03f644e8cdf7376fd77984a3.gif",
             "https://64.media.tumblr.com/39ec8a8e5025b8b8329296b240c44beb/f786477bd998a2a8-61/s540x810/14533301752c8dac8ef62a9f69a646ae54320c8c.gif",
-            "https://64.media.tumblr.com/2658a999e225462db729033e7115b21c/529f30fb9c7eb309-ea/s540x810/4d11a841afb5b45f1c3b96c745b988146fdc24ba.gif"]
+            "https://64.media.tumblr.com/2658a999e225462db729033e7115b21c/529f30fb9c7eb309-ea/s540x810/4d11a841afb5b45f1c3b96c745b988146fdc24ba.gif",
+            "https://64.media.tumblr.com/1122d63edeeb1612c2165fe8272ade70/b7ffb95028f13454-88/s540x810/33e11a769eab8dfd0c536f37c0419cdef19e6114.gif",
+            "https://64.media.tumblr.com/3003dc355c89e0f4e76052c48d013517/b7ffb95028f13454-a0/s540x810/7e385ec1a8fb0e72ba19b0dc04a48508d302e3de.gif",
+            "https://64.media.tumblr.com/5a3439b2371151874ae778876dfab149/b7ffb95028f13454-e8/s540x810/4ae5a0a4ae32ad416ef80a12f464a08961c6db91.gif",
+            "https://64.media.tumblr.com/ce3ddf6d00348bd2a283e4c66a3dd186/4309018eb7801b4e-c2/s540x810/fb25ffcd7460edc31b2e7f50a310d90ac0c3e5f2.gif",
+            "https://64.media.tumblr.com/14ae04d76d68e518a22d8fa52454a282/df732bb0e0589132-42/s400x600/27aba4542fc8f4436372f64beed8657c925cece1.gif",
+            "https://64.media.tumblr.com/a06531f450a9e34a3319cbb92440c6eb/df732bb0e0589132-84/s400x600/99a54977e99ee744466f7f657910882e9e39315f.gif",
+            "https://64.media.tumblr.com/af2aeed93a9b10ae39da018189d7c475/df732bb0e0589132-7a/s400x600/e03a4f27b8b91464888e7046ef2ee47c2efe4ba5.gif",
+            "https://64.media.tumblr.com/4d1c51bf8b2a52e23cffabe894dff7cd/df732bb0e0589132-48/s400x600/dad3e838813423706d5ee1391cef08751c9f0f17.gif",
+            "https://64.media.tumblr.com/acba47a6239ebac1df6d4ad234313194/95f87fc3e2afd79b-9c/s250x400/2f3015510b2cf320deea2f1cc05323a26c1dac4a.gif",
+            "https://64.media.tumblr.com/acba47a6239ebac1df6d4ad234313194/95f87fc3e2afd79b-9c/s250x400/2f3015510b2cf320deea2f1cc05323a26c1dac4a.gif",
+            "https://64.media.tumblr.com/73235b307406a57c303c73d064a19f3c/95f87fc3e2afd79b-79/s250x400/8a053e5d5a60212ad9ea63481d306959242c9c14.gif",
+            "https://64.media.tumblr.com/72c5a5a1d18edbedabb83bc281cab8e5/95f87fc3e2afd79b-dc/s250x400/5683f9115f75730bca4790ac009cfb4597013648.gif",
+            "https://64.media.tumblr.com/663400679b3db9c9fc88b19662f89cf7/95f87fc3e2afd79b-45/s250x400/15b7da7fa575fbd74e5ef53c97f5cddcf6430c35.gif",
+            "https://64.media.tumblr.com/b2958874cfcf94138463d5d318c7c623/abdd89b1c1c33043-9a/s400x600/d5b96c2630bb185210cc41f32a0f9881e97e4a23.gif",
+            "https://64.media.tumblr.com/01cdeef2f5656d90e31d519cb14b773a/abdd89b1c1c33043-3b/s400x600/38780247a91bcc300d8661e170f187b9f57755e3.gif",
+            "https://64.media.tumblr.com/f66f57636f1209597a880807f6051b7f/abdd89b1c1c33043-a0/s400x600/9f5f140f75036df7fcde286a5a1163ab614931ee.gif",
+            "https://64.media.tumblr.com/a7961c318daaae4e203d76d266e19a4c/abdd89b1c1c33043-8e/s400x600/d2a705046d91ccfcf99d469f6a5fefab5cef319d.gif",
+            "https://64.media.tumblr.com/972c28d8473ed522b17e6b619319ac52/5d71612802070417-f6/s250x400/b6135d3e5be32b7cdf6c77a2dc408bfd3d520551.gif",
+            "https://64.media.tumblr.com/7064b129bdfcb11476494c049bf51c79/5d71612802070417-21/s250x400/ff6f7bc9fb866b7bf57a0802a3202d03c96b46f7.gif",
+            "https://64.media.tumblr.com/35fa49bc7cc4540591360fb8666a1eb4/5d71612802070417-67/s250x400/d40673a220475d0b37f79dba3fe3fcfcf5d54581.gif",
+            "https://64.media.tumblr.com/e090d16a8a0490f9dc878fb51b0b2b14/5d71612802070417-d5/s250x400/30d21791d4b359b49f8de0f9a0bbab99ba868127.gif",
+            "https://64.media.tumblr.com/677a3fdee9222c7839946601a1269eec/5d71612802070417-f3/s250x400/4e5536a734533b4bcbe1f7159fd4f1b42a5bee40.gif",
+            "https://64.media.tumblr.com/c09e232e3b2569643311ac0eae7c6b71/5d71612802070417-09/s250x400/2932590ab20fa06423092fc4a260c0b9c573f7d1.gif",
+            "https://64.media.tumblr.com/f9dcbc27269b96df5f8b849727813c77/5d71612802070417-2a/s250x400/d5a2a8565ea4c39210ae08558e4d4c1bddceb45c.gif"]
 
         self.bot.nct_doyoung_gif = ["https://i.pinimg.com/originals/c3/3c/af/c33caff35228f8c25b79756bf3858490.gif",
             "https://data.whicdn.com/images/320339609/original.gif",
@@ -785,7 +958,11 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/64f835d46677a816a8a3b208a50e4543/37ce77dcb5acbe7d-cb/s250x400/e5638ca511d0cc1bde6a78b41308a5317ca11b89.gif",
             "https://64.media.tumblr.com/bdd03a92c64ba2d5eb841fc1936f09b4/37ce77dcb5acbe7d-3a/s250x400/39ab4b956c0bffac748f039a72f2cf6fc577361b.gif",
             "https://64.media.tumblr.com/ee0da69a4884ea663b5db2a38abef019/20e9a4bf77c745b4-aa/s400x600/374f7b4f01838f6ab272b34602495019e08799a8.gif",
-            "https://64.media.tumblr.com/7a46de6a2df8d2c3b783c553bd076639/20e9a4bf77c745b4-f1/s400x600/cf9d96547c42895959d32c9bb3d249c3d65b3147.gif"]
+            "https://64.media.tumblr.com/7a46de6a2df8d2c3b783c553bd076639/20e9a4bf77c745b4-f1/s400x600/cf9d96547c42895959d32c9bb3d249c3d65b3147.gif",
+            "https://64.media.tumblr.com/212bbc691c772e581fa5f09f29ab0555/9875832ccfef1533-03/s540x810/534d94d7793d580806c32a26da1b26066c158549.gif",
+            "https://64.media.tumblr.com/61844604868c83d3542d21dd6c93b33a/9875832ccfef1533-46/s540x810/7868d6e0e3d44c1fb5dfb68cf27b4d0255145791.gif",
+            "https://64.media.tumblr.com/5f9c65e70151821edf4f189a8cf32995/9875832ccfef1533-77/s540x810/913ba62101bbf134b24fb781e4a947681d964e0a.gif",
+            "https://64.media.tumblr.com/0b09cfd1db395f1178b579c256c25c3d/9875832ccfef1533-36/s540x810/cbeca7dc58519fba0d6d4f4c3273dcba11917e06.gif"]
 
         self.bot.nct_haechan_gif = ["https://data.whicdn.com/images/312017472/original.gif",
             "https://64.media.tumblr.com/20aa6e1fc21ad09a3c46a1bda021f92b/2e7c33e88cfa45b6-1a/s250x400/03e8c3e5dc265549348372c81e2326c91c0b56e7.gif",
@@ -852,7 +1029,13 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/a25a8638b81b326c3ab9f9b356c8378c/653824dcc05ecc7f-f9/s400x600/35363b0bad60ae38087090de2458a99383d9faf3.gif",
             "https://64.media.tumblr.com/702318a5a5007f1feaa03cd710531fdb/653824dcc05ecc7f-df/s400x600/c2d03da2c162bc6ac7f1ffa5febef025ee8d0c40.gif",
             "https://64.media.tumblr.com/af1d769de97bd917ecc5e25a86a738fd/d99c01d9b708b5fc-88/s400x600/f0417ed1cd990b99a90bde84bc58c4b711dacdf8.gif",
-            "https://64.media.tumblr.com/2e84810e5af05233c97c10c54d91c569/3bb6944b2b8123c2-4f/s250x400/f22c315e658fc0a9313475ad8bb0a124840eb113.gif"]
+            "https://64.media.tumblr.com/2e84810e5af05233c97c10c54d91c569/3bb6944b2b8123c2-4f/s250x400/f22c315e658fc0a9313475ad8bb0a124840eb113.gif",
+            "https://64.media.tumblr.com/0e064c2892f8bfc9aa0523d5afd90922/7cccda6e936f49b9-5f/s540x810/39b649b3c67c5020b66cb140a565f3602a453f6c.gif",
+            "https://64.media.tumblr.com/37a5ab29a5b46b8b82cc10327622cfc3/7cccda6e936f49b9-60/s540x810/f7997f89cdfea2e85a70179d48a3e812eb11076e.gif",
+            "https://64.media.tumblr.com/e828698ebd75664a10e480f1486642d9/7cccda6e936f49b9-1b/s540x810/f82c543bc2867936ce64f7e02ac9de9472871984.gif",
+            "https://64.media.tumblr.com/1da2b33858c56e888bceeb821671c499/8055c2722388e012-f7/s400x600/8c57af0033daecd96e577af431fc5dc001cf25c3.gif",
+            "https://64.media.tumblr.com/d526a35640fdd281865dd6c97911b193/8055c2722388e012-bd/s400x600/fd0216fe0703e103f873f69c107b2818499ec262.gif",
+            "https://64.media.tumblr.com/e4f918b563d7b6dc5976a2194fc9ce36/8055c2722388e012-e9/s400x600/ac8be4471ffefa5b31e810a6abd0376c6f4f3158.gif"]
 
         self.bot.nct_taeil_gif = ["https://tenor.com/view/nct-1994-moon-tae-il-taeil-finger-heart-gif-14375657",
             "https://tenor.com/view/nct-1994-moon-tae-il-taeil-heart-gif-14375647",
@@ -908,7 +1091,10 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/60e56a30d4b72d76eeaf1944e20c8869/3890681902d6cfaf-dd/s400x600/e66e3dcebb02c5a4f98fb19e6e0eb495b717bf72.gif",
             "https://64.media.tumblr.com/2dc8d85743f0f38977e69d7a8ebffb2b/999fcd18b9604f7c-57/s400x600/d1736cd2522762601120383036458f18878e30e2.gif",
             "https://64.media.tumblr.com/1aaa89c4d02f04c37765e94adf0ae13f/f8716ca9e730c971-0d/s400x600/d217c836f544b027a6edea99e3ee3e74bb2e5253.gif",
-            "https://64.media.tumblr.com/af27f9e8c2097f0a5305de9d335384cd/dca8b785757a4251-c9/s400x600/d7b202c8f0810e6ebd77a00c136be16022026298.gif"]
+            "https://64.media.tumblr.com/af27f9e8c2097f0a5305de9d335384cd/dca8b785757a4251-c9/s400x600/d7b202c8f0810e6ebd77a00c136be16022026298.gif",
+            "https://64.media.tumblr.com/2d3c3c30e134ef6ee7c86ae3472b803b/271547cbb3e679a9-a6/s540x810/73fa1cf5c09a68e4a9e5c9c8c2e6caff9cd1fdc8.gif",
+            "https://64.media.tumblr.com/052e7fa9d8a0af7f3d89addfe21c80e8/271547cbb3e679a9-16/s540x810/3cdef87da1c7d3721e4e1f26b3b5010d36eb6c92.gif",
+            "https://64.media.tumblr.com/cc38fe756ee64620457afe523c60ad97/271547cbb3e679a9-f9/s540x810/800884f06e90b476531be221de49abec6605b363.gif"]
 
         self.bot.nct_johnny_gif = ["https://tenor.com/view/nct-nct127-johnny-seo-young-ho-john-suh-gif-17600646",
             "https://tenor.com/view/nct-kpop-ccg-nct127-johnny-suh-gif-14838201",
@@ -947,7 +1133,19 @@ class NCT(commands.Cog):
             "https://tenor.com/view/johnnysuh-johnny-nct-127-johnnyseo-gif-14185990",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-LT5lH8xtjzdfxLf5Kt",
             "https://giphy.com/gifs/nctsmtown-nct-127-nct127-JR6UTFm1zVc5Fu0RtC",
-            "https://giphy.com/gifs/nctsmtown-nct-127-u-1kLYKJnUnI21Bn3uNe"]
+            "https://giphy.com/gifs/nctsmtown-nct-127-u-1kLYKJnUnI21Bn3uNe",
+            "https://64.media.tumblr.com/2e673913a90c7e5de494cf27afc8a811/c5d5b6da8edb8553-4b/s400x600/304f66f834af814f073bbb8cff2f571ff07fa1f0.gif",
+            "https://64.media.tumblr.com/bc49d7868561b853bf979eef6ff641cf/c5d5b6da8edb8553-05/s400x600/d55415f0fc1d0769f9abdecd1c042e4c991554da.gif",
+            "https://64.media.tumblr.com/16be55017436c43a080f4e3b6351775a/c5d5b6da8edb8553-f8/s400x600/416990b82c05f851c962b802ef58624124901d15.gif",
+            "https://64.media.tumblr.com/ee76a9ff484cc9495753050d7a9ad5f4/c5d5b6da8edb8553-37/s400x600/75532b44f5e4ebc548f665efd6c3d92d1720c95e.gif",
+            "https://64.media.tumblr.com/3bd2ce5571ab7d03b1d85c3cb6820b18/74be19fcae245415-ea/s400x600/1eb52847e5d4502009d720bbdf62f762cc70a53f.gif",
+            "https://64.media.tumblr.com/de31d44a07790ab8226280393aab7cbe/74be19fcae245415-f4/s400x600/6704e2d602d56fff1e50a30d12ea07b314d87a23.gif",
+            "https://64.media.tumblr.com/854786431f269421a95cf36b13dbb70c/74be19fcae245415-de/s400x600/f2fd95ce022a35bbee1b0cd4d39f5649e76e3147.gif",
+            "https://64.media.tumblr.com/843040ced52b413c2ec06463b2ba959b/74be19fcae245415-7a/s400x600/08cbf7d06d6d919675d99bb1107bff928f967b71.gif",
+            "https://64.media.tumblr.com/4954c58d6d940b229e8d3b10043da45c/214674e9b5498e92-ef/s400x600/d0a4040aa628d71ba72b707e57188dd77a713b7c.gif",
+            "https://64.media.tumblr.com/f640845743c0bbcf6fb6dd24c414b820/214674e9b5498e92-73/s400x600/a195ab5aa40e3991e98558977172cb46dc3c1fcb.gif",
+            "https://64.media.tumblr.com/b703cc5b62fca57101642e673ee60dd1/214674e9b5498e92-f3/s400x600/fb65b6349f6a7dd7668be44a59c89a1f22d18d34.gif",
+            "https://64.media.tumblr.com/1a2248dde9d46ffeca1a0e5c175739e3/214674e9b5498e92-cd/s400x600/90839ec76ad131dfa89bfdfcbbd5f7c388f64111.gif"]
 
         self.bot.nct_chenle_gif = ["https://tenor.com/view/alechris-gif-19117093",
             "https://tenor.com/view/nct-chenle-nct-dream-chenle-nct-nct-dream-ridin-mv-gif-19715375",
@@ -974,7 +1172,10 @@ class NCT(commands.Cog):
             "https://tenor.com/view/nct-chenle-ridin-mv-nct-dream-chenle-gif-19715377",
             "https://giphy.com/gifs/nctsmtown-kpop-nct-resonance-p5FXsQOzRoVgU2SmkA",
             "https://64.media.tumblr.com/7570a5f70af01223ccca18a8a56b5043/1b91aaec34336370-6e/s400x600/89e86517efeef3cb251e3eda3d315bccded691c1.gif",
-            "https://64.media.tumblr.com/58704975e89931b8140122c71b2bfe23/704b1d967a24ffdc-78/s540x810/f4134dd6f2c1ee2e63d2b1b5ba4a2b80d7671bee.gif"]
+            "https://64.media.tumblr.com/58704975e89931b8140122c71b2bfe23/704b1d967a24ffdc-78/s540x810/f4134dd6f2c1ee2e63d2b1b5ba4a2b80d7671bee.gif",
+            "https://64.media.tumblr.com/6714699a560703ae2affff83f7add034/b7ffb95028f13454-98/s540x810/768322f0479881e062cefe881d9d284be5c8a74b.gif",
+            "https://64.media.tumblr.com/3003dc355c89e0f4e76052c48d013517/b7ffb95028f13454-a0/s540x810/7e385ec1a8fb0e72ba19b0dc04a48508d302e3de.gif",
+            "https://64.media.tumblr.com/89577de592032399721ce27300637633/b7ffb95028f13454-d8/s540x810/38c40ff785acb658365d1bd1d45134fc07061ece.gif"]
 
         self.bot.nct_sungchan_gif = ["https://tenor.com/view/sungchan-sungchansmile-nct-nct2020-nctsungchan-gif-19820916",
             "https://tenor.com/view/nct-sungchan-nct-u-sungchan-nct2020sungchan-gif-20286601",
@@ -1038,7 +1239,10 @@ class NCT(commands.Cog):
             "https://64.media.tumblr.com/3c65cfcce26a4a3c6d28e417178ece0f/0043511a90fe19f3-52/s540x810/fd8df67d0d3d2b4ce194d59193956201af56b75e.gif",
             "https://64.media.tumblr.com/40a68df9fbed353443205ed4313017f2/0043511a90fe19f3-e7/s540x810/cbdcee960ae154de1f37203dcaa98f8e6b34de36.gif",
             "https://64.media.tumblr.com/cec453333b277d85cc3404adcf73adb8/0043511a90fe19f3-d0/s540x810/8e5cac4759758432b1db7d3dd48e98413707a389.gif",
-            "https://64.media.tumblr.com/0cca17ff06d0c0971d5c00f8e2f88bdf/302e44f76695bfda-f2/s500x750/ab3890ac761859835f1e07b0f566bcb3d05ccd1d.gif"]
+            "https://64.media.tumblr.com/0cca17ff06d0c0971d5c00f8e2f88bdf/302e44f76695bfda-f2/s500x750/ab3890ac761859835f1e07b0f566bcb3d05ccd1d.gif",
+            "https://64.media.tumblr.com/b5e341a5523f0a6c0a6d76ab0fd21dbf/4309018eb7801b4e-8f/s540x810/55b7a1096baf691c786c15dd4807ed653957625d.gif",
+            "https://64.media.tumblr.com/aca287776d12d3b17cc957d6e0ff3c2c/4309018eb7801b4e-78/s540x810/219da63a810c38774a136e66fdeff5f269df359b.gif",
+            "https://64.media.tumblr.com/878a3f06d885539d2563d46d7009c84a/4309018eb7801b4e-c9/s540x810/bfc751faaebfe3c6626b848744aeb443559b89cf.gif"]
 
         self.bot.nct_127_ot9_gif = ["https://tenor.com/view/nct-127-gif-14185973",
             "https://tenor.com/view/singing-%EC%97%94%EC%94%A8%ED%8B%B0127-nct127-touch-dancing-gif-16429761",
