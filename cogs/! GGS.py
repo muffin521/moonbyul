@@ -1779,7 +1779,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812886",
             "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812885",
             "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812882",
-            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812884"]
+            "https://tenor.com/view/taeyeon-snsd-girlsgeneration-kimtaeyeon-gif-20812884",
+            "https://64.media.tumblr.com/0e0561bdf2746593114ea2ac27dfdab8/27d6267e1018586e-55/s400x600/27d0953798ac2e90e42a189cdc9b8172be51f091.gif",
+            "https://64.media.tumblr.com/846102f5029792423cf9d86471abd29f/27d6267e1018586e-01/s400x600/585028a12391570883b7f2157e6dcc6890b6f87c.gif",
+            "https://64.media.tumblr.com/174490efcbe64cde24dd8f3afcde941a/27d6267e1018586e-aa/s400x600/31b09c7e6a7b0a0ca67dcba81b6dbf55d80d7217.gif",
+            "https://64.media.tumblr.com/b10d4a6284fd3cb06ee85653af261c45/27d6267e1018586e-e9/s400x600/c9704f4e8a316add2803ab152853a2a596c2a8df.gif"]
     #. Weki Meki
         self.bot.wekimeki_doyeon_gif = ["https://tenor.com/view/doyeon-wekimeki-gif-18867883",
             "https://cdn.discordapp.com/attachments/800224052312277003/800555413023752212/45071c5422735c1e97f162ec1cf15cbf.gif",
