@@ -235,7 +235,10 @@ class gamerPings(commands.Cog):
             "https://tenor.com/view/jieqiong-eating-kyulkyung-zhou-jieqiong-pinky-gif-20447419",
             "https://tenor.com/view/kyulkyung-pinky-jieqiong-joo-zhou-gif-10185730",
             "https://tenor.com/view/gugudan-mina-kang-kang-mina-ioi-gif-16253290",
-            "https://tenor.com/view/gugudan-mina-kang-mina-kang-ioi-gif-16253312"]
+            "https://tenor.com/view/gugudan-mina-kang-mina-kang-ioi-gif-16253312",
+            "https://64.media.tumblr.com/eb5cd5c709860470f0cdd56e33ea0063/cf4b1c921af85a3b-fd/s540x810/ef577ca86ad6d060c6e195ee6607ffdbea4daf01.gif",
+            "https://64.media.tumblr.com/40d7ef6a87acf1caac4b67387072ff31/cf4b1c921af85a3b-8c/s540x810/cadf8b001eebfe4cc20bf9c4d814f3b4275700e6.gif",
+            "https://64.media.tumblr.com/e0e6625d000dc489d15ed3bc1f001d01/cf4b1c921af85a3b-9c/s540x810/399d24d6e0089289ef1f486942bef40e0b963bd8.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",

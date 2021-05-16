@@ -524,7 +524,11 @@ class SoloPings(commands.Cog):
             "https://cdn.discordapp.com/attachments/811453123267657739/818296348042067978/16c7c180-328a-470d-b19e-8e0a86491144.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/818522280513503272/Tumblr_l_1093819102434770.gif",
             "https://cdn.discordapp.com/attachments/811453123267657739/818522934837772328/Tumblr_l_1093984449994811.gif",
-            "https://cdn.discordapp.com/attachments/811453123267657739/818523168313573416/Tumblr_l_1094056768268794.gif"]
+            "https://cdn.discordapp.com/attachments/811453123267657739/818523168313573416/Tumblr_l_1094056768268794.gif",
+            "https://64.media.tumblr.com/3e3d6667894ec560a7742c71462c42be/b4b4b1a3499b8e57-94/s540x810/05a5fcea697da9e1f24d07e1d50b719d27a3fd86.gif",
+            "https://64.media.tumblr.com/cd587723a8e6c8f0c82fb3667941f602/b4b4b1a3499b8e57-38/s540x810/eb905b1d5be3de13c5b10d404972ef1e470f3ca8.gif",
+            "https://64.media.tumblr.com/f71e764822619a3a5d41c86717e02412/b4b4b1a3499b8e57-fe/s540x810/64f3a887780acd23e1626de494300a902264141a.gif",
+            "https://64.media.tumblr.com/ea13d1fad6b3ad66c15b727e1e2f437e/b4b4b1a3499b8e57-dc/s540x810/894cd1ca8f60b8b9cc955324253549d49deea53e.gif"]
 
         self.bot.woodz_gif = ["https://tenor.com/view/cho-seungyoun-seungyoun-jo-seung-yeon-seung-yeon-%EC%8A%B9%EC%97%B0-gif-14259988",
             "https://tenor.com/view/woodz-uniq-choseungyoun-gif-20298646",

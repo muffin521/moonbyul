@@ -2618,7 +2618,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235619064971323/822445252668948530/Tumblr_l_239399224563101.gif",
             "https://cdn.discordapp.com/attachments/813235619064971323/822445253637570611/Tumblr_l_239397973464039.gif",
             "https://cdn.discordapp.com/attachments/813235619064971323/822445255206502467/Tumblr_l_239400507954663.gif",
-            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif"]
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif",
+            "https://64.media.tumblr.com/5aefdcc4759f061c0d3402d648f3fd79/tumblr_oj0z5oDuOU1rj32yro10_400.gif",
+            "https://64.media.tumblr.com/85378f20af7d624b5bfc3cb4e60ed8c3/tumblr_oj0z5oDuOU1rj32yro8_400.gif",
+            "https://64.media.tumblr.com/a8e366f43a0d65b0a2b951a7faf82cea/tumblr_oj0z5oDuOU1rj32yro6_400.gif"]
 
         self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
             "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
@@ -2663,7 +2666,14 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/822445305169575976/Tumblr_l_239391294710708.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/822445305957449758/Tumblr_l_239389382270188.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/822445306539933726/Tumblr_l_239388140540188.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif",
+            "https://64.media.tumblr.com/ebaec6c60bb037a228961506ad13d848/0a69437c0d60a6cc-63/s540x810/4a87b349fdf4577495ab2f860475110107421590.gif",
+            "https://64.media.tumblr.com/fb5a9d682de6b20956f1d05332555e95/0a69437c0d60a6cc-47/s540x810/828eabccc93d67e8fbab9625b7ec8434b46aa23f.gif",
+            "https://64.media.tumblr.com/71c1def77905fed58511ec5572c8a58b/0a69437c0d60a6cc-4a/s540x810/1bfd48f46b6b67a42cf4c677a74a590d4c8c1b74.gif",
+            "https://64.media.tumblr.com/0f63f8744d35adbcc9596bbd28d780b9/f990372a593d86aa-b6/s400x600/eb4ab9589af012bfd5b29358c763e16af4f086f1.gif",
+            "https://64.media.tumblr.com/4b47e41b7c5b9a5cc5c89728a9591284/f990372a593d86aa-37/s400x600/158a33ce208b55973cdcdccea274f1f46b87a1e9.gif",
+            "https://64.media.tumblr.com/0fd2a151df5643efe5d476448d458aa4/f990372a593d86aa-b8/s400x600/6665e26bbf607074d09dbaf4b70b1a2ff258c11d.gif",
+            "https://64.media.tumblr.com/fdccda76c714bbffee56270e689b598e/f990372a593d86aa-82/s400x600/b186513862213fe49ef9393efc8be970841ccb14.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
@@ -2672,7 +2682,15 @@ class BGS(commands.Cog):
             "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
             "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
             "https://cdn.discordapp.com/attachments/813235536469688320/818522920153907200/Tumblr_l_1093983344508301.gif",
-            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif"]
+            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif",
+            "https://64.media.tumblr.com/eb5cd5c709860470f0cdd56e33ea0063/cf4b1c921af85a3b-fd/s540x810/ef577ca86ad6d060c6e195ee6607ffdbea4daf01.gif",
+            "https://64.media.tumblr.com/40d7ef6a87acf1caac4b67387072ff31/cf4b1c921af85a3b-8c/s540x810/cadf8b001eebfe4cc20bf9c4d814f3b4275700e6.gif",
+            "https://64.media.tumblr.com/e0e6625d000dc489d15ed3bc1f001d01/cf4b1c921af85a3b-9c/s540x810/399d24d6e0089289ef1f486942bef40e0b963bd8.gif",
+            "https://64.media.tumblr.com/f50772bc91d597f639f6fcb51be216ad/b17f859a97faa108-5b/s540x810/ee278f0a44f2a33fe30678321e84c30815715638.gif",
+            "https://64.media.tumblr.com/c27188cad37bdd9570d790f62b49ef4c/b17f859a97faa108-d2/s540x810/21be7b411b7e9800337995d6d8a906e7bcb5fa19.gif",
+            "https://64.media.tumblr.com/24f47bdcd859862c246fc9e63d85a9d5/b17f859a97faa108-2e/s540x810/fda6fe5b735bbc1f11ddc3e12a8be7ffb63093dc.gif",
+            "https://64.media.tumblr.com/9688f84728057e02b588bcab4032513c/bd2d4f984c18d23f-6a/s540x810/2ebb54b1e810bcea0b0da079f48e91345b1d2a42.gif",
+            "https://64.media.tumblr.com/1ebd711240304f7d1d0831df126a6fb6/bd2d4f984c18d23f-58/s540x810/05964b8ed5776bf3505a039a6d291e5bc35a2848.gif"]
 
         self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
             "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
@@ -2692,7 +2710,12 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif",
             "https://cdn.discordapp.com/attachments/813287404311412786/818522362231914506/Tumblr_l_1093874306738030.gif",
             "https://cdn.discordapp.com/attachments/813287404311412786/818522363137622026/Tumblr_l_1093873282275530.gif",
-            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif"]
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif",
+            "https://64.media.tumblr.com/b86a9f2ed1aa63fd197c1de0f9eade9c/83b090ab7fd9884a-37/s540x810/dbcf17618ee28e4bee57250dc03dd04e366eee2a.gif",
+            "https://64.media.tumblr.com/ee31fdb2db7b04f0c6adffa01710badf/83b090ab7fd9884a-a2/s540x810/a7973b299d0967a5912fa712e0351960e3f9d525.gif",
+            "https://64.media.tumblr.com/2aba47cecec412f3a6604a49476f6f22/83b090ab7fd9884a-3d/s540x810/d58383ba7377724c98896567a9e22e0fbf4f3b36.gif",
+            "https://64.media.tumblr.com/2540b36efbe29f26f8d4227edcc21a15/83b090ab7fd9884a-ee/s540x810/95d76579b9141a5ae9f75bb083fd3e769ea455e2.gif",
+            "https://64.media.tumblr.com/ee6fce50620d8d92ccd9323b779a6d2c/83b090ab7fd9884a-82/s540x810/bf79bedbbfec8ce5e2f860600b2f0b6bcc81ee08.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
