@@ -1836,7 +1836,17 @@ class GGS(commands.Cog):
             "https://gfycat.com/grippingwarmheartedindochinesetiger-mechabear-weki-meki-doyeon-kpop",
             "https://gfycat.com/euphoricmessyleafhopper",
             "https://thumbs.gfycat.com/JadedSparklingFrogmouth-size_restricted.gif",
-            "https://tenor.com/view/kpop-ioi-dazzle-weki-meki-kim-doyeon-gif-16418994"]
+            "https://tenor.com/view/kpop-ioi-dazzle-weki-meki-kim-doyeon-gif-16418994",
+            "https://64.media.tumblr.com/8370b059a3e7bb18de0643eae68d6e59/610d11cd1b60a720-3c/s400x600/7a47099c3274c75adf76b212b27854e94c1be3d9.gif",
+            "https://64.media.tumblr.com/8a4f25aa0bda961ba95d4ada59f6ff93/610d11cd1b60a720-41/s400x600/59f3b4b6ac07c7ea0f88bc8c0fe506161721e099.gif",
+            "https://64.media.tumblr.com/ffbe6e6691e461a07dc90a8219382a2a/610d11cd1b60a720-31/s400x600/e532e4839e79359c1e800ac6ac746cf6632e3de9.gif",
+            "https://64.media.tumblr.com/23fdb107daf843884c46be4990c2c7a9/610d11cd1b60a720-e7/s400x600/df7ef953598d301c1913ad8ab5496e7cbd70fe5c.gif",
+            "https://64.media.tumblr.com/d22f31f3161e0338c0b145cfe45857f7/4f6dcab18df4df2b-1b/s540x810/e86e96e160dfdc408a0c1d25d0d4f168525093c5.gif",
+            "https://64.media.tumblr.com/504f878b4b34dfc70171bcfbccd04650/4f6dcab18df4df2b-85/s540x810/b4dfec86e0f21a31aea4fefe4e6e6ae36f87ae88.gif",
+            "https://64.media.tumblr.com/1041ac0270bd8bef7a9bfac759047d73/tumblr_prxh3v7Kas1x9fmavo4_400.gif",
+            "https://64.media.tumblr.com/de46c64082689e2be828a3b7bcf3a4fa/tumblr_prxh3v7Kas1x9fmavo1_400.gif",
+            "https://64.media.tumblr.com/4811e09bc02bb3ceb7daef06fd03b7c3/tumblr_prxh3v7Kas1x9fmavo2_400.gif",
+            "https://64.media.tumblr.com/a42952ed57b149ca540f4d9d16afbe75/tumblr_prxh3v7Kas1x9fmavo3_400.gif"]
 
         self.bot.wekimeki_elly_gif = ["https://tenor.com/view/elly-weki-meki-heart-gif-14294213",
             "https://cdn.discordapp.com/attachments/800224106384982027/800557668783357962/original.gif",
@@ -1913,7 +1923,16 @@ class GGS(commands.Cog):
             "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812790",
             "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812791",
             "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812793",
-            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812789"]
+            "https://tenor.com/view/lua-wekimeki-kimsookyung-gif-20812789",
+            "https://64.media.tumblr.com/4d3ac2c084ca812ab2678ef19214b6dc/8cfcae74b31634f7-6f/s250x400/d416bdf6f01f42b3181cff3a611936a05a6d6e55.gif",
+            "https://64.media.tumblr.com/76ba4c55c86ac77a1ba136b18c7c2398/8cfcae74b31634f7-b9/s250x400/00cb01f2115484f970d4e672333ec28f8b7979c5.gif",
+            "https://64.media.tumblr.com/853ee6364fa19ef35fa5b55e044ce40f/8cfcae74b31634f7-14/s250x400/a0fa3c8bba3c21be9bdb5c3820b4c0571fb53835.gif",
+            "https://64.media.tumblr.com/0ef57f1577279f8e6914e63d969541a5/8cfcae74b31634f7-0a/s250x400/31d265827257d02bf538695a2f073a93a79e1c48.",
+            "https://64.media.tumblr.com/b9718a23307da199fded816a990f1d6f/8cfcae74b31634f7-82/s250x400/b97fb6f4fcabe257f63a940e6fca4ee1f660f711.gif",
+            "https://64.media.tumblr.com/9880e822c3d541fc30cf9fb6ad4075c1/8cfcae74b31634f7-57/s250x400/b429ea38ef5ed951f6586e6725196daf416a363a.gif",
+            "https://64.media.tumblr.com/82d8d3088ee37c3177868fd840230868/8cfcae74b31634f7-90/s250x400/0a0f4fe05a183d1120f2e503977e7cfd19abc8eb.gif",
+            "https://64.media.tumblr.com/bc8cb05fcd99729cc350a32162edefbe/8cfcae74b31634f7-36/s250x400/431cd73d025ca285023e00a2dc3b664b5976579a.gif",
+            "https://64.media.tumblr.com/5d50970be228bdbe2f7a797470f70129/8cfcae74b31634f7-d3/s250x400/96546986159269221c81e43398a866bf9dbbe713.gif"]
 
         self.bot.wekimeki_lucy_gif = ["https://gfycat.com/alarmedclutteredbobwhite",
             "https://cdn.discordapp.com/attachments/800224232759754772/800562065613914152/tenor.gif",
@@ -1941,7 +1960,16 @@ class GGS(commands.Cog):
             "https://gfycat.com/dentalkeenamethystsunbird",
             "https://gfycat.com/clearfakehoneycreeper",
             "https://gfycat.com/generousobedientandeancat",
-            "https://gfycat.com/dishonestfargentoopenguin-weki-meki-mechabear-kpop-lucy"]
+            "https://gfycat.com/dishonestfargentoopenguin-weki-meki-mechabear-kpop-lucy",
+            "https://64.media.tumblr.com/66ba80f030804263acb9833273dde050/0409dcd3d744bdb8-33/s250x400/c91d482bc27b09b67bc544f6b8af7421203ec312.gif",
+            "https://64.media.tumblr.com/dbf5fb7b02ccdbd30e1b464ef87ab92d/0409dcd3d744bdb8-79/s250x400/03c01a07a22a553dd390546770d84fe4b61ee0bf.gif",
+            "https://64.media.tumblr.com/536f4aa56240eb91e72cbe330b6cf47c/0409dcd3d744bdb8-65/s250x400/63e75100da71a34df657a84e93aa8d62851e853e.gif",
+            "https://64.media.tumblr.com/0b2096866cee8d8ea02d4f43fcb1e4ac/0409dcd3d744bdb8-22/s250x400/0680d335a335d87bbd35e492c34dd105f385eb2b.gif",
+            "https://64.media.tumblr.com/7f5853593fd34f263d0f4cc11734dfa2/0409dcd3d744bdb8-9c/s250x400/13735054d402e8f567d4efb134b69f521f57e646.gif",
+            "https://64.media.tumblr.com/28951b9cbe11ef7b2f5bddb7806b5842/0409dcd3d744bdb8-9a/s250x400/51025ac75d3e42fe7b66e8ce716142a09387e7ed.gif",
+            "https://64.media.tumblr.com/66c799314daa531702cd5fa3899d92d3/0409dcd3d744bdb8-1e/s250x400/d33aa1cc00ac2c6eaee5d1d75df30472e35c5df8.gif",
+            "https://64.media.tumblr.com/18bbce8529f485e71c262603af69b6d9/0409dcd3d744bdb8-c4/s250x400/4b8db7247425250673c6dcf4c80e0c6d71f58930.gif",
+            "https://64.media.tumblr.com/23c1f2e53652213e19569a0f90ad1231/0409dcd3d744bdb8-7d/s250x400/a0e5c41a07bd8a2f7769e13978dec6dc97d92e73.gif"]
 
         self.bot.wekimeki_rina_gif = ["https://tenor.com/view/rina-weki-meki-kpop-gif-14709543",
             "https://cdn.discordapp.com/attachments/800224289810677821/800562573548191744/dd1e1c2491e3eb9d912ccd214e33145c.gif",
@@ -1972,7 +2000,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rina-weki-meki-kpop-gif-15517847",
             "https://tenor.com/view/rina-weki-meki-kpop-gif-15517810",
             "https://tenor.com/view/rina-weki-meki-kpop-gif-15769868",
-            "https://tenor.com/view/rina-weki-meki-kpop-gif-15433543"]
+            "https://tenor.com/view/rina-weki-meki-kpop-gif-15433543",
+            "https://64.media.tumblr.com/b4070f1a1a733efcf50041981dbc3acd/747f1ec1b79902cc-3b/s500x750/4aefffdbdd9daf995ac012f22fb60bd342a216d3.gif",
+            "https://64.media.tumblr.com/9e050ff45b487e066b07900eb603ab65/747f1ec1b79902cc-de/s500x750/768fd0fbeca04997e03899bc2d17e4afaacb2289.gif",
+            "https://64.media.tumblr.com/dbb7325b99838ab7dd3c92146b8a678f/747f1ec1b79902cc-13/s500x750/2db4464c02356c894578ec4da056bea504b3d58a.gif",
+            "https://64.media.tumblr.com/9bf53ed8c16ea87065424f7dd5849525/747f1ec1b79902cc-1f/s500x750/6f064698d41adf60df181c8ecca9f4df1d0e10b2.gif"]
 
         self.bot.wekimeki_sei_gif = ["https://tenor.com/view/wekimeki-sei-gif-18891261",
             "https://tenor.com/view/wekimeki-sei-gif-18891289",
@@ -2152,7 +2184,11 @@ class GGS(commands.Cog):
             "https://gfycat.com/blackandwhitefelinegemsbuck",
             "https://gfycat.com/acidicobesearchaeopteryx",
             "https://gfycat.com/gentlegeneralbuck",
-            "https://gfycat.com/grossmindlessdwarfrabbit-yoojung-god-rap"]
+            "https://gfycat.com/grossmindlessdwarfrabbit-yoojung-god-rap",
+            "https://64.media.tumblr.com/b623bd88e77054bf1871e08e31929fec/900773d447229341-a5/s400x600/e884ccb266c0ad409bca3c665558767601a5e4c2.gif",
+            "https://64.media.tumblr.com/29e5edadcaa3b2ad9b8f9e39dada0719/900773d447229341-02/s400x600/0bc72739769d354fb0c3ec3ba41216a831337571.gif",
+            "https://64.media.tumblr.com/1efeea37febd2ca4af82c01f1804a9f1/900773d447229341-98/s400x600/196b97fb68cbf88659202efe0b196e697b41a2ec.gif",
+            "https://64.media.tumblr.com/8ada1358013d216c902a31addc625885/900773d447229341-41/s400x600/39f6105345b47ae6672c6462f72ac40f43435c0a.gif"]
     
         self.bot.wekimeki_ot8_gif = ["https://media3.giphy.com/media/Me0qEYrxHn3DaDnqh5/giphy.gif",
             "https://i.pinimg.com/originals/7c/1e/a8/7c1ea8dd2fa44c39a515e25a8970af9f.gif",
