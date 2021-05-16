@@ -126,7 +126,11 @@ class StrayPings(commands.Cog):
             "https://data.whicdn.com/images/345531425/original.gif",
             "https://thumbs.gfycat.com/DearestEasygoingAfricanharrierhawk-size_restricted.gif",
             "https://data.whicdn.com/images/348362470/original.gif",
-            "https://i.pinimg.com/originals/c7/0a/c5/c70ac56225ef4dd2f7781e71b6f1befd.gif"]
+            "https://i.pinimg.com/originals/c7/0a/c5/c70ac56225ef4dd2f7781e71b6f1befd.gif",
+            "https://64.media.tumblr.com/c0d8172e553d147b8a5fc341e80cec72/6ef3c32f09dbe13f-4c/s400x600/91160cf81a357dc68a9e5464e255a657ac2754c7.gif",
+            "https://64.media.tumblr.com/12e77f141f4282f23897c075a43d38df/6ef3c32f09dbe13f-2f/s400x600/04aef0dfe9f1f2119e11cb8e2aefba317e100f71.gif",
+            "https://64.media.tumblr.com/39fe6b073d4ef301364a18dd29b98360/6ef3c32f09dbe13f-ba/s400x600/4358e63456e2ab1a678bf06f910161979d944b03.gif",
+            "https://64.media.tumblr.com/fb0907de72cf5334d89d5b657ab4cf9f/6ef3c32f09dbe13f-f1/s400x600/e821516609fa0376508af6ed94e2a3c6c2bbbb23.gif"]
 
         self.bot.shyunjin_gif = ["https://tenor.com/view/funny-jyp-cute-hyunjincute-hyunjin-gif-13417088",
             "https://tenor.com/view/hyunjin-hyunjin-skz-anyways-skz-stray-kids-gif-18096876",
