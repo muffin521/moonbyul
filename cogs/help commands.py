@@ -19,7 +19,7 @@ class hcommands(commands.Cog):
             "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
             "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
             "Seventeen", "Momoland", "I.O.I", "K.A.R.D.", #// end of groups in old help command
-            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch"]
+            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch", "STAYC"]
 
         self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
         self.groups_list.append("Misc")
