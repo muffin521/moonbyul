@@ -105,7 +105,9 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/4f4342985ba6d30698621b8217538ccf/43c2b04539e85597-cf/s540x810/feae37886b8b9b5a440e2dce61a55705859e1d59.gif",
             "https://64.media.tumblr.com/217c825eec0c87074a199531ff00e04d/eb5cb16b5f2cf999-8a/s400x600/c886010018b05aa0fc19d0e1f2e052b06619f19d.gif",
             "https://64.media.tumblr.com/d80987fb64ee94a3f3719aa5ed3addd5/eb5cb16b5f2cf999-b0/s400x600/c261fc86ef3050b1c70bd6b4435c9693078ed604.gif",
-            "https://cdn.discordapp.com/attachments/802261119900975144/839534238659248189/image0.gif"]
+            "https://cdn.discordapp.com/attachments/802261119900975144/839534238659248189/image0.gif",
+            "https://tenor.com/view/taehyung-butter-v-butter-tae-butter-butter-bts-taehyung-gif-21643116",
+            "https://tenor.com/view/taehyung-bts-bts-butter-tae-being-cool-cool-gif-21643447"]
 
         self.bot.suga_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376996051517460/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376997473255434/image1.gif",
@@ -176,7 +178,9 @@ class BTSPings(commands.Cog):
             "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-suga-min-yoongi-gif-17662409",
             "https://tenor.com/view/suga-cute-min-yoongi-pointing-gif-14815431",
             "https://tenor.com/view/bts-yoongi-suga-sad-gif-14569182",
-            "https://tenor.com/view/yoongishh-yoongi-suga-min-yoongi-shhhh-gif-18584227"]
+            "https://tenor.com/view/yoongishh-yoongi-suga-min-yoongi-shhhh-gif-18584227",
+            "https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-suga-suga-gif-16132778",
+            "https://tenor.com/view/bts-suga-kpop-min-yoongi-boi-makes-me-softer-then-a-marshmallow-gif-12640804"]
 
         self.bot.jhope_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781376181487796224/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781376182888431616/image1.gif",
@@ -596,7 +600,9 @@ class BTSPings(commands.Cog):
             "https://64.media.tumblr.com/a4c20fc2b2e57fe4f84a6cc8e101bd04/4ffc4de125dc0d98-67/s540x810/414c7dc3cf70c3676806269dfb37f69dc9437ed3.gif",
             "https://64.media.tumblr.com/f903113734ba8022441aa04403a68a41/4ffc4de125dc0d98-eb/s540x810/e9919b9ab5c461d186ee37241acc704619d2994d.gif",
             "https://64.media.tumblr.com/e6dad3dba551b357874426e1c43ed68f/db2306d9142d14b4-58/s540x810/f1e299c7b2905c453e1a42fff57ec28cff4bc073.gif",
-            "https://64.media.tumblr.com/95449bbd5526cfcf941e5b525e247a46/db2306d9142d14b4-f1/s540x810/95264ed5026953acb7a03de94196400aa95dd78f.gif"]
+            "https://64.media.tumblr.com/95449bbd5526cfcf941e5b525e247a46/db2306d9142d14b4-f1/s540x810/95264ed5026953acb7a03de94196400aa95dd78f.gif",
+            "https://tenor.com/view/jimin-bts-jimin-bts-butter-bts-butter-gif-21642855",
+            "https://tenor.com/view/butter-bts-bts-butter-jimin-jungkook-gif-21642850"]
 
         self.bot.rm_gif = ["https://cdn.discordapp.com/attachments/781312260118806529/781374090497753098/image0.gif",
             "https://cdn.discordapp.com/attachments/781312260118806529/781374226607112252/image0.gif",
@@ -673,69 +679,37 @@ class BTSPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [BTS {arg}] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
         if arg == "v" or arg == "taehyung" or arg == "kim taehyung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about V :heart:')
-                await ctx.send(random.choice(self.bot.v_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about V :heart:')
+            await ctx.send(random.choice(self.bot.v_gif))
+            await ctx.message.delete()
         elif arg == "suga":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Suga :heart:')
-                await ctx.send(random.choice(self.bot.suga_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Suga :heart:')
+            await ctx.send(random.choice(self.bot.suga_gif))
+            await ctx.message.delete()
         elif arg == "jhope" or arg == "j-hope" or arg == "j hope":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about J-Hope :heart:')
-                await ctx.send(random.choice(self.bot.jhope_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about J-Hope :heart:')
+            await ctx.send(random.choice(self.bot.jhope_gif))
+            await ctx.message.delete()
         elif arg == "jungkook" or arg == "k8":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
-                await ctx.send(random.choice(self.bot.jungkook_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
+            await ctx.send(random.choice(self.bot.jungkook_gif))
+            await ctx.message.delete()
         elif arg == "jin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jin :heart:')
-                await ctx.send(random.choice(self.bot.btsjin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jin :heart:')
+            await ctx.send(random.choice(self.bot.btsjin_gif))
+            await ctx.message.delete()
         elif arg == "jimin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jimin :heart:')
-                await ctx.send(random.choice(self.bot.jimin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jimin :heart:')
+            await ctx.send(random.choice(self.bot.jimin_gif))
+            await ctx.message.delete()
         elif arg == "rm" or arg == "namjoon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about RM :heart:')
-                await ctx.send(random.choice(self.bot.rm_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about RM :heart:')
+            await ctx.send(random.choice(self.bot.rm_gif))
+            await ctx.message.delete()
         elif arg == "ot7":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about BTS :heart:')
-                await ctx.send(random.choice(self.bot.bts_ot7_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about BTS :heart:')
+            await ctx.send(random.choice(self.bot.bts_ot7_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def k8(self, ctx):
@@ -743,13 +717,9 @@ class BTSPings(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [k8] | USER: {ctx.author.name} [{(ctx.author.id)} | GUILD: {ctx.guild.name} [{ctx.guild.id}]]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
-            await ctx.send(random.choice(self.bot.jungkook_gif))
-            await ctx.message.delete()
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Jungkook :heart:')
+        await ctx.send(random.choice(self.bot.jungkook_gif))
+        await ctx.message.delete()
 
 def setup(client):
     client.add_cog(BTSPings(client))
