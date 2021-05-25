@@ -3234,6 +3234,96 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/1923f3616d797a740b8704529c392aea/21567bcbb5151db5-a0/s400x600/673bd42e703736ed79037653817d673efbfd788e.gif",
             "https://64.media.tumblr.com/122ea94f965a079304bd3c2b84f90f77/21567bcbb5151db5-05/s400x600/02eaaf8d64c75f061b029edb5e3e42072c266909.gif",
             "https://64.media.tumblr.com/68d670b72806c6d23b0d423da3f49086/21567bcbb5151db5-56/s400x600/cbae9dce089e0a21dab91a83fccd3054f9dc88ff.gif"]
+    #. woo!ah! 
+        self.bot.wooah_sora_gif = ["https://64.media.tumblr.com/a439437fba6a834312a823138dcfce4d/9058e06b6159be3b-55/s250x400/b96db0a18c3c72df17391d68e86967f62c449033.gif",
+            "https://64.media.tumblr.com/f8a762a74b102ac72bcc2b9f57e6858a/fc690961784c1fa3-67/s250x400/b75ab4f77f9a6e09292af9b6dc82cb9a2cebcaba.gif",
+            "https://64.media.tumblr.com/c1bf6b14a60f8b850bf6b00d2c526ac6/fc690961784c1fa3-68/s250x400/b6dd4d239b58a16699c159845a9ab3a62913b746.gif",
+            "https://gfycat.com/contentannualcalf-wooah-kpop",
+            "https://gfycat.com/misguidedpastelchimneyswift",
+            "https://gfycat.com/ablefearfulgonolek-wooah-sora"]
+
+        self.bot.wooah_wooyeon_gif = ["https://64.media.tumblr.com/d268e1ada29f34e789f256e98e5a6026/ec6182b4d1289333-8d/s400x600/1c87304c1a947a82ae21d6b4fc1c385026b0c26c.gif",
+            "https://64.media.tumblr.com/ea11363f22ad526ad4baf7cd7c2c1559/ec6182b4d1289333-68/s400x600/2aef81437ddd531c383fa4ab0608d44d3755b9f0.gif",
+            "https://64.media.tumblr.com/bfc8131aa9d886bcd9bfe3aa300fd5ab/2b45d5dc8b750408-07/s400x600/adc0a07a8fb194820aaf208064b7f048f6bcd307.gif",
+            "https://64.media.tumblr.com/7bd2a6d6cd5eb83524007b5acff9b76a/2b45d5dc8b750408-2f/s400x600/36008bd660d79b9830d3690599ffb4ec70ea8f38.gif",
+            "https://64.media.tumblr.com/850c3af42b462fcf040b8ddcb60f1d63/2b45d5dc8b750408-85/s400x600/5d8f249d2cff2bd76fb124f5153e45ded8900a60.gif",
+            "https://64.media.tumblr.com/8cced2938541c1a3bef3cdd158a9faab/51d8fc7e7d4a5bec-ea/s250x400/68ca4df6007b6c18af206d8cff92cc5f55788caf.gif",
+            "https://64.media.tumblr.com/bedb8fe83a1add306c90b4c9adb2d1a8/51d8fc7e7d4a5bec-55/s250x400/6b81122e7d11e8b16b316fa12cfb74dce455546d.gif",
+            "https://64.media.tumblr.com/529fc2e863862bd70a0ec35765fab09a/1a759fb210a88261-dd/s400x600/f69ba86e630df6059f42fd0b67845a59e619cc45.gif",
+            "https://64.media.tumblr.com/2e7b9e3c46ee2f3c834784f3e3579d5f/1a759fb210a88261-3f/s400x600/5f7793301a83396bb5096dce2cb3e7c2bf78c7e2.gif",
+            " https://64.media.tumblr.com/3b872797c7b266945a7688a574d77224/1a759fb210a88261-41/s400x600/35b8e66b79209e601b15b2190b7394946326e5dc.gif",
+            "https://64.media.tumblr.com/ade698ac1db0387a28cd806da74d9c7f/2a24c41519b0ef21-0c/s400x600/c4928a05f9d21ea658c0aa48a2970ce0b67fab53.gif",
+            "https://64.media.tumblr.com/597870d4f1aa381eb4ba9f4ac14c892f/2a24c41519b0ef21-15/s400x600/5791f0a5a52fac6dfacf9aba6343199c9aa0c070.gif",
+            "https://gfycat.com/esteemedyawningharvestmen-mechabear-wooyeon-wooah-kpop",
+            "https://gfycat.com/easygoingindeliblehorseshoecrab-mechabear-wooyeon-wooah-kpop",
+            "https://gfycat.com/glassgiantcurlew-mechabear-wooyeon-wooah-kpop",
+            "https://gfycat.com/charmingheavenlyamericankestrel-bad-girl-wooyeon-wooah",
+            "https://gfycat.com/wavygiddydodobird-wooyeon-wooah",
+            "https://gfycat.com/ajarvictoriousasianconstablebutterfly-wooyeon-wooah",
+            "https://gfycat.com/evilseparateelephantbeetle-wooyeon-wooah",
+            "https://gfycat.com/filthyneighboringafricanwilddog-wooyeon-wooah",
+            "https://gfycat.com/poorrealirukandjijellyfish-wooyeon-wooah",
+            "https://gfycat.com/immateriallastingblackrhino-wooyeon-wooah",
+            "https://gfycat.com/acclaimedviciousanura-wooyeon-wooah-kpop",
+            "https://gfycat.com/anchoredjoyousamericantoad-wooyeon-wooah-kpop",
+            "https://64.media.tumblr.com/d8181409ef4fdec1c824ede333c6768a/f90307eaa0f7a976-2e/s400x600/ec060569d00c9d74504989650d5518bb9328edb8.gif",
+            "https://64.media.tumblr.com/4614abc8cd700365344865bc0251f03e/f90307eaa0f7a976-80/s400x600/05075bcaebbcbd5d2a131964649cc92b0e8b057a.gif",
+            "https://64.media.tumblr.com/e60e5242f738eeb0f99cb34e5296b9f4/f90307eaa0f7a976-c0/s400x600/5eba5ae4487a16e592419254015bd3146b197d49.gif",
+            "https://64.media.tumblr.com/fac62b75bc22d8053a92d5c7d48c5e41/f90307eaa0f7a976-dc/s400x600/9b83bbf17fa40875e829f6a751f2da0ffc1ed604.gif",
+            "https://64.media.tumblr.com/d268e1ada29f34e789f256e98e5a6026/ec6182b4d1289333-8d/s540x810/082672217e15b07fb6f3448b0562268ffbd7db4b.gif",
+            "https://64.media.tumblr.com/ea11363f22ad526ad4baf7cd7c2c1559/ec6182b4d1289333-68/s540x810/19b3b3af4d173726a4d1439b07e3afbc76e67e4d.gif"]
+
+        self.bot.wooah_nana_gif = ["https://64.media.tumblr.com/eb1c7ccac53a85d246d634f62db1990d/7fc8a33039076676-e4/s250x400/ffb6b435550caff1d601fc5595d610f14f035c1a.gif",
+            "https://64.media.tumblr.com/d76bf138f24f69601a98aa9834a4d10a/7fc8a33039076676-a5/s250x400/9d37bc480b433e45d8bf8f464a674f5e5547a94b.gif",
+            "https://64.media.tumblr.com/c27230a12aae0d605011ce0292793599/7fc8a33039076676-72/s250x400/823810013e66eeeb8e4b056e68dc03c26c838003.gif",
+            "https://64.media.tumblr.com/4b6ad801cd8d6e8e81d70ef56fb7fb69/7fc8a33039076676-f1/s250x400/16b8ef609d2d1e8f41b9e392605bfe665ea788a1.gif",
+            "https://64.media.tumblr.com/dfd7ed61e64e9e44d197a9ee1dbdd7e0/e0f8a9bba13aaf81-f0/s250x400/d30bd2be5da1cd6b661a9bad6bf5b32407fc08d2.gif",
+            "https://64.media.tumblr.com/b689ee0ffe1e16265d2bcf054832140a/e0f8a9bba13aaf81-08/s250x400/d73eebfd5d5a45d7159fd1f2992eac38832b2821.gif",
+            "https://64.media.tumblr.com/13dc970e3362828be59c99a22661478d/94e4968f7c78bf7f-70/s400x600/3be08a996dca6577606b4cf72c74c471af4aefcc.gif",
+            "https://64.media.tumblr.com/20c9ee07b9875080741ed84b76f1a042/94e4968f7c78bf7f-5e/s400x600/a4060be04fd8416652226da02b0435eb1cff63a3.gif",
+            "https://64.media.tumblr.com/4f940aaa5dc347244b12099e70fab820/94e4968f7c78bf7f-30/s400x600/6caf3ba9fb457ec562b2f2414ebbc09f0bc746a6.gif",
+            "https://gfycat.com/distantelaborategalapagosalbatross-wooah-nana",
+            "https://gfycat.com/zealousbeneficialgalapagosdove-wooah-nana",
+            "https://gfycat.com/deadlyequatorialdowitcher-wooah-nana",
+            "https://gfycat.com/baresorrowfularawana-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/idealfarflungbluebottle-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/somesilverdodo-wooah-kpop",
+            "https://gfycat.com/jubilantvioletjunco-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/dimwittedforthrightauklet-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/rapidadmirableburro-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/limpadorableindianrhinoceros",
+            "https://gfycat.com/generalscrawnyethiopianwolf",
+            "https://gfycat.com/raggedconventionalfowl",
+            "https://gfycat.com/poisedbelovedgraywolf",
+            "https://gfycat.com/colossalwateryhartebeest-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/accomplishedthreadbarefennecfox-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/adorablejaggedantbear-mechabear-wooah-nana-kpop",
+            "https://gfycat.com/bonyillustriousdromedary-mechabear-wooah-nana-kpop"]
+
+        self.bot.wooah_lucy_gif = ["https://64.media.tumblr.com/ae00afd84dc4b92bac1409b628a93d13/ae196ecc8c864042-e5/s250x400/dc38f574055e33a888a6068270d1831447a100a7.gif",
+            "https://64.media.tumblr.com/deb81ae8b48bf95eb3edab490c521260/ae196ecc8c864042-c7/s250x400/d51f67e2e2520b73487eb19760dda39a7200ab67.gif",
+            "https://64.media.tumblr.com/b174c2e9e6c4a455aa71755d214d1240/7bc8ccd0561a41d8-f2/s250x400/8fb9c192f8ee490303e9bed56d01740c969f4eb9.gif",
+            "https://64.media.tumblr.com/87bc41d1e3ceda3123d402ac49d946bc/7bc8ccd0561a41d8-30/s250x400/67a903e628f55d12d04e89bc7bbaa694da89467c.gif",
+            "https://64.media.tumblr.com/d339fab17bc4b7a08b29ae3a537df71b/7bc8ccd0561a41d8-2a/s250x400/a8001674a460b886902d4a6b6b0b16fbe14fed0f.gif",
+            "https://64.media.tumblr.com/99d189d1551395371cfb31cb8a1dcdd2/7bc8ccd0561a41d8-88/s250x400/5e2e16aadf3f657e4c9d5cd03f829bbbc3a2cce7.gif",
+            "https://gfycat.com/bountifulcomfortableamericancrayfish",
+            "https://tenor.com/view/wooah-lucy-wooah-lucy-shoulder-dance-gif-19608355",
+            "https://tenor.com/view/wooah-lucy-surprised-money-gun-gif-21053995"]
+
+        self.bot.wooah_minseo_gif = ["https://64.media.tumblr.com/529fc2e863862bd70a0ec35765fab09a/1a759fb210a88261-dd/s400x600/f69ba86e630df6059f42fd0b67845a59e619cc45.gif",
+            "https://64.media.tumblr.com/2e7b9e3c46ee2f3c834784f3e3579d5f/1a759fb210a88261-3f/s400x600/5f7793301a83396bb5096dce2cb3e7c2bf78c7e2.gif",
+            " https://64.media.tumblr.com/3b872797c7b266945a7688a574d77224/1a759fb210a88261-41/s400x600/35b8e66b79209e601b15b2190b7394946326e5dc.gif",
+            "https://64.media.tumblr.com/37540d25e8be33ed8e2aeb79ecf241ca/f805deab515c3f42-4f/s250x400/b385c27666b50c4d7ebf7bb2f567148c8cc0215b.gif",
+            "https://64.media.tumblr.com/b9de69c21700a41d6d18536b24fe24d3/f805deab515c3f42-93/s250x400/09cd0e81254d132b9b2c32da234dfe29662e6599.gif",
+            "https://64.media.tumblr.com/9f0c5151f395b370bea161e22795cf6f/f805deab515c3f42-85/s250x400/0c45ac71d84cf9a7d1c1ffcf63fd2e8acbbf633c.gif",
+            "https://64.media.tumblr.com/3733cc4219edebdb3a2702b811f2be48/f805deab515c3f42-17/s250x400/f135c1f65d6d3644f7b1f3cf710f46914e5e566a.gif",
+            "https://64.media.tumblr.com/ccac34db4a1e7705fd630fc7da51b1d6/aae4d5f07788e366-ca/s250x400/4fa015d5198e0bbbdadbfda09e799e523ea1adf2.gif",
+            "https://64.media.tumblr.com/eca14544b9788840284f9145534b545d/aae4d5f07788e366-26/s250x400/5611951bc5ca22b3b13eb9da3dd479bdedf928cd.gif",
+            "https://64.media.tumblr.com/ea1911a2e4ac4ccc4d905e13314a5c31/aae4d5f07788e366-64/s250x400/9da2d4cb56f191470f405f4208a55e3f8c47fa52.gif",
+            "https://64.media.tumblr.com/b1b5349eeba3b843e19b9d2f8b2911d2/aae4d5f07788e366-b8/s250x400/35bf8c4d5cce780bfc82f7dfee7cde240c4d1477.gif",
+            "https://gfycat.com/discreteblindiberianemeraldlizard-minseo-wooah",
+            "https://gfycat.com/leandisfigureddassie-minseo-wooah",
+            "https://gfycat.com/activedevotedamphibian-minseo-wooah"]
     #. end of gifs
 
     @commands.command()
@@ -3698,7 +3788,32 @@ class GGS(commands.Cog):
             await ctx.send(random.choice(self.bot.wjsn_group_gif))
             await ctx.message.delete()
 
-    
+    @commands.command(aliases = ['woo!ah!'])
+    async def wooah(self, ctx, *, arg = "group"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [woo!ah! {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "sora":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Sora :heart:') 
+            await ctx.send(random.choice(self.bot.wooah_sora_gif))
+            await ctx.message.delete()
+        elif arg == "wooyeon":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Wooyeon :heart:') 
+            await ctx.send(random.choice(self.bot.wooah_wooyeon_gif))
+            await ctx.message.delete()
+        elif arg == "nana":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Nana :heart:') 
+            await ctx.send(random.choice(self.bot.wooah_nana_gif))
+            await ctx.message.delete()
+        elif arg == "lucy":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Lucy :heart:') 
+            await ctx.send(random.choice(self.bot.wooah_lucy_gif))
+            await ctx.message.delete()
+        elif arg == "minseo":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Minseo :heart:') 
+            await ctx.send(random.choice(self.bot.wooah_minseo_gif))
+            await ctx.message.delete()
 
     
 
