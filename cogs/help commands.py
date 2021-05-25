@@ -31,7 +31,7 @@ class hcommands(commands.Cog):
     @commands.command(aliases = ['g', 'groups'])
     async def group(self, ctx, *, arg = "DEFAULT"):
         now = datetime.now()
-        channel = ctx.bot.get_channel(self.bot.logs)
+        channel = ctx.bot.get_channel(self.client.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [group {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         embed1 = discord.Embed(
