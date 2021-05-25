@@ -423,7 +423,10 @@ class GGS(commands.Cog):
             "https://gfycat.com/AstonishingNimbleAlbacoretuna",
             "https://gfycat.com/ReasonableQuestionableGrouper",
             "https://gfycat.com/FrightenedFloweryEwe",
-            "https://gfycat.com/ConstantSmartLacewing"]
+            "https://gfycat.com/ConstantSmartLacewing",
+            "https://64.media.tumblr.com/9b604a35a8024e515163572809083b4b/1707e4559d12720f-38/s540x810/4dd8ca4d89514d6783092e71caf1da55ce407789.gif",
+            "https://64.media.tumblr.com/55cf9eb071298d478b7adf7bb0e3cead/1707e4559d12720f-68/s540x810/a4b3b306b6dafafac1aba7023d39ca961d11606e.gif",
+            "https://64.media.tumblr.com/2df31c2ebe7768f718ad5915118ce185/1707e4559d12720f-fe/s540x810/a30bdd7042f9f2d210410fe967077415014cb309.gif"]
 
         self.bot.dreamcatcher_handong_gif = ["https://tenor.com/view/dreamcatcher-handong-gif-18881069",
             "https://cdn.discordapp.com/attachments/795585170974834728/800503987455524914/97ebb09a06e49b03cd687ede3b1f5d0e.gif",
