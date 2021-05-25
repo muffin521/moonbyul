@@ -307,7 +307,10 @@ class IdlePings(commands.Cog):
             "https://64.media.tumblr.com/bbcf683669caadf9296b9ae28e35f8a5/7984be3a2eb87cbe-54/s400x600/49f7ba39adc849785d519d042d4189d66b63aed4.gif",
             "https://64.media.tumblr.com/bbcf683669caadf9296b9ae28e35f8a5/7984be3a2eb87cbe-54/s400x600/49f7ba39adc849785d519d042d4189d66b63aed4.gif",
             "https://64.media.tumblr.com/6f1ad8680ed885d342b1684eb5afdefa/7984be3a2eb87cbe-58/s400x600/04025302919f07afa99c91e4279abb0e5f5cf8e2.gif",
-            "https://64.media.tumblr.com/177876a55b2a0c1f430f05cf534e18f9/7984be3a2eb87cbe-20/s400x600/05251294ae3e8fcee0ea4cc6a2a5b232ca101205.gif"]
+            "https://64.media.tumblr.com/177876a55b2a0c1f430f05cf534e18f9/7984be3a2eb87cbe-20/s400x600/05251294ae3e8fcee0ea4cc6a2a5b232ca101205.gif",
+            "https://64.media.tumblr.com/289b8b9e13e9a94632408d799fb65f5e/b3422de3ee7f4c33-ac/s400x600/be3201ffdb0ddb21585232ad94fd1967cad25d3e.gif",
+            "https://64.media.tumblr.com/2d08d43bc3b45f7c5fa7d0d95fa23be0/b3422de3ee7f4c33-16/s400x600/477d79b7a0f882d7d6c12f3b13ce7722b0c9b063.gif",
+            "https://64.media.tumblr.com/6be77efcbdbb111e72e1c7a84e055329/b3422de3ee7f4c33-81/s400x600/0f2fd3cf1b8a830ed89dbb4d41fff852473b2747.gif"]
 
         self.bot.yuqi_gif = ["https://tenor.com/view/%EC%95%84%EC%9D%B4%EB%93%A4-%EC%9A%B0%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%95%84%EC%9D%B4%EB%93%A4-g-idle-yuqi-gif-16254335",
             "https://tenor.com/view/yuqi-heart-cute-gif-13344124",
