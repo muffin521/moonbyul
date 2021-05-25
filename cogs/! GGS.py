@@ -2530,7 +2530,15 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/2e10c618105e45cad2cc529703fcd759/084a34be0379b52d-a9/s400x600/0fa4f0bfdc9d9b8cacd16702d5f92b46cb16c306.gif",
             "https://64.media.tumblr.com/aff8fb0c385fc61d7ed75e33ef09550b/084a34be0379b52d-e2/s400x600/cbe0dfd5cd501f53e6bc4fb630d1d14f916e5b9c.gif",
             "https://64.media.tumblr.com/d0247e865c87f99ba0e512e1c9a1c47b/084a34be0379b52d-5a/s400x600/e3c272cda938bfbeae33afb5bbb3f38a30ac9d2f.gif",
-            "https://64.media.tumblr.com/f852a29b742d7cde2f9c68abb95a3159/084a34be0379b52d-f8/s400x600/fd356f3018486044beb4b90b1adb3c4178766e62.gif"]
+            "https://64.media.tumblr.com/f852a29b742d7cde2f9c68abb95a3159/084a34be0379b52d-f8/s400x600/fd356f3018486044beb4b90b1adb3c4178766e62.gif",
+            "https://gfycat.com/infinitealtruisticamazontreeboa",
+            "https://gfycat.com/naivesentimentalandalusianhorse",
+            "https://gfycat.com/emotionalunrealisticharborseal",
+            "https://gfycat.com/metallicregularcony",
+            "https://gfycat.com/creamyregulardragon",
+            "https://gfycat.com/icycaninehornedtoad",
+            "https://gfycat.com/fragrantdifficultladybug",
+            "https://gfycat.com/quickhugeagama"]
 
         self.bot.wjsn_cheng_xiao_gif = ["https://tenor.com/view/surprised-shocked-cheng-xiao-gif-12031984",
             "https://tenor.com/view/cheng-xiao-heart-heart-shape-love-shape-gif-12031978",
@@ -2746,7 +2754,12 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/423a7d9dee3a6ae1001e07a40a357063/bb22d68b5b3b4450-6f/s400x600/461f07b564a94c39cb15a8fefd9bba6594201b5a.gif",
             "https://64.media.tumblr.com/7e8a62c12abdc9dac26627c1f24a642c/bb22d68b5b3b4450-31/s400x600/a61b95df1c637150521647efd21c03c9e8991d35.gif",
             "https://64.media.tumblr.com/ab17b27dd0e8cb7df64d6dd4bd37ca2c/bb22d68b5b3b4450-4f/s400x600/0dd8edddad002aa703bb71b763866ea188d85aca.gif",
-            "https://64.media.tumblr.com/ea04576bf9ffe0b35c728b41dab67e7f/bb22d68b5b3b4450-b9/s400x600/d38ae478a12c1599887785fb80f67949707dfda4.gif"]
+            "https://64.media.tumblr.com/ea04576bf9ffe0b35c728b41dab67e7f/bb22d68b5b3b4450-b9/s400x600/d38ae478a12c1599887785fb80f67949707dfda4.gif",
+            "https://gfycat.com/wholesinfulfruitbat",
+            "https://64.media.tumblr.com/c117d76693e8929f6554e5064f63fa1c/0028f9a8ae33a258-7b/s400x600/5136d35abb2396214a17fca910812a0c0adf26d5.gif",
+            "https://64.media.tumblr.com/ef237b20835095adffdd19a560e0a506/0028f9a8ae33a258-95/s400x600/919dbc357c0cc239de75a50836ad6dc1962f43c4.gif",
+            "https://64.media.tumblr.com/ce0207989dfdb9e05555d017502d30ef/0028f9a8ae33a258-3c/s400x600/8f6869abab8d915a2f8058bc6dc518fb1f60d094.gif",
+            "https://64.media.tumblr.com/6771dd25cb99a6656e52312d8aa68221/0028f9a8ae33a258-fa/s400x600/d47a32bdac0eff35cf72282736cd17f57d7f4d8b.gif"]
 
         self.bot.wjsn_exy_gif = ["https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-kiss-gif-17356005",
             "https://tenor.com/view/exy-wjsn-kpop-cosmic-girls-good-job-gif-17356001",
@@ -3028,7 +3041,10 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/2a82512a6898efc723064cf1adc3659c/a432552472a26278-32/s400x600/4996d898c41664f962cb52c680f0e0751f9bacd7.gif",
             "https://64.media.tumblr.com/336929328c078046670167a5e1bf6530/a432552472a26278-ee/s400x600/5d10850ac4bcc5b2265a24b04d6efbd736f684d0.gif",
             "https://64.media.tumblr.com/f0ba4982aca94fe99a29dcd284290f2f/a432552472a26278-c8/s400x600/6a9e500072c171b438d556844aabcf68ad9008e6.gif",
-            "https://64.media.tumblr.com/5a6f32901e5ee5529c2d80a423a19232/a432552472a26278-1d/s400x600/16322bc05ab1c36721630aa5fff49f18aeb54cd5.gif"]
+            "https://64.media.tumblr.com/5a6f32901e5ee5529c2d80a423a19232/a432552472a26278-1d/s400x600/16322bc05ab1c36721630aa5fff49f18aeb54cd5.gif",
+            "https://gfycat.com/metallicbackgharial",
+            "https://64.media.tumblr.com/0b21786bc0091ae8ce2ae75220254149/5af6e95c6cd54380-63/s540x810/d612dfd6b5b63a2b7197477ff53fbc034813fd26.gif",
+            "https://64.media.tumblr.com/59c358f889c3492fa5b5144e11cc2fa4/5af6e95c6cd54380-5c/s540x810/a0a17404217aee93fc3d09f6178aaecb6502eac8.gif"]
 
         self.bot.wjsn_soobin_gif = ["https://tenor.com/view/soobin-wjsn-k-pop-korean-gif-9989530",
             "https://tenor.com/view/kpop-cosmic-girls-wjsn-soobin-gif-18586007",
