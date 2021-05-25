@@ -35,6 +35,32 @@ class BGS(commands.Cog):
             "https://tenor.com/view/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%A1%9C-astro-kpop-astro-cute-astro-mj-gif-17176426",
             "https://tenor.com/view/rocky-astro-rocky-astro-eunwoo-astro-jinjin-astro-gif-17380951",
             "https://tenor.com/view/mj-astro-excited-eunwoo-happy-gif-17381113"]
+    #. Bae173
+        self.bot.bae173_junseo_gif = ["https://tenor.com/view/%EC%A4%80%EC%84%9C-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-junseo-bae173-debut-trailer-gif-18735860"]
+
+        self.bot.bae173_jmin_gif = ["https://cdn.discordapp.com/attachments/840055171823960084/840573158549487656/image0.gif"]
+
+        self.bot.bae173_hangyul_gif = ["https://cdn.discordapp.com/attachments/840055217562583070/840573235652460554/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840573236026933258/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840573236302708786/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840576166397739028/image0.gif"]
+
+        self.bot.bae173_yoojun_gif = ["https://cdn.discordapp.com/attachments/840055247157854208/840576103646625832/image0.gif"]
+
+        self.bot.bae173_muzin_gif = ["https://cdn.discordapp.com/attachments/840055275318018069/840575377733845012/image0.gif"]
+
+        self.bot.bae173_youngseo_gif = ["https://cdn.discordapp.com/attachments/840055304698855454/840576066922086400/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055304698855454/840576067319758868/image1.gif"]
+
+        self.bot.bae173_bit_gif = ["https://tenor.com/view/bit-bae173-noh-minjae-minjae-%EB%B9%9Bbae173-gif-19541271"]
+
+        self.bot.bae173_dohyun_gif = ["https://cdn.discordapp.com/attachments/840055437175947284/840573337917718558/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840573338396786698/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575552728465418/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575553772978186/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575591799324702/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575592176156703/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575602797183036/image0.gif"]
     #. Cravity
         self.bot.cravity_serim_gif = ["https://tenor.com/view/park-serim-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853031",
             "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969322",
