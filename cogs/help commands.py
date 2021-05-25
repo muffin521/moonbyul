@@ -3,6 +3,7 @@ import asyncio
 from discord.ext import commands
 from discord.utils import get
 from random import choice
+from datetime import datetime
 
 description = "All commands start with the prefix [=]\nTo invite Moonbyul to your server, try `=invite`"
 
@@ -29,6 +30,10 @@ class hcommands(commands.Cog):
 
     @commands.command(aliases = ['g', 'groups'])
     async def group(self, ctx, *, arg = "DEFAULT"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [group {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         embed1 = discord.Embed(
             # title = 'Mamamoo Commands',
             # description = description,
