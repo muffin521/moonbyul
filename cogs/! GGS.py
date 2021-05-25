@@ -1349,6 +1349,149 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/172b879e4c51b34c19e5abf6c706b76a/12ec85a793dd0782-dd/s540x810/e52e2e12cab37106f98eb50556a0feea2c54648c.gif",
             "https://64.media.tumblr.com/cb73364b253b4cd5ee8b4d25c14215e8/12ec85a793dd0782-e1/s540x810/51cb56861bf81449a66362099739208865cd7ef6.gif",
             "https://64.media.tumblr.com/a0777d7c335961709eb69971aa4dfcae/12ec85a793dd0782-ff/s540x810/972e4ef77f1961a0822bcf2b340f2394c17ed78f.gif"]
+    #. Hello Venus
+        self.bot.hello_venus_lime_gif = ["https://thumbs.gfycat.com/AffectionateHospitableArabianwildcat-max-1mb.gif",
+            "https://64.media.tumblr.com/f5dfba1a92cdfc539f50db3bb68005d5/tumblr_nep2mfM5kK1r85bico2_r1_400.gif",
+            "https://64.media.tumblr.com/94f56a4ed43d6339668c1e15bb9176bb/tumblr_nep2mfM5kK1r85bico1_r1_400.gif",
+            "https://gfycat.com/afraidbrokenamericanredsquirrel",
+            "https://gfycat.com/concernedtornafricanfisheagle",
+            "https://gfycat.com/dappernicefattaileddunnart",
+            "https://gfycat.com/zigzagincrediblecowbird",
+            "https://gfycat.com/neatlikableambushbug-hellovenus-santa-lime",
+            "https://gfycat.com/absolutethornybedbug",
+            "https://gfycat.com/brokenpresentattwatersprairiechicken",
+            "https://64.media.tumblr.com/076f3d920573f15f1f4625dd71987ba0/tumblr_p4vrg9D29x1tqtwq3o1_400.gif",
+            "https://64.media.tumblr.com/94f56a4ed43d6339668c1e15bb9176bb/tumblr_nep2mfM5kK1r85bico1_r1_400.gif",
+            "https://64.media.tumblr.com/f5dfba1a92cdfc539f50db3bb68005d5/tumblr_nep2mfM5kK1r85bico2_r1_400.gif",
+            "https://64.media.tumblr.com/3b6f62c16d40074eaaaa429198c5172a/tumblr_nep2mfM5kK1r85bico4_r2_400.gif",
+            "https://64.media.tumblr.com/e46d10c64ebfeb24c61bf8c2ec520cff/tumblr_nep2mfM5kK1r85bico3_r2_400.gif"]
+
+        self.bot.hello_venus_alice_gif = ["https://gfycat.com/waterybountifulhammerheadshark",
+            "https://gfycat.com/adorablepinkgordonsetter-hellovenus-leather-alice",
+            "https://gfycat.com/homelyreliableboar",
+            "https://gfycat.com/closeddistantisabellineshrike-hellovenus-alice-santa",
+            "https://gfycat.com/candidfickleleech-hellovenus-alice-skirt",
+            "https://gfycat.com/frankkeyindigobunting",
+            "https://gfycat.com/idealtintedballpython-hellovenus-shorts-alice",
+            "https://gfycat.com/messyhalfgrayfox-hellovenus-helrobineoseu-alice-aelriseu",
+            "https://gfycat.com/icyzigzaggermanspaniel-hellovenus-helrobineoseu-alice-aelriseu",
+            "https://gfycat.com/easyslighthoneyeater-fancam-60fps",
+            "https://gfycat.com/sophisticatedseparatedrafthorse",
+            "https://gfycat.com/sneakyabsoluteflee",
+            "https://gfycat.com/damagedadventurousdonkey",
+            "https://gfycat.com/handmadecompetentfiddlercrab",
+            "https://gfycat.com/severemistyamericanbulldog",
+            "https://gfycat.com/entireembarrassedbull",
+            "https://gfycat.com/playfulhighlevelgibbon-hellovenus-alice-nara",
+            "https://gfycat.com/incomparablegiftedladybird",
+            "https://64.media.tumblr.com/cc6cd7549b17c749bf6b4588f6f8d249/tumblr_ojfne8B3XO1ti35kvo2_r2_250.gif",
+            "https://64.media.tumblr.com/37901dd454aecfc4b9a7eff563f6d7f9/tumblr_ojfne8B3XO1ti35kvo5_r2_250.gif",
+            "https://64.media.tumblr.com/7ed5bb18cd7c4fa052b411ae36125b76/tumblr_ojfne8B3XO1ti35kvo3_r2_250.gif",
+            "https://64.media.tumblr.com/3d90527e7d69fdd84e5f601dcd348cdc/tumblr_nrwke5j74i1tyhuflo1_500.gif",
+            "https://64.media.tumblr.com/51f5608bef920c5d214b5fa1643cfe6a/tumblr_nrwke5j74i1tyhuflo2_500.gif",
+            "https://64.media.tumblr.com/ce61a586f315806e92fab7250cb1eae9/tumblr_ni8ojkutHT1qzk78no3_500.gif",
+            "https://64.media.tumblr.com/e0b0bd4999163bdf309bc0b31c01415d/tumblr_ni8ojkutHT1qzk78no1_r1_500.gif"]
+
+        self.bot.hello_venus_nara_gif = ["https://gfycat.com/optimisticfalsebandicoot-hellovenus-nara",
+            "https://gfycat.com/deficientbothayeaye",
+            "https://gfycat.com/flimsycalmfish-hellovenus-nara-kpop",
+            "https://gfycat.com/elasticachingalpinegoat",
+            "https://gfycat.com/harmfultartbison-hellovenus-nara",
+            "https://gfycat.com/tediousthunderousdwarfrabbit",
+            "https://gfycat.com/onlymassiveamericanbadger-hellovenus-nara",
+            "https://gfycat.com/pitifuldearjunebug-hellovenus-nara",
+            "https://gfycat.com/mellowrealbuzzard",
+            "https://gfycat.com/shydampjellyfish",
+            "https://gfycat.com/frenchblissfulfirecrest-hellovenus-nara",
+            "https://gfycat.com/idolizedblushingdrake",
+            "https://gfycat.com/distortedmeaslyharlequinbug-hellovenus",
+            "https://data.whicdn.com/images/262927754/original.gif",
+            "https://data.whicdn.com/images/269548155/original.gif",
+            "https://tenor.com/view/nara-kwon-nara-hello-venus-kpop-korean-gif-11200130",
+            "https://tenor.com/view/kwon-nara-nara-hv-gif-19972216",
+            "https://tenor.com/view/nara-kwon-nara-hello-venus-kpop-korean-gif-11200133",
+            "https://tenor.com/view/oh-sooah-hello-venus-kwon-nara-korean-actress-cute-gif-17310621",
+            "https://tenor.com/view/oh-sooah-hello-venus-kwon-nara-korean-actress-cute-gif-17310622",
+            "https://tenor.com/view/hello-venus-you-dont-like-me-nara-kwon-nara-gif-11200172",
+            "https://tenor.com/view/oh-sooah-hello-venus-kwon-nara-korean-actress-cute-gif-17310619",
+            "https://tenor.com/view/oh-sooah-itaewon-class-look-stare-kdrama-gif-16733170",
+            "https://tenor.com/view/oh-sooah-hello-venus-kwon-nara-korean-actress-cute-gif-17310620",
+            "https://tenor.com/view/itaewon-class-oh-sooah-kwon-nara-korean-actress-cute-gif-17310617",
+            "https://64.media.tumblr.com/191cfea6662712f9532b89c63509e18f/tumblr_o1dln53wiH1rvm4g4o4_250.gif",
+            "https://64.media.tumblr.com/dab0ec26e4820c4f2a14b4074312459b/tumblr_o1dln53wiH1rvm4g4o1_250.gif",
+            "https://64.media.tumblr.com/00854cba48fc8ec8705f564878dc15e8/tumblr_o1dln53wiH1rvm4g4o2_250.gif",
+            "https://64.media.tumblr.com/cdafcba411d08629d4835df5651d305b/tumblr_o1dln53wiH1rvm4g4o3_250.gif",
+            "https://64.media.tumblr.com/965c964788690fd2dffd62bcae507c4e/tumblr_on45vxWFeH1up6hcio7_400.gif",
+            "https://64.media.tumblr.com/1f46dd848bb495809460d55852010839/tumblr_on45vxWFeH1up6hcio8_400.gif",
+            "https://64.media.tumblr.com/ead89c826687ebd158ba38ed386c02de/tumblr_on45vxWFeH1up6hcio6_400.gif",
+            "https://64.media.tumblr.com/79c778c7b540bbb39a57eeab08ee9de3/tumblr_on45vxWFeH1up6hcio4_400.gif",
+            "https://64.media.tumblr.com/90668f0b980e2a39aa1bf557101cf0eb/tumblr_on45vxWFeH1up6hcio3_400.gif",
+            "https://64.media.tumblr.com/69790e236a85a6bf53f047c71325d0aa/tumblr_on45vxWFeH1up6hcio5_400.gif",
+            "https://64.media.tumblr.com/18c7e3a11540b818a7a435edab7815dc/tumblr_on45vxWFeH1up6hcio1_400.gif",
+            "https://64.media.tumblr.com/f041a8dab4b5538c0da7ed5cd42d1d97/tumblr_on45vxWFeH1up6hcio2_400.gif"]
+
+        self.bot.hello_venus_seoyoung_gif = ["https://gfycat.com/colorlesspossibleamurratsnake-hellovenus-helrobineoseu",
+            "https://gfycat.com/blackandwhitedarkcommabutterfly",
+            "https://gfycat.com/forkedgroundedcockroach",
+            "https://gfycat.com/similarsnappyalbertosaurus",
+            "https://gfycat.com/similarsnappyalbertosaurus",
+            "https://gfycat.com/slightfrayedhylaeosaurus-hellovenus-seoyoung",
+            "https://gfycat.com/fairadorablecaiman-look-at-her-squishy-lil-baby-cheeks",
+            "https://gfycat.com/anxioussoreelephant-clock-seoyoung",
+            "https://gfycat.com/allmeanleafbird-clock",
+            "https://gfycat.com/considerateforsakenhorsefly-clock",
+            "https://gfycat.com/academichotelver-mechabear-seoyoung-dance-sally-clock-kpop",
+            "https://gfycat.com/orangeunsightlygalapagossealion-mechabear-seoyoung-kdance-clock-sally",
+            "https://gfycat.com/uniquerelievedcottonmouth-mechabear-seoyoung-clock-sally-kpop",
+            "https://gfycat.com/peacefuldefianthagfish-mechabear-seoyoung-kdance-sally-clock",
+            "https://64.media.tumblr.com/cbd523329af5cf3c8a9b8face5c075fb/tumblr_pc0o5silX21ueg2m0o7_250.gif",
+            "https://64.media.tumblr.com/70c82bd2ae18698b71cbbe43609cccf3/tumblr_pc0o5silX21ueg2m0o6_250.gif",
+            "https://64.media.tumblr.com/827b453b4273d6a3e2e1160ecb2f4a59/tumblr_pc0o5silX21ueg2m0o2_250.gif",
+            "https://64.media.tumblr.com/a27a20018f423209a4ff10a70b8b8fbf/tumblr_pc0o5silX21ueg2m0o4_250.gif",
+            "https://64.media.tumblr.com/594c193c8a995c17dd199824fe2cecdf/tumblr_pc0o5silX21ueg2m0o8_250.gif",
+            "https://64.media.tumblr.com/d0d16417d1dd835991653f0434eaaac1/tumblr_pc0o5silX21ueg2m0o5_250.gif",
+            "https://64.media.tumblr.com/900525151394b1a025ccc7c3d51dd19c/tumblr_pc0o5silX21ueg2m0o9_250.gif",
+            "https://64.media.tumblr.com/be4530ecf2cc50cab38c2939b7c8a64e/tumblr_pc0o5silX21ueg2m0o3_250.gif",
+            "https://64.media.tumblr.com/b805c63b35b81ffc97a3af81fc0ba2f0/tumblr_ojaux14Zi01ti35kvo6_250.gif",
+            "https://64.media.tumblr.com/6860b5acaa9c5ebc9c5d104b645e1080/tumblr_ojaux14Zi01ti35kvo5_250.gif",
+            "https://64.media.tumblr.com/7142aab21241479221d5ffd8ef4619fd/tumblr_ojaux14Zi01ti35kvo4_250.gif",
+            "https://64.media.tumblr.com/ee96f37e276c0f63014e5211cc3f0e8e/tumblr_ojaux14Zi01ti35kvo7_250.gif"]
+
+        self.bot.hello_venus_yooyoung_gif = ["https://gfycat.com/joyousthankfulfoxhound",
+            "https://gfycat.com/badbettergrunion-hellovenus",
+            "https://gfycat.com/aromaticillbluebird-hellovenus-onstagegw-yooyoung",
+            "https://gfycat.com/flashydisloyalgonolek",
+            "https://gfycat.com/rareuntimelyhamster",
+            "https://gfycat.com/affectionateanguishedclownanemonefish-pledis-entertainment-femaleidols",
+            "https://gfycat.com/amazingweeklyharpyeagle",
+            "https://gfycat.com/glitteringsneakychamois-mechabear-yooyoung-kpop",
+            "https://data.whicdn.com/images/298458497/original.gif",
+            "https://data.whicdn.com/images/326761092/original.gif",
+            "https://tenor.com/view/hellovenus-gif-18336224",
+            "https://64.media.tumblr.com/eb8467b25f0cc8e07706ca2b12643eec/tumblr_o7sgcrXW3Y1rvm4g4o1_r1_540.gif",
+            "https://64.media.tumblr.com/cdccb350133eeec51d8025acaaae8eec/tumblr_o7sgcrXW3Y1rvm4g4o3_r1_540.gif",
+            "https://64.media.tumblr.com/ceaafe84c2beaa89d67d39783868ecd6/tumblr_o7sgcrXW3Y1rvm4g4o4_r1_540.gif",
+            "https://64.media.tumblr.com/d2972d64fdf34feae9c8e8152ddf1b04/tumblr_nkv7pgHkmZ1qe3hv0o3_250.gif",
+            "https://64.media.tumblr.com/bdbaede1251a27a8b2e0331df3822f82/tumblr_nkv7pgHkmZ1qe3hv0o6_250.gif",
+            "https://64.media.tumblr.com/88b23b3ccede1e3f503b4d2ea03ed394/tumblr_nkv7pgHkmZ1qe3hv0o1_250.gif",
+            "https://64.media.tumblr.com/d2972d64fdf34feae9c8e8152ddf1b04/tumblr_nkv7pgHkmZ1qe3hv0o3_250.gif",
+            "https://64.media.tumblr.com/356e404fbf32ca6463188f0c7801eadd/tumblr_oc41btZWhG1u8d14qo2_400.gif",
+            "https://64.media.tumblr.com/7947f5ee4b85f5574035d97e657feddc/tumblr_oc41btZWhG1u8d14qo1_400.gif",
+            "https://64.media.tumblr.com/d8f202ef59bb91693f5efce294d8bde5/tumblr_oc41btZWhG1u8d14qo3_400.gif",
+            "https://64.media.tumblr.com/e9f5764bf20b380683950f6cb8f7ffba/tumblr_oc41btZWhG1u8d14qo4_400.gif",
+            "https://64.media.tumblr.com/9a3a11c8e8b2368a67451bf81103637d/tumblr_oc41btZWhG1u8d14qo5_400.gif"]
+
+        self.bot.hello_venus_yeoreum_gif = ["https://gfycat.com/marriedscornfulfirebelliedtoad-hellovenus-yeoreum",
+            "https://gfycat.com/zealousoffensiveindigobunting-hellovenus-yeoreum-helrobineoseu",
+            "https://gfycat.com/elementarymagnificenticeblueredtopzebra-hellovenus-yeoreum",
+            "https://gfycat.com/aggravatingdampflyinglemur-ahn-yeoreum-hello-venus",
+            "https://gfycat.com/pointlessringedchick-hello-venus-chaeyoung-yeoreum-twice",
+            "https://gfycat.com/unrulyactualarcticduck-hellovenus-yeoreum-helrobineoseu",
+            "https://i.makeagif.com/media/7-22-2015/F26Iwz.gif",
+            "https://data.whicdn.com/images/239092940/original.gif",
+            "https://64.media.tumblr.com/eb8467b25f0cc8e07706ca2b12643eec/tumblr_o7sgcrXW3Y1rvm4g4o1_r1_540.gif",
+            "https://64.media.tumblr.com/cdccb350133eeec51d8025acaaae8eec/tumblr_o7sgcrXW3Y1rvm4g4o3_r1_540.gifv",
+            "https://64.media.tumblr.com/ceaafe84c2beaa89d67d39783868ecd6/tumblr_o7sgcrXW3Y1rvm4g4o4_r1_540.gif"]
     #. I.O.I
         self.bot.ioi_nayoung_gif = ["https://tenor.com/view/doyeon-nayoung-ioi-qth-gif-10293590",
             "https://tenor.com/view/spaced-out-dazed-nayoung-lim-nayoung-pristin-gif-17689007",
@@ -3290,6 +3433,38 @@ class GGS(commands.Cog):
             await ctx.send(f'<@{ctx.author.id}> is talking about Miya :heart:') 
             await ctx.send(random.choice(self.bot.gwsn_miya_gif))
             await ctx.message.delete()
+
+    @commands.command()
+    async def hello(self, ctx, venus, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Hello Venus {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if venus == "venus":
+            if arg == "lime":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Lime :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_lime_gif))
+                await ctx.message.delete()
+            elif arg == "alice":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Alice :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_alice_gif))
+                await ctx.message.delete()
+            elif arg == "nara":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Nara :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_nara_gif))
+                await ctx.message.delete()
+            elif arg == "seoyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Seoyoung :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_seoyoung_gif))
+                await ctx.message.delete()
+            elif arg == "yooyoung":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yooyoung :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_yooyoung_gif))
+                await ctx.message.delete()
+            elif arg == "yeoreum":
+                await ctx.send(f'<@{ctx.author.id}> is talking about Yeoreum :heart:') 
+                await ctx.send(random.choice(self.bot.hello_venus_yeoreum_gif))
+                await ctx.message.delete()
 
     @commands.command(aliases = ['i.o.i', 'i.o.i.'])
     async def ioi(self, ctx, *, arg):

@@ -254,7 +254,9 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/aa305c3db0f15580ddd9784c1fb2bdf6/37cb228260570230-6b/s400x600/c9cc914d841eaacd4f711727b952608730268399.gif",
             "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989536",
             "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989537",
-            "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989540"]
+            "https://tenor.com/view/soobin-wjsn-kpop-korean-gif-9989540",
+            "https://64.media.tumblr.com/a27a20018f423209a4ff10a70b8b8fbf/tumblr_pc0o5silX21ueg2m0o4_250.gif",
+            "https://64.media.tumblr.com/d0d16417d1dd835991653f0434eaaac1/tumblr_pc0o5silX21ueg2m0o5_250.gif"]
 
         self.monke = ["https://www.youtube.com/watch?v=PipzizkF-SY",
             "https://www.youtube.com/watch?v=-JUhUI_KvUI",
