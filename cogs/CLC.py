@@ -63,7 +63,11 @@ class CLC(commands.Cog):
             "https://64.media.tumblr.com/adf944640f96fa4f6ae6c593a2f33eca/8d61357e3c16284b-f8/s250x400/efe4fb02aed115847431af1f99e9db602ae74a4f.gif",
             "https://64.media.tumblr.com/98f03c88e8967da1d0c9975f61b4d508/8d61357e3c16284b-de/s250x400/9e7f5673559f4b3902a684080085e85469eeff33.gif",
             "https://64.media.tumblr.com/4f88e1fcae3eea736bf190d5380711a9/8d61357e3c16284b-12/s250x400/131f4f4fbaefc853688371f12a8f2dcc8b320189.gif",
-            "https://64.media.tumblr.com/49b76f62423512122d2386b37c71bc80/8d61357e3c16284b-51/s250x400/cdb3abcaa86704e9ca580c8713f4cdf53e226318.gif"]
+            "https://64.media.tumblr.com/49b76f62423512122d2386b37c71bc80/8d61357e3c16284b-51/s250x400/cdb3abcaa86704e9ca580c8713f4cdf53e226318.gif",
+            "https://64.media.tumblr.com/92f07afdfe7a11de915697325f3e29d6/tumblr_pxracnL32N1yoiwkxo7_400.gif",
+            "https://64.media.tumblr.com/97031e78a873c69b8e1e19d51556ae7a/tumblr_pxracnL32N1yoiwkxo8_400.gif",
+            "https://64.media.tumblr.com/541b79f6f250c2ea611f64979380256c/tumblr_pxracnL32N1yoiwkxo3_400.gif",
+            "https://64.media.tumblr.com/dd187ad07bd96dc08ac37bd663bf5305/tumblr_pxracnL32N1yoiwkxo1_400.gif"]
 
         self.bot.clc_sorn_gif = ["https://tenor.com/bqihb.gif",
             "https://tenor.com/bunmH.gif",
