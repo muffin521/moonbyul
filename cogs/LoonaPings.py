@@ -914,7 +914,8 @@ class LoonaPings(commands.Cog):
             "https://cdn130.picsart.com/299125546139201.gif",
             "https://tenor.com/view/loona-choerry-kpop-gif-20820976",
             "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20915778",
-            "https://tenor.com/view/x1-minhee-kang-minhee-gif-14990590"]
+            "https://tenor.com/view/x1-minhee-kang-minhee-gif-14990590",
+            "https://64.media.tumblr.com/abe055f3bd5ff1f261f237c67df5dd37/8d89594eae45db17-21/s400x600/fc0adaa91a6aa11eacad5255ba5f2ffe0acf70aa.gif"]
 
         self.bot.loona_ot12_gif = ["https://data.whicdn.com/images/337947512/original.gif",
             "https://thumbs.gfycat.com/SardonicSimilarBat-size_restricted.gif",
