@@ -225,7 +225,16 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/86401b270b81561bd381a76e7eff0212/0a91b18203774887-b6/s540x810/4418a27569000b2a9171e5955b92ab49d6d0ba41.gif",
             "https://64.media.tumblr.com/83a06452ee3dce0a97d3bac0f10a2b20/3c2743e923d65130-d8/s540x810/38a82c9b0e232cd736d0328c56ba2032acaca2bb.gif",
             "https://64.media.tumblr.com/caceb639e745ab17001efe4b63e25b30/3c2743e923d65130-b6/s540x810/e62f832b181c3ed808891733e0336690182b508b.gif",
-            "https://64.media.tumblr.com/66bfaac7865df65abdc88b7c58641568/3c2743e923d65130-4c/s540x810/6635f913710ebc3f56f8112a1a8cdfebc24e987a.gif"]
+            "https://64.media.tumblr.com/66bfaac7865df65abdc88b7c58641568/3c2743e923d65130-4c/s540x810/6635f913710ebc3f56f8112a1a8cdfebc24e987a.gif",
+            "https://64.media.tumblr.com/2dcf0373d84c0a4573b8b6f424c52ef4/ce7247ad2853416f-dc/s540x810/a74889716503f246ede7455ff383d0eb891cf20e.gif",
+            "https://64.media.tumblr.com/6f087f076b4530e5c8f8cffe766602de/ce7247ad2853416f-20/s540x810/40bc06fa1763f1ce1d3498da84e59be44ede2452.gif",
+            "https://64.media.tumblr.com/91389166edb4dc643baaa430cbf6531e/34f5bda012062823-52/s540x810/01a908d5eacdfcf7720b00175ee5177665f9d6b7.gif",
+            "https://64.media.tumblr.com/63c5a66f2d616a6ba238f81d98f39675/66109f85dbcb81fb-e3/s400x600/df765b78315acfb8660a72d9317887ecd6659231.gif",
+            "https://64.media.tumblr.com/63c5a66f2d616a6ba238f81d98f39675/66109f85dbcb81fb-e3/s400x600/df765b78315acfb8660a72d9317887ecd6659231.gif",
+            "https://64.media.tumblr.com/e84936b67b8f80c79f14cd5fbb76190d/9e232be94f5a7c82-9e/s250x400/6ebe2482cfecb2ed4b1f8c9c3d5192ee15a4610a.gif",
+            "https://64.media.tumblr.com/7a2f2e43e911871c4fd01aeb63c60c67/9e232be94f5a7c82-30/s250x400/a5943754771d84229b5fa721d8001885b6eaf43d.gif",
+            "https://64.media.tumblr.com/cad32f03cb445117640a56a8a2b1ea04/9e232be94f5a7c82-4c/s250x400/b70b8a2260e3a3ef2cc49023aa34bd84ab858845.gif",
+            "https://64.media.tumblr.com/89f0012b22684d07aad9700a862c8d56/9e232be94f5a7c82-05/s250x400/d0b8d212a386150ba6706f219e783a0bb7d79487.gif"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
@@ -392,7 +401,8 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/cdc0cc2a80a7be8c479bf9e18c95a245/e97a6e26f9876b0d-39/s540x810/6bb890a1517301e71aef754077574c818f9eeaf9.gif",
             "https://64.media.tumblr.com/be18e642ea678b53c04e9b1d191e4807/e97a6e26f9876b0d-6f/s540x810/706cbaa7bc4b7dbda7600483de58b8d9d2eb3125.gif",
             "https://64.media.tumblr.com/745a67dcb6d7d186f89f6f0dc4b7e131/e97a6e26f9876b0d-d8/s540x810/92e5153a64ea65023b8eaf11d7fa2af892962491.gif",
-            "https://64.media.tumblr.com/ed7c6b581e11c2a3adbaede81b628389/e97a6e26f9876b0d-cd/s540x810/2419e0de6895f77df992a676f93663b8c5e1224b.gif"]
+            "https://64.media.tumblr.com/ed7c6b581e11c2a3adbaede81b628389/e97a6e26f9876b0d-cd/s540x810/2419e0de6895f77df992a676f93663b8c5e1224b.gif",
+            "https://64.media.tumblr.com/e5a1b50f848589445e6568c8ff699530/34f5bda012062823-6c/s540x810/1d3de4f30c39de4ad116bac8c4db9bd03da3a6d4.gif"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
@@ -571,7 +581,17 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/09a95097c20b9f8b49323ae74bdfc6a0/222f6983c5a7696c-db/s400x600/38af8f5a9e31d1e1efed0165e11c41d2329de116.gif",
             "https://64.media.tumblr.com/b00ff36b66f2e3a6ab11ad569ecbccc8/222f6983c5a7696c-1d/s400x600/0788c146ca1bcf2581bd768a2e9d2b535ec91057.gif",
             "https://64.media.tumblr.com/09a95097c20b9f8b49323ae74bdfc6a0/222f6983c5a7696c-db/s400x600/38af8f5a9e31d1e1efed0165e11c41d2329de116.gif",
-            "https://64.media.tumblr.com/af1362c2d34fd5eb67229ab8de15f138/222f6983c5a7696c-93/s400x600/15c8a3a9e7590f948cb3b209f058d21139f6d361.gif"]
+            "https://64.media.tumblr.com/af1362c2d34fd5eb67229ab8de15f138/222f6983c5a7696c-93/s400x600/15c8a3a9e7590f948cb3b209f058d21139f6d361.gif",
+            "https://64.media.tumblr.com/57479b0ed7da35d390e5501cdf9db4ef/34f5bda012062823-14/s540x810/01157320dccfcafce375600afa1e0be2df54397c.gif",
+            "https://64.media.tumblr.com/4623e472357fdb720ea4c16a3a40e92b/32452cd178a4f31b-b3/s400x600/bea77968a41d106b8898e24d3340efa120ec54ea.gif",
+            "https://64.media.tumblr.com/45b4868d5303dbcabfa6e27164d5fc78/32452cd178a4f31b-f1/s400x600/89a86df468d88457369b72015d5819987bb077d6.gif",
+            "https://64.media.tumblr.com/1b01585b088ba0d21b4f80ad40bd05a4/32452cd178a4f31b-af/s400x600/510f8c3911d2e61bb2724615d5b5742bc92697a9.gif",
+            "https://64.media.tumblr.com/ca3120a7e64aa130b0cfa806521a5a6d/db650116364e7744-68/s540x810/8979ae4e7c03b803c6fd87b70cf3b8011b4424cc.gif",
+            "https://64.media.tumblr.com/da4ad2f71f8449af1e421991f18f83d9/d768d3f87b776672-be/s540x810/e441c33fff17257119cffaba564038b3a5ce56af.gif",
+            "https://64.media.tumblr.com/fd06bf68dc8bf21090b3433248d80274/d768d3f87b776672-12/s540x810/f5bd3aa68065dbada288e2e4660a1b80731c18af.gif",
+            "https://64.media.tumblr.com/cd8957fa0100dfa516e1b84dbefa5c9d/d768d3f87b776672-9a/s540x810/602962f5fe5fb7047d0cc348ad144b2610af4451.gif",
+            "https://64.media.tumblr.com/c9298f897d519fcba80b5ee62ad17dd3/d768d3f87b776672-40/s540x810/f6ade5167fb91c37be29f5f9419692704dca61bc.gif",
+            "https://64.media.tumblr.com/fe71c0fdec34bc0113bbd8e48798e3d2/d768d3f87b776672-f9/s540x810/d4eb5d1065e85c1590de4718fb78c804700126a0.gif"]
 
         self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",
@@ -867,7 +887,17 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/d9c69c031d56384aa0da242c43488acc/fcf7cb1dd1f36456-34/s400x600/f50fe8359f69a830cf0a8d145a804b9cacb5eff0.gif",
             "https://64.media.tumblr.com/e462c5e4f161261d3d47b121cf336b32/fcf7cb1dd1f36456-74/s400x600/673e1b25df527b145ba293759f2410008909dea0.gif",
             "https://64.media.tumblr.com/c22cb54e89afec16238504898a8a0398/fcf7cb1dd1f36456-06/s400x600/bb48355d2d6cce3e1d49c3457806438801123f2d.gif",
-            "https://64.media.tumblr.com/13b1c4f3d981f42e7e10534d4074c07e/fcf7cb1dd1f36456-dd/s400x600/2e4d35d32ed6281086b2560d7ccbddb46aa697f5.gif"]
+            "https://64.media.tumblr.com/13b1c4f3d981f42e7e10534d4074c07e/fcf7cb1dd1f36456-dd/s400x600/2e4d35d32ed6281086b2560d7ccbddb46aa697f5.gif",
+            "https://64.media.tumblr.com/e2aaf6cf17d6a17420e52147c8755087/34f5bda012062823-c5/s540x810/f873fc5f98d8ebf4804bfe07dda6647758812aa8.gif",
+            "https://64.media.tumblr.com/64e88d87d6b4e02a6225e3c840e51321/e3c70a759f814934-7b/s400x600/e3dfe0413183c1d7a0fb02c65925a3ad6a6ced8d.gif",
+            "https://64.media.tumblr.com/97d96f1ab799f07503c48467fb686d27/e3c70a759f814934-18/s400x600/4659bbad406d158cbec95c6d4dcc6bdbc29992bb.gif",
+            "https://64.media.tumblr.com/eec1403f486b26c67e659b6f94f47c7d/e3c70a759f814934-d0/s400x600/448fbe86427e2f2a84c2d8eb6e975fe82202c077.gif",
+            "https://64.media.tumblr.com/cdad26b4a314fc72b1a6d98e1a6152d6/e3c70a759f814934-12/s400x600/297ffea4dc10dd1f09f4052162a8bd530af016ff.gif",
+            "https://64.media.tumblr.com/f74d4167160de8ad6436f84c30d88e09/db650116364e7744-48/s400x600/d9a5057ea4c0d4033ecd5c50b56fa660f9f06ce6.gif",
+            "https://64.media.tumblr.com/c90b74c0badd821a756d1f8ff65a2475/54fccfd10ed01779-2b/s400x600/e10eaa525d36e8b47161bc55cc7f2b5a9e6cff3b.gif",
+            "https://64.media.tumblr.com/30c712380612d1fa741e0a70a0577ed5/54fccfd10ed01779-27/s400x600/07e4857406fb030940a8cff986e58958d74eb679.gif",
+            "https://64.media.tumblr.com/e39273f95f2aa184df3afca3879717b0/54fccfd10ed01779-76/s400x600/c8a2a7aa070d65b56bbe478b4028d3eedf792bc2.gif",
+            "https://64.media.tumblr.com/754c54dd51c908226ffa31c7b95d97d2/54fccfd10ed01779-8b/s400x600/c214d6212dd949dd5fd996eb305c39fcf94da443.gif"]
 
         self.bot.blackpink_gif = ["https://tenor.com/view/blackpink-ice-cream-unmasking-cats-cute-gif-18466410",
             "https://media3.giphy.com/media/AFBmwFcWqQpPymsgqZ/200.gif",
@@ -944,44 +974,24 @@ class BlackpinkPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Blackpink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "jennie" or arg == "jendeukkie":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
-                await ctx.send(random.choice(self.bot.jennie_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
+            await ctx.send(random.choice(self.bot.jennie_gif))
+            await ctx.message.delete()
         elif arg == "rose" or arg == "rosé" or arg == "chaeyoung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
-                await ctx.send(random.choice(self.bot.rose_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
+            await ctx.send(random.choice(self.bot.rose_gif))
+            await ctx.message.delete()
         elif arg == "lisa":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
-                await ctx.send(random.choice(self.bot.lisa_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
+            await ctx.send(random.choice(self.bot.lisa_gif))
+            await ctx.message.delete()
         elif arg == "jisoo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-                await ctx.send(random.choice(self.bot.jisoo_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
+            await ctx.send(random.choice(self.bot.jisoo_gif))
+            await ctx.message.delete()
         elif arg == "ot4":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Blackpink <:wonyoungheart:787552538907115571>:black_heart:')
-                await ctx.send(random.choice(self.bot.blackpink_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Blackpink <:wonyoungheart:787552538907115571>:black_heart:')
+            await ctx.send(random.choice(self.bot.blackpink_gif))
+            await ctx.message.delete()
 def setup(client):
     client.add_cog(BlackpinkPings(client))
