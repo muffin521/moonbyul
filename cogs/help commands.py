@@ -118,7 +118,7 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Groups', value=f'```{self.groupName}```')
 
         elif arg == "solo" or "soloists" or "soloist":
-            embed1.add_field(name='Soloist Commands', value=f'\nSoloists have no group! ```\nNatty\nAleXa\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA\nWonho\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna\nDPR Ian```')
+            embed1.add_field(name='Soloist Commands', value=f'\nSoloists have no group! ```\nNatty\nAleXa\nBIBI\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA\nWonho\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna\nDPR Ian```')
 
 
 
