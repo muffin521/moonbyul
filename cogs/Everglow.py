@@ -55,7 +55,11 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/879d2fc07c0a25dd8902d3e5f7ed0c4f/2ee409d64e24ef56-e3/s400x600/75a8cea6aaee31c349fd581d36f4527182cf368c.gif",
             "https://64.media.tumblr.com/6508c6507e93b80e5bb3462ad0acd8ec/2ee409d64e24ef56-0a/s400x600/38db36ce9a7795778f58ab248e02db338897610c.gif",
             "https://64.media.tumblr.com/6bf11f12c71beb5559eb16643db1a659/2ee409d64e24ef56-20/s400x600/73ec71b31350f3c9f9419f82cad78e979bc3a946.gif",
-            "https://64.media.tumblr.com/1912ab9041748145d7235ab9d6311735/2ee409d64e24ef56-c1/s400x600/55b1913cb2e1bb0103defdd4c953632efa68ab56.gif"]
+            "https://64.media.tumblr.com/1912ab9041748145d7235ab9d6311735/2ee409d64e24ef56-c1/s400x600/55b1913cb2e1bb0103defdd4c953632efa68ab56.gif",
+            "https://64.media.tumblr.com/36dabfb4660ccabf4681c05afffa5031/182ae334d3004921-d4/s540x810/fbe182b447225e48323be6b1fb1b839b5034391a.gif",
+            "https://64.media.tumblr.com/73d35b35b9500f5ac16b2d6106141733/182ae334d3004921-87/s540x810/979ea753a629bf9e62a9f2ab61764d99068c2d0f.gif",
+            "https://64.media.tumblr.com/ecbd2665a268b1cf5d00f5d3f42ecef2/182ae334d3004921-26/s540x810/3707de4ff7b11b6d4732a76cd8ffe02204540d65.gif",
+            "https://64.media.tumblr.com/8b5a41d831f739ce11e6b9d49d39859d/182ae334d3004921-18/s540x810/59e270c19dcaf917d0eebf97342ac3df0c0627d2.gif"]
 
         self.bot.mia_gif = ["https://tenor.com/view/everglow-mia-blow-kiss-kpop-cute-gif-15818623",
             "https://tenor.com/view/everglowmia-salute-gif-18117807",
