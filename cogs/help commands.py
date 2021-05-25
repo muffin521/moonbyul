@@ -65,7 +65,7 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Itzy Commands', value=f'''```\nItzy\nItzy Yeji\nItzy Ryujin\nItzy Chaeryeong\nItzy Yuna\nItzy Lia```''')
         elif arg == "red velvet": #= has a group command
             embed1.add_field(name='Red Velvet Commands', value=f'```\nRed Velvet\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
-        elif arg == "weeekly": #. no group command
+        elif arg == "weeekly": #= has a group command
             embed1.add_field(name='WEEEKLY Commands', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
         elif arg == "purple kiss" or arg == "purple k!ss": #. no group command
             embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan\nPurple Kiss Teaser```''')

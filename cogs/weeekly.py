@@ -1000,38 +1000,54 @@ class weeekly(commands.Cog):
             "https://gfycat.com/wellinformedsatisfiedflounder",
             "https://gfycat.com/scalyelementarykissingbug"]
 
+        self.bot.weeekly_group_gif = ["https://gfycat.com/AlertUnawareAnnelida",
+            "https://gfycat.com/thirstysleepycrow",
+            "https://gfycat.com/ImpressionableHotAiredale",
+            "https://gfycat.com/NextVacantHoopoe",
+            "https://gfycat.com/FondBogusFruitfly",
+            "https://gfycat.com/DisgustingShallowBetafish ",
+            "https://gfycat.com/valuableterriblechuckwalla",
+            "https://gfycat.com/potablefavorableincatern",
+            "https://gfycat.com/nippymeaslyantelopegroundsquirrel",
+            "https://gfycat.com/practicalgrotesqueirrawaddydolphin",
+            "https://gfycat.com/distinctpoliteemperorpenguin"]
+
     @commands.command()
-    async def weeekly(self, ctx, arg):
+    async def weeekly(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Weeekly {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "soojin":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soojin :dog::sunny:')
             await ctx.send(random.choice(self.bot.weeekly_soojin_gif))
             await ctx.message.delete()
         elif arg == "jiyoon":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jiyoon :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jiyoon :hamster::pencil:')
             await ctx.send(random.choice(self.bot.weeekly_jiyoon_gif))
             await ctx.message.delete()
         elif arg == "monday":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Monday :cat::crescent_moon:')
             await ctx.send(random.choice(self.bot.weeekly_monday_gif))
             await ctx.message.delete()
         elif arg == "soeun":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Soeun :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soeun :koala:')
             await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
             await ctx.message.delete()
         elif arg == "jaehee":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :hatching_chick::ringed_planet:')
             await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
             await ctx.message.delete()
         elif arg == "jihan":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jihan :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jihan :rabbit:')
             await ctx.send(random.choice(self.bot.weeekly_jihan_gif))
             await ctx.message.delete()
         elif arg == "zoa":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Zoa :heart:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Zoa :deer:')
+            await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
+            await ctx.message.delete()
+        elif arg == "group":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about WEEEKLY :skateboard:')
             await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
             await ctx.message.delete()
 
