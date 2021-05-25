@@ -19,7 +19,7 @@ class hcommands(commands.Cog):
             "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
             "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
             "Seventeen", "Momoland", "I.O.I", "K.A.R.D.", #// end of groups in old help command
-            "Hello Venus", "woo!ah!", "TVXQ!"]
+            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch"]
 
         self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
         self.groups_list.append("Misc")
@@ -106,6 +106,8 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan\nPurple Kiss Teaser```''')
         elif arg == "red velvet": #= has a group command
             embed1.add_field(name='Red Velvet Commands', value=f'```\nRed Velvet\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
+        elif arg == "rocket punch": #= has a group command
+            embed1.add_field(name='Rocket Punch Commands', value=f'```\nRocket Punch\nRocket Punch Juri\nRocket Punch Yeonhee\nRocket Punch Suyun\nRocket Punch Yunkyoung\nRocket Punch Sohee\nRocket Punch Dahyun```')
         elif arg == "seventeen" or arg == "svt": #. no group command
             embed1.add_field(name='Seventeen Commands', value=f'\naliases: `Seventeen`, `SVT` ```\nSeventeen S.coups\nSeventeen Wonwoo\nSeventeen Mingyu\nSeventeen Vernon\nSeventeen Woozi\nSeventeen Jeonghan\nSeventeen Joshua\nSeventeen DK\nSeventeen Seungkwan\nSeventeen Hoshi\nSeventeen Jun\nSeventeen The8\nSeventeen Dino```', inline = True)
         elif arg == "sf9": #= has a group command
