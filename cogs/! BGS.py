@@ -2812,6 +2812,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/ziu-vav-vav-ziu-heejun-park-heejun-gif-14504018",
             "https://tenor.com/view/ziu-heejun-park-heejun-vav-vav-ziu-gif-14503557",
             "https://tenor.com/view/vav-ziu-vav-ziu-park-heejun-heejun-gif-14504226"]
+    #. Verivery
+        self.bot.verivery_group_gif = []
 
     #.gif end
 
@@ -3357,6 +3359,17 @@ class BGS(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Ziu :heart:')
                 await ctx.send(random.choice(self.bot.vav_ziu_gif))
                 await ctx.message.delete()
+
+    @commands.command()
+    async def verivery(self, ctx, *, arg = "group"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [VERIVERY {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "group":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about VERIVERY :heart:')
+            await ctx.send(random.choice(self.bot.verivery_group_gif))
+            await ctx.message.delete()
 
     # @bot.command()
     # async def sendGif(self, ctx, idol:str, gifSet:List[str], emoji:str):
