@@ -66,7 +66,7 @@ class hcommands(commands.Cog):
         elif arg == "red velvet": #= has a group command
             embed1.add_field(name='Red Velvet Commands', value=f'```\nRed Velvet\nRed Velvet Joy\nRed Velvet Irene\nRed Velvet Seulgi\nRed Velvet Yeri\nRed Velvet Wendy```')
         elif arg == "weeekly": #= has a group command
-            embed1.add_field(name='WEEEKLY Commands', value=f'''```\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
+            embed1.add_field(name='WEEEKLY Commands', value=f'''```\nWEEEKLY\nWEEEKLY Soojin\nWEEEKLY Monday\nWEEEKLY Jiyoon\nWEEEKLY Soeun\nWEEEKLY Jaehee\nWEEEKLY Jihan\nWEEEKLY Zoa```''')
         elif arg == "purple kiss" or arg == "purple k!ss": #. no group command
             embed1.add_field(name='Purple Kiss Commands', value=f'''\naliases: `Purple Kiss`, `Purple K!ss` ```\nPurple Kiss Yuki\nPurple Kiss Na Goeun\nPurple Kiss Jieun\nPurple Kiss Dosie\nPurple Kiss Ireh\nPurple Kiss Chaein\nPurple Kiss Swan\nPurple Kiss Teaser```''')
         elif arg == "clc": #. no group command
@@ -92,7 +92,7 @@ class hcommands(commands.Cog):
         elif arg == "sf9": #= has a group command
             embed1.add_field(name='SF9 Commands', value=f'```\nSF9\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
         elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9": #= has a group command
-            embed1.add_field(name='fromis_9 Commands', value=f'''\naliases: `fromis_9`, `fromis`, `fromis9` ```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
+            embed1.add_field(name='fromis_9 Commands', value=f'''\naliases: `fromis_9`, `fromis`, `fromis9` ```\nfromis_9\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
         elif arg == "exo": #. no group command
             embed1.add_field(name='EXO Commands', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chanyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
         elif arg == "seventeen" or arg == "svt": #. no group command
@@ -117,6 +117,8 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Golden Child Commands', value=f'```\nGolden Child Y\nGolden Child Jibeom\nGolden Child Jangjun\nGolden Child Tag\nGolden Child Bomin\nGolden Child Daeyeol\nGolden Child Jaehyun\nGolden Child Donghyun\nGolden Child Joochan\nGolden Child Seungmin```')
         elif arg == "hello venus": #. no group command
             embed1.add_field(name='Hello Venus Commands', value=f'''```\nHello Venus Lime\nHello Venus Alice\nHello Venus Nara\nHello Venus Seoyoung\nHello Venus Yooyoung\nHello Venus Yeoreum```''')
+        elif arg == "stayc": #= has a group command
+            embed1.add_field(name='STAYC Commands', value=f'```\nSTAYC\nSTAYC Sieun\nSTAYC Seeun\nSTAYC Sumin\nSTAYC J\nSTAYC Isa\nSTAYC Yoon```')
         elif arg == "tvxq" or arg == "tvxq!": #. no group command
             embed1.add_field(name='TVXQ! Commands', value=f'\naliases: `TVXQ!`, `TVXQ` ```\nTVXQ! Max\nTVXQ! U-Know```')
         elif arg == "wooah" or arg == "woo!ah!": #. no group command
