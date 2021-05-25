@@ -3265,13 +3265,9 @@ class BGS(commands.Cog):
 
     # @bot.command()
     # async def sendGif(self, ctx, idol:str, gifSet:List[str], emoji:str):
-    #     if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-    #         await ctx.message.delete()
-    #     else:
-    #         await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
-    #         await ctx.send(random.choice(gifSet))
-    #         await ctx.message.delete()
+        # await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
+        # await ctx.send(random.choice(gifSet))
+        # await ctx.message.delete()
     
 
 
