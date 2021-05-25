@@ -614,7 +614,19 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/8e265a90f578162424e4b0ae7d7d8461/eaa9a31a5465a92b-d6/s250x400/f868505a74a4ccc2d36a0d2c3894744f2d351e27.gif",
             "https://64.media.tumblr.com/902fb194b2000c1237cdadc98e3ced44/eaa9a31a5465a92b-a4/s250x400/9dbb3eee7634af21177abcca0a70d65f147c9d3c.gif",
             "https://64.media.tumblr.com/6e460b437d0243796d2639c6748dcb5c/eaa9a31a5465a92b-c2/s250x400/8563be1d564667cae492a380cc09c04a5edffecf.gif",
-            "https://64.media.tumblr.com/d35e53788d0e1c4fa6e641e41ba0c3a0/eaa9a31a5465a92b-a7/s250x400/dcd02b67aa44f8bd01618f6131b852ff3fb7a135.gif"]
+            "https://64.media.tumblr.com/d35e53788d0e1c4fa6e641e41ba0c3a0/eaa9a31a5465a92b-a7/s250x400/dcd02b67aa44f8bd01618f6131b852ff3fb7a135.gif",
+            "https://gfycat.com/immaterialinnocentfrog",
+            "https://gfycat.com/wearyselfreliantflee",
+            "https://gfycat.com/informalequalcurlew",
+            "https://gfycat.com/sparsedeadhorsefly",
+            "https://gfycat.com/courageousgrossblackandtancoonhound",
+            "https://gfycat.com/unevenshorttermelectriceel",
+            "https://64.media.tumblr.com/524c22b1027d205f56a4ddb00dca1455/5821eec152e9d963-dc/s400x600/f65d2963241c407252e770a70518f1b55fbf495a.gif",
+            "https://64.media.tumblr.com/70b964179ff56a939b58b37345f1283c/5821eec152e9d963-c6/s400x600/5939351ab5ab4c1ab6c46f95d03fdc83a2deff3e.gif",
+            "https://64.media.tumblr.com/64782da0abe1ac01bc8d48e457050b04/5821eec152e9d963-57/s400x600/dbc8f7a6a98083dc842f0e65eaa82826d90310da.gif",
+            "https://64.media.tumblr.com/4338d36063a1beb83ff10e3f56f8d7b0/5821eec152e9d963-2a/s400x600/343d403717c72ae2349a1e985bd3b8873c089428.gif",
+            "https://64.media.tumblr.com/234263d70c3f12a54a9229fddd35f97f/5821eec152e9d963-0c/s400x600/e7de8beb2a0e62ef7ad8f594e51a485e74dc7e43.gif",
+            "https://64.media.tumblr.com/2cbc6e63fce209a91fd071ac7c9e0902/5821eec152e9d963-3a/s400x600/eaa6466317597c76ae54e9351cae409e8065f20a.gif"]
 
         self.bot.fromis_9_hayoung_gif = ["https://gfycat.com/alienatedcheapgalapagosmockingbird-song-hayoung-fromis-9-kpop",
             "https://gfycat.com/hideoushalfamurminnow",
@@ -652,7 +664,9 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/54d22e8a9c97ec5548b186d663f938bf/aa493e232dcc9f44-3e/s400x600/b6c2b3eafa5da6ca5369eabdd923cdec29bd0955.gif",
             "https://64.media.tumblr.com/7f6e7cd1fcb2e3d35d583d05d5516417/bfcc2867e977baca-d3/s540x810/d223ff43f5979205c02c16776cf79d38b776b493.gif",
             "https://64.media.tumblr.com/885b23d4f3daaaf9b00cf4c4e277d66f/bfcc2867e977baca-e4/s540x810/ce8dda58421e857d2082a516681d5452f1a47cee.gif",
-            "https://64.media.tumblr.com/d8208a1c75ed16b448810bbfedb3d99c/bfcc2867e977baca-3b/s540x810/12e69f28cb911a70915d77e7be50552775067e68.gif"]
+            "https://64.media.tumblr.com/d8208a1c75ed16b448810bbfedb3d99c/bfcc2867e977baca-3b/s540x810/12e69f28cb911a70915d77e7be50552775067e68.gif",
+            "https://64.media.tumblr.com/665890058cfaccf3f79670a822a35b93/2f234bb46a156b6d-ea/s540x810/dd19f771ccc6897af7f660f1d988f7d2e42febbb.gif",
+            "https://64.media.tumblr.com/7ddb3d817a3876d49b9f759eac47d6d9/2f234bb46a156b6d-51/s540x810/5e7b1bf78a286101d1e9ba0b65d1a10d66bbe1ae.gif"]
 
         self.bot.fromis_9_saerom_gif = ["https://gfycat.com/arcticimpuredutchsmoushond-fromis-saerom-190727",
             "https://gfycat.com/bothvacanthypacrosaurus",
@@ -711,7 +725,14 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/3be043027b5b87dbacb950bdbbeb46bb/692ccea2a9d0f081-e9/s540x810/62633def335609ae735e4c01636f51a7e5b87ffa.gif",
             "https://64.media.tumblr.com/bb50f20f714c11a45c4a7d5cd3f7c8e4/692ccea2a9d0f081-81/s540x810/a0913b7bd14b2f3c5e90988bf362be473f685e21.gif",
             "https://64.media.tumblr.com/c42575cadec670c891c9777f051f5f49/692ccea2a9d0f081-41/s540x810/4236924b43acd7720078fd274232d506ed59a530.gif",
-            "https://64.media.tumblr.com/71e28261007115d34b1256a910d51c72/692ccea2a9d0f081-02/s540x810/9c206a3034cfefa09262a5ff5b848397ee73236b.gif"]
+            "https://64.media.tumblr.com/71e28261007115d34b1256a910d51c72/692ccea2a9d0f081-02/s540x810/9c206a3034cfefa09262a5ff5b848397ee73236b.gif",
+            "https://gfycat.com/sphericaltensebushsqueaker",
+            "https://gfycat.com/graybigfugu",
+            "https://gfycat.com/frankspiffyamericanratsnake",
+            "https://64.media.tumblr.com/aeb59035516c77d248f568b591c2df04/deeeb277ff957553-80/s400x600/40d9dd98f644dcc6d1c54639b3ce19874fc473fb.gif",
+            "https://64.media.tumblr.com/04da3c3df60b1d7b45bd87cf12b2e11c/deeeb277ff957553-cf/s400x600/9357435fd257396f6f78c1c3fb19897e0d07a2ac.gif",
+            "https://64.media.tumblr.com/ce055326e2cba71e35aac423fba0b114/deeeb277ff957553-f4/s400x600/0773c71fc1ffd1c2adb3abf3cb06e4063b4d7bcb.gif",
+            "https://64.media.tumblr.com/3d8c5c61e6b520a8ed0967acfcc6239b/deeeb277ff957553-91/s400x600/3e435fa79e87c597b23e068bf64c9de825c86c66.gif"]
 
         self.bot.fromis_9_chaeyoung_gif = ["https://gfycat.com/adorablethornyflee-fromis9-chaeyoung-lee-chaeyoung-kuro-gurokami",
             "https://gfycat.com/dimpleduniquekillerwhale-mechabear-fromis-kpop",
@@ -769,7 +790,15 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/9732ee3d0f90a4b78ac3ab08f7b922a6/b5819acdea0562c9-da/s400x600/fae9bd63e648fbbb0d23e625b5f456b6dafd90b3.gif",
             "https://64.media.tumblr.com/679815070fa3798fb8aa03f1fbe024b7/b5819acdea0562c9-8d/s400x600/d54f2152236ae7246f51c3331a836cb8a250115f.gif",
             "https://64.media.tumblr.com/049b7b3a3889cb3e6e34e96391f83bcb/b5819acdea0562c9-46/s400x600/8523b13db302dd73b33d0dc25b9ac40aa1bfc63b.gif",
-            "https://64.media.tumblr.com/ba5f2b740e3f34fffc1b77bd169ac068/b5819acdea0562c9-cf/s400x600/7400be2d8602511d518b064c3f23c3069a947686.gif"]
+            "https://64.media.tumblr.com/ba5f2b740e3f34fffc1b77bd169ac068/b5819acdea0562c9-cf/s400x600/7400be2d8602511d518b064c3f23c3069a947686.gif",
+            "https://64.media.tumblr.com/51830a3a1a01d7b4cfea3e36b01e256a/8d56e2b10abe6689-59/s400x600/5b32b8d58bb3ff89b72f1040aa47c99d472ce5a0.gif",
+            "https://64.media.tumblr.com/392fdd02b66d87be890516bc0f4cc979/8d56e2b10abe6689-ad/s400x600/82ad1f03370308f648fc3fa7a08be92226fdfd7a.gif",
+            "https://64.media.tumblr.com/45eea96fdce324eab5547f18813a48b2/8d56e2b10abe6689-9a/s400x600/f9eca57b7125737dab46d9c768273a8888062396.gif",
+            "https://64.media.tumblr.com/b201c3a3ab982cb25753e8183c776d01/8d56e2b10abe6689-e3/s400x600/1ef32d744e2dbda4ac0e4040c5db70184a111ea7.gif",
+            "https://64.media.tumblr.com/25763ed823763eeaf814a8b43ed5bb3a/3e16582fc4bfd6e5-f9/s400x600/6bc755752d3063dfd4034789812e1e4d8c1dc47e.gif",
+            "https://64.media.tumblr.com/b553eb2ca1a3889c195cefa45e0974f4/3e16582fc4bfd6e5-ba/s400x600/6b1b47153252d1feb42ab3813e9bfdd789e6709e.gif",
+            "https://64.media.tumblr.com/dd0da9617ca79a4e87af52dce06110b9/3e16582fc4bfd6e5-f2/s400x600/5b816266a11b24c8da833ecaf90e2d3f13cf104c.gif",
+            "https://64.media.tumblr.com/ced84db6f25736fbde2aa9dc600c4027/3e16582fc4bfd6e5-ee/s400x600/35641bc6108e009c5f481740a02f432b70eb360d.gif"]
 
         self.bot.fromis_9_nakyung_gif = ["https://gfycat.com/aromaticwillingcricket-mechabear-nakyung-fromis-kpop",
             "https://gfycat.com/acceptablevaguehorsechestnutleafminer-mechabear-nakyung-fromis-kpop",
@@ -852,7 +881,14 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/ee244a9d90f9db1d9a76bc83bceb6431/ff34abfff7e29f27-9b/s540x810/cf3a50ee180ed73d45bbc97807a8b6afccb9c2a5.gif",
             "https://64.media.tumblr.com/0bd18619d4eae9d0236ce5a27d891811/ff34abfff7e29f27-18/s540x810/d1826fd8e2ce19254858cba5755e22fd93c0cc61.gif",
             "https://64.media.tumblr.com/bcaaf0493d1ee19a84d5e00e614d80ca/ff34abfff7e29f27-d0/s540x810/7a331d0e20557c7c8798a25ee1c88759806ee803.gif",
-            "https://64.media.tumblr.com/da3fe46df803b469a1251bc918233af2/ff34abfff7e29f27-53/s540x810/713616c6fd4db871178298c86487660a7d7e7a01.gif"]
+            "https://64.media.tumblr.com/da3fe46df803b469a1251bc918233af2/ff34abfff7e29f27-53/s540x810/713616c6fd4db871178298c86487660a7d7e7a01.gif",
+            "https://64.media.tumblr.com/0dc467db2e2f79a77b27990a2b13b1d4/6d42a8a4a764934f-11/s540x810/179429179531af036246580587a0201a9aad8769.gif",
+            "https://64.media.tumblr.com/2b63f0ef57bdd12365db27d473ff305e/6d42a8a4a764934f-05/s540x810/42e43ad3c77e173ecdb1f6499f174874f31e178a.gif",
+            "https://64.media.tumblr.com/cffcf901bc53d63a558b1874da1e2f5e/6d42a8a4a764934f-7f/s540x810/d9144ce7237e8013049de4387fe8825e7641b3d9.gif",
+            "https://64.media.tumblr.com/0f7d79aa0dd29f7d0ef617c29bac7726/ef5a4609c6c9d660-9e/s400x600/66ffc79f7cfb4aac82cc11582ba61a10f1587475.gif",
+            "https://64.media.tumblr.com/ede6b6f499329735c8ef2e43f52f62f4/ef5a4609c6c9d660-c4/s400x600/ad237d513185a3a3212899e1781b9143b4de0c66.gif",
+            "https://64.media.tumblr.com/4c208bc4de90e7c2a255b8be1f749518/53a60d94d2a999df-f5/s400x600/d992d60e3d726759eaf5225d7ade6dd4d4eb0e69.gif",
+            "https://64.media.tumblr.com/8da18824b34d628a0cdc2cb1d273f0c2/53a60d94d2a999df-b9/s400x600/f30d36cb5d7a580b43e190212c16124433a3ab34.gif"]
 
         self.bot.fromis_9_seoyeon_gif = ["https://gfycat.com/ajarkeencorydorascatfish",
             "https://gfycat.com/absolutemasculinegalapagoshawk-beauty",
@@ -910,7 +946,23 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/581f024147ad8a5bdd9229b204b23090/a08e85b5e38cba28-2e/s250x400/b68983c09832cd7695581ac613203e99191df951.gif",
             "https://64.media.tumblr.com/c70f4079f40e46f5d1721b9c33489c68/4cb608d85574da85-b3/s540x810/20169e8c1f0ee08a14ff8f3e9899ed1f3ae1039b.gif",
             "https://64.media.tumblr.com/3b7197f1b27032d457b3537c34235eb1/4cb608d85574da85-3e/s540x810/7a3003c31844d8e16ec5770d885466d61cb3bd2b.gif",
-            "https://64.media.tumblr.com/e9d507b90aa1f1841f54ab954ed9a751/4cb608d85574da85-41/s540x810/4cade71515125705df60930ce9117a286edf46bb.gif"]
+            "https://64.media.tumblr.com/e9d507b90aa1f1841f54ab954ed9a751/4cb608d85574da85-41/s540x810/4cade71515125705df60930ce9117a286edf46bb.gif",
+            "https://64.media.tumblr.com/52120a86ab110a40db91f7ec3c656df0/18ec52f88a3e3520-c0/s540x810/3907471da8b95f68128eb2554fd6079caa615cfa.gif",
+            "https://64.media.tumblr.com/2ddca7a9ef3c5f7f01f4cc333fe0e36b/18ec52f88a3e3520-8f/s540x810/0e9b2e11df6297d2ce1b3908c007c3ca9a35e610.gif",
+            "https://64.media.tumblr.com/74da20a1044813971fd76961bc692ade/18ec52f88a3e3520-ba/s540x810/c02373b6ef1fe78149c4e7948665d47b8384ed66.gif",
+            "https://64.media.tumblr.com/d8ba0da65fea4ab7f227b531f610b630/18ec52f88a3e3520-95/s540x810/06e4933cf652e4cff071f0cd5c8dcf2bac019d67.gif",
+            "https://64.media.tumblr.com/029fcc9d829230be867709e0ccfe5fb8/d4841c81228c0def-a7/s400x600/273dfe69d218631cf73936c87e795412d13785d7.gif",
+            "https://64.media.tumblr.com/c158072150d3bc15a0902cd46d2114de/d4841c81228c0def-4d/s400x600/2197d8ca6111372224c476122f98ac555814192c.gif",
+            "https://64.media.tumblr.com/6987a2ae9d7010b591b9faddadf38745/d4841c81228c0def-0f/s400x600/7c285decd570f229b6c649e8c057c3413576092c.gif",
+            "https://64.media.tumblr.com/011c14d12e4e7cba8a44c07e301ebcc3/d4841c81228c0def-f5/s400x600/509d1af8a4c1cf889e5d917695d2e86f016d7d95.gif",
+            "https://64.media.tumblr.com/7ab18fd403dc33b18d5d02170987557d/9ed2db6e7b6f291a-df/s540x810/9d979023ec158f367cd4950304eb902851cc46b1.gif",
+            "https://64.media.tumblr.com/8e8074e5ccdb562bb0a677c219cce610/9ed2db6e7b6f291a-1e/s540x810/ef3cb8cc7902824e210654a85698b10ced024395.gif",
+            "https://64.media.tumblr.com/ef641d788ae91f1c87077f91a6bb5bd6/9ed2db6e7b6f291a-fb/s540x810/36f275734e35de46c96276cc126c29929d50232c.gif",
+            "https://64.media.tumblr.com/1be16513c59880a7bc6a2131540b63c3/9ed2db6e7b6f291a-1b/s540x810/95d4f629b7078f71a8bf2b6b8da3d63585231a0a.gif",
+            "https://64.media.tumblr.com/8f0a99d4076dcbe96d2be0f86a312da2/d27ebdeb895cb236-e1/s400x600/98c568521afb55ef40f9fe079a6da6952c2abef0.gif",
+            "https://64.media.tumblr.com/cc695bc26215c58df019ffcd2fe6a436/d27ebdeb895cb236-97/s400x600/be8a661cc3495da4d013fffc4d36654e7dd50549.gif",
+            "https://64.media.tumblr.com/9bb75f42fbedf0d5ed60b5688a6c6ec4/d27ebdeb895cb236-21/s400x600/b7f1196600b8484476bbac8b76b4d6961ed35cec.gif",
+            "https://64.media.tumblr.com/507cb7439d99ba4de942d185927a2c84/d27ebdeb895cb236-46/s400x600/0cfbc5a2e72aae2215e900f2646867a3952136c5.gif"]
 
         self.bot.fromis_9_jiheon_gif = ["https://gfycat.com/alertfaroffleopardseal",
             "https://gfycat.com/palatableadolescentitaliangreyhound",
@@ -964,7 +1016,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/500c36c05074087738d15379a7684b5c/5f768c7d5deacbfb-9b/s540x810/613d7fb2d28e9cb846d0ee261715f69ecc67c89e.gif",
             "https://64.media.tumblr.com/f9dd5151366cffe73de42ad03cfd3a4a/5f768c7d5deacbfb-bb/s540x810/0c58b0b0b420a3943cc014f1b0dd51df216e156c.gif",
             "https://64.media.tumblr.com/0575b106f696aaf2b9e74023f38cc22c/5f768c7d5deacbfb-78/s540x810/f7f8edd84828ef6cff5050b49f811c94cf02fba3.gif",
-            "https://64.media.tumblr.com/8f7665174489191b8ef257b5fafc9a0a/5f768c7d5deacbfb-ae/s540x810/3b568c3673e58430a570f0d42d6b3b16c6994f08.gif"]
+            "https://64.media.tumblr.com/8f7665174489191b8ef257b5fafc9a0a/5f768c7d5deacbfb-ae/s540x810/3b568c3673e58430a570f0d42d6b3b16c6994f08.gif",
+            "https://64.media.tumblr.com/adbc36732ebe96277d9d75280f377075/2ed80b1e6c18b387-32/s400x600/a9f06cfcfa4c74ad96686c21b9a8c7a964a36949.gif",
+            "https://64.media.tumblr.com/d9d76313df4e4443806a1a851c0ea1b8/2ed80b1e6c18b387-8c/s400x600/f0e1ec4185431d5fd948f18284b3f12533663f16.gif",
+            "https://64.media.tumblr.com/ee70042d9df42bffa19740a8df702adf/2ed80b1e6c18b387-8b/s400x600/b8513b9257c128b15670c8abee1c5a1783c97558.gif",
+            "https://64.media.tumblr.com/894fccdb8110f58a8f69a681ca5c1973/2ed80b1e6c18b387-f9/s400x600/5dc5f1497aabdc7f851545dec7da067a1a49e652.gif"]
 
         self.bot.fromis_9_gyuri_gif = ["https://gfycat.com/ableesteemedangwantibo-beauty",
             "https://gfycat.com/messypartialbarnswallow",
@@ -1001,7 +1057,24 @@ class GGS(commands.Cog):
             "https://gfycat.com/clumsyadventurousirishsetter-mechabear-fromis-gyuri-kpop",
             "https://64.media.tumblr.com/c880a167c460f6841d15a61cbd7dab81/ed564f8c6546dcc9-32/s400x600/ab4bbe4a591339930c7058cf76f89a1dfb02b433.gif",
             "https://64.media.tumblr.com/262108d0ddbb223283961f82fe5b4985/ed564f8c6546dcc9-40/s400x600/65c7c9348809aa754f3b3fb14e08c42f989d8d1a.gif",
-            "https://64.media.tumblr.com/bdb1454c21e051afda8c49bc532f26f6/ed564f8c6546dcc9-4e/s400x600/f950f47d22a186e0836ba6a4e7f39fdbf2a2cdc8.gif"]
+            "https://64.media.tumblr.com/bdb1454c21e051afda8c49bc532f26f6/ed564f8c6546dcc9-4e/s400x600/f950f47d22a186e0836ba6a4e7f39fdbf2a2cdc8.gif",
+            "https://gfycat.com/vigorousfalseantarcticfurseal",
+            "https://gfycat.com/valuableambitiousbarnowl",
+            "https://gfycat.com/boldreflectinggourami"]
+
+        self.bot.fromis_9_group_gif = ["https://64.media.tumblr.com/98c20f55e4ad8ef52f5b13e266a812cb/91f6f9cea55c54cf-b5/s540x810/5c0456f4858ffc1b75bc0b2e18fb4c68312c737d.gif",
+            "https://64.media.tumblr.com/2d1364c1ff54274442b7f6184e90d3d8/91f6f9cea55c54cf-ff/s540x810/423a57ed96656b95a33eb953a36d939b40e6c0e9.gif",
+            "https://64.media.tumblr.com/4af39c34707773ee8617deb24bc15ec4/91f6f9cea55c54cf-22/s540x810/20347edbbc9f4e66c67a3e83c7a088d52f39a89a.gif",
+            "https://64.media.tumblr.com/e681d3a27cb9e10c04caf0a69b09ccd4/91f6f9cea55c54cf-e5/s540x810/bb417b94e0e70f87058cc099f75eda1d429f2a41.gif",
+            "https://64.media.tumblr.com/92d8a187ae9a647b467ca1b0bfcb9173/91f6f9cea55c54cf-73/s540x810/cf14dfe7d6985b504121b15eaf59a34aca84fefa.gif",
+            "https://64.media.tumblr.com/d7369768486ee38db2ea01eb63f7c529/d2f64af676c0a699-c3/s540x810/aa5d6a3e6efd2482d309ef7d8dd361216f23d13d.gif",
+            "https://64.media.tumblr.com/71b635b262c0ef8db103f1acb0c5c18f/d2f64af676c0a699-62/s540x810/261c807f844219e8cbd247d512df7367d54b714a.gif",
+            "https://64.media.tumblr.com/7e65874c9de57a847a8e45b766e3db7f/d2f64af676c0a699-0a/s540x810/8c7630f746801b993d4dc2f17a291d936735c2cf.gif",
+            "https://64.media.tumblr.com/3b4890958b6d9ed73170df6b69a5ab60/d2f64af676c0a699-1c/s540x810/f689093449647bca62ae5d7ec37225a92dc265e4.gif",
+            "https://64.media.tumblr.com/b667b9cd9d3b01cccf8b80abe33433e9/d2f64af676c0a699-62/s540x810/ee0bc37ce2783d8738dac4fd2caf7a1664b96bfd.gif",
+            "https://64.media.tumblr.com/bce6c1468a938888804c7b75143cb19b/d2f64af676c0a699-4f/s540x810/f76a31b5c8a3ec3a12d0c17077105c79a4325ee5.gif",
+            "https://64.media.tumblr.com/1f8b83a06fe708c0666c120c4638a638/d2f64af676c0a699-ee/s540x810/29e54212d9087acf52d632dc1da8e79194ff1208.gif",
+            "https://64.media.tumblr.com/665e87e2b0e4cc9a86cb49c176c781bc/d2f64af676c0a699-77/s540x810/6e0a0a49a3a12a61dba81c0c93e2481a1d247698.gif"]
     #. f(x)
         self.bot.fx_victoria_gif = ["https://gfycat.com/welloffsaltycygnet",
             "https://gfycat.com/kindheartedsoftclam",
@@ -3110,7 +3183,7 @@ class GGS(commands.Cog):
             await ctx.message.delete()
 
     @commands.command(aliases = ['fromis', 'fromis9'])
-    async def fromis_9(self, ctx, arg):
+    async def fromis_9(self, ctx, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -3148,9 +3221,13 @@ class GGS(commands.Cog):
             await ctx.send(random.choice(self.bot.fromis_9_jiheon_gif))
             await ctx.message.delete()
         elif arg == "gyuri":
-                await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
-                await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
+            await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
+            await ctx.message.delete()
+        elif arg == "grpup":
+            await ctx.send(f'<@{ctx.author.id}> is talking about fromis_9 :heart:') 
+            await ctx.send(random.choice(self.bot.fromis_9_group_gif))
+            await ctx.message.delete()
 
     @commands.command(aliases = ['f(x)'])
     async def fx(self, ctx, arg):
