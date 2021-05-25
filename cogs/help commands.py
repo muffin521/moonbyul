@@ -18,7 +18,7 @@ class hcommands(commands.Cog):
             "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
             "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
             "Seventeen", "Momoland", "I.O.I", "K.A.R.D.", #// end of groups in old help command
-            "Hello Venus", "woo!ah!"]
+            "Hello Venus", "woo!ah!", "TVXQ!"]
 
         self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
         self.groups_list.append("Misc")
@@ -117,8 +117,10 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Golden Child Commands', value=f'```\nGolden Child Y\nGolden Child Jibeom\nGolden Child Jangjun\nGolden Child Tag\nGolden Child Bomin\nGolden Child Daeyeol\nGolden Child Jaehyun\nGolden Child Donghyun\nGolden Child Joochan\nGolden Child Seungmin```')
         elif arg == "hello venus": #. no group command
             embed1.add_field(name='Hello Venus Commands', value=f'''```\nHello Venus Lime\nHello Venus Alice\nHello Venus Nara\nHello Venus Seoyoung\nHello Venus Yooyoung\nHello Venus Yeoreum```''')
-        elif arg == "hello venus": #. no group command
-            embed1.add_field(name='woo!ah! Commands', value=f'''```\nwoo!ah! Sora\nwoo!ah! Wooyeon\nwoo!ah! Nana\nwoo!ah! Lucy\nwoo!ah! Minseo```''')
+        elif arg == "tvxq" or arg == "tvxq!": #. no group command
+            embed1.add_field(name='TVXQ! Commands', value=f'\naliases: `TVXQ!`, `TVXQ` ```\nTVXQ! Max\nTVXQ! U-Know```')
+        elif arg == "wooah" or arg == "woo!ah!": #. no group command
+            embed1.add_field(name='woo!ah! Commands', value=f'''\naliases: `woo!ah!`, `wooah` ```\nwoo!ah! Sora\nwoo!ah! Wooyeon\nwoo!ah! Nana\nwoo!ah! Lucy\nwoo!ah! Minseo```''')
         elif arg == "DEFAULT":
             embed1.add_field(name='Groups', value=f'```{self.groupName}```')
 
