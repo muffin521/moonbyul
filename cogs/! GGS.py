@@ -2124,7 +2124,11 @@ class GGS(commands.Cog):
             "https://gfycat.com/disfiguredbothkatydid-weki-meki-yoojung-elly-kpop",
             "https://gfycat.com/bitterachingconch-weki-meki-yoojung-elly-kpop",
             "https://gfycat.com/criminalblackesok-weki-meki-yoojung-elly-kpop",
-            "https://gfycat.com/descriptiveclutteredballoonfish-weki-meki-yoojung-elly-kpop"]
+            "https://gfycat.com/descriptiveclutteredballoonfish-weki-meki-yoojung-elly-kpop",
+            "https://64.media.tumblr.com/a521d4b52e94affdc082656fc334490e/tumblr_prz5v9g47T1x9fmavo4_400.gif",
+            "https://64.media.tumblr.com/eaafed70b053b875874f61e9fd50333c/tumblr_prz5v9g47T1x9fmavo1_400.gif",
+            "https://64.media.tumblr.com/1cdfcea82127ed410f3040a6db306c9e/tumblr_prz5v9g47T1x9fmavo2_400.gif",
+            "https://64.media.tumblr.com/45c6a9b6697110660a6ee70ac659fd10/tumblr_prz5v9g47T1x9fmavo3_400.gif"]
 
         self.bot.wekimeki_lua_gif = ["https://cdn.discordapp.com/attachments/800224194482274345/801694025346187274/original_1.gif",
             "https://cdn.discordapp.com/attachments/800224194482274345/800560199026606100/7a212bf86037a492f5355889a2441032.gif",
