@@ -140,7 +140,7 @@ class hcommands(commands.Cog):
             embed1.add_field(name='woo!ah! Commands', value=f'''\naliases: `woo!ah!`, `wooah` ```\nwoo!ah! Sora\nwoo!ah! Wooyeon\nwoo!ah! Nana\nwoo!ah! Lucy\nwoo!ah! Minseo```''')
         
         elif arg == "misc":
-            embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ\n ```')
+            embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ```')
         elif arg == "DEFAULT":
             embed1.add_field(name='Groups', value=f'```{self.groupName}```')
 
