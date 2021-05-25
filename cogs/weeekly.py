@@ -1048,7 +1048,7 @@ class weeekly(commands.Cog):
             await ctx.message.delete()
         elif arg == "group":
             await ctx.send(f'<@!{ctx.author.id}> is talking about WEEEKLY :skateboard:')
-            await ctx.send(random.choice(self.bot.weeekly_zoa_gif))
+            await ctx.send(random.choice(self.bot.weeekly_group_gif))
             await ctx.message.delete()
 
 def setup(client):
