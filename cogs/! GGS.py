@@ -139,7 +139,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20714566",
             "https://tenor.com/view/rollin-eunji-bravegirls-hongeunji-gif-20714657",
             "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690338",
-            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690334"]
+            "https://tenor.com/view/eunji-bravegirls-hongeunji-gif-20690334",
+            "https://64.media.tumblr.com/769226361d5d2bd7b625c9f9a7d0dbd6/1a07cbfc8348a86c-8a/s400x600/a0ff12b127059ae4d2d04d832d2c521bba8fb92c.gif",
+            "https://64.media.tumblr.com/dca81f405284b1793fee94e1d057d2fb/1a07cbfc8348a86c-0b/s400x600/23f71034aaf64350ea528e8925134ffb1083f913.gif",
+            "https://64.media.tumblr.com/cc9b7165d7fdd369e0c754cd857ee389/1a07cbfc8348a86c-9e/s400x600/299a018c638427ba151f74cdcd4a5dbf64a42d3f.gif",
+            "https://64.media.tumblr.com/c308647dca8b3b8d6e38386675f8a41d/1a07cbfc8348a86c-92/s400x600/0da70f4906be574bff6cba3a428612f3686daa8c.gif"]
 
         self.bot.brave_girls_minyoung_gif = ["https://gfycat.com/agedquickbrant",
             "https://gfycat.com/agedquickbrant",
@@ -166,7 +170,19 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20715020",
             "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-20715018",
             "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-20715016",
-            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20714991"]
+            "https://tenor.com/view/rollin-minyoung-bravegirls-kimminyoung-gif-20714991",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21313105",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21313109",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21313112",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21313115",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21300442",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21300432",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21300433",
+            "https://tenor.com/view/minyoung-bravegirls-kimminyoung-gif-21300450",
+            "https://64.media.tumblr.com/e4b7ed288fb55598fc9f77b9a7f146ea/a85dd737e264e3e2-57/s400x600/c29487a7b4ffa8938fae35ea1dda68e06f780e2d.gif",
+            "https://64.media.tumblr.com/84178ac2d91c5f5df6f457de5f0df582/a85dd737e264e3e2-22/s400x600/f2747501e7a523fe7b57c610c6c0b337d64b3057.gif",
+            "https://64.media.tumblr.com/4f7c32d0f19c5fea935168621f187edb/a85dd737e264e3e2-a0/s400x600/a9f539565b8f67782af9e81a909c709c610ff651.gif",
+            "https://64.media.tumblr.com/017eb5efbc60e995dd286296afc70612/a85dd737e264e3e2-c3/s400x600/79dbc534f314f9974391a3cb08e9da9a4daf4957.gif"]
 
         self.bot.brave_girls_yujeong_gif = ["https://tenor.com/view/yujeong-bravegirls-gif-18867965",
             "https://cdn.discordapp.com/attachments/816771902965415987/816897752330928158/iu-25.jpeg",
@@ -222,7 +238,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715482",
             "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715483",
             "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715487",
-            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715485"]
+            "https://tenor.com/view/rollin-yujeong-bravegirls-namyujeong-gif-20715485",
+            "https://64.media.tumblr.com/ae21c6ae58b4c5f204ae16ef10d82699/208555dab89468ae-b1/s400x600/83ed1b22246ea5b43befb4bc9537d00fbb41acb2.gif",
+            "https://64.media.tumblr.com/c62691fa69fe449f185394c77878a52b/208555dab89468ae-58/s400x600/4d4141b2d18349b2f1411e4c2cf4cc48e1dfca87.gif",
+            "https://64.media.tumblr.com/17f1578d60b77fdf1eb1a08ab26dbce2/208555dab89468ae-6d/s400x600/a52d9eb0bf4fdca22b21c1516417ef6c6359403f.gif",
+            "https://64.media.tumblr.com/7b08a207b62a7f15354700cac4ccf3ca/208555dab89468ae-86/s400x600/1f619b969ed64a5d0f097b551fa22dde6b70f134.gif"]
 
         self.bot.brave_girls_yuna_gif = ["https://cdn.discordapp.com/attachments/816771927376265277/816888431007105034/iu-7.gif",
             "https://cdn.discordapp.com/attachments/816771927376265277/816888445716267028/iu-4.gif",
@@ -257,7 +277,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714939",
             "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714957",
             "https://tenor.com/view/cute-rollin-yuna-bravegirls-leeyuna-gif-20714940",
-            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714953"]
+            "https://tenor.com/view/rollin-yuna-bravegirls-leeyuna-gif-20714953",
+            "https://64.media.tumblr.com/fdb323ac92a99e69248aa1983f37ef65/644e9352e543742f-f6/s400x600/a91bc429eed016919b1b9c00f6a3aaecc8a1d7fe.gif",
+            "https://64.media.tumblr.com/f991e4cf032e5d7b837663303ed4b5f2/644e9352e543742f-cd/s400x600/8fd18a6e2e2da3ed414f27f7df9a918171f48eb3.gif",
+            "https://64.media.tumblr.com/8da813a36e188bc6ae8c72cb451fa6d9/644e9352e543742f-d5/s400x600/50f27a5ab410dbf42a57a1c9c9374b8f2192b69b.gif",
+            "https://64.media.tumblr.com/e4d6576044c8f25479611676f19a2fd8/644e9352e543742f-29/s400x600/8622004c72dc8abe1b28cfa89921d987113031ef.gif"]
     #. Dreamcatcher
         self.bot.dreamcatcher_jiu_gif = ["https://tenor.com/view/onex-1x-jiu-hawt-kim-minji-hawt-jiu-gif-18812596",
             "https://cdn.discordapp.com/attachments/771238115255255060/785294061996605470/image1.gif",
