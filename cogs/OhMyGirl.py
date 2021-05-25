@@ -67,7 +67,44 @@ class OhMyGirl(commands.Cog):
             "https://giphy.com/gifs/RDVsYATtSE2sb2meBR",
             "https://giphy.com/gifs/7QelThWYjD5IaSG0TU",
             "https://giphy.com/gifs/g1xNeIilxCkqwoXHhK",
-            "https://giphy.com/gifs/K1TrJ6rrXOyzNBO93g"]
+            "https://giphy.com/gifs/K1TrJ6rrXOyzNBO93g",
+            "https://gfycat.com/spitefulfairkillerwhale",
+            "https://gfycat.com/classicnearincatern",
+            "https://gfycat.com/eagerindolentcorydorascatfish",
+            "https://gfycat.com/scalyportlyheifer",
+            "https://gfycat.com/legalunrealisticjumpingbean",
+            "https://gfycat.com/disastrousflimsyharvestmouse",
+            "https://gfycat.com/eminentsinglefinnishspitz",
+            "https://gfycat.com/aridmilkygemsbuck",
+            "https://gfycat.com/poisedbouncybronco",
+            "https://gfycat.com/unrulyeuphoricchinesecrocodilelizard",
+            "https://64.media.tumblr.com/018b87a68cce96964a13a700abd3488c/f37e3274107337e8-37/s540x810/b5a77c492cc8543723f295c9e2c5d4da69b08a51.gif",
+            "https://64.media.tumblr.com/b43bbd47f9c320c99779977d17ac378d/f37e3274107337e8-36/s540x810/2759b1f398f66bbeebe859fb986eb9a2478a2724.gif",
+            "https://64.media.tumblr.com/7d5c53110b464ab6685882fe369ea59d/f37e3274107337e8-27/s540x810/acea612b4c489a7a0588f0e6d6cdde266c987b8f.gif",
+            "https://giphy.com/gifs/byH9qA1V3yFBkUaiD6",
+            "https://giphy.com/gifs/DCK1grB526enocS3qi",
+            "https://giphy.com/gifs/KqqQ8P2La1zPMQYpzb",
+            "https://giphy.com/gifs/tMTvYkJbMc9vOm46RZ",
+            "https://giphy.com/gifs/WhuA4kk8SKGnR1AUGE",
+            "https://giphy.com/gifs/zlPmeB2uzWndDhAvB9",
+            "https://giphy.com/gifs/yRRyuQzbLZfEugzcGA",
+            "https://giphy.com/gifs/a9GVnFn5XOuNlChKc7",
+            "https://giphy.com/gifs/zHCTzu1rH4h9BIQxnf",
+            "https://giphy.com/gifs/jo8ix68QT4mVtfnlCC",
+            "https://giphy.com/gifs/xUQqxdL8XW2tWtouLZ",
+            "https://giphy.com/gifs/yUFeO68Wozdqi2zsV1",
+            "https://giphy.com/gifs/z0KqFF7l4eD0Aou7Gm",
+            "https://giphy.com/gifs/FwftfqTHKI6KBU6iZI",
+            "https://giphy.com/gifs/zNheh7uj9dFrVXSCtw",
+            "https://giphy.com/gifs/vCWQls41L7WKf3emip",
+            "https://giphy.com/gifs/y5crJmBABvbxDMwbpd",
+            "https://gfycat.com/illegaldishonestaracari",
+            "https://gfycat.com/spitefulimpishhog",
+            "https://gfycat.com/carefulgrossgangesdolphin",
+            "https://gfycat.com/zigzagclassiciceblueredtopzebra",
+            "https://gfycat.com/immaterialsnoopydikkops",
+            "https://64.media.tumblr.com/2c8668a4224b322595453a1f91759a13/a55ee6c002ff1f31-b9/s400x600/bf876da40efee5d09fc7ba0ac08f08cf171fbdaa.gif",
+            "https://64.media.tumblr.com/067dc7dec45491c2729c5a315d4e61e3/a55ee6c002ff1f31-0e/s400x600/6f9a7673339747b19f3ab81b172d5a2a6f35e3c0.gif"]
 
         self.bot.ohmygirl_binnie_gif = ["https://gfycat.com/sadlonegalapagosdove",
             "https://tenor.com/view/oh-my-girl-kpop-hi-wave-binnie-gif-15821110",
@@ -93,7 +130,14 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/oh-my-girl-binnie-cute-short-hair-happy-gif-15586118",
             "https://tenor.com/view/oh-my-girl-binnie-laugh-happy-cute-gif-15813570",
             "https://tenor.com/view/oh-my-girl-binnie-dance-cool-moves-gif-15856553",
-            "https://tenor.com/view/oh-my-girl-binnie-wave-hi-cute-gif-15856563"]
+            "https://tenor.com/view/oh-my-girl-binnie-wave-hi-cute-gif-15856563",
+            "https://gfycat.com/freshreadyindianjackal",
+            "https://gfycat.com/misguidedbarearmyant",
+            "https://gfycat.com/paledishonestbrocketdeer/",
+            "https://64.media.tumblr.com/56573e5b71572dcd62a1ee0f4e72a77c/7f5c9251cbed597c-b4/s540x810/1bfda25339a28c2d75da17fb03ad1b5a3be6445f.gif",
+            "https://gfycat.com/memorablesmoothfurseal",
+            "https://gfycat.com/vacantsimplistichyracotherium",
+            "https://gfycat.com/decentleafyhornbill"]
 
         self.bot.ohmygirl_hyojung_gif = ["https://tenor.com/view/oh-my-girl-cute-girl-smile-illusion-gif-16725606",
             "https://tenor.com/view/lol-rofl-laughing-laugh-oh-my-girl-gif-14647344",
@@ -122,7 +166,11 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/hyojung-gif-19857821",
             "https://tenor.com/view/hyojung-gif-19857822",
             "https://tenor.com/view/choi-hyojung-hyojung-gif-19591487",
-            "https://tenor.com/view/hyojung-gif-19857823"]
+            "https://tenor.com/view/hyojung-gif-19857823",
+            "https://gfycat.com/forcefuldisfiguredbluejay",
+            "https://64.media.tumblr.com/af5d84772db5def9ba542ef3130e6ab8/657de7c7f2a01662-58/s540x810/ab2e72587d473d5bcc6bb4a6eb933cc8483e78da.gif",
+            "https://64.media.tumblr.com/452915363cf265f9f551664d00002f52/657de7c7f2a01662-ab/s540x810/4288fb50131941c4afb9ab60f96d92a3dff20b74.gif",
+            "https://64.media.tumblr.com/5e61f7799a4b8eceefb9912538716092/657de7c7f2a01662-aa/s540x810/2d3d704bed0422b5aa0189ba4156ce57cda1e4e8.gif"]
 
         self.bot.ohmygirl_jiho_gif = ["https://gfycat.com/velvetywildcowbird",
             "https://tenor.com/view/jiho-omg-oh-my-girl-kim-jiho-kpop-gif-17349420",
@@ -149,7 +197,29 @@ class OhMyGirl(commands.Cog):
             "https://tenor.com/view/jiho-ohmygirl-gif-19507110",
             "https://gfycat.com/nastyverifiableanole",
             "https://gfycat.com/assuredboldhyena",
-            "https://gfycat.com/sparsebarecreature"]
+            "https://gfycat.com/sparsebarecreature",
+            "https://gfycat.com/optimisticagreeableindianpalmsquirrel",
+            "https://gfycat.com/gaseoussoupyarcticwolf",
+            "https://gfycat.com/fluiduncommonaurochs",
+            "https://gfycat.com/energeticweakblackbuck",
+            "https://gfycat.com/evenicydrongo-dun-dun-dance-oh-my-girl-jiho-kpop//",
+            "https://gfycat.com/wealthyseriousivorybilledwoodpecker//",
+            "https://64.media.tumblr.com/65d3e362b8187cfa22dd222c70aa8f42/e0329000673f1249-70/s540x810/42950510ffb8626eb631c302f98c0480fb3c1a9c.gif",
+            "https://64.media.tumblr.com/e06dd5b2218d85ff6f2f42974df7d8b0/e0329000673f1249-31/s540x810/efd70f1046a2e9b38faac47acfdf59dc809b5c74.gif",
+            "https://64.media.tumblr.com/9ad975d04bee722734975b101fc85738/e0329000673f1249-08/s540x810/bce8470e5b270be323d3fa4c9dccf7c1525e42ba.gif",
+            "https://64.media.tumblr.com/6d1c314867e7c7163d90d60572a8ad82/fc35c79a2e846ef9-5c/s540x810/72e97dcbdec6f2718e96f20dd77b128595bc9c5c.gif",
+            "https://64.media.tumblr.com/92a0c8f9a255ff78772222a23d7ba7de/fc35c79a2e846ef9-ec/s540x810/cba3cd5c87def72c0a039ca79a10927d3cffe946.gif",
+            "https://64.media.tumblr.com/ffac9139951a66f853287b51400088e2/0cafe4e17e71ece3-34/s400x600/8f5d2fcb01b62c6fa5f23872e63b70c15ea56f8c.gif",
+            "https://64.media.tumblr.com/c377397c9ae563d0ff468f77baac7b5f/0cafe4e17e71ece3-be/s400x600/bc534b2ced84594ddd054e4ad2631aa3300b04f2.gif",
+            "https://64.media.tumblr.com/620e90734f3b96b6997431d87465fded/0cafe4e17e71ece3-c7/s400x600/3619ce9a41a90de01f7031b92430b860b6bdcf16.gif",
+            "https://64.media.tumblr.com/d8652208ce2a7501d3e9981c9123378b/0cafe4e17e71ece3-ee/s400x600/d17bf14bc4d5d990463ca03edf4c5c65caea26f0.gif",
+            "https://gfycat.com/fickletestyangelfish",
+            "https://64.media.tumblr.com/6613d565e264a905276fc91935490722/a88452058becac78-0d/s400x600/01f17d1f2950419a70349b195d120942dac4ea1a.gif",
+            "https://64.media.tumblr.com/624fd1603bc5356d4a388ec53c6e3e07/a88452058becac78-3a/s400x600/ef798bef1febbad6680575fed521542e4e044657.gif",
+            "https://64.media.tumblr.com/2fe011813b2acc931996cf413cb0dfaa/a88452058becac78-94/s400x600/9114967c724004d4f003ddfc4e539208796776de.gif",
+            "https://64.media.tumblr.com/520c601a814c7096391c6b5b4c89c6db/a88452058becac78-c0/s400x600/35ba4e52b555df781b15285b9e3cba7767cd1c2a.gif",
+            "https://gfycat.com/selfreliantvainabyssiniangroundhornbill",
+            "https://gfycat.com/disfiguredanotherindusriverdolphin"]
 
         self.bot.ohmygirl_mimi_gif = ["https://tenor.com/view/mimi-oh-my-girl-rap-forehead-mic-gif-15514487",
             "https://tenor.com/view/ohmygirl-mimi-gif-19477876",
@@ -180,7 +250,17 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/homelysomedugong-weekly-idol-oh-my-girl-variety-kpop-omaigeol-mimi",
             "https://gfycat.com/equallargeblueshark-the-fifth-season-oh-my-girl-aesthetics-ssfwl",
             "https://gfycat.com/hugeplastichypsilophodon-weekly-idol-oh-my-girl-variety-kpop-omaigeol-mimi",
-            "https://gfycat.com/fortunateamazinghoiho-oh-my-girl-ssfwl-kpop-mimi"]
+            "https://gfycat.com/fortunateamazinghoiho-oh-my-girl-ssfwl-kpop-mimi",
+            "https://gfycat.com/palerevolvingguineapig",
+            "https://gfycat.com/glamorousweirdamericanbobtail",
+            "https://gfycat.com/unsightlyfancybluejay",
+            "https://gfycat.com/clutteredimpartialindianspinyloach",
+            "https://gfycat.com/meatyshychickadee",
+            "https://gfycat.com/inferioroddballivorybilledwoodpecker",
+            "https://gfycat.com/impishreadybronco",
+            "https://64.media.tumblr.com/c54beb1ea5d14bad80c77d4b426c5e61/8cf2e822f5e0d778-76/s400x600/f1af1f06f9df32823af30d0fe1fdbd721e5550ef.gif",
+            "https://64.media.tumblr.com/b5fb74f0e86c17b584df4d5bb4895ba0/8cf2e822f5e0d778-6c/s400x600/41029163986e09b9169b9633dd3b89c17be3ddb6.gif",
+            "https://64.media.tumblr.com/c4f1307e239ee7e1c7b2e73b80e43385/8cf2e822f5e0d778-10/s400x600/8490a3809738e6836928d8ccf62dbd45deb4cf66.gif/"]
 
         self.bot.ohmygirl_seunghee_gif = ["https://tenor.com/view/aww-jiggle-ohmygirl-pout-korean-gif-18118579",
             "https://gfycat.com/bountifulbronzekarakul",
@@ -198,7 +278,9 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/allsimilardodobird",
             "https://gfycat.com/bountifulickyleveret",
             "https://gfycat.com/physicalpassionatedarwinsfox",
-            "https://gfycat.com/jealousmildbobolink"]
+            "https://gfycat.com/jealousmildbobolink",
+            "https://gfycat.com/gargantuanshimmeringgraysquirrel",
+            "https://gfycat.com/solidcompetentaustraliankestrel"]
 
         self.bot.ohmygirl_yooa_gif = ["https://gfycat.com/querulousangelicarctichare-yooa",
             "https://media.discordapp.net/attachments/643623059541983242/770648857595084832/2ac60c3d-e2fd-4649-beca-88c8cc046231.gif",
@@ -246,7 +328,14 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/bigheartedvapidleafcutterant-oh-my-girl",
             "https://gfycat.com/drearyunrulycomet",
             "https://gfycat.com/dearcelebratedcottonmouth",
-            "https://gfycat.com/importantpowerfulgalapagosdove-oh-my-girl-yooa-omaigeol"]
+            "https://gfycat.com/importantpowerfulgalapagosdove-oh-my-girl-yooa-omaigeol",
+            "https://gfycat.com/defenselesselatedgermanspaniel",
+            "https://gfycat.com/hideousaltruistichuman",
+            "https://gfycat.com/homelyflawlessblacknorwegianelkhound",
+            "https://64.media.tumblr.com/0e014b44fc8c8bdeb9444086658d6d21/d0f3d42d1f3f1ba4-d2/s400x600/8e817fc1d9fd3fb6e79c5c569680f91b8d9d0220.gif",
+            "https://64.media.tumblr.com/d9d7081bd422f162f3a2521946a6d45a/d0f3d42d1f3f1ba4-66/s400x600/e7d8683acc1f5ee082efc371cefa24d2d88671d3.gif",
+            "https://64.media.tumblr.com/eed0a420a6252ea8a8e42612eb03f219/d0f3d42d1f3f1ba4-76/s400x600/274505b2488cb5c5ef28c9ce2816c1cb159ccc07.gif",
+            "https://64.media.tumblr.com/86c45e3b051becbab65b26d7941631a3/d0f3d42d1f3f1ba4-a5/s400x600/7e6fc93569315d8bfaf39ab0edd4f509a3732941.gif"]
 
     @commands.command()
     async def oh(self, ctx, my, girl, arg):

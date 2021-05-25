@@ -212,7 +212,29 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/roseblackpink-rose-parkchaeyoung-blackpink-rosecute-gif-20433123",
             "https://tenor.com/view/blackpink-rose-parkchaeyoung-gif-8100028",
             "https://gfycat.com/gracefulconventionalkagu-blackpink-mechabear-rose-kpop",
-            "https://gfycat.com/redwholecarp-blackpink-mechabear-rose-kpop"]
+            "https://gfycat.com/redwholecarp-blackpink-mechabear-rose-kpop",
+            "https://64.media.tumblr.com/bcc742520d24c3a04c59737d16b19a4c/bb6105e51a6e0fe9-73/s540x810/5e9af49e43d09697ef1b761fbca7348ff327dd0f.gif",
+            "https://64.media.tumblr.com/c9ae4b8a9b6643112d572eaa68b766fb/bb6105e51a6e0fe9-b7/s540x810/315723d78564a5f066c2fcbe087f8c55a1f6f179.gif",
+            "https://64.media.tumblr.com/92247c41758a353f6591ae874860a67f/bb6105e51a6e0fe9-dd/s540x810/f0f5db6117f867d53330d6e241355ae379db019d.gif",
+            "https://64.media.tumblr.com/b67de525aeda64322725b2367413d84a/bb6105e51a6e0fe9-9b/s540x810/0e77a464be7bde6a28733d0ced698687c239c099.gif",
+            "https://64.media.tumblr.com/f768e1c8d4dc1846d476a6205594240b/e8bd044f2aad4437-8b/s540x810/13cedf278097acd4f93ffdd2db61c5f79837d320.gif",
+            "https://64.media.tumblr.com/a70bf2c1b53c0067efea38136389b9f9/e8bd044f2aad4437-a7/s540x810/86acc056637b11b93799792815c5dd4687c21cae.gif",
+            "https://64.media.tumblr.com/e45da097725b3783b7e069c9a4e37915/e8bd044f2aad4437-56/s540x810/6b195dec6ccd2b1f74b1cd026185870617d6abff.gif",
+            "https://64.media.tumblr.com/37bd30d5fd6a34f5042ea960806ef963/1a5700a21b7e4429-b0/s540x810/f3be0e55aa2141c15242e4da04e15a6bbf98def9.gif",
+            "https://64.media.tumblr.com/20a311bab28336754938c8227f369199/0a91b18203774887-aa/s540x810/fbfc49210c6139e5f1c6d631be4b85cfdf9ee257.gif",
+            "https://64.media.tumblr.com/86401b270b81561bd381a76e7eff0212/0a91b18203774887-b6/s540x810/4418a27569000b2a9171e5955b92ab49d6d0ba41.gif",
+            "https://64.media.tumblr.com/83a06452ee3dce0a97d3bac0f10a2b20/3c2743e923d65130-d8/s540x810/38a82c9b0e232cd736d0328c56ba2032acaca2bb.gif",
+            "https://64.media.tumblr.com/caceb639e745ab17001efe4b63e25b30/3c2743e923d65130-b6/s540x810/e62f832b181c3ed808891733e0336690182b508b.gif",
+            "https://64.media.tumblr.com/66bfaac7865df65abdc88b7c58641568/3c2743e923d65130-4c/s540x810/6635f913710ebc3f56f8112a1a8cdfebc24e987a.gif",
+            "https://64.media.tumblr.com/2dcf0373d84c0a4573b8b6f424c52ef4/ce7247ad2853416f-dc/s540x810/a74889716503f246ede7455ff383d0eb891cf20e.gif",
+            "https://64.media.tumblr.com/6f087f076b4530e5c8f8cffe766602de/ce7247ad2853416f-20/s540x810/40bc06fa1763f1ce1d3498da84e59be44ede2452.gif",
+            "https://64.media.tumblr.com/91389166edb4dc643baaa430cbf6531e/34f5bda012062823-52/s540x810/01a908d5eacdfcf7720b00175ee5177665f9d6b7.gif",
+            "https://64.media.tumblr.com/63c5a66f2d616a6ba238f81d98f39675/66109f85dbcb81fb-e3/s400x600/df765b78315acfb8660a72d9317887ecd6659231.gif",
+            "https://64.media.tumblr.com/63c5a66f2d616a6ba238f81d98f39675/66109f85dbcb81fb-e3/s400x600/df765b78315acfb8660a72d9317887ecd6659231.gif",
+            "https://64.media.tumblr.com/e84936b67b8f80c79f14cd5fbb76190d/9e232be94f5a7c82-9e/s250x400/6ebe2482cfecb2ed4b1f8c9c3d5192ee15a4610a.gif",
+            "https://64.media.tumblr.com/7a2f2e43e911871c4fd01aeb63c60c67/9e232be94f5a7c82-30/s250x400/a5943754771d84229b5fa721d8001885b6eaf43d.gif",
+            "https://64.media.tumblr.com/cad32f03cb445117640a56a8a2b1ea04/9e232be94f5a7c82-4c/s250x400/b70b8a2260e3a3ef2cc49023aa34bd84ab858845.gif",
+            "https://64.media.tumblr.com/89f0012b22684d07aad9700a862c8d56/9e232be94f5a7c82-05/s250x400/d0b8d212a386150ba6706f219e783a0bb7d79487.gif"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
@@ -345,7 +367,42 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/jennie-gif-19082685",
             "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398252",
             "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398249",
-            "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398250"]
+            "https://tenor.com/view/howyoulikethat-hylt-jennie-jenniekim-blackpink-gif-21398250",
+            "https://64.media.tumblr.com/5f59a813feb25324b29d73bf9768d4b7/4773ef7334415b95-8c/s400x600/06d487ff1acce24b45767fa4640852bfa6516376.gif",
+            "https://64.media.tumblr.com/9e0bd01d9b82c5977fd049e6546bb41d/4773ef7334415b95-7a/s400x600/486208c946989b9fc39cb228bd08d829b2e34079.gif",
+            "https://64.media.tumblr.com/71bb22df4f08bf3c1131220b5c7f3243/4773ef7334415b95-62/s400x600/b32ad18f7c730df87b525e94690be74eb77f77aa.gif",
+            "https://64.media.tumblr.com/d80c51499c7e108d68cbf97faa181d58/4773ef7334415b95-9e/s400x600/a15c586a3f77357903fa8907253f359f184490fc.gif",
+            "https://64.media.tumblr.com/d6d8a53634bf856958d2d4219aa19cfe/6f621a2ea8da1360-d6/s540x810/1f71f3b1215c833410486640d481af9554062e04.gif",
+            "https://64.media.tumblr.com/cfda6e97dff7d36c2a59d1438af16e90/6f621a2ea8da1360-1b/s540x810/741cb3865220555031a963ef71e7e21f71c8b7cf.gif",
+            "https://64.media.tumblr.com/12dfe954b5ad94c55c9eb38a134bdd40/6f621a2ea8da1360-18/s540x810/375f9809172027595d32b05a53187cb3a15de15f.gif",
+            "https://64.media.tumblr.com/c959876b23dcc8b30213b9715b12be03/f2b1f8b16b6307a4-f8/s400x600/77a209bd0cc41edf45ad55fe8c6bab6c3d1c792b.gif",
+            "https://64.media.tumblr.com/0edf55886b55a31e0ba2ce8ac5ec11c6/f2b1f8b16b6307a4-3b/s400x600/789713f960fbece563048cf01f7261f2ce86e96b.gif",
+            "https://64.media.tumblr.com/e50d71fc618260944f6e19b6c4ca94a0/f2b1f8b16b6307a4-fa/s400x600/31a060fbe7c382d32b3fc954d334ce6c31a9a196.gif",
+            "https://64.media.tumblr.com/da9f1507a3d1af2e3238be6ea8d9f304/f2b1f8b16b6307a4-d0/s400x600/6aa87e4131f0be391431cedded61dfe1dba44832.gif",
+            "https://64.media.tumblr.com/a2d2befc0032fd1a887ef4d497f6afca/f2b1f8b16b6307a4-39/s400x600/6685c816a669151bdcf12fac670a4b25e9776688.gif",
+            "https://64.media.tumblr.com/f98bc86dd3de79bf3275881de154e92c/f2b1f8b16b6307a4-a7/s400x600/287fe0896421ecad46608b344f9190b850dc8051.gif",
+            "https://64.media.tumblr.com/13955e0572eac19c25a189ba94377244/f2b1f8b16b6307a4-9a/s400x600/d1833da06eff4291a8e41745b94c6e4f11bd9042.gif",
+            "https://64.media.tumblr.com/d42ac9d28e2510b79ff7303f6309025b/f2b1f8b16b6307a4-a8/s400x600/b4a143d99e4baf5b0b22f3259739aaba434f6232.gif",
+            "https://64.media.tumblr.com/aadba004455e1e487ffe48a56d47c677/f2b1f8b16b6307a4-c5/s400x600/18b706ead0eeadcc5ea7be9009f65f310792155e.gif",
+            "https://64.media.tumblr.com/0f6624e416c13d630f45ef5e87ff438d/c39d960e3cad9c25-f5/s400x600/fa4c90086ff224fe22ea24f6ebd5abf213725826.gif",
+            "https://64.media.tumblr.com/99f9287d926350a94e2913acf3e005b3/c39d960e3cad9c25-cd/s400x600/5e870e9f20cc45469e77c5e1204f0da42581b468.gif",
+            "https://64.media.tumblr.com/3cbc01b129126558c956caae3dbaea7c/c39d960e3cad9c25-33/s540x810/aec876cbd735482214f62dd4a6537035fb4ed292.gif",
+            "https://64.media.tumblr.com/0f6624e416c13d630f45ef5e87ff438d/c39d960e3cad9c25-f5/s500x750/51f8e238fa8fd352e4fef2e67a0fc37dccf6230a.gif",
+            "https://64.media.tumblr.com/e7815784ac7b918018030aaa5a6ec6a4/1a5700a21b7e4429-a4/s540x810/e9f897cec5e51f6235af7dbcf6db23ce31a2edcd.gif",
+            "https://64.media.tumblr.com/d2320fd73e3771cefeab197732c61701/6b39294aa69ea0f9-3c/s400x600/3e488e6527fba28b59ccefc2b449dca7ec647d11.gif",
+            "https://64.media.tumblr.com/a35606016670304f428ae554826e14d9/3a80ef25775c9441-8d/s540x810/c9356d7a45c540fb65276659cffd98f189676acd.gif",
+            "https://64.media.tumblr.com/45c22cd2c21e78a5fe958c176eeff852/3a80ef25775c9441-98/s540x810/3374c8e650b4b260ac0a4939672589e62febb9df.gif",
+            "https://64.media.tumblr.com/97fe1f740c058fdb18a0ece350889d91/3a80ef25775c9441-88/s540x810/264378e56d7a919a8d53d4a11fe1a2aff7ed35fd.gif",
+            "https://64.media.tumblr.com/4d26b02afaf7579a669a1f5f3e7cc9f0/3a80ef25775c9441-d0/s540x810/06f9f7458049c3fcbe0b2193c7630d79a342074c.gif",
+            "https://64.media.tumblr.com/45607057e099ad9226b7e325110840de/e97a6e26f9876b0d-8e/s540x810/a58033a848fcf6176e85d415f5d540fe4f26a58f.gif",
+            "https://64.media.tumblr.com/fb95159b9049dbd3403ed91ca7bea66f/e97a6e26f9876b0d-96/s540x810/9d63f90d59943303f48d2457e1fec346c0704d2f.gif",
+            "https://64.media.tumblr.com/4284aededbaac29938e1dbf5e2da20b9/e97a6e26f9876b0d-f5/s540x810/bb05d3d1835d1ffbbda3e87f5bc1b88f6cc48e1f.gif",
+            "https://64.media.tumblr.com/1b3efeaba8d31e760bd5f052c5eb1d6b/e97a6e26f9876b0d-e8/s540x810/4462b6bf5ab85f84ec1b954e6569e4dbb10fe21b.gif",
+            "https://64.media.tumblr.com/cdc0cc2a80a7be8c479bf9e18c95a245/e97a6e26f9876b0d-39/s540x810/6bb890a1517301e71aef754077574c818f9eeaf9.gif",
+            "https://64.media.tumblr.com/be18e642ea678b53c04e9b1d191e4807/e97a6e26f9876b0d-6f/s540x810/706cbaa7bc4b7dbda7600483de58b8d9d2eb3125.gif",
+            "https://64.media.tumblr.com/745a67dcb6d7d186f89f6f0dc4b7e131/e97a6e26f9876b0d-d8/s540x810/92e5153a64ea65023b8eaf11d7fa2af892962491.gif",
+            "https://64.media.tumblr.com/ed7c6b581e11c2a3adbaede81b628389/e97a6e26f9876b0d-cd/s540x810/2419e0de6895f77df992a676f93663b8c5e1224b.gif",
+            "https://64.media.tumblr.com/e5a1b50f848589445e6568c8ff699530/34f5bda012062823-6c/s540x810/1d3de4f30c39de4ad116bac8c4db9bd03da3a6d4.gif"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
@@ -512,7 +569,29 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/sushichaeng-lisa-lisa-manoban-lisa-blackpink-blackpink-gif-20908236",
             "https://tenor.com/view/sushichaeng-lisa-lisa-manoban-blackpink-lisa-hd-gif-20920910",
             "https://tenor.com/view/sushichaeng-blackpink-lisa-lisa-manoban-lisa-cute-gif-20923878",
-            "https://tenor.com/view/lisa-gif-19082697"]
+            "https://tenor.com/view/lisa-gif-19082697",
+            "https://64.media.tumblr.com/42db9981e76e36f97d7459502df3e824/tumblr_plxx0uKVMG1r9f1l9o1_400.gif",
+            "https://64.media.tumblr.com/692260adc38be0380ababe20540b2003/f9663ac586721632-dd/s400x600/16668df5c94dbe3c7b23b1de84b13b28f2a8cc2d.gif",
+            "https://64.media.tumblr.com/9c79e24b51a7119dfe93755284a29a43/f9663ac586721632-1d/s400x600/6479b453e983f21df0e251fcf830efb3935859c7.gif",
+            "https://64.media.tumblr.com/538d0369d384d029ab50a252cc01b957/f9663ac586721632-b8/s400x600/e842653e8c475fbf659e170f24b25c6090442a01.gif",
+            "https://64.media.tumblr.com/db47ec11abd135586421746f9ac5f69d/f9663ac586721632-0b/s400x600/af6faeaf836238c45e18adbb3ad791a24e365459.gif",
+            "https://64.media.tumblr.com/2b6d361f62509ba938e6b1e7c28d9b40/1a5700a21b7e4429-50/s540x810/e014eb77385ae6b9361013a2d1cd49313ffcaa22.gif",
+            "https://64.media.tumblr.com/e44ab4e7e3a64e7f07422ffb60a0d65d/0f758d4b0871fede-98/s500x750/f354d7dd80f9d9f6cd35e0577a83b16f787b8c5d.gif",
+            "https://64.media.tumblr.com/a94796e14123c8b92b829ce5bcf6cf83/0f758d4b0871fede-8c/s500x750/56e61fa892366a60dfe034f0da63d1d0f2494539.gif",
+            "https://64.media.tumblr.com/09a95097c20b9f8b49323ae74bdfc6a0/222f6983c5a7696c-db/s400x600/38af8f5a9e31d1e1efed0165e11c41d2329de116.gif",
+            "https://64.media.tumblr.com/b00ff36b66f2e3a6ab11ad569ecbccc8/222f6983c5a7696c-1d/s400x600/0788c146ca1bcf2581bd768a2e9d2b535ec91057.gif",
+            "https://64.media.tumblr.com/09a95097c20b9f8b49323ae74bdfc6a0/222f6983c5a7696c-db/s400x600/38af8f5a9e31d1e1efed0165e11c41d2329de116.gif",
+            "https://64.media.tumblr.com/af1362c2d34fd5eb67229ab8de15f138/222f6983c5a7696c-93/s400x600/15c8a3a9e7590f948cb3b209f058d21139f6d361.gif",
+            "https://64.media.tumblr.com/57479b0ed7da35d390e5501cdf9db4ef/34f5bda012062823-14/s540x810/01157320dccfcafce375600afa1e0be2df54397c.gif",
+            "https://64.media.tumblr.com/4623e472357fdb720ea4c16a3a40e92b/32452cd178a4f31b-b3/s400x600/bea77968a41d106b8898e24d3340efa120ec54ea.gif",
+            "https://64.media.tumblr.com/45b4868d5303dbcabfa6e27164d5fc78/32452cd178a4f31b-f1/s400x600/89a86df468d88457369b72015d5819987bb077d6.gif",
+            "https://64.media.tumblr.com/1b01585b088ba0d21b4f80ad40bd05a4/32452cd178a4f31b-af/s400x600/510f8c3911d2e61bb2724615d5b5742bc92697a9.gif",
+            "https://64.media.tumblr.com/ca3120a7e64aa130b0cfa806521a5a6d/db650116364e7744-68/s540x810/8979ae4e7c03b803c6fd87b70cf3b8011b4424cc.gif",
+            "https://64.media.tumblr.com/da4ad2f71f8449af1e421991f18f83d9/d768d3f87b776672-be/s540x810/e441c33fff17257119cffaba564038b3a5ce56af.gif",
+            "https://64.media.tumblr.com/fd06bf68dc8bf21090b3433248d80274/d768d3f87b776672-12/s540x810/f5bd3aa68065dbada288e2e4660a1b80731c18af.gif",
+            "https://64.media.tumblr.com/cd8957fa0100dfa516e1b84dbefa5c9d/d768d3f87b776672-9a/s540x810/602962f5fe5fb7047d0cc348ad144b2610af4451.gif",
+            "https://64.media.tumblr.com/c9298f897d519fcba80b5ee62ad17dd3/d768d3f87b776672-40/s540x810/f6ade5167fb91c37be29f5f9419692704dca61bc.gif",
+            "https://64.media.tumblr.com/fe71c0fdec34bc0113bbd8e48798e3d2/d768d3f87b776672-f9/s540x810/d4eb5d1065e85c1590de4718fb78c804700126a0.gif"]
 
         self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",
@@ -785,7 +864,40 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/b9ef5c3cb6365990825cf8b2738aaa3a/tumblr_pu7la0k95I1vz2c9ho9_250.gif",
             "https://64.media.tumblr.com/603fbcf5795ed3862763830e23cbd099/tumblr_pu7la0k95I1vz2c9ho8_250.gif",
             "https://64.media.tumblr.com/10647bee3fef30592fc8d2cc744cc55f/tumblr_pu7la0k95I1vz2c9ho10_r1_250.gif",
-            "https://64.media.tumblr.com/a7e987acdf1b0e6022e3f55ed6ee4d06/tumblr_pu7la0k95I1vz2c9ho6_250.gif"]
+            "https://64.media.tumblr.com/a7e987acdf1b0e6022e3f55ed6ee4d06/tumblr_pu7la0k95I1vz2c9ho6_250.gif",
+            "https://64.media.tumblr.com/adccee6c733773d378c78ffebb4f4222/6d8feb8465702f3e-26/s400x600/e9df4b40b35fc9dd387e578f2695f8452a20a148.gif",
+            "https://64.media.tumblr.com/9bab1a4e1834829db3ca40e66f8d4e47/6d8feb8465702f3e-b9/s400x600/0c9f46ce9c37cecf96d74943a9d04885edc80980.gif",
+            "https://64.media.tumblr.com/4c1b25dac24a5ff89d012ad2606332b8/6d8feb8465702f3e-1a/s400x600/1e53d742819879909bd64fb2d9fc46adb2c36de0.gif",
+            "https://64.media.tumblr.com/c4b235a74a0c9519f17984ce9b3b66d4/6d8feb8465702f3e-72/s400x600/8abaedcf9ddaac75d49b8b3c15e878c91772e359.gif",
+            "https://64.media.tumblr.com/737ec368b15839092962b3012ec2187d/6d8feb8465702f3e-47/s400x600/d388779e1b5ed464d6ff564de1026c7e6432ac6a.gif",
+            "https://64.media.tumblr.com/09926cc4443ede2dba80c6a49280b055/6d8feb8465702f3e-9c/s400x600/d610b9391dac47a5a76590b3595981c4ab801a10.gif",
+            "https://64.media.tumblr.com/61f4341bdb349f4b67d9eab6f6fbc866/1dfc19d5342b2f68-c1/s400x600/8f1219b9a8e28a9732338309d5dbbd7ef611d256.gif",
+            "https://64.media.tumblr.com/9d56de55492d23a8edbd9391ae87404d/1dfc19d5342b2f68-0d/s400x600/85fd8a751067891cdacc533cac7029a09d4f46c4.gif",
+            "https://64.media.tumblr.com/89b25911d60e515a269cda373d4b926a/1dfc19d5342b2f68-bd/s400x600/37a4a4edaeadc080041467dafee569f3af0ac23b.gif",
+            "https://64.media.tumblr.com/4830caec7ae06138018a53156bbec0a1/1dfc19d5342b2f68-1b/s400x600/e93adf62bea47a1dcf4bc9cb9490d615b8f25fd9.gif",
+            "https://64.media.tumblr.com/e3e6638ae0463e8a54894661011096dc/55e35589d6ac0491-21/s400x600/c7ad3b980bf8949531b7d75f10493d9527b2c114.gif",
+            "https://64.media.tumblr.com/20976a7400518489bde3bf74a22cc65a/55e35589d6ac0491-bf/s400x600/9f1f98c56c9d7d65c1e5b61250f3cf1612cde86b.gif",
+            "https://64.media.tumblr.com/7cc51f6365ddc72b47d8294c555a7ccd/55e35589d6ac0491-46/s400x600/cff012f9bbfb43d6c4aabedf6228a17d12e888d4.gif",
+            "https://64.media.tumblr.com/bbf217c30353c76d74583fba9d5f224d/55e35589d6ac0491-48/s400x600/daf93b1eac2559eee4a2b71aeea271251bbdcc1b.gif",
+            "https://64.media.tumblr.com/4ccec8fdba9587c8796d92b5a07e4deb/1a5700a21b7e4429-80/s540x810/446b6598825398bb4d6521797681ec316953de0d.gif",
+            "https://64.media.tumblr.com/52abb84167a3741fbcc1d6746f333ab8/tumblr_psw900G9sN1vg9hhvo7_400.gif",
+            "https://64.media.tumblr.com/0ba9b5fea201f4bc3384ba450d99c6f6/tumblr_psw900G9sN1vg9hhvo5_400.gif",
+            "https://64.media.tumblr.com/0ba9b5fea201f4bc3384ba450d99c6f6/tumblr_psw900G9sN1vg9hhvo5_400.gif",
+            "https://64.media.tumblr.com/9c03e39245a6c508f06592f66782908c/tumblr_psw900G9sN1vg9hhvo9_400.gif",
+            "https://64.media.tumblr.com/d9c69c031d56384aa0da242c43488acc/fcf7cb1dd1f36456-34/s400x600/f50fe8359f69a830cf0a8d145a804b9cacb5eff0.gif",
+            "https://64.media.tumblr.com/e462c5e4f161261d3d47b121cf336b32/fcf7cb1dd1f36456-74/s400x600/673e1b25df527b145ba293759f2410008909dea0.gif",
+            "https://64.media.tumblr.com/c22cb54e89afec16238504898a8a0398/fcf7cb1dd1f36456-06/s400x600/bb48355d2d6cce3e1d49c3457806438801123f2d.gif",
+            "https://64.media.tumblr.com/13b1c4f3d981f42e7e10534d4074c07e/fcf7cb1dd1f36456-dd/s400x600/2e4d35d32ed6281086b2560d7ccbddb46aa697f5.gif",
+            "https://64.media.tumblr.com/e2aaf6cf17d6a17420e52147c8755087/34f5bda012062823-c5/s540x810/f873fc5f98d8ebf4804bfe07dda6647758812aa8.gif",
+            "https://64.media.tumblr.com/64e88d87d6b4e02a6225e3c840e51321/e3c70a759f814934-7b/s400x600/e3dfe0413183c1d7a0fb02c65925a3ad6a6ced8d.gif",
+            "https://64.media.tumblr.com/97d96f1ab799f07503c48467fb686d27/e3c70a759f814934-18/s400x600/4659bbad406d158cbec95c6d4dcc6bdbc29992bb.gif",
+            "https://64.media.tumblr.com/eec1403f486b26c67e659b6f94f47c7d/e3c70a759f814934-d0/s400x600/448fbe86427e2f2a84c2d8eb6e975fe82202c077.gif",
+            "https://64.media.tumblr.com/cdad26b4a314fc72b1a6d98e1a6152d6/e3c70a759f814934-12/s400x600/297ffea4dc10dd1f09f4052162a8bd530af016ff.gif",
+            "https://64.media.tumblr.com/f74d4167160de8ad6436f84c30d88e09/db650116364e7744-48/s400x600/d9a5057ea4c0d4033ecd5c50b56fa660f9f06ce6.gif",
+            "https://64.media.tumblr.com/c90b74c0badd821a756d1f8ff65a2475/54fccfd10ed01779-2b/s400x600/e10eaa525d36e8b47161bc55cc7f2b5a9e6cff3b.gif",
+            "https://64.media.tumblr.com/30c712380612d1fa741e0a70a0577ed5/54fccfd10ed01779-27/s400x600/07e4857406fb030940a8cff986e58958d74eb679.gif",
+            "https://64.media.tumblr.com/e39273f95f2aa184df3afca3879717b0/54fccfd10ed01779-76/s400x600/c8a2a7aa070d65b56bbe478b4028d3eedf792bc2.gif",
+            "https://64.media.tumblr.com/754c54dd51c908226ffa31c7b95d97d2/54fccfd10ed01779-8b/s400x600/c214d6212dd949dd5fd996eb305c39fcf94da443.gif"]
 
         self.bot.blackpink_gif = ["https://tenor.com/view/blackpink-ice-cream-unmasking-cats-cute-gif-18466410",
             "https://media3.giphy.com/media/AFBmwFcWqQpPymsgqZ/200.gif",
@@ -847,7 +959,13 @@ class BlackpinkPings(commands.Cog):
             "https://tenor.com/view/ot4-blackpink-jenchulichaeng-gif-13875443",
             "https://tenor.com/view/%ea%b9%80%ec%a7%80%ec%88%98-%eb%b8%94%eb%9e%99%ed%95%91%ed%81%ac-%eb%a1%9c%ec%a0%9c-%eb%b0%95%ec%b1%84%ec%98%81-%ea%b9%80%ec%a0%9c%eb%8b%88-gif-16520352",
             "https://tenor.com/view/black-pink-how-do-you-like-that-lisa-jennie-ros%c3%a9-gif-17521590",
-            "https://tenor.com/view/killthislove-blackpink-lisablackpink-jisooblackpink-killthisloveblackpink-gif-20658473"]
+            "https://tenor.com/view/killthislove-blackpink-lisablackpink-jisooblackpink-killthisloveblackpink-gif-20658473",
+            "https://64.media.tumblr.com/8a77053ec09169c514b38e93004b4eff/bb7b302c11b6bd1b-88/s540x810/42c15414490106cadc922ab59f6cc260157d68bb.gif",
+            "https://64.media.tumblr.com/c2c5656e4319a7fb0e1d0fad04771d64/bb7b302c11b6bd1b-06/s540x810/a8c367a519825c429cd7b3c52619a03bc7c9067f.gif",
+            "https://64.media.tumblr.com/cec0c4cbc021b0692f8031c33dae7b9a/bb7b302c11b6bd1b-6b/s640x960/5ed3a1098003e7b4bb6aaa734da694fa157610e1.gif",
+            "https://64.media.tumblr.com/997ee431eed2de4bac8cea187cf58ca7/bb7b302c11b6bd1b-92/s540x810/65ca312485d1080a6917c39110f8b52e6c7969a7.gif",
+            "https://64.media.tumblr.com/892649de62b9f39ec5592eb9d6ecc13c/bb7b302c11b6bd1b-da/s640x960/abf7329d5d402026fba9908a99da3f608543d72b.gif",
+            "https://64.media.tumblr.com/99e3634666e96a586a65f1c8a30e354c/bb7b302c11b6bd1b-0e/s640x960/909712f8884752910af5993484d9ce65632cc68e.gif"]
 
     @commands.command()
     async def blackpink(self, ctx, arg = "ot4"):
@@ -856,44 +974,24 @@ class BlackpinkPings(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Blackpink {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "jennie" or arg == "jendeukkie":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
-                await ctx.send(random.choice(self.bot.jennie_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jennie :dumpling:')
+            await ctx.send(random.choice(self.bot.jennie_gif))
+            await ctx.message.delete()
         elif arg == "rose" or arg == "rosé" or arg == "chaeyoung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
-                await ctx.send(random.choice(self.bot.rose_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Rosé :rose:')
+            await ctx.send(random.choice(self.bot.rose_gif))
+            await ctx.message.delete()
         elif arg == "lisa":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
-                await ctx.send(random.choice(self.bot.lisa_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lisa :cat:')
+            await ctx.send(random.choice(self.bot.lisa_gif))
+            await ctx.message.delete()
         elif arg == "jisoo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
-                await ctx.send(random.choice(self.bot.jisoo_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jisoo :turtle: :rabbit2:')
+            await ctx.send(random.choice(self.bot.jisoo_gif))
+            await ctx.message.delete()
         elif arg == "ot4":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#764610881513324574>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Blackpink <:wonyoungheart:787552538907115571>:black_heart:')
-                await ctx.send(random.choice(self.bot.blackpink_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Blackpink <:wonyoungheart:787552538907115571>:black_heart:')
+            await ctx.send(random.choice(self.bot.blackpink_gif))
+            await ctx.message.delete()
 def setup(client):
     client.add_cog(BlackpinkPings(client))

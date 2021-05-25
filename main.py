@@ -72,7 +72,7 @@ async def on_ready():
 # def logsHelper(group: str, arg: str, username: str, userid: int, guildname: str, guildid: int, channel = int):
 #     now = datetime.now()
 #     current_time = now.strftime("%H:%M:%S")
-#     await channel.send(f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
+#     print (f"`{current_time} | USED COMMAND [{group} {arg}] | USER: {username} [{userid}] | GUILD: {guildname} [{guildid}]`" )
 
 #//cogs
 # This loads the cogs.

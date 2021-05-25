@@ -44,7 +44,30 @@ class CLC(commands.Cog):
             "https://tenor.com/view/yeeun-clc-crystal-clear-cute-girl-group-gif-15041212",
             "https://tenor.com/view/yeeun-clc-crystal-clear-cute-kpop-gif-15041179",
             "https://tenor.com/view/yeeun-clc-crystal-clear-cute-girl-group-gif-15041199",
-            "https://tenor.com/view/crystal-clear-yeeun-korean-cute-gif-16805024"]
+            "https://tenor.com/view/crystal-clear-yeeun-korean-cute-gif-16805024",
+            "https://64.media.tumblr.com/ecf4e9acad7a41ca05d3e5a89cf370ed/9e1729afe5c39c45-81/s540x810/e405171f8b4baa8f38cca1af7d53fb0163351697.gif",
+            "https://64.media.tumblr.com/b5be13499a9eafb485ea2822884ec44a/9e1729afe5c39c45-7a/s540x810/ce08c2a98e34d117686e738da3adeb61360391a2.gif",
+            "https://64.media.tumblr.com/077c2b90f2403cd62d0ab7ebcd8a7eb9/9e1729afe5c39c45-d7/s540x810/2c9588a65980871c4cd35b46fda82498e8437628.gif",
+            "https://64.media.tumblr.com/e63226d1d49e1fc9cc06b78eec8e1a91/tumblr_pzhoppr3J21szf0bzo1_400.gif",
+            "https://64.media.tumblr.com/dcc3eb1ba45b5ae32bfefe9e861d039c/tumblr_pzhoppr3J21szf0bzo2_400.gif",
+            "https://64.media.tumblr.com/dcc3eb1ba45b5ae32bfefe9e861d039c/tumblr_pzhoppr3J21szf0bzo2_400.gif",
+            "https://64.media.tumblr.com/d7aa34482f128afbb722b139b81a9c9b/tumblr_pzhoppr3J21szf0bzo3_400.gif",
+            "https://64.media.tumblr.com/7fe7eeabc668d6346d945f0f3946c2f9/tumblr_pwv698ioWK1uv2r7ko2_400.gif",
+            "https://64.media.tumblr.com/781bb6def5fdaf6e51ceb10b7ecdfee2/tumblr_pwv698ioWK1uv2r7ko1_400.gif",
+            "https://64.media.tumblr.com/7fe7eeabc668d6346d945f0f3946c2f9/tumblr_pwv698ioWK1uv2r7ko2_400.gif",
+            "https://64.media.tumblr.com/781bb6def5fdaf6e51ceb10b7ecdfee2/tumblr_pwv698ioWK1uv2r7ko1_400.gif",
+            "https://64.media.tumblr.com/c841ffdefd1f178f35698ff582502f7b/tumblr_pxo8a5zhMZ1xmrigxo2_400.gif",
+            "https://64.media.tumblr.com/9029995812d21d7bd80aa1325e558bd5/tumblr_pxo8a5zhMZ1xmrigxo3_400.gif",
+            "https://64.media.tumblr.com/dd2a2696c374050bb8bee7fe02de2baf/tumblr_pxo8a5zhMZ1xmrigxo4_400.gif",
+            "https://64.media.tumblr.com/6231613cc2c14240698dc03c4fa8d9bd/tumblr_pxo8a5zhMZ1xmrigxo1_400.gif",
+            "https://64.media.tumblr.com/adf944640f96fa4f6ae6c593a2f33eca/8d61357e3c16284b-f8/s250x400/efe4fb02aed115847431af1f99e9db602ae74a4f.gif",
+            "https://64.media.tumblr.com/98f03c88e8967da1d0c9975f61b4d508/8d61357e3c16284b-de/s250x400/9e7f5673559f4b3902a684080085e85469eeff33.gif",
+            "https://64.media.tumblr.com/4f88e1fcae3eea736bf190d5380711a9/8d61357e3c16284b-12/s250x400/131f4f4fbaefc853688371f12a8f2dcc8b320189.gif",
+            "https://64.media.tumblr.com/49b76f62423512122d2386b37c71bc80/8d61357e3c16284b-51/s250x400/cdb3abcaa86704e9ca580c8713f4cdf53e226318.gif",
+            "https://64.media.tumblr.com/92f07afdfe7a11de915697325f3e29d6/tumblr_pxracnL32N1yoiwkxo7_400.gif",
+            "https://64.media.tumblr.com/97031e78a873c69b8e1e19d51556ae7a/tumblr_pxracnL32N1yoiwkxo8_400.gif",
+            "https://64.media.tumblr.com/541b79f6f250c2ea611f64979380256c/tumblr_pxracnL32N1yoiwkxo3_400.gif",
+            "https://64.media.tumblr.com/dd187ad07bd96dc08ac37bd663bf5305/tumblr_pxracnL32N1yoiwkxo1_400.gif"]
 
         self.bot.clc_sorn_gif = ["https://tenor.com/bqihb.gif",
             "https://tenor.com/bunmH.gif",
@@ -74,7 +97,13 @@ class CLC(commands.Cog):
             "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019506",
             "https://tenor.com/view/sorn-clc-chonnasornsajkul-gif-21019505",
             "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019504",
-            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019502"]
+            "https://tenor.com/view/sorn-clc-chonnasornsajakul-gif-21019502",
+            "https://64.media.tumblr.com/b2358d1fc47c9ed4a1606feb5a5899bb/tumblr_pyxb2j5KlF1yvevxlo4_400.gif",
+            "https://64.media.tumblr.com/fe2937ac15d87072472ff392d3a03f17/tumblr_pyxb2j5KlF1yvevxlo2_400.gif",
+            "https://64.media.tumblr.com/cf79f09c4cfc16c10b432ef4df1da6d7/tumblr_pxlyy2RZhX1yq4k1ko1_250.gif",
+            "https://64.media.tumblr.com/ecc27b643004e2e8a5481f08b6296505/tumblr_pxmjd9A6qD1sk2kqwo3_400.gif",
+            "https://64.media.tumblr.com/c8aa9b4065557055b94d54ff97765017/tumblr_pxmjd9A6qD1sk2kqwo4_400.gif",
+            "https://64.media.tumblr.com/12b85a509f7f120b172707d81ddb7519/tumblr_pxmjd9A6qD1sk2kqwo2_400.gif"]
 
         self.bot.clc_eunbin_gif = ["https://tenor.com/RCQt.gif",
             "https://tenor.com/RCSH.gif",
@@ -102,7 +131,9 @@ class CLC(commands.Cog):
             "https://tenor.com/view/kwon-eunbin-eunbin-clc-maknae-cube-entertainment-gif-17697064",
             "https://tenor.com/view/gramarly-clc-eunbin-clc-eunbin-cat-gif-19334577",
             "https://tenor.com/view/clc-eunbin-clc-eunbin-cute-blow-kiss-gif-15044691",
-            "https://tenor.com/view/kwon-eunbin-eunbin-clc-maknae-cube-entertainment-gif-17697062"]
+            "https://tenor.com/view/kwon-eunbin-eunbin-clc-maknae-cube-entertainment-gif-17697062",
+            "https://64.media.tumblr.com/87f283234c27b1df4b3900f650943a5f/tumblr_pzogdt5lkL1yv59mao1_400.gif",
+            "https://64.media.tumblr.com/503440cbba77c1fc1c7b0a3fa7951355/tumblr_pzogdt5lkL1yv59mao3_400.gif"]
 
         self.bot.clc_yujin_gif = ["https://tenor.com/ba9ol.gif",
             "https://tenor.com/bunmO.gif",
@@ -128,7 +159,15 @@ class CLC(commands.Cog):
             "https://tenor.com/view/clc-yujin-gif-19259495",
             "https://tenor.com/view/devil-crystal-clear-kbs-music-bank-choi-yujin-kpop-gif-15048714",
             "https://tenor.com/view/happy-excited-cute-yujin-clc-gif-14302664",
-            "https://tenor.com/view/cute-yujin-clc-hi-wave-gif-13944583"]
+            "https://tenor.com/view/cute-yujin-clc-hi-wave-gif-13944583",
+            "https://64.media.tumblr.com/1158e40ce3dd8ff7056e6f00c3ee9cfb/tumblr_px8bsiXOD31x15lmpo3_400.gif",
+            "https://64.media.tumblr.com/b4586a7df9b6d1eb7d100c24268abcbf/tumblr_px8bsiXOD31x15lmpo4_400.gif",
+            "https://64.media.tumblr.com/72851b3b47eb586ec7b403e8edc7fe59/tumblr_px8bsiXOD31x15lmpo1_400.gif",
+            "https://64.media.tumblr.com/a971d7759b9d83d8ff498c97756844bd/tumblr_px8bsiXOD31x15lmpo2_400.gif",
+            "https://64.media.tumblr.com/a7e6a5ce5dd832ff5f799a84fb2faa20/tumblr_py65s2O8MN1yoiwkxo4_400.gif",
+            "https://64.media.tumblr.com/665cca8dcc08cb218e0fe7b7a137a346/tumblr_py65s2O8MN1yoiwkxo3_400.gif",
+            "https://64.media.tumblr.com/d06e61f7b4d5256fa14ca983e960e19a/tumblr_py65s2O8MN1yoiwkxo2_400.gif",
+            "https://64.media.tumblr.com/bb41d0dce753eea8622b267780ccd8ce/tumblr_py65s2O8MN1yoiwkxo1_400.gif"]
 
         self.bot.clc_seunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
             "https://tenor.com/view/crystal-clear-kpop-phone-devil-gif-14977696",
@@ -180,7 +219,12 @@ class CLC(commands.Cog):
             "https://64.media.tumblr.com/cae2fd80dccdcae681066aa11177f948/9142621037b7fd37-dc/s400x600/f418b215973710566a639da762b40270d25c4dc1.gif",
             "https://tenor.com/view/jang-seungyeon-clc-%EC%94%A8%EC%97%98%EC%94%A8-cute-gif-14155127",
             "https://tenor.com/view/crystal-clear-seungyeon-kpop-chang-devil-gif-14985227",
-            "https://tenor.com/view/clc-kpop-ccg-seunyeon-chang-seungyeon-gif-17814175"]
+            "https://tenor.com/view/clc-kpop-ccg-seunyeon-chang-seungyeon-gif-17814175",
+            "https://64.media.tumblr.com/a030543a112b3809ed534ae87fabc3aa/tumblr_pynk1otZgU1uk0y4po3_400.gif",
+            "https://64.media.tumblr.com/8eddae0838f72a70f0a698c7200801bc/tumblr_pynk1otZgU1uk0y4po4_400.gif",
+            "https://64.media.tumblr.com/8f7e2d3744f523d246872942f6cae8c4/tumblr_pynk1otZgU1uk0y4po5_400.gif",
+            "https://64.media.tumblr.com/1d0680c3b188f6ff8b2e078f9040ea14/tumblr_pynk1otZgU1uk0y4po2_400.gif",
+            "https://64.media.tumblr.com/40ca2eb0f58cdeb1dedc577960017c21/tumblr_pynk1otZgU1uk0y4po6_400.gif"]
 
         self.bot.clc_elkie_gif = ["https://tenor.com/view/puppy-dog-elkie-clc-gif-13944542",
             "https://tenor.com/view/elkie-singer-clc-gif-18154058",
@@ -208,7 +252,21 @@ class CLC(commands.Cog):
             "https://tenor.com/view/elkie-clc-gif-18563342",
             "https://tenor.com/view/chong-tingyan-elkie-clc-hobgoblin-gif-13252289",
             "https://tenor.com/view/clc-elkie-hungry-eating-gif-13944518",
-            "https://tenor.com/view/chong-tingyan-elkie-clc-sad-gif-13252122"]
+            "https://tenor.com/view/chong-tingyan-elkie-clc-sad-gif-13252122",
+            "https://64.media.tumblr.com/8277c1e3c69eb48e7ff9565915bd821e/6139f1f50fe78efb-e2/s400x600/19448fc29a0719e87a56819dd236e9c492bd763d.gif",
+            "https://64.media.tumblr.com/a0b0f509d3dbad3ca51a7b4d8ba3c80c/6139f1f50fe78efb-07/s400x600/f64b7f230a1d8fb18030913e61533ebc98658d45.gif",
+            "https://64.media.tumblr.com/3cb040f3dcee563861302f835b09ec32/6139f1f50fe78efb-16/s400x600/ffe1d6104fb3d08de9f01f9cb7ab307b067ee56c.gif",
+            "https://64.media.tumblr.com/547e5232236f5df6a7b4d6784ee21505/6139f1f50fe78efb-88/s400x600/f47b24bf3c319990e2e7caf6878a134537d1546f.gif",
+            "https://64.media.tumblr.com/8cf016ce25318797f331f33438f3d2dc/tumblr_pz2deoO7I11viv1xyo2_400.gif",
+            "https://64.media.tumblr.com/16644aa08ac8bbacf6e4c82d0f543d16/tumblr_pz2deoO7I11viv1xyo1_400.gif",
+            "https://64.media.tumblr.com/fb73d83cd75dc6d127d43cde08be56dd/tumblr_py7f7imUoF1yvbw14o3_400.gif",
+            "https://64.media.tumblr.com/1853f993f222a3de02e076a78ffbc4b6/tumblr_py7f7imUoF1yvbw14o4_400.gif",
+            "https://64.media.tumblr.com/80bda85ffb99aeb58f53db266c12c39c/tumblr_py7f7imUoF1yvbw14o1_400.gif",
+            "https://64.media.tumblr.com/ccfb5bc0495e1c78cb8aa4cd2b61e7a6/tumblr_py7f7imUoF1yvbw14o2_400.gif",
+            "https://64.media.tumblr.com/e41b13636b9c983e0bc28c0f67ad4f65/tumblr_pxl58cbluh1whhy97o1_400.gif",
+            "https://64.media.tumblr.com/aed5cca405a0bd113c32402b86c52deb/tumblr_pxl58cbluh1whhy97o2_400.gif",
+            "https://64.media.tumblr.com/dc3a374c36ac6a2828cf5730c2f1aad1/tumblr_pxl58cbluh1whhy97o3_400.gif",
+            "https://64.media.tumblr.com/a242630a329db60d2e2f785e4dcabf82/tumblr_pxl58cbluh1whhy97o4_400.gif"]
 
     @commands.command()
     async def clc(self, ctx, arg):

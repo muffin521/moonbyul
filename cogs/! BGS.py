@@ -7,9 +7,6 @@ from typing import List
 luminary = 758468592957521972
 
 #=channels
-#.luminary bot-commands
-kbotcom = 764610881513324574
-
 
 
 class BGS(commands.Cog):
@@ -38,6 +35,67 @@ class BGS(commands.Cog):
             "https://tenor.com/view/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%A1%9C-astro-kpop-astro-cute-astro-mj-gif-17176426",
             "https://tenor.com/view/rocky-astro-rocky-astro-eunwoo-astro-jinjin-astro-gif-17380951",
             "https://tenor.com/view/mj-astro-excited-eunwoo-happy-gif-17381113"]
+    #. Bae173
+        self.bot.bae173_junseo_gif = ["https://tenor.com/view/%EC%A4%80%EC%84%9C-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-junseo-bae173-debut-trailer-gif-18735860"]
+
+        self.bot.bae173_jmin_gif = ["https://cdn.discordapp.com/attachments/840055171823960084/840573158549487656/image0.gif"]
+
+        self.bot.bae173_hangyul_gif = ["https://cdn.discordapp.com/attachments/840055217562583070/840573235652460554/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840573236026933258/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840573236302708786/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055217562583070/840576166397739028/image0.gif",
+            "https://64.media.tumblr.com/eb7603cbc898b01922085dc051ec9655/a018986a458094f2-5f/s250x400/e7a621c12b95c93778a92bf958530246d6a9b85c.gif",
+            "https://64.media.tumblr.com/dac606f97ada2df003d5c6b028f8dfee/a018986a458094f2-47/s250x400/c20f557f094020b24c3b581e2e76118e3f8ea6c2.gif",
+            "https://64.media.tumblr.com/a2e0a1deabd8f0ab9a4e497bd3d4345d/a018986a458094f2-c1/s250x400/7d6a725265d38188fbd3d74c378c5e73ea094521.gif",
+            "https://64.media.tumblr.com/d39daaa8ad131744c9cf2dc07708b1df/a018986a458094f2-27/s250x400/3390dc6dd50e469a7ecfb01c35f15ef747873c3e.gif",
+            "https://64.media.tumblr.com/bf5b5128326ef1efbc501cd80dab7c9a/7c347ee925310054-1d/s400x600/ce54a9e13a621eda5197699867b24a0f8fff0cac.gif",
+            "https://64.media.tumblr.com/4c5b8769b62a56753de6231ca13115c3/7c347ee925310054-85/s400x600/fa60b7643a9f51418a727c2a72f2283ce94a1865.gif",
+            "https://64.media.tumblr.com/213a7aa8d23445abf69d2032ce2de90d/af3814a7ad5e3b67-b9/s250x400/fb6cd7285e5ce11536975b365710140a494bab13.gif",
+            "https://64.media.tumblr.com/0f5c60eafd44a9cdc8f0c552b8737c00/af3814a7ad5e3b67-4a/s250x400/917e3ec19b3bc90d553a28c476246c2001f41de8.gif",
+            "https://64.media.tumblr.com/0c717709f24e24d0a06c039500dc881e/af3814a7ad5e3b67-85/s250x400/ba508e21fbccdda71560341c88cf1279f7c37991.gif",
+            "https://64.media.tumblr.com/8def577ca5f15ed2eed8220a4425cdf0/38ace197980ca897-d7/s250x400/599641b46494dfef00887cac643c5db6a96061ee.gif",
+            "https://64.media.tumblr.com/c77d6a547587f4dcadbcb5b06d3bbbef/38ace197980ca897-e4/s250x400/670dbdea2fd92397f457f14cae585aeb9ce82a86.gif",
+            "https://64.media.tumblr.com/f47d74be5e724c7560295d21ef03b0ee/6d1c1afe4614a1db-ba/s400x600/fcbacd2c28b45ea322c04060ae3cb16d1f3fe8f9.gif",
+            "https://64.media.tumblr.com/130da944b734f90b1ffcdd437b24c824/6d1c1afe4614a1db-64/s400x600/95f7ead06f9cf8ff35b0f3e5cdf48895061dc657.gif",
+            "https://64.media.tumblr.com/43017da31ee343218c6ab7e71e9b95f3/14362d5287d5ad6e-18/s540x810/3001947e0d7b605239dac0b65b0c9690c2621c58.gif",
+            "https://64.media.tumblr.com/591067420889b445deeb933c9126a13e/14362d5287d5ad6e-00/s540x810/69b8da36402b89e20ca8c4a40d682f29f1d4e786.gif"]
+
+        self.bot.bae173_yoojun_gif = ["https://cdn.discordapp.com/attachments/840055247157854208/840576103646625832/image0.gif"]
+
+        self.bot.bae173_muzin_gif = ["https://cdn.discordapp.com/attachments/840055275318018069/840575377733845012/image0.gif",
+            "https://64.media.tumblr.com/b8007c6e4eb2aef54e323e2e73f62061/390afb033ad92665-4d/s250x400/d0f81326eef4539b37cdcf00e8708b807b41b4f5.gif",
+            "https://64.media.tumblr.com/3c34b37e3179a24e6f2a7585c25eda8e/390afb033ad92665-6b/s250x400/6bb395fca96bd86a2774f2a0013da6ae5352debd.gif",
+            "https://64.media.tumblr.com/aa57fe0dddfb34158f255fcf3f824573/390afb033ad92665-61/s250x400/55a1728f008be469c800120af0e72c898525423a.gif",
+            "https://64.media.tumblr.com/d820ab7dcfcba20749ea182e5d1a6c33/390afb033ad92665-81/s250x400/fa0afc7855576dcda5ac7e2558d1c12578088d47.gif"]
+
+        self.bot.bae173_youngseo_gif = ["https://cdn.discordapp.com/attachments/840055304698855454/840576066922086400/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055304698855454/840576067319758868/image1.gif",
+            "https://64.media.tumblr.com/40793bf49dd1e1915508e946e8a3c56c/fa4cfc7c63666d6a-5d/s400x600/9316eb3e854c21c608d657e5003d9aebfb241db1.gif",
+            "https://64.media.tumblr.com/6648d221665cfb449694af6bdcf8c3f2/fa4cfc7c63666d6a-c1/s400x600/db8862f93390022dd031ede62f4f71eee8a0d157.gif"]
+
+        self.bot.bae173_doha_gif = ["https://64.media.tumblr.com/d50b1506549f6a2af33f2a76c07f5390/24a31968bdb0c65a-9e/s400x600/fef605e759e7e582d8abbbdcc82febbf4462cf52.gif"]
+
+        self.bot.bae173_bit_gif = ["https://tenor.com/view/bit-bae173-noh-minjae-minjae-%EB%B9%9Bbae173-gif-19541271",
+            "https://tenor.com/view/bae173-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-bit-yes-score-gif-18767816",
+            "https://tenor.com/view/bae173-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-bit-magic-gif-18767820",
+            "https://tenor.com/view/bae173-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-bit-bang-gif-18767814",
+            "https://tenor.com/view/bae173-%EB%B9%84%EC%97%90%EC%9D%B4%EC%9D%B4173-bit-praying-gif-18767812"]
+
+        self.bot.bae173_dohyon_gif = ["https://cdn.discordapp.com/attachments/840055437175947284/840573337917718558/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840573338396786698/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575552728465418/image0.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575553772978186/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575591799324702/image1.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575592176156703/image2.gif",
+            "https://cdn.discordapp.com/attachments/840055437175947284/840575602797183036/image0.gif",
+            "https://64.media.tumblr.com/0d10068dc08073f79df32ef42e473cac/a645e673878ab508-78/s250x400/0259c8c7d2cf5ca32da423708927cf2653cd0117.gif",
+            "https://64.media.tumblr.com/a75cc904a5161af711742be3ed4fbaf9/a645e673878ab508-37/s250x400/c004eb2e263ac7d80be795e56b314bb370c6ad6b.gif",
+            "https://64.media.tumblr.com/5644d70b10427f861c4f027228f9fc6b/a645e673878ab508-18/s250x400/fdcdee2623329affead824cde6373fef0eef2fa6.gif",
+            "https://64.media.tumblr.com/270b1e1494be97722d00f46c6e9534a2/a645e673878ab508-22/s250x400/799ea60e7753f77e095d689797189e249269040f.gif",
+            "https://64.media.tumblr.com/5c913535b75e7b729ff9446213a433fe/5929ec242078823c-fb/s400x600/b424b336026d19833ee74ad59b1481aab9c5357f.gif",
+            "https://64.media.tumblr.com/7edc22b4ea22248ce36db6b60d3469d1/5929ec242078823c-30/s400x600/38920c9ec910d9bfd2ea7b0b620d89e5e765d328.gif",
+            "https://64.media.tumblr.com/365954eb622e0eb93d687a39cc65cc62/5929ec242078823c-38/s400x600/49857b3af5d2fae73333baee0b57eeebc265b7cc.gif",
+            "https://64.media.tumblr.com/2d9c42886298393a171cf4622ad1dc68/5929ec242078823c-3d/s400x600/c516eccbb946e2e2c9d4380a0be6440633c6a842.gif"]
     #. Cravity
         self.bot.cravity_serim_gif = ["https://tenor.com/view/park-serim-cravity-starship-entertainment-break-all-the-rules-teaser-gif-16853031",
             "https://tenor.com/view/cravity-serim-park-serim-leader-rapper-gif-17969322",
@@ -481,7 +539,21 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/804188853916270622/818521646037598289/Tumblr_l_1093682006427114.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/818521646573813760/Tumblr_l_1093680967810291.gif",
             "https://cdn.discordapp.com/attachments/804188853916270622/818521647526445096/Tumblr_l_1093675650178731.gif",
-            "https://cdn.discordapp.com/attachments/804188853916270622/818521648323493898/Tumblr_l_1093674172835346.gif"]
+            "https://cdn.discordapp.com/attachments/804188853916270622/818521648323493898/Tumblr_l_1093674172835346.gif",
+            "https://64.media.tumblr.com/973a45d98b608fc8f9a5bde9142e345a/be182a3ce688bed3-6f/s400x600/238e75da07e0280390d23a3168fea9535f30323d.gif",
+            "https://64.media.tumblr.com/63db20fbf37d5d54256aee718792955a/be182a3ce688bed3-e3/s400x600/5a8a3227a10ec0eb80d4cba66b8a1d24eba95b35.gif",
+            "https://64.media.tumblr.com/aa1833b561959450a4765c2a5cf5a6a5/be182a3ce688bed3-57/s400x600/ffcec9120b95a6b925d2ee89a7b6618dfa46b0c8.gif",
+            "https://64.media.tumblr.com/2acfaab83e8637a9fd44824d50968d75/be182a3ce688bed3-2e/s400x600/3a18e5269bc460301b83708d1df7ef763b9a2e7f.gif",
+            "https://64.media.tumblr.com/a7f11de76309a0aed237dfad98121c6c/be182a3ce688bed3-8a/s400x600/7cc54866defe21c18913d26c75352b235d9aef86.gif",
+            "https://64.media.tumblr.com/27a7347d1e1cf3fe88988ee2b39f6a21/be182a3ce688bed3-bf/s400x600/0021d4c774587f233ab5c0b75ebe1b3429e2cfe5.gif",
+            "https://64.media.tumblr.com/9a0c93ab6665847bf03b9f7ba2755bd8/be182a3ce688bed3-4b/s400x600/8c9f6d97ae78d748afc988c3642681968d14506d.gif",
+            "https://64.media.tumblr.com/0f104e2e7c7ad307320c2343f1793571/be182a3ce688bed3-95/s400x600/b9cdf110e7807a96ff56051ec1923600bab0d85b.gif",
+            "https://64.media.tumblr.com/c990f0068206f216a2d6ce0519d21ed5/534cd3b35b85d537-dc/s540x810/cfe65fff55c03b2d6b684954e81ef7d94cc26fdc.gif",
+            "https://64.media.tumblr.com/dc051214a688bcedbd35cadcd82a5c5d/534cd3b35b85d537-22/s540x810/6f59d7cbdd218407f86f9648838ea8a76a6e60dc.gif",
+            "https://64.media.tumblr.com/1d11d634440c1ef34f4255c9652cbe38/534cd3b35b85d537-41/s540x810/15e7e19e5a1992bd72f2f0e861a163584f400eda.gif",
+            "https://64.media.tumblr.com/1648b40066a3263b32364edaa3cda8cc/534cd3b35b85d537-15/s540x810/3b78975fff11207e57f579bb6506c9d8dab3a9c0.gif",
+            "https://64.media.tumblr.com/338bfb7dcd7aa4318e294495bd2ed4f1/534cd3b35b85d537-e7/s540x810/34f346b51d06de28927a96a83d8fe0f1a93ec052.gif",
+            "https://64.media.tumblr.com/3d57e6eee0cd1246df0f7220c41a9814/534cd3b35b85d537-94/s540x810/c4204afce7c0aa077913ab181e4a7ad783d4a8ec.gif"]
 
         self.bot.exo_chaenyeol_gif = ["https://tenor.com/view/chanyeol-kiss-kpop-exo-gif-15449030",
             "https://tenor.com/view/chanyeol-exo-gif-15408144",
@@ -1954,7 +2026,12 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206337073479690/800261658890731550/image3.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261758714380358/image0.gif",
             "https://cdn.discordapp.com/attachments/800206337073479690/800261759302500392/image1.gif",
-            "https://tenor.com/view/p1harmony-maniac-p1harmony-intak-intak-gif-19859801"]
+            "https://tenor.com/view/p1harmony-maniac-p1harmony-intak-intak-gif-19859801",
+            "https://tenor.com/view/intak-p1h-p1harmony-gif-19921666",
+            "https://tenor.com/view/p1harmony-intak-p1h-gif-21168515",
+            "https://tenor.com/view/intak-p1h-gif-20893893",
+            "https://tenor.com/view/intak-p1h-p1harmony-gif-20259573",
+            "https://64.media.tumblr.com/129f887a6bd477684853fb1469150f4e/4be585c2d9fa5144-be/s540x810/8536166d3b6aa8ffd37f2cbb8303600ee9d772a3.gif"]
 
         self.bot.p1harmony_jiung_gif = ["https://cdn.discordapp.com/attachments/800206376210661406/800262168904859668/image0.gif",
             "https://cdn.discordapp.com/attachments/800206376210661406/800262169299910686/image1.gif",
@@ -1966,14 +2043,30 @@ class BGS(commands.Cog):
             "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392814",
             "https://tenor.com/view/jiung-p1h-p1harmony-choi-jiung-gif-20392787",
             "https://tenor.com/view/jiung-choi-jiung-p1h-p1harmony-gif-20392855",
-            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jiung-choi-jiung-gif-19887400"]
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jiung-choi-jiung-gif-19887400",
+            "https://64.media.tumblr.com/1047df431d2ee40484b73df67ccfbec6/4be585c2d9fa5144-e4/s540x810/44f4b1f3defc2054a366d1d124f5aeaf1ce528a4.gif ",
+            "https://64.media.tumblr.com/ec8226bde413d79798721007e99beb44/d6fcaec6a6442674-a6/s400x600/298a92f991421c1456d19835f45ca15b11bf9789.gif",
+            "https://64.media.tumblr.com/654d179623905339f447765cef522497/d6fcaec6a6442674-26/s400x600/494b292d3d7090238f9da451a373b7f9d0c9ce57.gif",
+            "https://64.media.tumblr.com/df2eaf334200fdb2a7bc1e987f442dbf/d6fcaec6a6442674-21/s400x600/e0079238cb9b05b1576bcb24ec20eea7fad0103b.gif",
+            "https://64.media.tumblr.com/c2a3f824c77e14a5e780dbff63c35551/d6fcaec6a6442674-58/s400x600/71b250ff0c08d97612487d285d511e9a1bc2ad95.gif",
+            "https://64.media.tumblr.com/28e1f96127eb7fdca101e3523565d8ad/241436dcafbbea5f-1e/s400x600/a7189101be7e99c561783057248d83abbb773094.gif",
+            "https://64.media.tumblr.com/bed5d6d1375dc82ef15be991b24566cf/241436dcafbbea5f-2f/s400x600/abbe7516061a68682d88feb17a8ec013f855b0aa.gif",
+            "https://64.media.tumblr.com/8608373a9e2dc2f0c71745a81a3c8a39/241436dcafbbea5f-fa/s400x600/18df28ed712f2b3fa681229df7d3f8b5f66a0b98.gif",
+            "https://64.media.tumblr.com/67130ec15d524b3b25338082e3a40d3d/241436dcafbbea5f-3b/s400x600/96ca2655524c95b8bd9ff980982082a28316b07c.gif",
+            "https://64.media.tumblr.com/49350738760a20163064591532b57572/0722e86fa9b71bd7-40/s500x750/d20ddca4afb4514206f859b56ccf963b9cb6794d.gif",
+            "https://64.media.tumblr.com/a4e34f425a7f9bae77d39b2cc9bd07c7/0722e86fa9b71bd7-80/s500x750/fc82349d6740df8542d346e9787e945922efe92c.gif",
+            "https://64.media.tumblr.com/b1f749fc6352403a0728141bf5936d0d/0722e86fa9b71bd7-16/s500x750/8c9b64a8d8714d0f0888afe4f6dce69d72cff0dc.gif",
+            "https://64.media.tumblr.com/bcd754468c134f2c5b03dd233672a844/0722e86fa9b71bd7-f2/s500x750/661ecff811350485358d3e1f2a90b3f8cdb95c38.gif",
+            "https://64.media.tumblr.com/e11e3a335f4fb822f3c0c47585ce292a/0722e86fa9b71bd7-fe/s500x750/88704ac265a6b5a099d770126fcd1a6782a2d821.gif",
+            "https://64.media.tumblr.com/79929c5164ee42ebdb2251e52e1fea6e/0722e86fa9b71bd7-8a/s500x750/40442cd4fb534ea6c1660fcef709e6fe576091bf.gif"]
 
         self.bot.p1harmony_jongseob_gif = ["https://cdn.discordapp.com/attachments/800206414597455872/800262445016809472/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262445314211850/image1.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262554202931261/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262587488534558/image0.gif",
             "https://cdn.discordapp.com/attachments/800206414597455872/800262610305024040/image0.gif",
-            "https://tenor.com/view/jongseob-p1h-gif-19927056"]
+            "https://tenor.com/view/jongseob-p1h-gif-19927056",
+            "https://64.media.tumblr.com/91fbc0c4338593305a5f4bd8a0cc0374/4be585c2d9fa5144-c6/s540x810/26f47721c17e139970c0551269b950a3a43ba8c7.gif"]
 
         self.bot.p1harmony_keeho_gif = ["https://cdn.discordapp.com/attachments/800206480837574666/800262794280304661/image0.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800262794531569684/image1.gif",
@@ -1987,7 +2080,17 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206480837574666/800263019929665566/image1.gif",
             "https://cdn.discordapp.com/attachments/800206480837574666/800263020420005908/image2.gif",
             "https://tenor.com/view/keeho-mini-heart-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97-%E0%B8%81%E0%B8%B5%E0%B9%82%E0%B8%AE-p1h-gif-19524452",
-            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-yoon-keeho-keeho-gif-19887399"]
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-yoon-keeho-keeho-gif-19887399",
+            "https://64.media.tumblr.com/adba8bfd687b2e902c9fa3d5a17612f3/46f338765297105a-c6/s250x400/2712a7a52b98ef0de9ff452d127b671cf5140a2d.gif",
+            "https://64.media.tumblr.com/8f0a0d84d895283fc7eddda6ac4df807/46f338765297105a-50/s250x400/b2439ef3080e2c1670e390a7a75667534aa66176.gif",
+            "https://64.media.tumblr.com/5e96bd6e528cfb067e5b723222c6c702/46f338765297105a-3b/s250x400/e66170916a978e553103d6bcadab7b1f805d07bd.gif",
+            "https://64.media.tumblr.com/d64b16cd639baf9902e7ec10f0d3063b/46f338765297105a-63/s250x400/fbc3e92373b19b00518d71308e7324dd31e3b6ee.gif",
+            "https://64.media.tumblr.com/2f6f72b23f22eb28867784613a45ef25/84d4a4cc7538988c-6e/s250x400/d0818ba81cc4466ea4d375866eb8128be78be4bd.gif",
+            "https://64.media.tumblr.com/9c91ada22df8af55883d1c3c6536e53f/84d4a4cc7538988c-84/s250x400/88c5a57f1145af1641d39bf72595f46ad1cadfe1.gif",
+            "https://64.media.tumblr.com/df24d9bccb8553fe9f3cdf8f5edffa28/84d4a4cc7538988c-b3/s250x400/5545db0991f0209fec4a13637ab984b39f181967.gif",
+            "https://64.media.tumblr.com/2b3c723372ef98775468c3d695bee1e9/84d4a4cc7538988c-db/s250x400/f4672801da9ffda2c51b7add1f5769b13f19577c.gif",
+            "https://64.media.tumblr.com/c1c1e0027fa50cefd722228ddc286b6c/3086de68fab82c13-8a/s400x600/41a6f0f61c3730833fbc15a6fd295910ee61d169.gif",
+            "https://64.media.tumblr.com/29da10cc998735d34fc60d0e4e5a4cd7/4be585c2d9fa5144-a5/s540x810/8522d1e4ec6340473ff62baec590f5c7c263bbed.gif"]
 
         self.bot.p1harmony_soul_gif = ["https://cdn.discordapp.com/attachments/800206684193685504/800263221390213170/image0.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263221792473088/image1.gif",
@@ -1997,7 +2100,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206684193685504/800263416635588658/image0.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263417167609886/image1.gif",
             "https://cdn.discordapp.com/attachments/800206684193685504/800263417604079636/image2.gif",
-            "https://cdn.discordapp.com/attachments/800206684193685504/800263460730437632/image0.gif"]
+            "https://cdn.discordapp.com/attachments/800206684193685504/800263460730437632/image0.gif",
+            "https://64.media.tumblr.com/9d13ef240dbf92ecb387f18a28305092/4be585c2d9fa5144-7e/s540x810/591a3875727fdd7a7b10858780fecfe3883e9719.gif ",
+            "https://64.media.tumblr.com/02dd7000ce710b5e7ec7651a537ab3d3/bda5b7b7837e4949-92/s400x600/4d01dae86dd5111b86a6641f884d3b9150d96995.gif",
+            "https://64.media.tumblr.com/2ae2d5f28324f64ee58f5dc1eb83866e/bda5b7b7837e4949-67/s400x600/7a2f28f933decb387fc319aac41a0ef973fb3f78.gif"]
 
         self.bot.p1harmony_theo_gif = ["https://cdn.discordapp.com/attachments/800206797604519936/800263698639487016/image0.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800263825638293504/image0.gif",
@@ -2008,7 +2114,12 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226001387540/image1.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264226445852693/image2.gif",
             "https://cdn.discordapp.com/attachments/800206797604519936/800264279206264842/image0.gif",
-            "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435"]
+            "https://tenor.com/view/theo-p1harmony-theo-sheep-choi-taeyang-taeyang-gif-20166435",
+            "https://64.media.tumblr.com/124025f9560cc9f0d98dc11fb339970a/4be585c2d9fa5144-dd/s540x810/55c502579a3872c1cfebcc40afcbce7296a4585f.gif ",
+            "https://64.media.tumblr.com/eb19ad38f8499fbfb46260d48d9b246a/8341ad9c05c0da42-60/s400x600/0da778718c426f2bbc4fdd4492f14a2a9cd08ef0.gif",
+            "https://64.media.tumblr.com/96b74837853c6bc50d77adfb2a6e9e97/8341ad9c05c0da42-21/s400x600/66d8b5feadfae27e7a669d856df038f8737805af.gif",
+            "https://64.media.tumblr.com/a8f79a4db75133f9ce7d55eb74ecb762/8341ad9c05c0da42-c0/s400x600/408570ec99ab447abfbaf4e39e5a84a2f55c842a.gif",
+            "https://64.media.tumblr.com/9f475561c21de7bd2438bc63f03d5bea/8341ad9c05c0da42-34/s400x600/4268212c7df30edd75d88160ff21be748dede555.gif",]
     
         self.bot.p1harmony_group_gif = ["https://tenor.com/view/thoe-p1harmony-theo-keeho-p1h-gif-19371047",
             "https://tenor.com/view/p1harmony-gif-19761328",
@@ -2016,7 +2127,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/p1harmony-kpop-siren-siren-p1harmony-p1harmony-siren-gif-19887489",
             "https://tenor.com/view/p1harmony-siren-p1harmony-p1harmony-siren-siren-kpop-gif-19887478",
             "https://tenor.com/view/p1harmony-siren-siren-p1harmony-p1harmony-siren-kpop-gif-19887473",
-            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jongseob-kim-jongseob-gif-19887398"]
+            "https://tenor.com/view/p1harmony-siren-p1harmony-siren-jongseob-kim-jongseob-gif-19887398",
+            "https://64.media.tumblr.com/c3b1dbd8b59a4c5075edde5d2dc45c87/29bf1bf53a264d2a-7f/s540x810/ea7d9f2e70f96ce76cf1a5abcf8676b877840f50.gif"]
     #. Seventeen
         self.bot.seventeen_scoups_gif = ["https://tenor.com/view/s-coups-seventeen-handsome-gif-13332018",
             "https://tenor.com/view/scoups-seventeen-svt-jicheol-okay-gif-11883208",
@@ -2115,7 +2227,9 @@ class BGS(commands.Cog):
             "https://tenor.com/view/woozi-dance-kpop-gif-14972216",
             "https://tenor.com/view/kpop-seventeen-woozi-lee-jihoon-handsome-gif-15536389",
             "https://cdn.discordapp.com/attachments/812175781341560853/812194110537596928/woozi.gif",
-            "https://giphy.com/gifs/kpop-svt-woozi-eGOqv0O6QKRUMibuvJ"]
+            "https://giphy.com/gifs/kpop-svt-woozi-eGOqv0O6QKRUMibuvJ",
+            "https://64.media.tumblr.com/8fb183ea34ec33b9ea204c9e998c94a4/tumblr_p6tqavWeyl1woe5g3o1_250.gif",
+            "https://64.media.tumblr.com/429003fa34a35626476b8c1ca51a593e/tumblr_p6tqavWeyl1woe5g3o2_250.gif"]
 
         self.bot.seventeen_jeonghan_gif = ["https://tenor.com/view/jeonghan-seventeen-cute-smile-peekaboo-gif-16321993",
             "https://tenor.com/view/seventeen-jeonghan-gif-19104339",
@@ -2288,7 +2402,45 @@ class BGS(commands.Cog):
             "https://tenor.com/view/the8-seventeen-handsome-cute-cool-gif-16728127",
             "https://tenor.com/view/minghao-xu-minghao-the8-seventeen-svt-gif-17346025",
             "https://tenor.com/view/minghao-the8-seventeen-the8-seventeen-svt-gif-20088190",
-            "https://64.media.tumblr.com/b337ddf297f729d314fa493d7f7598d2/03c8e7411d027c2b-84/s400x600/c3b8bcf3ef2239f5f1bed89e47cdea3561777228.gif"]
+            "https://64.media.tumblr.com/b337ddf297f729d314fa493d7f7598d2/03c8e7411d027c2b-84/s400x600/c3b8bcf3ef2239f5f1bed89e47cdea3561777228.gif",
+            "https://64.media.tumblr.com/2eecc67bb97aed6bfc18f271f1923c9c/tumblr_psrdroJ1LE1whwv48o5_r4_250.gif",
+            "https://64.media.tumblr.com/0ab28c996b0b7adaeaced3f7b6cc13c1/tumblr_psrdroJ1LE1whwv48o1_r8_250.gif",
+            "https://64.media.tumblr.com/fde067aace67ccb0e146ef380a5b0d4e/tumblr_psrdroJ1LE1whwv48o3_r11_250.gif",
+            "https://64.media.tumblr.com/19c599cd42f6d2c7e063bd86b6f9ba44/tumblr_psrdroJ1LE1whwv48o6_r1_250.gif",
+            "https://64.media.tumblr.com/eebd536743a228e2d8623cc6e321651e/tumblr_phcv4dRjTT1uu4rseo2_250.gif",
+            "https://64.media.tumblr.com/195197ff4a8453a5464587ed3f64d3a8/tumblr_piw4rvQhC01wr2yw4o3_r1_250.gif",
+            "https://64.media.tumblr.com/7ed9be828d5aff558745dd5175a8c55a/3b49ea0355a98b35-76/s250x400/32e1a34ae8e65d61fad2035789dab461d97ec2a7.gif",
+            "https://64.media.tumblr.com/dba99b85e8d9772b3f128b4a0bf03552/3b49ea0355a98b35-95/s250x400/931d45e09b108ac0865fad66730612924b86bfca.gif",
+            "https://64.media.tumblr.com/fd0ee9ed8bed7e7efee0b6bdbc7f6271/tumblr_pz0zi4f32G1xwiimho1_250.gif",
+            "https://64.media.tumblr.com/e55271abba14660e1f6ad6f32db77712/tumblr_pz0zi4f32G1xwiimho4_250.gif",
+            "https://64.media.tumblr.com/5a79ed1e2c0b07a75bb566c51e9b7126/tumblr_pz0zi4f32G1xwiimho3_250.gif",
+            "https://64.media.tumblr.com/e1403a01c027adaa54b01520c38aaef3/tumblr_pz0zi4f32G1xwiimho2_250.gif",
+            "https://64.media.tumblr.com/243ac4fc75cce1da33ecd36ef15ca9fc/tumblr_pn6v5twaeM1wr2yw4o1_250.gif",
+            "https://64.media.tumblr.com/3ce4f31d5a482544490cc752a47a6a50/tumblr_pn6v5twaeM1wr2yw4o2_250.gif",
+            "https://64.media.tumblr.com/c178b1373b2697af6b66ef74d6553bfd/82393742c2b92839-ff/s250x400/c77909c9fd4ca7ac92e61baa7f39c51cb51a89fd.gif",
+            "https://64.media.tumblr.com/9b7dfc7d7f7b539851e2653cde2d4766/82393742c2b92839-6b/s250x400/6d3a7021a5adf1e85b5c0abea5229d61774d5b77.gif",
+            "https://64.media.tumblr.com/1acd0ae8a1b230cc183290249ee6bfa2/82393742c2b92839-49/s250x400/c4e1ee26ad5ea7dd72c5eea5c3950801013e5ec5.gif",
+            "https://64.media.tumblr.com/e6d68393ccbcc23561bcfce720263419/82393742c2b92839-d6/s250x400/b0b2f43c109beaaeba8efe58e509adf616c8e496.gif",
+            "https://64.media.tumblr.com/b236c57fcdc29c50559280282e758307/77b7a6f42edca376-63/s400x600/6ef7ada32572bf24c57c8204752225a9b1e662f6.gif",
+            "https://64.media.tumblr.com/05d0a9198fc126eba81911a46a01cf8c/77b7a6f42edca376-13/s400x600/795cbc23c4ba5fb7c641f43d2b91be44fd93d089.gif",
+            "https://64.media.tumblr.com/7cf3801b4cbc983fa637afb5ffaac0df/77b7a6f42edca376-9f/s400x600/7a8129258a3bb51b22d3433d82112971148114f0.gif",
+            "https://64.media.tumblr.com/a802898f23d1172713f5b534545f47bc/77b7a6f42edca376-e7/s400x600/34951ca8690810c5df9b8002e8b267715039ce1d.gif",
+            "https://64.media.tumblr.com/d54403dcd1a7e407c27fb5258625c554/77b7a6f42edca376-53/s400x600/b879a21bb6187cb3cc4b06c7c6af84545edb648b.gif",
+            "https://64.media.tumblr.com/82612e3826b5b2ff5b54c683830fb853/59d08fcf0f87e335-db/s400x600/b8131bdc70fe9ef3e9aee6b3a74ec8b2a735c875.gif",
+            "https://64.media.tumblr.com/7cf4913bc7444e53719c303cb2b09ceb/819f22fb750ee059-9d/s250x400/4be32a59ccc42a06478f855397b5c84ab2cec4fc.gif",
+            "https://64.media.tumblr.com/0c823050c49be7a3bda73aba7969768f/tumblr_pihf928PId1uu4rseo5_r1_250.gif",
+            "https://64.media.tumblr.com/00d56d218dcb4c8ed34c129d56a64ac0/tumblr_pihf928PId1uu4rseo1_r1_250.gif",
+            "https://64.media.tumblr.com/ba979440491fbf6715167d13c488fe0b/tumblr_pgl9ofzhP91uu4rseo3_250.gif",
+            "https://64.media.tumblr.com/7367780878b1e0518b5246778f6112e8/2faef74b632198e3-54/s400x600/909be909f99672f801b130db56016ed8e1daf890.gif",
+            "https://64.media.tumblr.com/b55779078c630d7e69a695f7a976d465/2faef74b632198e3-77/s400x600/5f274b19711131c94ed4d121a4e2edb170a739f8.gif",
+            "https://64.media.tumblr.com/21b958247b3f05df90d164cc72cc1c02/2faef74b632198e3-3b/s400x600/459a0e73d005eded394987c627479d0d977ab55a.gif",
+            "https://64.media.tumblr.com/fee77bfda9b90bd5ed5d68a402d2fb47/tumblr_pj7aduqyHF1wclkvoo3_400.gif",
+            "https://64.media.tumblr.com/ca329d15f334d192fc3274b4c5d5aaa6/tumblr_pj7aduqyHF1wclkvoo1_400.gif",
+            "https://64.media.tumblr.com/d167255e32be74e7c5bc2a98729b031a/tumblr_pj7aduqyHF1wclkvoo2_400.gif",
+            "https://64.media.tumblr.com/cb4df7c19614390c22e673b329e406db/tumblr_pvzbc5kKMc1wvw7wro1_250.gif",
+            "https://64.media.tumblr.com/55059378625185cc3218bac4a3eee47a/tumblr_pvzbc5kKMc1wvw7wro2_250.gif",
+            "https://64.media.tumblr.com/93ed2d809f2936c3ba5fd116bb586699/tumblr_ppgkuyarzV1uu4rseo4_250.gif",
+            "https://64.media.tumblr.com/50b54332e69396415af1eddd2f6ae8b4/tumblr_ppgkuyarzV1uu4rseo7_250.gif"]
 
         self.bot.seventeen_dino_gif = ["https://tenor.com/view/seventeen-dino-lee-chan-main-dancer-vocalist-gif-17591014",
             "https://tenor.com/view/dino-seventeen-seventeen-smile-dino-smile-seventeen-gif-20041133",
@@ -2308,7 +2460,36 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/fe14464b8abc1457de2682e877283270/24bbea4d6fd61d33-5a/s400x600/739a42c333fcc82ef4d980f93bbce0a7cd01801f.gif",
             "https://64.media.tumblr.com/aebdd74c443b1be8a3242bbfb732f15b/24bbea4d6fd61d33-d5/s400x600/5ea5879905e7f72dabe174926968be847ce2dbda.gif",
             "https://64.media.tumblr.com/b1acf3d64dc124d69b4a186e1942692e/1c5850b3002ee5c5-01/s400x600/ee7b6e04db78687734bdf757b0f2f6d88919ab67.gif",
-            "https://64.media.tumblr.com/6c6c6228f5582b3a9e34162381a56055/1c5850b3002ee5c5-3b/s400x600/1135e8dfd11c47ef3ccfb011f53c23141ca9c9d7.gif"]
+            "https://64.media.tumblr.com/6c6c6228f5582b3a9e34162381a56055/1c5850b3002ee5c5-3b/s400x600/1135e8dfd11c47ef3ccfb011f53c23141ca9c9d7.gif",
+            "https://64.media.tumblr.com/8baf737e3466b77a678b91f593d798e4/03b86ddb3b9749ec-fe/s250x400/72dd38daaaedaf109ce6c995522ca6ae016dd6fb.gif",
+            "https://64.media.tumblr.com/c911fe594cce747a6290be797564cb91/03b86ddb3b9749ec-af/s250x400/4070d255b3b7fb9f1d8caf10ba57f05d6be05031.gif",
+            "https://64.media.tumblr.com/5749eeb1961777ee71e5e1f6c5ae8116/03b86ddb3b9749ec-b7/s250x400/6c808306bc5be04f6f916ab66907a18ebde61763.gif",
+            "https://64.media.tumblr.com/425ac7d6bc53045547122f8badf13593/03b86ddb3b9749ec-bb/s250x400/524e3d0a574131dca0c7c77e715ce1108eba957f.gif",
+            "https://64.media.tumblr.com/9ccec905cf9d40067272a0633eab8ea0/tumblr_pfxigoICnc1vfll5go1_250.gif",
+            "https://64.media.tumblr.com/5a89159ee002fc8a78f7b1d8c45c607e/tumblr_pfxigoICnc1vfll5go2_250.gif",
+            "https://64.media.tumblr.com/0f08e13cdc2771e6d2524cdb9273b53f/tumblr_pfxigoICnc1vfll5go4_250.gif",
+            "https://64.media.tumblr.com/d2f4fc8204a5afd3a8073902dc2d7092/tumblr_pfxigoICnc1vfll5go3_250.gif",
+            "https://64.media.tumblr.com/8c9ef58d2d8d1d5161bf523fe9035dc5/tumblr_pi4vtj4TKx1t009bd_250.gif",
+            "https://64.media.tumblr.com/a48a386535588e9a99589df6cf15f6dd/tumblr_pi4vtnTpFe1t009bd_250.gif",
+            "https://64.media.tumblr.com/cf05548e1f381b9122f527b77401c9ce/3f84ae72ffcac2e5-74/s400x600/5e24a2ca8bf97c85c522f5231ab8de7903272516.gif",
+            "https://64.media.tumblr.com/018f14d5170539f0929a73555a98182b/3f84ae72ffcac2e5-47/s400x600/96d5d5aca93c6785f934d4c5f0bd49d245db6a12.gif",
+            "https://64.media.tumblr.com/47350c5e512c5cd2aed57947fcbe5ece/3f84ae72ffcac2e5-f1/s400x600/85dc6575f91d0024d218fab55c80173a1f7b8fdd.gif",
+            "https://64.media.tumblr.com/67b80b75cde97c5eb1ce155d457cf305/tumblr_pop66lU7d01wr2yw4o3_250.gif",
+            "https://64.media.tumblr.com/8a76d767d396fa628cdf041b20553ea1/tumblr_pop66lU7d01wr2yw4o2_250.gif",
+            "https://64.media.tumblr.com/9ac0d8ad6056c6155dda3b9b6c474340/tumblr_pop66lU7d01wr2yw4o4_250.gif",
+            "https://64.media.tumblr.com/f0ccce9f16ec335efd01974936e34909/tumblr_pop66lU7d01wr2yw4o1_250.gif",
+            "https://64.media.tumblr.com/70f05c945807bbd0b217eb0cfb033192/cf1fae29fdde9202-35/s250x400/fd23ddc77ed083df38ea38bf235a6bbd6862af9c.gif",
+            "https://64.media.tumblr.com/38562640c8b01349f3be371c68072f2b/cf1fae29fdde9202-dc/s250x400/38d8de2400a14fe28469d8784cea5cf0f54ba8a8.gif",
+            "https://64.media.tumblr.com/32f55c0ad8820e0db94a1b4c100272f0/cf1fae29fdde9202-38/s250x400/67d069ff5abe8f04d06fe66ed649faef86dc8ef2.gif",
+            "https://64.media.tumblr.com/535ccde32c295050a0f88a9c8f11f77e/cf1fae29fdde9202-e8/s250x400/f53e676771e83b368fa66177f19c94d78daa8e34.gif",
+            "https://64.media.tumblr.com/697d580b64b360cb5e778be542051dc7/tumblr_pfhjdfVGxQ1wgdz2to2_250.gif",
+            "https://64.media.tumblr.com/3f28858e6756a177aaf0ba3403cd0da6/tumblr_pfhjdfVGxQ1wgdz2to3_250.gif",
+            "https://64.media.tumblr.com/11a52d11cbaa5cf5627f1daac2ade33a/fc1d26684a787975-ae/s250x400/cb422d6a7590cf16c1c0f0c1e701c4895f079d8c.gif",
+            "https://64.media.tumblr.com/3e9bdfc4833c27f9d3baa4a4402cf3ea/tumblr_plto3yF3GZ1wr2yw4o2_400.gif",
+            "https://64.media.tumblr.com/519cdafac22d9234fccc52bfd2d342ca/1ff97c89c1968297-cc/s400x600/4a4d3ea6df763c96b802aa5208357efc250937fa.gif",
+            "https://64.media.tumblr.com/63984f406c4b4f1b049f9f14d80e8b04/1ff97c89c1968297-d0/s400x600/6099badcac688f70bb2b80aa5f40b120a7af0613.gif",
+            "https://64.media.tumblr.com/eb9be5aad73df689d46ec7657ca59313/1ff97c89c1968297-dd/s400x600/f0ffdf6cd6d4e71febf0078c4c642116fd311891.gif",
+            "https://64.media.tumblr.com/a07a140abcd865c82a95ee84af28a5ba/tumblr_phfifuDX8T1wr2yw4o6_400.gif"]
     #. SF9
         self.bot.sf9_chani_gif = ["https://cdn.discordapp.com/attachments/805178530279325697/805179888738893834/image0.gif",
             "https://cdn.discordapp.com/attachments/805178530279325697/805179889082564638/image1.gif",
@@ -2417,7 +2598,8 @@ class BGS(commands.Cog):
             "https://64.media.tumblr.com/9315aaa8f16ce51a257c824037705851/3586c58cc04a19d1-a5/s400x600/135af7c85588ce67ee60e4862eb68ad718f67e98.gif",
             "https://64.media.tumblr.com/fcb1de7b9de44edfea3d1ef1a48cc315/3586c58cc04a19d1-06/s400x600/f765fd03dbfebfb24966b3dfb13a49d65e694e2f.gif",
             "https://64.media.tumblr.com/ee821898a3367b823bca1ed40f2190c8/tumblr_poa1qrZWac1va7u78o3_r1_400.gif",
-            "https://cdn.discordapp.com/attachments/805178992180199434/813197485077692456/image0.gif"]
+            "https://cdn.discordapp.com/attachments/805178992180199434/813197485077692456/image0.gif",
+            "https://tenor.com/view/sf9-rowoon-kim-seokwoo-singer-cute-gif-17138180"]
 
         self.bot.sf9_taeyang_gif = ["https://cdn.discordapp.com/attachments/805179023558049852/805183900115533834/image0.gif",
             "https://cdn.discordapp.com/attachments/805179023558049852/805183900594208781/image1.gif",
@@ -2439,7 +2621,9 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/805179023558049852/805184557057703976/image2.gif",
             "https://tenor.com/view/yoo-taeyang-yangie-sf9-gif-18417580",
             "https://tenor.com/view/taeyang-sf9-sexy-dance-kpop-gif-12405955",
-            "https://tenor.com/view/yoo-taeyang-sf9-hot-cute-dance-gif-14364411"]
+            "https://tenor.com/view/yoo-taeyang-sf9-hot-cute-dance-gif-14364411",
+            "https://tenor.com/view/yoo-taeyang-sf9-cute-smile-gif-14541885",
+            "https://tenor.com/view/yoo-taeyang-taeyang-sf9-kpop-kpop-meme-gif-20846375"]
 
         self.bot.sf9_youngbin_gif = ["https://cdn.discordapp.com/attachments/805179056093003816/805184741627133982/image0.gif",
             "https://cdn.discordapp.com/attachments/805179056093003816/805184742206734336/image1.gif",
@@ -2532,7 +2716,10 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235619064971323/822445252668948530/Tumblr_l_239399224563101.gif",
             "https://cdn.discordapp.com/attachments/813235619064971323/822445253637570611/Tumblr_l_239397973464039.gif",
             "https://cdn.discordapp.com/attachments/813235619064971323/822445255206502467/Tumblr_l_239400507954663.gif",
-            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif"]
+            "https://cdn.discordapp.com/attachments/813235619064971323/822445255865532416/Tumblr_l_239394564087738.gif",
+            "https://64.media.tumblr.com/5aefdcc4759f061c0d3402d648f3fd79/tumblr_oj0z5oDuOU1rj32yro10_400.gif",
+            "https://64.media.tumblr.com/85378f20af7d624b5bfc3cb4e60ed8c3/tumblr_oj0z5oDuOU1rj32yro8_400.gif",
+            "https://64.media.tumblr.com/a8e366f43a0d65b0a2b951a7faf82cea/tumblr_oj0z5oDuOU1rj32yro6_400.gif"]
 
         self.bot.shinee_key_gif = ["https://tenor.com/view/hi-key-shinee-gif-7394564",
             "https://tenor.com/view/shinee-key-kibum-wink-kpop-handsome-cute-gif-17047484",
@@ -2577,7 +2764,14 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813235506393251840/822445305169575976/Tumblr_l_239391294710708.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/822445305957449758/Tumblr_l_239389382270188.gif",
             "https://cdn.discordapp.com/attachments/813235506393251840/822445306539933726/Tumblr_l_239388140540188.gif",
-            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif"]
+            "https://cdn.discordapp.com/attachments/813235506393251840/822445307283243018/Tumblr_l_239387157872428.gif",
+            "https://64.media.tumblr.com/ebaec6c60bb037a228961506ad13d848/0a69437c0d60a6cc-63/s540x810/4a87b349fdf4577495ab2f860475110107421590.gif",
+            "https://64.media.tumblr.com/fb5a9d682de6b20956f1d05332555e95/0a69437c0d60a6cc-47/s540x810/828eabccc93d67e8fbab9625b7ec8434b46aa23f.gif",
+            "https://64.media.tumblr.com/71c1def77905fed58511ec5572c8a58b/0a69437c0d60a6cc-4a/s540x810/1bfd48f46b6b67a42cf4c677a74a590d4c8c1b74.gif",
+            "https://64.media.tumblr.com/0f63f8744d35adbcc9596bbd28d780b9/f990372a593d86aa-b6/s400x600/eb4ab9589af012bfd5b29358c763e16af4f086f1.gif",
+            "https://64.media.tumblr.com/4b47e41b7c5b9a5cc5c89728a9591284/f990372a593d86aa-37/s400x600/158a33ce208b55973cdcdccea274f1f46b87a1e9.gif",
+            "https://64.media.tumblr.com/0fd2a151df5643efe5d476448d458aa4/f990372a593d86aa-b8/s400x600/6665e26bbf607074d09dbaf4b70b1a2ff258c11d.gif",
+            "https://64.media.tumblr.com/fdccda76c714bbffee56270e689b598e/f990372a593d86aa-82/s400x600/b186513862213fe49ef9393efc8be970841ccb14.gif"]
 
         self.bot.shinee_minho_gif = ["https://tenor.com/view/shinee-minho-kpop-heart-gif-9591712",
             "https://tenor.com/view/minho-kiss-shinee-kissing-gif-10672502",
@@ -2586,7 +2780,15 @@ class BGS(commands.Cog):
             "https://tenor.com/view/choi-minho-shinee-minho-performance-gif-14254206",
             "https://tenor.com/view/kpop-shinee-ot5-lee-taemin-choi-jongho-gif-17312262",
             "https://cdn.discordapp.com/attachments/813235536469688320/818522920153907200/Tumblr_l_1093983344508301.gif",
-            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif"]
+            "https://cdn.discordapp.com/attachments/813235536469688320/818523191777558528/Tumblr_l_1094059577962907.gif",
+            "https://64.media.tumblr.com/eb5cd5c709860470f0cdd56e33ea0063/cf4b1c921af85a3b-fd/s540x810/ef577ca86ad6d060c6e195ee6607ffdbea4daf01.gif",
+            "https://64.media.tumblr.com/40d7ef6a87acf1caac4b67387072ff31/cf4b1c921af85a3b-8c/s540x810/cadf8b001eebfe4cc20bf9c4d814f3b4275700e6.gif",
+            "https://64.media.tumblr.com/e0e6625d000dc489d15ed3bc1f001d01/cf4b1c921af85a3b-9c/s540x810/399d24d6e0089289ef1f486942bef40e0b963bd8.gif",
+            "https://64.media.tumblr.com/f50772bc91d597f639f6fcb51be216ad/b17f859a97faa108-5b/s540x810/ee278f0a44f2a33fe30678321e84c30815715638.gif",
+            "https://64.media.tumblr.com/c27188cad37bdd9570d790f62b49ef4c/b17f859a97faa108-d2/s540x810/21be7b411b7e9800337995d6d8a906e7bcb5fa19.gif",
+            "https://64.media.tumblr.com/24f47bdcd859862c246fc9e63d85a9d5/b17f859a97faa108-2e/s540x810/fda6fe5b735bbc1f11ddc3e12a8be7ffb63093dc.gif",
+            "https://64.media.tumblr.com/9688f84728057e02b588bcab4032513c/bd2d4f984c18d23f-6a/s540x810/2ebb54b1e810bcea0b0da079f48e91345b1d2a42.gif",
+            "https://64.media.tumblr.com/1ebd711240304f7d1d0831df126a6fb6/bd2d4f984c18d23f-58/s540x810/05964b8ed5776bf3505a039a6d291e5bc35a2848.gif"]
 
         self.bot.shinee_group_gif = ["https://tenor.com/view/shinee-clap-dance-kpop-handsome-cute-gif-17047490",
             "https://tenor.com/view/shi-nee-kpop-korean-boy-group-korean-group-gif-10723465",
@@ -2606,7 +2808,52 @@ class BGS(commands.Cog):
             "https://cdn.discordapp.com/attachments/813287404311412786/817075275203477524/Tumblr_l_909494561560188.gif",
             "https://cdn.discordapp.com/attachments/813287404311412786/818522362231914506/Tumblr_l_1093874306738030.gif",
             "https://cdn.discordapp.com/attachments/813287404311412786/818522363137622026/Tumblr_l_1093873282275530.gif",
-            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif"]
+            "https://cdn.discordapp.com/attachments/813287404311412786/818522951942144042/Tumblr_l_1093987285390330.gif",
+            "https://64.media.tumblr.com/b86a9f2ed1aa63fd197c1de0f9eade9c/83b090ab7fd9884a-37/s540x810/dbcf17618ee28e4bee57250dc03dd04e366eee2a.gif",
+            "https://64.media.tumblr.com/ee31fdb2db7b04f0c6adffa01710badf/83b090ab7fd9884a-a2/s540x810/a7973b299d0967a5912fa712e0351960e3f9d525.gif",
+            "https://64.media.tumblr.com/2aba47cecec412f3a6604a49476f6f22/83b090ab7fd9884a-3d/s540x810/d58383ba7377724c98896567a9e22e0fbf4f3b36.gif",
+            "https://64.media.tumblr.com/2540b36efbe29f26f8d4227edcc21a15/83b090ab7fd9884a-ee/s540x810/95d76579b9141a5ae9f75bb083fd3e769ea455e2.gif",
+            "https://64.media.tumblr.com/ee6fce50620d8d92ccd9323b779a6d2c/83b090ab7fd9884a-82/s540x810/bf79bedbbfec8ce5e2f860600b2f0b6bcc81ee08.gif"]
+    #. TVXQ!
+        self.bot.tvqx_max_gif = ["https://cdn.discordapp.com/attachments/812173706271916082/812175015181025290/Tumblr_l_292648942076069.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812175016829255741/Tumblr_l_292644294231175.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812175017257205811/Tumblr_l_292639464401593.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812175019932516362/Tumblr_l_292638294028677.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812175227399176263/Tumblr_l_292691926534542.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812175429989040178/Tumblr_l_292753849402123.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812315640433999922/1a3ce127-2d57-41f2-afa5-595fff9ed4ea.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812315639481892864/0a5c92ce-bddc-4541-b237-5d2ca7ec0e79.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870075370831933/Tumblr_l_381629850318115.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870075975598080/Tumblr_l_381626068329731.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870076884975626/Tumblr_l_381621302808379.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870077275701248/Tumblr_l_381619596182233.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870077815849001/Tumblr_l_381617566515255.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870108707160064/Tumblr_l_381608078058071.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870109890215946/Tumblr_l_381606944765884.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870110283956224/Tumblr_l_381604855225885.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870136347754497/Tumblr_l_381601947525105.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870137198673970/Tumblr_l_381600924585366.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870137786794004/Tumblr_l_381599388474793.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/812870138260095036/Tumblr_l_381597713977971.gif",
+            "https://cdn.discordapp.com/attachments/812173706271916082/818293073569120277/8f362f9c-8947-427a-883a-321b7fd6a2a6.gif"]
+
+        self.bot.tvxq_uknow_gif = ["https://cdn.discordapp.com/attachments/812173788694577162/812175211821924352/Tumblr_l_292696110503186.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/812175213109706762/Tumblr_l_292674135812205.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/812175223163584512/Tumblr_l_292690041202772.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/812175417368248331/Tumblr_l_292754431246341.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/812315604790935612/0ee88d2f-4c66-4d36-be4d-647d583ae028.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/818292900050763826/8e37003d-6dbd-4cce-8af3-813a1363abb2.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/818294961451434074/9c61bde5-8a05-4c1c-b16e-1dae7a1a9b59.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921586309758976/Tumblr_l_77918824659701.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921586938511360/Tumblr_l_77917718564232.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921587436978196/Tumblr_l_77873414855864.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921587886555136/Tumblr_l_77871021294563.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921588167311360/Tumblr_l_77868025349720.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921621734064138/Tumblr_l_77852644593320.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921622040903690/Tumblr_l_77842593501084.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921622590226472/Tumblr_l_77841415359678.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921623273242664/Tumblr_l_77740486311956.gif",
+            "https://cdn.discordapp.com/attachments/812173788694577162/825921623785340948/Tumblr_l_77739004240707.gif"]
     #. VAV
         self.bot.vav_ace_gif = ["https://cdn.discordapp.com/attachments/796980132748722196/800508491717410846/image0.gif",
             "https://cdn.discordapp.com/attachments/796980132748722196/800508492192284682/image1.gif",
@@ -2663,6 +2910,8 @@ class BGS(commands.Cog):
             "https://tenor.com/view/ziu-vav-vav-ziu-heejun-park-heejun-gif-14504018",
             "https://tenor.com/view/ziu-heejun-park-heejun-vav-vav-ziu-gif-14503557",
             "https://tenor.com/view/vav-ziu-vav-ziu-park-heejun-heejun-gif-14504226"]
+    #. Verivery
+        self.bot.verivery_group_gif = []
 
     #.gif end
 
@@ -2773,151 +3022,100 @@ class BGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Golden Child {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-            await ctx.message.delete()
-        else:
-            if child == "child":
-                if arg == "bomin":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Bomin :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_bomin_gif))
-                    await ctx.message.delete()
-                elif arg == "daeyeol":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Daeyeol :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_daeyeol_gif))
-                    await ctx.message.delete()
-                elif arg == "donghyun":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Donghyun :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_donghyun_gif))
-                    await ctx.message.delete()
-                elif arg == "jaehyun":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_jaehyun_gif))
-                    await ctx.message.delete()
-                elif arg == "jangjun":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jangjun :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_jangjun_gif))
-                    await ctx.message.delete()
-                elif arg == "jibeom":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Jibeom :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_jibeom_gif))
-                    await ctx.message.delete()
-                elif arg == "joochan":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_joochan_gif))
-                    await ctx.message.delete()
-                elif arg == "seungmin":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Seungmin :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_seungmin_gif))
-                    await ctx.message.delete()
-                elif arg == "tag":
-                    await ctx.send(f'<@!{ctx.author.id}> is talking about Tag :heart:')
-                    await ctx.send(random.choice(self.bot.golcha_tag_gif))
-                    await ctx.message.delete()
-                elif arg == "y":
+        if child == "child":
+            if arg == "bomin":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Bomin :heart:')
+                await ctx.send(random.choice(self.bot.golcha_bomin_gif))
+                await ctx.message.delete()
+            elif arg == "daeyeol":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Daeyeol :heart:')
+                await ctx.send(random.choice(self.bot.golcha_daeyeol_gif))
+                await ctx.message.delete()
+            elif arg == "donghyun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Donghyun :heart:')
+                await ctx.send(random.choice(self.bot.golcha_donghyun_gif))
+                await ctx.message.delete()
+            elif arg == "jaehyun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehyun :heart:')
+                await ctx.send(random.choice(self.bot.golcha_jaehyun_gif))
+                await ctx.message.delete()
+            elif arg == "jangjun":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jangjun :heart:')
+                await ctx.send(random.choice(self.bot.golcha_jangjun_gif))
+                await ctx.message.delete()
+            elif arg == "jibeom":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Jibeom :heart:')
+                await ctx.send(random.choice(self.bot.golcha_jibeom_gif))
+                await ctx.message.delete()
+            elif arg == "joochan":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Joochan :heart:')
+                await ctx.send(random.choice(self.bot.golcha_joochan_gif))
+                await ctx.message.delete()
+            elif arg == "seungmin":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungmin :heart:')
+                await ctx.send(random.choice(self.bot.golcha_seungmin_gif))
+                await ctx.message.delete()
+            elif arg == "tag":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Tag :heart:')
+                await ctx.send(random.choice(self.bot.golcha_tag_gif))
+                await ctx.message.delete()
+            elif arg == "y":
                     await ctx.send(f'<@!{ctx.author.id}> is talking about Y :heart:')
                     await ctx.send(random.choice(self.bot.golcha_y_gif))
                     await ctx.message.delete()
 
     @commands.command()
-    async def the(self, ctx, boyz="boyz", *, arg = "group"):
+    async def the(self, ctx, boyz, *, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [The Boyz {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if arg == "kevin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+        if boyz == "boyz":
+            if arg == "kevin":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Kevin :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_kevin_gif))
                 await ctx.message.delete()
-        elif arg == "sangyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "sangyeon":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Sangyeon :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_sangyeon_gif))
                 await ctx.message.delete()
-        elif arg == "jacob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "jacob":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Jacob :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_jacob_gif))
                 await ctx.message.delete()
-        elif arg == "younghoon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "younghoon":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Younghoon :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_younghoon_gif))
                 await ctx.message.delete()
-        elif arg == "hyunjae":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "hyunjae":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Hyunjae :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_hyunjae_gif))
                 await ctx.message.delete()
-        elif arg == "juyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "juyeon":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Juyeon :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_juyeon_gif))
                 await ctx.message.delete()
-        elif arg == "new":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "new":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about New :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_new_gif))
                 await ctx.message.delete()
-        elif arg == "q":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "q":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Q :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_q_gif))
                 await ctx.message.delete()
-        elif arg == "haknyeon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "haknyeon":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Haknyeon :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_haknyeon_gif))
                 await ctx.message.delete()
-        elif arg == "sunwoo":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "sunwoo":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Sunwoo :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_sunwoo_gif))
                 await ctx.message.delete()
-        elif arg == "eric":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "eric":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Eric :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_eric_gif))
                 await ctx.message.delete()
-        elif arg == "group":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
+            elif arg == "group":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about The Boyz :heart:')
                 await ctx.send(random.choice(self.bot.theboyz_group_gif))
                 await ctx.message.delete()
@@ -2928,35 +3126,31 @@ class BGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [P1Harmony {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+        if arg == "intak":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
             await ctx.message.delete()
-        else:
-            if arg == "intak":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Intak :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_intak_gif))
-                await ctx.message.delete()
-            elif arg == "jiung":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
-                await ctx.message.delete()
-            elif arg == "jongseob":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
-                await ctx.message.delete()
-            elif arg == "keeho":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
-                await ctx.message.delete()
-            elif arg == "soul":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
-                await ctx.message.delete()
-            elif arg == "theo":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
-                await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
-                await ctx.message.delete()
-            elif arg == "group":
+        elif arg == "jiung":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jiung :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_jiung_gif))
+            await ctx.message.delete()
+        elif arg == "jongseob":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jongseob :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_jongseob_gif))
+            await ctx.message.delete()
+        elif arg == "keeho":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Keeho :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_keeho_gif))
+            await ctx.message.delete()
+        elif arg == "soul":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Soul :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_soul_gif))
+            await ctx.message.delete()
+        elif arg == "theo":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Theo :rotating_light:')
+            await ctx.send(random.choice(self.bot.p1harmony_theo_gif))
+            await ctx.message.delete()
+        elif arg == "group":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about P1Harmony :rotating_light:')
                 await ctx.send(random.choice(self.bot.p1harmony_group_gif))
                 await ctx.message.delete()
@@ -2967,59 +3161,55 @@ class BGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Seventeen {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+        if arg == "scoups" or arg == "s.coups":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about S.coups :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_scoups_gif))
             await ctx.message.delete()
-        else:
-            if arg == "scoups" or arg == "s.coups":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about S.coups :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_scoups_gif))
-                await ctx.message.delete()
-            elif arg == "wonwoo":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Wonwoo :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_wonwoo_gif))
-                await ctx.message.delete()
-            elif arg == "mingyu":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Mingyu :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_mingyu_gif))
-                await ctx.message.delete()
-            elif arg == "vernon":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Vernon :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_vernon_gif))
-                await ctx.message.delete()
-            elif arg == "woozi":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Woozi :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_woozi_gif))
-                await ctx.message.delete()
-            elif arg == "jeonghan":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghan :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_jeonghan_gif))
-                await ctx.message.delete()
-            elif arg == "joshua":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Joshua :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_joshua_gif))
-                await ctx.message.delete()
-            elif arg == "dk":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about DK :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_dk_gif))
-                await ctx.message.delete()
-            elif arg == "seungkwan":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Seungkwan :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_seungkwan_gif))
-                await ctx.message.delete()
-            elif arg == "hoshi":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hoshi :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_hoshi_gif))
-                await ctx.message.delete()
-            elif arg == "jun":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jun :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_jun_gif))
-                await ctx.message.delete()
-            elif arg == "the8":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about The8 :gem:')
-                await ctx.send(random.choice(self.bot.seventeen_the8_gif))
-                await ctx.message.delete()
-            elif arg == "dino":
+        elif arg == "wonwoo":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Wonwoo :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_wonwoo_gif))
+            await ctx.message.delete()
+        elif arg == "mingyu":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Mingyu :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_mingyu_gif))
+            await ctx.message.delete()
+        elif arg == "vernon":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Vernon :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_vernon_gif))
+            await ctx.message.delete()
+        elif arg == "woozi":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Woozi :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_woozi_gif))
+            await ctx.message.delete()
+        elif arg == "jeonghan":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jeonghan :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_jeonghan_gif))
+            await ctx.message.delete()
+        elif arg == "joshua":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Joshua :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_joshua_gif))
+            await ctx.message.delete()
+        elif arg == "dk":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about DK :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_dk_gif))
+            await ctx.message.delete()
+        elif arg == "seungkwan":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Seungkwan :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_seungkwan_gif))
+            await ctx.message.delete()
+        elif arg == "hoshi":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hoshi :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_hoshi_gif))
+            await ctx.message.delete()
+        elif arg == "jun":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jun :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_jun_gif))
+            await ctx.message.delete()
+        elif arg == "the8":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about The8 :gem:')
+            await ctx.send(random.choice(self.bot.seventeen_the8_gif))
+            await ctx.message.delete()
+        elif arg == "dino":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Dino :gem:')
                 await ctx.send(random.choice(self.bot.seventeen_dino_gif))
                 await ctx.message.delete()
@@ -3030,31 +3220,27 @@ class BGS(commands.Cog):
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [Shinee {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
-        if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-            await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
+        if arg == "jonghyun":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jonghyun :heart::angel:')
+            await ctx.send(random.choice(self.bot.shinee_jonghyun_gif))
             await ctx.message.delete()
-        else:
-            if arg == "jonghyun":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jonghyun :heart::angel:')
-                await ctx.send(random.choice(self.bot.shinee_jonghyun_gif))
-                await ctx.message.delete()
-            elif arg == "key":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Key :heart:')
-                await ctx.send(random.choice(self.bot.shinee_key_gif))
-                await ctx.message.delete()
-            elif arg == "taemin":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :heart:')
-                await ctx.send(random.choice(self.bot.taemin_gif))
-                await ctx.message.delete()
-            elif arg == "onew":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Onew :heart:')
-                await ctx.send(random.choice(self.bot.shinee_onew_gif))
-                await ctx.message.delete()
-            elif arg == "minho":
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Minho :heart:')
-                await ctx.send(random.choice(self.bot.shinee_minho_gif))
-                await ctx.message.delete()
-            elif arg == "group":
+        elif arg == "key":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Key :heart:')
+            await ctx.send(random.choice(self.bot.shinee_key_gif))
+            await ctx.message.delete()
+        elif arg == "taemin":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Taemin :heart:')
+            await ctx.send(random.choice(self.bot.taemin_gif))
+            await ctx.message.delete()
+        elif arg == "onew":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Onew :heart:')
+            await ctx.send(random.choice(self.bot.shinee_onew_gif))
+            await ctx.message.delete()
+        elif arg == "minho":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Minho :heart:')
+            await ctx.send(random.choice(self.bot.shinee_minho_gif))
+            await ctx.message.delete()
+        elif arg == "group":
                 await ctx.send(f'<@!{ctx.author.id}> is talking about Shinee :heart:')
                 await ctx.send(random.choice(self.bot.shinee_group_gif))
                 await ctx.message.delete()
@@ -3066,85 +3252,60 @@ class BGS(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [SF9 {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "chani":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Chani :heart:')
-                await ctx.send(random.choice(self.bot.sf9_chani_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Chani :heart:')
+            await ctx.send(random.choice(self.bot.sf9_chani_gif))
+            await ctx.message.delete()
         elif arg == "dawon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Dawon :heart:')
-                await ctx.send(random.choice(self.bot.sf9_dawon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Dawon :heart:')
+            await ctx.send(random.choice(self.bot.sf9_dawon_gif))
+            await ctx.message.delete()
         elif arg == "hwiyoung":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Hwiyoung :heart:')
-                await ctx.send(random.choice(self.bot.sf9_hwiyoung_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Hwiyoung :heart:')
+            await ctx.send(random.choice(self.bot.sf9_hwiyoung_gif))
+            await ctx.message.delete()
         elif arg == "inseong":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Inseong :heart:')
-                await ctx.send(random.choice(self.bot.sf9_inseong_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Inseong :heart:')
+            await ctx.send(random.choice(self.bot.sf9_inseong_gif))
+            await ctx.message.delete()
         elif arg == "jaeyoon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jaeyoon :heart:')
-                await ctx.send(random.choice(self.bot.sf9_jaeyoon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaeyoon :heart:')
+            await ctx.send(random.choice(self.bot.sf9_jaeyoon_gif))
+            await ctx.message.delete()
         elif arg == "rowoon":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Rowoon :heart:')
-                await ctx.send(random.choice(self.bot.sf9_rowoon_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Rowoon :heart:')
+            await ctx.send(random.choice(self.bot.sf9_rowoon_gif))
+            await ctx.message.delete()
         elif arg == "taeyang" or arg == "yoo taeyang":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Yoo Taeyang :heart:')
-                await ctx.send(random.choice(self.bot.sf9_taeyang_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Yoo Taeyang :heart:')
+            await ctx.send(random.choice(self.bot.sf9_taeyang_gif))
+            await ctx.message.delete()
         elif arg == "youngbin":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Youngbin :heart:')
-                await ctx.send(random.choice(self.bot.sf9_youngbin_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Youngbin :heart:')
+            await ctx.send(random.choice(self.bot.sf9_youngbin_gif))
+            await ctx.message.delete()
         elif arg == "zuho":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Zuho :heart:')
-                await ctx.send(random.choice(self.bot.sf9_zuho_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Zuho :heart:')
+            await ctx.send(random.choice(self.bot.sf9_zuho_gif))
+            await ctx.message.delete()
         elif arg == "ot9":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about SF9 :heart:')
-                await ctx.send(random.choice(self.bot.sf9_ot9_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about SF9 :heart:')
+            await ctx.send(random.choice(self.bot.sf9_ot9_gif))
+            await ctx.message.delete()
+
+    @commands.command(aliases = ['tvxq!'])
+    async def tvxq(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [TVXQ! {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "max":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Max :heart:')
+            await ctx.send(random.choice(self.bot.tvqx_max_gif))
+            await ctx.message.delete()
+        elif arg == "uknow" or arg == "u-know" or arg == "yunho":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about U-Know :heart:')
+            await ctx.send(random.choice(self.bot.tvxq_uknow_gif))
+            await ctx.message.delete()
 
     @commands.command()
     async def vav(self, ctx, *, arg):
@@ -3153,71 +3314,50 @@ class BGS(commands.Cog):
         current_time = now.strftime("%H:%M:%S")
         await channel.send(f"`{current_time} | USED COMMAND [VAV {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
         if arg == "ace":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Ace :heart:')
-                await ctx.send(random.choice(self.bot.vav_ace_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Ace :heart:')
+            await ctx.send(random.choice(self.bot.vav_ace_gif))
+            await ctx.message.delete()
         elif arg == "ayno":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Ayno :heart:')
-                await ctx.send(random.choice(self.bot.vav_ayno_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Ayno :heart:')
+            await ctx.send(random.choice(self.bot.vav_ayno_gif))
+            await ctx.message.delete()
         elif arg == "baron":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Baron :heart:')
-                await ctx.send(random.choice(self.bot.vav_baron_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Baron :heart:')
+            await ctx.send(random.choice(self.bot.vav_baron_gif))
+            await ctx.message.delete()
         elif arg == "jacob":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Jacob :heart:')
-                await ctx.send(random.choice(self.bot.vav_jacob_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jacob :heart:')
+            await ctx.send(random.choice(self.bot.vav_jacob_gif))
+            await ctx.message.delete()
         elif arg == "lou":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Lou :heart:')
-                await ctx.send(random.choice(self.bot.vav_lou_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Lou :heart:')
+            await ctx.send(random.choice(self.bot.vav_lou_gif))
+            await ctx.message.delete()
         elif arg == "st. van" or arg == "stvan" or arg == "st van" or arg == "st.van":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about St. Van :heart:')
-                await ctx.send(random.choice(self.bot.vav_stvan_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about St. Van :heart:')
+            await ctx.send(random.choice(self.bot.vav_stvan_gif))
+            await ctx.message.delete()
         elif arg == "ziu":
-            if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-                await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-                await ctx.message.delete()
-            else:
-                await ctx.send(f'<@!{ctx.author.id}> is talking about Ziu :heart:')
-                await ctx.send(random.choice(self.bot.vav_ziu_gif))
-                await ctx.message.delete()
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Ziu :heart:')
+            await ctx.send(random.choice(self.bot.vav_ziu_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def verivery(self, ctx, *, arg = "group"):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [VERIVERY {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "group":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about VERIVERY :heart:')
+            await ctx.send(random.choice(self.bot.verivery_group_gif))
+            await ctx.message.delete()
 
     # @bot.command()
     # async def sendGif(self, ctx, idol:str, gifSet:List[str], emoji:str):
-    #     if ctx.guild.id == luminary and ctx.channel.id != kbotcom:
-    #         await ctx.send(content=f'Wrong channel <@!{ctx.author.id}>! Go to <#{kbotcom}>', delete_after=2)
-    #         await ctx.message.delete()
-    #     else:
-    #         await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
-    #         await ctx.send(random.choice(gifSet))
-    #         await ctx.message.delete()
+        # await ctx.send(f'<@!{ctx.author.id}> is talking about {idol} :{emoji}:')
+        # await ctx.send(random.choice(gifSet))
+        # await ctx.message.delete()
     
 
 
