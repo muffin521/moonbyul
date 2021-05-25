@@ -3292,6 +3292,21 @@ class BGS(commands.Cog):
             await ctx.send(random.choice(self.bot.sf9_ot9_gif))
             await ctx.message.delete()
 
+    @commands.command(aliases = ['tvxq!'])
+    async def tvxq(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [TVXQ! {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "max":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Max :heart:')
+            await ctx.send(random.choice(self.bot.tvqx_max_gif))
+            await ctx.message.delete()
+        elif arg == "uknow" or arg == "u-know" or arg == "yunho":
+            await ctx.send(f'<@!{ctx.author.id}> is talking about U-Know :heart:')
+            await ctx.send(random.choice(self.bot.tvxq_uknow_gif))
+            await ctx.message.delete()
+
     @commands.command()
     async def vav(self, ctx, *, arg):
         now = datetime.now()
