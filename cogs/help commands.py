@@ -90,7 +90,7 @@ class hcommands(commands.Cog):
             embed1.add_field(name='EXID Commands', value=f'''```\nEXID Hani\nEXID Jeonghwa\nEXID LE\nEXID Solji\nEXID Hyelin```''')
         elif arg == "sf9": #= has a group command
             embed1.add_field(name='SF9 Commands', value=f'```\nSF9\nSF9 Chani\nSF9 Dawon\nSF9 Hwiyoung\nSF9 Inseong\nSF9 Jaeyoon\nSF9 Rowoon\nSF9 Yoo Taeyang\nSF9 Youngbin\nSF9 Zuho```')
-        elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9": #. no group command
+        elif arg == "fromis_9" or arg == "fromis" or arg == "fromis9": #= has a group command
             embed1.add_field(name='fromis_9 Commands', value=f'''\naliases: `fromis_9`, `fromis`, `fromis9` ```\nfromis_9 Jisun\nfromis_9 Hayoung\nfromis_9 Saerom\nfromis_9 Chaekyoung\nfromis_9 Nakyung\nfromis_9 Jiwon\nfromis_9 Seoyeon\nfromis_9 Jiheon\nfromis_9 Gyuri```''')
         elif arg == "exo": #. no group command
             embed1.add_field(name='EXO Commands', value=f'''```\nEXO Kai\nEXO D.O.\nEXO Baekhyun\nEXO Chanyeol\nEXO Sehun\nEXO Chen\nEXO Suho\nEXO Lay\nEXO Xiumin```''')
