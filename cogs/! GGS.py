@@ -3920,7 +3920,7 @@ class GGS(commands.Cog):
             await ctx.send(f'<@{ctx.author.id}> is talking about Gyuri :heart:') 
             await ctx.send(random.choice(self.bot.fromis_9_gyuri_gif))
             await ctx.message.delete()
-        elif arg == "grpup":
+        elif arg == "group":
             await ctx.send(f'<@{ctx.author.id}> is talking about fromis_9 :heart:') 
             await ctx.send(random.choice(self.bot.fromis_9_group_gif))
             await ctx.message.delete()
