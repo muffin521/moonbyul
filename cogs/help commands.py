@@ -200,7 +200,6 @@ class hcommands(commands.Cog):
         embed1.add_field(name='Weki Meki', value=f'''```\nWeki Meki Doyeon\nWeki Meki Elly\nWeki Meki Lua\nWeki Meki Lucy\nWeki Meki Rina\nWeki Meki Sei\nWeki Meki Suyeon\nWeki Meki Yoojung```''')
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
 
-    #. not in group command yet    
     #//embed2
         embed2 = discord.Embed(
             title = 'COMMANDS',
