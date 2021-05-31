@@ -166,7 +166,7 @@ class hcommands(commands.Cog):
             title = 'Commands',
             description = description,
             colour = discord.Color.from_rgb(198, 237, 154))
-        helpEmbed.add_field(name='Groups', value=f'\nAliases: `Group`, `G`\n \n`Show available Groups and Idols`')
+        helpEmbed.add_field(name='Groups', value=f'\nAliases: `Group`, `G`\n \n`Show available Groups and Idols, and more information about them`')
         helpEmbed.add_field(name='Invite', value=f'\n`Invite Moonbyul to your Server!`')
         helpEmbed.add_field(name='Bot', value=f'\n`See information about Moonbyul`')
         helpEmbed.add_field(name='Ping', value=f'\n`Pong`')
