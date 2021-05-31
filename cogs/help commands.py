@@ -19,14 +19,21 @@ class hcommands(commands.Cog):
             "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
             "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
             "Seventeen", "Momoland", "I.O.I", "K.A.R.D.", #// end of groups in old help command
-            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch", "STAYC"]
+            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch", "STAYC", "Astro"]
 
         self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
         self.groups_list.append("Misc")
-        # print(self.unsorted_group_list)
         self.groupName = "\n"
         for x in self.groups_list:
             self.groupName += x + "\n"
+
+        self.unstored_soloist_list = ["Natty", "AleXa", "BIBI", "Chung ha", "IU", "Somi", "Yukika", 
+            "WOODZ", "BoA", "Wonho", "Kris Wu", "Luhan", "Tao", "Kang Daniel", "Sunmi", "Yubin", "Rothy", "Hyuna", "DPR Ian"]
+
+        self.soloist_list = sorted(self.unstored_soloist_list, key=str.lower)
+        self.soloistName = "\n"
+        for x in self.soloist_list:
+            self.soloistName += x + "\n"
 
     @commands.command(aliases = ['g', 'groups'])
     async def group(self, ctx, *, arg = "DEFAULT"):
@@ -48,6 +55,8 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Apink Commands', value=f'```\nApink Bomi\nApink Chorong\nApink Eunji\nApink Hayoung\nApink Naeun\nApink Namjoo```')
         elif arg == "april": #. no group command
             embed1.add_field(name='April Commands', value=f'''```\nApril Chaekyung\nApril Chaewon\nApril Naeun\nApril Yena\nApril Rachel\nApril Jinsol\nApril Hyunjoo```''')
+        elif arg == "astro": #. no group command
+            embed1.add_field(name='Astro', value=f'```\nASTRO Eunwoo\nASTRO MJ```')
         elif arg == "blackpink": #= has a group command
             embed1.add_field(name='Blackpink Commands', value=f'```\nBlackpink\nBlackpink Lisa\nBlackpink Jennie\nBlackpink Jisoo\nBlackpink Rosé```')
         elif arg == "brave girls": #. no group command
@@ -140,12 +149,12 @@ class hcommands(commands.Cog):
             embed1.add_field(name='woo!ah! Commands', value=f'''\naliases: `woo!ah!`, `wooah` ```\nwoo!ah! Sora\nwoo!ah! Wooyeon\nwoo!ah! Nana\nwoo!ah! Lucy\nwoo!ah! Minseo```''')
         
         elif arg == "misc":
-            embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S\nASTRO Eunwoo\nASTRO MJ```')
+            embed1.add_field(name='Misc Commands', value=f'```\nKiki\nS.E.S```')
         elif arg == "DEFAULT":
-            embed1.add_field(name='Groups', value=f'```{self.groupName}```')
+            embed1.add_field(name='Groups', value=f'\nTry `=Groups` followed by one of the groups listed for more information! ```{self.groupName}```')
 
         elif arg == "solo" or "soloists" or "soloist":
-            embed1.add_field(name='Soloist Commands', value=f'\nSoloists have no group! ```\nNatty\nAleXa\nBIBI\nChung ha\nIU\nSomi\nYukika\nWOODZ\nBoA\nWonho\nKris Wu\nLuhan\nTao\nKang Daniel\nSunmi\nYubin\nRothy\nHyuna\nDPR Ian```')
+            embed1.add_field(name='Soloist Commands', value=f'\nSoloists have no group! ```{self.soloistName}```')
 
 
         embed1.add_field(name='Support:', value=f'\nhttps://discord.gg/Ntk9Jp26yx', inline = False)
