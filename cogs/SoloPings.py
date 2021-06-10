@@ -505,7 +505,22 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/conventionalgiantcutworm",
             "https://gfycat.com/requiredmediumhoneycreeper",
             "https://gfycat.com/kindlytendereagle",
-            "https://gfycat.com/thickglaringgreyhounddog"]
+            "https://gfycat.com/thickglaringgreyhounddog",
+            "https://gfycat.com/entirefabulousbasilisk",
+            "https://gfycat.com/unsungcornyalbacoretuna",
+            "https://gfycat.com/ablenewilsamochadegu",
+            "https://gfycat.com/dismalsleepybluefish",
+            "https://gfycat.com/astonishingadventurousblueandgoldmackaw",
+            "https://gfycat.com/highlevelrewardinghuman",
+            "https://gfycat.com/favorablecomposedbarb",
+            "https://gfycat.com/kindheartedfirmfantail",
+            "https://gfycat.com/flippantdirtybullfrog ",
+            "https://gfycat.com/vapidhotdotterel",
+            "https://gfycat.com/ampleilliteratebeardeddragon",
+            "https://gfycat.com/emptyserenedaddylonglegs",
+            "https://gfycat.com/failinghatefulgreatargus",
+            "https://gfycat.com/devotedanxiouskawala",
+            "https://gfycat.com/medicaloptimisticasianporcupine"]
 
         self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
@@ -1207,6 +1222,17 @@ class SoloPings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
             await ctx.send(random.choice(self.bot.chungha_gif))
             await ctx.message.delete()
+
+    @commands.command()
+    async def heize(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Heize] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Heize :heart:')
+        await ctx.send(random.choice(self.bot.alexa_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def iu(self, ctx):
