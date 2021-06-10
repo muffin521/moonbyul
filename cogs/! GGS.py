@@ -1491,7 +1491,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/1cc1e87d5ca75ee99911584b59d01021/71ac1f5a215fea25-f6/s250x400/875654a5a649c314ebaca91e2322325752f45567.gif",
             "https://64.media.tumblr.com/49f25c45f0a78f1960158c618f1160ed/71ac1f5a215fea25-b4/s250x400/58d2b45e01e55b0d7ae6d0e9928c2d61cc27a8b6.gif",
             "https://64.media.tumblr.com/93795475fa41c8b3c3458d5a7a884532/bbf0d00c261846d9-cf/s250x400/d20ceb86b4169d110622b7b05a19b97415c7f87e.gif",
-            "https://64.media.tumblr.com/c124fae088d866d677845d548df3fc7e/bbf0d00c261846d9-09/s250x400/58d13949a80ca415d873ac9ea3d9eaecee318b9d.gif"]
+            "https://64.media.tumblr.com/c124fae088d866d677845d548df3fc7e/bbf0d00c261846d9-09/s250x400/58d13949a80ca415d873ac9ea3d9eaecee318b9d.gif",
+            "https://64.media.tumblr.com/9f2daddd73309c9dc3bee8b677f8996f/cb2476d38b8f86bc-e7/s400x600/381511bf3d735946068b058916ef3204b5db5338.gif",
+            "https://64.media.tumblr.com/4f2d6b40705ee7f1c88a2fcf3cb450c7/cb2476d38b8f86bc-96/s400x600/457582c57daf16afc8d74ccd4931fef4ee9c24b6.gif",
+            "https://64.media.tumblr.com/c72ec003c245209176d5b6450f8fc1ca/cb2476d38b8f86bc-63/s400x600/03e40c4ded897df9f552f0783b4ca2f4f637548c.gif",
+            "https://64.media.tumblr.com/6bb9d08e7e5103d5c833d7be36f87250/cb2476d38b8f86bc-6a/s400x600/7f9a145207dad13516be438238a3c165560928a4.gif"]
     #. Hello Venus
         self.bot.hello_venus_lime_gif = ["https://thumbs.gfycat.com/AffectionateHospitableArabianwildcat-max-1mb.gif",
             "https://64.media.tumblr.com/f5dfba1a92cdfc539f50db3bb68005d5/tumblr_nep2mfM5kK1r85bico2_r1_400.gif",
