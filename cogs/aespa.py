@@ -104,7 +104,13 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/f072962614c1cf372cab1398ece4ffa3/5d3742cb15a52b52-cc/s250x400/8b16848f85ba1ab25ffb46eb2b0602375dd30829.gif",
             "https://64.media.tumblr.com/b759a5f2a08273bc69a61f3787cfc70c/5d3742cb15a52b52-86/s250x400/edbf0c81a43f980a3f0aca61f6a7da357e7f7a08.gif",
             "https://64.media.tumblr.com/ede2cd95b321480d404324fc1beaeddf/5d3742cb15a52b52-ac/s250x400/c83bd78061c6c865c980965e09bddbda82678eeb.gif",
-            "https://64.media.tumblr.com/d570ccfdfebc37b9bb50c86b6d00630f/5d3742cb15a52b52-1f/s250x400/998b6781f5466d5560d7279fb0054e65e1ab2b23.gif"]
+            "https://64.media.tumblr.com/d570ccfdfebc37b9bb50c86b6d00630f/5d3742cb15a52b52-1f/s250x400/998b6781f5466d5560d7279fb0054e65e1ab2b23.gif",
+            "https://64.media.tumblr.com/d8424f3978e6a95f6f1698496fbdb006/69734d3014934f9b-a1/s400x600/5aab01f7dd7e2d46c60c70f5f79466417014cd54.gif",
+            "https://64.media.tumblr.com/d1a5e09a137e5fad9817cc91e50e538a/69734d3014934f9b-98/s400x600/bc592f9cfeb016447438cc5a624b1cf5680460cd.gif",
+            "https://64.media.tumblr.com/d4e98512357c058f322295e50a544c57/cf58289d47d17db4-67/s400x600/e87b6479653dee0695abf29cc8b6f69209a29a6d.gif",
+            "https://64.media.tumblr.com/17be401cb5ed670fdf069fdc31260629/cf58289d47d17db4-96/s400x600/945568cc3057fe6fea1a8f4ff93f89da02dd1f81.gif",
+            "https://64.media.tumblr.com/83eb01517e340f27888cc8691be20512/cf58289d47d17db4-b2/s400x600/b84cf6cd6986b7ff1a5bfbde20eea01d056320b0.gif",
+            "https://64.media.tumblr.com/554308af3cc4fa89ac424c01516e556d/cf58289d47d17db4-18/s400x600/92c301b43d3f12afa4241ba74feba45424a3a9b9.gif"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
