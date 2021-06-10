@@ -182,7 +182,11 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/498e9f48e311670b14a9fe207acd8098/d082e771b95c484c-31/s400x600/15728c1a4f498d911f0d9367f343c01bf0824300.gif",
             "https://gfycat.com/slowconsiderategalapagospenguin",
             "https://gfycat.com/passionatelimitedgoldenmantledgroundsquirrel",
-            "https://gfycat.com/glaringsatisfiedeidolonhelvum"]
+            "https://gfycat.com/glaringsatisfiedeidolonhelvum",
+            "https://64.media.tumblr.com/e3d7faba83a34142ee4c627df77f1bb3/407b1399a92999ec-06/s400x600/67676c1c131f8e8fd3f14def50b0ab93486ed316.gif/",
+            "https://64.media.tumblr.com/e3d7faba83a34142ee4c627df77f1bb3/407b1399a92999ec-06/s400x600/67676c1c131f8e8fd3f14def50b0ab93486ed316.gif",
+            "https://64.media.tumblr.com/534e5b55367658143944a8fad677d7fc/407b1399a92999ec-ce/s400x600/7ee4806491f6b39b1f28855a7c777e07a7e2a7c0.gif",
+            "https://64.media.tumblr.com/bf1609abffe323bc8b0b4291f916f08c/407b1399a92999ec-92/s400x600/dfc35d5fe156d38e534a25a8dc6d85b6d86b436d.gif"]
 
         self.bot.aisha_gif = ["https://tenor.com/view/everglow-aisha-heo-yoorim-lead-rapper-kpop-gif-16271018",
             "https://tenor.com/view/everglow-aisha-heo-yoorim-lead-rapper-kpop-gif-16264245",
