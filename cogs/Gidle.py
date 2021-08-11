@@ -69,7 +69,11 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/minne-gidle-gif-20045325",
             "https://tenor.com/view/minnie-gidle-gif-20045210",
             "https://tenor.com/view/minnie-gidle-gif-20045279",
-            "https://tenor.com/view/%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-idle-gidle-minniegidle-gif-19954171"]
+            "https://tenor.com/view/%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-%ec%95%84%ec%9d%b4%eb%93%a4-idle-gidle-minniegidle-gif-19954171",
+            "https://64.media.tumblr.com/826bd9913aa4d6d0bc49a0bce4e26fc7/eab7e46758c6afbc-16/s400x600/1138ae567ffd830dc57b647c096ceed4a6cc2f48.gif",
+            "https://64.media.tumblr.com/f73dba4a3c253d47a81db7493af7e82c/eab7e46758c6afbc-2d/s400x600/86013d919ac2f83c097a6d7f373feb4b016eec39.gif",
+            "https://64.media.tumblr.com/ebedb700cf158d3f8185dc82de0b7c9e/eab7e46758c6afbc-50/s400x600/abb55206ad7ceb97614d1580e096680c201fff81.gif",
+            "https://64.media.tumblr.com/34de41912d4dea0dd09cb8f451e41560/eab7e46758c6afbc-84/s400x600/1f86224b60a9bf5f58a8b863da42c3db39d6c5ac.gif"]
 
         self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
@@ -346,7 +350,22 @@ class IdlePings(commands.Cog):
             "https://tenor.com/view/yuqi-gidle-yuqi-gidle-%ec%9a%b0%ea%b8%b0-%ec%97%ac%ec%9e%90%ec%95%84%ec%9d%b4%eb%93%a4-gif-20291475",
             "https://tenor.com/view/yuqi-gidle-gif-20344769",
             "https://64.media.tumblr.com/0e923aca83c8476c596c7ce33d23a4d6/af25c9d46d60925d-e1/s400x600/cc9973d05a01f4f9e3ded0d4b1221d8ac37e5b7e.gif",
-            "https://64.media.tumblr.com/75517de17b0cc6154a3afd119d4d18c5/af25c9d46d60925d-2a/s400x600/9e819b5086e0dc8837727ff7c4b117c438404aca.gif"]
+            "https://64.media.tumblr.com/75517de17b0cc6154a3afd119d4d18c5/af25c9d46d60925d-2a/s400x600/9e819b5086e0dc8837727ff7c4b117c438404aca.gif",
+            "https://gfycat.com/yawninggreatbeetle",
+            "https://gfycat.com/spicyspotlessjabiru",
+            "https://gfycat.com/obeseunselfishanhinga",
+            "https://gfycat.com/mammothhomelyerne",
+            "https://gfycat.com/brownthisbunting",
+            "https://gfycat.com/linedthornyblackrussianterrier",
+            "https://gfycat.com/fittingpotablebeauceron",
+            "https://gfycat.com/equatorialbriefamethystinepython",
+            "https://gfycat.com/determinedmeanhornedviper",
+            "https://gfycat.com/adorablefavoriteeastrussiancoursinghounds",
+            "https://gfycat.com/dishonestsoupycockatoo",
+            "https://gfycat.com/poorwelloffhog",
+            "https://gfycat.com/recklessgrandiosebass",
+            "https://gfycat.com/sanetornbluewhale",
+            "https://gfycat.com/smartsimplisticcarp"]
 
         self.bot.gidle_gif = ["https://media0.giphy.com/media/RKMdehrdDT8QvGmzra/giphy.gif",
             "https://66.media.tumblr.com/a34816584fefad1c1b4e01fdd0848b02/46ede9e5d46388a5-7e/s500x750/f5b9c6b0339717a5f2e4551c37eefab37714b64c.gif",

@@ -834,7 +834,9 @@ class weeekly(commands.Cog):
             "https://gfycat.com/blinddevotedallensbigearedbat",
             "https://gfycat.com/openslimindianrockpython",
             "https://gfycat.com/famouscheerfulcrab",
-            "https://gfycat.com/anguishedcorrupticelandicsheepdog"]
+            "https://gfycat.com/anguishedcorrupticelandicsheepdog",
+            "https://gfycat.com/cleanhauntingbullmastiff",
+            "https://gfycat.com/sarcasticembellishedcrow"]
 
         self.bot.weeekly_zoa_gif = ["https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075317947203634/ZOA2.gif",
@@ -1001,7 +1003,6 @@ class weeekly(commands.Cog):
             "https://gfycat.com/scalyelementarykissingbug"]
 
         self.bot.weeekly_group_gif = ["https://gfycat.com/AlertUnawareAnnelida",
-            "https://gfycat.com/thirstysleepycrow",
             "https://gfycat.com/ImpressionableHotAiredale",
             "https://gfycat.com/NextVacantHoopoe",
             "https://gfycat.com/FondBogusFruitfly",
@@ -1035,7 +1036,7 @@ class weeekly(commands.Cog):
             await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
             await ctx.message.delete()
         elif arg == "jaehee":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :hatching_chick::ringed_planet:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :sheep::ringed_planet:')
             await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
             await ctx.message.delete()
         elif arg == "jihan":

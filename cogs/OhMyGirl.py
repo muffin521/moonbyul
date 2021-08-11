@@ -137,7 +137,15 @@ class OhMyGirl(commands.Cog):
             "https://64.media.tumblr.com/56573e5b71572dcd62a1ee0f4e72a77c/7f5c9251cbed597c-b4/s540x810/1bfda25339a28c2d75da17fb03ad1b5a3be6445f.gif",
             "https://gfycat.com/memorablesmoothfurseal",
             "https://gfycat.com/vacantsimplistichyracotherium",
-            "https://gfycat.com/decentleafyhornbill"]
+            "https://gfycat.com/decentleafyhornbill",
+            "https://64.media.tumblr.com/a250b5d53317b143d779cf5c7b83646d/4ec0f266ac358c36-47/s400x600/b8bffb5d5d650607bc05e45eb3c3ace5795667e6.gif",
+            "https://64.media.tumblr.com/7310be1bf6a0a947c59810db63e3e958/4ec0f266ac358c36-13/s400x600/a69bd908a351a0b2a62bb7e00e41903401945183.gif",
+            "https://64.media.tumblr.com/5f9d5cc30b9156495f3d7be86de052b3/4ec0f266ac358c36-72/s400x600/efdeb4751467f1158f341e3f4768d85373ae93a9.gif",
+            "https://64.media.tumblr.com/655e2b70e1eb587fd2056ff037e7484e/4ec0f266ac358c36-53/s400x600/3f83ced755c6cdd26ca1ff7e083d6bc18332576f.gif",
+            "https://gfycat.com/respectfulpoliticalbonobo",
+            "https://gfycat.com/greathappygosling",
+            "https://gfycat.com/wearyyoungaidi",
+            "https://gfycat.com/spectacularwaryalbacoretuna"]
 
         self.bot.ohmygirl_hyojung_gif = ["https://tenor.com/view/oh-my-girl-cute-girl-smile-illusion-gif-16725606",
             "https://tenor.com/view/lol-rofl-laughing-laugh-oh-my-girl-gif-14647344",
@@ -260,7 +268,10 @@ class OhMyGirl(commands.Cog):
             "https://gfycat.com/impishreadybronco",
             "https://64.media.tumblr.com/c54beb1ea5d14bad80c77d4b426c5e61/8cf2e822f5e0d778-76/s400x600/f1af1f06f9df32823af30d0fe1fdbd721e5550ef.gif",
             "https://64.media.tumblr.com/b5fb74f0e86c17b584df4d5bb4895ba0/8cf2e822f5e0d778-6c/s400x600/41029163986e09b9169b9633dd3b89c17be3ddb6.gif",
-            "https://64.media.tumblr.com/c4f1307e239ee7e1c7b2e73b80e43385/8cf2e822f5e0d778-10/s400x600/8490a3809738e6836928d8ccf62dbd45deb4cf66.gif/"]
+            "https://64.media.tumblr.com/c4f1307e239ee7e1c7b2e73b80e43385/8cf2e822f5e0d778-10/s400x600/8490a3809738e6836928d8ccf62dbd45deb4cf66.gif/",
+            "https://64.media.tumblr.com/f305e45b200fc541b47c0ec5b168a67c/7657c10051cb29dc-c0/s540x810/64fdb48636f0a1ee1c8f4e51306af300c8b60d26.gif",
+            "https://64.media.tumblr.com/cd514d16a641f8598d68187760eb70f7/7657c10051cb29dc-7c/s540x810/da4661ebc344cc5d5b5b6b7a1517a8a4a6f5d791.gif",
+            "https://64.media.tumblr.com/8d734e988d63facfdfe3d7cdb6fcb18e/7657c10051cb29dc-35/s540x810/9b2b869fb99130d70d32946aa39ddfc6395b6b34.gif"]
 
         self.bot.ohmygirl_seunghee_gif = ["https://tenor.com/view/aww-jiggle-ohmygirl-pout-korean-gif-18118579",
             "https://gfycat.com/bountifulbronzekarakul",
@@ -337,8 +348,18 @@ class OhMyGirl(commands.Cog):
             "https://64.media.tumblr.com/eed0a420a6252ea8a8e42612eb03f219/d0f3d42d1f3f1ba4-76/s400x600/274505b2488cb5c5ef28c9ce2816c1cb159ccc07.gif",
             "https://64.media.tumblr.com/86c45e3b051becbab65b26d7941631a3/d0f3d42d1f3f1ba4-a5/s400x600/7e6fc93569315d8bfaf39ab0edd4f509a3732941.gif"]
 
+        self.bot.ohmygirl_group_gif = ["https://64.media.tumblr.com/00c77f2f2fdd7ccf7bcc481133d67e16/719db5214797f81f-04/s540x810/72bb0e013173cea578563f088c8533da6a7dd8c1.gif",
+            "https://64.media.tumblr.com/117e324c6f01a3dc547132118a28ab47/719db5214797f81f-2e/s540x810/cc931fbf7c9e92d57d2ed5cd3f8224470be4c4cf.gif",
+            "https://64.media.tumblr.com/d1c25e07e9f2775a24ab7044511cd16d/719db5214797f81f-d9/s540x810/d8b040a4ed7ac89b3dc111176df061f766857b94.gif",
+            "https://64.media.tumblr.com/bac47560415882eb2fce9bbb620c2410/719db5214797f81f-4f/s540x810/1bb370f7051644c53e3bde9293df3ed032048650.gif",
+            "https://64.media.tumblr.com/954dd3ce975b6a50a27d4e7906003902/719db5214797f81f-a9/s540x810/66d115fba60b11e3774b3e98ffe8c67eed77d58b.gif",
+            "https://64.media.tumblr.com/91be88132fdab0c36921b3ffacfb4314/9b25f0b8065aa0db-d4/s400x600/01f57f9d8c7b35e0c3df4133a22e18967715e223.gif",
+            "https://64.media.tumblr.com/5144e495e211b6abc2b1ded63e58f5f4/9b25f0b8065aa0db-80/s400x600/f79d1e039f37c754022206a77def3181735f283e.gif",
+            "https://64.media.tumblr.com/1c25ca96d50ca368a44220d9198dd4fc/9b25f0b8065aa0db-71/s400x600/f3fb7065e76ea3d11978be6980677fad58e273e1.gif",
+            "https://64.media.tumblr.com/4e71b1765f611d1b20c271bbe829e74f/9b25f0b8065aa0db-44/s400x600/8e302181a93007fa5029f388f485e7063d5fdc71.gif"]
+
     @commands.command()
-    async def oh(self, ctx, my, girl, arg):
+    async def oh(self, ctx, my, girl, arg = "group"):
         now = datetime.now()
         channel = ctx.bot.get_channel(self.bot.logs)
         current_time = now.strftime("%H:%M:%S")
@@ -372,7 +393,10 @@ class OhMyGirl(commands.Cog):
                 await ctx.send(f'<@!{ctx.author.id}> is talking about YooA :heart:')
                 await ctx.send(random.choice(self.bot.ohmygirl_yooa_gif))
                 await ctx.message.delete()
-
+            elif arg == "group":
+                await ctx.send(f'<@!{ctx.author.id}> is talking about Oh My Girl :heart:')
+                await ctx.send(random.choice(self.bot.ohmygirl_group_gif))
+                await ctx.message.delete()
 
 def setup(client):
     client.add_cog(OhMyGirl(client))

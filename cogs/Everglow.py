@@ -59,7 +59,19 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/36dabfb4660ccabf4681c05afffa5031/182ae334d3004921-d4/s540x810/fbe182b447225e48323be6b1fb1b839b5034391a.gif",
             "https://64.media.tumblr.com/73d35b35b9500f5ac16b2d6106141733/182ae334d3004921-87/s540x810/979ea753a629bf9e62a9f2ab61764d99068c2d0f.gif",
             "https://64.media.tumblr.com/ecbd2665a268b1cf5d00f5d3f42ecef2/182ae334d3004921-26/s540x810/3707de4ff7b11b6d4732a76cd8ffe02204540d65.gif",
-            "https://64.media.tumblr.com/8b5a41d831f739ce11e6b9d49d39859d/182ae334d3004921-18/s540x810/59e270c19dcaf917d0eebf97342ac3df0c0627d2.gif"]
+            "https://64.media.tumblr.com/8b5a41d831f739ce11e6b9d49d39859d/182ae334d3004921-18/s540x810/59e270c19dcaf917d0eebf97342ac3df0c0627d2.gif",
+            "https://64.media.tumblr.com/8eb2359d8ecd4c2c0ea9cb8076e806f1/9010df0fc5ced9d7-6e/s400x600/622db2f6ea721266026491e0e80ad31a6297b922.gif",
+            "https://64.media.tumblr.com/70be6d87d4c7d50401a2c01d1ea474f5/9010df0fc5ced9d7-79/s400x600/38e39fe56a40df4d40f55512967b2f8dd9bc263f.gif",
+            "https://64.media.tumblr.com/8e612ee8f8bb2a5dde9c212164e0b446/9010df0fc5ced9d7-c8/s400x600/b45e2f8a2bd7e4ae8bf22c14ca637cd34a5384e8.gif",
+            "https://64.media.tumblr.com/518b2fa4c5d0c97513b3ad768be1b3b0/9010df0fc5ced9d7-21/s400x600/c18011a24a5b901898e1c3f63eb6142790d6043e.gif",
+            "https://64.media.tumblr.com/78bcfb0a32a2e43a75a371b5cf1cebaa/9010df0fc5ced9d7-a7/s400x600/f2fd38d9817d0d02d02ae27a886c6fefa9b591d0.gif",
+            "https://64.media.tumblr.com/ae55616cd1dbbc194235506dca12dca1/9010df0fc5ced9d7-56/s400x600/9c07d393c5ebe8d1b7b900413f322aeebc83f5d4.gif",
+            "https://64.media.tumblr.com/b44a34231b020c02353ab602fd76ec46/a404dd89ba79d6b8-2f/s540x810/d7308fd98bb93097487bfb98729c096b02b0320c.gif",
+            "https://64.media.tumblr.com/91bc2d356f36bc1e2c7ac26a76c5e310/a404dd89ba79d6b8-0b/s540x810/cb70f3ed464ddd17bdb67f9f7edd14c679bd08d9.gif",
+            "https://64.media.tumblr.com/ad72cf3ca95ef1d28d460998a34e8324/9ef0cf626e0b809a-f7/s400x600/9a1b08ca46f883ba89f28611c910ef413ee4c988.gif",
+            "https://64.media.tumblr.com/4c04bef0615b2f5f9efcb5cf8f9f5d04/9ef0cf626e0b809a-e4/s400x600/f73bca4bdd28680520ff17157e2da1c529fe8b4b.gif",
+            "https://64.media.tumblr.com/aee5ca16e7a3056ac4d7d1ab12fd0834/9ef0cf626e0b809a-22/s400x600/ab00fa4dc772435f6f1487c7bea4efe7ce4e809d.gif",
+            "https://64.media.tumblr.com/03683b41e29d800d04a858ae70220c2a/9ef0cf626e0b809a-03/s400x600/a831cc5f5bb5edb858c61c9cfbb6d48c28c3a9ca.gif"]
 
         self.bot.mia_gif = ["https://tenor.com/view/everglow-mia-blow-kiss-kpop-cute-gif-15818623",
             "https://tenor.com/view/everglowmia-salute-gif-18117807",
@@ -98,7 +110,19 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/685c89f0f06d9ab09b78aa61d1af0c53/26713f8b100628fa-8c/s400x600/5b782b8d512550f41896b475493727344f832ab4.gif",
             "https://64.media.tumblr.com/f261fdbda072be3bfcee5426fca3bd42/26713f8b100628fa-2e/s400x600/ba98c6a5ac2c8123fe3ddff58b4e7b7fb5c5ac63.gif",
             "https://64.media.tumblr.com/08dafe2194b716a66b8f4eb6fe6d6dfe/26713f8b100628fa-8b/s400x600/b44355230cb80033f8cd6fbb666ea35cddba2c4e.gif",
-            "https://64.media.tumblr.com/470c368b3d823608e4c271c1b95bfd4c/26713f8b100628fa-2d/s400x600/ea2c210fef27ba849090b8951484177ddff76095.gif"]
+            "https://64.media.tumblr.com/470c368b3d823608e4c271c1b95bfd4c/26713f8b100628fa-2d/s400x600/ea2c210fef27ba849090b8951484177ddff76095.gif",
+            "https://64.media.tumblr.com/5e25384bec2a5a16f852a344d2417cfa/2b09e62eb95cad3d-26/s540x810/6c197da91170861893853803ffa03110259b4a74.gif",
+            "https://64.media.tumblr.com/7dfa8b8a6acdf11fb006c4b4bfd7b7cc/2b09e62eb95cad3d-0a/s540x810/1be0a215c1995e7f0ae87f109a2119bd9e93803d.gif",
+            "https://64.media.tumblr.com/8eb5eb618e06f8825aa34339f5453bbb/2b09e62eb95cad3d-21/s540x810/d16f59c0dde4d7da26a4141230f6a186d706a55a.gif",
+            "https://64.media.tumblr.com/fe5c5040e3f05568f209a7008955a970/2b09e62eb95cad3d-d5/s540x810/14baa7cda793b0705b3803f2979c464e2459100e.gif",
+            "https://64.media.tumblr.com/739ca87fa0a8e78e6a486c8ad6d7dfa5/5c1628abdefdae0e-3f/s400x600/62334fbd92b521ef588bff2c910a01fc2d9a36d7.gif",
+            "https://64.media.tumblr.com/b3cd69a46d2596d08a480d10d0828925/5c1628abdefdae0e-20/s400x600/d70b16a8a9aedf16ac71b7972cb033e3e2b7facc.gif",
+            "https://64.media.tumblr.com/ae07e73ae1cb84c5db56fd21570ac7a3/5c1628abdefdae0e-c2/s400x600/dfbfba15f96cb02c60431567bbb4531b1a98cfe1.gif",
+            "https://64.media.tumblr.com/ca9e113385da47610e421fc8b14ffd01/5c1628abdefdae0e-33/s400x600/7f35f476a4fe13f84db6a36e0523465a174256ad.gif",
+            "https://64.media.tumblr.com/462e69d2ca2dab1833e2efcf7860c9f0/27e1d6c3fb5a522b-6f/s540x810/2573e9e5019ec68871a5dc20a03a159973edd8f9.gif",
+            "https://64.media.tumblr.com/bf564e7c93e5fb4d3bf98404d4382bff/27e1d6c3fb5a522b-3b/s540x810/0c04844a1b246154b0d0658baa1ab1b5fc3c5ac3.gif",
+            "https://64.media.tumblr.com/d87f97102bba86b0146dfe83beeac062/27e1d6c3fb5a522b-2d/s540x810/07e504a31b98bd17fca46b2599a1354ec8616b9f.gif",
+            "https://64.media.tumblr.com/22f19e9094d6be0ff8303754cc855264/27e1d6c3fb5a522b-44/s540x810/621c519371e39622f15d6127b616b898ef46c623.gif"]
 
         self.bot.yiren_gif = ["https://tenor.com/view/yireon-hearts-wishing-wish-produce48-gif-11924127",
             "https://tenor.com/view/love-you-more-wink-side-eye-flirt-smile-gif-16944406",
@@ -154,7 +178,19 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/8f27c0387415f86be4d14665b0fa9c3b/0ef06d18e2cdad5f-da/s400x600/64a55d3436cec4b18702aaa4ae15f3294c5ffcb8.gif",
             "https://64.media.tumblr.com/4d55c4250b6cd47278bd20cddd26b1ca/0ef06d18e2cdad5f-5b/s400x600/6ceaa137b38438de4bd4c91abb3fb8c0cd90304c.gif",
             "https://64.media.tumblr.com/c023f13afa5a9bc1fee798481bcd825a/0ef06d18e2cdad5f-90/s400x600/9007a0349ffee49371d2e790604a24053a62bac3.gif",
-            "https://64.media.tumblr.com/2231328d6baf411826f69f08e99cadb5/0ef06d18e2cdad5f-29/s400x600/f5443ea83a8a56760a7b885ba5ae1b86b714ebf3.gif"]
+            "https://64.media.tumblr.com/2231328d6baf411826f69f08e99cadb5/0ef06d18e2cdad5f-29/s400x600/f5443ea83a8a56760a7b885ba5ae1b86b714ebf3.gif",
+            "https://gfycat.com/unhappyperfumedewe",
+            "https://gfycat.com/scratchyabandonedfowl",
+            "https://64.media.tumblr.com/a1b2fd2bb084f14688fa5c3cb41dd348/d082e771b95c484c-76/s400x600/d19426d1bcddae139712bdc764bcf183d5ea8166.gif",
+            "https://64.media.tumblr.com/837f4d6a241501e37770177635e01158/d082e771b95c484c-2d/s400x600/1cbdeda8ac24fdb05535d4375c44916ae9b9af98.gif",
+            "https://64.media.tumblr.com/498e9f48e311670b14a9fe207acd8098/d082e771b95c484c-31/s400x600/15728c1a4f498d911f0d9367f343c01bf0824300.gif",
+            "https://gfycat.com/slowconsiderategalapagospenguin",
+            "https://gfycat.com/passionatelimitedgoldenmantledgroundsquirrel",
+            "https://gfycat.com/glaringsatisfiedeidolonhelvum",
+            "https://64.media.tumblr.com/e3d7faba83a34142ee4c627df77f1bb3/407b1399a92999ec-06/s400x600/67676c1c131f8e8fd3f14def50b0ab93486ed316.gif/",
+            "https://64.media.tumblr.com/e3d7faba83a34142ee4c627df77f1bb3/407b1399a92999ec-06/s400x600/67676c1c131f8e8fd3f14def50b0ab93486ed316.gif",
+            "https://64.media.tumblr.com/534e5b55367658143944a8fad677d7fc/407b1399a92999ec-ce/s400x600/7ee4806491f6b39b1f28855a7c777e07a7e2a7c0.gif",
+            "https://64.media.tumblr.com/bf1609abffe323bc8b0b4291f916f08c/407b1399a92999ec-92/s400x600/dfc35d5fe156d38e534a25a8dc6d85b6d86b436d.gif"]
 
         self.bot.aisha_gif = ["https://tenor.com/view/everglow-aisha-heo-yoorim-lead-rapper-kpop-gif-16271018",
             "https://tenor.com/view/everglow-aisha-heo-yoorim-lead-rapper-kpop-gif-16264245",
@@ -298,7 +334,19 @@ class everglow(commands.Cog):
             "https://gfycat.com/closeprestigiousguineafowl",
             "https://gfycat.com/infatuatedchillydunnart",
             "https://gfycat.com/teemingpessimisticarrowworm-everglow-aisha-kpop",
-            "https://data.whicdn.com/images/327889658/original.gif"]
+            "https://data.whicdn.com/images/327889658/original.gif",
+            "https://64.media.tumblr.com/5daea5f87b83b5fcef48fe6d2309d953/64111e124eeb9476-73/s400x600/710cdffbca2782615df39d6540288b8f09d75d18.gif",
+            "https://64.media.tumblr.com/0602ab6ab77fd2c1be3c662580412e23/64111e124eeb9476-0c/s400x600/e7a99231abfa6c9cb0f7a6405887dd9c84822a5f.gif",
+            "https://64.media.tumblr.com/2ed36055902bfd4e29145eea4f5d9250/64111e124eeb9476-40/s400x600/53d50d6223161033ff1e5404464607fb0350cebe.gif",
+            "https://64.media.tumblr.com/7dcb2cd48ade4f75b2823fe2cb8cb0f2/64111e124eeb9476-d1/s400x600/cd13a14b732de6e993bd472421bdc1355ea53137.gif",
+            "https://64.media.tumblr.com/74baa303ca17014b96464774f4a23b9a/64111e124eeb9476-3d/s400x600/c7df5397dfb54817e4e838338de7e55d4f773d96.gif",
+            "https://64.media.tumblr.com/e9e037ddb372abd703f6122e99bc7131/64111e124eeb9476-f3/s400x600/5759c5c2d9f290b9ba54ddd7d5a02ec1d6c2fd97.gif",
+            "https://64.media.tumblr.com/f3a117657f3fa1cd916a0710b9520384/f6e3d8d7f1f46211-86/s400x600/89d7fd85c028ca9ba33d2603bf70c08a46d92931.gif",
+            "https://64.media.tumblr.com/cf3f0c9ca8afbb268dc4cbcb48b6ec26/f6e3d8d7f1f46211-4b/s400x600/56ce1631fd15a93e83d42c5962a1b8376f269f11.gif",
+            "https://64.media.tumblr.com/f7b3bb229c1462a5418745b28661211d/f6e3d8d7f1f46211-b6/s400x600/75b7170d75e2245b07e3e238dbe6202751b1e5ca.gif",
+            "https://64.media.tumblr.com/815137a042f2c3d51ec028ca632f79ff/f6e3d8d7f1f46211-f5/s400x600/1bf4a7e48e996b0ba0b933bbefa47a509c1da92c.gif",
+            "https://64.media.tumblr.com/e17730ce6c72da2c813923b3808b1058/f6e3d8d7f1f46211-30/s400x600/f90a9d15f6971ef48a6e94959c90d7d4b5da41e2.gif",
+            "https://64.media.tumblr.com/7bb6e763515e2d7065e5b55674bc25bf/f6e3d8d7f1f46211-60/s400x600/32f242ee16351aec95a7e92d4880dbfffd170379.gif"]
 
         self.bot.onda_gif = ["https://tenor.com/view/everglow-onda-jo-serim-vocalist-kpop-gif-15970349",
             "https://tenor.com/view/everglow-onda-jo-serim-vocalist-kpop-gif-16263345",
@@ -351,7 +399,20 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/cca8929eeca266f0236f1d8cfe5a73ac/37cb5f80e85665cd-64/s250x400/f41ed87fd9da044f798fc78d258fa77c7abf165a.gif",
             "https://64.media.tumblr.com/037c65f7b8bcd4428b9d64216a30f5a5/37cb5f80e85665cd-ea/s250x400/6a31e6807b8e6cde3a01b4c9b722b9e35d2619c1.gif",
             "https://64.media.tumblr.com/abff124932368a0c0623dcba504af1bf/37cb5f80e85665cd-7d/s250x400/34d2e61e959b8a244a4a86ce9836c0d5b2ea6be8.gif",
-            "https://64.media.tumblr.com/1cbc7b1726d2983c01e3a8a10588c6de/37cb5f80e85665cd-8b/s250x400/37f54aab639be1c09f888d80207bb4c2ad1b5d62.gif"]
+            "https://64.media.tumblr.com/1cbc7b1726d2983c01e3a8a10588c6de/37cb5f80e85665cd-8b/s250x400/37f54aab639be1c09f888d80207bb4c2ad1b5d62.gif",
+            "https://gfycat.com/admirablecomplicatedblackfootedferret",
+            "https://gfycat.com/fearlessdefianthammerkop",
+            "https://gfycat.com/nauticalsafeamethystsunbird",
+            "https://gfycat.com/cheerfulrealisticantelopegroundsquirrel",
+            "https://gfycat.com/likableneglectedcurlew",
+            "https://gfycat.com/gleamingspanishgoosefish",
+            "https://gfycat.com/unitedclearkingsnake",
+            "https://gfycat.com/majesticmilkyburro",
+            "https://gfycat.com/agreeablesimilarcicada",
+            "https://gfycat.com/personaldrearyhyrax",
+            "https://gfycat.com/formalhorriblebrahmanbull",
+            "https://gfycat.com/blackandwhitedeterminedconch",
+            "https://gfycat.com/delightfulsparseaustraliancurlew"]
 
         self.bot.sihyeon_gif = ["https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16281910",
             "https://tenor.com/view/everglow-sihyeon-kim-sihyeon-face-of-the-group-rapper-gif-16481660",
@@ -401,7 +462,16 @@ class everglow(commands.Cog):
             "https://64.media.tumblr.com/15884c5080abb61db315a2124b0d30a5/1a0c8ea9c697ad23-c6/s540x810/a2e8a4b0c969a3cf205c6d9e32e2580b70fd20b3.gif",
             "https://64.media.tumblr.com/048570cb7edd5a721916e0b540ad87db/1a0c8ea9c697ad23-c1/s540x810/a7e3c0a1145c9ccf03c3356b0832df81db7f3693.gif",
             "https://64.media.tumblr.com/cadd3166c86d8929dbab1a57751b6165/c875a6c0c71d409b-3b/s540x810/19149bbc891aaa9b3ac77d54b29bbb4f8b9e3080.gif",
-            "https://64.media.tumblr.com/aa44521d053df08b8792a7c096d8c44b/c875a6c0c71d409b-ea/s540x810/64b3d1534587e286a860abc3c638c557afdb2ea8.gif"]
+            "https://64.media.tumblr.com/aa44521d053df08b8792a7c096d8c44b/c875a6c0c71d409b-ea/s540x810/64b3d1534587e286a860abc3c638c557afdb2ea8.gif",
+            "https://64.media.tumblr.com/757702fc9a45d0accd8484eedbd60db7/f4f615c69b0d16d4-b0/s400x600/0a3ba9417ee5a5624b41ec9fcedc7fd14beff9bf.gif",
+            "https://64.media.tumblr.com/d6fa87b0ea0ccdd0e80c3b69598af0c2/f4f615c69b0d16d4-7c/s400x600/9d35042030040e01a04cf47ec6ae2afdb6595d30.gif",
+            "https://64.media.tumblr.com/3bb1eb15eb33989bdf430a7fd3236eca/f4f615c69b0d16d4-9e/s400x600/f9da1b933651a721b30c1da4a55303b2f7a97984.gif",
+            "https://64.media.tumblr.com/5d9141415d5bec332f10a44e19b5f76e/f4f615c69b0d16d4-dc/s400x600/091f71386e5ab769d6e07c676343464fb55712d5.gif",
+            "https://64.media.tumblr.com/a1b6a873c129f9b0c9fc4b7002d0ed7f/349a732e3df764f9-35/s540x810/3a75d542e6dbdec50aaca389e5b36b9d86952f9c.gif",
+            "https://64.media.tumblr.com/f913340307de67e500433864aac4cc5b/349a732e3df764f9-e8/s540x810/3a1595057e862d78a5c1f1fb18629cf565374fea.gif",
+            "https://64.media.tumblr.com/e782571a1cd97392b376e3486d041d89/349a732e3df764f9-e8/s540x810/8f380f02b38b0d53981e5ebb5c26c89f2fb877da.gif",
+            "https://64.media.tumblr.com/09ee47aa7db17fb427307733e36636c6/349a732e3df764f9-8a/s540x810/8dae5a3607cb9e702cb6c0c81906d93665126820.gif",
+            "https://64.media.tumblr.com/00a6c91fc2f6c46c04ee0da06e2bf576/349a732e3df764f9-57/s540x810/02a7cd38b6ffeaa3f46ca1062e67e6839cb101e2.gif"]
 
     @commands.command()
     async def everglow(self, ctx, arg = "group"):
