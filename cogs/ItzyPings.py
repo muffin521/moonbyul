@@ -347,7 +347,11 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/lamecheerybutterfly",
             "https://gfycat.com/afraidgranularchrysalis",
             "https://gfycat.com/frenchrealisticibadanmalimbe",
-            "https://gfycat.com/phonyhastygaur"]
+            "https://gfycat.com/phonyhastygaur",
+            "https://64.media.tumblr.com/73e59606058f79b8f1e5327cd3399141/6db4b28429ddd618-61/s400x600/d0968da9b471c26e998fccdd0914885be337b773.gif",
+            "https://64.media.tumblr.com/aa96e2158a57899a0e40da28bf3b1940/6db4b28429ddd618-e9/s400x600/1e0ec4352019ea0b36ea9edbde01b2bdb1e9e803.gif",
+            "https://64.media.tumblr.com/b996d7a538a563cdc1a3587b0e356586/6db4b28429ddd618-bb/s400x600/ef11e65e0bde61e0db020af9ba83348c2632e308.gif",
+            "https://64.media.tumblr.com/1dc23503a34c1886f3c7bd8db6ea16a8/6db4b28429ddd618-e2/s400x600/92c73b93144943e50706ca4e5c7712e722b8e263.gif"]
 
         self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",
