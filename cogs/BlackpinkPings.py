@@ -238,7 +238,10 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/bcf411be97f297a2f1d35fb1ac438fc8/6a8907ae89a02b97-f4/s400x600/65f086402d4cffa4c44152c0f45a0d8dc9dd3b91.gif",
             "https://64.media.tumblr.com/3dab8061df68a8b6d8907f786fe6566e/6a8907ae89a02b97-e2/s400x600/f0efa2b9d847034788b7794ebc2e1f79d3bc08c6.gif",
             "https://64.media.tumblr.com/c6916e70cb1dfbfab63c303e365f01bd/6a8907ae89a02b97-bb/s400x600/0fc8c2dd67facb1001246a8651546d0082d28c78.gif",
-            "https://64.media.tumblr.com/f6275aa7b7729d5f67ba5369915cc75b/6a8907ae89a02b97-e0/s400x600/c2eed6c5e26491646ff492552d71d2a63d61431f.gif"]
+            "https://64.media.tumblr.com/f6275aa7b7729d5f67ba5369915cc75b/6a8907ae89a02b97-e0/s400x600/c2eed6c5e26491646ff492552d71d2a63d61431f.gif",
+            "https://64.media.tumblr.com/da5b04c6dff2eec65bafa2eaecd6cecb/21e765e8086d010d-d5/s400x600/0cab48393c00dd47d955898a70979d054af68f78.gif",
+            "https://64.media.tumblr.com/a33bd50069084099d079a2d1dec4082e/21e765e8086d010d-fa/s400x600/b07a7e6dbcfa13ed063b6fb8cf91d28c9307b2d8.gif",
+            "https://64.media.tumblr.com/8a1441f541c35140dcd384fc95403b22/21e765e8086d010d-2a/s400x600/ec4723b044bb96898397ec4a5ba1dd28a14ecfe5.gif"]
 
         self.bot.jennie_gif = ["https://tenor.com/view/blackpink-jennie-kpop-pretty-cute-gif-14797267",
             "https://tenor.com/view/jennie-blackpink-pretty-kpop-pose-gif-15947380",
@@ -432,7 +435,10 @@ class BlackpinkPings(commands.Cog):
             "https://gfycat.com/antiqueblackandwhiteglobefish",
             "https://gfycat.com/warydefenselessamericanwarmblood",
             "https://gfycat.com/demandingdependentbetafish",
-            "https://gfycat.com/arcticscratchyheifer"]
+            "https://gfycat.com/arcticscratchyheifer",
+            "https://64.media.tumblr.com/4913bb51cb17b37ffe1757e59cc25d38/577f56f960e76cc5-e3/s540x810/f2d2646de78365cd7f09fe3902d64ee21b01c2fb.gif",
+            "https://64.media.tumblr.com/c0ce5968ac360e2a764ef1bc0bf01610/577f56f960e76cc5-a5/s540x810/cd1900db76400b04a1109893e2ced012fe019171.gif",
+            "https://64.media.tumblr.com/cb29f0369ecae34d3104b0b0b8756f7f/577f56f960e76cc5-47/s540x810/42a2add3a90387689862bca8ca05e7aad57e54c7.gif"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
