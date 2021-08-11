@@ -1034,7 +1034,7 @@ class weeekly(commands.Cog):
             await ctx.send(random.choice(self.bot.weeekly_soeun_gif))
             await ctx.message.delete()
         elif arg == "jaehee":
-            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :hatching_chick::ringed_planet:')
+            await ctx.send(f'<@!{ctx.author.id}> is talking about Jaehee :sheep::ringed_planet:')
             await ctx.send(random.choice(self.bot.weeekly_jaehee_gif))
             await ctx.message.delete()
         elif arg == "jihan":
