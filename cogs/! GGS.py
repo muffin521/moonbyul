@@ -798,7 +798,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/25763ed823763eeaf814a8b43ed5bb3a/3e16582fc4bfd6e5-f9/s400x600/6bc755752d3063dfd4034789812e1e4d8c1dc47e.gif",
             "https://64.media.tumblr.com/b553eb2ca1a3889c195cefa45e0974f4/3e16582fc4bfd6e5-ba/s400x600/6b1b47153252d1feb42ab3813e9bfdd789e6709e.gif",
             "https://64.media.tumblr.com/dd0da9617ca79a4e87af52dce06110b9/3e16582fc4bfd6e5-f2/s400x600/5b816266a11b24c8da833ecaf90e2d3f13cf104c.gif",
-            "https://64.media.tumblr.com/ced84db6f25736fbde2aa9dc600c4027/3e16582fc4bfd6e5-ee/s400x600/35641bc6108e009c5f481740a02f432b70eb360d.gif"]
+            "https://64.media.tumblr.com/ced84db6f25736fbde2aa9dc600c4027/3e16582fc4bfd6e5-ee/s400x600/35641bc6108e009c5f481740a02f432b70eb360d.gif",
+            "https://64.media.tumblr.com/d3e96090c6f8f154ade1a386d73daf62/0d86e5776374c50f-f6/s400x600/f07dc5dfdf2bcca16aaaf6afca8cfbc17fa37309.gif",
+            "https://64.media.tumblr.com/84a633efbf1534454af8a9efa27d16a9/0d86e5776374c50f-2d/s400x600/c660aa6e45b6ed23cb019b6d7859f98dceb8dcb3.gif",
+            "https://64.media.tumblr.com/0c54464f28f887e0acc946eb8030bd38/0d86e5776374c50f-1f/s400x600/47852ef177c496fe60afc41cfdd2229c220752fb.gif",
+            "https://64.media.tumblr.com/381debee383c8c8e92dd6a5d04687eb4/0d86e5776374c50f-d0/s400x600/3fb579da80ce75cb92ebe6b438cd3feb7ffcb5d0.gif"]
 
         self.bot.fromis_9_nakyung_gif = ["https://gfycat.com/aromaticwillingcricket-mechabear-nakyung-fromis-kpop",
             "https://gfycat.com/acceptablevaguehorsechestnutleafminer-mechabear-nakyung-fromis-kpop",
@@ -958,7 +962,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/9b3d21157a3edf6e70799929d70fd1b7/aa2017e87ceb25d2-b1/s400x600/b336362dbc26728bc40693e9a7069ff4f7dd399e.gif",
             "https://64.media.tumblr.com/c0b4b3da038d3d19d0921da9e0bd1ee9/aa2017e87ceb25d2-b5/s400x600/47ec4da4d9fb1e2cef8ae98d1c7984ab5df43f1b.gif",
             "https://64.media.tumblr.com/09a23fb49d7a3a02d1043ad28e9f7058/aa2017e87ceb25d2-34/s400x600/5cf23f1c3e9a65e84cf499092cc695a952610fa1.gif",
-            "https://64.media.tumblr.com/3749594e193e1f05785807ba9b045ea1/aa2017e87ceb25d2-cb/s400x600/cb0d86c1266c697aaf442917e2cdb6449bbbc66b.gif"]
+            "https://64.media.tumblr.com/3749594e193e1f05785807ba9b045ea1/aa2017e87ceb25d2-cb/s400x600/cb0d86c1266c697aaf442917e2cdb6449bbbc66b.gif",
+            "https://64.media.tumblr.com/9bcc7c140e0cfc817e7d3a67577379dc/cd4ae77fe16825c9-26/s400x600/e56d8ded068e8145b9ed5d17932a88687dc2d031.gif",
+            "https://64.media.tumblr.com/0a0ca5a65df32a166cdc950e7e085d2b/cd4ae77fe16825c9-6a/s400x600/02928c3f8e555fc8bb802f3054c5eec41276377e.gif",
+            "https://64.media.tumblr.com/a887c7d37f29dd0b164ae8616907f09a/cd4ae77fe16825c9-62/s400x600/d3edf2b80f28aedf3da33719b32f064e597a6e2f.gif",
+            "https://64.media.tumblr.com/dbdcf9cdf9b992b1303ba6b33c3ba78c/cd4ae77fe16825c9-95/s400x600/3fdc4ea477edc00296c77b5ad7c88c9b2e72c166.gif"]
 
         self.bot.fromis_9_seoyeon_gif = ["https://gfycat.com/ajarkeencorydorascatfish",
             "https://gfycat.com/absolutemasculinegalapagoshawk-beauty",
@@ -1094,7 +1102,12 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/adbc36732ebe96277d9d75280f377075/2ed80b1e6c18b387-32/s400x600/a9f06cfcfa4c74ad96686c21b9a8c7a964a36949.gif",
             "https://64.media.tumblr.com/d9d76313df4e4443806a1a851c0ea1b8/2ed80b1e6c18b387-8c/s400x600/f0e1ec4185431d5fd948f18284b3f12533663f16.gif",
             "https://64.media.tumblr.com/ee70042d9df42bffa19740a8df702adf/2ed80b1e6c18b387-8b/s400x600/b8513b9257c128b15670c8abee1c5a1783c97558.gif",
-            "https://64.media.tumblr.com/894fccdb8110f58a8f69a681ca5c1973/2ed80b1e6c18b387-f9/s400x600/5dc5f1497aabdc7f851545dec7da067a1a49e652.gif"]
+            "https://64.media.tumblr.com/894fccdb8110f58a8f69a681ca5c1973/2ed80b1e6c18b387-f9/s400x600/5dc5f1497aabdc7f851545dec7da067a1a49e652.gif",
+            "https://64.media.tumblr.com/29872ab4f4552d6587e3d2588ad15f97/4ae2626e604e0ae8-03/s540x810/6b1b05632691ac82e2573a881f3dba2eeee59c5a.gif",
+            "https://64.media.tumblr.com/e28a469f1b2d7bcaaed2ba63d9cc8152/4ae2626e604e0ae8-0c/s540x810/32311ba37e975cc8ddb8f5a02debe8e805958884.gif",
+            "https://64.media.tumblr.com/ba1bcc1056098014adae9c91e1f5e4b3/4ae2626e604e0ae8-66/s540x810/60bc836505c9c24f1cb32992505f6bfe68ec4d9b.gif",
+            "https://64.media.tumblr.com/0e5c603f86e4a2430e4b27dc8cdb5cd5/4ae2626e604e0ae8-a3/s540x810/a139f0eee4d9720565a2b815d71b1cc1f60cdb58.gif",
+            "https://64.media.tumblr.com/cdb95facb775ab9addaacac437fbed88/4ae2626e604e0ae8-74/s540x810/b74370573c731d2b2348bcd252ae716615cd8930.gif"]
 
         self.bot.fromis_9_gyuri_gif = ["https://gfycat.com/ableesteemedangwantibo-beauty",
             "https://gfycat.com/messypartialbarnswallow",
