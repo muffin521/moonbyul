@@ -607,7 +607,6 @@ class NCT(commands.Cog):
             "https://tenor.com/view/lee-taeyong-nct-127-stare-gif-14733836",
             "https://tenor.com/view/taeyong-nct-nct127-taeyong-malfunctioning-taeyong-meme-gif-14896845",
             "https://tenor.com/view/nct127-nct-taeyong-cute-jungwoo-gif-13770501",
-            "https://tenor.com/view/lee-taeyong-kpop-nct-127-gif-19252838",
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-h4m53w0m76xr02JLTc",
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-gK55PS79z1wZHsi2If",
             "https://giphy.com/gifs/nctsmtown-nct-127-highway-to-heaven-l31GcDieIb32DCRUmH",

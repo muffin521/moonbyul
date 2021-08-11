@@ -1042,7 +1042,6 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/bbf2133c80df493240f72b714bbdf35b/a04bd0c925c53687-28/s400x600/7fec11d8d797d7b9bdcf93a2246af448087d283a.gif",
             "https://64.media.tumblr.com/5ec77b8a37270dcfec95d63d3a9ee116/a04bd0c925c53687-ed/s400x600/e02481d5b1c7ae3dab5635440bfdacf327998814.gif",
             "https://64.media.tumblr.com/8a6dd500aba1b1a8a0916c5768a4dd52/a04bd0c925c53687-f6/s400x600/d2dd2a2f664373c1778432a050de0f7910a050dc.gif",
-            "https://64.media.tumblr.com/4fb1cba14722941f2cb50c87756d3b70/a04bd0c925c53687-af/s400x600/d86a280c1646ae6ae9cf2887665cc153f529fec6.gif",
             "https://64.media.tumblr.com/3e7159fb1c2a6b2813358e240fddbacf/a04bd0c925c53687-47/s400x600/cbbfca5f7e4015b178b784c152426990ec91fe01.gif"]
 
         self.bot.rothy_gif = ["https://gfycat.com/actualfreeasianlion-k-culture-korean-music-mv-music-video-k-pop-kpop-myubi-myujigbidio",

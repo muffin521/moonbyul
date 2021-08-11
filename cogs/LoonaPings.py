@@ -449,7 +449,6 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/40ad336b08f95aa5490afeedf10df5c6/tumblr_p92066rl3z1w5jkuno5_r1_500.gif",
             "https://tenor.com/view/loona-kim-lip-lippie-halloween-tree-gif-19177056",
             "https://tenor.com/view/loona-kim-lip-loona-kim-lip-kpop-cone-lip-gif-16808895",
-            "https://gfycat.com/informalyearlyhydra-beauty",
             "https://gfycat.com/ablebothguernseycow",
             "https://gfycat.com/artisticwealthyflyinglemur",
             "https://gfycat.com/boringnextguineafowl",

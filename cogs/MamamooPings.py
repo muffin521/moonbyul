@@ -172,8 +172,6 @@ class MamamooPings(commands.Cog):
             "https://gfycat.com/snivelingappropriatebaiji-gamsungcamping-wakingup-solar",
             "https://gfycat.com/freshtepidanemoneshrimp",
             "https://gfycat.com/bouncycarelesskodiakbear",
-            "https://media.discordapp.net/attachments/167744620724355072/773132112336519168/image0.gif",
-            "https://media.discordapp.net/attachments/167744620724355072/773132319971213353/image0.gif",
             "https://tenor.com/view/mamamoo-solar-deal-with-it-check-smile-gif-5516677",
             "https://tenor.com/view/mamamoo-aya-solar-gif-19089175",
             "https://tenor.com/view/solar-solarsido-mamamoo-eating-gif-14246383",

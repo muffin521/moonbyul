@@ -1001,7 +1001,6 @@ class weeekly(commands.Cog):
             "https://gfycat.com/scalyelementarykissingbug"]
 
         self.bot.weeekly_group_gif = ["https://gfycat.com/AlertUnawareAnnelida",
-            "https://gfycat.com/thirstysleepycrow",
             "https://gfycat.com/ImpressionableHotAiredale",
             "https://gfycat.com/NextVacantHoopoe",
             "https://gfycat.com/FondBogusFruitfly",
