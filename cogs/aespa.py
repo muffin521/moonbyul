@@ -110,7 +110,12 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/d4e98512357c058f322295e50a544c57/cf58289d47d17db4-67/s400x600/e87b6479653dee0695abf29cc8b6f69209a29a6d.gif",
             "https://64.media.tumblr.com/17be401cb5ed670fdf069fdc31260629/cf58289d47d17db4-96/s400x600/945568cc3057fe6fea1a8f4ff93f89da02dd1f81.gif",
             "https://64.media.tumblr.com/83eb01517e340f27888cc8691be20512/cf58289d47d17db4-b2/s400x600/b84cf6cd6986b7ff1a5bfbde20eea01d056320b0.gif",
-            "https://64.media.tumblr.com/554308af3cc4fa89ac424c01516e556d/cf58289d47d17db4-18/s400x600/92c301b43d3f12afa4241ba74feba45424a3a9b9.gif"]
+            "https://64.media.tumblr.com/554308af3cc4fa89ac424c01516e556d/cf58289d47d17db4-18/s400x600/92c301b43d3f12afa4241ba74feba45424a3a9b9.gif",
+            "https://gfycat.com/blacknearelephantbeetle",
+            "https://gfycat.com/wealthydeliciousarawana",
+            "https://gfycat.com/creepyuglyleopardseal",
+            "https://gfycat.com/adoredunconsciouselk",
+            "https://gfycat.com/soggydiscreteeuropeanpolecat"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
@@ -227,7 +232,11 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/673b48cb4e58b17bc1a74161ce2c543a/a3a030d8445318ee-6e/s400x600/ff577ac8d481c920c6ff7084299167b78684a7a7.gif",
             "https://64.media.tumblr.com/bf9e06776cb6f97c2175644047ef79b8/a3a030d8445318ee-49/s400x600/2e0c3d803b1fcded056de9ee7f8efe629dfb06ef.gif",
             "https://64.media.tumblr.com/ba0edf911c0cf38052bb4070bbfe6eda/a3a030d8445318ee-46/s400x600/af5f3d005176ddbff6d3be5232882d0868701c06.gif",
-            "https://64.media.tumblr.com/302edf039880730bc499e76cd22b6116/a3a030d8445318ee-04/s400x600/12067e36adff306377fffe4be8e5a275f9a3d5d2.gif"]
+            "https://64.media.tumblr.com/302edf039880730bc499e76cd22b6116/a3a030d8445318ee-04/s400x600/12067e36adff306377fffe4be8e5a275f9a3d5d2.gif",
+            "https://64.media.tumblr.com/4cc03861cf87892eb1b99db6d443800d/1bbe424792900e17-40/s400x600/5e1ff3296a3e0f1527cfe32e4184c2c969f53c36.gif",
+            "https://64.media.tumblr.com/1a9f1a7966f4ab2abae81dad5c135d3f/1bbe424792900e17-c9/s400x600/bbc24d0b1b6999d635528fd6642cce50bea881af.gif",
+            "https://64.media.tumblr.com/4ecc43701255449acbf35c726e068f58/1bbe424792900e17-e6/s400x600/d0f7ed24381236c4da7342dd26632c69cee81a1e.gif",
+            "https://64.media.tumblr.com/7ef053748dbd76f31096730fdec93d37/1bbe424792900e17-9b/s400x600/a38c036aaed87fd883b8af7ed0bbe6964c22e978.gif"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
