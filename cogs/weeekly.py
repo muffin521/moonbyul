@@ -834,7 +834,9 @@ class weeekly(commands.Cog):
             "https://gfycat.com/blinddevotedallensbigearedbat",
             "https://gfycat.com/openslimindianrockpython",
             "https://gfycat.com/famouscheerfulcrab",
-            "https://gfycat.com/anguishedcorrupticelandicsheepdog"]
+            "https://gfycat.com/anguishedcorrupticelandicsheepdog",
+            "https://gfycat.com/cleanhauntingbullmastiff",
+            "https://gfycat.com/sarcasticembellishedcrow"]
 
         self.bot.weeekly_zoa_gif = ["https://cdn.discordapp.com/attachments/790062825796141077/790075277409255512/ZOA1.gif",
             "https://cdn.discordapp.com/attachments/790062825796141077/790075317947203634/ZOA2.gif",
