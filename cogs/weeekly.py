@@ -405,7 +405,11 @@ class weeekly(commands.Cog):
             "https://gfycat.com/faketastyacouchi",
             "https://gfycat.com/dimwittedpassionatebordercollie",
             "https://gfycat.com/lonearomaticgreyhounddog",
-            "https://gfycat.com/pertinentkeyenglishpointer"]
+            "https://gfycat.com/pertinentkeyenglishpointer",
+            "https://64.media.tumblr.com/75877d313e7de3fe3e1bf36a3862e5bb/44aa866141107fbb-ad/s400x600/8e5a7b694a26dd8aacbcb79e47c4a0f5bfbdd209.gif",
+            "https://64.media.tumblr.com/4d19f64e45140f97d8ae7af783981103/44aa866141107fbb-d2/s400x600/1349586aa96e093cf57b2aa9f2c9bef43ba94638.gif",
+            "https://64.media.tumblr.com/f66342d7b927f9503d339544f602f4ad/44aa866141107fbb-e1/s400x600/f3572adbb7fe25279954a7f90637eb69081dba36.gif",
+            "https://64.media.tumblr.com/b0b0dd6ae480add222a48309e926584b/44aa866141107fbb-8f/s400x600/c6bf0464b3f341d46343f36c33f034072ac30f02.gif "]
 
         self.bot.weeekly_soeun_gif = ["https://tenor.com/view/weeekly-soeun-weeekly-soeun-gif-18130042",
             "https://tenor.com/view/weeekly-weeekly-jiyoon-weeekly-soeun-soeun-jiyoon-gif-18216326",
@@ -541,7 +545,11 @@ class weeekly(commands.Cog):
             "https://gfycat.com/wetwickedgentoopenguin",
             "https://gfycat.com/rarehardtofindesok",
             "https://gfycat.com/embarrassedmajorhydra",
-            "https://gfycat.com/threadbarecelebratedfinnishspitz"]
+            "https://gfycat.com/threadbarecelebratedfinnishspitz",
+            "https://64.media.tumblr.com/089a28b3dc07e54ced8217082b3ee19e/54f6ad46ddd2229a-41/s540x810/21f1c49acf8191190d4b992de169fdcb2ccda041.gif",
+            "https://64.media.tumblr.com/f46f344588bc4365676c9b6acf5552f4/54f6ad46ddd2229a-32/s540x810/3c369429178cd89b773eacde138ecd2b8f958035.gif",
+            "https://64.media.tumblr.com/b88b6e51c202297858c3375bb85a5981/54f6ad46ddd2229a-33/s540x810/99edccbca7b380f552d88f781ef776a44c71dcec.gif",
+            "https://64.media.tumblr.com/5e05abaa5b8de0cda226adc093de5fe6/54f6ad46ddd2229a-03/s540x810/78871ed281d2df750985ea216240b5315229d87f.gif"]
 
         self.bot.weeekly_jaehee_gif = ["https://cdn.discordapp.com/attachments/790062758556336128/790075085779894273/JAEHEE1.gif",
             "https://tenor.com/view/weeekly-jaehee-weeekly-jaehee-jaehee-sad-weeekly-jaehee-sad-gif-18217735",

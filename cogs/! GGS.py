@@ -1212,6 +1212,14 @@ class GGS(commands.Cog):
             "https://tenor.com/view/fx-jung-soojung-kpop-krystal-krystal-jung-gif-16701717",
             "https://tenor.com/view/rum-pum-pum-pum-pink-tape-rppp-fx-krystal-gif-17115324",
             "https://tenor.com/view/krystal-jung-jung-soojung-fx-krystal-tip-hat-gif-14392249"]
+    #. Gugudan
+        self.bot.gugudan_sally_gifs = ["https://tenor.com/view/liu-xiening-xiening-sally-gugudan-ytsn-gif-19524611",
+            "https://tenor.com/view/sally-liuxiening-xiening-ytsn-bonbongirls-gif-23649109",
+            "https://hyejoo.sfo2.digitaloceanspaces.com/cards/girlgroups/bonbongirls/5_legendary_xiening.gif",
+            "https://tenor.com/view/xiening-liuxiening-ytsn-sally-gif-19370251",
+            "https://tenor.com/view/liu-xiening-xiening-sally-gugudan-chuang-gif-19524541",
+            "https://tenor.com/view/dance-liu-xiening-xiening-sally-gugudan-gif-19524555",
+            "https://tenor.com/view/hair-gugudan-ytsn-bonbon-girls-liu-xiening-gif-19524628"]
     #. GWSN
         self.bot.gwsn_seokyoung_gif =["https://64.media.tumblr.com/5246e9dccad0b78849c4473f7c75e252/tumblr_pvopsc897r1x37j87o3_540.gif",
             "https://64.media.tumblr.com/1cc0a38203c78dc626d9bb80e8904d3b/tumblr_pvdvr8Y3bo1x15lmpo4_400.gif",
@@ -5012,6 +5020,17 @@ class GGS(commands.Cog):
         elif arg == "miya":
             await ctx.send(f'<@{ctx.author.id}> is talking about Miya :heart:') 
             await ctx.send(random.choice(self.bot.gwsn_miya_gif))
+            await ctx.message.delete()
+
+    @commands.command()
+    async def gugudan(self, ctx, *, arg):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Gugudan {arg}] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        if arg == "sally":
+            await ctx.send(f'<@{ctx.author.id}> is talking about Sally :lemon:') 
+            await ctx.send(random.choice(self.bot.gugudan_sally_gifs))
             await ctx.message.delete()
 
     @commands.command()
