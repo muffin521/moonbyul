@@ -420,7 +420,11 @@ class RedVelvetPings(commands.Cog):
             "https://64.media.tumblr.com/a0fc431f3f8f32f5367aae255a1957d6/5d565502e5d8ec02-07/s400x600/0a13e0c3bda4436f9e3c33ff970af45786a0b992.gif",
             "https://64.media.tumblr.com/0ee5856c89bdf7b996acd8c886b58161/5d565502e5d8ec02-32/s400x600/26da17d52b0c35273ad0a5e9f533b463980e79d0.gif",
             "https://64.media.tumblr.com/e34303c58b8cfdeabb5ba73a473216b6/5d565502e5d8ec02-81/s400x600/996d2747a37099f6bd9278204ae439cef5169d08.gif",
-            "https://64.media.tumblr.com/d50b850a04c37567b1150159f3ff9177/5d565502e5d8ec02-61/s400x600/4fc3e550dfb915460042f590652c29284c8d25fd.gif"]
+            "https://64.media.tumblr.com/d50b850a04c37567b1150159f3ff9177/5d565502e5d8ec02-61/s400x600/4fc3e550dfb915460042f590652c29284c8d25fd.gif",
+            "https://64.media.tumblr.com/a37069df84de8826eddbcccd0bbd0917/e662155599b1ec8e-22/s400x600/dba36e44d32f0cd2421eeb2af847e3ca879fc5b5.gif",
+            "https://64.media.tumblr.com/71369619799df2f161e3063eb5c08f29/e662155599b1ec8e-56/s400x600/fbf2140e4461a399a4e3d78cc11f794bb7308ac2.gif",
+            "https://64.media.tumblr.com/74d810083ff6cd4d7968db063ecc7a0f/e662155599b1ec8e-d2/s400x600/841f0860a547d1ae1da8b505ad17f67a272ff6d8.gif",
+            "https://64.media.tumblr.com/dd5eada4683bfdb3a621f443cdf4498e/e662155599b1ec8e-6a/s400x600/d2f45578b7c25f2628054b1a88d6c17f98c604b9.gif "]
 
         self.bot.wendy_gif = ["https://tenor.com/view/ryoo-seungwan-wendy-red-velvet-kpop-redhair-gif-5230074",
             "https://tenor.com/view/red-velvet-dance-dumb-dumb-joy-irene-gif-14365084",
@@ -1472,7 +1476,11 @@ class RedVelvetPings(commands.Cog):
             "https://gfycat.com/creativeincomparableakitainu",
             "https://gfycat.com/shadycontentfairyfly",
             "https://gfycat.com/babyishglamorouskakarikis",
-            "https://gfycat.com/granularsimilarindri"]
+            "https://gfycat.com/granularsimilarindri",
+            "https://64.media.tumblr.com/efbf51d03cac25abac153daaa2a14455/8e49040c10969fa1-c9/s400x600/c832a07234d637f1a201b30957425a17e734be45.gif",
+            "https://64.media.tumblr.com/552bdcb16c36780965cc615a72d533a7/8e49040c10969fa1-82/s400x600/6b604ea067c4635b8353528c6187ef09bbb5345f.gif",
+            "https://64.media.tumblr.com/a1ac22f41f47f5ecf43ed5d789ca1d61/8e49040c10969fa1-a9/s400x600/5f80d7d608428c892d0cba8c138f5b635b54c57e.gif",
+            "https://64.media.tumblr.com/d1a6dc15830b7a85926151388959dcbd/8e49040c10969fa1-9a/s400x600/3ae6e7dda2871992dce6f4ff57b2c776dfc20edb.gif"]
 
         self.bot.joy_gif = ["https://tenor.com/view/joy-joy-red-velvet-red-velvet-joy-red-velvet-%EC%A1%B0%EC%9D%B4-gif-19140467",
             "https://tenor.com/view/joy-joy-red-velvet-red-velvet-joy-red-velvet-%EB%B0%95%EC%88%98%EC%98%81-gif-19140470",
