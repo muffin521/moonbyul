@@ -28,7 +28,7 @@ class hcommands(commands.Cog):
             self.groupName += x + "\n"
 
         self.unstored_soloist_list = ["Natty", "AleXa", "BIBI", "Chung ha", "IU", "Somi", "Yukika", 
-            "WOODZ", "BoA", "Wonho", "Kris Wu", "Luhan", "Tao", "Kang Daniel", "Sunmi", "Yubin", "Rothy", "Hyuna", "DPR Ian"]
+            "WOODZ", "BoA", "Wonho", "Kris Wu", "Luhan", "Tao", "Kang Daniel", "Sunmi", "Yubin", "Rothy", "Hyuna", "DPR Ian", "Dean"]
 
         self.soloist_list = sorted(self.unstored_soloist_list, key=str.lower)
         self.soloistName = "\n"

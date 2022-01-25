@@ -376,6 +376,26 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/0eebda22e1763c2d649c772125796bed/adfa9bfe3e336125-6f/s400x600/bb0d9c4d86d593892867ce8d47ee5c9210df6f5e.gif",
             "https://64.media.tumblr.com/bd03b116ac4728d21cde8b84cac0de4c/adfa9bfe3e336125-e2/s400x600/2dd6105c597872f7f2310693a734b91b9ba8c066.gif"]
 
+        self.bot.dean_gif = ["https://cdn.discordapp.com/attachments/875188426117353554/876718554882396190/Dean_gif_1.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718556056809522/Dean_gif_2.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718559957508116/Dean_gif_3.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718564281831464/Dean_gif_4.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718564852240414/Dean_gif_5.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718567100395601/Dean_gif_6.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718571097571368/Dean_gif_7.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718573328941086/Dean_gif_8.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718579314204692/Dean_gif_9.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718579909799946/Dean_gif_10.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718598448644156/Dean_gif_12.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718602198335488/Dean_gif_13.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718607567052810/Dean_gif_11.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718611199316008/Dean_gif_14.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718616169578526/Dean_gif_15.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718617520123915/Dean_gif_16.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718620573589605/Dean_gif_17.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718624583323708/Dean_gif_18.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718626013605909/Dean_gif_19.gif"]
+
         self.bot.heize_gif = ["https://cdn.discordapp.com/attachments/849010183341342790/849022291055738881/Heize_gif_2.gif",
             "https://cdn.discordapp.com/attachments/849010183341342790/849022296420515881/Heize_gif_5.gif",
             "https://cdn.discordapp.com/attachments/849010183341342790/849022299885535272/Heize_gif_4.gif",
@@ -1291,6 +1311,17 @@ class SoloPings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
             await ctx.send(random.choice(self.bot.chungha_gif))
             await ctx.message.delete()
+
+    @commands.command()
+    async def dean(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Dean] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Dean :heart:')
+        await ctx.send(random.choice(self.bot.dean_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def heize(self, ctx):
