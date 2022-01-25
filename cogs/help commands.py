@@ -19,7 +19,7 @@ class hcommands(commands.Cog):
             "Oh My Girl", "Dreamcatcher", "VAV", "Cherry Bullet", "EXID", "SF9", "fromis_9", "EXO",
             "Soloists", "Everglow", "(G)I-dle", "Apink", "Shinee", "Golden Child",
             "Seventeen", "Momoland", "I.O.I", "K.A.R.D.", #// end of groups in old help command
-            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch", "STAYC", "Astro", "Gugudan"]
+            "Hello Venus", "woo!ah!", "TVXQ!", "Rocket Punch", "STAYC", "Astro", "Gugudan", "Monsta X"]
 
         self.groups_list = sorted(self.unsorted_groups_list, key=str.lower)
         self.groups_list.append("Misc")
@@ -107,6 +107,8 @@ class hcommands(commands.Cog):
             embed1.add_field(name='Lovelyz Commands', value=f'''```\nLovelyz Baby Soul\nLovelyz Yein\nLovelyz Kei\nLovelyz Jisoo\nLovelyz Mijoo\nLovelyz Jiae\nLovelyz Jin\nLovelyz Sujeong```''')
         elif arg == "momoland": #. no group command
             embed1.add_field(name='Momoland Commands', value=f'```\nMomoland Hyebin\nMomoland Jane\nMomoland Nayun\nMomoland JooE\nMomoland Ahin\nMomoland Nancy```')
+        elif arg == "monsta x" or arg == "mx": #. no group command
+            embed1.add_field(name='Monsta X Commands', value=f'```\nMonsta X Shownu\nMonsta X Minhyuk\nMonsta X Kihyun\nMonsta X Hyungwon\nMonsta X Joohoney\nMonsta X I.M.```')
         elif arg == "nct" or arg == "wayv": #// more or less has three group commands
             embed1.add_field(name='NCT Commands', value=f'''```\nNCT 127\nNCT Dream\nWayV\nNCT Lucas\nNCT Mark\nNCT Winwin\nNCT Jaemin\nNCT Jaehyun\nNCT Taeyong\nNCT Doyoung\nNCT Taeil\nNCT Chenle\nNCT Jungwoo\nNCT Renjun\nNCT Kun\nNCT Ten\nNCT Xiaojun\nNCT Haechan\nNCT Johnny\nNCT Sungchan\nNCT Shotaro\nNCT Hendery\nNCT Yangyang\nNCT Yuta\nNCT Jeno\nNCT Jisung```''')        
         elif arg == "oh my girl": #. no group command
