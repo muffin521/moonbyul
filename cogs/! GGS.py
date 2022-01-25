@@ -569,7 +569,11 @@ class GGS(commands.Cog):
             "https://tenor.com/view/yoohyeon-dreamcatcher-gif-20845795",
             "https://tenor.com/view/yoo-hyeon-dream-catcher-gif-8860008",
             "https://tenor.com/view/yoohyeon-kimyoohyeon-dreamcatcher-heart-gif-19860403",
-            "https://tenor.com/view/ending-fairy-kpop-yoohyeon-yoohyun-gif-18340541"]
+            "https://tenor.com/view/ending-fairy-kpop-yoohyeon-yoohyun-gif-18340541",
+            "https://64.media.tumblr.com/032e3a7809830e9227bafb8adf84ed87/bf11e126e50c56c2-b0/s400x600/e02d1151ceb6bff96c9926fc481602b7f0a61713.gif",
+            "https://64.media.tumblr.com/ec0d5db299cf2c5aa18ca78c8c175694/bf11e126e50c56c2-e3/s400x600/1e14a7ab701393f778ff12efac112b3d69a65364.gif",
+            "https://64.media.tumblr.com/929e2ff8eb7ad54e82247cc72e527b86/bf11e126e50c56c2-96/s400x600/05c78cf2300ddd406a6e448e2ce422601905de25.gif",
+            "https://64.media.tumblr.com/7264953748d391847f908b3e0dcd1308/bf11e126e50c56c2-b7/s400x600/80899eb14fd6cec3c58d1519880204441eefec15.gif"]
     #. fromis_9
         self.bot.fromis_9_jisun_gif = ["https://gfycat.com/acrobaticadoredleafhopper-mechabear-fromis-kpop",
             "https://gfycat.com/arididolizeddugong-fromis-pretty-beauty-kpop-cute",
