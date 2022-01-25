@@ -2954,7 +2954,17 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/074fddafd3e7787b57bfd706a56648df/1a58ecaec56a4c8a-61/s400x600/48ea36dafb46a3d732522f6dd58952fbdd8c6e93.gif",
             "https://64.media.tumblr.com/6fc5c7b5971669d228c0f40db486ce8c/1a58ecaec56a4c8a-10/s400x600/ccca042b038221640b0b6c9309954365ddb9e94d.gif",
             "https://64.media.tumblr.com/d8ee85940fcf870fbdc4f49efb6116b2/1a58ecaec56a4c8a-f6/s400x600/fb3e3b696c53ba4eb7bad79d2bf00d09f6c6d741.gif",
-            "https://64.media.tumblr.com/de8535e6e15ffaeb42e1c0d0b6d04921/1a58ecaec56a4c8a-39/s400x600/0d423a203caf231c2cd9cf93c2fa0d475df17cd4.gif"]
+            "https://64.media.tumblr.com/de8535e6e15ffaeb42e1c0d0b6d04921/1a58ecaec56a4c8a-39/s400x600/0d423a203caf231c2cd9cf93c2fa0d475df17cd4.gif",
+            "https://64.media.tumblr.com/bafc6fd6dc0403656fc1c92ff28128fe/ff4a319b7550a203-c2/s400x600/8049338f1b8d51a6e2d6ec8a71e8987b71368461.gif",
+            "https://64.media.tumblr.com/b676e719b80a94bf350a19f57a802b29/ff4a319b7550a203-e7/s400x600/fbae54fa59dcae12d010bf409bbd08aa5b5e4f41.gif",
+            "https://64.media.tumblr.com/bef652f4c06d3ceaf15c3ad1a22ea7a2/cda6db6d2e022065-a3/s400x600/1ced0fa165e8632a4a0d624cdc6354ce0ace507d.gif",
+            "https://64.media.tumblr.com/81068af7bbaef30c0d0483572708e96b/cda6db6d2e022065-e5/s400x600/f297d204f40584d3994c11223d289d9be28f161c.gif",
+            "https://64.media.tumblr.com/08188629fb701b36ab7294e6d929567d/cda6db6d2e022065-10/s400x600/1afdd1eef9917075c8575a5f512523628bfdd058.gif",
+            "https://64.media.tumblr.com/8bac68ae78c19c89caa7cb6e914e35e5/cda6db6d2e022065-f1/s400x600/f9b960fe1b8cf49081df5a9b61714bcef7fa2239.gif",
+            "https://64.media.tumblr.com/04cf4ba620e90e6d86801dd6f7b77fdc/97944a369c82d2d0-f1/s400x600/65be2110f88bdcb9377bd76cabef3ae188d28780.gif",
+            "https://64.media.tumblr.com/c0514db14d7715af36c2375f94b5bded/97944a369c82d2d0-df/s400x600/bab46c11e1ac29351c0bbb7c991e53b965bc0416.gif",
+            "https://64.media.tumblr.com/3a33925aa9db7b568f8e73b18941f837/97944a369c82d2d0-cc/s400x600/fa0c03948d8bb2c52bc7bcf52e3a98659c6d0b64.gif",
+            "https://64.media.tumblr.com/16eeb021f3f9e659a6e1d56ce1097a88/97944a369c82d2d0-c5/s400x600/3b23cb612856a6e352e055f4fe73053ca42258f1.gif"]
 
         self.bot.stayc_j_gif = ["https://tenor.com/by50S.gif",
             "https://tenor.com/bsrWg.gif",
@@ -3094,7 +3104,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/305a4f0de9315e8e6f674307252ab562/937b8639cb32f3a6-0f/s400x600/cf8765831d99c1249b756b462a47f732438b5ff9.gif",
             "https://64.media.tumblr.com/de8811ad9cce7de7cd46785d4f29249b/937b8639cb32f3a6-de/s400x600/6902ac544dfa82f5261264247db589b56a4c78e2.gif",
             "https://64.media.tumblr.com/97fb2289c27f9a43b6ffd0505cbeff59/937b8639cb32f3a6-84/s400x600/76948e06d9a3d289d8ca4b7c7829421bf4ba93f2.gif",
-            "https://64.media.tumblr.com/9ea1e8d39b31509e42b08ec294fffa3a/937b8639cb32f3a6-67/s400x600/83a07493d65bee2a1ae612bbc19f695689598493.gif"]
+            "https://64.media.tumblr.com/9ea1e8d39b31509e42b08ec294fffa3a/937b8639cb32f3a6-67/s400x600/83a07493d65bee2a1ae612bbc19f695689598493.gif",
+            "https://64.media.tumblr.com/2be634ba8094978b2118e37bb5e99e27/35cdb4167f1890d6-51/s540x810/4cb9c3c0ca9431082f81205eedaf46dbbbeb44c7.gif",
+            "https://64.media.tumblr.com/e240bd5b15a4ca654b25c3d120886af8/35cdb4167f1890d6-24/s540x810/69bcf9c49a04793c74bc1a6a45ca342a7783561f.gif",
+            "https://64.media.tumblr.com/8fb1809e6a7e59351fb49454c791818f/35cdb4167f1890d6-b9/s540x810/fac88c6c0e4947342d510d3ed73e87e26c1d2668.gif",
+            "https://64.media.tumblr.com/eeccd64df26c03bd78aec852a5111eb2/35cdb4167f1890d6-8f/s540x810/dd6784fbf4a0e620fcd351c52258a5113f39db13.gif"]
 
         self.bot.stayc_group_gif = ["https://64.media.tumblr.com/791d7443e25a80fec04a9bcdeca2c7d/05bb354891ea9d5f-0b/s540x810/b7bc2b1f8bdbe960a6f810ad090c3c2c613ae933.gif",
             "https://64.media.tumblr.com/82372beea28792be00bfcccea61cebce/05bb354891ea9d5f-c7/s540x810/81974c827994234b3f7b6f96ec5a9a9a1ecd2fb7.gif",
