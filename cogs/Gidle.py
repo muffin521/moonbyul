@@ -73,7 +73,11 @@ class IdlePings(commands.Cog):
             "https://64.media.tumblr.com/826bd9913aa4d6d0bc49a0bce4e26fc7/eab7e46758c6afbc-16/s400x600/1138ae567ffd830dc57b647c096ceed4a6cc2f48.gif",
             "https://64.media.tumblr.com/f73dba4a3c253d47a81db7493af7e82c/eab7e46758c6afbc-2d/s400x600/86013d919ac2f83c097a6d7f373feb4b016eec39.gif",
             "https://64.media.tumblr.com/ebedb700cf158d3f8185dc82de0b7c9e/eab7e46758c6afbc-50/s400x600/abb55206ad7ceb97614d1580e096680c201fff81.gif",
-            "https://64.media.tumblr.com/34de41912d4dea0dd09cb8f451e41560/eab7e46758c6afbc-84/s400x600/1f86224b60a9bf5f58a8b863da42c3db39d6c5ac.gif"]
+            "https://64.media.tumblr.com/34de41912d4dea0dd09cb8f451e41560/eab7e46758c6afbc-84/s400x600/1f86224b60a9bf5f58a8b863da42c3db39d6c5ac.gif",
+            "https://64.media.tumblr.com/455460f8c7a47cd5a3936bf1220bc358/227637a2f7fd0c25-1e/s400x600/b06cf7cb107a6fc5fdbfe6c9564d2f11262bfcca.gif",
+            "https://64.media.tumblr.com/01dc28d916085bd201eb4a0a4f887746/227637a2f7fd0c25-90/s400x600/90fe757c8e34f9ab56667ee7c463533ffce8d67f.gif",
+            "https://64.media.tumblr.com/ca671cbedc750cf1413853ed9fe2e1da/227637a2f7fd0c25-69/s400x600/0c8f900d5e3a109399991df515ffb9015c93d065.gif",
+            "https://64.media.tumblr.com/eed1a7ef993a4728fb6ce40c8683fdf7/227637a2f7fd0c25-fb/s400x600/3b984f38ce3c2a2976c7506891c314d55c4aaefb.gif"]
 
         self.bot.miyeon_gif = ["https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962243",
             "https://tenor.com/view/miyeon-cho-miyeon-jo-miyeon-gidle-idle-gif-18962348",
