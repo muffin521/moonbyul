@@ -147,7 +147,14 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/shycoolalaskankleekai",
             "https://gfycat.com/lawfulgentleamurminnow",
             "https://gfycat.com/elatedresponsiblebullfrog",
-            "https://gfycat.com/alienateddirectanophelesmosquito"]
+            "https://gfycat.com/alienateddirectanophelesmosquito",
+            "https://64.media.tumblr.com/da966db8719cc5f7d1da72914837fb29/59d131cc758fbd9a-fd/s540x810/808c62da3d60ee98ead806bff1e5c66705c1c2ac.gif",
+            "https://64.media.tumblr.com/2974999c23e18cbd38fd1e36f0331fc6/da09f514a733b364-41/s540x810/5c5cf19896d4b7c832c07b0b163dbd7fc82a235d.gif",
+            "https://64.media.tumblr.com/adbf188a3272afe6c77c57bc20ce3c7e/da09f514a733b364-01/s540x810/4604455efabed32eac648ca4dd456b915f1155d9.gif",
+            "https://64.media.tumblr.com/49ea4cf9ea61f6e77d5923563414cdae/5555ddfbe2fe0d45-f0/s400x600/2dae16cb68f832bc1cf11a80ad8c28193e6ed04e.gif",
+            "https://64.media.tumblr.com/e8ee7d00bfc1352dfa8509346ee5295a/5555ddfbe2fe0d45-16/s400x600/980fc2de57b085f23df7d36ad98a829ec9e7f28e.gif",
+            "https://gfycat.com/highlevelcomplicatedbarnowl",
+            "https://gfycat.com/exhaustedclosechafer "]
 
         self.bot.itzy_ryujin_gif = ["https://tenor.com/view/ryujin-%EB%A5%98%EC%A7%84-itzy-shinryujin-gif-14922418",
             "https://tenor.com/view/ryujin-dance-moves-shake-it-pretty-gif-16723839",
@@ -351,7 +358,15 @@ class ItzyPings(commands.Cog):
             "https://64.media.tumblr.com/73e59606058f79b8f1e5327cd3399141/6db4b28429ddd618-61/s400x600/d0968da9b471c26e998fccdd0914885be337b773.gif",
             "https://64.media.tumblr.com/aa96e2158a57899a0e40da28bf3b1940/6db4b28429ddd618-e9/s400x600/1e0ec4352019ea0b36ea9edbde01b2bdb1e9e803.gif",
             "https://64.media.tumblr.com/b996d7a538a563cdc1a3587b0e356586/6db4b28429ddd618-bb/s400x600/ef11e65e0bde61e0db020af9ba83348c2632e308.gif",
-            "https://64.media.tumblr.com/1dc23503a34c1886f3c7bd8db6ea16a8/6db4b28429ddd618-e2/s400x600/92c73b93144943e50706ca4e5c7712e722b8e263.gif"]
+            "https://64.media.tumblr.com/1dc23503a34c1886f3c7bd8db6ea16a8/6db4b28429ddd618-e2/s400x600/92c73b93144943e50706ca4e5c7712e722b8e263.gif",
+            "https://64.media.tumblr.com/c62d4bd124cc7a750d95757a62fd3a12/59d131cc758fbd9a-52/s540x810/29ac5d5433727428ea0e2864ebdb952da20a2360.gif",
+            "https://64.media.tumblr.com/df47d23d6e9eff3411214e6f733b9836/39c877ae627b4621-52/s400x600/16f1cff33805e1290bc548723107043f0dc1d99a.gif",
+            "https://64.media.tumblr.com/bfa2c17464e3ab99038871050b6e8e64/39c877ae627b4621-33/s400x600/eb8f6998a9668ec84c8f635992a123c8bc0594e3.gif",
+            "https://64.media.tumblr.com/a1cded002fead766e0f61dad3f2e31b0/39c877ae627b4621-64/s400x600/ee13162d3971f6e8e6fe54184ae621c325690b9a.gif",
+            "https://64.media.tumblr.com/fd4b7b82b99eecffee4048697b758a9d/39c877ae627b4621-ad/s400x600/a8867d4b4c5f0bbfd4182aef33516cccb47048a8.gif",
+            "https://gfycat.com/selfreliantblaringhapuku",
+            "https://gfycat.com/esteemedgreatcow",
+            "https://gfycat.com/lastdefensiveflycatcher"]
 
         self.bot.itzy_chaeryeong_gif = ["https://tenor.com/view/itzy-chaeryeong-chaer-kpop-wannabe-gif-16689232",
             "https://tenor.com/view/chaeryeong-chaeryeong-itzy-lee-chaeryeong-gif-18568144",
@@ -507,7 +522,23 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/widemiserableeeve",
             "https://gfycat.com/courageousmellowiberianchiffchaff",
             "https://gfycat.com/bouncycomposedbushsqueaker",
-            "https://gfycat.com/shortlimitedankolewatusi"]
+            "https://gfycat.com/shortlimitedankolewatusi",
+            "https://64.media.tumblr.com/a663169f8eb991355436620579073edf/d2361ab15588750f-76/s540x810/f2a9bf2a6abf4bfe3f1de990acc90d6f781ffc80.gif",
+            "https://64.media.tumblr.com/4e7ec86db5cf2bda8ab7ef7b540483e4/d2361ab15588750f-e2/s540x810/9acc1f6ec0cc1b15a8d824d82ad4b366d769ba85.gif",
+            "https://64.media.tumblr.com/778412f4d483ec6017cf634226974c2d/d2361ab15588750f-2f/s540x810/6fba2603f821e77b41029142cba1d2d997d5c710.gif",
+            "https://64.media.tumblr.com/3f603278b45a756e8fbd48515bf1991f/59d131cc758fbd9a-9f/s540x810/624e1c52ebff6db0190069bf3a2ab5016bfdfe2b.gif",
+            "https://64.media.tumblr.com/d0adddf86f86c6ccec2b78ac17fe2eb7/fa358087f00fe2bf-b1/s400x600/d8c264dffd2b10dc52faee4764a909387d3d562e.gif",
+            "https://64.media.tumblr.com/b391e524bcc144673630264343590726/fa358087f00fe2bf-e6/s400x600/ffdd338d3e436b88794b0d6ca68cf769a2b06fa3.gif",
+            "https://64.media.tumblr.com/f2c6dd3692e10965085d638824df6023/fa358087f00fe2bf-aa/s400x600/65bce9f8e25d45e4f03f761c83a9c480a34fabbe.gif",
+            "https://64.media.tumblr.com/d1b1d26f3acb82cb637a4043e5996a8a/fa358087f00fe2bf-1a/s400x600/ccf9a29c3a33cecc67f806ff734f75e0d81a0238.gif",
+            "https://gfycat.com/newredamericanmarten",
+            "https://gfycat.com/euphorictidyblacklemur",
+            "https://gfycat.com/cautiousbonygalapagospenguin",
+            "https://gfycat.com/dampshadowyanemoneshrimp",
+            "https://gfycat.com/parallelinconsequentialhuia",
+            "https://gfycat.com/shadyopenbovine",
+            "https://gfycat.com/wickedscrawnycottontail",
+            "https://gfycat.com/massivepaleblobfish"]
 
         self.bot.itzy_yuna_gif = ["https://tenor.com/view/yuna-yuna-itzy-itzy-yuna-shin-yuna-itzy-gif-13910454",
             "https://tenor.com/view/yuna-yuna-itzy-shin-yuna-gif-18719264",
@@ -903,7 +934,11 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/affectionateplaintivecurassow",
             "https://gfycat.com/nippyartisticasiaticmouflon",
             "https://gfycat.com/solidlegitimatecheetah",
-            "https://gfycat.com/quarterlyincompletecurassow"]
+            "https://gfycat.com/quarterlyincompletecurassow",
+            "https://64.media.tumblr.com/d2cbaffd8098112e0d1d3bc1d3a54e97/59d131cc758fbd9a-57/s540x810/5210bc265c73bc9aaf61498fd93825f5474cc86c.gif",
+            "https://64.media.tumblr.com/6a30202fd8de29b0ff3831518353a4e0/b6031cd7d68c8133-c3/s400x600/0251fa1ae3d6a71474981143963bd7fd719d2c27.gif",
+            "https://64.media.tumblr.com/802b05cf3935963a1811783135194fd4/b6031cd7d68c8133-6a/s400x600/d9616fc09de796673f6222ec35cee367fb9b8fc9.gif",
+            "https://64.media.tumblr.com/2133de64decfa5ae55c80f35e55d7f13/b6031cd7d68c8133-5b/s400x600/6e07055fb0a7b146e682249256b61e6e8491697a.gif"]
 
         self.bot.itzy_lia_gif = ["https://tenor.com/view/kpop-lia-strawberry-itzy-cute-gif-16770693",
             "https://tenor.com/view/lia-liaitzy-itzylia-itzy-gif-18066742",
@@ -1064,7 +1099,8 @@ class ItzyPings(commands.Cog):
             "https://gfycat.com/kindbruisedgavial",
             "https://gfycat.com/consciouswhimsicalemu",
             "https://gfycat.com/questionableblondkingfisher",
-            "https://gfycat.com/wickedwindyhomalocephale"]
+            "https://gfycat.com/wickedwindyhomalocephale",
+            "https://64.media.tumblr.com/0b4ff8512f9a3e632421d0aed678281f/59d131cc758fbd9a-79/s540x810/78888cd23d6206f08f9bb106fea45d7e12680822.gif"]
 
         self.bot.itzy_ot5_gif = ["https://media2.giphy.com/media/IfselfvWlziwp1aGMd/giphy.gif",
             "https://i1.wp.com/66.media.tumblr.com/06cbfd880d5dbe6ae764d773fbc8f13c/tumblr_pvcyq6QO9q1y2nngmo2_540.gif?w=817&ssl=1",
@@ -1128,7 +1164,10 @@ class ItzyPings(commands.Cog):
             "https://64.media.tumblr.com/586bf45b373756083f09b308e9d49860/8f26ba05a426ee95-6b/s540x810/00680e52d2dd29a04d62b6cd440785444a6f6d3e.gif",
             "https://64.media.tumblr.com/2aa7f26caafa02df3115173f1f44868b/e58c05da60ba6bf7-86/s540x810/46cd2e8e0c5f0114e0d7e38edf2a7728b63c67d5.gif",
             "https://64.media.tumblr.com/8063b619071cef8c2fc5ef0942129b28/e58c05da60ba6bf7-27/s540x810/d64764ed7e64a5a58b405873887b55fe949bfe5e.gif",
-            "https://64.media.tumblr.com/23da118e90e6e52d2b8ae792113c88a0/e58c05da60ba6bf7-a2/s540x810/607da1e37d8086f8a47a71636e9e9f16e3f05912.gif"]
+            "https://64.media.tumblr.com/23da118e90e6e52d2b8ae792113c88a0/e58c05da60ba6bf7-a2/s540x810/607da1e37d8086f8a47a71636e9e9f16e3f05912.gif",
+            "https://64.media.tumblr.com/d05a30f080228f7f81fac97aac907e76/ac9bcdea2dcd0ee0-fc/s540x810/4899647eba0f4dcaaf61452bb579391dd2edfa2a.gif",
+            "https://64.media.tumblr.com/bf69a88fcd50d07c9073c29eba3cdef6/ac9bcdea2dcd0ee0-05/s540x810/d7d9aa984587dbd96b88235bad00479276ed52de.gif",
+            "https://64.media.tumblr.com/6b7ffd4f713b6407fa412946ac1d3755/ac9bcdea2dcd0ee0-00/s540x810/5b083425f817f861aacd2b542e80e45999f8df4f.gif"]
 
     @commands.command()
     async def itzy(self, ctx, arg = "ot5"):

@@ -438,7 +438,11 @@ class BlackpinkPings(commands.Cog):
             "https://gfycat.com/arcticscratchyheifer",
             "https://64.media.tumblr.com/4913bb51cb17b37ffe1757e59cc25d38/577f56f960e76cc5-e3/s540x810/f2d2646de78365cd7f09fe3902d64ee21b01c2fb.gif",
             "https://64.media.tumblr.com/c0ce5968ac360e2a764ef1bc0bf01610/577f56f960e76cc5-a5/s540x810/cd1900db76400b04a1109893e2ced012fe019171.gif",
-            "https://64.media.tumblr.com/cb29f0369ecae34d3104b0b0b8756f7f/577f56f960e76cc5-47/s540x810/42a2add3a90387689862bca8ca05e7aad57e54c7.gif"]
+            "https://64.media.tumblr.com/cb29f0369ecae34d3104b0b0b8756f7f/577f56f960e76cc5-47/s540x810/42a2add3a90387689862bca8ca05e7aad57e54c7.gif",
+            "https://64.media.tumblr.com/751e013f14d9b74dfcb516a0a339d100/ee55890fb789fc25-a0/s400x600/558fd3945e121676a719c98751ce69dd5a1bc9e5.gif",
+            "https://64.media.tumblr.com/fc6fcaf0f62d5e7bad0c4adfb6b866f1/ee55890fb789fc25-df/s400x600/646567bad24bc22b34ab0354e8ca2957810e4f00.gif",
+            "https://64.media.tumblr.com/50375580c834c5d7a693072d7678b2c5/ee55890fb789fc25-15/s400x600/8f34470050eacf5eb6ec6086012fdf34e2852d94.gif",
+            "https://64.media.tumblr.com/b94e740365941f80baf335975c6269c8/ee55890fb789fc25-5a/s400x600/907685cdc570c303ae919a139d32c33551b0cb31.gif"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
@@ -632,7 +636,19 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/7f8e8e2eb6b81a6be111a69c5f43bdb5/8573c6597be1ef71-1a/s400x600/fa2ccf83dbee7e5c6f7bc90c48169b1d8823cf7a.gif",
             "https://64.media.tumblr.com/a6a6aec76f55c6d414255221edbacf82/8573c6597be1ef71-72/s400x600/ddd852f180fbfb57effb5ce0b67ba4eb0d4cee86.gif",
             "https://64.media.tumblr.com/c55237573d3d08467defbdab7b96360d/8573c6597be1ef71-85/s400x600/460e8871b4d342f708272e33f7c52f95d7059172.gif",
-            "https://64.media.tumblr.com/a056ad481a879030fadc409e2711d162/8573c6597be1ef71-9f/s400x600/8542e1f33ad3a4c6db0a73af8b1fbbe10f9a9d37.gif"]
+            "https://64.media.tumblr.com/a056ad481a879030fadc409e2711d162/8573c6597be1ef71-9f/s400x600/8542e1f33ad3a4c6db0a73af8b1fbbe10f9a9d37.gif",
+            "https://64.media.tumblr.com/c18849039c96edf71ff2b7746d2c5f52/4e2c8b1f5d75c747-8f/s400x600/577b1bd6ec970509406867fe962f7d6a1fbcfa56.gif",
+            "https://64.media.tumblr.com/f58c38276296cab034647429785a1d11/4e2c8b1f5d75c747-03/s400x600/7939e64b4482e0b5c5bf2c2ca0ff0849d09bcade.gif",
+            "https://64.media.tumblr.com/3d48fa3695dfdc93d3b5dfa6b78eb72d/4e2c8b1f5d75c747-03/s400x600/6506dc369d121d523222c9ab766f8075fbea6573.gif",
+            "https://64.media.tumblr.com/6e544ec12c134fbf5911265092015bd4/4e2c8b1f5d75c747-34/s400x600/4ca11651bc5725b2b926c6a034f856b8628af9cb.gif",
+            "https://64.media.tumblr.com/16fdfcedd0f929d75487978e5e357cf2/6a8409a90636e5f0-75/s400x600/7953089aed0f547c5f9b6b9a5bf541c69a0395aa.gif",
+            "https://64.media.tumblr.com/ac2144271f66a9531cf2ddb8ce55604d/6a8409a90636e5f0-34/s400x600/362d675ea17b6570691065770ed9c89da6af9fcc.gif",
+            "https://64.media.tumblr.com/91e9e53eadfdeb9165addd0d22646319/ec2f918495d93136-fb/s540x810/831e122248cef710d5985f964473f7802d138bf2.gif",
+            "https://64.media.tumblr.com/752af3a297b14fd4657e7350c3b68d0c/ec2f918495d93136-3f/s540x810/d7ac255d51906816e6b78bf2be5864318b2fbe50.gif",
+            "https://64.media.tumblr.com/89320ed5191b2c497774ee7945e03bd8/ec2f918495d93136-a4/s540x810/d6b9c2cab9fffd3730cb54ecab740da2d19ddfbd.gif",
+            "https://64.media.tumblr.com/39f74b93ee58dcfdc00d5e7dbedbc817/ec2f918495d93136-cd/s540x810/250f4e3bae27880a173d397d4cf9863b82b093c2.gif",
+            "https://gfycat.com/cheerfulmelodichornet",
+            "https://gfycat.com/plumpposhgalapagoshawk"]
 
         self.bot.jisoo_gif = ["https://tenor.com/view/jisoo-kimjisoo-visual-kpop-blackpink-gif-10720121",
             "https://tenor.com/view/blackpink-kpop-kim-jisoo-jisoo-lead-vocalist-gif-17967342",

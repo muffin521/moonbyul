@@ -162,7 +162,11 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/alarmedwetcrocodileskink",
             "https://gfycat.com/belateddeterminedamurratsnake",
             "https://gfycat.com/legalweirdbighornsheep",
-            "https://gfycat.com/agiletintedcatfish"]
+            "https://gfycat.com/agiletintedcatfish",
+            "https://64.media.tumblr.com/1aecd42943490423aa46c0b75fd12aec/b5a75c2d9eb462df-14/s400x600/ea23ffd1cf68146e6ef53e7b967d55ff87f723d1.gif",
+            "https://64.media.tumblr.com/3dd6a2f9d101e31e6dfef3a9410db925/b5a75c2d9eb462df-5b/s400x600/2e195dfe2cad2396ab1ea40a063efea8c10a6d0d.gif",
+            "https://64.media.tumblr.com/113928dd47f470daefc73aae5b1b6874/b5a75c2d9eb462df-06/s400x600/72096ac3dcbe5763cf646ee0b9c412f1dd995fdb.gif",
+            "https://64.media.tumblr.com/e12c8111210471ee9739d8f17f181f50/b5a75c2d9eb462df-01/s400x600/f9070cbb9a19e20dbf8927f563d744aff951d1aa.gif"]
 
         self.bot.hyunjin_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/771239029291221022/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239029982101534/image1.gif",
@@ -432,7 +436,14 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/2e612de89017809d79922c46754649ae/d5782b11a59ef404-bb/s400x600/3f1afd65b9676386918c997929414a846095110c.gif",
             "https://64.media.tumblr.com/7e43209739a12a9f0831bc892964ec7b/d5782b11a59ef404-9e/s400x600/b614852b5b0bf8e81979d855529a9d48cb987770.gif",
             "https://64.media.tumblr.com/61c583f166a635fb37da7e00cc0e6a48/d5782b11a59ef404-d7/s400x600/6625f2f505ae9a3ff1b35a306f22c0d6e9d5edff.gif",
-            "https://64.media.tumblr.com/079b8fd549a5e0f58914d8444903cea9/d5782b11a59ef404-a7/s400x600/796a1868a28b8ba070a38096bb0c0964f61f73fb.gif"]
+            "https://64.media.tumblr.com/079b8fd549a5e0f58914d8444903cea9/d5782b11a59ef404-a7/s400x600/796a1868a28b8ba070a38096bb0c0964f61f73fb.gif",
+            "https://64.media.tumblr.com/b716577ccaa74cf03a5795b4134e6141/ab0de1c3690120d7-72/s400x600/ba4309b1fe82fd86887587d3efeade94b2b98073.gif",
+            "https://64.media.tumblr.com/b3b240168fa41a57c323a924962e98f4/ab0de1c3690120d7-cb/s400x600/fcd3c93bd80a0e608e7bad65cfee0f4e26e20660.gif",
+            "https://64.media.tumblr.com/788d164fcc69a33b8e0210adbadbff34/ab0de1c3690120d7-0a/s400x600/d3f65108746becae5b8af73a9f7c329aacc608c2.gif",
+            "https://64.media.tumblr.com/295c851c1bdee11ceb6ac117d803da5d/ab0de1c3690120d7-d3/s400x600/3cd4db1b9e7c5b2885ea8aac866f1b2af13bcd5a.gif ",
+            "https://64.media.tumblr.com/19de878b3d94fe62fc5a803aea3e21d6/0adb5cc8762fa79c-13/s540x810/a30ce68752e6e35c9d75c731ece5008e2e04e784.gif",
+            "https://64.media.tumblr.com/da527a5867932f7d63a377b0e0eb7fdb/0adb5cc8762fa79c-00/s540x810/44e1de024eea9b95a64357c51de90d512c778a3f.gif",
+            "https://64.media.tumblr.com/9cc06da9defba6e31a7618e62e40ab06/0adb5cc8762fa79c-92/s540x810/fe52560611adda8caa3282bfeb5f04c0adb9197d.gif"]
 
         self.bot.kimlip_gif = ["https://thumbs.gfycat.com/CaringAlertHellbender-max-1mb.gif",
             "https://64.media.tumblr.com/632b50fcf95204b79d978049034e2f9f/tumblr_pe89snEig71x29wuzo4_250.gif",
@@ -587,6 +598,10 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/9f74e12ba3d6e357402a86b92af095a7/84a4ebfe312b7e89-41/s400x600/91d20882da3b6820ad678d9210929a0c751c5b2e.gif",
             "https://64.media.tumblr.com/65cac13fb67f6cf401458189d5542a79/84a4ebfe312b7e89-12/s400x600/7c5d2836da3866b9023e50a3ceb4d90b5a92a59f.gif",
             "https://64.media.tumblr.com/e1f4ffd61919382291d7ca293813c568/84a4ebfe312b7e89-99/s400x600/84f68ada7250bd6833a818a4598eefb872972808.gif",
+            "https://64.media.tumblr.com/2fcd6ce2174a059c118591be501ef93f/eb2b48aea8681716-b3/s400x600/f62a82676f0e10e0204a1c760dd0230432e1681c.gif",
+            "https://64.media.tumblr.com/a05e1b123eae13ef6ecfc56eab3c63a4/eb2b48aea8681716-9c/s400x600/b674b8375d7e20dd9975ba70c0fa537416abc8b1.gif",
+            "https://64.media.tumblr.com/b34736af4541fda0bd09a002df103520/eb2b48aea8681716-88/s400x600/520de20bfd3ac42573b065f983d132773d3016c6.gif",
+            "https://64.media.tumblr.com/2595c77ca7fb07d4a745c2ce1c05ccb9/eb2b48aea8681716-9e/s400x600/acbb21ff7a180f9132393b47017fab7c204f1f1f.gif",
             "https://64.media.tumblr.com/89eb89eca19bec01811e9eb7a54b2e69/84a4ebfe312b7e89-dc/s400x600/e7641291d677e3d53b3be51b830c6ffe0c85bc02.gif"]
 
         self.bot.choerry_gif = ["https://tenor.com/view/choerry-loona-gif-18740424",

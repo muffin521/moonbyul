@@ -236,7 +236,11 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/4cc03861cf87892eb1b99db6d443800d/1bbe424792900e17-40/s400x600/5e1ff3296a3e0f1527cfe32e4184c2c969f53c36.gif",
             "https://64.media.tumblr.com/1a9f1a7966f4ab2abae81dad5c135d3f/1bbe424792900e17-c9/s400x600/bbc24d0b1b6999d635528fd6642cce50bea881af.gif",
             "https://64.media.tumblr.com/4ecc43701255449acbf35c726e068f58/1bbe424792900e17-e6/s400x600/d0f7ed24381236c4da7342dd26632c69cee81a1e.gif",
-            "https://64.media.tumblr.com/7ef053748dbd76f31096730fdec93d37/1bbe424792900e17-9b/s400x600/a38c036aaed87fd883b8af7ed0bbe6964c22e978.gif"]
+            "https://64.media.tumblr.com/7ef053748dbd76f31096730fdec93d37/1bbe424792900e17-9b/s400x600/a38c036aaed87fd883b8af7ed0bbe6964c22e978.gif",
+            "https://64.media.tumblr.com/8fff0593d1cbd66c1113ae809da2cb59/03a5617dd650409a-0c/s400x600/f67f2032eb3414888c8f791cb956f67ad7233de6.gif",
+            "https://64.media.tumblr.com/83e1d19831b93c5ce5e29dd2d952d0d2/03a5617dd650409a-26/s400x600/f2b231054203e65612689a6bbd8ada2db428c4e6.gif",
+            "https://64.media.tumblr.com/b98e2fd33e201ba0403f8a96243c75e5/03a5617dd650409a-85/s400x600/a8d287f4e1c8ff852ee7f0d357dbcfb671bbcbce.gif",
+            "https://64.media.tumblr.com/4cf91ac04b742d95129bc2e0a545639c/03a5617dd650409a-7e/s400x600/9babdc277511767491c6920b8778b7c09227e3f8.gif"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
@@ -483,7 +487,13 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/4fa47dd59084ccf4266831ccc4e78f5a/cbb90450ea79d515-ff/s500x750/67d65d282635a1c45d71f8ee0386e337b3c6a8ab.gif",
             "https://64.media.tumblr.com/ddd71ae1603d493d4d4883f9ddf517c0/c68af84829b76930-b6/s540x810/6dde47335c6725c08abd35965a91668b31a8931b.gif",
             "https://64.media.tumblr.com/ba1c4f1a5bfdeea80552cb62865f3320/26d162eb23ea0f45-e8/s540x810/6b2096383af2d1b9e38072634062cf4dac136360.gif",
-            "https://64.media.tumblr.com/d521d44afe03c2764ccf141da1a06f2b/26d162eb23ea0f45-81/s540x810/70ca59ea40d815d9ecc87a68af81e1cf2558d679.gif"]
+            "https://64.media.tumblr.com/d521d44afe03c2764ccf141da1a06f2b/26d162eb23ea0f45-81/s540x810/70ca59ea40d815d9ecc87a68af81e1cf2558d679.gif",
+            "https://64.media.tumblr.com/8d865df5f60be9e7a7c1507843730430/1f0b40de10aa2dcf-6e/s540x810/0d2ecde003c5db8bedd0398f3decd02d6b42dedb.gif",
+            "https://64.media.tumblr.com/0dcb6f3af55205468ed822d0ae973903/1f0b40de10aa2dcf-fd/s540x810/4f83fc1203ea5cc7e76fa7681903e74529924808.gif",
+            "https://64.media.tumblr.com/bc193b5780739035b4e81fc25fe27ff1/1f0b40de10aa2dcf-bc/s540x810/e5d641f6caad7a8a814d0c28c4ccd57520577d88.gif",
+            "https://gfycat.com/unsightlyterrificbluejay-ningning-giselle-savage-winter-karina-aespa-dance",
+            "https://gfycat.com/weirdrecklessichidna",
+            "https://gfycat.com/handsomeinexperiencedcuttlefish"]
 
     @commands.command()
     async def aespa(self, ctx, *, arg = "group"):

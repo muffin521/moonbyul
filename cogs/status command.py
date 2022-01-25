@@ -1,7 +1,7 @@
 import discord, random, os
 from discord.ext import commands
 
-byulver = '1.4.2'
+byulver = '1.4.3'
 
 #//people
 muffin = 488423352206229505 #// other things
@@ -79,13 +79,25 @@ class scommand(commands.Cog):
     async def invite(self, ctx):
         embed = discord.Embed(
             title = 'Invite Links',
-            description = 'lob u <:moonbyulheart:790333102924627968>‎',
+            description = 'lob u <:moonbyulheart:790333102924627968>',
             colour = discord.Colour.from_rgb(198, 237, 154))
         embed.set_thumbnail(url = 'https://cdn.discordapp.com/attachments/775473868277284885/778452371607912518/Blue_Moonbyul.jpg')
         embed.add_field(name='Support Server', value=f'https://discord.gg/Ntk9Jp26yx', inline=True)
         # embed.add_field(name='Invite Link', value=f'Invites Paused', inline=False)
         embed.add_field(name='Invite Link', value=f'[Moonbyul Invite](https://discord.com/oauth2/authorize?client_id=770750635850858506&permissions=273472&scope=bot)', inline=False)
         await ctx.send(embed=embed)
+
+    # @commands.command(pass_context = True)
+    # @commands.is_owner()
+    # async def hasrole(self, ctx):
+    #     for member in ctx.guild.fetch_members(limit=None):
+    #         try:
+    #             await member.add_roles(discord.utils.get(member.guild.roles, name="MEMBER")) #add the role
+    #         except Exception as e:
+    #             await ctx.send('There was an error running this command ' + str(e)) #if error
+    #         else:
+    #             await ctx.send("""Verified: {}""".format(member)) # no errors, say verified
+
 
 def setup(client):
     client.add_cog(scommand(client))

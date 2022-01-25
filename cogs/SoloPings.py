@@ -376,6 +376,26 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/0eebda22e1763c2d649c772125796bed/adfa9bfe3e336125-6f/s400x600/bb0d9c4d86d593892867ce8d47ee5c9210df6f5e.gif",
             "https://64.media.tumblr.com/bd03b116ac4728d21cde8b84cac0de4c/adfa9bfe3e336125-e2/s400x600/2dd6105c597872f7f2310693a734b91b9ba8c066.gif"]
 
+        self.bot.dean_gif = ["https://cdn.discordapp.com/attachments/875188426117353554/876718554882396190/Dean_gif_1.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718556056809522/Dean_gif_2.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718559957508116/Dean_gif_3.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718564281831464/Dean_gif_4.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718564852240414/Dean_gif_5.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718567100395601/Dean_gif_6.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718571097571368/Dean_gif_7.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718573328941086/Dean_gif_8.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718579314204692/Dean_gif_9.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718579909799946/Dean_gif_10.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718598448644156/Dean_gif_12.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718602198335488/Dean_gif_13.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718607567052810/Dean_gif_11.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718611199316008/Dean_gif_14.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718616169578526/Dean_gif_15.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718617520123915/Dean_gif_16.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718620573589605/Dean_gif_17.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718624583323708/Dean_gif_18.gif",
+            "https://cdn.discordapp.com/attachments/875188426117353554/876718626013605909/Dean_gif_19.gif"]
+
         self.bot.heize_gif = ["https://cdn.discordapp.com/attachments/849010183341342790/849022291055738881/Heize_gif_2.gif",
             "https://cdn.discordapp.com/attachments/849010183341342790/849022296420515881/Heize_gif_5.gif",
             "https://cdn.discordapp.com/attachments/849010183341342790/849022299885535272/Heize_gif_4.gif",
@@ -590,7 +610,11 @@ class SoloPings(commands.Cog):
             "https://gfycat.com/emptyserenedaddylonglegs",
             "https://gfycat.com/failinghatefulgreatargus",
             "https://gfycat.com/devotedanxiouskawala",
-            "https://gfycat.com/medicaloptimisticasianporcupine"]
+            "https://gfycat.com/medicaloptimisticasianporcupine",
+            "https://64.media.tumblr.com/108d43fe01f18ca6b912a3103032c78b/498152ce0c0f4f3f-78/s400x600/7c91c2e93334f4474c0ec14f927e6bee3f0b664b.gif",
+            "https://64.media.tumblr.com/40cdb6cba2805fe7af7977276053c446/498152ce0c0f4f3f-d3/s400x600/8d4edff62b72a12cf4ecdd88b0ae8b79a4176ee4.gif",
+            "https://64.media.tumblr.com/31bd79eb44048064c0c554767f2ef13b/498152ce0c0f4f3f-55/s400x600/5fadf2b7937f3f6f61bbebd0f137e1bacbdf1021.gif",
+            "https://64.media.tumblr.com/dec9c22c1f2246d8df0e72727209ebdd/498152ce0c0f4f3f-c5/s400x600/19d7476925c5ce35bc604bd837e86cc838dd5009.gif"]
 
         self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
@@ -948,7 +972,15 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/8a1685eb090b63d9aaa1a8661298295d/92f0ec383187a3cb-58/s400x600/83597cabcaa7dbb6b5b61ede3c51937012039e4f.gif",
             "https://64.media.tumblr.com/9623cba1e775610ed190e3a70f698c88/92f0ec383187a3cb-5f/s400x600/0506fd9d8e40f50f184634691d3d0656dde625db.gif",
             "https://64.media.tumblr.com/105d73290722d37f3682c6d5430ffd0e/92f0ec383187a3cb-57/s400x600/0dc2fe26357da136ebc6e574dc4a06e4af1809be.gif",
-            "https://64.media.tumblr.com/0be867c1a311e6cc7a5caf2e9bd87008/92f0ec383187a3cb-96/s400x600/437609d125d02fc0b0487a3bab1f449c613ffd14.gif"]
+            "https://64.media.tumblr.com/0be867c1a311e6cc7a5caf2e9bd87008/92f0ec383187a3cb-96/s400x600/437609d125d02fc0b0487a3bab1f449c613ffd14.gif",
+            "https://64.media.tumblr.com/9c737a466868884be958547fa20362a6/956c8ca1c35e1a20-6d/s540x810/b0d91b96d2508837aec808613ab05608d022f080.gif",
+            "https://64.media.tumblr.com/d63cca20cd29c5dab6cf4076e414491b/956c8ca1c35e1a20-b7/s540x810/2a08b571aca08f227877ae19d0e8d821e0e99f2e.gif",
+            "https://64.media.tumblr.com/424b082c3ea6b885dd95dfd46a7e1342/15e8a050978d3b6a-9b/s400x600/1610867ac5c74911d0083925411a5aeb661278e4.gif",
+            "https://64.media.tumblr.com/6b71ab82c7598104e1acdfed4496e75d/15e8a050978d3b6a-db/s400x600/710d49407fb9efae1ec4566b10c3a07a69830d15.gif",
+            "https://64.media.tumblr.com/27dc15c97ec352a34537ba2379664529/15e8a050978d3b6a-ca/s400x600/ec3b55b002545acd5e2fa058d7508ccd1e3c6655.gif",
+            "https://64.media.tumblr.com/413ae1764228eff9eb8e76b28ce32ac5/8dca1a13c647eb66-3c/s400x600/171d48cefe3a876c322b0b220f4bdbe7b2a9b092.gif",
+            "https://64.media.tumblr.com/e5a7d64c4776a471c3a93ce8ec63f0f9/8dca1a13c647eb66-c9/s400x600/7af333d9430c828d800d29b40266f99ed6620602.gif",
+            "https://64.media.tumblr.com/c121efafa342af0d3e2292a93e8399f8/8dca1a13c647eb66-49/s400x600/4612c55db02778a7d67ecdc974718cc935aef877.gif"]
 
         self.bot.yubin_gif = ["https://78.media.tumblr.com/be13e6f73e9b9ca358fa421432a2c83a/tumblr_p9v2d7MMvM1wfmyhto2_540.gif",
             "https://78.media.tumblr.com/76b2b0202c1563bd6839030659e147d1/tumblr_p9v2d7MMvM1wfmyhto3_540.gif",
@@ -1291,6 +1323,17 @@ class SoloPings(commands.Cog):
             await ctx.send(f'<@!{ctx.author.id}> is talking about Chung Ha :heart:')
             await ctx.send(random.choice(self.bot.chungha_gif))
             await ctx.message.delete()
+
+    @commands.command()
+    async def dean(self, ctx):
+        now = datetime.now()
+        channel = ctx.bot.get_channel(self.bot.logs)
+        current_time = now.strftime("%H:%M:%S")
+        await channel.send(f"`{current_time} | USED COMMAND [Dean] | USER: {ctx.author.name} [{(ctx.author.id)}] | GUILD: {ctx.guild.name} [{ctx.guild.id}]`" )
+        #. end of logs
+        await ctx.send(f'<@!{ctx.author.id}> is talking about Dean :heart:')
+        await ctx.send(random.choice(self.bot.dean_gif))
+        await ctx.message.delete()
 
     @commands.command()
     async def heize(self, ctx):

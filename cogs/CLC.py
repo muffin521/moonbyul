@@ -167,7 +167,8 @@ class CLC(commands.Cog):
             "https://64.media.tumblr.com/a7e6a5ce5dd832ff5f799a84fb2faa20/tumblr_py65s2O8MN1yoiwkxo4_400.gif",
             "https://64.media.tumblr.com/665cca8dcc08cb218e0fe7b7a137a346/tumblr_py65s2O8MN1yoiwkxo3_400.gif",
             "https://64.media.tumblr.com/d06e61f7b4d5256fa14ca983e960e19a/tumblr_py65s2O8MN1yoiwkxo2_400.gif",
-            "https://64.media.tumblr.com/bb41d0dce753eea8622b267780ccd8ce/tumblr_py65s2O8MN1yoiwkxo1_400.gif"]
+            "https://64.media.tumblr.com/bb41d0dce753eea8622b267780ccd8ce/tumblr_py65s2O8MN1yoiwkxo1_400.gif",
+            "https://tenor.com/view/yujin-gp999-choi-yujin-girls-planet-yujin-girls-planet-gif-22980910"]
 
         self.bot.clc_seunghee_gif = ["https://tenor.com/view/crystal-clear-%ec%98%a4-%ec%94%a8%ec%97%98%ec%94%a8-kpop-%ec%98%a4%ec%8a%b9%ed%9d%ac-gif-17069531",
             "https://tenor.com/view/crystal-clear-kpop-phone-devil-gif-14977696",
