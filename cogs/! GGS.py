@@ -630,7 +630,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/64782da0abe1ac01bc8d48e457050b04/5821eec152e9d963-57/s400x600/dbc8f7a6a98083dc842f0e65eaa82826d90310da.gif",
             "https://64.media.tumblr.com/4338d36063a1beb83ff10e3f56f8d7b0/5821eec152e9d963-2a/s400x600/343d403717c72ae2349a1e985bd3b8873c089428.gif",
             "https://64.media.tumblr.com/234263d70c3f12a54a9229fddd35f97f/5821eec152e9d963-0c/s400x600/e7de8beb2a0e62ef7ad8f594e51a485e74dc7e43.gif",
-            "https://64.media.tumblr.com/2cbc6e63fce209a91fd071ac7c9e0902/5821eec152e9d963-3a/s400x600/eaa6466317597c76ae54e9351cae409e8065f20a.gif"]
+            "https://64.media.tumblr.com/2cbc6e63fce209a91fd071ac7c9e0902/5821eec152e9d963-3a/s400x600/eaa6466317597c76ae54e9351cae409e8065f20a.gif",
+            "https://64.media.tumblr.com/8b53f27b5d5edfd840eca04bd639ba43/a3d89e8ff7af528e-76/s400x600/f78f23ce450e944a1ab0dfc4b1153236349cb062.gif",
+            "https://64.media.tumblr.com/c0a5b8c3626186e9f9d88e81c77368a9/a3d89e8ff7af528e-0f/s400x600/0b72576f02bed425ea5e6c893e4aa273ec6b30bd.gif",
+            "https://64.media.tumblr.com/72433ee22fe5356e3c0d05f071071fd8/a3d89e8ff7af528e-82/s400x600/fe395ea8080e498a42f46a11802ec5bdd7206a23.gif",
+            "https://64.media.tumblr.com/78fae811e8138e6c730ec704fdb08597/a3d89e8ff7af528e-c7/s400x600/ab41d7811d63f0b285891a5a878c836bcd0aab43.gif"]
 
         self.bot.fromis_9_hayoung_gif = ["https://gfycat.com/alienatedcheapgalapagosmockingbird-song-hayoung-fromis-9-kpop",
             "https://gfycat.com/hideoushalfamurminnow",
