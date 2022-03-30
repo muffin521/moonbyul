@@ -374,7 +374,12 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/b2f5ebe9c216de41bfc02c1877fd4af4/adfa9bfe3e336125-61/s400x600/a511a8309ac4a3338c6aef90140196d701f20c6c.gif",
             "https://64.media.tumblr.com/452316f5dcde853ea0e57a7f72b67b6d/adfa9bfe3e336125-d4/s400x600/d38a1f82af79cb443d37aa7753bb0d39d64f7c66.gif",
             "https://64.media.tumblr.com/0eebda22e1763c2d649c772125796bed/adfa9bfe3e336125-6f/s400x600/bb0d9c4d86d593892867ce8d47ee5c9210df6f5e.gif",
-            "https://64.media.tumblr.com/bd03b116ac4728d21cde8b84cac0de4c/adfa9bfe3e336125-e2/s400x600/2dd6105c597872f7f2310693a734b91b9ba8c066.gif"]
+            "https://64.media.tumblr.com/bd03b116ac4728d21cde8b84cac0de4c/adfa9bfe3e336125-e2/s400x600/2dd6105c597872f7f2310693a734b91b9ba8c066.gif",
+            "https://64.media.tumblr.com/b8c08fd4441cecb432470af4ddb350b3/1abb0fe5277805a1-85/s540x810/a6f1cd2257b02741962854951b33028d2a4636dc.gif",
+            "https://64.media.tumblr.com/8402dabaa66c025c2baf13774e299271/1abb0fe5277805a1-be/s540x810/a79bc0447a1d5a927b459bc81880342ddb94633e.gif",
+            "https://64.media.tumblr.com/8a48f0eaafa132107a11018fbd856a9e/1abb0fe5277805a1-d0/s540x810/eeb3cf3c252095f1560ab183813999bd504d3f04.gif",
+            "https://64.media.tumblr.com/f8bcd99853107373e821cd19822ad948/1abb0fe5277805a1-21/s540x810/e8674a608cb1c2ad2bb29c44f737359874b5f47e.gif",
+            "https://64.media.tumblr.com/37363afad6f22e89ffa410932dac6798/1abb0fe5277805a1-44/s540x810/9066b660c59f12095eddbe63fde3941394c3d6d8.gif"]
 
         self.bot.dean_gif = ["https://cdn.discordapp.com/attachments/875188426117353554/876718554882396190/Dean_gif_1.gif",
             "https://cdn.discordapp.com/attachments/875188426117353554/876718556056809522/Dean_gif_2.gif",
@@ -614,7 +619,10 @@ class SoloPings(commands.Cog):
             "https://64.media.tumblr.com/108d43fe01f18ca6b912a3103032c78b/498152ce0c0f4f3f-78/s400x600/7c91c2e93334f4474c0ec14f927e6bee3f0b664b.gif",
             "https://64.media.tumblr.com/40cdb6cba2805fe7af7977276053c446/498152ce0c0f4f3f-d3/s400x600/8d4edff62b72a12cf4ecdd88b0ae8b79a4176ee4.gif",
             "https://64.media.tumblr.com/31bd79eb44048064c0c554767f2ef13b/498152ce0c0f4f3f-55/s400x600/5fadf2b7937f3f6f61bbebd0f137e1bacbdf1021.gif",
-            "https://64.media.tumblr.com/dec9c22c1f2246d8df0e72727209ebdd/498152ce0c0f4f3f-c5/s400x600/19d7476925c5ce35bc604bd837e86cc838dd5009.gif"]
+            "https://64.media.tumblr.com/dec9c22c1f2246d8df0e72727209ebdd/498152ce0c0f4f3f-c5/s400x600/19d7476925c5ce35bc604bd837e86cc838dd5009.gif",
+            "https://gfycat.com/shockedcoordinatedelectriceel-somi",
+            "https://gfycat.com/nippyelementarydromaeosaur-somi",
+            "https://gfycat.com/tameartisticferret-somi"]
 
         self.bot.yukika_gif = ["https://tenor.com/view/yukika-cute-yukika-cute-yukika-being-cute-gif-18862414",
             "https://tenor.com/view/yukika-japanese-soul-lady-gif-18312979",
