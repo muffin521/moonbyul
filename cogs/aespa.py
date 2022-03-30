@@ -115,7 +115,8 @@ class aespaPings(commands.Cog):
             "https://gfycat.com/wealthydeliciousarawana",
             "https://gfycat.com/creepyuglyleopardseal",
             "https://gfycat.com/adoredunconsciouselk",
-            "https://gfycat.com/soggydiscreteeuropeanpolecat"]
+            "https://gfycat.com/soggydiscreteeuropeanpolecat",
+            "https://tenor.com/view/aespa-winter-winter-aespa-aespa-winter-kim-minjeong-gif-24119720"]
 
         self.bot.winter_gif = ["https://tenor.com/view/aespa-archive_aespa-winter-aespa-winter-winter-aespa-gif-19207739",
             "https://tenor.com/view/aespa-winter-aespa-winter-aespa-kim-minjeong-kim-minjeong-gif-19029912",
