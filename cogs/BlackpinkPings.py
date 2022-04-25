@@ -442,7 +442,12 @@ class BlackpinkPings(commands.Cog):
             "https://64.media.tumblr.com/751e013f14d9b74dfcb516a0a339d100/ee55890fb789fc25-a0/s400x600/558fd3945e121676a719c98751ce69dd5a1bc9e5.gif",
             "https://64.media.tumblr.com/fc6fcaf0f62d5e7bad0c4adfb6b866f1/ee55890fb789fc25-df/s400x600/646567bad24bc22b34ab0354e8ca2957810e4f00.gif",
             "https://64.media.tumblr.com/50375580c834c5d7a693072d7678b2c5/ee55890fb789fc25-15/s400x600/8f34470050eacf5eb6ec6086012fdf34e2852d94.gif",
-            "https://64.media.tumblr.com/b94e740365941f80baf335975c6269c8/ee55890fb789fc25-5a/s400x600/907685cdc570c303ae919a139d32c33551b0cb31.gif"]
+            "https://64.media.tumblr.com/b94e740365941f80baf335975c6269c8/ee55890fb789fc25-5a/s400x600/907685cdc570c303ae919a139d32c33551b0cb31.gif",
+            "https://gfycat.com/shortsneakyasiandamselfly-blackpink-jennie",
+            "https://gfycat.com/nicewhiteazurewingedmagpie-blackpink-jennie",
+            "https://gfycat.com/unhealthyloathsomehoneybee-blackpink-jennie",
+            "https://gfycat.com/neglectedoblonganteater-blackpink-jennie",
+            "https://gfycat.com/portlylastkagu-blackpink-jennie"]
 
         self.bot.lisa_gif = ["https://tenor.com/view/lalisa-manoban-lisa-blackpink-lollipop-kpop-gif-17772815",
             "https://tenor.com/view/lisa-smile-black-pink-kpop-cute-gif-16464316",
