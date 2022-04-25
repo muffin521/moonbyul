@@ -166,7 +166,9 @@ class LoonaPings(commands.Cog):
             "https://64.media.tumblr.com/1aecd42943490423aa46c0b75fd12aec/b5a75c2d9eb462df-14/s400x600/ea23ffd1cf68146e6ef53e7b967d55ff87f723d1.gif",
             "https://64.media.tumblr.com/3dd6a2f9d101e31e6dfef3a9410db925/b5a75c2d9eb462df-5b/s400x600/2e195dfe2cad2396ab1ea40a063efea8c10a6d0d.gif",
             "https://64.media.tumblr.com/113928dd47f470daefc73aae5b1b6874/b5a75c2d9eb462df-06/s400x600/72096ac3dcbe5763cf646ee0b9c412f1dd995fdb.gif",
-            "https://64.media.tumblr.com/e12c8111210471ee9739d8f17f181f50/b5a75c2d9eb462df-01/s400x600/f9070cbb9a19e20dbf8927f563d744aff951d1aa.gif"]
+            "https://64.media.tumblr.com/e12c8111210471ee9739d8f17f181f50/b5a75c2d9eb462df-01/s400x600/f9070cbb9a19e20dbf8927f563d744aff951d1aa.gif",
+            "https://gfycat.com/arcticfavorablehumpbackwhale-heejin-loona",
+            "https://gfycat.com/thickaggressivebasilisk-heejin-loona"]
 
         self.bot.hyunjin_gif = ["https://cdn.discordapp.com/attachments/771238115255255060/771239029291221022/image0.gif",
             "https://cdn.discordapp.com/attachments/771238115255255060/771239029982101534/image1.gif",
@@ -260,7 +262,9 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/terriblehardbittern",
             "https://gfycat.com/artisticsecretblackpanther",
             "https://gfycat.com/fragranttemptingdromaeosaur",
-            "https://gfycat.com/madeupfrighteningindianhare"]
+            "https://gfycat.com/madeupfrighteningindianhare",
+            "https://64.media.tumblr.com/376f0c9e1abb6d6db613de9d4ed927b5/7a400624a28200d3-8d/s540x810/4d4435382f90eda06a7f1813363acb9d8b0cc0d2.gif",
+            "https://64.media.tumblr.com/ea92165b18274615d6b90d9987f92116/7a400624a28200d3-3c/s540x810/22ea2edbb075159ec8f87a451d071a7b886ebba3.gif"]
 
         self.bot.haseul_gif = ["https://tenor.com/view/wiggle-kpop-haseul-ha-seul-gif-19167036",
             "https://tenor.com/view/ha-seul-highway-to-heaven-loona-cute-smile-gif-14669447",
@@ -1047,7 +1051,19 @@ class LoonaPings(commands.Cog):
             "https://gfycat.com/cleverspeedyafricanbushviper",
             "https://gfycat.com/widetimelykoalabear",
             "https://gfycat.com/perfumedwelldocumentedgermanspaniel",
-            "https://gfycat.com/coarsebarrenitalianbrownbear"]
+            "https://gfycat.com/coarsebarrenitalianbrownbear",
+            "https://64.media.tumblr.com/c7ac2a78ac4553d5377a421cdd2384ea/cd15d7ae734dbe80-88/s400x600/573c1758a4752b68a59646e37ac66c49b5aca68f.gif",
+            "https://64.media.tumblr.com/c507c2ba1ddb20d4c2e03ac67cdc5b98/cd15d7ae734dbe80-fc/s400x600/777c2e675e203711bb4e2da0c4c5a0343d1a9817.gif",
+            "https://64.media.tumblr.com/a4c1097e2409d16521e5295f6af9c3ca/cd15d7ae734dbe80-ce/s400x600/9d362253fa68e5670c113d2c49d4908842f03f32.gif",
+            "https://64.media.tumblr.com/3a04c276db75986bd3f278ac587616e4/cd15d7ae734dbe80-3e/s400x600/64e5b08fac39d277d0d9a21ee3f3a6786167d1b8.gif",
+            "https://64.media.tumblr.com/56ad207dc5de782eeef8f93d0457ccd6/9fb9151ddd42458d-49/s540x810/34a8719cb908939acdaa6988186af27c084c844e.gif",
+            "https://64.media.tumblr.com/2041d5575b456120c3e4d43cc56c34a9/9fb9151ddd42458d-07/s540x810/6a70997daa676c728428c776d348a6aed925422c.gif",
+            "https://64.media.tumblr.com/357c575470e7b9b1fed4eb99ca9f0b55/9fb9151ddd42458d-b4/s540x810/b7227cf55984a741b7e14cb786a205b7c72ddf96.gif",
+            "https://64.media.tumblr.com/319e71d44d6c4662b98f82e9cdcd921c/9fb9151ddd42458d-bf/s540x810/500e7bd76ee3dad03b569cddb4ebf21b7e2c4bc8.gif",
+            "https://64.media.tumblr.com/6f46ff55af0e6d4e95fe9d85483ea1d4/9fb9151ddd42458d-1a/s540x810/542280d9b0074789311a18ae9bdac4e05ed3dfb2.gif",
+            "https://64.media.tumblr.com/ded8aaa0494f5bc5426ab482d4fc1944/9fb9151ddd42458d-64/s540x810/6bba04fe2a657bd7538d645d3f77863fbd661a89.gif",
+            "https://64.media.tumblr.com/d84199ba57667a9ec9ff439126eece9b/9fb9151ddd42458d-13/s540x810/34fb7f92ffc8921614cb05d98abb916686e810a3.gif",
+            "https://64.media.tumblr.com/62a9a10f0cccdf98241a63e25a5d680b/9fb9151ddd42458d-a1/s540x810/20a9fed7239b73aba81cd1f5b402bbda153a775d.gif"]
 
         self.bot.chuuheart_gif = ["https://static.apester.com/user-images/cb/cb60802a9e5ff8aa501df36ddfa56cce.gif",
             "https://tenor.com/view/mamamoo-wheein-heart-kpop-dance-gif-16331749",

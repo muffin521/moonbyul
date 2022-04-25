@@ -2195,7 +2195,10 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/fe68c2f53e51f275c4bf20bd191fe268/cd8c209911f69de8-df/s400x600/5aae8e8b608b7be75f24f9f58d56902ff14b4e95.gif",
             "https://64.media.tumblr.com/e23c9105b5e02befd6a57b8420ab1f10/cd8c209911f69de8-5c/s400x600/3a202c57e0092e34602d35f70a98def93847f755.gif",
             "https://64.media.tumblr.com/6e4d70a09662b545b8c7be43fe05fcba/cd8c209911f69de8-0e/s400x600/eb242a5b7aeef4608d3a12730be6a1d59825869f.gif",
-            "https://64.media.tumblr.com/7ecfd7f4a34d9030799afd1494864371/cd8c209911f69de8-26/s400x600/339ff81793c66c9cc68973d47bcdc5b6aa5952aa.gif"]
+            "https://64.media.tumblr.com/7ecfd7f4a34d9030799afd1494864371/cd8c209911f69de8-26/s400x600/339ff81793c66c9cc68973d47bcdc5b6aa5952aa.gif",
+            "https://64.media.tumblr.com/6d8cba24e1e41f8682a72f38e6492fe6/5f8fcc81613507ca-84/s540x810/6bcc66168dde02a02d43ab04486093b5b7d5d94e.gif",
+            "https://64.media.tumblr.com/18757748c8a2d7c8e595766dc75ec3b9/5f8fcc81613507ca-f5/s540x810/54ea918b2c36895cde1847bd5c30bdfc770868d6.gif",
+            "https://64.media.tumblr.com/cfc6aba58f8dc41b586c683880847408/5f8fcc81613507ca-6e/s540x810/af301e19ce63505bd4d27504c0304bfdc20779e9.gif"]
 
         self.bot.rocket_punch_yeonhee_gif = ["https://gfycat.com/jaggeddeafeningargentinehornedfrog",
             "https://gfycat.com/gratefulhugeattwatersprairiechicken",
@@ -2551,7 +2554,18 @@ class GGS(commands.Cog):
             "https://gfycat.com/considerateelatedchevrotain",
             "https://gfycat.com/liquidblankafricanwilddog",
             "https://gfycat.com/massivemajorkoala",
-            "https://gfycat.com/fairperfumedicterinewarbler"]
+            "https://gfycat.com/fairperfumedicterinewarbler",
+            "https://64.media.tumblr.com/cab00b874f7459c95196bcfdb5fda298/31a63cc017299ee3-70/s500x750/bb5c41f6b7b5c82c3525851b9c9d8af1b040a40f.gif",
+            "https://64.media.tumblr.com/39f6c6ee2cd16fce5d67182df3c229bc/31a63cc017299ee3-70/s500x750/2dc0fef32f89564312d596cb293e6ea4d7655e1c.gif",
+            "https://64.media.tumblr.com/e85b3b49c28d50cdde0a50348c265e96/31a63cc017299ee3-aa/s500x750/f3c523c9b3ca40a41836f86ebb2c8736f675e8dc.gif",
+            "https://gfycat.com/ringedplainindochinesetiger-rocketpunch-yeonhee",
+            "https://gfycat.com/amusedraggedislandcanary-rocketpunch-yeonhee",
+            "https://gfycat.com/bonytenderharpyeagle-rocketpunch-yeonhee",
+            "https://gfycat.com/deadlyfearlessasiansmallclawedotter-rocketpunch-yeonhee",
+            "https://gfycat.com/thunderouscolorlessamazondolphin-rocketpunch-yeonhee",
+            "https://gfycat.com/weeimmaterialgelada-rocketpunch-yeonhee",
+            "https://gfycat.com/revolvingfickleflee-rocketpunch-yeonhee",
+            "https://gfycat.com/astonishingoffbeatflies-rocketpunch-yeonhee"]
 
         self.bot.rocket_punch_suyun_gif = ["https://gfycat.com/backfemininearmedcrab",
             "https://gfycat.com/spotlessinsidiousflea",
@@ -2688,7 +2702,9 @@ class GGS(commands.Cog):
             "https://gfycat.com/blaringperfumedkodiakbear",
             "https://gfycat.com/maturekaleidoscopiccassowary",
             "https://gfycat.com/regularslimhapuka",
-            "https://gfycat.com/populartautgoa"]
+            "https://gfycat.com/populartautgoa",
+            "https://gfycat.com/wavyblondbat",
+            "https://gfycat.com/impurejoyoushornedtoad"]
 
         self.bot.rocket_punch_yunkyoung_gif = ["https://gfycat.com/barediligentafricanwilddog",
             "https://gfycat.com/adeptflashyiguanodon",
@@ -2774,7 +2790,10 @@ class GGS(commands.Cog):
             "https://gfycat.com/distantdifficultcony",
             "https://gfycat.com/bravejovialleafwing",
             "https://gfycat.com/bitterdishonestconch",
-            "https://gfycat.com/windingfondgreendarnerdragonfly"]
+            "https://gfycat.com/windingfondgreendarnerdragonfly",
+            "https://gfycat.com/sickreasonablebream",
+            "https://gfycat.com/weakflawlessatlasmoth",
+            "https://gfycat.com/rapidinnocentbrahmanbull"]
 
         self.bot.rocket_punch_sohee_gif = ["https://gfycat.com/boilingspectacularcottontail",
             "https://gfycat.com/courageousfirstaustralianfreshwatercrocodile",
@@ -2798,7 +2817,12 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/1e5c41218322e5ae5a167d559a0a91c5/4b01bd165ff4cea7-1c/s540x810/702e9ec7174bfc04e1152e82b512d77864ef85e0.gif",
             "https://64.media.tumblr.com/584a8a288de323357bb4ed8a7da99ab3/4b01bd165ff4cea7-21/s540x810/eaa410d80e950682020f9e575c0f463c6089dc89.gif",
             "https://64.media.tumblr.com/475d36c6a156877e64273a7292699a3e/d3d1caa75b5e30ea-7e/s540x810/90f7e9b756ae1bb96493223929bdc0f7783d2d37.gif",
-            "https://64.media.tumblr.com/94780b89e2927021c4bc571431875ef9/d3d1caa75b5e30ea-5b/s540x810/5f806b52438d54ba6f33560bd90fb4a4239ca81e.gif"]
+            "https://64.media.tumblr.com/94780b89e2927021c4bc571431875ef9/d3d1caa75b5e30ea-5b/s540x810/5f806b52438d54ba6f33560bd90fb4a4239ca81e.gif",
+            "https://64.media.tumblr.com/9dcfbf42470d4f46655d2b1aa22a75b6/3ab4b4cb0efe6534-8d/s540x810/41f861c6525f4e0d7657e94cf125caf9c74b88f0.gif",
+            "https://64.media.tumblr.com/8cb3a6093014217db234fb2c6f9718ca/3ab4b4cb0efe6534-03/s540x810/85f0a099bc997c688c25ed600687effc68aaf0b5.gif",
+            "https://64.media.tumblr.com/193e6b5d56e5511f0c90e80187e18237/3ab4b4cb0efe6534-d6/s540x810/741dac14d84af57e968fe7e70bb6be6ba0ee0cd3.gif",
+            "https://64.media.tumblr.com/f20693311fa5a63bb62dea8634315a60/3ab4b4cb0efe6534-b0/s540x810/aada6390fd2e02b0131aa3fd1ef44217844ee821.gif",
+            "https://64.media.tumblr.com/c349711a3d227ab1e2bf02c9f71f3266/3ab4b4cb0efe6534-22/s540x810/fac3538c2187b4328143c1ff05656c6502bcc01c.gif"]
 
         self.bot.rocket_punch_group_gif = ["https://64.media.tumblr.com/847dfaed6cc2690c545c6d05984d8fda/40421cc19b2e0abe-65/s540x810/3b8cbb6ef712cd3fbac4edc99e678e54d1782015.gif",
             "https://64.media.tumblr.com/0339e7131dbbc925bac4bcd703dac9d6/40421cc19b2e0abe-ea/s540x810/ab8d38556e6d0cd2e85d2801d1952708b0fda48b.gif",
@@ -2815,7 +2839,9 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/cf823b47811e10bde99df77bd7a9c9dc/891f8e4242cd5d9c-76/s540x810/3a80ae9eeaf6cfba3df12d6e1a9cb2115bca6c36.gif",
             "https://64.media.tumblr.com/c78e0fcddfe76334f1322836143afbe5/891f8e4242cd5d9c-a3/s540x810/baaf168d61a8a58ea7d9fed7ab1662989de96bcf.gif",
             "https://64.media.tumblr.com/64b0ce61527173520e89295d7db75bb0/891f8e4242cd5d9c-27/s540x810/ef379888969edda1d4fb84fcb3a7a158dcd04aec.gif",
-            "https://64.media.tumblr.com/091bd9481eb1d96cc6ba99ce9b19bc37/891f8e4242cd5d9c-72/s540x810/c64d4765afded380fe0229003130e04f7ed99a64.gif"]
+            "https://64.media.tumblr.com/091bd9481eb1d96cc6ba99ce9b19bc37/891f8e4242cd5d9c-72/s540x810/c64d4765afded380fe0229003130e04f7ed99a64.gif",
+            "https://64.media.tumblr.com/2418ccacb9688cf648d5a784d4d470e6/6f07355b6053210e-2b/s540x810/df78b8c3a6f146d37c5b9de92cd378311c8ed057.gif",
+            "https://64.media.tumblr.com/4680357de2321d6a9ae644f8fa76154c/6f07355b6053210e-39/s540x810/7684657f493c870bca57fcda3360de937b1dd5a8.gif"]
     #. SNSD
         self.bot.snsd_jessica_gif = ["https://tenor.com/view/snsd-girls-generation-jessica-jung-kpop-cute-gif-16854092",
             "https://tenor.com/view/jessica-jung-kpop-ginkoro-jessica-wonderland-gif-18005874",
