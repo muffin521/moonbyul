@@ -1001,7 +1001,19 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/politewealthycamel",
             "https://gfycat.com/smoggyenviouseft",
             "https://gfycat.com/dazzlingcommonhaddock",
-            "https://gfycat.com/talkativematureblackbird"]
+            "https://gfycat.com/talkativematureblackbird",
+            "https://gfycat.com/achingwetgrub-jo-yuri-glassy-idols-izone-kpop-yuri",
+            "https://gfycat.com/shabbydeafeningamberpenshell-jo-yuri-glassy-idols-izone-yuri-kpop",
+            "https://gfycat.com/caringelasticfrigatebird",
+            "https://gfycat.com/delectableincompletecopperbutterfly",
+            "https://gfycat.com/affectionateremotearacari-jo-yuri-glassy-idols-izone-kpop-yuri",
+            "https://gfycat.com/talkativeadoredfoal",
+            "https://gfycat.com/oldfashionedqueasyflyinglemur-studio-choom-be-original-jo-yuri-glassy-idols ",
+            "https://64.media.tumblr.com/cac660e2ff08ad173df91f8395fc8f06/e804176491b02e44-c3/s540x810/53744c3d6706203d55edf4616ca815d1a9219774.gif",
+            "https://64.media.tumblr.com/9dad79159dcdf22db1dff5cb7f764b92/e804176491b02e44-2c/s540x810/bbf8f1cb6af14393f7bf8f37b36fd35481d8c6ef.gif",
+            "https://64.media.tumblr.com/c8d86fef870cfddf980f58bc20c7f919/e804176491b02e44-66/s540x810/c1654cc72a202aab0db2faf757a5f37802e81023.gif",
+            "https://64.media.tumblr.com/02d2dcae1797660344f9faa68fe47b7b/e804176491b02e44-60/s540x810/68b1ae6ef529366b8a9de19a356abc21bd2628fb.gif",
+            "https://64.media.tumblr.com/0c56cf8444b83b938627437bcc84f7ac/e804176491b02e44-7d/s540x810/02b88eb0e5aff935ab11396357541edbf416f948.gif"]
 
         self.bot.chaeyeon_gif = ["https://tenor.com/view/lee-chaeyeon-chaeyeon-chaeyeon-izone-smile-cute-gif-15840463",
             "https://tenor.com/view/lee-chaeyeon-izone-gif-14157286",
@@ -3426,7 +3438,17 @@ class IzonePings(commands.Cog):
             "https://gfycat.com/greatunconsciousiaerismetalmark",
             "https://gfycat.com/dependentfluideyelashpitviper",
             "https://gfycat.com/capitalhastyangora",
-            "https://gfycat.com/honorablejointdobermanpinscher"]
+            "https://gfycat.com/honorablejointdobermanpinscher",
+            "https://gfycat.com/repulsivelonelyballoonfish-smiley-idols-yena-kpop",
+            "https://gfycat.com/unlawfulfamouscutworm-smiley-idols-yena-kpop",
+            "https://gfycat.com/mindlesspastichthyostega-smiley-idols-yena-kpop",
+            "https://gfycat.com/hilariouspartialaplomadofalcon-smiley-idols-yena-kpop",
+            "https://gfycat.com/ambitiousharmoniousblesbok-smiley-idols-yena-kpop",
+            "https://gfycat.com/remorsefulviciousbasenji",
+            "https://gfycat.com/accomplishedshamefulcobra",
+            "https://gfycat.com/criminalskinnyguanaco",
+            "https://gfycat.com/carelessunderstatedbarnswallow",
+            "https://gfycat.com/requireddaringarmyworm-smile-away-hiyena-smiley-idols-yena-kpop"]
 
         self.bot.eunbi_gif = ["https://gfycat.com/illbowedguineapig",
             "https://gfycat.com/defiantmediocrearrowana",
