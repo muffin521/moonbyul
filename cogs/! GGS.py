@@ -674,7 +674,25 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/885b23d4f3daaaf9b00cf4c4e277d66f/bfcc2867e977baca-e4/s540x810/ce8dda58421e857d2082a516681d5452f1a47cee.gif",
             "https://64.media.tumblr.com/d8208a1c75ed16b448810bbfedb3d99c/bfcc2867e977baca-3b/s540x810/12e69f28cb911a70915d77e7be50552775067e68.gif",
             "https://64.media.tumblr.com/665890058cfaccf3f79670a822a35b93/2f234bb46a156b6d-ea/s540x810/dd19f771ccc6897af7f660f1d988f7d2e42febbb.gif",
-            "https://64.media.tumblr.com/7ddb3d817a3876d49b9f759eac47d6d9/2f234bb46a156b6d-51/s540x810/5e7b1bf78a286101d1e9ba0b65d1a10d66bbe1ae.gif"]
+            "https://64.media.tumblr.com/7ddb3d817a3876d49b9f759eac47d6d9/2f234bb46a156b6d-51/s540x810/5e7b1bf78a286101d1e9ba0b65d1a10d66bbe1ae.gif",
+            "https://64.media.tumblr.com/c24a847c383313568db1bab9c9df3665/08b5d182d4f1f2c8-e2/s400x600/04360a709b167a377b0c20b9b27cb6fac0d40fd5.gif",
+            "https://64.media.tumblr.com/f3015aae146a55711e5f18d735681b15/08b5d182d4f1f2c8-e5/s400x600/42a9a5cf3ce612c5416f6a76901105fa69106c3b.gif",
+            "https://64.media.tumblr.com/252abaaf02d679baacfac3766604113d/08b5d182d4f1f2c8-42/s400x600/6cd2e88cc7ea8ea30ce94c336a5f36470e58827c.gif",
+            "https://64.media.tumblr.com/c3c54d10d46d038b28c3efce76edf529/08b5d182d4f1f2c8-b5/s400x600/6b37191b7e67d5f95d491d01cdd29d06dbb53964.gif",
+            "https://gfycat.com/sphericalperfectgallowaycow",
+            "https://gfycat.com/majorbareiberianemeraldlizard",
+            "https://gfycat.com/softgoodnaturedequine",
+            "https://gfycat.com/vapidhastyfawn",
+            "https://gfycat.com/ableimpassionedaruanas",
+            "https://gfycat.com/whichdaringdwarfmongoose-doesnt-matter-midnight-guest-fromis9-hayoung",
+            "https://gfycat.com/livelyregularkingsnake-doesnt-matter-midnight-guest-fromis9-hayoung",
+            "https://gfycat.com/mildspecificbellsnake-doesnt-matter-midnight-guest-fromis9-hayoung",
+            "https://gfycat.com/thoughtfulappropriatehogget-doesnt-matter-midnight-guest-fromis9-hayoung",
+            "https://gfycat.com/whirlwindinsignificantincatern-highlight-medley-midnight-guest-fromis9-hayoung",
+            "https://gfycat.com/maleimpracticalhog",
+            "https://gfycat.com/courteoussneakyeyas",
+            "https://gfycat.com/secretgravebuffalo",
+            "https://gfycat.com/smoothvapidgraysquirrel"]
 
         self.bot.fromis_9_saerom_gif = ["https://gfycat.com/arcticimpuredutchsmoushond-fromis-saerom-190727",
             "https://gfycat.com/bothvacanthypacrosaurus",
@@ -740,7 +758,20 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/aeb59035516c77d248f568b591c2df04/deeeb277ff957553-80/s400x600/40d9dd98f644dcc6d1c54639b3ce19874fc473fb.gif",
             "https://64.media.tumblr.com/04da3c3df60b1d7b45bd87cf12b2e11c/deeeb277ff957553-cf/s400x600/9357435fd257396f6f78c1c3fb19897e0d07a2ac.gif",
             "https://64.media.tumblr.com/ce055326e2cba71e35aac423fba0b114/deeeb277ff957553-f4/s400x600/0773c71fc1ffd1c2adb3abf3cb06e4063b4d7bcb.gif",
-            "https://64.media.tumblr.com/3d8c5c61e6b520a8ed0967acfcc6239b/deeeb277ff957553-91/s400x600/3e435fa79e87c597b23e068bf64c9de825c86c66.gif"]
+            "https://64.media.tumblr.com/3d8c5c61e6b520a8ed0967acfcc6239b/deeeb277ff957553-91/s400x600/3e435fa79e87c597b23e068bf64c9de825c86c66.gif",
+            "https://gfycat.com/welltodoposhhornbill",
+            "https://gfycat.com/easygoingpasthammerkop",
+            "https://gfycat.com/bluesardonicchicken",
+            "https://gfycat.com/wigglyhealthycamel",
+            "https://gfycat.com/pleasantfemaleaidi-doesnt-matter-midnight-guest-fromis9-saerom",
+            "https://gfycat.com/zanygargantuanamericanblackvulture",
+            "https://gfycat.com/idioticnastybison",
+            "https://gfycat.com/altruisticsomberchimpanzee",
+            "https://gfycat.com/quaintflamboyantcarpenterant",
+            "https://gfycat.com/bigheartedalerthornedtoad",
+            "https://gfycat.com/vacanthairyiberianbarbel-doesnt-matter-midnight-guest-fromis9-saerom",
+            "https://gfycat.com/blondlikablejerboa-doesnt-matter-midnight-guest-fromis9-saerom",
+            "https://gfycat.com/whimsicaladoredhapuka-doesnt-matter-midnight-guest-fromis9-saerom"]
 
         self.bot.fromis_9_chaeyoung_gif = ["https://gfycat.com/adorablethornyflee-fromis9-chaeyoung-lee-chaeyoung-kuro-gurokami",
             "https://gfycat.com/dimpleduniquekillerwhale-mechabear-fromis-kpop",
@@ -810,7 +841,25 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/d3e96090c6f8f154ade1a386d73daf62/0d86e5776374c50f-f6/s400x600/f07dc5dfdf2bcca16aaaf6afca8cfbc17fa37309.gif",
             "https://64.media.tumblr.com/84a633efbf1534454af8a9efa27d16a9/0d86e5776374c50f-2d/s400x600/c660aa6e45b6ed23cb019b6d7859f98dceb8dcb3.gif",
             "https://64.media.tumblr.com/0c54464f28f887e0acc946eb8030bd38/0d86e5776374c50f-1f/s400x600/47852ef177c496fe60afc41cfdd2229c220752fb.gif",
-            "https://64.media.tumblr.com/381debee383c8c8e92dd6a5d04687eb4/0d86e5776374c50f-d0/s400x600/3fb579da80ce75cb92ebe6b438cd3feb7ffcb5d0.gif"]
+            "https://64.media.tumblr.com/381debee383c8c8e92dd6a5d04687eb4/0d86e5776374c50f-d0/s400x600/3fb579da80ce75cb92ebe6b438cd3feb7ffcb5d0.gif",
+            "https://gfycat.com/pleasantnaiveannelida",
+            "https://gfycat.com/kaleidoscopicconsideratefallowdeer",
+            "https://gfycat.com/advanceddisgustingbarbet",
+            "https://gfycat.com/disguisedafraidkitfox",
+            "https://gfycat.com/inexperiencedfearfulegret",
+            "https://gfycat.com/brightwastefulant",
+            "https://gfycat.com/carefreedefiniteazurevase",
+            "https://gfycat.com/consciousqualifiedicelandichorse",
+            "https://gfycat.com/unlinedjealouscreature",
+            "https://gfycat.com/spottedgiganticamericanavocet",
+            "https://gfycat.com/distantgleamingivorygull",
+            "https://gfycat.com/separatecarefulafricangroundhornbill-doesnt-matter-midnight-guest-chaeyoung-fromis9",
+            "https://gfycat.com/nearmalebobcat-doesnt-matter-midnight-guest-chaeyoung-fromis9",
+            "https://gfycat.com/fickleunfitbluewhale-doesnt-matter-midnight-guest-chaeyoung-fromis9",
+            "https://gfycat.com/energeticwastefulalpineroadguidetigerbeetle-doesnt-matter-midnight-guest-chaeyoung-fromis9",
+            "https://gfycat.com/deafeningoptimisticfrigatebird",
+            "https://gfycat.com/powerlessmagnificentharborporpoise",
+            "https://gfycat.com/circulardisguisedirishwolfhound"]
 
         self.bot.fromis_9_nakyung_gif = ["https://gfycat.com/aromaticwillingcricket-mechabear-nakyung-fromis-kpop",
             "https://gfycat.com/acceptablevaguehorsechestnutleafminer-mechabear-nakyung-fromis-kpop",
@@ -918,7 +967,11 @@ class GGS(commands.Cog):
             "https://gfycat.com/illustriousmajestickinglet",
             "https://gfycat.com/idealskeletalhatchetfish",
             "https://gfycat.com/spicyvigorousfairyfly",
-            "https://gfycat.com/nextneglectedanglerfish"]
+            "https://gfycat.com/nextneglectedanglerfish",
+            "https://64.media.tumblr.com/36a6c3e030b6f91fda426d7e4f7d4b5b/de4bdfb81486c584-bc/s400x600/ab3722ad71a6eea559de0e0bfbe6c17c435ddb5d.gif",
+            "https://64.media.tumblr.com/2611b296fdc82429ca7effee9a05dc65/de4bdfb81486c584-5d/s400x600/ba66c2207f25da7ce786755bfa1178e7439fc119.gif",
+            "https://64.media.tumblr.com/cad47dcf933e2af257d49999b18adc85/de4bdfb81486c584-8b/s400x600/e558a57c160d81b34dd4d0f2fc3f2caac02e3792.gif",
+            "https://64.media.tumblr.com/89ee539d104eb13ec862efb6f25721f9/de4bdfb81486c584-ed/s400x600/8d295724145ba623383bd046a44060f1479cf6e2.gif"]
 
         self.bot.fromis_9_jiwon_gif = ["https://gfycat.com/darlingacceptableapisdorsatalaboriosa",
             "https://gfycat.com/famoushotitalianbrownbear-fromis9-jiwon",
@@ -974,7 +1027,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/9bcc7c140e0cfc817e7d3a67577379dc/cd4ae77fe16825c9-26/s400x600/e56d8ded068e8145b9ed5d17932a88687dc2d031.gif",
             "https://64.media.tumblr.com/0a0ca5a65df32a166cdc950e7e085d2b/cd4ae77fe16825c9-6a/s400x600/02928c3f8e555fc8bb802f3054c5eec41276377e.gif",
             "https://64.media.tumblr.com/a887c7d37f29dd0b164ae8616907f09a/cd4ae77fe16825c9-62/s400x600/d3edf2b80f28aedf3da33719b32f064e597a6e2f.gif",
-            "https://64.media.tumblr.com/dbdcf9cdf9b992b1303ba6b33c3ba78c/cd4ae77fe16825c9-95/s400x600/3fdc4ea477edc00296c77b5ad7c88c9b2e72c166.gif"]
+            "https://64.media.tumblr.com/dbdcf9cdf9b992b1303ba6b33c3ba78c/cd4ae77fe16825c9-95/s400x600/3fdc4ea477edc00296c77b5ad7c88c9b2e72c166.gif",
+            "https://gfycat.com/webbedsnivelingauklet",
+            "https://gfycat.com/wiltedacademicgerbil",
+            "https://gfycat.com/poisedfamiliarlacewing",
+            "https://gfycat.com/recentclutteredcranefly"]
 
         self.bot.fromis_9_seoyeon_gif = ["https://gfycat.com/ajarkeencorydorascatfish",
             "https://gfycat.com/absolutemasculinegalapagoshawk-beauty",
@@ -1052,7 +1109,10 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/80cc12de240f46fe61943b2235a829eb/b1f0e4e80ce6a142-06/s400x600/ce82316175590a21ce29b4be6da3e2a5375dafdf.gif",
             "https://64.media.tumblr.com/3149ac63ae2b7fc5003ce3264b236be0/b1f0e4e80ce6a142-af/s400x600/f620007141d3262778fa13fbe92a138499ba33fc.gif",
             "https://64.media.tumblr.com/74d338d67aeaf3fbea2d04ae031ac240/b1f0e4e80ce6a142-1a/s400x600/2e3727160f8ae956a15b0a76bd8815c83aaf618c.gif",
-            "https://64.media.tumblr.com/860b662c69d43c1b0793f2e8c189fe93/b1f0e4e80ce6a142-5b/s400x600/33079df2da9ab28f200f12b1193fb13949aed947.gif"]
+            "https://64.media.tumblr.com/860b662c69d43c1b0793f2e8c189fe93/b1f0e4e80ce6a142-5b/s400x600/33079df2da9ab28f200f12b1193fb13949aed947.gif",
+            "https://gfycat.com/sorewholeanemone",
+            "https://gfycat.com/comfortablegloomycockerspaniel-doesnt-matter-midnight-guest-fromis9-seoyeon",
+            "https://gfycat.com/accuratewhimsicalaruanas-doesnt-matter-midnight-guest-fromis9-seoyeon"]
 
         self.bot.fromis_9_jiheon_gif = ["https://gfycat.com/alertfaroffleopardseal",
             "https://gfycat.com/palatableadolescentitaliangreyhound",
@@ -1115,7 +1175,18 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/e28a469f1b2d7bcaaed2ba63d9cc8152/4ae2626e604e0ae8-0c/s540x810/32311ba37e975cc8ddb8f5a02debe8e805958884.gif",
             "https://64.media.tumblr.com/ba1bcc1056098014adae9c91e1f5e4b3/4ae2626e604e0ae8-66/s540x810/60bc836505c9c24f1cb32992505f6bfe68ec4d9b.gif",
             "https://64.media.tumblr.com/0e5c603f86e4a2430e4b27dc8cdb5cd5/4ae2626e604e0ae8-a3/s540x810/a139f0eee4d9720565a2b815d71b1cc1f60cdb58.gif",
-            "https://64.media.tumblr.com/cdb95facb775ab9addaacac437fbed88/4ae2626e604e0ae8-74/s540x810/b74370573c731d2b2348bcd252ae716615cd8930.gif"]
+            "https://64.media.tumblr.com/cdb95facb775ab9addaacac437fbed88/4ae2626e604e0ae8-74/s540x810/b74370573c731d2b2348bcd252ae716615cd8930.gif",
+            "https://gfycat.com/exemplaryobviousbuzzard",
+            "https://gfycat.com/faithfulimperfectdairycow",
+            "https://gfycat.com/electriccircularconey",
+            "https://gfycat.com/harmfulpaltryfirefly",
+            "https://gfycat.com/teemingimpishamericanredsquirrel",
+            "https://gfycat.com/delectableexemplaryelk",
+            "https://gfycat.com/welcomevictoriousindiancow",
+            "https://gfycat.com/powerlesscolorfulantlion",
+            "https://gfycat.com/offbeataggressivecomet-doesnt-matter-midnight-guest-fromis9-jiheon",
+            "https://gfycat.com/welllitimpracticalferret",
+            "https://gfycat.com/unsightlyrawatlanticridleyturtle"]
 
         self.bot.fromis_9_gyuri_gif = ["https://gfycat.com/ableesteemedangwantibo-beauty",
             "https://gfycat.com/messypartialbarnswallow",
@@ -1155,7 +1226,16 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/bdb1454c21e051afda8c49bc532f26f6/ed564f8c6546dcc9-4e/s400x600/f950f47d22a186e0836ba6a4e7f39fdbf2a2cdc8.gif",
             "https://gfycat.com/vigorousfalseantarcticfurseal",
             "https://gfycat.com/valuableambitiousbarnowl",
-            "https://gfycat.com/boldreflectinggourami"]
+            "https://gfycat.com/boldreflectinggourami",
+            "https://gfycat.com/warmheartedliquidafricanparadiseflycatcher",
+            "https://gfycat.com/perfectunsungkingsnake",
+            "https://gfycat.com/consciousjubilantafricanaugurbuzzard",
+            "https://gfycat.com/linedlineardodo",
+            "https://gfycat.com/perkyblushingblowfish",
+            "https://gfycat.com/infamousvagueerne",
+            "https://gfycat.com/respectfulwanbunting-doesnt-matter-midnight-guest-fromis9-gyuri-idols",
+            "https://gfycat.com/cookedamazinggartersnake",
+            "https://gfycat.com/dangerousidealisticbooby"]
 
         self.bot.fromis_9_group_gif = ["https://64.media.tumblr.com/98c20f55e4ad8ef52f5b13e266a812cb/91f6f9cea55c54cf-b5/s540x810/5c0456f4858ffc1b75bc0b2e18fb4c68312c737d.gif",
             "https://64.media.tumblr.com/2d1364c1ff54274442b7f6184e90d3d8/91f6f9cea55c54cf-ff/s540x810/423a57ed96656b95a33eb953a36d939b40e6c0e9.gif",
