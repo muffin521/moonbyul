@@ -88,7 +88,12 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/2e6cd2d929aa3ec5ef31ebf01d1188b2/56b54b8518399bd1-ae/s400x600/eae5e028c41be7399f3be03fed856e3cc165bf12.gif",
             "https://64.media.tumblr.com/1171b6496d566cde54d4fc77e002511d/56b54b8518399bd1-36/s400x600/e0d5180a70fab0fdb5dec4b4b8f65dba2be092ba.gif",
             "https://64.media.tumblr.com/4ee832290f2d44798f0d598bc90e23a4/4d4a50c2ccabdee9-5a/s400x600/0900546c843e8dcb6698d1cc3983b882484f44f6.gif",
-            "https://64.media.tumblr.com/a4bbecd7fbd513a7bef36924ddba2251/4d4a50c2ccabdee9-bb/s400x600/e897d5528babb7fddd2f76a93c93bd4463a0606e.gif"]
+            "https://64.media.tumblr.com/a4bbecd7fbd513a7bef36924ddba2251/4d4a50c2ccabdee9-bb/s400x600/e897d5528babb7fddd2f76a93c93bd4463a0606e.gif",
+            "https://gfycat.com/inconsequentialfarairedale-twice-mina",
+            "https://gfycat.com/smoothshadowybetafish-twice-mina",
+            "https://gfycat.com/closeimpracticalgreyhounddog-twice-mina",
+            "https://gfycat.com/illharmlesseeve-twice-mina",
+            "https://gfycat.com/longblackgemsbok-twice-mina"]
 
         self.bot.sana_gif = ["https://tenor.com/view/sana-twice-kitty-dance-kpop-gif-17314571",
             "https://media.giphy.com/media/xUySTXXuWvIVDggisg/giphy.gif",
@@ -885,7 +890,12 @@ class gamerPings(commands.Cog):
             "https://64.media.tumblr.com/6f6f267ec5e3486a62002362d49fe617/ab253feabf20caba-f6/s540x810/1bd56493a12405f8061bbe312d27a84703083717.gif",
             "https://64.media.tumblr.com/cee1fcadd3b607fac7e35299f793977f/2b603821c21e6bdb-72/s540x810/f4ea85ae730313d5f2c80a7b45dab785f88e8059.gif",
             "https://64.media.tumblr.com/28cb9d4f0463cea125acb2b88af63117/2b603821c21e6bdb-ba/s540x810/b9ac83b3092115fda74f9be5df7a3daa8c220c20.gif",
-            "https://64.media.tumblr.com/317d755db0ebfeacb494984f66922381/2b603821c21e6bdb-f9/s540x810/8c6ede6c04dbe014e180653489e6dbb595d6a3a4.gif"]
+            "https://64.media.tumblr.com/317d755db0ebfeacb494984f66922381/2b603821c21e6bdb-f9/s540x810/8c6ede6c04dbe014e180653489e6dbb595d6a3a4.gif",
+            "https://gfycat.com/wigglyfatalgrayfox-nayeon-twice",
+            "https://gfycat.com/fluffyhorribleicelandichorse-nayeon-twice",
+            "https://gfycat.com/reliablecomplexiberianemeraldlizard-nayeon-twice",
+            "https://gfycat.com/disfiguredlikelyarmedcrab-nayeon-twice",
+            "https://gfycat.com/oilyimpureabalone-nayeon-twice"]
 
         self.bot.dahyun_gif = ["https://tenor.com/zEfV.gif",
             "https://tenor.com/ZKRA.gif",
