@@ -241,7 +241,32 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/8fff0593d1cbd66c1113ae809da2cb59/03a5617dd650409a-0c/s400x600/f67f2032eb3414888c8f791cb956f67ad7233de6.gif",
             "https://64.media.tumblr.com/83e1d19831b93c5ce5e29dd2d952d0d2/03a5617dd650409a-26/s400x600/f2b231054203e65612689a6bbd8ada2db428c4e6.gif",
             "https://64.media.tumblr.com/b98e2fd33e201ba0403f8a96243c75e5/03a5617dd650409a-85/s400x600/a8d287f4e1c8ff852ee7f0d357dbcfb671bbcbce.gif",
-            "https://64.media.tumblr.com/4cf91ac04b742d95129bc2e0a545639c/03a5617dd650409a-7e/s400x600/9babdc277511767491c6920b8778b7c09227e3f8.gif"]
+            "https://64.media.tumblr.com/4cf91ac04b742d95129bc2e0a545639c/03a5617dd650409a-7e/s400x600/9babdc277511767491c6920b8778b7c09227e3f8.gif",
+            "https://gfycat.com/sentimentaleagergoldenretriever",
+            "https://gfycat.com/adolescentsaneandalusianhorse",
+            "https://tenor.com/view/aespa-winter-aespa-savage-aespa-savage-gif-23337369",
+            "https://tenor.com/view/aespa-winter-aespa-winter-aespa-karina-aespa-punch-gif-23697933",
+            "https://tenor.com/view/winter-aespa-thumbs-down-gif-21804895",
+            "https://tenor.com/view/aespa-winter-hands-dance-cute-kpop-gif-23544508",
+            "https://tenor.com/view/winter-aespa-winter-aespa-aespa-winter-gif-21613265",
+            "https://tenor.com/view/aespa-winter-savage-kpop-gif-23439025",
+            "https://tenor.com/view/aespa-aespa-winter-winter-kim-min-jeong-savage-gif-23575352",
+            "https://tenor.com/view/winter-aespa-aespa-reaction-winter-reaction-winter-cute-kpop-cute-gif-23728686",
+            "https://tenor.com/view/winter-savage-aespa-gif-23358869",
+            "https://tenor.com/view/aespa-winter-kpop-savage-gif-24041934",
+            "https://tenor.com/view/winter-savage-aespa-slay-snsdmongus-gif-23398529",
+            "https://tenor.com/view/winter-aespa-spinning-tiktok-cute-gif-23464353",
+            "https://tenor.com/view/aespa-winter-winter-winter-aespa-gif-24675874",
+            "https://tenor.com/view/aespa-winter-savage-armamenter-gun-short-hair-pink-meme-aespa-gamer-gun-minjeong-kwangya-mv-music-video-gif-23913527",
+            "https://tenor.com/view/aespa-winter-gun-savage-gif-23336802",
+            "https://tenor.com/view/aespa-winter-kpop-happy-laughing-smile-gif-23515001",
+            "https://tenor.com/view/aespa-dreams-come-true-bangs-black-hair-winter-gif-24480965",
+            "https://tenor.com/view/aespa-winter-winter-aespa-aespa-winter-kim-minjeong-gif-24119720",
+            "https://gfycat.com/impishcaringindianringneckparakeet-winter-savage-aespa-kpop",
+            "https://gfycat.com/smoggyvaluablebuck-winter-aespa-winter-aespa-kpop",
+            "https://gfycat.com/severethinbubblefish-winter-aespa",
+            "https://gfycat.com/freshtestyclownanemonefish",
+            "https://gfycat.com/downrightpolishedjunebug-dreams-come-true-winter-aespa-kpop-mbc"]
 
         self.bot.ningning_gif = ["https://cdn.discordapp.com/attachments/747275528993636424/781391569986125824/7226125c-1e30-4c1d-b3a9-f6a71db55fad.gif",
             "https://cdn.discordapp.com/attachments/747275528993636424/781391570829836308/3ee3defb-5472-48b9-b5ef-743984c6996d.gif",
@@ -494,7 +519,8 @@ class aespaPings(commands.Cog):
             "https://64.media.tumblr.com/bc193b5780739035b4e81fc25fe27ff1/1f0b40de10aa2dcf-bc/s540x810/e5d641f6caad7a8a814d0c28c4ccd57520577d88.gif",
             "https://gfycat.com/unsightlyterrificbluejay-ningning-giselle-savage-winter-karina-aespa-dance",
             "https://gfycat.com/weirdrecklessichidna",
-            "https://gfycat.com/handsomeinexperiencedcuttlefish"]
+            "https://gfycat.com/handsomeinexperiencedcuttlefish",
+            "https://tenor.com/view/aespa-savage-aespa-savage-tiktok-giselle-aespa-ningning-aespa-winter-aespa-gif-23392296"]
 
     @commands.command()
     async def aespa(self, ctx, *, arg = "group"):
