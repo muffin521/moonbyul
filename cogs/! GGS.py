@@ -3038,7 +3038,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/c636b7703760a8e9d82f80a6e2c842f5/7dd00a55b612c8a7-ef/s250x400/55346bab89f78ef2a6f3481d549dfa49f23d0119.gif",
             "https://64.media.tumblr.com/8e67954628f32e54feab68e5b853f5ab/7dd00a55b612c8a7-ad/s250x400/a19ac7a59ebd73435fee62d779f6da992dff8c1e.gif",
             "https://64.media.tumblr.com/33f1c72148d469ddb53a24040b4e817d/7dd00a55b612c8a7-b2/s250x400/fbafe98cb75a9552c3a3359bf80dc9bb836b9979.gif",
-            "https://64.media.tumblr.com/9a22478115a473472b0eae1313d31e14/7dd00a55b612c8a7-23/s250x400/21dcb922690ba95f57c868825ab4289847586bfa.gif"]
+            "https://64.media.tumblr.com/9a22478115a473472b0eae1313d31e14/7dd00a55b612c8a7-23/s250x400/21dcb922690ba95f57c868825ab4289847586bfa.gif",
+            "https://gfycat.com/enlightenedhollowbeardeddragon-stayc-seeun",
+            "https://gfycat.com/considerateangryamazonparrot-stayc-seeun",
+            "https://gfycat.com/chillyuncommongraywolf-stayc-seeun",
+            "https://gfycat.com/limitedoptimalcrossbill-stayc-seeun"]
 
         self.bot.stayc_sumin_gif = ["https://tenor.com/bwxku.gif",
             "https://tenor.com/bwxsv.gif",
@@ -3097,7 +3101,11 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/fafc18d92ce881ff3a51a6b01b069d10/12528f71a3691b48-ed/s400x600/0ba0eac823cb285c1258be5c21921522fcfcb67c.gif",
             "https://64.media.tumblr.com/eca9913bae0471e618c3415b45e38b72/12528f71a3691b48-e8/s400x600/75e972db3c9a7e1f81703d70b9c8e7d24ae85f5a.gif",
             "https://64.media.tumblr.com/94b23dc0b1304ae4f3322ab7c5c91a12/12528f71a3691b48-9d/s400x600/5f5a7f06818123d468327385e46c9b065ffbe05d.gif",
-            "https://64.media.tumblr.com/c8f348910b73991f71676b1808c52cd2/12528f71a3691b48-78/s400x600/7c0b13396caf7f77c8c2d5cfefeb9c6fe6a41706.gif"]
+            "https://64.media.tumblr.com/c8f348910b73991f71676b1808c52cd2/12528f71a3691b48-78/s400x600/7c0b13396caf7f77c8c2d5cfefeb9c6fe6a41706.gif",
+            "https://64.media.tumblr.com/b953cbb55662765a9027afcbd869bb7d/6422fc24dd4326ff-5e/s400x600/cb28154e43f9692c42ec21dace1296b497816c4d.gif",
+            "https://64.media.tumblr.com/8c3f1f488a916f2fb4b7941a8f94f50e/6422fc24dd4326ff-47/s400x600/3c8bb74d96c9b14a707b4c6bdb5308d4512d99b4.gif",
+            "https://64.media.tumblr.com/613e620853bd171ec3f1024008192fb4/6422fc24dd4326ff-0a/s400x600/a2d26ff5ef7563b91f5d223561cfb663b27267bb.gif",
+            "https://64.media.tumblr.com/4ddb2a3ab0ef718d3a9cd68885b41e39/6422fc24dd4326ff-6e/s400x600/475ee2fc8b126e382bbbb30ca79188cc034e013f.gif"]
 
         self.bot.stayc_isa_gif = ["https://tenor.com/btfBc.gif",
             "https://tenor.com/bs09U.gif",
@@ -3170,7 +3178,20 @@ class GGS(commands.Cog):
             "https://64.media.tumblr.com/617b66bfa6423c91a0eaa107608638c0/188bfb7a58bbfa0c-b7/s400x600/7c19a76360335bb6ff60eb5a4b7b26090131795e.gif",
             "https://64.media.tumblr.com/0e3b2512c9908c29f59e60d279942efd/188bfb7a58bbfa0c-b8/s400x600/447e9318200d783c3d399f0d1d17694a3333ee5b.gif",
             "https://64.media.tumblr.com/974033d09e3084a80eac1289c5b7e3a4/188bfb7a58bbfa0c-83/s400x600/399800d434f57084221c80bbf6c27ea57b389511.gif",
-            "https://64.media.tumblr.com/b565196f889230b11f50c528200efe31/188bfb7a58bbfa0c-ac/s400x600/c8ab07853e1015b047914a7fe5b2cbbdb86bbb3d.gif"]
+            "https://64.media.tumblr.com/b565196f889230b11f50c528200efe31/188bfb7a58bbfa0c-ac/s400x600/c8ab07853e1015b047914a7fe5b2cbbdb86bbb3d.gif",
+            "https://64.media.tumblr.com/c3154351c2899533d839703890457f25/3cd1ad6f878c5d0c-2f/s400x600/0a6c0a3cd0cc1aa547774f7c57d9ff60185448d7.gif",
+            "https://64.media.tumblr.com/c81f5e69f618098ea108911c8bbc1332/3cd1ad6f878c5d0c-22/s400x600/ddc958e435a6daf26428e9bd1afee12db21a4a67.gif",
+            "https://64.media.tumblr.com/035636f377f331fb714d20259dc514e5/d26c2d499edc4975-75/s400x600/7362ce3c101f70456694ad5c69a316b6690d6ebe.gif",
+            "https://64.media.tumblr.com/fefa5e1edeaaee4a88b81374647ba970/d26c2d499edc4975-2d/s400x600/2aa1819d8ae1dd64ac7239a363e87cae51ad3683.gif ",
+            "https://64.media.tumblr.com/a7bf87abd356c5ffebfa64049a7509cc/b3057ed77ac2099a-db/s400x600/400e9c83a90272aea00eec281c61f3cfaf2fd540.gif",
+            "https://64.media.tumblr.com/74d4505727783c37da89093ad4e9f65a/b3057ed77ac2099a-ae/s400x600/5ae6ed9191f9a921eab7632dce880e42c0f84d52.gif",
+            "https://64.media.tumblr.com/9da841c19a0c47f1655b4819021f7944/b3057ed77ac2099a-91/s400x600/76080807b65c9f4e0fcf1685c54224e3016e7fe0.gif",
+            "https://64.media.tumblr.com/39495db4a3b783ff553c8a81b07a3570/b3057ed77ac2099a-53/s400x600/24b28770aa2b3b7f54697beb504fdcdd6fd858d3.gif",
+            "https://64.media.tumblr.com/df8a4dc7f0c433062b788857880d11b1/843017ef45165137-20/s540x810/3f05756122985f9f2dce8c9f2979a94b11bc5c2d.gif",
+            "https://64.media.tumblr.com/25158e342cd10300392e1b9da9e4ca8f/843017ef45165137-c5/s540x810/e457c9bd83a070984bb0a2f5eb21644fe5a6e64b.gif",
+            "https://gfycat.com/favorableboilingiberianlynx-stayc-isa",
+            "https://gfycat.com/idledearauk-stayc-isa",
+            "https://gfycat.com/tatterednecessarychrysalis-stayc-isa"]
 
         self.bot.stayc_yoon_gif = ["https://tenor.com/bxY45.gif",
             "https://tenor.com/btfAm.gif",
